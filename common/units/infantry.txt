@@ -90,7 +90,7 @@ sub_units = {
 		transport = infantry_equipment
 		need = {
 			infantry_equipment = 100
-			light_tank_artillery_equipment = 12
+			light_tank_chassis = 12
 		}
 		urban = {
 			attack = 0.20
