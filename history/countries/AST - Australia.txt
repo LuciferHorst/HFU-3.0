@@ -131,6 +131,19 @@ if = {
 	add_ideas = SAF_the_commonwealth
 	add_to_tech_sharing_group = commonwealth_research
 }
+	if = {
+		limit = {
+			
+			has_dlc = "No Step Back"
+			
+		}
+		set_technology = {
+			basic_light_tank_chassis = 1
+			improved_light_tank_chassis = 1
+			basic_medium_tank_chassis = 1
+			basic_heavy_tank_chassis = 1
+		}
+	}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.9.15"

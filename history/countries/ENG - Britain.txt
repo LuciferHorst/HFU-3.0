@@ -37,10 +37,11 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antitank = 1
 	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
-	improved_light_spaa = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	basic_heavy_tank_chassis = 1
+	engine_tech_1 = 1
 	improved_light_td  = 1
 	improved_light_art = 1
 	early_fighter = 1
@@ -104,8 +105,8 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 		improved_light_art = 1
-		improved_light_td = 1
-		improved_light_spaa = 1
+		
+		
 		tech_signal_company = 1
 	}
 }

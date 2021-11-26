@@ -5,6 +5,7 @@
 sub_units = {
 
 	infantry = {
+		abbreviation = "INF"
 		sprite = infantry
 		map_icon_category = infantry
 

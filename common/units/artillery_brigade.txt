@@ -1,6 +1,7 @@
 sub_units = {
 
 	artillery_brigade = {
+		abbreviation = "ART"
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 1000
@@ -149,6 +150,7 @@ sub_units = {
 	}
 
 	rocket_artillery_brigade = {
+		abbreviation = "RRT"
 		sprite = "artillery"
 		map_icon_category = infantry
 		priority = 1199
@@ -221,6 +223,7 @@ sub_units = {
 	}
 
 	mot_rocket_artillery_brigade = {
+		abbreviation = "TRA"
 		sprite = "artillery"
 		map_icon_category = infantry
 		priority = 1199
@@ -295,6 +298,7 @@ sub_units = {
 	}
 
 	motorized_rocket_brigade = {
+		abbreviation = "MRA"
 		sprite = motorized
 		map_icon_category = infantry
 		priority = 1199
