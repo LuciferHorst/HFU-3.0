@@ -2,7 +2,7 @@ technologies = {
 	mobile_warfare = {
 		doctrine_name = "MOBILE_WARFARE_DOCTRINE"
 		xp_research_type = army
-		xp_research_cost = 0
+		xp_boost_cost = 0
 		
 		xor = { superior_firepower trench_warfare mass_assault }
 
@@ -674,7 +674,7 @@ technologies = {
 	superior_firepower = {
 		doctrine_name = "SUPERIOR_FIREPOWER_DOCTRINE"
 		xp_research_type = army
-		xp_research_cost = 0
+		xp_boost_cost = 0
 		
 		xor = { mobile_warfare trench_warfare mass_assault }
 		path = {
@@ -1260,7 +1260,7 @@ technologies = {
 	trench_warfare = {
 		doctrine_name = "GRAND_BATTLEPLAN_DOCTRINE"
 		xp_research_type = army
-		xp_research_cost = 0
+		xp_boost_cost = 0
 		
 		xor = { mobile_warfare superior_firepower mass_assault }
 		max_dig_in = 10
@@ -1889,7 +1889,7 @@ technologies = {
 	mass_assault = {
 		doctrine_name = "MASS_ASSAULT_DOCTRINE"
 		xp_research_type = army
-		xp_research_cost = 0
+		xp_boost_cost = 0
 		
 		xor = { mobile_warfare superior_firepower trench_warfare }
 		path = {
