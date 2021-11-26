@@ -303,7 +303,7 @@ sub_units = {
 		affects_speed = no
 		
 		need = {
-			light_tank_equipment = 20
+			light_tank_chassis = 20
 		}
 
 		forest = {
