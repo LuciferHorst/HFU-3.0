@@ -438,6 +438,7 @@ ideas = {
 				}
 			}
 		}
+	}
 	industrial_concern = {
 		ROM_ROMLOC = {
 			picture = industrial_concern_1
@@ -734,5 +735,4 @@ ideas = {
 			}
 			}
 		}
-	}
 }

@@ -1334,7 +1334,6 @@ ideas = {
 		}
 		
 	}
-}
 	hidden_ideas = {
 	GER_organisation_todt = {
 			picture = generic_research_bonus

@@ -8,10 +8,11 @@ bookmarks = {
 		default = yes
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic			ideas = {
+			ideology = democratic			
+			ideas = {
 				FRA_victors_of_wwi
 				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+		
 			}
 			focuses = {
 				FRA_devalue_the_franc
@@ -220,28 +221,12 @@ bookmarks = {
 				neutrality_idea
 			}
 			focuses = {
-				ROM_ig_farben_romania
+				ROM_trade_treaty_with_germany
 				ROM_institute_royal_dictatorship
 				ROM_preserve_greater_romania
 			}
 		}
 
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_foreign_threats
-				CHI_army_reform
-				CHI_war_of_resistance
-
-			}
-		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
