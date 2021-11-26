@@ -421,8 +421,8 @@ operations = {
 		complete_effect = {
 			effect_tooltip = {
 				declare_war_on = {
-					target = POL
 					type = annex_everything
+					target = POL
 				}
 			}
 			hidden_effect = {
@@ -433,8 +433,8 @@ operations = {
 			set_technology = { africa_hp = 1 popup = no }
 				ENG = { add_to_faction = POL }
 				declare_war_on = {
-					target = POL
 					type = annex_everything
+					target = POL
 				}
 				POL={declare_war_on_enemy_faction =yes}
 			}
@@ -453,12 +453,12 @@ operations = {
 		complete_effect = {
 			effect_tooltip = {
 				declare_war_on = {
-					target = NOR
 					type = annex_everything
+					target = NOR
 				}
 				declare_war_on = {
-					target = DEN
 					type = annex_everything
+					target = DEN
 				}
 			}
 			hidden_effect = {
@@ -483,20 +483,20 @@ operations = {
 		complete_effect = {
 			effect_tooltip = {
 				declare_war_on = {
+					type = annex_everything
 					target = HOL
-					type = annex_everything
 				}
 				declare_war_on = {
+					type = annex_everything
 					target = LUX
-					type = annex_everything
 				}
 				declare_war_on = {
+					type = annex_everything
 					target = BEL
-					type = annex_everything
 				}
 				declare_war_on = {
-					target = FRA
 					type = annex_everything
+					target = FRA
 				}
 			}
 			hidden_effect = {
@@ -525,12 +525,12 @@ operations = {
 		complete_effect = {
 			effect_tooltip = {
 				declare_war_on = {
-					target = YUG
 					type = annex_everything
+					target = YUG
 				}
 				declare_war_on = {
-					target = GRE
 					type = annex_everything
+					target = GRE
 				}
 			}
 			hidden_effect = { 

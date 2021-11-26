@@ -257,7 +257,6 @@ ideas = {
 				air_ace_generation_chance_factor = 0.10
 			}
 		}
-	}
 	industrial_concern = {
 		bhp_steel = {
 			picture = generic_industrial_concern_1
@@ -363,4 +362,3 @@ ideas = {
 		}
 	}
 }
-

@@ -2286,7 +2286,7 @@ focus = {
 				if = {
 					limit = {
 						is_controlled_by_ROOT_or_ally = yes
-						infrastructure<7
+						infrastructure < 7
 					}
 					set_building_level = {
 						type = infrastructure

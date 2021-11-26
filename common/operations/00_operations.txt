@@ -1441,7 +1441,7 @@ operation_coordinated_strike = { ### 11 2/70
 	experience = 2
 	outcome_execute = { # SCOPE_OPERATION
 		ROOT = {
-			declare_war_on = { target = FROM type = annex_everything }
+			declare_war_on = { type = annex_everything target = FROM }
 		}
 
 		execute_operation_coordinated_strike = {
