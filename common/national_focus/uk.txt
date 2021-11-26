@@ -73,7 +73,6 @@ focus_tree = {
 				bonus = 1.0
 				uses = 2
 				category = cat_mobile_warfare
-				category = tank_land_doctrine
 			}
 			add_tech_bonus = {
 				name = CAN_cmp_truck
@@ -105,12 +104,11 @@ focus_tree = {
 				bonus = 1.0
 				uses = 2				
 				category = cat_mobile_warfare
-				category = tank_land_doctrine
 			}
 			add_tech_bonus = {
 				name = armor_bonus
 				ahead_reduction = 2
-				technology = basic_medium_tank
+				technology = medium_tank_chassis
 			}
 			add_tech_bonus = {
 				name = armor_bonus
