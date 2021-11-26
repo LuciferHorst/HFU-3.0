@@ -276,14 +276,16 @@ ROM_oil_agreement = {
 		FROM = {
 			NOT = { has_war_with = ROOT }
 		}
-	trade_cost_for_target_factor = -0.8 }
+	}	
+	trade_cost_for_target_factor = -0.8
 }
 Stahlpakt = {
 	valid_relation_trigger = {
 		FROM = {
 			NOT = { has_war_with = ROOT }
 		}
-	trade_cost_for_target_factor = -0.5 }
+	}
+	trade_cost_for_target_factor = -0.5
 }
 tradeback_is_cancer = {
 	valid_relation_trigger = {
