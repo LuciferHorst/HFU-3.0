@@ -273,6 +273,11 @@ leader_traits = {
 
 
 
+		slot = army_chief
+		specialist_advisor_trait = army_chief_offensive_1
+		expert_advisor_trait = army_chief_offensive_2
+		genius_advisor_trait = army_chief_offensive_3
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -291,6 +296,10 @@ leader_traits = {
 		field_marshal_modifier = {
 			max_dig_in_factor = 0.30
 		}
+		slot = army_chief
+		specialist_advisor_trait = army_chief_entrenchment_1
+		expert_advisor_trait = army_chief_entrenchment_2
+		genius_advisor_trait = army_chief_entrenchment_3
 
 		ai_will_do = {
 			factor = 1
@@ -309,6 +318,11 @@ leader_traits = {
 		field_marshal_modifier = {
 			planning_speed = 0.25
 		}
+
+		slot = army_chief
+		specialist_advisor_trait = army_chief_reform_1
+		expert_advisor_trait = army_chief_reform_2
+		genius_advisor_trait = army_chief_reform_3
 
 		ai_will_do = {
 			factor = 1
@@ -329,6 +343,10 @@ leader_traits = {
 		field_marshal_modifier = {
 			max_planning = 0.05
 		}
+		slot = army_chief
+		specialist_advisor_trait = army_chief_planning_1
+		expert_advisor_trait = army_chief_planning_2
+		genius_advisor_trait = army_chief_planning_3
 
 		ai_will_do = {
 			factor = 1
@@ -349,6 +367,9 @@ leader_traits = {
 		prerequisites = {
 			has_trait = inflexible_strategist
 		}
+		specialist_advisor_trait = army_chief_defensive_1
+		expert_advisor_trait = army_chief_defensive_2
+		genius_advisor_trait = army_chief_defensive_3
 
 		cost = 1000
 		field_marshal_modifier = {
@@ -378,6 +399,12 @@ leader_traits = {
 		field_marshal_modifier = {
 			breakthrough_factor = 0.10
 		}
+
+		slot = army_chief
+		specialist_advisor_trait = army_chief_maneuver_1
+		expert_advisor_trait = army_chief_maneuver_2
+		genius_advisor_trait = army_chief_maneuver_3
+
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		ai_will_do = {
 			factor = 1
@@ -398,6 +425,11 @@ leader_traits = {
 			land_reinforce_rate = 0.05
 		}
 
+		slot = army_chief
+		specialist_advisor_trait = army_chief_organizational_1
+		expert_advisor_trait = army_chief_organizational_2
+		genius_advisor_trait = army_chief_organizational_3
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -416,6 +448,11 @@ leader_traits = {
 			army_morale_factor = 0.10
 		}
 
+		slot = army_chief
+		specialist_advisor_trait = army_chief_morale_1
+		expert_advisor_trait = army_chief_morale_2
+		genius_advisor_trait = army_chief_morale_3
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -433,6 +470,11 @@ leader_traits = {
 		field_marshal_modifier = {
 			max_army_group_size = 2
 		}
+
+		slot = army_chief
+		specialist_advisor_trait = army_chief_drill_1
+		expert_advisor_trait = army_chief_drill_2
+		genius_advisor_trait = army_chief_drill_3
 
 		ai_will_do = {
 			factor = 1
