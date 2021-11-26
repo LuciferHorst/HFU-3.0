@@ -5,7 +5,7 @@ guiTypes = {
 		position = { x = 0 y  = 0 }
 		size = { width = 25 height = 25 }
 		Orientation = upper_left
-		
+
 		buttonType = {
 			name = "button"
 			quadTextureSprite = "GFX_tiled_window_color_picker"
@@ -14,15 +14,15 @@ guiTypes = {
 			scale = 0.8
 		}
 	}
-	
-	
+
+
 	containerWindowType = {
 		name = "color_picker_root"
 		position = {x=730 y=300}
 		size = { width = 350 height = 100 }
 		Orientation = upper_left
 		clipping = no
-	
+
 		containerWindowType = {
 			name = "color_picker"
 			position = {x=87 y=0}
@@ -36,12 +36,12 @@ guiTypes = {
 			peek_position = { x = 107 y = 0 }
 			peek_check_top_left = { x = 300 y = 0 }
 			peek_check_size = { width = 100 height = 100 }
-			
+
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_color_picker_bg"
 			}
-			
+
 			gridBoxType = {
 				name = "presets"
 				position = { x = 213 y = 17 }
@@ -51,15 +51,15 @@ guiTypes = {
 				max_slots_horizontal = 3
 				max_slots_vertical = 3
 			}
-			
+
 			iconType = {
 				name = "hue_slider_background"
 				spriteType = "GFX_hue_slider_background"
 				position = {x= 10 y =18}
 			}
-			
+
 			scrollbarType = {
-				name = "hue_slider"	
+				name = "hue_slider"
 				slider = "listboxSliderButton"
 				track= "listboxTrackButton"
 				leftbutton = "downButton"
@@ -67,7 +67,7 @@ guiTypes = {
 				size = {x =232 y =15 }
 				position = {x= -6 y =18}
 				priority = 100
-				borderSize = {x = 12 y = 12}	
+				borderSize = {x = 12 y = 12}
 				maxValue =1
 				minValue =0
 				stepSize =0.01
@@ -75,7 +75,7 @@ guiTypes = {
 				horizontal = 1
 
 				guiButtonType = {
-					name = "listboxSliderButton"	
+					name = "listboxSliderButton"
 					quadTextureSprite = "GFX_color_picker_scroll_drager"
 					position = { x=0 y =0}
 				}
@@ -83,8 +83,8 @@ guiTypes = {
 				guiButtonType = {
 					name = "listboxTrackButton"
 					quadTextureSprite = "GFX_color_picker_scroll_track"
-					position = { x=12 y =12}		
-				}	
+					position = { x=12 y =12}
+				}
 
 				guiButtonType = {
 					parent = "listboxSliderButton"
@@ -92,7 +92,7 @@ guiTypes = {
 					quadTextureSprite = "GFX_scroll_up"
 					position = { x=0 y =0}	
 				}
-				
+
 				guiButtonType = {
 					parent = "listboxSliderButton"
 					name = "downButton"
@@ -100,23 +100,23 @@ guiTypes = {
 					position = { x=0 y =120}	
 				}
 			}
-			
+
 			iconType = {
 				name = "sat_slider_background"
 				spriteType = "GFX_sat_slider_background"
 				position = {x= 10 y =46}
 			}
-			
+
 			scrollbarType = {
-				name = "sat_slider"	
+				name = "sat_slider"
 				slider = "listboxSliderButton"
 				track= "listboxTrackButton"
 				leftbutton = "downButton"
 				rightbutton = "upButton"
 				size = {x =232 y =15 }
 				position = {x= -6 y =46}
-				priority = 100			
-				borderSize = {x = 12 y = 12}	
+				priority = 100
+				borderSize = {x = 12 y = 12}
 				maxValue =1
 				minValue =0
 				stepSize =0.01
@@ -124,7 +124,7 @@ guiTypes = {
 				horizontal = 1
 
 				guiButtonType = {
-					name = "listboxSliderButton"	
+					name = "listboxSliderButton"
 					quadTextureSprite = "GFX_color_picker_scroll_drager"
 					position = { x=0 y =0}
 				}
@@ -132,8 +132,8 @@ guiTypes = {
 				guiButtonType = {
 					name = "listboxTrackButton"
 					quadTextureSprite = "GFX_color_picker_scroll_track"
-					position = { x=12 y =12}		
-				}	
+					position = { x=12 y =12}
+				}
 
 				guiButtonType = {
 					parent = "listboxSliderButton"
@@ -639,9 +639,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 
-		
-		
-
 		buttonType = {
 			name = "toggle_armies_divisions_button"
 			position = {x=387 y=77}	
@@ -657,7 +654,6 @@ guiTypes = {
 			buttonFont = "hoi_18mbs"
 			clicksound = click_default
 		}
-	}
 
 	containerWindowType = {
 			name = "army_org_str_indicator"
@@ -755,21 +751,6 @@ guiTypes = {
 			clicksound = click_default
 		}
 
-		buttonType = {
-			name = "toggle_armies_divisions_button"
-			position = {x=387 y=77}
-			spriteType = "GFX_army_group_toggle_armies_divisions_btn"
-			clicksound = click_default
-			pdx_tooltip = "TOGGLE_ARMY_GROUP_VIEW_ARMIES_DIVISIONS"
-		}
-
-		buttonType = {
-			name = "select_all_wings_button"
-			position = {x=387 y=77}
-			spriteType = "GFX_army_select_wings_btn"
-			buttonFont = "hoi_18mbs"
-			clicksound = click_default
-		}
 	}
 
 	containerWindowType = {
@@ -1755,8 +1736,9 @@ guiTypes = {
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 100
-			maxHeight = 20
+			maxWidth = 110
+			maxHeight = 50
+			vertical_alignment = center
 			alwaystransparent = yes
 		}
 
