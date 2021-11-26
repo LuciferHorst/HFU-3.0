@@ -276,23 +276,19 @@ ROM_oil_agreement = {
 		FROM = {
 			NOT = { has_war_with = ROOT }
 		}
-	trade_cost_for_target_factor=-0.8}
-	}
+	trade_cost_for_target_factor = -0.8 }
 }
 Stahlpakt = {
 	valid_relation_trigger = {
 		FROM = {
 			NOT = { has_war_with = ROOT }
 		}
-	trade_cost_for_target_factor=-0.5}
-	}
+	trade_cost_for_target_factor = -0.5 }
 }
 tradeback_is_cancer = {
 	valid_relation_trigger = {
 		has_idea=tradeback_is_cancer
 	}
-
-
 	extra_trade_to_target_factor=0.5
 }
 free_license = {
@@ -577,7 +573,7 @@ japan_armor_sharing = {
 }
 ita_air_sharing = {
 	valid_relation_trigger = {
-		date<  1941.6.1
+		date < 1941.6.1
 	}
 
 	license_air_purchase_cost = -1 #base cost reduction
