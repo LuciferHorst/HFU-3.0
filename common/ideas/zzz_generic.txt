@@ -867,14 +867,8 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = AST tag = SAF tag = NZL tag = CAN }
+						OR = { tag = AST tag = SAF tag = CAN }
 						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX }
-						has_dlc = "Man the Guns"
 					}
 				}
 			}
@@ -897,13 +891,13 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = AST tag = CAN tag = NZL tag = RAJ }
+						OR = { tag = AST tag = CAN  tag = RAJ }
 						has_dlc = "Together for Victory"
 					}
 				}
 				NOT = {
 					AND = {
-						OR = { tag = MEX tag = HOL }
+						OR = {  tag = HOL }
 						has_dlc = "Man the Guns"
 					}
 				}
@@ -933,7 +927,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = MEX tag = HOL }
+						OR = {  tag = HOL }
 						has_dlc = "Man the Guns"
 					}
 				}
@@ -960,7 +954,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = MEX tag = HOL }
+						OR = { tag = HOL }
 						has_dlc = "Man the Guns"
 					}
 				}
@@ -993,7 +987,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = MEX tag = HOL }
+						OR = {  tag = HOL }
 						has_dlc = "Man the Guns"
 					}
 				}
@@ -1016,7 +1010,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = MEX tag = HOL }
+						OR = {  tag = HOL }
 						has_dlc = "Man the Guns"
 					}
 				}
@@ -1037,7 +1031,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = HOL tag = MEX }
+						OR = { tag = HOL }
 						has_dlc = "Man the Guns"
 					}
 				}
