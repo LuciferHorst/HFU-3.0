@@ -8,7 +8,7 @@ characters={
 			portraits={
 				navy = { #Can become Navy leader and therefore navy advisor
 					large = "GFX_Portrait_hungary_miklos_horthy_admiral"
-					small = "gfx/interface/ideas/idea_HUN_miklos_horthy_admiral.dds"
+					small = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 
 				}
 				civilian={
@@ -117,98 +117,6 @@ characters={
 			ideology=falangism
 			expire="1948.1.1.12"
 			id=-1
-		}
-	}
-
-	HUN_geza_lakatos={
-		name=HUN_geza_lakatos
-		portraits={
-			army={
-				large="GFX_Portrait_hungary_geza_lakatos"
-				small="gfx/interface/ideas/idea_HUN_geza_lakatos.dds"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-
-	HUN_ivan_hindy={
-		name=HUN_ivan_hindy
-		portraits={
-			army={
-				large="GFX_Portrait_hungary_ivan_hindy"
-				small="gfx/interface/ideas/idea_HUN_ivan_hindy.dds"
-			}
-		}
-		corps_commander={
-			traits={ trickster }
-			skill=4
-			attack_skill=3
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=4
-			legacy_id=-1
-		}
-	}
-
-	HUN_karoly_beregfy={
-		name=HUN_karoly_beregfy
-		portraits={
-			army={
-				large="GFX_Portrait_hungary_karoly_beregfy"
-				small="gfx/interface/ideas/idea_HUN_karoly_beregfy.dds"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-
-	HUN_lajos_veress={
-		name=HUN_lajos_veress
-		portraits={
-			army={
-				large="GFX_Portrait_hungary_lajos_veress"
-				small="gfx/interface/ideas/idea_HUN_lajos_veress.dds"
-			}
-		}
-		corps_commander={
-			traits={ armor_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-
-	HUN_ferenc_feketehalmyczeydner={
-		name=HUN_ferenc_feketehalmyczeydner
-		portraits={
-			army={
-				large="GFX_Portrait_hungary_ferenc_feketehalmy_czeydner"
-				small="gfx/interface/ideas/idea_HUN_ferenc_feketehalmy_czeydner.dds"
-			}
-		}
-		field_marshal={
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
 		}
 	}
 

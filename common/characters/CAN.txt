@@ -78,7 +78,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_CAN_charles_foulkes"
-				small="gfx/interface/ideas/idea_CAN_charles_foulkes.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		field_marshal={
@@ -114,7 +114,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_CAN_bert_hoffmeister"
-				small="gfx/interface/ideas/idea_CAN_bert_hoffmeister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -133,7 +133,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_CAN_leonard_warren_murray"
-				small="gfx/interface/ideas/idea_CAN_leonard_warren_murray.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		navy_leader={
@@ -170,7 +170,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_CAN_james_prentice"
-				small="gfx/interface/ideas/idea_CAN_james_prentice.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		navy_leader={
@@ -189,7 +189,7 @@ characters={
 		portraits={
 			army={
 				large="GFX_CAN_harry_dewolf"
-				small="gfx/interface/ideas/idea_CAN_harry_dewolf.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		navy_leader={
