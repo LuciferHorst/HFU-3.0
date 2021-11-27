@@ -1042,7 +1042,15 @@ guiTypes = {
 			alwaystransparent = yes
 			frame = 1
 		}
-		
+
+		iconType={
+			name ="mapicon_land_combat_bombardment"
+			spriteType = "GFX_mapicon_land_combat_bombardment_overlay"
+			position = { x=-2 y = -10 }
+			alwaystransparent = yes
+			frame = 1
+		}
+
 		instantTextboxType = {
 			name = "combat_progress"
 			position = {x=3 y=16}

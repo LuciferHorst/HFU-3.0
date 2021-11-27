@@ -537,6 +537,12 @@ guiTypes = {
 				format = "LEFT"
 			}
 
+			gridboxtype = {
+				name = "basic_train_tree"
+				position = { x = 100 y = 1180 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 
 		}
 
@@ -834,7 +840,7 @@ guiTypes = {
 
 				
 			gridboxtype = {
-				name = "gwtank_f_tree"
+				name = "gwtank_tree"
 				position = { x = 10% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
@@ -842,13 +848,14 @@ guiTypes = {
 			}
 		}
 		containerWindowType = {
-			name = "armour_folder"
+			name = "nsb_armour_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 40
 
 			background = {
 				name = "Background"
@@ -877,8 +884,8 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "armour_year_right"
-					position = { x=10 y=140 }
+					name = "armour_year_left"
+					position = { x=10 y=185 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_left
 						
@@ -976,11 +983,12 @@ guiTypes = {
 					
 					
 				containerWindowType = {
-					name = "armour_year_left"
-					position = { x=-100 y=140 }
+					name = "armour_year_right"
+					position = { x=-100 y=185 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_right
-                     instantTextBoxType = {
+
+					instantTextBoxType = {
 						name = "armour_year1"
 						position = { x = 0 y = 2 }
 						textureFile = ""
@@ -1075,7 +1083,7 @@ guiTypes = {
 
 
 			containerWindowType = {
-				name = "armour_subtitles"
+				name = "nsb_armour_subtitles"
 				position = { x = 0 y = 172 }
 				size = { width = 600 height = 80% }				
 				orientation = center_up
@@ -1083,7 +1091,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "armour_subtitle_heavy"
-					position = { x = 480 y = 55 }
+					position = { x = 520 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1096,7 +1104,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 207 y = 335 }
+					position = { x = 177 y = 135 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1147,8 +1155,24 @@ guiTypes = {
 
 				
 			gridboxtype = {
-				name = "gwtank_tree"
+				name = "gwtank_chassis_tree"
 				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "armor_tech_1_tree"
+				position = { x = 37% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "engine_tech_1_tree"
+				position = { x = -22% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -5101,7 +5125,7 @@ guiTypes = {
 		
 	}
 	containerWindowType = {
-		name = "techtree_armour_f_folder_item"
+		name = "techtree_nsb_armour_folder_item"
 		position = { x=-55 y=0 }
 		size = { width = 183 height = 84 }
 		clipping = no
@@ -5126,7 +5150,7 @@ guiTypes = {
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
-			maxWidth = 156
+			maxWidth = 176
 			maxHeight = 20
 			fixedsize = yes
 			format = left
@@ -5205,30 +5229,11 @@ guiTypes = {
 				spriteType = "GFX_subtech_aa"
 				alwaystransparent = yes
 			}
-		}
-		containerWindowType = {
-			name = "sub_technology_slot_3"
-			position = { x=100 y=1 }
-			size = { width = 35 height = 26 }
-			clipping = no
-			
-			background = {
-				name = "Background"
-				spriteType ="GFX_subtechnology_unavailable_item_bg"
-			}
-		
-			iconType = {
-				name = "picture"
-				position = { x=1 y=2 }
-				spriteType = "GFX_subtech_heavy_battleship"
-				alwaystransparent = yes
-			}
-		}		
-		
+		}			
 	}
 
 	containerWindowType = {
-		name = "techtree_artillery_folder_small_item"
+		name = "techtree_nsb_armour_folder_small_item"
 		position = { x=0 y=0 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -5263,9 +5268,9 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_artillery_folder_item"
-		position = { x=-55 y=0 }
-		size = { width = 204 height = 72 }
+		name = "techtree_artillery_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
 		clipping = no
 
 		background = {
