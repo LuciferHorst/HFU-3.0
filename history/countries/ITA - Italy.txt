@@ -133,21 +133,6 @@ add_equipment_to_stockpile = {
 	producer =ITA
 }
 add_equipment_to_stockpile = {
-	type = light_tank_equipment_2
-	amount = 1200
-	producer =ITA
-}
-add_equipment_to_stockpile = {
-	type = light_tank_aa_equipment_2
-	amount = 200
-	producer = ITA
-}
-add_equipment_to_stockpile = {
-	type = light_tank_destroyer_equipment_2
-	amount = 150
-	producer = ITA
-}
-add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 2000
 	producer = ITA

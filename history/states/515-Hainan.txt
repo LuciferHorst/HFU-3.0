@@ -16,16 +16,6 @@ state={
 				naval_base = 2
 			}
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
-			}
-			controller = JAP
-		}
 	}
 	provinces={
 		940 984 1016 3892 6601 10852 10879

@@ -140,16 +140,6 @@ add_equipment_to_stockpile = {
 	amount = 2000
 	producer = FRA
 }
-add_equipment_to_stockpile = {
-	type = light_tank_equipment_1
-	amount = 480
-	producer = FRA
-}
-add_equipment_to_stockpile = {
-	type = light_tank_equipment_2
-	amount = 720
-	producer = FRA
-}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.5.1"
