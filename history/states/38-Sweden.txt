@@ -2,8 +2,6 @@ state={
 	id=38
 	name="STATE_38"
 	manpower=1
-	resources={
-	}
 	state_category = town
 	history={
 		owner = SWE
@@ -12,5 +10,6 @@ state={
 	provinces={
 		46
 	}
+	local_supplies=0.0
 }
 

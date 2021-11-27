@@ -21,19 +21,10 @@ state={
 			air_base = 6
 		}
 		add_core_of = AUS
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
-		}
 	}
 	provinces={
 		618 667 3472 3489 6192 6241 8751 8864 8866 8878 8896 10553 10589
 	}
+	local_supplies=0.0
 }
 

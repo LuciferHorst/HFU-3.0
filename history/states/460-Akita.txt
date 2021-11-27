@@ -3,8 +3,6 @@ state={
 	name="STATE_533"
 	manpower = 6575000
 	state_category = megalopolis
-	resources={
-	}
 	history={
 		owner = JAP
 		add_core_of = JAP

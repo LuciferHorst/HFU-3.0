@@ -1,5 +1,4 @@
-state=
-{
+state={
 	id=8
 	name="STATE_8"
 	state_category = large_city
@@ -19,8 +18,9 @@ state=
 		victory_points = {6087 5 }
 		add_core_of = LUX
 	}
-	provinces=
-	{
-		6087}
+	provinces={
+		6087
+	}
+	local_supplies=0.0
 }
 

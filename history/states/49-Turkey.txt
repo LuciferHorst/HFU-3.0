@@ -13,5 +13,6 @@ state={
 	provinces={
 		767
 	}
+	local_supplies=0.0
 }
 

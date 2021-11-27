@@ -89,6 +89,7 @@ adjacency_rule={
 		trade = yes
 	}
 	required_provinces = {3685}
+	offset = { 5 0 -6 }
 	is_disabled = {
 		NOT = {
 			tag=SPR

@@ -3,8 +3,6 @@ state={
 	name="STATE_592"
 	manpower = 17835200
 	state_category = city
-	resources={
-	}
 	history={
 		owner = CHI
 		add_core_of = CHI

@@ -3,8 +3,6 @@ state={
 	name="STATE_661"
 	manpower = 17617
 	state_category = wasteland
-	resources={
-	}
 	history={
 		owner = ITA
 		add_core_of=SWE

@@ -3,8 +3,6 @@ state={
 	name="STATE_433"
 	manpower = 11786000
 	state_category = town
-	resources={
-	}
 	history={
 		victory_points = {
 			1931 1
