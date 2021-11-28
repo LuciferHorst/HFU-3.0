@@ -185,7 +185,7 @@ country_event = {
 			}
 			remove_ideas = FRA_protected_by_the_maginot_line
 			set_country_flag = free_france
-			set_capital = { state = 466 }
+			set_capital = { state = 539 }
 			country_event = france.20
 		}
 		ENG = { add_to_faction = FRA }

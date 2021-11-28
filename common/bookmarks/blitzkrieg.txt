@@ -142,19 +142,6 @@ bookmarks = {
 				AST_delegation_to_china
 			}
 		}
-		"NZL"={
-			minor = yes
-			history = "NZL_BLITZKRIEG_DESC"
-			ideology = democratic
-			ideas = {
-				
-			}
-			focuses = {
-				NZL_bob_semple_tank
-				NZL_independent_new_zealand
-				NZL_maori_volunteers
-			}
-		}
 		"SAF"={
 			minor = yes
 			history = "SAF_BLITZKRIEG_DESC"
@@ -230,139 +217,6 @@ bookmarks = {
 				YUG_the_ik_3
 			}
 		}
-		"CHI"={
-			minor = yes
-			history = "CHI_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_2
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_renegotiate_the_unequal_treaties
-				CHI_invite_the_flying_tigers
-				CHI_war_of_resistance
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_BLITZKRIEG_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_1
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
-			}
-		}
-		"MAN"={
-			minor = yes
-			history = "MAN_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-				MAN_kwantung_veto
-				MAN_five_year_plan_industry
-				MAN_low_legitimacy_4
-			}
-			focuses = {
-				MAN_alliance_with_the_kwantung_army
-				MAN_develop_aluminum_sources
-				MAN_the_two_emperors
-			}
-		}
-
-		"GXC"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-				CHI_long_term_economic_planning
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_power_struggle
-				CHI_heavy_weapons_development
-			}
-		}		
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-				CHI_long_term_economic_planning
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_power_struggle
-				CHI_heavy_weapons_development
-			}
-		}		
-		"XSM"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-				CHI_long_term_economic_planning
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_power_struggle
-				CHI_heavy_weapons_development
-			}
-		}		
-		"SIK"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-				CHI_long_term_economic_planning
-				CHI_ideological_education
-				CHI_land_value_tax
-			}
-			focuses = {
-				CHI_join_the_chinese_soviet
-				CHI_embrace_the_opium_trade
-				CHI_reform_the_administration
-			}
-		}
-
-		"MEX"={
-			minor = yes
-			history = "MEXICO_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				MEX_church_power_1
-				MEX_politicised_army
-				MEX_ejido_worker_militias
-				MEX_capital_reserves
-			}
-			focuses = {
-				MEX_focus_bolivarian_alliance
-				MEX_focus_aztec_eagles
-				MEX_focus_the_gold_shirts
-			}
-		}
-
-		"HOL"={
-			minor = yes
-			history = "NETHERLANDS_BLITZKRIEG_DESC"
-			ideology = democratic
-			ideas = {
-				HOL_wilhelmina
-				HOL_shell_shocked_spectator_5
-				HOL_de_crisisjaren_1
-			}
-			focuses = {
-				HOL_continue_the_war_in_batavia
-				HOL_liberation
-				HOL_prepare_the_inundation_lines
-			}
-		}
 
 		"SPR"={
 			minor = yes
@@ -379,21 +233,6 @@ bookmarks = {
 			}
 		}
 		
-		"POR"={
-			minor = yes
-			history = "PORTUGAL_BLITZKRIEG_DESC"
-			ideology = democratic
-			ideas = {
-				POR_volunteers_in_the_war_nationalist
-				POR_colonial_assimilation_policy
-				POR_estado_novo
-			}
-			focuses = {
-				POR_the_fifth_empire
-				POR_mapa_cor_de_rosa
-				POR_the_kingdom_reunited
-			}
-		}
 		"BUL"={
 			minor = yes
 			history = "BUL_BLITZKRIEG_DESC"
@@ -423,82 +262,6 @@ bookmarks = {
 				GRE_reviving_the_spartan_warrior_spirit
 				GRE_following_in_the_footsteps_of_giants
 				GRE_the_greater_enosis
-			}
-		}
-
-		"TUR"={
-			minor = yes
-			history = "TUR_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				TUR_kemalist_army_officers_extended_power_neutral
-				TUR_sectarian_woes
-				TUR_disorganised_armed_forces_3
-			}
-			focuses = {
-				TUR_taking_over_defense_of_the_gulf
-				TUR_the_mediterranean_entente
-				TUR_misak_i_milli
-			}
-		}
-		"LIT"={
-			minor = yes
-			history = "LIT_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				LIT_victory_in_trust_idea
-				LIT_invested_in_farms_1
-				BALTIC_forest_brothers_idea
-			}
-			focuses = {
-				LIT_prepare_forest_brothers
-				LIT_new_kind_of_iron_wolf
-				BALTIC_belarus_ssr
-			}
-		}
-		
-		"LAT"={
-			minor = yes
-			history = "LAT_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				LAT_saeima_idea_military_1
-				LAT_the_sun_shines_equally_idea
-				LAT_paramilitary_idea_1
-			}
-			focuses = {
-				LAT_supply_forest_brothers
-				LAT_womens_aizsargi
-				BALTIC_revolutionary_cabinet
-			}
-		}
-		
-		"EST"={
-			minor = yes
-			history = "EST_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				EST_ismaaliit_idea
-				EST_national_council_idea
-				EST_exploit_the_banks_idea
-			}
-			focuses = {
-				EST_forest_brothers
-				EST_formalize_baltic_entente
-				BALTIC_united_baltic_ssr
-			}
-		}
-		"POL"={
-			minor = yes
-			history = "POL_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				deterrence
-			}
-			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
 			}
 		}
 		effect = {
