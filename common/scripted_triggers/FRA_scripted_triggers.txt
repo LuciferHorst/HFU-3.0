@@ -1,21 +1,19 @@
 #	Example:
-# 
+#
 #	example_trigger = {
-#		tag = GER
-#		is_ai = no
-#	}
+	#		tag = GER
+	#		is_ai = no
+	#	}
 #
 #
 #	In a script file:
 #
 #	trigger = {
-#		exampel_trigger = yes
-#	}
-# 
-
-
+	#		exampel_trigger = yes
+	#	}
+#
 FRA_controls_north_africa = {
-	461 = {
+	425 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -23,7 +21,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	462 = {
+	426 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -31,7 +29,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	459 = {
+	423 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -39,7 +37,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	513 = {
+	440 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -47,7 +45,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	460 = {
+	424 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -55,7 +53,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	458 = {
+	422 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -63,7 +61,7 @@ FRA_controls_north_africa = {
 			}
 		}
 	}
-	665 = {
+	584 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -73,7 +71,7 @@ FRA_controls_north_africa = {
 	}
 }
 FRA_controls_syria = {
-	680 = {
+	599 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -81,7 +79,7 @@ FRA_controls_syria = {
 			}
 		}
 	}
-	677 = {
+	596 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -89,15 +87,7 @@ FRA_controls_syria = {
 			}
 		}
 	}
-	554 = {
-		OR = {
-			is_controlled_by = ROOT
-			CONTROLLER = {
-				is_subject_of = ROOT
-			}
-		}
-	}
-	553 = {
+	478 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -106,9 +96,8 @@ FRA_controls_syria = {
 		}
 	}
 }
-
 FRA_controls_indochina = {
-	671 = {
+	590 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -116,7 +105,7 @@ FRA_controls_indochina = {
 			}
 		}
 	}
-	670 = {
+	589 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -124,7 +113,7 @@ FRA_controls_indochina = {
 			}
 		}
 	}
-	286 = {
+	274 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -132,7 +121,7 @@ FRA_controls_indochina = {
 			}
 		}
 	}
-	741 = {
+	659 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -142,7 +131,7 @@ FRA_controls_indochina = {
 	}
 }
 FRA_controls_west_africa = {
-	557 = {
+	481 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -150,7 +139,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	272 = {
+	264 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -158,7 +147,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	556 = {
+	480 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -166,7 +155,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	780 = {
+	694 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -174,7 +163,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	779 = {
+	693 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -182,7 +171,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	778 = {
+	692 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -190,7 +179,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	781 = {
+	695 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -198,7 +187,7 @@ FRA_controls_west_africa = {
 			}
 		}
 	}
-	776 = {
+	690 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -207,9 +196,8 @@ FRA_controls_west_africa = {
 		}
 	}
 }
-
 FRA_controls_central_africa = {
-	774 = {
+	688 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -217,7 +205,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	660 = {
+	580 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -225,7 +213,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	773 = {
+	687 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -233,7 +221,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	772 = {
+	686 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -241,7 +229,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	539 = {
+	466 = {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {
@@ -265,7 +253,6 @@ FRA_has_worker_shortage = {
 		has_idea = FRA_worker_shortage
 	}
 }
-
 is_owned_or_subject_trigger = {
 	CONTROLLER = {
 		OR = {
@@ -274,12 +261,11 @@ is_owned_or_subject_trigger = {
 		}
 	}
 }
-
 USA_can_sell_weapons_trigger = {
-	NOT = { 
+	NOT = {
 		USA = {
 			AND = {
-				has_completed_focus = USA_neutrality_act 
+				has_completed_focus = USA_neutrality_act
 				NOT = { has_completed_focus = USA_lend_lease_act } #Can't sell weapons if US has declared neutrality without passing Lend-Lease Act
 			}
 			has_war_with = FRA
@@ -287,7 +273,6 @@ USA_can_sell_weapons_trigger = {
 	}
 	USA = { has_civil_war = no }
 }
-
 has_any_occupation_cost_trigger = {
 	OR = {
 		has_idea = FRA_occupation_costs_1
@@ -296,3 +281,4 @@ has_any_occupation_cost_trigger = {
 		has_idea = FRA_occupation_costs_4
 	}
 }
+

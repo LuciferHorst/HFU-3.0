@@ -5,6 +5,7 @@ tags={
 	"Balance"
 	"Historical"
 }
+replace_path="interface"
 replace_path="events"
 replace_path="common/abilities"
 replace_path="common/aces"
