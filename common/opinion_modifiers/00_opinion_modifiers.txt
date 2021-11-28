@@ -790,8 +790,6 @@ opinion_modifiers = {
 
 	SAF_anti_colonialist_crusaders = { value = -100 }
 
-	NZL_strengthen_ties = { value = 25 }
-
 	RAJ_indian_national_congress = { value = 25 }	
 	
 	RAJ_swaraj = { value = -50 }

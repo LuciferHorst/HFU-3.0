@@ -1377,13 +1377,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_NOR_vidkun_quisling.dds"
 	}
 
-	### NZL
-
-	spriteType = {
-		name = "GFX_idea_NZL_peter_fraser"
-		texturefile = "gfx/interface/ideas/idea_NZL_peter_fraser.dds"
-	}
-
 	### OMA
 
 	spriteType = {

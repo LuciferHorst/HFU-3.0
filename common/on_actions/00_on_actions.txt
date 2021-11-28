@@ -392,7 +392,6 @@ on_actions = {
 						TAG = AST
 						TAG = FRA
 						TAG = CAN
-						TAG = NZL
 						TAG = SAF
 					}
 					FROM = { original_tag = GER }
