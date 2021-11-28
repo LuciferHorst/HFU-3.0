@@ -10,6 +10,8 @@ technology_categories = {
 	cat_medium_armor
 	cat_heavy_armor
 	artillery
+        shock_tech
+        desert_tech
 	cat_anti_tank
 	cat_anti_air
 	naval_air
