@@ -5,6 +5,7 @@
 sub_units = {
 
 	anti_air_brigade = {
+		abbreviation = "ANA"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 301
@@ -21,6 +22,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_line_artillery
+			category_anti_air
 		}
 
 		combat_width = 1
@@ -80,6 +82,8 @@ sub_units = {
 		categories = {
 			category_army
 			category_line_artillery
+			category_anti_air
+			category_mobile_artillery
 		}
 
 		combat_width = 1
