@@ -274,4 +274,4 @@ SOV_great_patriotic_war = {
 			set_capital=212
 		}
 	}
-	
+}	
