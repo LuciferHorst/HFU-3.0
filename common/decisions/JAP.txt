@@ -557,7 +557,11 @@ operations = {
 			hidden_trigger = { always = no }
 		}
 		war_with_target_on_timeout = yes
-
+		ai_will_do = {
+			base = 0
+			modifier = {
+			}
+		}
 		days_mission_timeout = 30
 		fire_only_once = yes
 		is_good = no
@@ -593,7 +597,11 @@ operations = {
 		highlight_states = {
 		}
 		war_with_target_on_timeout = yes
-
+		ai_will_do = {
+			base = 0
+			modifier = {
+			}
+		}
 		days_mission_timeout = 30
 		fire_only_once = yes
 		is_good = no
@@ -626,6 +634,11 @@ operations = {
 			OR = {
 				state = 454
 				state = 375
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
 			}
 		}
 		days_mission_timeout = 30
@@ -675,6 +688,13 @@ operations = {
 				state = 375
 			}
 		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				has_war = no
+				factor = 10
+			}
+		}
 		fire_only_once = yes
 		complete_effect = {
 			remove_targeted_decision = { target = SOV decision = JAP_border_incident_forgotten }
@@ -716,6 +736,11 @@ operations = {
 				state = 454
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+			}
+		}
 		days_mission_timeout = 90
 		is_good = no
 		fire_only_once = yes
@@ -746,7 +771,11 @@ operations = {
 			}
 		}
 		cost = 200
-
+		ai_will_do = {
+			base = 0
+			modifier = {
+			}
+		}
 		fire_only_once = yes
 		complete_effect = {
 			if = {
@@ -797,6 +826,11 @@ operations = {
 			}
 		}
 		cost = 150
+		ai_will_do = {
+			base = 0
+			modifier = {
+			}
+		}
 		days_remove = 15
 		fire_only_once = yes
 		war_with_target_on_remove = yes
@@ -856,7 +890,11 @@ operations = {
 				state = 375
 			}
 		}
-
+		ai_will_do = {
+			base = 0
+			modifier = {
+			}
+		}
 		fire_only_once = yes
 		complete_effect = {
 			if = {
