@@ -114,11 +114,7 @@ guiTypes = {
 				shortcut = "PAGE_DOWN"
 			}
 		}
-		containerWindowType = {
-				name = "a_focus_background"
-				position = { x = 0 y = 60 }
-				size = { width = 1920 height = 1080 }
-			}
+
 		### end zoom slider
 
 		containerWindowType = {
@@ -129,19 +125,17 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			
-			#background = {
-			#	name = "Background"
-			#	quadTextureSprite ="GFX_tiled_bg"
-			#}
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_bg"
+			}
 
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_focus_bg"
 			}
-
 			
-
 			containerWindowType = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 10 }
@@ -149,7 +143,7 @@ guiTypes = {
 				clipping = no
 
 			}
-
+			
 			containerWindowType = {
 				name = "grid_window"
 				position = { x=0 y=0 }
@@ -675,7 +669,8 @@ guiTypes = {
 			text = ""
 			maxWidth = 450
 			maxHeight = 30
-			format = center		
+			format = center
+			fixedsize = yes		
 		}
 		iconType = {
 			name = "symbol"

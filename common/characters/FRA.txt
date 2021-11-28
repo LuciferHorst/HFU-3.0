@@ -103,6 +103,20 @@ characters={
 		}
 	}
 
+	FRA_rene_nicod={
+		name=FRA_rene_nicod
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_rene_nicod"
+				small = "gfx/interface/ideas/idea_FRA_rene_nicod.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+		}
+	}
+
 	FRA_philippe_petain={ #Fascist Leader
 		name=FRA_philippe_petain
 		portraits={

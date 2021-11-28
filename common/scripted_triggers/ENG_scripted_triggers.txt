@@ -1,18 +1,19 @@
 #	Example:
-#
+# 
 #	example_trigger = {
-	#		tag = GER
-	#		is_ai = no
-	#	}
+#		tag = GER
+#		is_ai = no
+#	}
 #
 #
 #	In a script file:
 #
 #	trigger = {
-	#		exampel_trigger = yes
-	#	}
-#
+#		exampel_trigger = yes
+#	}
+# 
 #	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
+
 ENG_focus_available_embargo_sanction = {
 	exists = yes
 	OR = {
@@ -22,6 +23,7 @@ ENG_focus_available_embargo_sanction = {
 	NOT = { is_in_faction_with = ENG }
 	NOT = { has_war_with = ENG }
 }
+
 ENG_focus_available_war = {
 	exists = yes
 	OR = {
@@ -32,4 +34,3 @@ ENG_focus_available_war = {
 	NOT = { is_in_faction_with = ENG }
 	NOT = { has_war_with = ENG }
 }
-

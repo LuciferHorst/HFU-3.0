@@ -135,7 +135,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
 	}

@@ -23,10 +23,9 @@ sub_units = {
 		categories = {
 			category_support_battalions
 			category_army
-			category_anti_air
 		}
 
-
+		
 		combat_width = 0
 		training_time = 120
 
@@ -35,22 +34,22 @@ sub_units = {
 		}
 
 		can_be_parachuted = yes
-
+		
 		#Size Definitions
 		max_strength = 0.2
 		max_organisation = 0
 		default_morale = 0.1
 		manpower = 300
 		weight = 0.1
-
-		supply_consumption = 0.05
+		
+        supply_consumption = 0.1
 
 		# Support nerfs to combat abilities
-		defense = -0.6
-		breakthrough = -0.70
-		soft_attack = -0.70
-		hard_attack = -0.70
-		air_attack = -0.4
+		defense = -0.4
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.4
+		air_attack = -0.2
 
 	}
 }

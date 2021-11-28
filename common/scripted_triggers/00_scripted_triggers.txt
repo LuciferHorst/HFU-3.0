@@ -1,22 +1,24 @@
 #	Example:
 #
 #	example_trigger = {
-	#		tag = GER
-	#		is_ai = no
-	#	}
+#		tag = GER
+#		is_ai = no
+#	}
 #
 #
 #	In a script file:
 #
 #	trigger = {
-	#		exampel_trigger = yes
-	#	}
+#		exampel_trigger = yes
+#	}
 #
+
 can_ROOT_get_wargoal_on_THIS = {
 	exists = yes
 	NOT = { is_in_faction_with = ROOT }
 	NOT = { is_subject_of = ROOT }
 }
+
 #Country scope
 is_JAP_or_ally_of_JAP = {
 	OR = {
@@ -25,9 +27,11 @@ is_JAP_or_ally_of_JAP = {
 		is_subject_of = JAP
 	}
 }
+
 is_border_conflict_defender_vs_FROM = {
 	has_variable = ROOT.defender_state_vs_@FROM
 }
+
 has_not_initiated_border_incident_with_FROM = {
 	custom_trigger_tooltip = {
 		tooltip = not_initiated_border_incident_with_FROM
@@ -38,6 +42,7 @@ has_not_initiated_border_incident_with_FROM = {
 		}
 	}
 }
+
 has_not_initiated_border_incident_with_ROOT = {
 	custom_trigger_tooltip = {
 		tooltip = not_initiated_border_incident_with_ROOT
@@ -48,6 +53,7 @@ has_not_initiated_border_incident_with_ROOT = {
 		}
 	}
 }
+
 #State scope
 has_ROOT_at_least_1_div_in_current_state_scope = {
 	custom_trigger_tooltip = {
@@ -55,10 +61,25 @@ has_ROOT_at_least_1_div_in_current_state_scope = {
 		ROOT = { divisions_in_state = { state = PREV size > 0 } }
 	}
 }
+
 check_has_focus_tree_to_switch_to_fascism = {
 	NOT = { tag = JAP }
 	NOT = { tag = GER }
+	NOT = { tag = MAN }
 	NOT = { tag = ITA }
+	OR = {
+		NOT = {
+			AND = {
+				tag = SAF
+				has_dlc = "Together for Victory"
+			}
+		}
+		AND = {
+			tag = SAF
+			has_dlc = "Together for Victory"
+			has_completed_focus = SAF_south_africa_first
+		}
+	}
 	NOT = {
 		AND = {
 			tag = RAJ
@@ -86,18 +107,25 @@ check_has_focus_tree_to_switch_to_fascism = {
 	NOT = {
 		AND = {
 			original_tag = SPR
-			#has_completed_focus = SPA_the_phalanx_ascendant
+			OR = {
+				has_completed_focus = SPA_the_phalanx_ascendant
+				has_completed_focus = SPA_supremacy_of_the_communion
+				has_completed_focus = SPR_the_popular_front
+			}
 			has_dlc = "La Resistance"
 		}
 	}
 }
+
 check_has_focus_tree_to_switch_to_democratic = {
+	NOT = { tag = MAN }
 	NOT = { tag = FRA }
 	NOT = { tag = USA }
 	NOT = { tag = ENG }
 	NOT = { tag = CAN }
 	NOT = { tag = SAF }
-	NOT = { tag = AUS }
+	NOT = { tag = AST }
+	NOT = { tag = NZL }
 	NOT = { tag = RAJ }
 	NOT = { tag = CZE }
 	NOT = {
@@ -119,7 +147,11 @@ check_has_focus_tree_to_switch_to_democratic = {
 		}
 	}
 }
+
 check_has_focus_tree_to_switch_to_communism = {
+	NOT = { tag = PRC }
+	NOT = { tag = SIK }
+	NOT = { tag = MAN }
 	NOT = { tag = SOV }
 	NOT = {
 		AND = {
@@ -130,6 +162,12 @@ check_has_focus_tree_to_switch_to_communism = {
 	NOT = {
 		AND = {
 			tag = JAP
+			has_dlc = "Waking the Tiger"
+		}
+	}
+	NOT = {
+		AND = {
+			tag = YUN
 			has_dlc = "Waking the Tiger"
 		}
 	}
@@ -154,11 +192,11 @@ check_has_focus_tree_to_switch_to_communism = {
 	NOT = {
 		AND = {
 			original_tag = SPR
-			#has_completed_focus = SPR_the_popular_front
 			has_dlc = "La Resistance"
 		}
 	}
 }
+
 #State scope
 is_controlled_by_ROOT_or_subject = {
 	custom_trigger_tooltip = {
@@ -171,6 +209,7 @@ is_controlled_by_ROOT_or_subject = {
 		}
 	}
 }
+
 #Country scope
 is_free_or_subject_of_root = {
 	OR = {
@@ -178,6 +217,7 @@ is_free_or_subject_of_root = {
 		is_subject_of = ROOT
 	}
 }
+
 #State scope
 is_controlled_by_ROOT_or_ally = {
 	custom_trigger_tooltip = {
@@ -191,45 +231,23 @@ is_controlled_by_ROOT_or_ally = {
 		}
 	}
 }
-is_controlled_by_ENG_or_ally = {
-	custom_trigger_tooltip = {
-		tooltip = is_controlled_by_ROOT_or_ally
-		CONTROLLER = {
-			OR = {
-				tag = ENG
-				is_subject_of = ENG
-				is_in_faction_with = ENG
-			}
-		}
-	}
-}
-is_controlled_by_GER_or_ally = {
-	custom_trigger_tooltip = {
-		tooltip = is_controlled_by_ROOT_or_ally
-		CONTROLLER = {
-			OR = {
-				tag = GER
-				is_subject_of = GER
-				is_in_faction_with = GER
-			}
-		}
-	}
-}
+
 is_csa_state = {
 	OR = {
-		state = 333
-		state = 332
-		state = 334
-		state = 337
-		state = 329
-		state = 330
-		state = 331
-		state = 338
-		state = 342
-		state = 335
-		state = 339
+		state = 366
+		state = 365
+		state = 367
+		state = 370
+		state = 362
+		state = 363
+		state = 364
+		state = 371
+		state = 375
+		state = 368
+		state = 372
 	}
 }
+
 has_naval_treaty_trigger = {
 	OR = {
 		has_idea = MTG_naval_treaty_adherent
@@ -238,29 +256,97 @@ has_naval_treaty_trigger = {
 		has_idea = MTG_naval_treaty_cheating_reduced
 	}
 }
+
+ai_air_doctrine_tier_1_trigger = {
+	OR = {
+		has_tech = naval_strike_tactics
+		has_tech = direct_ground_support
+		has_tech = low_echelon_support
+	}
+}
+
+ai_air_doctrine_tier_2_trigger = {
+	OR = {
+		has_tech = multialtitude_flying
+		has_tech = hunt_and_destroy
+		has_tech = operational_destruction
+	}
+}
+ai_air_doctrine_tier_3_trigger = {
+	OR = {
+		has_tech = flying_fortress
+		has_tech = naval_strike_torpedo_tactics
+		has_tech = infiltration_bombing
+	}
+}
+
+ai_land_doctrine_tier_1_trigger = {
+	OR = {
+		has_tech = elastic_defence
+		has_tech = mobile_defence
+		has_tech = grand_assault
+		has_tech = defence_in_depth
+	}
+}
+
+ai_land_doctrine_tier_2_trigger = {
+	OR = {
+		has_tech = kampfgruppe
+		has_tech = mechanised_offensive
+		has_tech = branch_interoperation
+		has_tech = infiltration_assault
+		has_tech = vast_offensives
+		has_tech = large_front_offensive
+	}
+}
+
 CHI_is_on_historical_plan_trigger = {
 	has_dlc = "Waking the Tiger"
 	OR = {
 		AND = {
 			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = CHI_ai_behavior
+				option = DEFAULT
+			}
 		}
 		has_country_flag = CHI_AI_RANDOM_HISTORICAL
+		has_game_rule = {
+			rule = CHI_ai_behavior
+			option = HISTORICAL
+		}
 	}
 }
 SOV_is_on_historical_plan_trigger = {
 	OR = {
 		AND = {
 			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = SOV_ai_behavior
+				option = DEFAULT
+			}
 		}
 		has_country_flag = SOV_AI_RANDOM_COMMUNIST_HISTORICAL
+		has_game_rule = {
+			rule = SOV_ai_behavior
+			option = HISTORICAL
+		}
 	}
 }
 USA_is_on_historical_plan_trigger = {
 	OR = {
 		AND = {
 			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = USA_ai_behavior
+				option = DEFAULT
+			}
 		}
 		has_country_flag = USA_AI_DEMOCRATIC_HISTORICAL
+		has_game_rule = {
+			rule = USA_ai_behavior
+			option = DEMOCRATIC_HISTORICAL
+		}
 	}
 }
 ROM_is_on_historical_plan_trigger = {
@@ -268,8 +354,16 @@ ROM_is_on_historical_plan_trigger = {
 	OR = {
 		AND = {
 			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = ROM_ai_behavior
+				option = DEFAULT
+			}
 		}
 		has_country_flag = ROM_AI_RANDOM_FASCIST_HISTORICAL
+		has_game_rule = {
+			rule = ROM_ai_behavior
+			option = FASCIST_HISTORICAL
+		}
 	}
 }
 HUN_is_on_historical_plan_trigger = {
@@ -277,23 +371,41 @@ HUN_is_on_historical_plan_trigger = {
 	OR = {
 		AND = {
 			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = HUN_ai_behavior
+				option = DEFAULT
+			}
 		}
 		has_country_flag = HUN_AI_RANDOM_FASCIST_HISTORICAL
+		has_game_rule = {
+			rule = HUN_ai_behavior
+			option = FASCIST_HISTORICAL
+		}
 	}
 }
 ENG_is_on_historical_plan_trigger = {
 	OR = {
 		AND = {
 			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = ENG_ai_behavior
+				option = DEFAULT
+			}
 		}
 		has_country_flag = ENG_AI_DEMOCRATIC_HISTORICAL
+		has_game_rule = {
+			rule = eng_ai_behavior
+			option = DEMOCRATIC_HISTORICAL
+		}
 	}
 }
+
 SOV_save_pp_for_manpower_trouble = {
 	has_manpower < 1000000
 	has_political_power < 200
 	surrender_progress > 0
 }
+
 anti_submarine_strategy_required_trigger = {
 	OR = {
 		AND = {
@@ -332,6 +444,7 @@ anti_submarine_strategy_required_trigger = {
 		convoy_threat > 0.3
 	}
 }
+
 should_USA_invade_europe_or_africa = {
 	USA = {
 		OR = {
@@ -373,6 +486,7 @@ should_USA_invade_europe_or_africa = {
 		}
 	}
 }
+
 enemy_has_equal_or_better_radar_tech_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = enemy_has_equal_or_better_radar_tech_trigger_tt
@@ -459,8 +573,18 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 		#no more steps needed because end of research tree is reached
 	}
 }
+
 is_available_to_collaboration_government = { # occupied_countries.1 should be updated along with this
 	NOT = {
+		AND = {
+			FROM = { original_tag = YUG }
+			original_tag = ITA
+		}
+		AND = {
+			FROM = { original_tag = DNZ }
+			original_tag = POL
+		}
+		TUR_cannot_form_kurdish_collaboration_government = yes
 		any_country_with_original_tag = {
 			original_tag_to_check = FROM
 			is_puppet_of = PREV # if already created one do not create another
@@ -469,3 +593,120 @@ is_available_to_collaboration_government = { # occupied_countries.1 should be up
 	}
 }
 
+has_large_ally_not_pick_closed_economy = {
+	any_of_scopes = {
+		array = faction_members
+
+		NOT = { tag = PREV }
+		num_of_military_factories > 30
+	}
+}
+
+owns_or_subject_of = {
+	custom_trigger_tooltip = {
+		tooltip = owns_or_subject_of_tt
+		owner = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+controls_or_subject_of = {
+	custom_trigger_tooltip = {
+		tooltip = controls_or_subject_of_tt
+		controller = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+is_core_or_compliance_60 = {
+	custom_trigger_tooltip = {
+		tooltip = is_core_or_compliance_60_tt
+		OR = {
+			controller = {
+				PREV = { is_core_of = PREV }
+			}
+			compliance > 60
+		}
+	}
+}
+
+has_any_byz_cosmetic_tag = {
+	OR = {
+		has_cosmetic_tag = BYZ_UNIFIED
+		has_cosmetic_tag = BYZ_UNIFIED_communism
+		has_cosmetic_tag = BYZ_UNIFIED_democratic
+		has_cosmetic_tag = BYZ_UNIFIED_fascism
+		has_cosmetic_tag = BYZ_UNIFIED_neutrality
+	}
+}
+
+has_same_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_same_ideology_tt
+		OR = {
+			AND = {
+				has_government = democratic
+				ROOT = { has_government = democratic }
+			}
+			AND = {
+				has_government = fascism
+				ROOT = { has_government = fascism }
+			}
+			AND = {
+				has_government = communism
+				ROOT = { has_government = communism }
+			}
+			AND = {
+				has_government = neutrality
+				ROOT = { has_government = neutrality }
+			}
+		}
+	}
+}
+
+is_latin_american_country = {
+	OR = {
+		original_tag = CUB
+		original_tag = ARG
+		original_tag = BRA
+		original_tag = URG
+		original_tag = PAR
+		original_tag = CHL
+		original_tag = BOL
+		original_tag = PRU
+		original_tag = ECU
+		original_tag = COL
+		original_tag = VEN
+		original_tag = PAN
+		original_tag = COS
+		original_tag = NIC
+		original_tag = HON
+		original_tag = ELS
+		original_tag = GUA
+		original_tag = MEX
+		original_tag = HAI
+		original_tag = DOM
+	}
+}
+
+has_specialist_level_trigger = {
+	skill > 5
+	skill < 6
+}
+
+has_expert_level_trigger = {
+	skill > 6
+	skill < 7
+}
+
+has_genius_level_trigger = {
+	skill > 7
+}

@@ -14,15 +14,16 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		maximum_speed = 11
+		maximum_speed = 12
 		reliability = 0.8
 		hardness = 0.2
-		defense = 10
+
+		breakthrough = 10
 
 		#Space taken in convoy
-		lend_lease_cost = 0.5
+		lend_lease_cost = 5
 
-		build_cost_ic = 4.5
+		build_cost_ic = 2.5
 		resources = {
 			#oil = 1
 			rubber = 1
@@ -30,6 +31,7 @@ equipments = {
 		}
 		
 		fuel_consumption = 1.2
+		supply_truck = yes
 	}
 
 	motorized_equipment_1 = {

@@ -182,7 +182,7 @@ division_template = {
 units = {
 	division= {
 		name = "Poggers 1"
-		location =9095
+		location =9904
 		division_template = "Fanteria Del Deserto"
 		start_experience_factor = 0.3
 	}
@@ -190,7 +190,7 @@ units = {
 units = {
 	division= {
 		name = "Poggers 2"
-		location =9095
+		location =9904
 		division_template = "Fanteria Del Deserto"
 		start_experience_factor = 0.3
 	}
@@ -198,7 +198,7 @@ units = {
 units = {
 	division= {
 		name = "Cutie 1"
-		location =9095
+		location =9904
 		division_template = "Divisione Celere"
 		start_experience_factor = 0.3
 	}
@@ -206,7 +206,7 @@ units = {
 units = {
 	division= {
 		name = "Cutie 2"
-		location =9095
+		location =9904
 		division_template = "Divisione Celere"
 		start_experience_factor = 0.3
 	}

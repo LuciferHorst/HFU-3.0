@@ -2,10 +2,10 @@
 units = {
 	fleet = {
 		name = "American Destroyer Squadron"
-		naval_base =3278
+		naval_base =9458
 		task_force = {
 			name = "American Destroyer Flotilla 1"
-			location =3278
+			location =9458
 			ship = { name = "HMS Leamington" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA creator = USA version_name = "Clemson Class" } } }
 			ship = { name = "HMS Campbeltown" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA creator = USA version_name = "Clemson Class" } } }
 			ship = { name = "HMS Castleton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA creator = USA version_name = "Clemson Class" } } }

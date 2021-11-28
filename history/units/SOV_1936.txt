@@ -133,7 +133,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 77
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -144,7 +144,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 77
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -155,7 +155,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 79
 		}
-		location =5889
+		location =6380
 		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -166,7 +166,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 72
 		}
-		location =5889
+		location =6380
 		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -177,7 +177,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 50
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -188,7 +188,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 51
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -199,7 +199,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 28
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -210,7 +210,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 68
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -221,7 +221,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 83
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.3
@@ -232,7 +232,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 84
 		}
-		location =5889
+		location =6380
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.3

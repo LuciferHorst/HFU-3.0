@@ -2,10 +2,10 @@
 units = {
 	fleet = {
 		name = "Home Command Legacy Test"
-		naval_base =10040
+		naval_base =9458
 		task_force = {
 			name = "Home Fleet"
-			location =10040
+			location =9458
 			ship = { name = "HMS Ark Royal" definition = carrier equipment = { carrier_2 = { amount = 1 owner = ENG } }
 				air_wings = {
 					cv_fighter_equipment_1 =  { owner = "ENG" amount = 12 }

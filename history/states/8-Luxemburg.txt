@@ -1,26 +1,30 @@
-state={
+state=
+{
 	id=8
 	name="STATE_8"
-	state_category = large_city
+	
+	state_category = town
+	
 	manpower = 294748
 	resources={
-		steel=5
+		steel=5 # was: 8
 	}
+
 	history=
 	{
 		owner = LUX
-		add_extra_state_shared_building_slots = 10
 		buildings = {
-			infrastructure = 4
-			arms_factory = 7
-			industrial_complex = 6
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
 		}
-		victory_points = {6087 5 }
+		victory_points = { 6583 5 }
 		add_core_of = LUX
 	}
-	provinces={
-		6087
-	}
-	local_supplies=0.0
-}
 
+	provinces=
+	{
+6583 	}
+
+	local_supplies=0.0 
+}

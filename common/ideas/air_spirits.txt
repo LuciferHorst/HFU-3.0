@@ -31,6 +31,7 @@ ideas = {
 			}
 			modifier = {
 				CAS_equipment_design_cost_factor = -0.75
+				cv_CAS_equipment_design_cost_factor = -0.75
 			}
 			ai_will_do = {
 				factor = 1.5

@@ -239,7 +239,101 @@ characters={
 		}
 	}
 
+	GRE_charalambos_katsimitros={
+		name=GRE_charalambos_katsimitros
+		portraits={
+			army={
+				large="GFX_portrait_gre_charalambos_katsimitros"
+				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist trait_cautious war_hero trait_GRE_stauch_monarchist trickster trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=304
+		}
+	}
+
+	GRE_markos_drakos={
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name=GRE_markos_drakos
+			portraits={
+				army={
+					large="GFX_portrait_gre_markos_drakos"
+					small="gfx/interface/ideas/idea_GRE_markos_drakos.dds"
+				}
+			}
+			corps_commander={
+				traits={ career_officer infantry_officer trickster trait_mountaineer }
+				skill=3
+				attack_skill=1
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=3
+				legacy_id=306
+			}
+		}
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			name=GRE_markos_drakos
+			portraits={
+				army={
+					large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+					small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
+				}
+			}
+			corps_commander={
+				traits={ hill_fighter }
+				skill=3
+				attack_skill=1
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=3
+				legacy_id=-1
+			}
+		}
+	}
+
 	### Empty characters -> Can become Unit Leaders later
+
+	GRE_theodoros_pangalos = {
+		name=GRE_theodoros_pangalos
+		portraits={
+			army={
+				large="GFX_portrait_gre_theodoros_pangalos"
+				small="gfx/interface/ideas/idea_GRE_theodoros_pangalos.dds" #Can become a unit leader later
+			}
+		}
+	}
+
+	GRE_dimitrios_psarros = {
+		name=GRE_dimitrios_psarros
+		portraits={
+			army={
+				large="GFX_portrait_gre_dimitrios_psarros"
+				small="gfx/interface/ideas/idea_GRE_dimitrios_psarros.dds" #Can become a unit leader later
+			}
+		}
+	}
+
+	GRE_panagiotis_demestichas = {
+		name=GRE_panagiotis_demestichas
+		portraits={
+			army={
+				large="GFX_portrait_gre_panagiotis_demestichas"
+				small="gfx/interface/ideas/idea_GRE_panagiotis_demestichas.dds" #Can become a unit leader later
+			}
+		}
+	}
 
 	GRE_nikolaos_plastiras={
 		instance = {
@@ -848,6 +942,40 @@ characters={
 					factor = 1.000
 				}
 			}
+		}
+	}
+
+	GRE_eleftherios_venizelos={
+		name=GRE_eleftherios_venizelos
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_GRE_eleftherios_venizelos.dds"
+			}
+			civilian={
+				large="GFX_portrait_gre_eleftherios_venizelos"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = GRE_eleftherios_venizelos
+			ledger = air
+			allowed = {
+				original_tag = GRE
+				NOT = {
+					has_dlc = "Battle for the Bosporus"
+				}
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+
+		country_leader={
+			ideology=liberalism
+			traits={ ethnarch }
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 

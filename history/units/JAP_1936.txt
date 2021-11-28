@@ -196,7 +196,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -205,7 +205,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -214,7 +214,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -223,7 +223,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 		}division = {
@@ -231,7 +231,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -240,7 +240,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -249,7 +249,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -258,7 +258,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location =11282
+		location =1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}

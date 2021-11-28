@@ -27,14 +27,14 @@ equipments = {
 		#recon 			= 2
 
 		#Defensive Abilities
-		defense 		= 0.3
-		breakthrough 	= 1.4
+		defense 		= 3
+		breakthrough 	= 16
 		hardness 		= 0.65
 		armor_value 	= 10
 
 		#Offensive Abilities
-		soft_attack 	= 0.7
-		hard_attack 	= 0.25
+		soft_attack 	= 13
+		hard_attack 	= 4
 		ap_attack 		= 8
 		air_attack 		= 0
 
@@ -47,6 +47,7 @@ equipments = {
 			steel 		= 2
 		}
 
+		fuel_consumption 	= 1.8
 	}
 
 	# WW1 Armored Car
@@ -65,17 +66,18 @@ equipments = {
 		#recon 			= 1
 
 		#Defensive Abilities
-		defense 		= 0.2
-		breakthrough 	= 1.2
+		defense 		= 2
+		breakthrough 	= 12
 		armor_value 	= 3
 
 		#Offensive Abilities
-		soft_attack 	= 0.6
-		hard_attack 	= 0.2
+		soft_attack 	= 6
+		hard_attack 	= 2
 		ap_attack 		= 6
 		air_attack 		= 0
 
 		build_cost_ic 		= 4 
+		fuel_consumption 	= 0.8
 	}
 
 	armored_car_equipment_1 = {
@@ -103,15 +105,15 @@ equipments = {
 		maximum_speed 	= 15
 
 		#Defensive Abilities
-		defense 		= 0.5
-		breakthrough 	= 1.4
+		defense 		= 5
+		breakthrough 	= 28
 		hardness 		= 0.70
 		armor_value 	= 20
 		#recon 			= 2
 
 		#Offensive Abilities
-		soft_attack 	= 0.75
-		hard_attack 	= 0.3
+		soft_attack 	= 16
+		hard_attack 	= 8
 		ap_attack 		= 36
 		air_attack 		= 0		
 		
@@ -136,17 +138,17 @@ equipments = {
 		#Misc Abilities
 		maximum_speed 	= 16
 		reliability 	= 0.8
-		recon 			= 1
+		#recon 			= 1
 
 		#Defensive Abilities
-		defense 		= 0.6
-		breakthrough 	= 1.5
+		defense 		= 6
+		breakthrough 	= 28
 		hardness 		= 0.70
 		armor_value 	= 20
 
 		#Offensive Abilities
-		soft_attack 	= 0.8
-		hard_attack 	= 0.4
+		soft_attack 	= 12
+		hard_attack 	= 14
 		ap_attack 		= 62
 		air_attack 		= 0
 		
@@ -156,6 +158,7 @@ equipments = {
 			steel 		= 2
 			tungsten 	= 1
 		}
+		fuel_consumption = 1.8
 	}
 
 	

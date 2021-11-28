@@ -13,6 +13,117 @@ characters={
 		}
 	}
 
+	SAF_d_f_malan={
+		name=SAF_d_f_malan
+		portraits={
+			civilian={
+				large="GFX_SAF_daniel_malan"
+			}
+			army={
+				small="gfx/interface/ideas/idea_SAF_daniel_malan.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SAF_d_f_malan
+			allowed = {
+				original_tag = SAF
+			}
+			traits = {
+				backroom_backstabber 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+		
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SAF_moses_kotane={
+		name=SAF_moses_kotane
+		portraits={
+			civilian={
+				large="GFX_SAF_moses_kotane"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SAF_pixley_ka_isaka_seme={
+		name=SAF_pixley_ka_isaka_seme
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SAF_jan_smuts = {
+		name=SAF_jan_smuts
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SAF_george_edwin_brink={
+		name=SAF_george_edwin_brink
+		portraits={
+			army={
+				large="GFX_SAF_george_edwin_brink"
+				small="gfx/interface/ideas/idea_SAF_george_edwin_brink.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	SAF_guy_hallifax={
+		name=SAF_guy_hallifax
+		portraits={
+			army={
+				large="GFX_SAF_guy_halifax"
+				small="gfx/interface/ideas/idea_SAF_guy_halifax.dds"
+			}
+		}
+		navy_leader={
+			traits={ battleship_adherent }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
+
 
 	### THEORISTS ###
 

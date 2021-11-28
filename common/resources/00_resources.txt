@@ -2,7 +2,7 @@ resources = {
 
 	oil = {
 		icon_frame = 1
-		cic = 0.015625
+		cic = 0.125
 		convoys = 0.1
 	}
 

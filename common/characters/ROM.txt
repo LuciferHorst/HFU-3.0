@@ -102,6 +102,44 @@ characters={
 		}
 	}
 
+	ROM_petre_dumitrescu={
+		name=ROM_petre_dumitrescu
+		portraits={
+			army={
+				large="GFX_Portrait_romania_petre_dumitrescu"
+				small="gfx/interface/ideas/idea_ROM_petre_dumitrescu.dds"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	ROM_ioan_mihail_racovita={
+		name=ROM_ioan_mihail_racovita
+		portraits={
+			army={
+				large="GFX_Portrait_romania_ioan_mihail_racovita"
+				small="gfx/interface/ideas/idea_ROM_ioan_mihail_racovita.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
 
 	### THEORISTS ###
 

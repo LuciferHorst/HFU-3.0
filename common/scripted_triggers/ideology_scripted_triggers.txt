@@ -1,3 +1,4 @@
+
 is_enemy_ideology = {
 	OR = {
 		AND = {
@@ -29,4 +30,3 @@ is_enemy_ideology = {
 		}
 	}
 }
-

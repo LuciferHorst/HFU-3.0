@@ -2,10 +2,10 @@
 units= {
 	fleet = {
 		name = "Severnyy Flot"
-		naval_base =10062
+		naval_base = 3151
 		task_force = {
 			name = "Severnyy Flot"
-			location =10062
+			location = 3151
 			ship = { name = "Dzerzhinskiy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
 			ship = { name = "Nezamozhnik" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
 			ship = { name = "Petrovskiy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
@@ -16,10 +16,10 @@ units= {
 	}
 	fleet = {
 		name = "Baltiyskiy Flot"
-		naval_base =10062
+		naval_base = 3151
 		task_force = {
 			name = "Baltiyskiy Flot"
-			location =10062
+			location = 3151
 			ship = { name = "Marat" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
 			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
 			ship = { name = "Marti" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Marti Class" } } }
@@ -36,10 +36,10 @@ units= {
 	}
 	fleet = {
 		name = "Chernomorskiy Flot"
-		naval_base =10062
+		naval_base = 3151
 		task_force = {
 			name = "Chernomorskiy Flot"
-			location =10062
+			location = 3151
 			ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
 			ship = { name = "Krasni Kavkaz" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Chervona Ukraina Class" } } }
 			ship = { name = "Krasny Krym" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Chervona Ukraina Class" } } }
@@ -50,10 +50,10 @@ units= {
 	}
 	fleet = {
 		name = "Tikhookeanskiy Flot"
-		naval_base =10062
+		naval_base = 3151
 		task_force = {
 			name = "Tikhookeanskiy Flot"
-			location =10062
+			location = 3151
 			ship = { name = "Uritskiy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
 			ship = { name = "Stalin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
 		}

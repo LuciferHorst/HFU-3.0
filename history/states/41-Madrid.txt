@@ -1,29 +1,35 @@
 state={
 	id=41
 	name="STATE_41"
-	manpower = 2269659
-	state_category = city
 	resources={
-		steel=30
+		aluminium=1.000
 	}
+
 	history={
 		owner = SPR
 		victory_points = {
-			3685 50
+			3938 30 
 		}
 		victory_points = {
-			820 1
+			858 1
 		}
 		buildings = {
-			industrial_complex = 1
 			infrastructure = 3
-			anti_air_building =10
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 6
+
 		}
 		add_core_of = SPR
-	}
-	provinces={
-		820 854 891 925 3562 3611 3685 3724 6403 8980 9010 10728 11872
-	}
-	local_supplies=0.0
-}
 
+	}
+
+	provinces={
+		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224 
+	}
+	manpower=2064659
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}
