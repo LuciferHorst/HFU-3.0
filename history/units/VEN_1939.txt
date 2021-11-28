@@ -1,6 +1,7 @@
 ﻿division_template = {
-	name = "División de Infanteria"
+	name = "División de Infanteria"	
 	division_names_group = SPAN_INF_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -11,8 +12,9 @@
 	}
 }
 division_template = {
-	name = "División de Caballería"
+	name = "División de Caballería"  
 	division_names_group = SPAN_CAV_01
+
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -20,30 +22,39 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 	}
 }
+
 units = {
-	division= {
+	##### Alto Mando de Venezuela #####
+	division= {	# "1a División 'Eduardo Blanco'"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 1
+				is_name_ordered = yes
+				name_order = 1
 		}
-		location =4559
+		location = 8113 # Caracas
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
+
 	}
-	division= {
+	division= {	
 		name = "Los Caballos de Venezuela"
-		location =4559
+		location = 8113 # Caracas
 		division_template = "División de Caballería"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
+
 	}
+
+	##### No notable navy #####
 }
+
 air_wings = {
+	### Aviación Militar Venezolana -- Cartagena
 	307 = {
-		fighter_equipment_0 =  { owner = "VEN" amount = 12 }
+		fighter_equipment_0 =  { owner = "VEN" amount = 12 }		# Regimiento Militar de Aviación 1 -- Dewotine D.500s, Fiat CR.32s
 	}
 }
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -55,4 +66,3 @@ instant_effect = {
 		efficiency = 100
 	}
 }
-

@@ -85,7 +85,8 @@
  SH_battleship_1_desc:0 "The current state of the world no longer has any room for abiding by naval treaties. Without these limitations, we can focus entirely on creating the heaviest, most well-armed battleships of all time, able to engage multiple lesser vessels."
  SH_battleship_2_desc:0 "An improvement on our earlier super heavy design with stronger weapons and improved fire control systems."
  ship_hull_super_heavy_1_desc:0 "The current state of the world no longer has any room for abiding by naval treaties. Without these limitations, we can focus entirely on creating the heaviest, most well-armed battleships of all time, able to engage multiple lesser vessels."
- ship_hull_light_1:2 "Early Destroyer Hull"
+ ship_hull_super_heavy_2_desc:0 "The current state of the world no longer has any room for abiding by naval treaties. Without these limitations, we can focus entirely on creating the heaviest, most well-armed battleships of all time, able to engage multiple lesser vessels."
+ship_hull_light_1:2 "Early Destroyer Hull"
  ship_hull_light_2:2 "1936 Destroyer Hull"
  ship_hull_light_3:2 "1940 Destroyer Hull"
  ship_hull_light_4:2 "1944 Destroyer Hull"
@@ -126,6 +127,7 @@
  ship_hull_torpedo_cruiser:0 "Torpedo Cruiser"
  ship_hull_torpedo_cruiser_desc:0 "Light cruisers equipped with a large number of torpedo tubes, at the cost of a smaller main battery and fewer anti-aircraft guns."
  ship_hull_super_heavy_1:0 "Super Heavy Battleship Hull"
+ ship_hull_super_heavy_2:0 "Improved Super Heavy Battleship Hull"
  ship_hull_cruiser_submarine:0 "Cruiser Submarine"
  ship_hull_cruiser_submarine_desc:0 "A larger submarine hull optimized for longer range. Can be equipped with additional fuel tanks for even more range, or a small scout airplane."
  ### ENG - ENGLAND ###
@@ -1251,6 +1253,5 @@
  YUG_destroyer_4_desc:0 "The Split was a heavy destroyer launched and completed in Yugoslavia. It was launched in 1943 but not completed until 1958, with a modified design. Its original design displaced 2,400 tons and was armed with five 140/56 Skoda guns in its main armament. Despite its size, it had excellent speed."
  YUG_light_cruiser_1:0 "Dalmacija Class"
  YUG_light_cruiser_1_desc:0 "The old German cruiser SMS Niobe was sold in 1925 to the young Royal Yugoslavian Navy and extensively rebuilt. Equipped with modern AA and the heaviest guns in the Navy, Dalmacija served primarily as a gunnery training ship."
- screen_ship:0 "Screens"
- capital_ship:0 "Capital Ships"
+ 
  

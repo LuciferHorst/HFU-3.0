@@ -1,7 +1,8 @@
 ﻿start_equipment_factor = 0.2
 division_template = {
-	name = "Infanteriet Divisjon"
+	name = "Infanteriet Divisjon"		
 	division_names_group = NOR_INF_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -14,12 +15,13 @@ division_template = {
 		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }  
 	}
 }
 division_template = {
-	name = "Binær Divisjon"
+	name = "Binær Divisjon"		
 	division_names_group = NOR_INF_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -29,118 +31,142 @@ division_template = {
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }  
 	}
 }
 division_template = {
-	name = "Dragonregiment"
+	name = "Dragonregiment" 
 	division_names_group = NOR_CAV_01
+
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
 	}
 }
+
+
 units = {
-	division = {
+	######## LAND UNITS ########
+	##### Kongelige Norwegan Overkommando #####
+	division = { # "1. Divisjon"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 1
+				is_name_ordered = yes
+				name_order = 1
 		}
-		location =5656
+		location = 6115
 		division_template = "Infanteriet Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
 	division = {
 		name = "1. Dragonregiment"
-		location =5656
+		location = 6115
 		division_template = "Dragonregiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
-	division = {
+
+	division = { # "2. Divisjon"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 2
+				is_name_ordered = yes
+				name_order = 2
 		}
-		location =8414
+		location = 9157
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
 	division = {
 		name = "2. Dragonregiment"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 1
+				is_name_ordered = yes
+				name_order = 1
 		}
-		location =8414
+		location = 9157
 		division_template = "Dragonregiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
-	division = {
+
+	division = { # "3. Divisjon"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 3
+				is_name_ordered = yes
+				name_order = 3
 		}
-		location =8532
+		location = 9296
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
-	division = {
+
+	division = { # "4. Divisjon"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 4
+				is_name_ordered = yes
+				name_order = 4
 		}
-		location =113
+		location = 122
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
-	division = {
+
+	division = { # "5. Divisjon"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 5
+				is_name_ordered = yes
+				name_order = 5
 		}
-		location =2834
+		location = 3022
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
 	division = {
 		name = "3. Dragonregiment"
-		location =2834
+		location = 3022
 		division_template = "Dragonregiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
-	division = {
+
+	division = { # "6. Divisjon"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 6
+				is_name_ordered = yes
+				name_order = 6
 		}
-		location =169
+		location = 192
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
 	division = {
 		name = "Finnmark Brigaden"
-		location =8385
+		location = 9116
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+
 	}
 }
+
 air_wings = {
+	### Luftforsvaret -- Oslo
 	110 = {
-		fighter_equipment_0 =  { owner = "NOR" amount = 15 }
-		tac_bomber_equipment_0 =  { owner = "NOR" amount = 15 }
+		fighter_equipment_0 =  { owner = "NOR" amount = 15 }			# Fighter Squadron -- Gloster Gladiator
+		tac_bomber_equipment_0 =  { owner = "NOR" amount = 15 }			# Bomber Squadron -- Fokker C.Vd
 	}
 }
+
+### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -154,11 +180,10 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "NOR"
+			creator = "NOR" 
 		}
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 100
 	}
 }
-

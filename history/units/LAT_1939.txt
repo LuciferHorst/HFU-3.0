@@ -1,6 +1,7 @@
 ﻿division_template = {
-	name = "Kajnieku Divizija"
+	name = "Kajnieku Divizija"				# Infantry Division	
 	division_names_group = LAT_INF_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -13,57 +14,68 @@
 		infantry = { x = 2 y = 2 }
 	}
 }
+
 units = {
-	division = {
+	######## LAND OOB ########
+	##### Latvijas Augstas Komandu #####
+	division = { # "1. Kurzemes Divizija"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 1
+				is_name_ordered = yes
+				name_order = 1
 		}
-		location =8570
+		location = 9340
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
+
 	}
-	division = {
+	division = { # "2. Vidzemes Divizija"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 2
+				is_name_ordered = yes
+				name_order = 2
 		}
-		location =8570
+		location = 9340
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
+
 	}
-	division = {
+	division = { # "3. Zemgales Divizija"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 3
+				is_name_ordered = yes
+				name_order = 3
 		}
-		location =279
+		location = 310
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
+
 	}
-	division = {
+	division = { # "4. Latgales Divizija"
 		division_name = {
-			is_name_ordered = yes
-			name_order = 4
+				is_name_ordered = yes
+				name_order = 4
 		}
-		location =237
+		location = 265
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
+
 	}
 }
+
 air_wings = {
+	### Latvijas Gaisa Speki
 	12 = {
-		fighter_equipment_0 =  { owner = "LAT" amount = 30 }
+		fighter_equipment_0 =  { owner = "LAT" amount = 30 }		# Aviacijas Pulka -- Gladiator Is, Bristol Bulldogs
 	}
 }
+
+### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -75,4 +87,3 @@ instant_effect = {
 		efficiency = 100
 	}
 }
-

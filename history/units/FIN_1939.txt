@@ -1,7 +1,10 @@
 ﻿start_equipment_factor = 0.6
+##### Division Templates #####
 division_template = {
-	name = "Jalkaväkidivisioona"
+	name = "Jalkaväkidivisioona"		# Infantry Division
+
 	division_names_group = FIN_INF_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -11,211 +14,271 @@ division_template = {
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }  
 	}
 }
 division_template = {
-	name = "Erillinen Prikaati"
+	name = "Erillinen Prikaati" 	# Separate Brigade - Represents groups of separate battalions (Erillinen Pataljoona) and various garrison units
+
 	division_names_group = FIN_GAR_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }  
 	}
 	priority = 0
 }
 division_template = {
-	name = "Ratsuväkiprikaati"
+	name = "Ratsuväkiprikaati" 		# Cavalry Division
+
 	division_names_group = FIN_CAV_01
+
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 1 y = 0 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }   
 	}
 }
+
+
+##### OOB #####
 units = {
+	##### LAND UNITS #####
+	##### Suomen Pääesikunta #####
 	division = {
-		division_name = {
+		#name = "6. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location =2934
+		location = 3137 # Tampere
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "9. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location =141
+		location = 158 # Oulu
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "Lapin Ryhmä"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location =174
+		location = 197 # Salla
 		division_template = "Erillinen Prikaati"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+
 	}
 	division = {
-		division_name = {
+		#name = "Pohjois-Karjalan Ryhmä"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location =5725
+		location = 6210 # Uimaharju 
 		division_template = "Erillinen Prikaati"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+
 	}
+	
+	# IV Corps
 	division = {
-		division_name = {
+		#name = "12. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location =8339
+		location = 9061 # Joensuu
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "13. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location =10102
+		location = 11141 # Kuopio
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "Räsäsen Ryhmä"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location =5684
+		location = 6153 # Suojärvi
 		division_template = "Erillinen Prikaati"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+
 	}
+
+	### Kannaksen Armeija ###
+	# II Corps
 	division = {
-		division_name = {
+		#name = "1. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location =8454
+		location = 9206 # Viipuri
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "4. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location =10074
+		location = 11105 # Helsinki
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "5. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location =2888
+		location = 3083 # Turku
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "11. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 11
-		}
-		location =2869
+		} 
+		location = 3061 # Kotka
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "Ratsuväkiprikaati"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location =5627
-		division_template = "Ratsuväkiprikaati"
+		location = 6082 # Lappeenranta
+		division_template = "Ratsuväkiprikaati" 
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+
 	}
 	division = {
-		division_name = {
+		#name = "Lipolan Ryhmä"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location =8430
+		location = 9176 # Salmi
 		division_template = "Erillinen Prikaati"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+
 	}
 	division = {
-		division_name = {
+		#name = "Muolaan Ryhmä"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location =2869
+		location = 3061 # Kotka
 		division_template = "Erillinen Prikaati"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+
 	}
 	division = {
-		division_name = {
+		#name = "Uudenkirkon Ryhmä"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location =8430
+		location = 9176 # Salmi
 		division_template = "Erillinen Prikaati"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+
 	}
+	# III Corps
 	division = {
-		division_name = {
+		#name = "8. Divisioona" # Vaasa
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location =2920
+		location = 3122
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
 	division = {
-		division_name = {
+		#name = "10. Divisioona"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location =8334
+		location = 9056 # Jyväskylä
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
+
 	}
+	#division = {
+	#	name = "Raudun Ryhmä"
+	#	location = 9181 # Ilomantsi
+	#	division_template = "Erillinen Prikaati"
+	#	start_experience_factor = 0.4
+	#	start_equipment_factor = 0.5
+	#}
 }
+
 air_wings = {
-	111 = {
-		CAS_equipment_1 = { owner = "FIN" amount = 28 }
-		fighter_equipment_0 = { owner = "FIN" amount = 45 }
+	111 = { 														# Helsinki
+		CAS_equipment_1 = { owner = "FIN" amount = 28 }				# 1, 4 Bomber Groups -- Fokker C.Xs, Blenheim Is
+		fighter_equipment_0 = { owner = "FIN" amount = 45 }			# 2 Fighter Group -- Fokker D.XXIs, Bristol Bulldogs
 	}
 }
+
+
+### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -245,4 +308,3 @@ instant_effect = {
 		efficiency = 100
 	}
 }
-

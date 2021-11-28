@@ -1,198 +1,295 @@
-﻿division_template = {
-	name = "Suppression"
-	division_names_group = SPR_CAV_01
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 0 y = 4 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
-		cavalry = { x = 1 y = 4 }
-	}
-	support = {
-		military_police = { x = 0 y = 0 }
-	}
-}
+﻿##### Division Templates #####
 division_template = {
-	name = "Brigada Internacionales"
-	division_names_group = SPR_MNT_01
+	name = "División de Infantería" 		# Used for both regular infantry divisions and larger garrison divisions
+	division_names_group = SPR_INF_01
+	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
-		infantry = { x = 0 y = 4 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
-		infantry = { x = 1 y = 4 }
-	}
-}
-division_template = {
-	name = "Light Tank Division"
-	division_names_group = SPR_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-		light_armor = { x = 0 y = 3 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_armor = { x = 1 y = 2 }
-		light_armor = { x = 1 y = 3 }
-		light_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 1 }
-		light_armor = { x = 2 y = 2 }
-		light_armor = { x = 2 y = 3 }
-		motorized = { x = 3 y = 0 }
-		motorized = { x = 3 y = 1 }
-		motorized = { x = 3 y = 2 }
-		motorized = { x = 3 y = 3 }
-		motorized = { x = 4 y = 0 }
-		motorized = { x = 4 y = 1 }
-		motorized = { x = 4 y = 2 }
-		motorized = { x = 4 y = 3 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
-		mot_recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-		anti_air = { x = 0 y = 3  }
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		engineer = { x = 0 y = 1 }   # Eng Bn
 	}
 }
 division_template = {
-	name = "Mountain Division"
+	name = "División de Caballería"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
+	division_names_group = SPR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of motorcycles and ACs
+	}
+}
+division_template = {
+	name = "Brigada Montaña"  		# Mountain Brigades were 2x2 Rgts + support
 	division_names_group = SPR_MNT_01
 	regiments = {
-		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 0 }	
 		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 0 y = 3 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
-		artillery_brigade = { x = 1 y = 4}
-		mountaineers =  { x = 2 y = 0 }
-		mountaineers =  { x = 2 y = 1 }
-		mountaineers =  { x = 2 y = 2 }
-		artillery_brigade  =  { x = 2 y = 3 }
-		artillery_brigade = { x = 2 y = 4 }
-		mountaineers = { x = 3 y = 0 }
-		mountaineers = { x = 3 y = 1 }
-		mountaineers = { x = 3 y = 2 }
-		anti_air_brigade = { x = 3 y = 3 }
-		anti_tank_brigade = { x = 3 y = 4 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
 	}
 }
 division_template = {
-	name = "Shock Troopers"
-	division_names_group = SPR_SHOCK_01
+	name = "Brigada de Infantería" 		# Infantry Brigade - Used for smaller garrison units
+	division_names_group = SPR_GAR_01
+
 	regiments = {
-		shocktroop = { x = 0 y = 0 }
-		shocktroop = { x = 0 y = 1 }
-		shocktroop = { x = 0 y = 2 }
-		shocktroop = { x = 0 y = 3 }
-		shocktroop = { x = 1 y = 0 }
-		shocktroop = { x = 1 y = 1 }
-		shocktroop = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
-		artillery_brigade = { x = 1 y = 4}
-		shocktroop =  { x = 2 y = 0 }
-		shocktroop =  { x = 2 y = 1 }
-		shocktroop =  { x = 2 y = 2 }
-		artillery_brigade  =  { x = 2 y = 3 }
-		artillery_brigade = { x = 2 y = 4 }
-		shocktroop = { x = 3 y = 0 }
-		shocktroop = { x = 3 y = 1 }
-		shocktroop = { x = 3 y = 2 }
-		anti_air_brigade = { x = 3 y = 3 }
-		anti_tank_brigade = { x = 3 y = 4 }
+		infantry = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }	
+		infantry = { x = 1 y = 0 }	
+		infantry = { x = 1 y = 1 }	
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+		engineer = { x = 0 y = 0 }   # Eng Bn
 	}
 }
-division_template = {
-	name = "Marine Division"
-	division_names_group = SPR_MAR_01
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 0 y = 2 }
-		marine = { x = 0 y = 3 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
-		artillery_brigade = { x = 1 y = 4}
-		marine =  { x = 2 y = 0 }
-		marine =  { x = 2 y = 1 }
-		marine =  { x = 2 y = 2 }
-		artillery_brigade  =  { x = 2 y = 3 }
-		artillery_brigade = { x = 2 y = 4 }
-		marine = { x = 3 y = 0 }
-		marine = { x = 3 y = 1 }
-		marine = { x = 3 y = 2 }
-		anti_air_brigade = { x = 3 y = 3 }
-		anti_tank_brigade = { x = 3 y = 4 }
+
+###### OOB ######
+units = {
+	#####LAND UNITS #####
+	### MAINLAND UNITS ###
+	division = { # "1a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = { # "2a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 7183  # Sevilla
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = { # "3a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 6906  # Valencia
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = { # "4a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 9764  # Barcelona
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = { # "5a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 3816  # Zaragosa
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = { # "6a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 885  # Burgos
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = { # "7a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 11825  # Valladolid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = { # "8a División de Infantería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 758  # La Coruña
+		division_template = "División de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = { # "1a División de Caballería"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9764  # Barcelona
+		division_template = "División de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "1a Brigada Montaña"		
+		location = 13071  # Canary Islands
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "2a Brigada Montaña"		
+		location = 740  #Bilbao
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Brigada Mixta Montaña"		
+		location = 11707  #Oviedo
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+	division = {			
+		name = "Brigada de Arma de Infantería"		
+		location = 1048  #Cádiz
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+
+
+	### Island Garrisons ###
+	division = { # "Comandancia de Baleares"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9793  #Mallorca
+		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+	division = { # "Comandancia de Canarias"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 13071  # Canary Islands
+		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}			
+
+
+	### Ejército de África ###
+	division = {			
+		name = "Circunscripción Occidental"		
+		location = 9945  #Ceuta
+		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Circunscripción Oriental"		
+		location = 12100  #Melilla
+		division_template = "División de Infantería"		# garrison division, lower equipment, experience
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}			
+}
+
+### Air Wings
+air_wings = {
+	# Arma de Aviación -- Madrid (Getafe)
+	41 = { 
+		# Grupo n.1 de Caza FARE 'Alas Rojas'
+		fighter_equipment_0 = {
+			owner = "SPR" 
+			amount = 36
+		}
 	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
+	# Arma de Aviación -- Sevilla (and Barcelona)
+	169 = {
+		# Grupo n.3 de Caza FARE 'Malraux'
+		fighter_equipment_0 = {
+			owner = "SPR" 
+			amount = 24
+		}
+	}
+	# Aeronáutica Naval -- Murcia
+	168 = {
+		nav_bomber_equipment_1 = {
+			owner = "SPR" 
+			amount = 27
+		}
 	}
 }
-division_template = {
-	name = "Desert Troopers"
-	division_names_group = SPR_DEZERT_01
-	regiments = {
-		desertinfantry = { x = 0 y = 0 }
-		desertinfantry = { x = 0 y = 1 }
-		desertinfantry = { x = 0 y = 2 }
-		desertinfantry = { x = 0 y = 3 }
-		desertinfantry = { x = 1 y = 0 }
-		desertinfantry = { x = 1 y = 1 }
-		desertinfantry = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
-		artillery_brigade = { x = 1 y = 4}
-		desertinfantry =  { x = 2 y = 0 }
-		desertinfantry =  { x = 2 y = 1 }
-		desertinfantry =  { x = 2 y = 2 }
-		artillery_brigade  =  { x = 2 y = 3 }
-		artillery_brigade = { x = 2 y = 4 }
-		desertinfantry = { x = 3 y = 0 }
-		desertinfantry = { x = 3 y = 1 }
-		desertinfantry = { x = 3 y = 2 }
-		anti_air_brigade = { x = 3 y = 3 }
-		anti_tank_brigade = { x = 3 y = 4 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
-}
+
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
 			creator = "SPR"
 		}
-		requested_factories = 1
-		progress = 0.49
+		requested_factories = 2
+		progress = 0.42
 		efficiency = 100
 	}
 	add_equipment_production = {
@@ -201,16 +298,7 @@ instant_effect = {
 			creator = "SPR"
 		}
 		requested_factories = 1
-		progress = 0.73
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = motorized_equipment_1
-			creator = "SPR"
-		}
-		requested_factories = 1
-		progress = 0.4
+		progress = 0.24
 		efficiency = 100
 	}
 	add_equipment_production = {
@@ -219,34 +307,7 @@ instant_effect = {
 			creator = "SPR"
 		}
 		requested_factories = 1
-		progress = 0.4
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = anti_air_equipment_1
-			creator = "SPR"
-		}
-		requested_factories = 1
-		progress = 0.4
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = amphibious_mechanized_equipment_1
-			creator = "SPR"
-		}
-		requested_factories = 1
-		progress = 0.4
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = gw_armored_car_equipment
-			creator = "SPR"
-		}
-		requested_factories = 1
-		progress = 0.4
+		progress = 0.24
 		efficiency = 100
 	}
 }

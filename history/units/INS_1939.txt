@@ -1,6 +1,7 @@
 ﻿division_template = {
-	name = "Infanterie Divisie"
+	name = "Infanterie Divisie"		# full Colonial Divisions (old equipment, low experience)
 	division_names_group = INS_INF_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -14,87 +15,108 @@
 	}
 }
 division_template = {
-	name = "KNIL Koloniaal Garnizoen"
+	name = "KNIL Koloniaal Garnizoen"		
+	# Note: originally formed in 1939
 	division_names_group = INS_GAR_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 	}
 }
+
+
+
 units = {
-	division = {
+	######## LAND OOB ########
+	##### Indonesian High Command #####
+	division = { # "IIIe Territoriaal Commando 'Borneo'"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location =9413
-		division_template = "KNIL Koloniaal Garnizoen"
+		location = 10237 #Balikapan/Borneo
+		division_template = "KNIL Koloniaal Garnizoen"		
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3
 	}
-	division = {
+	
+	division = { # "Ie Territoriaal Commando 'Sumatra'"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location =11147
-		division_template = "KNIL Koloniaal Garnizoen"
+		location = 12268 #Palembang/Sumatra
+		division_template = "KNIL Koloniaal Garnizoen"		
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3
 	}
-	division = {
+	division = { # "IIe Territoriaal Commando 'Sumatra'"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location =4360
-		division_template = "KNIL Koloniaal Garnizoen"
+		location = 4652 #Medan/Palembang
+		division_template = "KNIL Koloniaal Garnizoen"		
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3
 	}
-	division = {
+	division = { # "IVe Territoriaal Commando 'Celebes'"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location =9439
-		division_template = "KNIL Koloniaal Garnizoen"
+		location = 10263 #Celebes
+		division_template = "KNIL Koloniaal Garnizoen"		
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3
 	}
-	division = {
+### Java defense, replacing 3 full divisions at 1/3 strength
+	division = { # "Ie Divisie 'Java'"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location =4320
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 0.2
+		location = 4608 #Java
+		division_template = "Infanterie Divisie"		
+		start_experience_factor = 0.2 #regulars
 		start_equipment_factor = 0.3
 	}
-	division = {
+
+	division = { # "IIe Divisie 'Java'"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location =7076
-		division_template = "Infanterie Divisie"
+		location = 7642 #Java
+		division_template = "Infanterie Divisie"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
-	division = {
+
+	division = { # "IIIe Divisie 'Java'"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location =6844
-		division_template = "Infanterie Divisie"
+		location = 7381 #Java
+		division_template = "Infanterie Divisie"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
+
 }
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
 instant_effect = {
+
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
@@ -104,5 +126,7 @@ instant_effect = {
 		progress = 0.1
 		efficiency = 50
 	}
+
 }
 
+#################################
