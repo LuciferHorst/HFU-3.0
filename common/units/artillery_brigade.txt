@@ -94,7 +94,6 @@ sub_units = {
 			category_army
 			category_line_artillery
 			category_artillery
-			category_mobile_artillery
 		}
 		soft_attack = 0.25
 		combat_width = 3
@@ -241,7 +240,6 @@ sub_units = {
 			category_army
 			category_line_artillery
 			category_artillery
-			category_mobile_artillery
 		}
 
 		combat_width = 3
@@ -317,7 +315,6 @@ sub_units = {
 			category_army
 			category_line_artillery
 			category_artillery
-			category_mobile_artillery
 		}
 
 		combat_width = 3
