@@ -1,8 +1,7 @@
 ﻿start_equipment_factor = 0.2
 division_template = {
-	name = "Infanteri Division"	# represents first part of enlarged divisions
+	name = "Infanteri Division"
 	division_names_group = DEN_INF_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -14,14 +13,13 @@ division_template = {
 		infantry = { x = 1 y = 3 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   	# Pioneer Bn
-		artillery = { x = 0 y = 1 } 	# Heavy Arty 1x-3x 155mm howitzer battalions
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
 	}
 }
 division_template = {
-	name = "Binær Division"	# represents second part of enlarged divisions
+	name = "Binær Division"
 	division_names_group = DEN_INF_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -30,84 +28,70 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }      # Recon Group ACs comp + cavalry
+		recon = { x = 0 y = 0 }
 	}
 }
 division_template = {
 	name = "Kavaleri Brigade"
 	division_names_group = DEN_CAV_01
-
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
 	}
 }
-
 units = {
-	##### Kongelige Danske Overkommandoen #####
-	division = { 
+	division = {
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+		location =5801
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division = { # "2. Sjællandske Division"
+	division = {
 		division_name = {
-				is_name_ordered = yes
-				name_order = 2
+			is_name_ordered = yes
+			name_order = 2
 		}
-		location = 3325  # Odense
+		location =3109
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division = { # "1. Jyske Division"
+	division = {
 		division_name = {
-				is_name_ordered = yes
-				name_order = 1
+			is_name_ordered = yes
+			name_order = 1
 		}
-		location = 394  # Aalborg
+		location =359
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division = { 
+	division = {
 		name = "2. Jyske Division"
-		location = 11251  # Sonderborg
+		location =10193
 		division_template = "Binær Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
 	division = {
 		name = "Gardehussar Regiment"
-		location = 6364  # Aarhus
+		location =5873
 		division_template = "Kavaleri Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
 }
-
 air_wings = {
 	37 = {
-		### Flyvevabnet -- Copenhagen
-		fighter_equipment_0 =  { owner = "DEN" amount = 22 }			# 1. Jagerafdeling -- Gloster Gauntlets, Bristol Bulldogs
-	}	
+		fighter_equipment_0 =  { owner = "DEN" amount = 22 }
+	}
 	99 = {
-		# Søværnets Flyvetjeneste -- Jutland
-		tac_bomber_equipment_0 = { owner = "DEN" amount = 24 }			# 2. Jagerafdeling -- Fokker C.V, D.XXI
-		# Consisted of 12 Hawker Nimrods
-		fighter_equipment_0 = { owner = "DEN" amount = 12 }			# 1. Luft Flotille -- Hawker Nimrods
+		tac_bomber_equipment_0 = { owner = "DEN" amount = 24 }
+		fighter_equipment_0 = { owner = "DEN" amount = 12 }
 	}
 }
-
-### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -130,10 +114,11 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "DEN" 
+			creator = "DEN"
 		}
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 100
 	}
 }
+

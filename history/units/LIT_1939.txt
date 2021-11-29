@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Pestininku Divizija"			# Infantry Division	
+	name = "Pestininku Divizija"
 	division_names_group = LIT_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,7 +14,7 @@
 	}
 }
 division_template = {
-	name = "Kavalerijos Brigados"			# Cavalry Brigade	
+	name = "Kavalerijos Brigados"
 	division_names_group = LIT_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -22,68 +22,55 @@ division_template = {
 		cavalry = { x = 0 y = 2 }
 	}
 }
-
 units = {
-	######## LAND OOB ########
-	##### Lietuva Aukaèiausiosios Vadaviete #####
-	division = { # "I. Divizija"
+	division = {
 		division_name = {
-				is_name_ordered = yes
-				name_order = 1
+			is_name_ordered = yes
+			name_order = 1
 		}
-		location = 6296
+		location =5810
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
-
 	}
-	division = { # "II. Divizija"
+	division = {
 		division_name = {
-				is_name_ordered = yes
-				name_order = 2
+			is_name_ordered = yes
+			name_order = 2
 		}
-		location = 6296
+		location =5810
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
-
 	}
-	division = { # "III. Divizija"
+	division = {
 		division_name = {
-				is_name_ordered = yes
-				name_order = 3
+			is_name_ordered = yes
+			name_order = 3
 		}
-		location = 6296
+		location =5810
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
-
 	}
 	division = {
 		name = "Kavalerijos Brigados"
-		location = 6296
+		location =5810
 		division_template = "Kavalerijos Brigados"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
-
 	}
-
-	##### No Naval OOB #####
 }
-
 air_wings = {
-	### Lietuvas Karines Oro Pajegos
 	11 = {
-		fighter_equipment_0 =  { owner = "LIT" amount = 39 }			# II. Aviacijos Grupo -- Dewotine 501s, Fiat CR.20s, Gladiator Is
-		tac_bomber_equipment_0 =  { owner = "LIT" amount = 30 }			# III. Aviacijos Grupo -- Ansaldo A-120s, ANBO-41s
+		fighter_equipment_0 =  { owner = "LIT" amount = 39 }
+		tac_bomber_equipment_0 =  { owner = "LIT" amount = 30 }
 	}
 }
-
-### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -95,3 +82,4 @@ instant_effect = {
 		efficiency = 100
 	}
 }
+
