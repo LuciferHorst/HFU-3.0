@@ -11,6 +11,8 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 3
 			air_base = 2
 			11818 = {
 				naval_base = 3
@@ -19,7 +21,7 @@ state={
 
 		}
 		add_core_of = GRE
-		add_claim_by = BUL
+		add_core_of = BUL
 
 	}
 

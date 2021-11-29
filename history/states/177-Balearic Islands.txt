@@ -13,8 +13,8 @@ state=
 		}
 		owner = SPR
 		buildings = {
+			anti_air_building = 5
 			infrastructure = 3 #was: 6
-			air_base = 1
 			9793 = {
 				naval_base = 2
 			}
