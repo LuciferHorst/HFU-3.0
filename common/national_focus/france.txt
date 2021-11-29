@@ -770,7 +770,7 @@ focus_tree = {
 				ahead_reduction= 1
 				uses = 1
 				technology = basic_medium_tank
-				technology = basic_heavy_tank
+				technology = basic_heavy_tank_chassis
 			}
 			add_tech_bonus = {
 				name = FRA_light_medium_armor
@@ -926,7 +926,7 @@ focus_tree = {
 				ahead_reduction= 1
 				uses = 1
 				technology = basic_medium_tank
-				technology = basic_heavy_tank
+				technology = basic_heavy_tank_chassis
 			}
 			add_tech_bonus = {
 				name = FRA_light_medium_armor
@@ -1884,7 +1884,7 @@ focus_tree = {
 					}}
 							}	
 							if = {
-								limit = {has_tech = improved_heavy_tank }
+								limit = {has_tech = improved_heavy_tank_chassis }
 				
 								division_template = {
 									name = "Heavy Tank"
@@ -2448,7 +2448,7 @@ focus_tree = {
 				ahead_reduction = 1.2
 				bonus = 1
 				uses = 1
-				technology = advanced_heavy_tank
+				technology = advanced_heavy_tank_chassis
 				}
 		}
 	}

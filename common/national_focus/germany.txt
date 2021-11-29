@@ -608,7 +608,7 @@
             add_tech_bonus = {
 				name = GER_soviet_treaty
 				ahead_reduction = 2
-				technology = improved_heavy_tank
+				technology = improved_heavy_tank_chassis
 			}
 		}
 	}
@@ -4400,11 +4400,11 @@ focus = {
 			custom_effect_tooltip = "Four fully equipped Tiger-Divisions will spawn in Königsberg. A designer can be used."
 			hidden_effect={
 				set_technology = {
-					improved_heavy_tank = 1
+					improved_heavy_tank_chassis = 1
 				}
 				create_equipment_variant = {
 					name = "Tiger Panzer"
-					type = heavy_tank_equipment_2
+					type = heavy_tank_chassis_equipment_2
 					upgrades = {
 						tank_gun_upgrade = 5
 						tank_armor_upgrade = 5
@@ -4412,7 +4412,7 @@ focus = {
 						}}
 				add_equipment_production = {
 					equipment = {
-						type = heavy_tank_equipment_2
+						type = heavy_tank_chassis_equipment_2
 						creator = "GER"
 						version_name = "Tiger Panzer"		}
 					requested_factories = 10
@@ -4523,7 +4523,7 @@ focus = {
 	search_filters = { FOCUS_FILTER_RESEARCH }
 	completion_reward = {
 	set_technology = {
-	advanced_heavy_tank = 1
+	advanced_heavy_tank_chassis = 1
 				}
 			}
 		}

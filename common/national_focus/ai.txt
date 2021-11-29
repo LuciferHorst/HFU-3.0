@@ -5,6 +5,7 @@ focus_tree = {
 		modifier = {
 			add = 20
 			OR = {
+				tag = CHI
 				tag = TUR
 				tag = AUS
 				tag = LIT
