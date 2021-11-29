@@ -1,280 +1,184 @@
 ﻿division_template = {
-	name = "Gyalogdandár"				# Infantry Brigade
-
+	name = "Gyalogdandár"
 	division_names_group = HUN_INF_02
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
 	}
 }
 division_template = {
-	name = "Huszár Dandár" 					# Cavalry Brigade
-	# Note: has 2x bicycle inf bns added during 1938-40 mobilization
-
-	division_names_group = HUN_CAV_01
-
+	name = "Gyaloghadosztály"
+	division_names_group = HUN_INF_02
 	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }   # recon bn of tankettes, ACs, mot inf
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
 	}
 }
-
+division_template = {
+	name = "Mountaineers"
+	division_names_group = HUN_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4}
+		mountaineers =  { x = 2 y = 0 }
+		mountaineers =  { x = 2 y = 1 }
+		mountaineers =  { x = 2 y = 2 }
+		artillery_brigade  =  { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
+		mountaineers = { x = 3 y = 0 }
+		mountaineers = { x = 3 y = 1 }
+		mountaineers = { x = 3 y = 2 }
+		anti_air_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Marine Division"
+	division_names_group = HUN_MTN_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4}
+		marine =  { x = 2 y = 0 }
+		marine =  { x = 2 y = 1 }
+		marine =  { x = 2 y = 2 }
+		artillery_brigade  =  { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
+		marine = { x = 3 y = 0 }
+		marine = { x = 3 y = 1 }
+		marine = { x = 3 y = 2 }
+		anti_air_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Shock Troopers"
+	division_names_group = HUN_MTN_01
+	regiments = {
+		shocktroop = { x = 0 y = 0 }
+		shocktroop = { x = 0 y = 1 }
+		shocktroop = { x = 0 y = 2 }
+		shocktroop = { x = 0 y = 3 }
+		shocktroop = { x = 1 y = 0 }
+		shocktroop = { x = 1 y = 1 }
+		shocktroop = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4}
+		shocktroop =  { x = 2 y = 0 }
+		shocktroop =  { x = 2 y = 1 }
+		shocktroop =  { x = 2 y = 2 }
+		artillery_brigade  =  { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
+		shocktroop = { x = 3 y = 0 }
+		shocktroop = { x = 3 y = 1 }
+		shocktroop = { x = 3 y = 2 }
+		anti_air_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Desert Troopers"
+	division_names_group = HUN_MTN_01
+	regiments = {
+		desertinfantry = { x = 0 y = 0 }
+		desertinfantry = { x = 0 y = 1 }
+		desertinfantry = { x = 0 y = 2 }
+		desertinfantry = { x = 0 y = 3 }
+		desertinfantry = { x = 1 y = 0 }
+		desertinfantry = { x = 1 y = 1 }
+		desertinfantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4}
+		desertinfantry =  { x = 2 y = 0 }
+		desertinfantry =  { x = 2 y = 1 }
+		desertinfantry =  { x = 2 y = 2 }
+		artillery_brigade  =  { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
+		desertinfantry = { x = 3 y = 0 }
+		desertinfantry = { x = 3 y = 1 }
+		desertinfantry = { x = 3 y = 2 }
+		anti_air_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
 units = {
-	##### Honvédelmi Fõparancsnokság #####
-	# Gyorshadtest ('Rapid Corps', actual corps raised in 1940)
-	division= {	
-		#name = "1. Huszár Dandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9660
-		division_template = "Huszár Dandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "2. Huszár Dandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 9660
-		division_template = "Huszár Dandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# I Hadtest
-	division= {	
-		#name = "1. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9660
+	division= {
+		name = "This is here so you can look at your generals"
+		location =9660
 		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "2. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 9660
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# II Hadtest
-	division= {	
-		#name = "3. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 701
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "4. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 701
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# III Hadtest
-	division= {	
-		#name = "5. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 5
-		}
-		location = 11627
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "6. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 6
-		}
-		location = 11627
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# IV Hadtest
-	division= {	
-		#name = "7. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location = 11610
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "8. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 11610
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# V Hadtest
-	division= {	
-		#name = "9. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 9
-		}
-		location = 679
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "10. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 10
-		}
-		location = 679
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# VI Hadtest
-	division= {	
-		#name = "11. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 11
-		}
-		location = 11659
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "12. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 12
-		}
-		location = 11659
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# VII Hadtest
-	division= {	
-		#name = "13. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 13
-		}		
-		location = 6751
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		#name = "14. Gyalogdandár"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 14
-		}		
-		location = 6751
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
 	}
 }
-
-### Magyar Légiero ###
-air_wings = {
-	43 = {
-		# 1. Légi Ezred -- Fiat CR.32 fighters
-		# 2. Légi Ezred -- Fiat CR.32 fighters
-		fighter_equipment_0 = {
-			owner = "HUN" 
-			creator = "ITA"
-				amount = 72
-		}
-
-	}
-	154 = {
-		# 3. Légi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
-		CAS_equipment_1 = {
-			owner = "HUN" 
-			amount = 12
-		}
-		tac_bomber_equipment_0 = {
-			owner = "HUN" 
-			creator = "ITA"
-			amount = 12
-		}
-	}
-}
-
-
-### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
 			creator = "HUN"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.68
 		efficiency = 100
 	}
@@ -287,4 +191,41 @@ instant_effect = {
 		progress = 0.60
 		efficiency = 100
 	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = amphibious_mechanized_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = gw_armored_car_equipment
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.29
+		efficiency = 100
+	}
 }
+

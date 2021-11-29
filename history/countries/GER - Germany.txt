@@ -462,7 +462,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Königsberg Class"
-		type = ship_hull_cruiser_1
+		type = ship_hull_cruiser_1 
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
 		modules = {
