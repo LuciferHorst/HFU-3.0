@@ -5,7 +5,9 @@ state=
 	manpower = 3525715
 	
 	state_category = rural
-	
+	resources={
+		rubber = 5
+	}
 	history={ 
 		add_core_of=SWE
 		owner = USA

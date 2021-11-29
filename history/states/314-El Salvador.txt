@@ -6,6 +6,8 @@ state=
 	state_category = wasteland
 	
 	history={
+		owner = SWI
+		add_core_of = SWI
 	}
 	provinces={
 		12823 13093 

@@ -248,24 +248,3 @@ defined_text = {
 		localization_key = POR_ITA_Ship_builder
 	}
 }
-
-defined_text = {
-	name = GetWargoalBasedOnGovernment
-	text = { #United Kingdom of Portugal and Brazil
-		trigger = {
-			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
-		}
-		localization_key = POR_puppet_wargoal
-	}
-	text = { #Salazarist Portugal
-		trigger = {
-			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
-			has_government = neutrality
-		}
-		localization_key = POR_topple_government_wargoal
-	}
-	text = { #Fascist (else)
-		localization_key = POR_annex_wargoal
-	}
-}
-

@@ -2,13 +2,13 @@
 state={
 	id=295
 	name="STATE_295" # Leopoldville
-	manpower = 1
+	manpower = 265000
 	
 	state_category = rural
 
 	history={
-		owner = SWI
-		add_core_of = SWI
+		owner = FRA
+		add_core_of = SWE
 	}
 
 	provinces={

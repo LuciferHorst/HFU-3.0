@@ -5,8 +5,11 @@ state=
 	manpower = 3548684
 	
 	state_category = town
-	history=
-	{
+	resources = {
+		rubber = 15
+		oil = 10
+	}
+	history={
 		owner = USA
 		add_core_of = SWE
 		buildings = {

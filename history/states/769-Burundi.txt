@@ -5,8 +5,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SWI
-		add_core_of = SWI
+		owner = ENG
+		add_core_of = SWE
 	}
 
 	provinces={

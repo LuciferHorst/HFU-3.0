@@ -2,13 +2,13 @@
 state={
 	id=544
 	name="STATE_544" #Mozambique
-	manpower = 1
+	manpower = 240640
 	
 	state_category = rural
 	
 	history={
-		owner = SWI
-		add_core_of = SWI
+		owner = ENG
+		add_core_of = SWE
 	}
 
 	provinces={

@@ -2,12 +2,12 @@
 state={
 	id=538
 	name="STATE_538" # Central Congo
-	manpower = 1
+	manpower = 1153400
 	
 	state_category = wasteland
 	history={
-		owner = SWI
-		add_core_of = SWI
+		owner = FRA
+		add_core_of = SWE
 	}
 
 	provinces={
