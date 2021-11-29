@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = USA
+		add_core_of = SWE
 		buildings = {
 			infrastructure = 2
 			4241 = {
