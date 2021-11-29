@@ -7,8 +7,8 @@ state={
 		owner = YUG
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 4
+			industrial_complex = 5
+			arms_factory = 11
 			air_base = 5
 
 		}
@@ -16,8 +16,7 @@ state={
 			11586 15 
 		}
 		add_core_of = YUG
-		add_core_of = SER
-
+		add_extra_state_shared_building_slots = 2
 	}
 
 	provinces={
