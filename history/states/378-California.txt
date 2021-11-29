@@ -4,7 +4,7 @@ state={
 	name="STATE_378"
 	manpower = 5677248
 	
-	state_category = metropolis
+	state_category = USA_state
 	
 	resources={
 		oil=180 # was: 350
@@ -19,18 +19,6 @@ state={
 			industrial_complex = 6
 			dockyard = 2
 			air_base = 10
-			1562 = {
-				naval_base = 10
-			}
-			9671 = {
-				naval_base = 4
-			}
-			9814 = {
-				naval_base = 5
-			}
-			610 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = USA
 		victory_points = {

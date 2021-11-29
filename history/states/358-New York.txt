@@ -5,13 +5,12 @@ state={
 		steel=13 # was: 24.000
 	}
 	
-	state_category = megalopolis
+	state_category = USA_state
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 4 #was: 8
-			arms_factory = 2
+			infrastructure = 4
 			industrial_complex = 7
 			dockyard = 3
 			air_base = 10

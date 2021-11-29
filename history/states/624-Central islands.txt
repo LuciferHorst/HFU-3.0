@@ -5,8 +5,8 @@ state=
 	manpower = 1290672
 	state_category = town
 	
-	history=
-	{
+	history={
+		add_core_of=SWE
 		owner = USA
 		buildings = {
 			infrastructure = 2
