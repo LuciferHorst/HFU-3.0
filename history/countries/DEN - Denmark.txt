@@ -69,8 +69,6 @@ set_popularities = {
 set_convoys = 40
 
 recruit_character = DEN_thorvald_stauning
-recruit_character = DEN_frits_clausen
-recruit_character = DEN_aksel_larsen
 
 ### VARIANTS ###
 # 1936 Start #

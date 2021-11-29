@@ -48,5 +48,3 @@ set_popularities = {
 }
 
 recruit_character = CZE_karl_albrecht
-recruit_character = CZE_edvard_benesh
-recruit_character = CZE_jaroslav_krejchi

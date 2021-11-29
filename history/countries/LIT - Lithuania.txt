@@ -26,5 +26,3 @@ set_popularities = {
 }
 
 recruit_character = LIT_antanas_smetona
-recruit_character = LIT_antanas_snieckus
-recruit_character = LIT_kazys_grinius
