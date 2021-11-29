@@ -6,7 +6,9 @@ state={
 	buildings_max_level_factor = 1
 
 	state_category = megalopolis
-
+    resources={
+		aluminium = 50
+	}
 
 	history={
 		owner = GER
@@ -19,7 +21,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			arms_factory = 5
-			industrial_complex = 4
+			industrial_complex = 2
 			anti_air_building = 2
 			air_base = 6
 

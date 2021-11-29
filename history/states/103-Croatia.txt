@@ -19,9 +19,10 @@ state={
 			11564 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			dockyard = 1
-			industrial_complex = 3
+			industrial_complex = 4
+			arms_factory = 2
 			3924 = {
 				naval_base = 3
 			}
@@ -31,7 +32,7 @@ state={
 		}
 		add_core_of = YUG
 		#add_claim_by = ITA #added by focus
-		add_core_of = CRO
+		
 	}
 
 	provinces={
