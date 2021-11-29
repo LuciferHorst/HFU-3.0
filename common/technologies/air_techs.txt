@@ -1481,7 +1481,9 @@ technologies = {
 		research_cost = 2
 		start_year = 1943
 		categories = {
-			year_1943
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
 		}
 		folder = {
 			name = air_techs_folder
