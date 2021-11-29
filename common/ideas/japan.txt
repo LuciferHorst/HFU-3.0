@@ -1045,7 +1045,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = JAP
-					original_tag = MAN
 				}
 			}
 			research_bonus = {
@@ -1058,7 +1057,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = JAP
-					original_tag = MAN
 				}
 			}
 			research_bonus = {
@@ -1075,7 +1073,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = JAP
-					original_tag = MAN
 				}
 			}
 			research_bonus = {

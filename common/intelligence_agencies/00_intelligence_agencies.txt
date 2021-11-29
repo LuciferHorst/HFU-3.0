@@ -112,16 +112,6 @@ intelligence_agency = {
 	available = { original_tag = ROM }
 }
 
-intelligence_agency = {
-	
-	picture = GFX_intelligence_agency_logo_prc
-	names = { "Intelligence Department Central Military Commission" }
-	
-	available = { always = yes }
-	
-	default = { tag = PRC }
-	available = { original_tag = PRC }
-}
 
 intelligence_agency = {
 	
@@ -185,8 +175,6 @@ intelligence_agency = {
 	
 	available = { always = yes }
 	
-	default = { tag = MAN }
-	available = { original_tag = MAN }
 }
 
 intelligence_agency = {
@@ -196,8 +184,6 @@ intelligence_agency = {
 	
 	available = { always = yes }
 	
-	default = { tag = POR }
-	available = { original_tag = POR }
 }
 
 intelligence_agency = {
