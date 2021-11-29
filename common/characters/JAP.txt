@@ -64,10 +64,10 @@ characters={
 		}
 
 		corps_commander={
-			traits={ brilliant_strategist politically_connected trickster trait_engineer }
-			skill=5
-			attack_skill=4
-			defense_skill=5
+			traits={ trickster trait_engineer brilliant_strategist jungle_rat infantry_leader infantry_expert JAP_samurai_lineage }
+			skill=6
+			attack_skill=7
+			defense_skill=4
 			planning_skill=3
 			logistics_skill=4
 			legacy_id=0
@@ -96,9 +96,11 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ politically_connected JAP_samurai_lineage offensive_doctrine }
+			traits={  		offensive_doctrine
+			JAP_samurai_lineage   # hakushaku
+			infantry_leader infantry_expert organize }
 			skill=4
-			attack_skill=4
+			attack_skill=6
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=2
@@ -131,9 +133,9 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ JAP_samurai_lineage offensive_doctrine }
-			skill=4
-			attack_skill=3
+			traits={ organizer trait_engineer JAP_samurai_lineage panzer_leader }
+			skill=5
+			attack_skill=6
 			defense_skill=4
 			planning_skill=2
 			logistics_skill=4
@@ -150,12 +152,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer }
-			skill=2
+			traits={ organizer infantry_leader trait_engineer JAP_samurai_lineage }
+			skill=5
 			attack_skill=2
-			defense_skill=2
+			defense_skill=6
 			planning_skill=2
-			logistics_skill=1
+			logistics_skill=5
 			legacy_id=0
 		}
 	}
@@ -169,12 +171,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ JAP_samurai_lineage }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ infantry_leader skilled_staffer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -188,10 +190,10 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer infantry_officer trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=3
+			traits={ infantry_leader naval_invader commando  trait_engineer jungle_rat }
+			skill=5
+			attack_skill=6
+			defense_skill=4
 			planning_skill=2
 			logistics_skill=4
 			legacy_id=0
@@ -231,12 +233,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ trait_reckless }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ infantry_leader naval_invader commando  trait_engineer jungle_rat }
+			skill=5
+			attack_skill=6
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -250,12 +252,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist infantry_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=2
+			traits={ brilliant_strategist infantry_leader trait_engineer trait_mountaineer hill_fighter }
+			skill=4
+			attack_skill=5
+			defense_skill=4
 			planning_skill=3
-			logistics_skill=2
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -269,12 +271,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer }
-			skill=3
-			attack_skill=1
-			defense_skill=3
+			traits={ brilliant_strategist infantry_leader trait_engineer urban_assault_specialist }
+			skill=4
+			attack_skill=5
+			defense_skill=4
 			planning_skill=3
-			logistics_skill=3
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -360,12 +362,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ career_officer substance_abuser }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ substance_abuser brilliant_strategist infantry_leader }
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=0
 		}
 	}
@@ -379,10 +381,10 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ old_guard trait_reckless cavalry_officer }
-			skill=4
-			attack_skill=3
-			defense_skill=2
+			traits={ panzer_leader trait_engineer trickster ranger jungle_rat }
+			skill=5
+			attack_skill=6
+			defense_skill=4
 			planning_skill=4
 			logistics_skill=4
 			legacy_id=0
@@ -398,12 +400,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ old_guard war_hero }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ panzer_leader trait_engineer naval_invader jungle_rat }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=5
 			legacy_id=0
 		}
 	}
@@ -455,12 +457,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trait_reckless infantry_officer JAP_samurai_lineage trickster }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			traits={ trickster trait_engineer brilliant_strategist jungle_rat infantry_leader infantry_expert JAP_samurai_lineage }
+			skill=6
+			attack_skill=7
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
 			legacy_id=0
 		}
 	}
@@ -698,11 +700,11 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager }
-			skill=5
-			attack_skill=5
-			defense_skill=2
-			maneuvering_skill=3
+			traits={ air_controller flight_deck_manager ironside superior_tactician spotter }
+			skill=6
+			attack_skill=7
+			defense_skill=3
+			maneuvering_skill=6
 			coordination_skill=6
 			legacy_id=0
 		}
@@ -717,11 +719,11 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ bold battleship_adherent superior_tactician spotter }
-			skill=4
-			attack_skill=4
+			traits={ battleship_adherent superior_tactician spotter }
+			skill=5
+			attack_skill=6
 			defense_skill=2
-			maneuvering_skill=4
+			maneuvering_skill=7
 			coordination_skill=3
 			legacy_id=0
 		}
@@ -774,12 +776,12 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ battleship_adherent naval_lineage fly_swatter }
-			skill=3
-			attack_skill=4
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=2
+			traits={ battleship_adherent naval_lineage fly_swatter superior_tactician }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=4
+			coordination_skill=3
 			legacy_id=0
 		}
 	}
@@ -830,11 +832,11 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ old_guard_navy bold ironside }
-			skill=3
-			attack_skill=5
-			defense_skill=1
-			maneuvering_skill=2
+			traits={ ironside fleet_protector superior_tactician }
+			skill=5
+			attack_skill=7
+			defense_skill=4
+			maneuvering_skill=7
 			coordination_skill=2
 			legacy_id=0
 		}
@@ -849,11 +851,11 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ bold navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
+			traits={ blockade_runner superior_tactician }
 			skill=5
-			attack_skill=5
+			attack_skill=7
 			defense_skill=3
-			maneuvering_skill=3
+			maneuvering_skill=6
 			coordination_skill=4
 			legacy_id=0
 		}
@@ -906,12 +908,12 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ navy_career_officer seawolf }
-			skill=1
-			attack_skill=1
+			traits={ seawolf superior_tactician }
+			skill=5
+			attack_skill=6
 			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=4
+			coordination_skill=6
 			legacy_id=0
 		}
 	}

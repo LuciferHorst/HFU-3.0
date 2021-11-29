@@ -1,10 +1,10 @@
 leader_traits = {
 
-	
-##################################
-# Common Traits
-##################################
-	JAP_samurai_lineage = { 
+
+	##################################
+	# Common Traits
+	##################################
+	JAP_samurai_lineage = {
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
@@ -15,10 +15,13 @@ leader_traits = {
 				tag = JAP
 			}
 		}
-		modifier = {
-			
+		non_shared_modifier = {
+			promote_cost_factor = 15
 		}
-		
+		modifier = {
+
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -27,7 +30,7 @@ leader_traits = {
 		}
 	}
 
-	JAP_communist_sympathizer = { 
+	JAP_communist_sympathizer = {
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
@@ -39,9 +42,9 @@ leader_traits = {
 			}
 		}
 		modifier = {
-			
+
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -54,11 +57,11 @@ leader_traits = {
 ##################################
 # Field Marshal traits.
 ##################################
-	
+
 ##################################
 # Corps Commander traits.
 ##################################
-	
+
 ##################################
 # Corps Commander assignabme traits.
 ##################################
