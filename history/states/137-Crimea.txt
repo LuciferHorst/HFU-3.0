@@ -19,8 +19,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			dockyard = 1
-			air_base = 3
+			dockyard = 3
+			air_base = 10
 			3686 ={
 				naval_base = 10
 				coastal_bunker = 3
@@ -31,7 +31,6 @@ state={
 			}
 		}
 		add_core_of = SOV
-		add_core_of = CRI
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2
