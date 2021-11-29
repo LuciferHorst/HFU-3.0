@@ -1351,7 +1351,7 @@ leader_traits = {
 	}
     infrastructure_expert = {
 		sprite = 13
-		production_speed_infrastructure_factor = 0.40
+		production_speed_infrastructure_factor = 0.30
 		ai_will_do = {
 			factor = 1
 		}
@@ -1443,6 +1443,7 @@ leader_traits = {
 	reluctant_interventionist = {
 		random = yes
 		stability_factor = 0.05
+		lend_lease_tension = -0.2
 
 		ai_will_do = {
 			factor = 2
