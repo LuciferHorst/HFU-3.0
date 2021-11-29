@@ -3,7 +3,7 @@ state = {
 	id = 397
 	name = "STATE_397"
 	manpower = 137203
-	state_category = pastoral
+	state_category = wasteland
 
 	history = {
 		victory_points = {
@@ -15,7 +15,6 @@ state = {
 
 		}
 		add_core_of = SOV
-		add_core_of = KOM
 	}
 
 	provinces = {

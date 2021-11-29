@@ -3,7 +3,6 @@ oob = "GRE_1936"
 set_research_slots = 0
 add_ideas = {
 	limited_conscription
-	push_on_limit
 }
 set_technology = {
 	airfield_allowed = 1
@@ -54,7 +53,3 @@ set_popularities = {
 set_stability = 0.75
 
 recruit_character = GRE_konstantinos_demertzis
-recruit_character = GRE_nikos_zachariadis
-recruit_character = GRE_george_mercouris
-
-

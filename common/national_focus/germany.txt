@@ -48,17 +48,8 @@
 		cost = 10
 		available = {
 		}
-		bypass = {
-			42 = { is_demilitarized_zone = no }
-			51 = { is_demilitarized_zone = no }
-		}
-		ai_will_do = {
-			factor = 10
-		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			42 = { set_demilitarized_zone = no }
-			51 = { set_demilitarized_zone = no }
 			add_political_power = 150
 			add_war_support = 0.1
 			army_experience = 100

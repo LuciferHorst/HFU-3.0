@@ -4,7 +4,7 @@ state = {
 	name = "STATE_581"
 	manpower = 48831
 	
-	state_category = pastoral
+	state_category = city
 	
 	resources = {
 		chromium = 40 # was: 44
@@ -14,11 +14,10 @@ state = {
 	history = {
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 		}
 		add_core_of = SOV
-		add_core_of = KOM
 	}
 
 	provinces = {
