@@ -57,7 +57,3 @@ set_popularities = {
 }
 
 recruit_character = POL_ignacy_moscicki
-recruit_character = POL_wladyslaw_sikorski
-recruit_character = POL_boleslaw_wieniawa_glugoszowski
-recruit_character = POL_wladyslaw_gomulka
-recruit_character = POL_maria_koszutska

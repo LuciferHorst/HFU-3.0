@@ -24,5 +24,3 @@ set_popularities = {
 }
 
 recruit_character = LAT_gustavs_celminsh
-recruit_character = LAT_augusts_kirhensteins
-recruit_character = LAT_martinsh_penikis
