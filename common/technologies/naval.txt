@@ -35,9 +35,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
@@ -64,9 +62,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 13 }
@@ -153,9 +149,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 7 }
@@ -190,9 +184,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 13 }
@@ -283,9 +275,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 7 }
@@ -312,9 +302,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 13 }
@@ -381,9 +369,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 13 }
@@ -432,9 +418,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 7 }
@@ -461,9 +445,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 13 }
@@ -508,9 +490,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 3 y = 7 }
@@ -588,9 +568,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		categories = {
-			year_1939
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 11 }
@@ -639,9 +617,7 @@ technologies = {
 		naval_invasion_capacity = 100
 		research_cost = 1
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 16 }
@@ -710,9 +686,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
@@ -743,9 +717,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 13 }
@@ -828,9 +800,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
@@ -857,9 +827,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 13 }
@@ -905,9 +873,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		# only from focus!!! #####
 		allow = {
 			always = no

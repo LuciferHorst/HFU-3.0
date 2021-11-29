@@ -265,9 +265,6 @@ characters={
 			slot = theorist
 			idea_token = RAJ_homi_j_bhabha
 			ledger = army
-			available = {
-				has_completed_focus = RAJ_institute_of_fundamental_research
-			}
 			allowed = {
 				original_tag = RAJ
 				has_dlc = "Together for Victory"
@@ -710,7 +707,6 @@ characters={
 					limit = {
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = RAJ_indian_national_congress 
 				}
 				if = {
 					limit = {
@@ -753,7 +749,6 @@ characters={
 					limit = {
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = RAJ_all_india_forward_bloc 
 				}
 				if = {
 					limit = {
@@ -799,7 +794,6 @@ characters={
 					limit = {
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = RAJ_all_india_forward_bloc 
 				}
 				if = {
 					limit = {

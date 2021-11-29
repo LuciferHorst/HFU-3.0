@@ -16,9 +16,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
@@ -113,9 +111,7 @@ technologies = {
 		research_cost = 0.5
 		coordination_bonus = 0.01
 		start_year = 1938
-		categories = {
-			year_1938
-		}
+		
 		enable_equipment_modules = {
 			ship_radar_1
 			tank_radio_3
@@ -164,9 +160,7 @@ technologies = {
 		}
 		research_cost = 0.5
 		start_year = 1939
-		categories = {
-			year_1939
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = -2 y = 8 }
@@ -206,9 +200,7 @@ technologies = {
 		}
 		research_cost = 0.5
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = -2 y = 10 }
@@ -248,9 +240,7 @@ technologies = {
 		}
 		research_cost = 0.5
 		start_year = 1941
-		categories = {
-			year_1941
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = -2 y = 12 }
@@ -283,9 +273,7 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 		research_cost = 0.5
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = -2 y = 14 }
@@ -350,9 +338,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1938
-		categories = {
-			year_1938
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 2 y = 6 }
@@ -396,9 +382,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 2 y = 10 }
@@ -438,9 +422,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 2 y = 14 }
@@ -468,9 +450,7 @@ technologies = {
 		encryption = 1
 		research_cost = 1
 		start_year = 1938
-		categories = {
-			year_1938
-		}
+		
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
 		}
@@ -510,9 +490,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		allow = {
 			OR={has_tech=basic_decryption
 				has_tech=improved_decryption
@@ -554,9 +532,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		allow = {
 			OR={has_tech=basic_decryption
 				has_tech=improved_decryption
@@ -598,9 +574,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1938
-		categories = {
-			year_1938
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 4 y = 6 }
@@ -633,9 +607,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 4 y = 10 }
@@ -668,9 +640,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 4 y = 14 }
@@ -807,9 +777,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1943
-		categories = {
-			year_1943
-		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
@@ -926,9 +894,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		research_cost = 4
 		folder = {
 			name = electronics_folder
@@ -962,9 +928,7 @@ technologies = {
 		}
 		# can build reactors
 		start_year = 1943
-		categories = {
-			year_1943
-		}
+		
 		research_cost = 4
 		folder = {
 			name = electronics_folder

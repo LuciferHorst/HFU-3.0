@@ -25,7 +25,7 @@ technologies = {
 		}
 		categories = {
 			artillery
-			cat_artillery
+			
 		}
 		ai_will_do = {
 			factor = 2
@@ -59,9 +59,7 @@ technologies = {
 		}
 		research_cost = 1.25
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 2 }
@@ -98,16 +96,14 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		categories = {
-			year_1939
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 4 }
 		}
 		categories = {
 			artillery
-			cat_artillery
+			
 		}
 		ai_will_do = {
 			factor = 2
@@ -145,16 +141,14 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 6 }
 		}
 		categories = {
 			artillery
-			cat_artillery
+			
 		}
 		ai_will_do = {
 			factor = 2
@@ -188,16 +182,14 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		categories = {
-			year_1941
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 8 }
 		}
 		categories = {
 			artillery
-			cat_artillery
+			
 		}
 		ai_will_do = {
 			factor = 2
@@ -227,16 +219,14 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 10 }
 		}
 		categories = {
 			artillery
-			cat_artillery
+			
 		}
 		ai_will_do = {
 			factor = 2
@@ -266,16 +256,14 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
-		categories = {
-			year_1943
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 12 }
 		}
 		categories = {
 			artillery
-			cat_artillery
+			
 		}
 		ai_will_do = {
 			factor = 2
@@ -323,9 +311,7 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 6 }
@@ -360,9 +346,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		categories = {
-			year_1941
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 8 }
@@ -397,9 +381,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 10 }
@@ -430,9 +412,7 @@ technologies = {
 			#}
 		research_cost = 1
 		start_year = 1943
-		categories = {
-			year_1943
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 3 y = 12 }
@@ -465,9 +445,7 @@ technologies = {
 		}
 		research_cost = 1.25
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 2 }
@@ -511,9 +489,7 @@ technologies = {
 		}
 		research_cost = 0.8
 		start_year = 1939
-		categories = {
-			year_1939
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 4 }
@@ -553,9 +529,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 6 }
@@ -599,9 +573,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		categories = {
-			year_1941
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 8 }
@@ -645,9 +617,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 10 }
@@ -684,9 +654,7 @@ technologies = {
 		navy_anti_air_attack_factor = 0.05
 		research_cost = 1
 		start_year = 1943
-		categories = {
-			year_1943
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 12 }
@@ -722,9 +690,7 @@ technologies = {
 		}
 		research_cost = 1.25
 		start_year = 1936
-		categories = {
-			year_1936
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 2 }
@@ -791,9 +757,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		categories = {
-			year_1939
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 4 }
@@ -853,9 +817,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		categories = {
-			year_1940
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 6 }
@@ -925,9 +887,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		categories = {
-			year_1941
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 8 }
@@ -992,9 +952,7 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 10 }
@@ -1050,9 +1008,7 @@ technologies = {
 			#}
 		research_cost = 1
 		start_year = 1943
-		categories = {
-			year_1943
-		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 12 }

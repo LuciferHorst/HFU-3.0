@@ -14,7 +14,6 @@ characters={
 			idea_token = ENG_winston_churchill
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
 				if  = {
 					limit  = {
 						has_dlc = "Man the Guns"
@@ -76,7 +75,6 @@ characters={
 			idea_token = ENG_oswald_mosley
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -198,11 +196,6 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
 			traits = {
 				army_chief_maneuver_3
 			}
@@ -241,11 +234,7 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
+			
 			
 			traits = {
 				grand_battle_plan_expert
@@ -429,11 +418,7 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
+			
 			traits = {
 				military_theorist
 			}
@@ -567,11 +552,7 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
+			
 			traits = {
 				army_chief_offensive_2
 			}
@@ -723,11 +704,7 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
+			
 			traits = {
 				army_regrouping_2
 			}
@@ -1010,12 +987,6 @@ characters={
 			slot = theorist
 			idea_token = ENG_raymond_briggs
 			ledger = army
-			visible = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
-			available = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
 			allowed = {
 				original_tag = ENG
 			}
@@ -1039,11 +1010,6 @@ characters={
 			ledger = navy
 			allowed = {
 				original_tag = ENG
-			}
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			
 			traits = {
@@ -1513,11 +1479,6 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
 			traits = {
 				navy_amphibious_assault_3
 			}
@@ -1563,9 +1524,6 @@ characters={
 			slot = high_command
 			idea_token = ENG_david_stirling
 			ledger = army
-			available = {
-				has_completed_focus = ENG_special_air_service
-			}
 			allowed = {
 				original_tag = ENG
 			}
@@ -1602,9 +1560,6 @@ characters={
 				if  = {
 					limit  = {
 						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_completed_focus  = ENG_a_change_in_course 
 					}
 				}
 				if  = {
@@ -1691,9 +1646,7 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					NOT = {
-						has_completed_focus  = ENG_no_further_appeasement 
-					}
+
 					has_government  = democratic 
 				}
 			}
@@ -1895,10 +1848,6 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = ENG_david_lloyd_george
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-			}
 			allowed  = {
 				original_tag  = ENG
 				has_dlc = "Man the Guns"
@@ -2192,7 +2141,6 @@ characters={
 			idea_token = ENG_corgis_1
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 
@@ -2229,7 +2177,6 @@ characters={
 			idea_token = ENG_corgis_2
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 
@@ -2265,8 +2212,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_3
 			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
+				has_government  = neutrality
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 

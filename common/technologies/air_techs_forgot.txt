@@ -113,7 +113,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1940
 		categories = {
-			year_1940
+			light_fighter
 		}
 	}
 	fighter3_alt_f = {
@@ -145,7 +145,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1941
 		categories = {
-			year_1941
+			light_fighter
 		}
 
 		folder = {
@@ -183,7 +183,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1942
 		categories = {
-			year_1942
+			light_fighter
 		}
 
 		folder = {
@@ -277,7 +277,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1941
 		categories = {
-			year_1941
+			cas_bomber
 		}
 		folder = {
 			name = air_techs_folder_f
@@ -298,7 +298,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1942
 		categories = {
-			year_1942
+			cas_bomber
 		}
 		folder = {
 			name = air_techs_folder_f
@@ -319,7 +319,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1936
 		categories = {
-			year_1936
+			naval_air
 		}
 		folder = {
 			name = air_techs_folder_f
@@ -359,7 +359,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1941
 		categories = {
-			year_1941
+			naval_air
 		}
 		folder = {
 			name = air_techs_folder_f
@@ -380,7 +380,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1942
 		categories = {
-			year_1942
+			naval_air
 		}
 		folder = {
 			name = air_techs_folder_f
@@ -460,7 +460,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1941
 		categories = {
-			year_1941
+			medium_air
 		}
 		folder = {
 			name = air_techs_folder_f
@@ -477,7 +477,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1941
 		categories = {
-			year_1941
+			medium_air
 		}
 		folder = {
 			name = air_techs_folder_f
@@ -535,9 +535,7 @@ technologies = {
 		}
 		research_cost = 0
 		start_year = 1941
-		categories = {
-			year_1941
-		}
+		
 		folder = {
 			name = air_techs_folder_f
 			position = { x = 2 y = 8 }
@@ -556,9 +554,7 @@ technologies = {
 		}
 		research_cost = 0
 		start_year = 1942
-		categories = {
-			year_1942
-		}
+		
 		folder = {
 			name = air_techs_folder_f
 			position = { x = 2 y = 10 }
@@ -631,9 +627,7 @@ technologies = {
 		}
 		research_cost = 0
 		start_year = 1943
-		categories = {
-			year_1943
-		}
+		
 		folder = {
 			name = air_techs_folder_f
 			position = { x = 0 y = 6 }

@@ -1397,7 +1397,6 @@ characters={
 					limit = {
 						has_dlc = "Waking the Tiger"
 					}
-					has_completed_focus = JAP_the_unthinkable_option 
 				}
 				if = {
 					limit = {
@@ -1440,7 +1439,7 @@ characters={
 					limit = {
 						has_dlc = "Waking the Tiger"
 					}
-					has_completed_focus = JAP_strengthen_civilian_government 
+			
 				}
 				if = {
 					limit = {

@@ -424,37 +424,6 @@ characters = {
 ### THEORISTS ###
 #################
 
-	BUL_theodosi_daskalov = {
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = BUL_theodosi_daskalov
-			ledger = army
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-				NOT = {
-					has_completed_focus = BUL_oppose_the_royal_dictatorship
-				}
-				NOT = {
-					has_government = communism
-				}
-			}
-			
-			traits = {
-				military_theorist
-			}
-		}
-		name = BUL_theodosi_daskalov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_theodosi_daskalov"
-			}
-		}
-	}
-
 	BUL_georgi_petsov = {
 		instance = {
 			allowed = {

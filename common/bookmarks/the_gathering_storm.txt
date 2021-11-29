@@ -44,9 +44,9 @@ bookmarks = {
 				george_v
 			}
 			focuses = {
-				tizard_mission_focus
+				limited_rearmament_focus
 				ENG_imperial_conference
-				general_rearmament_focus
+				air_defense_focus
 			}
 		}
 		"ENG"={
@@ -60,8 +60,8 @@ bookmarks = {
 			}
 			focuses = {
 				limited_rearmament_focus
+				ENG_imperial_conference
 				air_defense_focus
-				shadow_scheme_focus
 			}
 		}
 		"GER"={

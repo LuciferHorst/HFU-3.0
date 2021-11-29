@@ -217,9 +217,6 @@ country_event = {
 				tech_recon3 = 1
 			}
 		}
-		ITA = {
-			annex_country = { target = ETH }
-		}
 		GER = {
 			annex_country = { target = CZE }
 			annex_country = { target = AUS }
