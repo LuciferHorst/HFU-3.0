@@ -6,8 +6,8 @@ state=
 	
 	state_category = rural
 	
-	history=
-	{
+	history={ 
+		add_core_of=SWE
 		owner = USA
 		add_core_of = SWE
 		buildings = {
