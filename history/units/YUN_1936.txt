@@ -1,41 +1,33 @@
 ﻿division_template = {
-	name = "Juntuán"					# Represents local militia groups (generally poorly-equipped)
+	name = "Juntuán"
 	division_names_group = YUN_INF_01
-									
 	regiments = {
-		infantry = { x = 0 y = 0 }		# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
 }
-
-
 units = {
 	division = {
 		name = "Kunming Jingbei"
-		location = 12789
-		division_template = "Juntuán"			# Provincial militia unit (poor equipment and training)
+		location =11570
+		division_template = "Juntuán"
 		start_equipment_factor = 0.5
-
 	}
 	division = {
 		name = "Yunnan Baoan Ke"
-		location = 10346
-		division_template = "Juntuán"			# Provincial militia unit (poor equipment and training)
+		location =9519
+		division_template = "Juntuán"
 		start_equipment_factor = 0.5
-
 	}
 	division = {
 		name = "Dali Baoan Ke"
-		location = 10346
-		division_template = "Juntuán"			# Provincial militia unit (poor equipment and training)
+		location =9519
+		division_template = "Juntuán"
 		start_equipment_factor = 0.5
-
 	}
 }
-
-##### STARTING PRODUCTION #####
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -47,3 +39,4 @@ instant_effect = {
 		efficiency = 100
 	}
 }
+

@@ -8,276 +8,276 @@
 		infantry = { x = 0 y = 2 }
 	}
 }
-
 units = {
 	division = {
 		name = "1a Brigada Legionario"
-		location = 11838  # Western Aragon
+		location =10744
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "2a Brigada Legionario"
-		location = 9840  # Western Aragon
+		location =9044
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "49a Brigada Legionario"
-		location = 9840  # Western Aragon
+		location =9044
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "3a Brigada Legionario"
-		location = 6901  # Western Aragon
+		location =6392
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "4a Brigada Legionario"
-		location = 3816  # Western Aragon
+		location =3582
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "50a Brigada Legionario"
-		location = 3816  # Western Aragon
+		location =3582
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "5a Brigada Legionario"
-		location = 11737  # Western Aragon
+		location =10659
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "6a Brigada Legionario"
-		location = 7213  # Western Aragon
+		location =6678
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "51a Brigada Legionario"
-		location = 7213  # Western Aragon
+		location =6678
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "7a Brigada Legionario"
-		location = 9812  # Western Aragon
+		location =9020
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "8a Brigada Legionario"
-		location = 948  # Western Aragon
+		location =899
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "9a Brigada Legionario"
-		location = 813  # Western Aragon
+		location =776
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "10a Brigada Legionario"
-		location = 11766  # Burgos
+		location =10683
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "11a Brigada Legionario"
-		location = 3859  # Burgos
+		location =3622
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "12a Brigada Legionario"
-		location = 11806  # Valladolid
+		location =10716
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "13a Brigada Legionario"
-		location = 13227  # Valladolid
+		location =11875
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "14a Brigada Legionario"
-		location = 3820  # Valladolid
+		location =3586
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "15a Brigada Legionario"
-		location = 9827  # Valladolid
+		location =9032
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "16a Brigada Legionario"
-		location = 9846  # Valladolid
+		location =9049
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "17a Brigada Legionario"
-		location = 3874  # Salamanca
+		location =3633
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "52a Brigada Legionario"
-		location = 3874  # Salamanca
+		location =3633
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "18a Brigada Legionario"
-		location = 794  # Salamanca
+		location =757
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "19a Brigada Legionario"
-		location = 11756  # Extremadura
+		location =10674
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "20a Brigada Legionario"
-		location = 9917  # Extremadura
+		location =9106
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "21a Brigada Legionario"
-		location = 11780  # Extremadura
+		location =10695
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "22a Brigada Legionario"
-		location = 985  # Extremadura
+		location =931
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "23a Brigada Legionario"
-		location = 6948  # Extremadura
+		location =6427
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "24a Brigada Legionario"
-		location = 3810  # Cordoba
+		location =3576
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "25a Brigada Legionario"
-		location = 3871  # Cordoba
+		location =3630
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "26a Brigada Legionario"
-		location = 950  # Cordoba
+		location =901
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "27a Brigada Legionario"
-		location = 12083  # Cordoba
+		location =10970
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "28a Brigada Legionario"
-		location = 1192  # Cordoba
+		location =1137
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "29a Brigada Legionario"
-		location = 4095  # Cordoba
+		location =3831
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "30a Brigada Legionario"
-		location = 1090  # Cordoba
+		location =1036
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "31a Brigada Legionario"
-		location = 7198  # Cordoba
+		location =6663
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "31a Brigada Legionario"
-		location = 4182  # Sevilla
+		location =3914
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "32a Brigada Legionario"
-		location = 13231  # Sevilla
+		location =11879
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "33a Brigada Legionario"
-		location = 10094  # Sevilla
+		location =9273
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "34a Brigada Legionario"
-		location = 3737  # Navarra
+		location =3508
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "35a Brigada Legionario"
-		location = 3933  # Navarra
+		location =3681
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "36a Brigada Legionario"
-		location = 932  # Navarra
+		location =885
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "37a Brigada Legionario"
-		location = 3902  # Burgos
+		location =3657
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "38a Brigada Legionario"
-		location = 11852  # Burgos
+		location =10755
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "39a Brigada Legionario"
-		location = 13220  # Burgos
+		location =11868
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "40a Brigada Legionario"
-		location = 11854  # Burgos
+		location =10756
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "41a Brigada Legionario"
-		location = 9700  # Valladolid
+		location =8917
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "42a Brigada Legionario"
-		location = 11684  # Valladolid
+		location =10606
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "43a Brigada Legionario"
-		location = 9699  # Leon
+		location =8916
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "44a Brigada Legionario"
-		location = 726  # Leon
+		location =689
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "45a Brigada Legionario"
-		location = 13219  # Leon
+		location =11867
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "46a Brigada Legionario"
-		location = 11843  # Leon
+		location =10748
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "47a Brigada Legionario"
-		location = 729  # Galicia
+		location =692
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "48a Brigada Legionario"
-		location = 6764  # Galicia
+		location =6266
 		division_template = "Brigada Legionario"
 	}
 	division = {
 		name = "53a Brigada Legionario"
-		location = 7183  # Sevilla
+		location =6648
 		division_template = "Brigada Legionario"
 	}
 }
+

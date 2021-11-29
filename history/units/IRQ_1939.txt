@@ -1,8 +1,6 @@
 ﻿division_template = {
-	name = "Alfurqat Almasha"				# Infantry Division
-
+	name = "Alfurqat Almasha"
 	division_names_group = IRQ_INF_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -16,14 +14,12 @@
 	}
 }
 division_template = {
-	name = "Alfurqat Aljabalia"				# Mountain Division
-
+	name = "Alfurqat Aljabalia"
 	division_names_group = IRQ_MTN_01
-
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
@@ -32,70 +28,54 @@ division_template = {
 		mountaineers = { x = 2 y = 2 }
 	}
 }
-
-
 units = {
-	##### Royal Iraqi Army #####
 	division = {
-		#name = "1 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
+		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 2097
-		division_template = "Alfurqat Almasha"	
+		location =1963
+		division_template = "Alfurqat Almasha"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-
 	}
 	division = {
-		#name = "2 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
+		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 10106
-		division_template = "Alfurqat Aljabalia"	
+		location =9285
+		division_template = "Alfurqat Aljabalia"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-
 	}
 	division = {
-		#name = "3 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
+		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 2097
-		division_template = "Alfurqat Almasha"	
+		location =1963
+		division_template = "Alfurqat Almasha"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-
 	}
 	division = {
-		#name = "4 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
+		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 2089
-		division_template = "Alfurqat Almasha"	
+		location =1958
+		division_template = "Alfurqat Almasha"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-
 	}
 }
-
-
 air_wings = {
-	### Royal Iraqi Air Force (RIrAF)
 	291 = {
-		CAS_equipment_1 =  { owner = "IRQ"  amount = 40 }			# 1st Squadron -- Hawker Nisr, Northrup 8A-4
-		fighter_equipment_0 =  { owner = "IRQ"  amount = 24 }		# 2nd Squadron -- Gladiator, Breda Ba.65
+		CAS_equipment_1 =  { owner = "IRQ"  amount = 40 }
+		fighter_equipment_0 =  { owner = "IRQ"  amount = 24 }
 	}
 }
-
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -107,3 +87,4 @@ instant_effect = {
 		efficiency = 100
 	}
 }
+

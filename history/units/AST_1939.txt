@@ -1,8 +1,6 @@
 ﻿division_template = {
-	name = "Infantry Division"			# All divisions except 6th were reserves assigned to various military districts
-										# All but 6th are at reserve levels with low experience, older equipment
+	name = "Infantry Division"
 	division_names_group = AST_INF_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -18,14 +16,12 @@
 		infantry = { x = 2 y = 3 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 0 }
 	}
 }
 division_template = {
-	name = "Cavalry Division"  			# Reserve divisions (reserve-level, older equipment, low experience)
-
+	name = "Cavalry Division"
 	division_names_group = AST_CAV_01
-
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -35,13 +31,9 @@ division_template = {
 		cavalry = { x = 1 y = 2 }
 	}
 }
-
-
 division_template = {
 	name = "Armoured Division"
-
 	division_names_group = AST_ARM_01
-
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -49,125 +41,94 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 	}
 }
-
-
-
 units = {
-	##### Royal Australian Army #####
-	### 2nd Australian Imperial Force (CO: Blamey) ###
-	division= {	
-		#name = "6th Infantry Division"					# CO: Blamey
-        division_name = {    # New syntax for compatibility with name lists
-            is_name_ordered = yes
-            name_order = 6
-        }
-		location = 12406 # Sydney
-		division_template = "Infantry Division"			# Frontline unit, experienced with latest equip., readying for overseas deployment
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location =11269
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
-	
-	### Home Defense Militia ###
-	division= {	
-		#name = "5th Infantry Division"
-		division_name = {    # New syntax for compatibility with name lists
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 1652 # Perth
+		location =1584
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {	
-		#name = "1st Cavalry Division"
-		division_name = {    # New syntax for compatibility with name lists
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 7564 # Brisbane
+		location =7013
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	# 2nd Military District -- New South Wales
-	division= {	
-		#name = "1st Infantry Division"
-		division_name = {    # New syntax for compatibility with name lists
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 12406 # Sydney
+		location =11269
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {	
-		#name = "2nd Infantry Division"
-		division_name = {    # New syntax for compatibility with name lists
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 7859 # Canberra
+		location =7266
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-
-	# 3rd Military District -- New South Wales
-	division= {	
-		#name = "3rd Infantry Division"
-		division_name = {    # New syntax for compatibility with name lists
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 7798 # Melbourne
+		location =7213
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {	
-		#name = "4th Infantry Division"
-		division_name = {    # New syntax for compatibility with name lists
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 7798 # Melbourne
+		location =7213
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {	
-		#name = "2nd Cavalry Division"
-		division_name = {    # New syntax for compatibility with name lists
+	division= {
+		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 7798 # Melbourne
+		location =7213
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
 }
-
 air_wings = {
-	### Royal Australian Air Force (RAAF)(CO: ) ###
-	285 = {															# New South Wales
-		# RAAF Stations Laverton, Richmond #
-		fighter_equipment_1 =  { owner = "AST" amount = 32 }		# RAAF Fighter Group -- Hawker Demons
-		CAS_equipment_1 =  { owner = "AST" amount = 48 }			# RAAF Bomber Group -- Westland Wapitis
-		nav_bomber_equipment_1 =  { owner = "AST" amount = 72 }		# No. 1, No. 2 RAAF Coastal Group -- Avro Ansons
+	285 = {
+		fighter_equipment_1 =  { owner = "AST" amount = 32 }
+		CAS_equipment_1 =  { owner = "AST" amount = 48 }
+		nav_bomber_equipment_1 =  { owner = "AST" amount = 72 }
 	}
 }
-
-
-##### Starting Production #####
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -188,3 +149,4 @@ instant_effect = {
 		efficiency = 100
 	}
 }
+

@@ -1,6 +1,5 @@
 ﻿division_template = {
-	name = "Nationalist Partisans"			# Civilian Partisans
-
+	name = "Nationalist Partisans"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -10,21 +9,21 @@
 		infantry = { x = 1 y = 2 }
 	}
 }
-
 units = {
 	division = {
 		name = "Partisan Brigade I"
-		location = 5154 
+		location =4758
 		division_template = "Nationalist Partisans"
 	}
 	division = {
 		name = "Partisan Brigade II"
-		location = 5189 
+		location =4773
 		division_template = "Nationalist Partisans"
 	}
 	division = {
 		name = "Partisan Brigade III"
-		location = 7605 
+		location =7048
 		division_template = "Nationalist Partisans"
 	}
 }
+
