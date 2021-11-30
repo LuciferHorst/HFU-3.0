@@ -106,7 +106,7 @@ focus_tree = {
 		 add_political_power = 150
 		 custom_effect_tooltip = available_political_advisor
 		 show_ideas_tooltip = RAJ_mahatma_mohandas_gandhi
-		 405 = {
+		 433 = {
 		 add_extra_state_shared_building_slots = 5
 		 add_building_construction = {
 					type = industrial_complex
@@ -902,7 +902,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			399 ={
+			439 ={
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -910,7 +910,7 @@ focus_tree = {
 				}
 				set_state_flag = RAJ_great_indian_peninsula_railway_Inf1
 			}
-			405 = {
+			438 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -918,7 +918,7 @@ focus_tree = {
 				}
 				set_state_flag = RAJ_great_indian_peninsula_railway_Inf2
 			}
-			401 ={
+			427 ={
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -947,42 +947,42 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			401 = {
+			431 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			396 = {
+			430 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			397 = {
+			435 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			392 = {
+			426 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			399 = {
+			439 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			275 = {
+			432 = {
 				set_building_level = {
 					type = air_base
 					level = 5
@@ -1160,7 +1160,7 @@ completion_reward = {
 		complete_tooltip = {
 		}
 		completion_reward = {
-			398 = {
+			438 = {
 				add_resource = {
 					type = oil
 					amount = 20
@@ -1263,7 +1263,7 @@ completion_reward = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			393 ={
+			443 ={
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1271,7 +1271,7 @@ completion_reward = {
 				}
 				
 			}
-			394 ={
+			429 ={
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1279,7 +1279,7 @@ completion_reward = {
 				}
 				
 			}
-			399 ={
+			424 ={
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1309,136 +1309,22 @@ completion_reward = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-         transfer_state = 290 
-		 transfer_state = 579
-		 transfer_state = 281
-		 transfer_state = 578
-		 transfer_state = 303
-		 transfer_state = 679
-		give_resource_rights = { receiver = ENG state = 303 }
+         transfer_state = 658
+		 transfer_state = 294
+		 transfer_state = 659
+		 transfer_state = 733
+		 transfer_state = 336
+		 transfer_state = 333
+		give_resource_rights = { receiver = ENG state = 336 }
 		RAJ = {set_cosmetic_tag = RAJ_LW_2}
 		}
 	}
-	focus = {
-		id = RAJ_borneo
-		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = RAJ_the_smiling_buddha }
-		x = 1
-		y = 1
-		relative_position_id =  RAJ_the_smiling_buddha
-		cost = 5
-		ai_will_do = {
-			factor = 50
-		}
-		available = {
-		
-		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		completion_reward = {
-        300 = {
-				
-		       set_building_level = {
-					type = coastal_bunker
-					province = {
-					    all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-		
-			}
-		
-		388 = {
-				
-		       set_building_level = {
-					type = coastal_bunker
-					province = {
-					    all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-		
-			}
-		}
-	}
-	focus = {
-		id = RAJ_borneo_2
-		icon =GFX_goal_generic_defence
-		prerequisite = { focus = RAJ_borneo focus = RAJ_singa }
-		x = -1
-		y = 1
-		relative_position_id =  RAJ_borneo
-		cost = 5
-		ai_will_do = {
-			factor = 50
-		}
-		available = {
-		
-		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		completion_reward = {
-        303 = {
-				
-		       set_building_level = {
-					type = coastal_bunker
-					province = {
-					    all_provinces = yes
-						
-					}
-					level = 1
-					instant_build = yes
-				}
-			   set_building_level = {
-					type = bunker
-					level = 2
-					province =11150
-					instant_build = yes
-				}
-				 set_building_level = {
-					type = bunker
-					level = 2
-					province =4141
-					instant_build = yes
-				}
-				 set_building_level = {
-					type = bunker
-					level = 2
-					province =6807
-					instant_build = yes
-				}
-				 set_building_level = {
-					type = bunker
-					level = 2
-					province =4039
-					instant_build = yes
-				}
-				 set_building_level = {
-					type = bunker
-					level = 2
-					province =6794
-					instant_build = yes
-				}
-		
-			}
-		}
-		
-	}
+
 	focus = {
 		id = RAJ_singa
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = RAJ_the_smiling_buddha }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id =  RAJ_the_smiling_buddha
 		cost = 5
@@ -1476,6 +1362,8 @@ completion_reward = {
 			}
 		}
 	}
+	
+	
 	focus = {
 		id = RAJ_expand_mazagon_dock
 		icon = GFX_goal_generic_construct_naval_dockyard
@@ -1548,31 +1436,25 @@ completion_reward = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			291={
+			431={
 				set_building_level = {
 					type = naval_base
 					level = 15
 					instant_build = yes
-					province =1218
+					province =4245
 				}
-			396={
-				set_building_level = {
-					type = naval_base
-					level = 20
-					instant_build = yes
-					province =10818
-				}
+			431={
 				set_building_level = {
 					type = coastal_bunker
 					level = 5
 					instant_build = yes
-					province =10818
+					province =4245
 				}
 				set_building_level = {
 					type = bunker
 					level = 5
 					instant_build = yes
-					province =10818
+					province =4245
 				}
 			}
 		}
@@ -1600,7 +1482,7 @@ completion_reward = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			405 = {
+			439 = {
 			
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1609,14 +1491,14 @@ completion_reward = {
 					instant_build = yes
 			}
 		}
-			406 = {	add_building_construction = {
+			438 = {	add_building_construction = {
 				type = infrastructure
 				level = 2
 				instant_build = yes
 			}
 			set_state_flag = RAJ_east_india_railways_Inf1
 		}
-			397 = {	add_building_construction = {
+			440 = {	add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
@@ -1686,14 +1568,14 @@ completion_reward = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			404 = {	add_building_construction = {
+			438 = {	add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 				set_state_flag = RAJ_integrate_princely_railways_Inf1
 			}
-			388 = {	add_building_construction = {
+			439 = {	add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
@@ -1740,7 +1622,7 @@ completion_reward = {
 				}
 				set_state_flag = RAJ_ishapore_arsenal_AF
 			}
-		    388={add_extra_state_shared_building_slots = 4
+		    439={add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
 					level = 4
@@ -1815,13 +1697,13 @@ completion_reward = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			395 = {
+			439 = {
 				add_resource = {
 					type = steel
 					amount = 40
 				}
 			}
-			405 = {
+			439 = {
 			add_extra_state_shared_building_slots = 10
 			}
 		}

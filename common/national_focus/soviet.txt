@@ -47,7 +47,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			375 = {
+			252 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -111,7 +111,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			210 = {
+			217 = {
 				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
 					type = industrial_complex
@@ -120,7 +120,7 @@ focus_tree = {
 				}
 				set_state_flag = SOV_finish_five_year_plan_2IC
 			}
-			212 = {
+			219 = {
 				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
 					type = industrial_complex
@@ -129,7 +129,7 @@ focus_tree = {
 				}
 				set_state_flag = SOV_finish_five_year_plan_2IC
 			}
-			188 = {
+			195 = {
 				add_extra_state_shared_building_slots = 10
 				add_building_construction = {
 					type = industrial_complex
@@ -558,8 +558,8 @@ focus = {
 		id = SOV_winter_offensive_2
 		icon = GFX_SOV_lessons_of_the_winter_war
 		relative_position_id = SOV_great_figher
-		available = {245 = {is_fully_controlled_by = SOV}}
-		bypass = {not = {245 = {is_fully_controlled_by = SOV}}}
+		available = {249 = {is_fully_controlled_by = SOV}}
+		bypass = {not = {249 = {is_fully_controlled_by = SOV}}}
 		x = -2
 		y = 1
 		prerequisite = { focus = SOV_great_figher }
@@ -572,7 +572,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = "This focus will spawn 30 Elite Divisions in Gorki"
+			custom_effect_tooltip = "This focus will spawn 30 Elite Divisions in Kazan"
 			division_template = {
 				name = "Red Guards"
 				regiments = {
@@ -606,7 +606,7 @@ focus = {
 					anti_tank = {x = 0 y = 5}
 				}
 			}
-			245 = {
+			249 = {
 				for_loop_effect = {
 					end = 30
 					create_unit = {
@@ -795,42 +795,42 @@ focus = {
 		}
 		completion_reward = {
 			army_experience = 20
-			318={set_building_level = {
+			351={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			241={set_building_level = {
+			195={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			188 = {
+			195 = {
 				
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =2868
+						province =9150
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province =10218
+						province =3151
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province =10062
+						province =149
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =8409
+						province =3060
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -848,19 +848,19 @@ focus = {
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province =5699
+						province =6174
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province =75
+						province =79
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province =10043
+						province =11068
 						instant_build = yes
 					}
 				}
@@ -882,17 +882,17 @@ focus = {
 		}
 		completion_reward = {
 			army_experience = 20
-			374={set_building_level = {
+			217={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			244={set_building_level = {
+			829={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			572={set_building_level = {
+			239={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
@@ -1259,23 +1259,23 @@ focus = {
 			every_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
 		}
 		completion_reward = {
-			222 = {
+			229 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
-			367 = {
+			400 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -1310,32 +1310,32 @@ focus = {
 				limit = { has_state_flag = SOV_infrastructure_effort_3Inf }
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
 		}
 		completion_reward = {
 			if = {
-				505 = {
+				581 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
-				497 = {
+				573 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
 			}
-			506 = {
+			582 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -1359,12 +1359,12 @@ focus = {
 			add_resource = {
 				type = rubber
 				amount = 20
-				state = 371
+				state = 237
 			}
 			add_resource = {
 				type = rubber
 				amount = 20
-				state = 230
+				state = 404
 			}
 		}
 	}
@@ -1640,7 +1640,7 @@ focus = {
 		available_if_capitulated = yes
 		completion_reward = {
 			navy_experience = 100
-			188 = {
+			195 = {
 				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
 					type = dockyard
@@ -1654,7 +1654,7 @@ focus = {
 				}
 				set_state_flag = SOV_expand_red_fleet_2dockyards
 			}
-			133 = {
+			137 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
@@ -1866,7 +1866,7 @@ focus = {
 						artillery = { x = 0 y = 2 }
 					}
 				}
-				212 = {
+				219 = {
 					for_loop_effect = {
 						end = 5
 						create_unit = {
@@ -2026,14 +2026,14 @@ focus = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-		    487 = {
+		    564 = {
 				set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 				}
 			}
-			488 = {
+			560 = {
 				set_building_level = {
 					type = air_base
 					level = 20
@@ -2239,7 +2239,7 @@ focus = {
 	relative_position_id = SOV_socialist_science
 	cost = 5
 	completion_reward = {
-		245 = {
+		833 = {
 			
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -2248,7 +2248,7 @@ focus = {
 					instant_build = yes
 			}
 		}
-		246 = {
+		351 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -2256,7 +2256,7 @@ focus = {
 					instant_build = yes
 				}
 			}
-		241 = {
+		236 = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 			type = industrial_complex
@@ -2288,24 +2288,24 @@ focus = {
 				}
 			}
 			completion_reward = {
-				368 = {
+				652 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
-				244 = {
+				251 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
-				572 = {
+				401 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -2348,7 +2348,7 @@ completion_reward = {
 			instant_build = yes
 			}
 		}
-	374 = {
+	400 = {
 		add_extra_state_shared_building_slots = 6
 			add_building_construction = {
 			type = arms_factory
@@ -2356,7 +2356,7 @@ completion_reward = {
 			instant_build = yes
 			}
 		}
-	513 = {
+	569 = {
 		add_extra_state_shared_building_slots = 6
 			add_building_construction = {
 			type = arms_factory
@@ -2364,7 +2364,7 @@ completion_reward = {
 			instant_build = yes
 			}
 		}
-	492 = {
+	654 = {
 		add_extra_state_shared_building_slots = 6
 			add_building_construction = {
 			type = arms_factory
@@ -2372,7 +2372,7 @@ completion_reward = {
 			instant_build = yes
 			}
 		}
-	489 = {
+	567 = {
 		add_extra_state_shared_building_slots = 6
 			add_building_construction = {
 			type = arms_factory
@@ -2561,14 +2561,7 @@ focus = {
 		add_ideas = SOV_build_refs
 		set_technology= {synth_oil_experiments=1 popup=no}
 		
-		496 = {
-			add_building_construction = {
-				type = synthetic_refinery
-				level = 2
-				instant_build = yes
-			}
-		}
-		370 = {
+		582 = {
 			add_building_construction = {
 				type = synthetic_refinery
 				level = 2
@@ -2576,6 +2569,13 @@ focus = {
 			}
 		}
 		573 = {
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 2
+				instant_build = yes
+			}
+		}
+		398 = {
 			add_building_construction = {
 				type = synthetic_refinery
 				level = 2

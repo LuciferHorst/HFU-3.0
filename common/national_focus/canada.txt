@@ -608,7 +608,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			601 = {
+			276 = {
 				add_resource = {
 					type = steel
 					amount = 40
@@ -1956,19 +1956,19 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			601 = {
+			276 = {
 				add_resource = {
 					type = aluminium
 					amount = 14
 				}
 			}
-			430 = {
+			446 = {
 				add_resource = {
 					type = aluminium
 					amount = 14
 				}
 			}
-			432 = {
+			465 = {
 				add_resource = {
 					type = aluminium
 					amount = 14
