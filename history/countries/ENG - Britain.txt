@@ -42,6 +42,7 @@ set_technology = {
 	improved_light_tank_chassis = 1
 	basic_heavy_tank_chassis = 1
 	engine_tech_1 = 1
+	improved_light_spaa = 1
 	improved_light_td  = 1
 	improved_light_art = 1
 	early_fighter = 1

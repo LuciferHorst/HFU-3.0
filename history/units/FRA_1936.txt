@@ -147,7 +147,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_equipment_2
+			type = light_tank_chassis_2
 			creator = "FRA"
 		}
 		requested_factories = 1
@@ -172,4 +172,4 @@ instant_effect = {
 		progress = 0.3
 		efficiency = 50
 	}
-
+}
