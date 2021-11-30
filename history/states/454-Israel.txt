@@ -2,7 +2,7 @@
 state={
 	id=454
 	name="STATE_454" #Palestine
-	manpower = 933142
+	manpower = 1
 	
 	state_category = rural
 
@@ -10,26 +10,19 @@ state={
 		owner = ENG
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
-			air_base = 2
-			4206 = {
-				naval_base = 3
-			}
-		}
-		victory_points = {
-			1086 1 
-		}
-		victory_points = {
-			4206 1 
-		}
-		victory_points = {
-			1065 1 
 		}
 		add_core_of = SWE
+
+		victory_points = {
+			12071 3
+		}
+		victory_points = {
+			11999 1
+		}
 	}
 
 	provinces={
-		1015 1065 1086 1201 4088 4206 7107 7176 11970 1
+		9912 9893 9761 1064 3890 11999 1028 10097 6813 1206 9777 3950 806 7156 11746 4143 12771 6965 10844 3903 4910 
 	}
 
 	local_supplies=0.0 
