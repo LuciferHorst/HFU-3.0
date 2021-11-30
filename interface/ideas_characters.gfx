@@ -1318,6 +1318,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_MAL_shenton_thomas.dds"
 	}
 
+	### MAN
+
+	spriteType = {
+		name = "GFX_idea_MAN_manchuria_henry_pu_yi"
+		texturefile = "gfx/interface/ideas/idea_MAN_manchuria_henry_pu_yi.dds"
+	}
+
+	### MEN
+
+	spriteType = {
+		name = "GFX_idea_MEN_demchugdongrub"
+		texturefile = "gfx/interface/ideas/idea_MEN_demchugdongrub.dds"
+	}
+
 	### MEX
 
 	spriteType = {
@@ -1361,6 +1375,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_NOR_vidkun_quisling"
 		texturefile = "gfx/interface/ideas/idea_NOR_vidkun_quisling.dds"
+	}
+
+	### NZL
+
+	spriteType = {
+		name = "GFX_idea_NZL_peter_fraser"
+		texturefile = "gfx/interface/ideas/idea_NZL_peter_fraser.dds"
 	}
 
 	### OMA

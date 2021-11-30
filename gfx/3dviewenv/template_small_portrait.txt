@@ -15,5 +15,5 @@ ship_3d_view =
 	pitch 			= 0.3
 	max_pitch		= 1.2
 	yaw 			= 4.4
-	size 			= { 84 78 }
+	size 			= { 84 39 }
 }
