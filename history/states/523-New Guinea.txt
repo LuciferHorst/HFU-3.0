@@ -1,16 +1,19 @@
 state={
 	id=523
 	name="STATE_523"
-
+	resources={
+		rubber=25
+		steel=20
+		oil=10}
 	history={
-		add_core_of = PNG
+		add_core_of = AST
 		owner = AST
 		buildings = {
-			infrastructure = 1
-			air_base = 3
+			infrastructure = 3
+			air_base = 5
 
 			4329 = {
-				naval_base = 3
+				naval_base = 5
 
 			}
 			12237 = {
@@ -28,10 +31,10 @@ state={
 
 		}
 		victory_points = {
-			4329 3 
+			4329 10
 		}
 		victory_points = {
-			12237 1 
+			12237 5 
 		}
 
 	}

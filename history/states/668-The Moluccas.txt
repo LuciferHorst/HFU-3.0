@@ -5,7 +5,9 @@ state={
 	manpower = 579100
 	
 	state_category = pastoral
-
+	resources = {
+		rubber = 5
+	}
 	history={
 		owner = INS
 		add_core_of = INS
