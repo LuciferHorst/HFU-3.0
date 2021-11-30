@@ -1,21 +1,21 @@
 state={
 	id=662
 	name="STATE_662"
-	manpower = 13213
+	manpower = 1
 	
 	state_category = wasteland
 	
 	
 	history={
-		owner = ITA
+		owner = TUR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SWE
+		add_core_of = TUR
 	}
 	
 	provinces={
-		7194 3807 3862 11826 11844 7154 12866 4200 7076 7136 8069 13073 
+		11784 6908 11747 804 6925 9901 
 	}
 
 	local_supplies=0.0 
