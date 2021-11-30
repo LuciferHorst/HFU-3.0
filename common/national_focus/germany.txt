@@ -929,7 +929,7 @@
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
 							type = infrastructure
-							level = 10
+							level = 5
 							instant_build = yes
 						}
 					}
@@ -939,7 +939,7 @@
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
 							type = infrastructure
-							level = 10
+							level = 5
 							instant_build = yes
 						}
 					}
@@ -949,7 +949,7 @@
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
 							type = infrastructure
-							level = 10
+							level = 5
 							instant_build = yes
 						}
 					}
@@ -959,7 +959,7 @@
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
 							type = infrastructure
-							level = 10
+							level = 5
 							instant_build = yes
 						}
 					}
@@ -1608,7 +1608,7 @@ focus = {
 						anti_air = { x = 0 y = 5 }
 					}
 				}
-				677 = {
+				64 = {
 					for_loop_effect = {
 						end = 20
 						create_unit = {
@@ -2057,8 +2057,8 @@ focus = {
 						has_civil_war = no
 						OR = {
 							owns_state = 4
-							owns_state = 148
-							owns_state = 149
+							owns_state = 152
+							owns_state = 153
 						}
 					}
 				}
@@ -2069,10 +2069,10 @@ focus = {
 			4 = {
 				add_core_of = GER
 			}
-			148 = {
+			152 = {
 				add_core_of = GER
 			}
-			149 = {
+			153 = {
 				add_core_of = GER
 			}
 			AUS = {
@@ -3174,13 +3174,13 @@ focus = {
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			181 = { add_claim_by = GER }
+			188 = { add_claim_by = GER }
 			85 = { add_claim_by = GER }
 			86 = { add_claim_by = GER }
-			676 ={ add_claim_by = GER }
+			807 ={ add_claim_by = GER }
 			GER = {
-				transfer_state = 181
-				add_state_core = 181
+				transfer_state = 188
+				add_state_core = 188
 			}
 			add_named_threat = { threat = 3 name = GER_demand_memel_threat }
 			LIT = {
@@ -3240,11 +3240,11 @@ focus = {
 			}
 			28 = { set_state_name = "Elsass-Lothringen" }
 			86 = { set_state_name = "Posen" }
-			676 = { set_state_name = "Kattowitz" }
-			set_province_name = { id =8727 name = "Strassburg" }
-			set_province_name = { id =641 name = "Mulhausen" }
-			set_province_name = { id =6062 name = "Posen" }
-			set_province_name = { id =5969 name = "Kattowitz" }
+			762 = { set_state_name = "Kattowitz" }
+			set_province_name = { id =9503 name = "Strassburg" }
+			set_province_name = { id =678 name = "Mulhausen" }
+			set_province_name = { id =6558 name = "Posen" }
+			set_province_name = { id =6464 name = "Kattowitz" }
 			FRA = {
 				country_event = { id = wtt_germany.63 }
 			}
@@ -4442,7 +4442,7 @@ focus = {
 						signal_company = { x = 0 y = 4 }
 					}
 				}
-				677 = {
+				763 = {
 					for_loop_effect = {
 						end = 4
 						create_unit = {
@@ -4474,7 +4474,7 @@ focus = {
 	 completion_reward = {
 	  add_ideas = GER_Waffen_SS
 	  custom_effect_tooltip = "Ten fully equipped SS-Divisions will spawn in Duisburg."
-	  51 = {
+	  64 = {
 		for_loop_effect = {
 		end = 10
 		create_unit = {
