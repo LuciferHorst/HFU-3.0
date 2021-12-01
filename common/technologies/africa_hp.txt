@@ -29,9 +29,6 @@ technologies = {
 			building =air_base
 			level = 20
 		}
-		category_army = {
-			breakthrough = 0.15
-		}
 	}
 
 	africa_hp_off = {

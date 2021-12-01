@@ -1050,10 +1050,6 @@ technologies = {
 			level = 3
 		}
 		path = {
-			leads_to_tech = oil_processing
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = rubber_processing
 			research_cost_coeff = 1
 		}

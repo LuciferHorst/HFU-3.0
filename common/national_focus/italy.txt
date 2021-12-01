@@ -1521,7 +1521,7 @@ focus = {
 		cost = 5
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			415  = {
+			450  = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1542,12 +1542,12 @@ focus = {
 					add_building_construction = {
 						type = naval_base
 						level = 10
-						province =10843
+						province =11954
 						instant_build = yes
 					}
 				}
 			}
-			581 = {
+			451 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1573,7 +1573,7 @@ focus = {
 					}
 				}
 			}
-			414 = {
+			449 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1593,7 +1593,7 @@ focus = {
 					}
 				}
 			}
-			413 = {
+			448 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1609,6 +1609,12 @@ focus = {
 					set_building_level = {
 						type = air_base
 						level = 10
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 10
+						province =1149
 						instant_build = yes
 					}
 				}
@@ -1713,7 +1719,7 @@ focus = {
 		icon = GFX_focus_usa_guarantee_the_american_dream
 		prerequisite = { focus = ITA_rommel}
 		available = {
-			ITA ={  controls_state=412  }
+			ITA ={  controls_state=446 }
 		}
 		bypass = {
 		date > 1941.6.1
@@ -1770,7 +1776,7 @@ focus = {
 		id = ITA_8_Million_Bayonets
 		prerequisite = { focus = ITA_rommel}
 		icon = GOAL_equpiment
-		available = {has_full_control_of_state = 582 has_full_control_of_state = 413}
+		available = {has_full_control_of_state = 446 has_full_control_of_state = 458 }
 		relative_position_id = ITA_rommel
 		x = 2
 		y = 1
@@ -1780,86 +1786,6 @@ focus = {
 		}
 		completion_reward = {
 		add_ideas = GER_reinforce_the_line_idea
-		}
-	}
-	focus = {
-		id = ITA_Fiat_26
-		icon = GFX_ITA_Innovative_theories
-		prerequisite = { focus = ITA_8_Million_Bayonets}
-		available = {
-		}
-		relative_position_id = ITA_8_Million_Bayonets
-		x = 0
-		y = 2
-		cost = 5
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-		    set_technology = {
-		        improved_heavy_tank_chassis = 1
-		    }
-		    create_equipment_variant = {
-				name = "Ansaldo L6/40s"
-				type = improved_heavy_tank_chassis
-				upgrades = {
-					tank_gun_upgrade = 5
-					tank_reliability_upgrade = 5
-				}
-			}
-			add_equipment_production = {
-				equipment = {
-					type = improved_heavy_tank_chassis
-					creator = "ITA"
-					version_name = "Ansaldo L6/40s"		
-				}
-				requested_factories = 50
-				progress = 0.1
-				efficiency = 70
-			}
-			division_template = {
-				name = "TONK"
-				regiments = {
-					heavy_armor = { x = 0 y = 0 }
-					heavy_armor = { x = 0 y = 1 }
-					heavy_armor = { x = 0 y = 2 }
-					heavy_armor = { x = 0 y = 3 }
-					heavy_armor = { x = 1 y = 0 }
-					heavy_armor = { x = 1 y = 1 }
-					heavy_armor = { x = 1 y = 2 }
-					heavy_armor = { x = 1 y = 3 }
-					heavy_armor = { x = 2 y = 0 }
-					heavy_armor = { x = 2 y = 1 }
-					heavy_armor = { x = 2 y = 2 }
-					motorized = { x = 3 y = 0 }
-					motorized = { x = 3 y = 1 }
-					motorized = { x = 3 y = 2 }
-					motorized = { x = 3 y = 3 }
-					motorized = { x = 4 y = 0 }
-					motorized = { x = 4 y = 1 }
-					motorized = { x = 4 y = 2 }
-					motorized = { x = 4 y = 3 }
-					mot_anti_air_brigade = { x = 4 y = 4}
-					mot_anti_air_brigade = { x = 4 y = 5 }
-				}
-				support = {
-					light_tank_recon = { x = 0 y = 0 }
-					engineer = { x = 0 y = 1 }
-					artillery = { x = 0 y = 2 }
-					logistics_company = { x = 0 y = 3 }
-					signal_company = { x = 0 y = 4 }
-					anti_air = { x = 0 y = 5 }
-				}
-			}
-				155 = {
-					for_loop_effect = {
-						end = 3
-						create_unit = {
-							division = "name = \"TONK\" division_template = \"TONK\" start_experience_factor = 0.5"
-							owner = ITA
-						}
-					}
-				} 
 		}
 	}
 	focus = {
@@ -1907,7 +1833,7 @@ focus = {
 		    custom_effect_tooltip="Adds a Coastal Fort to every coastal provinces in Northern Italy that have at least one coastal fort."
 			custom_effect_tooltip="Adds one level of State Anti-Air to every state in Northern Italy that has at least one one level of State Anti-Air."
 		    hidden_effect = { 
-			21 = {
+			162 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -1926,7 +1852,7 @@ focus = {
 					}
 				}
 			}
-		    653 = {
+		    158 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -1945,7 +1871,7 @@ focus = {
 					}
 				}
 			}
-			158 = {
+			161 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -1964,7 +1890,7 @@ focus = {
 					}
 				}
 			}
-			154 = {
+			2 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -1992,7 +1918,6 @@ focus = {
 		prerequisite = { focus = ITA_roman_legacy}
 		prerequisite = { focus = ITA_escape_the_cage}
 		prerequisite = { focus = ITA_german_rocketry}
-		prerequisite = { focus = ITA_Fiat_26}
 		available = {
 		surrender_progress > 0.5
 		}

@@ -493,7 +493,6 @@ focus_tree = {
 				name = RAJ_chindits
 				bonus = 3.0
 				uses = 2
-				category = para_tech
 				category = mountaineers_tech
 			}
 		}
