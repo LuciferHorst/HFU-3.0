@@ -8,10 +8,6 @@ state={
 			6940 3 
 		}
 		owner = YUG
-		buildings = {
-			infrastructure = 1
-
-		}
 		add_core_of = YUG
 
 	}

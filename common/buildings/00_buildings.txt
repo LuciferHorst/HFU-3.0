@@ -113,7 +113,7 @@ buildings = {
 		only_costal = yes
 		icon_frame = 8
 		naval_fort = 1
-		max_level = 10
+		max_level = 5
 		value = 1
 		allied_build = yes
 	}

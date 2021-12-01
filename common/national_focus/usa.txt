@@ -435,43 +435,43 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = no
 		completion_reward = {
-			352 = {
+			360 = {
 				add_resource = {
 					type = tungsten
 					amount = 69
 				}
 			}
-			254 = {
+			358 = {
 				add_resource = {
 					type = steel
 					amount = 100
 				}
 			}
-			329 = {
+			357 = {
 				add_resource = {
 					type = steel
 					amount = 100
 				}
 			}
-			359 = {
+			395 = {
 				add_resource = {
 					type = steel
 					amount = 100
 				}
 			}
-			349 = {
+			393 = {
 				add_resource = {
 					type = chromium
 					amount = 50
 				}
 			}
-			345 = {
+			391 = {
 				add_resource = {
 					type = aluminium
 					amount = 40
 				}
 			}
-			325 = {
+			371 = {
 				add_resource = {
 					type = aluminium
 					amount = 40
@@ -1034,8 +1034,7 @@ focus_tree = {
 		cost = 5
 		complete_tooltip = {
 			army_experience = 10
-			every_state = {
-				limit = { has_state_flag = USA_military_construction_5MF }
+			375 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
@@ -1043,8 +1042,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			every_state = {
-				limit = { has_state_flag = USA_military_construction_3Inf }
+			375 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1054,186 +1052,33 @@ focus_tree = {
 		}
 		completion_reward = {
 			army_experience = 10
-			random_owned_controlled_state = {
-				limit = {
-					arms_factory > 0
-					free_building_slots = {
-						building = arms_factory
-						size > 4
-						include_locked = yes
-					}
-					OR = {
-						region = 117
-						region = 118
-						region = 119
-						region = 120
-					}
+			375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
 				}
+			}
+			378 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			371 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			375 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
 					level = 5
 					instant_build = yes
-				}
-				set_state_flag = USA_military_construction_5MF
-			}
-			if = {
-				limit = {
-					338 = {
-						OR = {
-							NOT = { is_owned_and_controlled_by = USA }
-							AND = {
-								is_owned_and_controlled_by = USA
-								free_building_slots = {
-									building = infrastructure
-									size < 3
-								}
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = infrastructure
-							size > 2
-						}
-						OR = {
-							region = 117
-							region = 118
-							region = 119
-							region = 120
-						}
-					}
-					add_building_construction = {
-						type = infrastructure
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = USA_military_construction_3Inf
-				}
-			}
-			338 = {
-				if = {
-					limit = {
-						is_owned_and_controlled_by = USA
-						free_building_slots = {
-							building = infrastructure
-							size > 2
-						}
-					}
-					add_building_construction = {
-						type = infrastructure
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = USA_military_construction_3Inf
-				}
-			}
-			if = {
-				limit = {
-					342 = {
-						OR = {
-							NOT = { is_owned_and_controlled_by = USA }
-							AND = {
-								is_owned_and_controlled_by = USA
-								free_building_slots = {
-									building = infrastructure
-									size < 3
-								}
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = infrastructure
-							size > 2
-						}
-						OR = {
-							region = 117
-							region = 118
-							region = 119
-							region = 120
-						}
-					}
-					add_building_construction = {
-						type = infrastructure
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = USA_military_construction_3Inf
-				}
-			}
-			342 = {
-				if = {
-					limit = {
-						is_owned_and_controlled_by = USA
-						free_building_slots = {
-							building = infrastructure
-							size > 2
-						}
-					}
-					add_building_construction = {
-						type = infrastructure
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = USA_military_construction_3Inf
-				}
-			}
-			if = {
-				limit = {
-					345 = {
-						OR = {
-							NOT = { is_owned_and_controlled_by = USA }
-							AND = {
-								is_owned_and_controlled_by = USA
-								free_building_slots = {
-									building = infrastructure
-									size < 3
-								}
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = infrastructure
-							size > 2
-						}
-						OR = {
-							region = 117
-							region = 118
-							region = 119
-							region = 120
-						}
-					}
-					add_building_construction = {
-						type = infrastructure
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = USA_military_construction_3Inf
-				}
-			}
-			345 = {
-				if = {
-					limit = {
-						is_owned_and_controlled_by = USA
-						free_building_slots = {
-							building = infrastructure
-							size > 2
-						}
-					}
-					add_building_construction = {
-						type = infrastructure
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = USA_military_construction_3Inf
 				}
 			}
 		}
@@ -1256,28 +1101,28 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = extensive_conscription
 
-			338 = {
+			371 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-			353 = {
+			386 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-          351 = { 
+           395 = { 
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-			356 = { 
+			361 = { 
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -1315,15 +1160,6 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			remove_ideas = Pacific_focus
-			transfer_state = 309
-						309 = {
-				add_building_construction = {
-					type = naval_base
-					province = 951
-					level = 20
-					instant_build = yes
-				}
-			}
 		}
 	}
 	focus = {
@@ -1417,7 +1253,7 @@ focus_tree = {
 					anti_tank = {x = 0 y = 5}
 				}
 			}
-			116 = {
+			118 = {
 				for_loop_effect = {
 					end = 8
 					create_unit = {
@@ -1459,11 +1295,11 @@ focus_tree = {
 		relative_position_id = USA_war_plan_black
 		cost = 4
 		completion_reward = {
-			425 = {
+			461 = {
 				set_building_level = {
 					type = naval_base
 					level = 20
-					province =6536
+					province =7069
 					instant_build = yes
 				}
 				set_building_level = {
@@ -1472,21 +1308,21 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			426 = {
+			462 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			423 = {
+			459 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			440 = {
+			513 = {
 				set_building_level = {
 					type = air_base
 					level = 10
@@ -1528,7 +1364,7 @@ focus_tree = {
 		cost = 4
 		completion_reward = {
 			every_state = {
-				limit={OR={state=138 state=139}}
+				limit={OR={state=142 state=143}}
 				add_dynamic_modifier = { modifier = JAP_attack days=60  }}
 		}
 	}
@@ -1547,7 +1383,7 @@ focus_tree = {
 		cost = 2
 		completion_reward = {
 			every_state = {
-				limit={OR={state=1 state=112 state=113 state=152 state=115 }}
+				limit={OR={state=2 state=114 state=115 state=156 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=120  }}
 		}
 	}
@@ -1566,7 +1402,7 @@ focus_tree = {
 		cost = 2
 		completion_reward = {
 			every_state = {
-				limit={OR={state=21 state=653 state=113 state=152 state=115 }}
+				limit={OR={state=21 state=735 state=158}}
 				add_dynamic_modifier = { modifier = JAP_attack days=120  }}
 		}
 	}
@@ -1605,72 +1441,66 @@ focus_tree = {
 		relative_position_id = USA_american_dream
 		cost = 5
 		completion_reward = {
-			570 = {
+			721 = {
 				set_building_level = {
 					type = coastal_bunker
-					province =11745
+					province =12190
+					level = 2
+					instant_build = yes
+				}
+			}
+			638 = {
+				set_building_level = {
+					type = coastal_bunker
+					province =12140
 					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = naval_base
-					province =11745
+					province =12140
 					level = 2
 					instant_build = yes
 				}
 			}
-			552 = {
+			629 = {
 				set_building_level = {
 					type = coastal_bunker
-					province =11736
+					province =4180
 					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = naval_base
-					province =11736
+					province =4180
 					level = 2
 					instant_build = yes
 				}
 			}
-			553 = {
+			631 = {
 				set_building_level = {
 					type = coastal_bunker
-					province =11731
+					province =13052
 					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = naval_base
-					province =11731
+					province =13052
 					level = 2
 					instant_build = yes
 				}
 			}
-			559 = {
+			630 = {
 				set_building_level = {
 					type = coastal_bunker
-					province =11024
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province =11024
-					level = 2
-					instant_build = yes
-				}
-			}
-			563 = {
-				set_building_level = {
-					type = coastal_bunker
-					province =11734
+					province =13051
 					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = naval_base
-					province =11734
+					province =13051
 					level = 2
 					instant_build = yes
 				}
@@ -1695,20 +1525,22 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_ideas = USA_war_time
-			transfer_state = 312
-				273 = {
+			AST = {
+				add_ideas = free_trade
+			}
+				517 = {
 					add_resource = {
 						type = steel
 						amount = 20
 					}
 				}
-				444 = {
+				520 = {
 					add_resource = {
 						type = steel
 						amount = 10
 					}
 				}
-				448 = {
+				521 = {
 					add_resource = {
 						type = tungsten
 						amount = 15
@@ -1801,7 +1633,7 @@ focus_tree = {
 		cost = 2
 		completion_reward = {
 			every_state = {
-				limit={OR={state=566 state=453}}
+				limit={OR={state=526 state=645}}
 				add_dynamic_modifier = {modifier = JAP_attack days=120}
 		    }
 		}
@@ -1823,7 +1655,7 @@ focus_tree = {
 		completion_reward = {
 		 JAP={remove_ideas = JAP_defense_of_homeland}
 		 every_state = {
-				limit={OR={state=455 state=457}}
+				limit={OR={state=528 state=282}}
 				add_dynamic_modifier = {modifier = JAP_attack days=120}
 		    }
 		}
@@ -1880,7 +1712,7 @@ focus_tree = {
 					anti_tank = {x = 0 y = 5}
 				}
 			}
-			273 = {
+			285 = {
 				for_loop_effect = {
 					end = 8
 					create_unit = {
@@ -1924,11 +1756,11 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			568={is_controlled_by_ROOT_or_ally=yes}
-			603={is_controlled_by_ROOT_or_ally=yes}
-			559={is_controlled_by_ROOT_or_ally=yes}
-			567 ={is_controlled_by_ROOT_or_ally=yes}
-			603={is_controlled_by_ROOT_or_ally=yes}
+			672={is_controlled_by_ROOT_or_ally=yes}
+			335={is_controlled_by_ROOT_or_ally=yes}
+			669={is_controlled_by_ROOT_or_ally=yes}
+			523 ={is_controlled_by_ROOT_or_ally=yes}
+			334={is_controlled_by_ROOT_or_ally=yes}
 		}
 		bypass = {
 		}
@@ -1937,7 +1769,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			every_state = {
-				limit={OR={state=544 state=545 state=546 state=549 state=547 state=548 state=294 }}
+				limit={OR={state=327 state=623 state=624 state=625 state=628 state=627 state=626 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }}
 		}
 	}
@@ -1961,7 +1793,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			every_state = {
-				limit={OR={state=591 state = 712 state = 713 state=302 state=592 state=588 state=450 state=300 state=692 state=301 state=587 }}
+				limit={OR={state=672 state = 335 state = 667 state=673 state=668 state=669 state=334 state=333 state=336 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }}
 		}
 	}
@@ -2515,7 +2347,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = no
 		complete_tooltip = {
-			352 = {
+			378 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
@@ -2523,7 +2355,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			331 = {
+			385 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = dockyard
@@ -2661,11 +2493,18 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		    transfer_state = 639
-			639 = {
+			721 = {
 				add_building_construction = {
 					type = naval_base
-					province =11074
+					province =12190
+					level = 20
+					instant_build = yes
+				}
+			}
+			629 = {
+				add_building_construction = {
+					type = naval_base
+					province =4180
 					level = 20
 					instant_build = yes
 				}
