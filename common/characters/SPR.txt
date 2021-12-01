@@ -81,17 +81,6 @@ characters={
 			}
 			visible = {
 			}
-			available = {
-				NOT = {
-					has_completed_focus = SPR_crush_the_revolution 
-				}
-				custom_trigger_tooltip = {
-					tooltip = SPR_not_nationalist_spain_tt
-					NOT = {
-						tag = SPA 
-					}
-				}
-			}
 			traits = {
 				captain_of_industry 
 			}
@@ -122,17 +111,6 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-			}
-			available = {
-				NOT = {
-					has_completed_focus = SPR_crush_the_revolution 
-				}
-				custom_trigger_tooltip = {
-					tooltip = SPR_not_nationalist_spain_tt
-					NOT = {
-						tag = SPA 
-					}
-				}
 			}
 			traits = {
 				war_industrialist 

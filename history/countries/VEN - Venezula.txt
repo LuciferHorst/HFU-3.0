@@ -19,5 +19,3 @@ set_popularities = {
 	fascism = 80
 	communism = 15
 }
-
-recruit_character = VEN_eleazar_lópez_contreras

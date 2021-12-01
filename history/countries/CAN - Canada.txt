@@ -128,7 +128,6 @@ add_equipment_to_stockpile = {
 set_stability = 0.75
 
 recruit_character = CAN_mackenzie_king
-recruit_character = CAN_adrien_arcand
 
 ### VARIANTS ###
 # 1936 Start #

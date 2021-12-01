@@ -1,14 +1,17 @@
 characters = {
-	POL_anna_andersson = {
-		name="Anastasia Romanov"
+	POL_ignacy_moscicki = {
+		name=POL_ignacy_moscicki
 		portraits = {
+			army={
+				small="gfx/interface/ideas/idea_POL_ignacy_moscicki.dds"
+			}
 			civilian = {
-				large="GFX_portrait_POL_anna_anderson"
+				large="GFX_portrait_POL_ignacy_moscicki"
 			}
 		}
+		
 		country_leader = {
-			ideology=despotism
-			traits = { the_last_romanov_maybe }
+			ideology=oligarchism
 			expire="1965.1.1.1"
 			id=-1
 		}

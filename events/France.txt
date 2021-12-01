@@ -258,6 +258,7 @@ country_event = {
 			}
 		}
 	}
+}
 country_event = {
 	id = france.20
 	title = france.20.t
@@ -429,5 +430,3 @@ country_event = {
 		}
 	}
 }
-
-

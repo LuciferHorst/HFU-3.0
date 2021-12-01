@@ -576,34 +576,21 @@ if = {
 	}
 }
 create_equipment_variant = {
-	name = "Ju 86"
-	type = tac_bomber_equipment_0
+	name = "Leichttraktor"
+	type = light_tank_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_small_cannon
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_christie_suspension
+		armor_type_slot = tank_riveted_armor
+		engine_type_slot = tank_gasoline_engine
+		special_type_slot_1 = tank_radio_1
+	}
 	upgrades = {
-		plane_tac_bomb_upgrade = 5
-		plane_range_upgrade = 5
-		plane_engine_upgrade = 5
-		plane_reliability_upgrade = 10
+		tank_nsb_engine_upgrade = 2
+		tank_nsb_armor_upgrade = 2
 	}
 	obsolete = yes
+	icon = "gfx/interface/technologies/gwtank.dds"
 }
-create_equipment_variant = {
-	name = "Bf 109 A"
-	type = fighter_equipment_1
-	upgrades = {
-		plane_range_upgrade = 3
-		plane_engine_upgrade = 2
-	}
-	obsolete = no
-}
-create_equipment_variant = {
-	name = "Do 17"
-	type = tac_bomber_equipment_0
-	upgrades = {
-		plane_tac_bomb_upgrade = 5
-		plane_range_upgrade = 1
-		plane_engine_upgrade = 1
-		plane_reliability_upgrade = 5
-	}
-	obsolete = yes
-}
-
