@@ -1,7 +1,7 @@
 state={
 	id=695
 	name="STATE_695"
-	manpower = 76299
+	manpower = 1
 	
 	state_category = rural
 
@@ -10,11 +10,7 @@ state={
 	}
 
 	history={
-<<<<<<< Updated upstream
 		owner = VEN
-=======
-		owner = ENG
->>>>>>> Stashed changes
 		add_core_of = SWE
 		victory_points = {
 			153 1
