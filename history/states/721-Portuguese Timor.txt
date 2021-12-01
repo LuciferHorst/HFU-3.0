@@ -12,10 +12,11 @@ state={
 		owner = USA
 		add_core_of = SWE
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			12190 ={
 				naval_base = 1
 			}
+			air_base = 5
 		}
 	}
 

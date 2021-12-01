@@ -9,6 +9,7 @@ state={
 		owner = AST
 		buildings = {
 			infrastructure = 1
+			air_base = 5
 			1269 = {
 				naval_base = 2
 

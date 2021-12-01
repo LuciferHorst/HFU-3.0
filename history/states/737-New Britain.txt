@@ -9,7 +9,7 @@ state={
 		add_core_of = AST
 		buildings = {
 			infrastructure = 1
-			air_base = 1
+			air_base = 5
 			7251 = {
 				naval_base = 5
 

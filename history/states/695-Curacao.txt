@@ -10,7 +10,11 @@ state={
 	}
 
 	history={
+<<<<<<< Updated upstream
 		owner = VEN
+=======
+		owner = ENG
+>>>>>>> Stashed changes
 		add_core_of = SWE
 		victory_points = {
 			153 1

@@ -10,6 +10,7 @@ state=
 	history= {
 		owner = SWI
 		add_core_of = SWI
+		set_demilitarized_zone = yes
 	}
 
 	provinces=
