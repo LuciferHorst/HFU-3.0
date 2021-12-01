@@ -1,5 +1,33 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
+6721;3698;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+6721;9663;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+9674;9663;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+9674;11647;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+6692;11647;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+6692;11617;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+11664;11617;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+11664;11647;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+11664;672;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+6674;672;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+6674;654;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+9632;654;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+9632;9626;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+9632;1530;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+11609;1530;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+11609;4534;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+3667;4534;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+3667;6436;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+1455;6436;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+7554;6436;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+7554;6763;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+3711;6763;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+1450;6763;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+1450;11645;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+4545;11645;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+4545;4477;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+4545;4614;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
+
 10351;10510;impassable;-1;-1;-1;-1;-1;;Iran-Front-2
 10351;12333;impassable;-1;-1;-1;-1;-1;;Iran-Front-2
 1521;12333;impassable;-1;-1;-1;-1;-1;;Iran-Front-2
@@ -56,6 +84,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6175;7;impassable;-1;-1;-1;-1;-1;;Finland-Soviets
 6098;7;impassable;-1;-1;-1;-1;-1;;Finland-Soviets
 80;7;impassable;-1;-1;-1;-1;-1;;Finland-Soviets
+80;6210;impassable;-1;-1;-1;-1;-1;;Finland-Soviets
 80;3185;impassable;-1;-1;-1;-1;-1;;Finland-Soviets
 2998;6210;impassable;-1;-1;-1;-1;-1;;Finland-Soviets
 2998;11156;impassable;-1;-1;-1;-1;-1;;Finland-Soviets
@@ -218,7 +247,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2084;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4998;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4998;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4998;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12717;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12717;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 1978;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 1978;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 7975;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
@@ -227,6 +258,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12805;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12805;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+4923;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 10417;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 10417;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 8027;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
