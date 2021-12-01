@@ -1204,7 +1204,7 @@ focus_tree = {
 				}
 				add_ideas = ENG_fortify_the_empire_1
 			}
-			412 = {
+			116 = {
 				set_building_level = {
 					type = coastal_bunker
 					level = 5
