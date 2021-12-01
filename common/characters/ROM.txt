@@ -446,7 +446,7 @@ characters={
 				original_tag = ROM
 			}
 			traits = {
-				air_strategic_bombing_2
+				army_regrouping_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -483,69 +483,6 @@ characters={
 	### POLITICAL ADVISORS ###
 
 	# Calinescu up there
-
-	ROM_iuliu_maniu={
-		name=ROM_iuliu_maniu
-		portraits={
-			army={
-				small="GFX_idea_ROM_iuliu_maniu"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROM_iuliu_maniu
-			allowed  = {
-				original_tag  = ROM
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				democratic_reformer 
-			}
-		}
-	}
-
-	ROM_gheorghe_gheorghiu_dej={
-		name=ROM_gheorghe_gheorghiu_dej
-		portraits={
-			army={
-				small="GFX_idea_ROM_gheorghe_gheorghiu_dej"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROM_gheorghe_gheorghiu_dej
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Death or Dishonor"
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			allowed  = {
-				original_tag  = ROM
-			}
-			traits  = {
-				communist_revolutionary 
-			}
-		}
-	}
 
 	ROM_gheorghe_argeseanu={
 		name=ROM_gheorghe_argeseanu

@@ -2,8 +2,7 @@ ai_historical_focus_list_ITA = {
 	ai_national_focuses = {
 		ITA_army_primacy 
 		ITA_air_innovation 
-		ITA_modernized_army 
-		ITA_fortification_effort 
+		ITA_modernized_army  
 		ITA_bulgaria_friend 
 		ITA_pact_of_steel 
 		ITA_romania_friend    

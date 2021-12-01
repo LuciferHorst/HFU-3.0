@@ -487,27 +487,6 @@ focus = {
 			show_ideas_tooltip = alexander_golovanov
 }
 }
-focus = {
-	id = SOV_drive_them_out
-	icon = GFX_focus_SOV_push_out
-	relative_position_id = SOV_move_industry_to_urals
-	x = 0
-	y = 7
-	prerequisite = { focus = SOV_appoint_golovanov  }
-	prerequisite = { focus = SOV_novikov_blueprint  }
-	prerequisite = { focus = SOV_uranus  }
-	cost = 10
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			NOT = { has_war_with = GER }
-		}
-	}
-	completion_reward = {
-		add_ideas = SOV_GG_EZ
-}
-}
 	focus = {
 		id = SOV_wartime_industry
 		icon = GFX_focus_SOV_iron_fist
@@ -656,10 +635,9 @@ focus = {
 		}
 		completion_reward = {
 			add_ideas = SOV_red_army
-			swap_ideas = {
-				remove_idea = ivan_konev
-				add_idea = ivan_konev_2
-			}
+			#swap_ideas = {
+				#figure out how to character swap
+			#}
 		}
 	}
 	focus = {
@@ -1921,7 +1899,7 @@ focus = {
 		    set_technology = {improved_heavy_tank_chassis = 1 popup=no}
 			create_equipment_variant = {
 					name = "KV-1/1"
-					type = heavy_tank_chassis_equipment_2
+					type = improved_heavy_tank_chassis
 					upgrades = {
 						tank_gun_upgrade = 5
 						tank_armor_upgrade = 4
@@ -1929,7 +1907,7 @@ focus = {
 						}}
 				add_equipment_production = {
 					equipment = {
-						type = heavy_tank_chassis_equipment_2
+						type = improved_heavy_tank_chassis
 						creator = "SOV"
 						version_name = "KV-1/1"		}
 					requested_factories = 15
@@ -2138,10 +2116,9 @@ focus = {
 		completion_reward = {
             if = {
             limit = {has_completed_focus = SOV_positive_heroism}
-            swap_ideas = {
-                remove_idea = konstantin_rokossovsky
-                add_idea = konstantin_rokossovsky_2
-            }}
+            #swap_ideas = {
+                #figure out how to character swap
+            #}}
             else = {
             custom_effect_tooltip = available_chief_of_army
             show_ideas_tooltip = konstantin_rokossovsky
@@ -2170,6 +2147,27 @@ focus = {
 					scoped_sound_effect = "hellmarch"
 			}
 		}
+	}
+	focus = {
+		id = SOV_drive_them_out
+		icon = GFX_focus_SOV_push_out
+		relative_position_id = SOV_move_industry_to_urals
+		x = 0
+		y = 7
+		prerequisite = { focus = SOV_appoint_golovanov  }
+		prerequisite = { focus = SOV_novikov_blueprint  }
+		prerequisite = { focus = SOV_uranus  }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { has_war_with = GER }
+			}
+		}
+		completion_reward = {
+			add_ideas = SOV_GG_EZ
+	}
 	}
 	focus = {
 		id = SOV_bagration

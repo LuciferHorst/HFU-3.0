@@ -1508,10 +1508,10 @@ focus_tree = {
 		relative_position_id = USA_war_plan_black
 		cost = 4
 		completion_reward = {
-			swap_ideas = {
-				remove_idea =joseph_stilwell
-				add_idea = joseph_stilwell_2
-			}
+			#swap_ideas = {
+				#remove_idea =joseph_stilwell
+				#add_idea = joseph_stilwell_2
+			#}
 		}
 	}
 	focus = {

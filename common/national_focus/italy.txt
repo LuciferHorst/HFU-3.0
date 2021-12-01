@@ -1797,11 +1797,11 @@ focus = {
 		}
 		completion_reward = {
 		    set_technology = {
-		        italy_heavy_tank_chassis = 1
+		        improved_heavy_tank_chassis = 1
 		    }
 		    create_equipment_variant = {
 				name = "Ansaldo L6/40s"
-				type = ITA_heavy_tank_chassis_equipment_2
+				type = improved_heavy_tank_chassis
 				upgrades = {
 					tank_gun_upgrade = 5
 					tank_reliability_upgrade = 5
@@ -1809,7 +1809,7 @@ focus = {
 			}
 			add_equipment_production = {
 				equipment = {
-					type = ITA_heavy_tank_chassis_equipment_2
+					type = improved_heavy_tank_chassis
 					creator = "ITA"
 					version_name = "Ansaldo L6/40s"		
 				}

@@ -72,7 +72,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_chief_morale_1
+				army_chief_offensive_1
 			}
 			cost =  50
 			ai_will_do = {
@@ -144,7 +144,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_chief_maneuver_1
+				army_chief_organizational_2
 			}
 			cost =  50
 			ai_will_do = {
@@ -245,20 +245,6 @@ characters={
 				large="gfx/leaders/ITA/portrait_italy_italo_balbo.dds"
 			}
 		}
-		advisor={
-			slot = air_chief
-			idea_token = italo_balbo
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				air_chief_all_weather_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 		
 		corps_commander={
 			traits={ career_officer politically_connected }
@@ -266,43 +252,6 @@ characters={
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	ITA_rodolfo_graziani={
-		name=ITA_rodolfo_graziani
-		portraits={
-			army={
-				small="GFX_idea_rodolfo_graziani"
-			}
-			army={
-				large="gfx/leaders/ITA/portrait_italy_radolfo_graziani.dds"
-			}
-		}
-		advisor={
-			cost = 150
-			slot = theorist
-			idea_token = rodolfo_graziani
-			ledger = army
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				grand_battle_plan_expert
-			}
-			ai_will_do = {
-				factor = 3.000
-			}
-		}
-
-		field_marshal={
-			traits={ trait_cautious politically_connected offensive_doctrine }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
 			logistics_skill=1
 			legacy_id=0
 		}
@@ -340,43 +289,6 @@ characters={
 			defense_skill=2
 			maneuvering_skill=3
 			coordination_skill=3
-			legacy_id=0
-		}
-	}
-
-	ITA_alberto_da_zara={
-		name=ITA_alberto_da_zara
-		portraits={
-			navy={
-				small="GFX_idea_alberto_da_zara"
-			}
-			army={
-				large="gfx/leaders/ITA/Portrait_Italy_Alberto_Da_Zara.dds"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = alberto_da_zara
-			ledger = navy
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				navy_anti_submarine_1
-			}
-			cost =  50
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
-		navy_leader={
-			traits={ gentlemanly superior_tactician }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=2
 			legacy_id=0
 		}
 	}
@@ -437,39 +349,6 @@ characters={
 		}
 	}
 
-	ITA_angelo_iachino={
-		name=ITA_angelo_iachino
-		portraits={
-			navy={
-				small="GFX_idea_angelo_iachino"
-			}
-			army={
-				large="gfx/leaders/ITA/Portrait_Italy_Angelo_Iachino.dds"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = angelo_iachino
-			ledger = navy
-				allowed = {
-					original_tag = ITA
-				}
-				traits = { naval_theorist }
-		}
-
-		navy_leader={
-			traits={ bold navy_career_officer superior_tactician spotter }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=3
-			coordination_skill=1
-			legacy_id=0
-		}
-	}
-
-
 	### THEORISTS ###
 
 	# Messe up there
@@ -499,27 +378,6 @@ characters={
 		}
 	}
 
-	ITA_amedeo_mecozzi={
-		name=ITA_amedeo_mecozzi
-		portraits={
-			army={
-				small="GFX_idea_amedeo_mecozzi"
-			}
-		}
-		advisor={
-			cost = 150
-			slot = theorist
-			idea_token = amedeo_mecozzi
-			ledger = air
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				assault_avaition
-			}
-		}
-	}
-
 	ITA_renato_sandalli={
 		name=ITA_renato_sandalli
 		portraits={
@@ -537,30 +395,6 @@ characters={
 			}
 			traits = { air_warfare_theorist }
 		}		
-	}
-
-	ITA_gaetano_crocco={
-		name=ITA_gaetano_crocco
-		portraits={
-			army={
-				small="GFX_idea_gaetano_crocco"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = gaetano_crocco
-			ledger = air
-			allowed = {
-				original_tag = ITA
-			}
-			research_bonus = {
-				rocketry = 0.150
-			}
-			traits = {
-				rocket_scientist
-			}
-		}
 	}
 	
 
@@ -600,30 +434,6 @@ characters={
 		}
 	}
 
-	ITA_arturo_riccardi={
-		name=ITA_arturo_riccardi
-		portraits={
-			army={
-				small="GFX_idea_arturo_riccardi"
-			}
-		}
-		advisor={
-			slot = navy_chief
-			idea_token = arturo_riccardi
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				navy_chief_naval_aviation_1
-			}
-			cost =  50
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-
 	### AIR CHIEFS ###
 
 	# Balbo up there
@@ -642,7 +452,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				air_air_combat_training_1
+				air_chief_ground_support_2
 			}
 			cost =  50
 			ai_will_do = {
@@ -701,9 +511,9 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_regrouping_1
+				army_regrouping_2
 			}
-			cost =  50
+			cost =  100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -739,9 +549,9 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
-				army_cavalry_1
+				army_armored_2
 			}
-			cost =  50
+			cost =  100
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -765,7 +575,7 @@ characters={
 			traits = {
 				army_infantry_1
 			}
-			cost =  50
+			cost =  100
 			ai_will_do = {
 				factor = 2.000
 			}
@@ -796,54 +606,6 @@ characters={
 		}
 	}
 
-	ITA_marziale_cerutti={
-		name=ITA_marziale_cerutti
-		portraits={
-			army={
-				small="GFX_idea_marziale_cerutti"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = marziale_cerutti
-			ledger = air
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				air_air_combat_training_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}		
-	}
-	
-	ITA_silvio_scaroni={
-		name=ITA_silvio_scaroni
-		portraits={
-			army={
-				small="GFX_idea_silvio_scaroni"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = silvio_scaroni
-			ledger = air
-			allowed = {
-				original_tag = ITA
-			}
-			traits = {
-				air_bomber_interception_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
 	ITA_luigi_mascherpa={
 		name=ITA_luigi_mascherpa
 		portraits={
@@ -861,7 +623,7 @@ characters={
 			traits = {
 				navy_naval_air_defense_1
 			}
-			cost =  50
+			cost =  100
 			ai_will_do = {
 				factor = 1.000
 			}

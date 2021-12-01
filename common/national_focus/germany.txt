@@ -1369,7 +1369,7 @@ focus = {
 		}
 	}
 	focus = {
-		id = GER_albert_speer
+		id = GER_albert_speer_focus
 		icon = GFX_focus_GER_The_Genius_Organizer
 		relative_position_id = GER_summon_fritz_todt
 		prerequisite = { focus = GER_summon_fritz_todt }
@@ -1429,8 +1429,8 @@ focus = {
 	focus = {
 		id = GER_totaler_krieg
 		icon = GFX_GER_total_war
-		prerequisite = { focus = GER_albert_speer }
-		relative_position_id = GER_albert_speer
+		prerequisite = { focus = GER_albert_speer_focus }
+		relative_position_id = GER_albert_speer_focus
 		available = {
 		}
 		x = 2
@@ -1515,10 +1515,10 @@ focus = {
 	focus = {
 		id = GER_king_tiger
 		icon = GFX_focus_GER_Standardpanzer
-		prerequisite = { focus = GER_albert_speer}
+		prerequisite = { focus = GER_albert_speer_focus}
 		x = -2
 		y = 1
-		relative_position_id = GER_albert_speer
+		relative_position_id = GER_albert_speer_focus
 		cost = 3
 		ai_will_do = {
 			factor = 1
@@ -1563,8 +1563,8 @@ focus = {
 	focus = {
 		id = GER_nero
 		icon = GFX_focus_GER_implement_scorched_earth_tactics
-		prerequisite = { focus = GER_albert_speer }
-		relative_position_id = GER_albert_speer
+		prerequisite = { focus = GER_albert_speer_focus }
+		relative_position_id = GER_albert_speer_focus
 		x = 1
 		y = 2
 		cost = 3
@@ -1622,8 +1622,8 @@ focus = {
 	focus = {
 		id = GER_alpenfestung
 		icon = GFX_focus_GER_festung_principle
-		prerequisite = { focus = GER_albert_speer }
-		relative_position_id = GER_albert_speer
+		prerequisite = { focus = GER_albert_speer_focus }
+		relative_position_id = GER_albert_speer_focus
 		x = -1
 		y = 2
 		cost = 3
@@ -4111,7 +4111,7 @@ focus = {
 	focus = {
 		id = GER_ardennenoffensive
 		icon = GFX_focus_GER_ardennenoffensive
-		prerequisite = { focus = GER_albert_speer }
+		prerequisite = { focus = GER_albert_speer_focus }
 		icon = GFX_focus_ger_reichskommisariats
 		available = {
 			Date > 1941.10.1
@@ -4132,7 +4132,7 @@ focus = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = GER_albert_speer
+		relative_position_id = GER_albert_speer_focus
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -4395,7 +4395,7 @@ focus = {
 				}
 				create_equipment_variant = {
 					name = "Tiger Panzer"
-					type = heavy_tank_chassis_equipment_2
+					type = improved_heavy_tank_chassis
 					upgrades = {
 						tank_gun_upgrade = 5
 						tank_armor_upgrade = 5
@@ -4403,7 +4403,7 @@ focus = {
 						}}
 				add_equipment_production = {
 					equipment = {
-						type = heavy_tank_chassis_equipment_2
+						type = improved_heavy_tank_chassis
 						creator = "GER"
 						version_name = "Tiger Panzer"		}
 					requested_factories = 10
