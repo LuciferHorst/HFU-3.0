@@ -12,6 +12,7 @@ technology_categories = {
 	artillery
     shocktroop
     shock_tech
+	
     desert_tech
 	cat_anti_tank
 	cat_anti_air
@@ -75,7 +76,6 @@ technology_categories = {
 	base_strike_main
 	mot_rockets
 	support_tech
-	para_tech
 	engineers_tech
 	recon_tech
 	mountaineers_tech
@@ -94,7 +94,6 @@ technology_categories = {
 	train_tech
 	cat_production
 	cat_synth_rubber
-	cat_synth_oil
 	tank_land_doctrine
 }
 
@@ -123,9 +122,6 @@ technology_folders = {
 		ledger = army
 	}
 	air_techs_folder = {
-		ledger = air
-	}
-	air_techs_folder_f = {
 		ledger = air
 	}
 	naval_folder = {

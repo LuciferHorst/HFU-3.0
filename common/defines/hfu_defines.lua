@@ -390,7 +390,7 @@ NDefines.NAir.EXPERIENCE_SCALE_ATTACK_LOGISTICS_NO_TRUCK_CONSUMERS = 0.0001 -- H
 NDefines.NAir.EXPERIENCE_SCALE_ATTACK_LOGISTICS_NODE_AND_TRAINS = 0.0002    -- How much country experinence gained by attacking node/trains
 NDefines.NAir.EXPERIENCE_SCALE_ATTACK_LOGISTICS_TRUCKS = 0.0002             -- How much country experinence gained by attacking trucks
 NDefines.NAir.SECONDARY_DAMAGE_STRAT = 0.2  -- how much damage gets translated to railway guns for strat bombing
-NDefines.NAir.SECONDARY_DAMAGE_LOGISTICS = 1.0 -- how much damage gets translated to railway guns for logistic strike
+NDefines.NAir.SECONDARY_DAMAGE_LOGISTICS = 0.5 -- how much damage gets translated to railway guns for logistic strike
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.02 -- If a unit isn't motorized, still disrupt its supply by damage * this
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.5
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_INFRA_DAMAGE_SPILL_FACTOR = 0.0008 -- Portion of truck damage to additionally deal to infrastructure
@@ -518,13 +518,13 @@ NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.70
 
 -- defines that are used for supply reach for dockyards
 
-NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.5
+NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 1.5
 NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.8
 NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0
 
 -- Node Flow (i.e. province caps) increase by this amount per railway level of the node's bottleneck
 
-NDefines.NSupply.NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.34
+NDefines.NSupply.NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.4
 
 -- rivers will transfer in between nodes as if they were this level
 
@@ -535,8 +535,8 @@ NDefines.NSupply.RIVER_RAILWAY_LEVEL = 1
 NDefines.NSupply.FLOATING_HARBOR_INITIAL_SUPPLY_FLOW = 2.6
 NDefines.NSupply.HARBOR_STARTING_PENALTY_PER_PROVINCE = 0.8
 NDefines.NSupply.FLOATING_HARBOR_ADDED_PENALTY_PER_PROVINCE = 0.8
-NDefines.NSupply.FLOATING_HARBOR_BASE_SUPPLY = 15.0 -- supply given by a floating harbor
-NDefines.NSupply.FLOATING_HARBOR_BASE_DURATION = 21 -- duration of a full hp floating harbor
+NDefines.NSupply.FLOATING_HARBOR_BASE_SUPPLY = 10 -- supply given by a floating harbor
+NDefines.NSupply.FLOATING_HARBOR_BASE_DURATION = 10 -- duration of a full hp floating harbor
 NDefines.NSupply.FLOATING_HARBOR_DURATION_RATIO_AT_MIN_HP = 0.0  -- duration mult for a harbor that was reduced to 0 hp
 NDefines.NSupply.FLOATING_HARBOR_MIN_DECAY = 0.2 -- Always reduce Floating Harbor longevity by this many "hours" per hour
 NDefines.NSupply.FLOATING_HARBOR_DECAY_MAX_AIR_BONUS = -0.1 -- At 100% Friendly Air superiourity, change decay rate by this many "hours" per hour
@@ -556,11 +556,11 @@ NDefines.NSupply.SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_MIN_PENALTY_SCALE = 0.25 -- 
 
 -- The range bonus added to a fully motorized hub. This supply is added on top of the XXX_INITIAL_SUPPLY_FLOW defined above.
 
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 2.2
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 3
 
 -- How many trucks does it cost to fully motorize a hub
 
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 50.0
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 30.0
 
 -- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 
@@ -568,8 +568,8 @@ NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.6
 
 -- used for calculating "flow" for railways.
 
-NDefines.NSupply.RAILWAY_BASE_FLOW = 10.0		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
-NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 5.0 	-- how much additional flow a railway level gives
+NDefines.NSupply.RAILWAY_BASE_FLOW = 8.0		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
+NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 8.0 	-- how much additional flow a railway level gives
 NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 5.0 -- penalty to flow per damaged railway
 NDefines.NSupply.RAILWAY_MIN_FLOW = 5.0		-- minimum railway flow can be reduced to
 
@@ -590,7 +590,7 @@ NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CORE = 5
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CIVILWAR = 0
 NDefines.NSupply.DEFAULT_STARTING_TRUCK_RATIO = 1.5 -- countries get this ratio of starting truck in their buffers compared to their need
 NDefines.NSupply.DEFAULT_STARTING_TRAIN_RATIO = 1 -- countries get this ratio of starting trains in their buffers compared to their need
-NDefines.NSupply.SUPPLY_POINTS_PER_TRAIN = 1.0  -- old default 1.25 -- Amount of supply that can fit in a train. (Trains distribute supply from capital to a supply node.)
+NDefines.NSupply.SUPPLY_POINTS_PER_TRAIN = 1.25  -- old default 1.0 -- Amount of supply that can fit in a train. (Trains distribute supply from capital to a supply node.)
 NDefines.NSupply.NUM_RAILWAYS_TRAIN_FACTOR = 0.03 -- the train usage is scaled by railway distance between the supply node and the capital multiplied by this factor
 NDefines.NSupply.BASE_SUPPLY_MULT_FOR_TRUCK_DEFAULT_BUFFER = 1.0  -- initial value for wanted buffers over potential truck usage
 NDefines.NSupply.BASE_SUPPLY_MULT_FOR_TRUCK_MIN_BUFFER = 0.0 -- min and max values for buffer ratio
@@ -626,10 +626,10 @@ NDefines.NSupply.ARMY_SUPPLY_RATIO_SPEED_GAIN_PER_HOUR = 0.01
 NDefines.NSupply.ARMY_MAX_SUPPLY_RATIO_GAIN_PER_HOUR = 0.15
 NDefines.NSupply.MIN_SURRENDER_LIMIT_TO_MOVE_SUPPLY_CAPITAL = 0.15 -- country needs to be above thos surrender ratio to be able to move its capital
 NDefines.NSupply.COOLDOWN_DAYS_AFTER_MOVING_SUPPLY_CAPITAL = 30 -- cooldown for moving supply again after last move
-NDefines.NSupply.DAYS_TO_START_GIVING_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 7  -- the country will start gaining supply after this many days moving its capital
-NDefines.NSupply.DAYS_TO_START_GIVING_FULL_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL =  21 -- the country will reach max supply after this many days moving its capital
+NDefines.NSupply.DAYS_TO_START_GIVING_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 1  -- the country will start gaining supply after this many days moving its capital
+NDefines.NSupply.DAYS_TO_START_GIVING_FULL_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL =  1 -- the country will reach max supply after this many days moving its capital
 NDefines.NSupply.MIN_DIFF_FOR_AUTO_UPDATING_EXISTING_RAILWAYS = 5 -- while building railways, the system will prefer updating existing railway if new railway is close enough to existing one
-NDefines.NSupply.LOCAL_SUPPLY_PER_AIR_MISSION = 1.2 -- each assigned plane gives this much supply at full efficiency
+NDefines.NSupply.LOCAL_SUPPLY_PER_AIR_MISSION = 0.2 -- each assigned plane gives this much supply at full efficiency
 
 -- reinforcements depends on distance to capital and following defines are used for calculating reinforcement time
 
@@ -651,7 +651,7 @@ NDefines.NSupply.STORED_SUPPLY_CONSUMPTION_RATE_FACTOR = 0.75				--Multiplies co
 
 
 
-NDefines.NRailwayGun.RAILWAY_GUN_RANGE = 30						-- The range of railway guns in pixels
+NDefines.NRailwayGun.RAILWAY_GUN_RANGE = 40						-- The range of railway guns in pixels
 NDefines.NRailwayGun.ATTACK_TO_FORTS_MODIFIER_FACTOR = 1.333		-- Forts modifier is calculated by multiplying railway gun attack value with this and dividing by 100
 NDefines.NRailwayGun.ATTACK_TO_ENTRENCHMENT_MODIFIER_FACTOR = 0.8		-- Entrenchment modifier is calculated by multiplying railway gun attack value with this and dividing by 100
 NDefines.NRailwayGun.ATTACK_TO_BOMBARDMENT_MODIFIER_FACTOR = 0.4	-- Bombardment modifier is calculated by multiplying railway gun attack value with this and dividing by 100
@@ -660,7 +660,7 @@ NDefines.NRailwayGun.DISBAND_MANPOWER_LOSS = 0.0			-- The ration of manpower los
 NDefines.NRailwayGun.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.2		-- The percentage of manpower returned when an encircled unit is disbanded
 NDefines.NRailwayGun.OUT_OF_SUPPLY_SPEED = -0.8					-- Max speed reduction from supply for railway guns
 NDefines.NRailwayGun.BASE_CAPTURE_CHANCE = 0.2					-- The base chance of railway guns being captured during an overrrun. Will be further modified by the equipment capture chance of the capturing unit.
-NDefines.NRailwayGun.ANNEX_RATIO = 0.5								-- How many railway guns will be transferred on annexation
+NDefines.NRailwayGun.ANNEX_RATIO = 1								-- How many railway guns will be transferred on annexation
 NDefines.NRailwayGun.HOURS_BETWEEN_REDISTRIBUTION = 24				-- Number of hours between redistribution of attached railway guns, tracked per army
 NDefines.NRailwayGun.DISTRIBUTION_RAILWAY_GUN_PRESENCE_SCORE = -250					-- Score for Railway Guns in range from given province when distributing Railway Guns
 NDefines.NRailwayGun.DISTRIBUTION_OUR_UNITS_PRESENCE_SCORE = 1 					-- Score for our units in province when distributing Railway Guns

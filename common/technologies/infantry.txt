@@ -578,7 +578,7 @@ technologies = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -607,7 +607,7 @@ technologies = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -636,7 +636,7 @@ technologies = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -665,7 +665,7 @@ technologies = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -691,7 +691,7 @@ technologies = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -714,7 +714,7 @@ technologies = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -1497,6 +1497,27 @@ technologies = {
 		enable_equipments = {
 			mechanized_equipment_1
 		}
+
+		enable_equipment_modules = {
+			tank_half_track_suspension
+		}
+		
+		motorized = {
+			hardness = 1.0
+		}
+		mot_artillery_brigade = {
+			hardness = 1.0
+		}
+		mot_anti_tank_brigade = {
+			hardness = 1.0
+		}
+		mot_anti_air_brigade = {
+			hardness = 1.0
+		}
+		mot_rocket_artillery_brigade = {
+			hardness = 1.0
+		}
+
 		path = {
 			leads_to_tech = mechanised_infantry2
 			research_cost_coeff = 1
@@ -1622,57 +1643,6 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	paratroopers = {
-		enable_subunits = {
-			paratrooper
-		}
-		allow = {
-			always = no
-		}
-		path = {
-			leads_to_tech = paratroopers2
-			research_cost_coeff = 1
-		}
-		research_cost = 2
-		start_year = 1936
-		
-		categories = {
-			para_tech
-		}
-		ai_will_do = {
-		}
-	}
-	paratroopers2 = {
-		allow = {
-			always = no
-		}
-		path = {
-			leads_to_tech = paratroopers3
-			research_cost_coeff = 1
-		}
-		research_cost = 1.5
-		start_year = 1939
-		
-		categories = {
-			para_tech
-		}
-		ai_will_do = {
-	
-		}
-	}
-	paratroopers3 = {
-		allow = {
-			always = no
-		}
-		research_cost = 2.0
-		start_year = 1943
-		
-		categories = {
-			para_tech
-		}
-		ai_will_do = {
 		}
 	}
 	######### FROM JAPANESE FOCUS ##########
