@@ -3127,7 +3127,7 @@ focus = {
 				bonus = 1
 				ahead_reduction = 0.5
 				uses = 1
-				technology = advanced_medium_tank
+				technology = advanced_medium_tank_chassis
 			}
 			}
 			swap_ideas = {
@@ -3222,7 +3222,7 @@ focus = {
 						signal_company = { x = 0 y = 4 }
 					}
 				}
-				476 = {
+				126 = {
 					for_loop_effect = {
 						end = 2
 						create_unit = {
