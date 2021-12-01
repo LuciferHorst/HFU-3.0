@@ -5105,15 +5105,12 @@ news_event = {
 	option = {
 		name = news.285.b
 		trigger = {
-			TAG = PAK
 		}
 	}
 	option = {
 		name = news.285.c
 		trigger = {
 			NOT = {
-				TAG = RAJ
-				TAG = PAK
 			}
 		}
 	}
@@ -6059,7 +6056,6 @@ news_event = {
 	option = {
 		name = news.326.b
 		trigger = {
-			TAG = CRO
 		}
 	}
 	option = {
@@ -6067,7 +6063,6 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = YUG
-				TAG = CRO
 			}
 		}
 	}

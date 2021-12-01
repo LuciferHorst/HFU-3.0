@@ -99,10 +99,8 @@ characters={
 				factor = 1.000
 				modifier = {
 					factor = 0.000
-					OR = {
-						has_completed_focus = SPA_a_great_spain 
-						has_completed_focus = SPR_the_stalinist_doctrine 
-						has_completed_focus = SPR_maintain_the_second_republic 
+					OR = { 
+
 					}
 				}
 			}
@@ -144,9 +142,6 @@ characters={
 				modifier = {
 					factor = 0.000
 					OR = {
-						has_completed_focus = SPA_a_great_spain 
-						has_completed_focus = SPR_the_stalinist_doctrine 
-						has_completed_focus = SPR_maintain_the_second_republic 
 					}
 				}
 			}

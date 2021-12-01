@@ -2125,6 +2125,7 @@ focus = {
             add_political_power = 150}
 		}
 	}
+}
 	focus = {
 		id = SOV_uranus
 		icon = GFX_SOV_protect_the_east
@@ -2611,4 +2612,5 @@ focus = {
 			amount = 2
 		}
 	}
-}									
+}
+}										
