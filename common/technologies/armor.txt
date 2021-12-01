@@ -1328,6 +1328,9 @@ technologies = {
 		enable_subunits = {
 			modern_armor
 		}
+		allow_branch = {
+			always = no
+		}
 		
 		research_cost = 2.5
 		start_year = 1945
@@ -1380,6 +1383,9 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1945
+		allow_branch = {
+			always = no
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1417,6 +1423,9 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1945
+		allow_branch = {
+			always = no
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -1454,6 +1463,9 @@ technologies = {
 	
 		research_cost = 0.5
 		start_year = 1945
+		allow_branch = {
+			always = no
+		}
 		
 		ai_will_do = {
 			factor = 0
