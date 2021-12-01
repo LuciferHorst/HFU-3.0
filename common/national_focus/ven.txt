@@ -20,11 +20,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 			or = {
-				ENG = {NOT = {has_full_control_of_state = 124 }}
-				ENG = {NOT = {has_full_control_of_state = 125 }}
-				ENG = {NOT = {has_full_control_of_state = 121 }}
-				ENG = {NOT = {has_full_control_of_state = 305 }}
 				ENG = {NOT = {has_full_control_of_state = 127 }}
+				ENG = {NOT = {has_full_control_of_state = 126 }}
+				ENG = {NOT = {has_full_control_of_state = 121 }}
+				ENG = {NOT = {has_full_control_of_state = 131 }}
+				ENG = {NOT = {has_full_control_of_state = 132 }}
 			}
 		}
 		completion_reward = {
@@ -149,11 +149,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 			or = {
-				JAP = {NOT = {has_full_control_of_state = 460 }}
-				JAP = {NOT = {has_full_control_of_state = 270 }}
-				JAP = {NOT = {has_full_control_of_state = 459 }}
-				JAP = {NOT = {has_full_control_of_state = 462 }}
-				JAP = {NOT = {has_full_control_of_state = 461 }}
+				JAP = {NOT = {has_full_control_of_state = 528 }}
+				JAP = {NOT = {has_full_control_of_state = 282 }}
+				JAP = {NOT = {has_full_control_of_state = 531 }}
+				JAP = {NOT = {has_full_control_of_state = 529 }}
+				JAP = {NOT = {has_full_control_of_state = 533 }}
 			}
 		}
 		completion_reward = {
