@@ -6,26 +6,16 @@ state={
 	
 	
 	state_category = rural
-	
+	impassable = yes	
 	resources={
-		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
+		steel=15 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
 	}
 
 	history={
-		owner = SPR
+		owner = FRA
 		add_core_of = SWE
-		victory_points = {
-			9945 3
-		}
 		buildings = {
 			infrastructure = 2
-			air_base = 3
-			12100 = {
-				naval_base = 3
-			}
-			9945 = {
-				naval_base = 3
-			}
 		}
 	}
 
