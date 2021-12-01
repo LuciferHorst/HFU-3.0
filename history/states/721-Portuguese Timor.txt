@@ -5,7 +5,9 @@ state={
 	manpower = 455604
 	
 	state_category = pastoral
-
+	resources = {
+		rubber = 8
+	}
 	history={
 		owner = USA
 		add_core_of = SWE

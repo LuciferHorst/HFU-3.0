@@ -25,7 +25,7 @@ state=
 		victory_points = { 
 			7980 1.0 
 		}
-		add_core_of = ITA
+		add_core_of = SWE
 
 		1936.6.1 = {
 			owner = ITA

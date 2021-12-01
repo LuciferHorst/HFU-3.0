@@ -1,8 +1,11 @@
 state={
 	id=634
 	name="STATE_634"
-
+	resources = {
+		rubber = 8
+	}
 	history={
+		add_core_of = AST
 		owner = AST
 		buildings = {
 			infrastructure = 1
