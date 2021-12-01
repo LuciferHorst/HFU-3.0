@@ -1,4 +1,4 @@
-capital = 302 #Jakarta
+capital = 335 #Jakarta
 oob = "INS_1936"
 set_research_slots = 0
 # Starting tech
