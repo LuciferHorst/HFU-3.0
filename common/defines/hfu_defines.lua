@@ -575,7 +575,7 @@ NDefines.NSupply.RAILWAY_MIN_FLOW = 5.0		-- minimum railway flow can be reduced 
 
     -- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
 
-NDefines.NSupply.NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9, -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
+NDefines.NSupply.NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9 -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
 NDefines.NSupply.NAVAL_BASE_FLOW = 5 -- max output/input of a naval node is limited by this base value + additional ratio for each level
 NDefines.NSupply.NAVAL_FLOW_PER_LEVEL = 5.0 -- max output/input of a naval node is limited by previous base value + this define per its level
 NDefines.NSupply.SUPPLY_NODE_MIN_SUPPLY_THRESHOLD = 1.0 -- if supply of a node is below this value it will be set to 0 -- Currently unused?
