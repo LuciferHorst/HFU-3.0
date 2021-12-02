@@ -1,7 +1,6 @@
-
-state={
-	id=335
-	name="STATE_335" # Java
+state = {
+	id = 835
+	name="STATE_835" # Soarebaja
 	manpower = 21718200
 	
 	state_category = city
@@ -14,22 +13,20 @@ state={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			7381 5
+			4608 3 
 		}
 
 		buildings = {
 			infrastructure = 5 #was: 5
-			industrial_complex = 1
-			dockyard = 1
 			air_base = 5
-			7381 = {
-				naval_base = 6
+			4608 = {
+				naval_base = 3
 			}
 		}
 	}
 
 	provinces={
-		1386 1398 1425 4406 4434 4621 7223 7381 7421 7642 10279 10307 12249 
+		12277 10135 12293 1413 4390 10491 1209 4608 4306 10479 12472 7654
 	}
 
 	local_supplies=5.0 
