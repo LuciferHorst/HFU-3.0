@@ -7,7 +7,7 @@ state={
 		oil=12 # was: 14
 	}
 	state_category = rural
-	
+	impassable = yes
 
 	history={
 		owner = PER
