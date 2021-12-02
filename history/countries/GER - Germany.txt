@@ -84,7 +84,6 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1
 	tech_engineers = 1
-	paratroopers = 1
 	motorised_infantry = 1
 	interwar_antitank = 1
 	basic_train = 1
@@ -229,6 +228,11 @@ add_equipment_to_stockpile = {
 add_equipment_to_stockpile = {
 	type = CAS_equipment_1
 	amount = 600
+	producer = GER
+}
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 100
 	producer = GER
 }
 set_stability = 0.61

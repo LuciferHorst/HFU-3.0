@@ -153,6 +153,11 @@ add_equipment_to_stockpile = {
 	amount = 100
 	producer = SOV
 }
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 200
+	producer = SOV
+}
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.7.1"

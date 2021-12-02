@@ -113,6 +113,11 @@ add_equipment_to_stockpile = {
 	amount = 500
 	producer = RAJ
 }
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 50
+	producer = RAJ
+}
 set_cosmetic_tag = RAJ_UK # British Raj
 set_politics = {
 	ruling_party = neutrality

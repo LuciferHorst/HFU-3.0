@@ -95,6 +95,7 @@ if = {
 		basic_fire_control_system = 1
 	}
 }
+
 if = {
 	limit = { has_dlc = "Together for Victory" }
 	add_ideas = SAF_ossewabrandwag
@@ -117,6 +118,11 @@ add_equipment_to_stockpile = {
 add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 50
+	producer = SAF
+}
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 30
 	producer = SAF
 }
 set_politics = {

@@ -140,6 +140,11 @@ add_equipment_to_stockpile = {
 	amount = 69
 	producer = USA
 }
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 100
+	producer = USA
+}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.8"

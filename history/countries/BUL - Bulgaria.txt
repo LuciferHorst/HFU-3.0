@@ -54,6 +54,11 @@ set_popularities = {
 	fascism = 35
 	neutrality = 60
 }
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 30
+	producer = BUL
+}
 recruit_character = BUL_boris_iii
 recruit_character = BUL_hristo_lukov
 recruit_character = BUL_georgi_drenikov

@@ -52,6 +52,11 @@ add_equipment_to_stockpile = {
 	amount = 100
 	producer = SPR
 }
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 30
+	producer = SPR
+}
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {

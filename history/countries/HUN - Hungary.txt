@@ -66,6 +66,11 @@ capital = 43
  	fascism = 31
  	neutrality = 44
  }
+ add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 30
+	producer = HUN
+}
 
 recruit_character = HUN_miklos_horthy
 recruit_character = HUN_vilmos_roder

@@ -143,6 +143,11 @@ add_equipment_to_stockpile = {
 	amount = 300
 	producer = ITA
 }
+add_equipment_to_stockpile = {
+	type = train_equipment
+	amount = 100
+	producer = ITA
+}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.3.26"
