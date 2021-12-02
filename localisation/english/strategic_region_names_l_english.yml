@@ -95,7 +95,7 @@
  STRATEGICREGION_95:0 "West Emperor Chain"
  STRATEGICREGION_96:0 "North Emperor Chain"
  STRATEGICREGION_97:0 "Eastern Micronesia"
- STRATEGICREGION_98:0 "Great Australian Bight"
+ STRATEGICREGION_98:0 "South Australian Basin"
  STRATEGICREGION_99:0 "Far Eastern Indian Ocean"
  STRATEGICREGION_100:0 "Red Sea"
  STRATEGICREGION_101:0 "Bay of Bengal"
@@ -227,4 +227,6 @@
  STRATEGICREGION_227:0 "Congo"
  STRATEGICREGION_228:0 "Flores Sea"
  STRATEGICREGION_229:0 "Andaman Sea"
+ STRATEGICREGION_230:0 "Gulf of Oman"
+ STRATEGICREGION_231:0 "Laccavadive Sea"
 
