@@ -518,7 +518,7 @@ NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.70
 
 -- defines that are used for supply reach for dockyards
 
-NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 1.5
+NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 2
 NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.8
 NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0
 
@@ -560,7 +560,7 @@ NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 3
 
 -- How many trucks does it cost to fully motorize a hub
 
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 30.0
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 50
 
 -- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 
@@ -574,15 +574,15 @@ NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 5.0 -- penalty to flow per d
 NDefines.NSupply.RAILWAY_MIN_FLOW = 5.0		-- minimum railway flow can be reduced to
 
     -- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
-	-- NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9, -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
 
-NDefines.NSupply.NAVAL_BASE_FLOW = 15.0 -- max output/input of a naval node is limited by this base value + additional ratio for each level
+NDefines.NSupply.NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9, -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
+NDefines.NSupply.NAVAL_BASE_FLOW = 5 -- max output/input of a naval node is limited by this base value + additional ratio for each level
 NDefines.NSupply.NAVAL_FLOW_PER_LEVEL = 5.0 -- max output/input of a naval node is limited by previous base value + this define per its level
 NDefines.NSupply.SUPPLY_NODE_MIN_SUPPLY_THRESHOLD = 1.0 -- if supply of a node is below this value it will be set to 0 -- Currently unused?
-NDefines.NSupply.INFRA_TO_SUPPLY = 0.15						-- each level of infra gives this many supply
+NDefines.NSupply.INFRA_TO_SUPPLY = 0.2						-- each level of infra gives this many supply
 NDefines.NSupply.VP_TO_SUPPLY_BASE = 0.2						-- Bonus to supply from a VP, no matter the level
 NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.05		-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
-NDefines.NSupply.SUPPLY_FROM_DAMAGED_INFRA = 0.07                -- damaged infrastructure counts as this in supply calcs
+NDefines.NSupply.SUPPLY_FROM_DAMAGED_INFRA = 0.1                -- damaged infrastructure counts as this in supply calcs
 NDefines.NSupply.SUPPLY_BASE_MULT = 0.2						-- multiplier on supply base values
 NDefines.NSupply.SUPPLY_DISRUPTION_DAILY_RECOVERY = 1.5		-- every day nodes recover this much of their accumulated disruption.
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 10 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown
@@ -590,7 +590,7 @@ NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CORE = 5
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CIVILWAR = 0
 NDefines.NSupply.DEFAULT_STARTING_TRUCK_RATIO = 1.5 -- countries get this ratio of starting truck in their buffers compared to their need
 NDefines.NSupply.DEFAULT_STARTING_TRAIN_RATIO = 1 -- countries get this ratio of starting trains in their buffers compared to their need
-NDefines.NSupply.SUPPLY_POINTS_PER_TRAIN = 1.25  -- old default 1.0 -- Amount of supply that can fit in a train. (Trains distribute supply from capital to a supply node.)
+NDefines.NSupply.SUPPLY_POINTS_PER_TRAIN = 1.5  -- old default 1.0 -- Amount of supply that can fit in a train. (Trains distribute supply from capital to a supply node.)
 NDefines.NSupply.NUM_RAILWAYS_TRAIN_FACTOR = 0.03 -- the train usage is scaled by railway distance between the supply node and the capital multiplied by this factor
 NDefines.NSupply.BASE_SUPPLY_MULT_FOR_TRUCK_DEFAULT_BUFFER = 1.0  -- initial value for wanted buffers over potential truck usage
 NDefines.NSupply.BASE_SUPPLY_MULT_FOR_TRUCK_MIN_BUFFER = 0.0 -- min and max values for buffer ratio
@@ -690,7 +690,7 @@ NDefines.NNavy.COMBAT_INITIAL_DURATION = 12									-- Number of hours that is c
 
 NDefines.NCharacter.OFFICER_CORP_ADVISOR_ENTRIES_IN_MENU = { "high_command", "theorist", "army_chief", "air_chief", "navy_chief" }
 NDefines.NCharacter.OFFICER_CORP_HIGH_COMMAND_SLOTS_IN_MENU = 3 --For Alert manager to count the number of High Command Slots in the UI
-NDefines.NCharacter.DEFAULT_PP_COST_FOR_MILITARY_ADVISOR = 50	-- When an advisor does not have cost assigned this is the default used
+NDefines.NCharacter.DEFAULT_PP_COST_FOR_MILITARY_ADVISOR = 150	-- When an advisor does not have cost assigned this is the default used
 NDefines.NCharacter.DEFAULT_PP_COST_FOR_POLITICAL_ADVISOR = 150
 NDefines.NCharacter.DEFAULT_CP_COST_FOR_ADVISOR = 0	-- For Starting Advisors
 NDefines.NCharacter.DEFAULT_CP_COST_FOR_DYNAMIC_ADVISORS = 0	-- For Advisors created during gameplay
