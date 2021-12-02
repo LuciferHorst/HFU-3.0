@@ -34,12 +34,14 @@ technologies = {
 	}
 	juggle_button_1 = {
 		# button for juggling
-		
+		xor = {
+			juggle_button_2
+		}
 		research_cost = 0.000001
 		start_year = 1936
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 0 }
+			position = { x = 1 y = 0 }
 		}
 		categories = {
 			electronics
@@ -47,11 +49,14 @@ technologies = {
 	}
 	juggle_button_2 = {
 		# button for juggling
+		xor = {
+			juggle_button_1
+		}
 		research_cost = 0.000001
 		start_year = 1936
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 0 }
+			position = { x = 4 y = 0 }
 		}
 		categories = {
 			electronics

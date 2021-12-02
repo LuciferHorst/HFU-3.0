@@ -3120,7 +3120,7 @@ guiTypes = {
 
 			gridboxtype = {
                 name = "juggle_button_1_tree"
-                position = { x=475 y=172 }
+                position = { x=600 y=172 }
 				size = { width = 72 height = 72 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -3128,7 +3128,7 @@ guiTypes = {
 
 			gridboxtype = {
                 name = "juggle_button_2_tree"
-                position = { x=150 y=172 }
+                position = { x=20 y=172 }
 				size = { width = 680 height = 800 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"

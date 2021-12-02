@@ -1,24 +1,17 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
-
-
-
-
 4318;12789;impassable;-1;-1;-1;-1;-1;;Burma
 4996;12789;impassable;-1;-1;-1;-1;-1;;Burma
 4996;12898;impassable;-1;-1;-1;-1;-1;;Burma
 4996;10863;impassable;-1;-1;-1;-1;-1;;Burma
-4425;10863;impassable;-1;-1;-1;-1;-1;;Burma
-4996;10863;impassable;-1;-1;-1;-1;-1;;Burma
-12363;10863;impassable;-1;-1;-1;-1;-1;;Burma
-4210;10863;impassable;-1;-1;-1;-1;-1;;Burma
+10863;12898;impassable;-1;-1;-1;-1;-1;;Burma
+10863;7976;impassable;-1;-1;-1;-1;-1;;Burma
 4210;7976;impassable;-1;-1;-1;-1;-1;;Burma
 4210;5009;impassable;-1;-1;-1;-1;-1;;Burma
 4210;10413;impassable;-1;-1;-1;-1;-1;;Burma
 7400;10413;impassable;-1;-1;-1;-1;-1;;Burma
 7909;10413;impassable;-1;-1;-1;-1;-1;;Burma
 7909;10776;impassable;-1;-1;-1;-1;-1;;Burma
-
 
 13228;1048;impassable;-1;-1;-1;-1;-1;;Gibraltar
 13228;10094;impassable;-1;-1;-1;-1;-1;;Gibraltar
@@ -229,7 +222,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3401;7127;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
 8435;6864;sea;7452;-1;-1;-1;-1;;Lesbos-Turkey
 6550;4112;sea;7226;-1;-1;-1;-1;;Chios-Turkey
-7003;9941;sea;7226;-1;-1;-1;-1;;Kos-Bodrum
 10007;10122;sea;7226;-1;-1;-1;-1;;Rhodes-Turkey
 9833;11829;sea;5412;-1;-1;-1;-1;;Bosphorus
 9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
