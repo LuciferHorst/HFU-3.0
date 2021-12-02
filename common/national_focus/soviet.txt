@@ -746,49 +746,49 @@ focus = {
 					level = 20
 					instant_build = yes
 					}}
-			195={set_building_level = {
+			216={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			195 = {
+			219 = {
 				
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =9150
+						province =11282
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province =3151
+						province =6380
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 7
-						province =149
+						province =6938
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =3060
+						province =6978
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =2944
+						province =6283
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =135
+						province =6414
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -800,13 +800,13 @@ focus = {
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province =79
+						province =3391
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province =11068
+						province =9348
 						instant_build = yes
 					}
 				}
@@ -838,54 +838,54 @@ focus = {
 					level = 20
 					instant_build = yes
 					}}
-			239={set_building_level = {
+			236={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			210 = {
+			217 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11896
+						province =11474
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =3306
+						province =3982
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =10402
+						province =498
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =463
+						province =6920
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11895
+						province =3529
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11898
+						province =979
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11897
+						province =9504
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -897,19 +897,19 @@ focus = {
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province =10412
+						province =6527
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 3
-						province =485
+						province =9474
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 2
-						province =6032
+						province =3582
 						instant_build = yes
 					}
 				}
@@ -931,105 +931,75 @@ focus = {
 		}
 		completion_reward = {
 			army_experience = 20
-			240={set_building_level = {
+			219={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			245={set_building_level = {
+			253={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			241={set_building_level = {
+			270={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			246={set_building_level = {
+			248={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes
 					}}
-			212 = {
+			195 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
 				hidden_effect = {
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11899
+						province =149
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11900
+						province =9871
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11901
+						province =3060
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =11902
+						province =9150
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =3170
+						province =3151
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =5919
+						province =11068
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =8578
+						province =79
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
 						level = 5
-						province =271
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 5
-						province =8606
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 5
-						province =5797
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 5
-						province =3044
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 5
-						province =10221
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 5
-						province =5889
+						province =6174
 						instant_build = yes
 					}
 				}
