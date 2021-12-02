@@ -1031,6 +1031,8 @@ NDefines_Graphics.NMapMode.SUPPLY_MAP_MODE_BEST_FLOW_DISPLAY = 12 -- Which suppl
 		NDefines_Graphics.NInterface.NAVY_UNIT_LEADER_ICON_SPRITE_ID = 3
 		NDefines_Graphics.NInterface.POLITICAL_LEADER_ICON_SPRITE_ID = 13
 		NDefines_Graphics.NInterface.PIXEL_OFFSET = -3 
+		NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.1
+
 
 
 
