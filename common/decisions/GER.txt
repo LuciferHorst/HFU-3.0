@@ -202,7 +202,7 @@ operations = {
 					}
 				}
 			}
-			699 = {
+			785 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -356,7 +356,7 @@ operations = {
 						has_full_control_of_state = 139
 					}
 				}
-				139 = {
+				142 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -386,7 +386,7 @@ operations = {
 						has_full_control_of_state = 140
 					}
 				}
-				140 = {
+				143 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {

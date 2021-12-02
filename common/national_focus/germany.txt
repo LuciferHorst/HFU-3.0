@@ -1259,28 +1259,6 @@ focus = {
 		}
 	}
 	focus = {
-		id = GER_panzer_4_ausfg
-		icon = GFX_focus_GER_Schwerer_Panzer
-		prerequisite = { focus = GER_army_innovation_2 }
-		x = 0
-		y = 1
-		relative_position_id = GER_army_innovation_2
-		cost = 2
-		available = { date > 1941.10.1}
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			create_equipment_variant = {
-				name = "Panzer IV Ausf. G"
-				type = medium_tank_equipment_2
-				upgrades = {
-					tank_gun_upgrade = 6
-					tank_reliability_upgrade = 3
-					tank_engine_upgrade = 5
-					}}
-		}
-	}
-	focus = {
 		id = GER_fighter_3
 		icon = GFX_focus_GER_peenemunde_research_facility
 		prerequisite = { focus = GER_german_engineering }
@@ -2388,17 +2366,18 @@ focus = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
-			188 = {
+			195 = {
 				add_province_modifier = {
 					static_modifiers = { german_OWK_plan }
 					province = {
-						id =75
-						id =135
-						id =2944
-						id =5699
-						id =10043
-						id =10062
-						id =10218
+						id =9871
+						id =9150
+						id =3060
+						id =79
+						id =149
+						id =3151
+						id =6174
+						id =11068
 					}
 				}
 				}}
@@ -2419,35 +2398,37 @@ focus = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
-			212 = {
+			219 = {
 				add_province_modifier = {
 					static_modifiers = { german_OWK_plan }
 					province = {
-						id =271
-						id =318
-						id =333
+						id =6978
+						id =6938
+						id =301
+						id =350
 						id =366
-						id =3044
-						id =3074
-						id =3111
-						id =3140
-						id =3170
-						id =5797
-						id =5804
-						id =5857
-						id =5889
-						id =5919
-						id =8475
-						id =8519
-						id =8537
-						id =8578
-						id =8606
-						id =8622
-						id =10162
-						id =10180
-						id =10208
-						id =10221
-						id =10262
+						id =401
+						id =3259
+						id =3290
+						id =3327
+						id =3358
+						id =3391
+						id =6283
+						id =6290
+						id =6348
+						id =6380
+						id =6414
+						id =9235
+						id =9282
+						id =9302
+						id =9348
+						id =9378
+						id =9395
+						id =11217
+						id =11236
+						id =11268
+						id =11282
+						id =11330
 					}
 					}}}
 	}
@@ -2467,11 +2448,11 @@ focus = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
-			210 = {
+			217 = {
 				add_province_modifier = {
 					static_modifiers = { german_OWK_plan }
 					province = {
-						id =463 id =485 id =3280 id =3294 id =3306 id =3332 id =5984 id =6008 id =6032 id =6045 id =6079 id =8666 id =8683 id =8698 id =8728 id =8754 id =10323 id =10375 id =10402 id =10412
+						id =6920 id =979 id =3982 id =498 id =520 id =3503 id =3529 id =3555 id =6503 id =6527 id =6541 id =9459 id =9474 id =9504 id =9530 id =11447 id =11474 id =11484 
 					}
 					}}}
 	}
@@ -2965,7 +2946,7 @@ focus = {
 		available_if_capitulated = no
 		completion_reward = {
 			every_state = {
-				limit={OR={state=256 state=239 state=240 state=257 state=318 state=209 state=207 state=208 state=203 state =201 state=202 }}
+				limit={OR={state=263 state=195 state=244 state=263 state=246 state=247 state=264 state=216 state=214 state =215 state=213 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }
 			}
 		}
@@ -2988,7 +2969,7 @@ focus = {
 		available_if_capitulated = no
 		completion_reward = {
 			every_state = {
-				limit={OR={state=211 state=238 state=210 state=227 state=231 state=230 state=229 state=225 state=228 }}
+				limit={OR={state=260 state=245 state=218 state=234 state=235 state=232 state=229 state=217 state=265 state=237 state=236 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }
 			}
 		}
@@ -4218,10 +4199,10 @@ focus = {
 focus = {
 	id = GER_reinforce_the_line
 	icon = GFX_focus_GER_reinforce_the_line
-	prerequisite = {  focus = GER_panzer_4_ausfg }
+	prerequisite = {  focus = GER_army_innovation_2 }
 	x = 0
 	y = 1
-	relative_position_id = GER_panzer_4_ausfg
+	relative_position_id = GER_army_innovation_2
 	cost = 2
 	completion_reward = {
 	    add_ideas = GER_reinforce_the_line_idea
