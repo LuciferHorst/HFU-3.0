@@ -1143,8 +1143,8 @@ focus_tree = {
 			OR = {
 				date > 1941.8.1
 				AND = {
-				276 = {is_controlled_by_ROOT_OR_ALLY=yes}
-				589 = {is_controlled_by_ROOT_OR_ALLY=yes}
+				361 = {is_controlled_by_ROOT_OR_ALLY=yes}
+				126 = {is_controlled_by_ROOT_OR_ALLY=yes}
 				}
 			}
 		}
