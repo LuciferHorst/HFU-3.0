@@ -971,6 +971,7 @@ focus_tree = {
 		available = {
 			date > 1941.3.1
 		}
+		cost = 1
 		prerequisite = { focus = USA_american_dream}
 		relative_position_id = USA_american_dream
 		continue_if_invalid = yes
@@ -988,6 +989,7 @@ focus_tree = {
 		available = {
 			date > 1941.6.1
 		}
+		cost = 1
 		prerequisite = { focus = USA_operation_Desert_Storm}
 		relative_position_id = USA_operation_Desert_Storm
 		continue_if_invalid = yes
