@@ -1,8 +1,7 @@
-﻿
-air_wings = { 
+﻿air_wings = { 
 	### ITALY ###
 	# 1a Squadra Aerea - SQA1 (Milan)
-	157 = { 
+	2 = { 
 		# 2a Divisione Aerea 'Borea'
 		fighter_equipment_1 = { 
 			amount = 1000 

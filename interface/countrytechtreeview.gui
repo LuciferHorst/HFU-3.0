@@ -670,18 +670,7 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 					}
 	
-					instantTextBoxType = {
-						name = "armour_year7"
-						position = { x = 60 y = 838 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1945"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
+					
 				}
 					
 					
@@ -756,18 +745,7 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 					}
 	
-					instantTextBoxType = {
-						name = "armour_year7_left"
-						position = { x = 0 y = 838 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1945"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}				
+								
 				}			
 			}
 
@@ -960,19 +938,6 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
-	
-					instantTextBoxType = {
-						name = "armour_year7"
-						position = { x = 60 y = 838 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1945"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
 				}
 					
 					
@@ -1058,20 +1023,7 @@ guiTypes = {
 						maxHeight = 32
 						format = left
 						Orientation = "UPPER_LEFT"
-					}
-	
-					instantTextBoxType = {
-						name = "armour_year7_left"
-						position = { x = 0 y = 838 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1945"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}				
+					}			
 				}			
 			}
 
@@ -1085,7 +1037,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "armour_subtitle_heavy"
-					position = { x = 520 y = 55 }
+					position = { x = 480 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1098,7 +1050,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 177 y = 135 }
+					position = { x = 195 y = 330 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1121,18 +1073,18 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-				instantTextBoxType = {
-					name = "armour_subtitle_amphibious"
-					position = { x = 227 y = 305 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_AMPH"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}		
+				#instantTextBoxType = {
+					#name = "armour_subtitle_amphibious"
+					#position = { x = 227 y = 305 }
+					#textureFile = ""
+					#font = "hoi_33"
+					#borderSize = {x = 0 y = 4}
+					#text = "ARMOUR_TITLE_AMPH"
+					#maxWidth = 200
+					#maxHeight = 62
+					#format = center
+					#Orientation = "UPPER_LEFT"
+				#}		
 			}	
 
 				
@@ -1355,19 +1307,6 @@ guiTypes = {
 					}				
 
 					instantTextBoxType = {
-						name = "artillery_year9"
-						position = { x = 60 y = 1118 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1944"
-						maxWidth = 170
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-
-					instantTextBoxType = {
 						name = "artillery_year10"
 						position = { x = 60 y = 1258 }
 						textureFile = ""
@@ -1477,19 +1416,6 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}				
-	
-					instantTextBoxType = {
-						name = "artillery_year9"
-						position = { x = 0 y = 1118 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1944"
-						maxWidth = 130
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
 	
 					instantTextBoxType = {
 						name = "artillery_year10"
@@ -2179,7 +2105,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1944"
+				text = "1941"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -2188,7 +2114,20 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "airtech_year6"
-				position = { x = 30 y = 858 }
+				position = { x = 30 y = 720 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "1943"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "airtech_year7"
+				position = { x = 30 y = 1000 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}

@@ -34,7 +34,7 @@ technologies = {
 	}
 	juggle_button_1 = {
 		# button for juggling
-		xor = {
+		XOR = {
 			juggle_button_2
 		}
 		research_cost = 0.000001
@@ -49,7 +49,7 @@ technologies = {
 	}
 	juggle_button_2 = {
 		# button for juggling
-		xor = {
+		XOR = {
 			juggle_button_1
 		}
 		research_cost = 0.000001
