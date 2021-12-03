@@ -1211,6 +1211,7 @@ characters={
 			}
 		}
 		advisor={
+			cost = 50
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed = {
@@ -1268,6 +1269,7 @@ characters={
 			}
 		}
 		advisor={
+			cost = 75
 			slot = political_advisor
 			idea_token = martin_bormann
 			allowed = {

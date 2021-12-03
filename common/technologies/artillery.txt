@@ -95,12 +95,6 @@ technologies = {
 			artillery_equipment_2
 		}
 
-		enable_equipment_modules = {
-			tank_medium_howitzer_2
-			tank_medium_cannon
-
-		}
-
 		path = {
 			leads_to_tech = artillery2
 			research_cost_coeff = 1
@@ -221,9 +215,6 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_3
 		}
-		enable_equipment_modules = {
-			tank_heavy_howitzer
-		}
 
 		path = {
 			leads_to_tech = artillery5
@@ -321,10 +312,6 @@ technologies = {
 #		enable_subunits = {
 #			rocket_artillery_brigade
 #		}
-
-		enable_equipment_modules = {
-			tank_rocket_launcher
-		}
 
 		path = {
 			leads_to_tech = rocket_artillery2
@@ -543,9 +530,6 @@ technologies = {
 		static_anti_air_damage_factor = 0.1
 		enable_equipment_modules = {
 			ship_anti_air_3
-			tank_auto_cannon_2
-			tank_heavy_cannon_2
-			tank_anti_air_cannon_2
 		}
 		path = {
 			leads_to_tech = antiair3
@@ -674,9 +658,6 @@ technologies = {
 		static_anti_air_damage_factor = 0.1
 		enable_equipment_modules = {
 			ship_anti_air_4
-			tank_heavy_cannon_3
-			tank_anti_air_cannon_3
-			auto_loader
 		}
 		navy_anti_air_attack_factor = 0.05
 		research_cost = 1
@@ -839,10 +820,6 @@ technologies = {
 
 		enable_equipments = {
 			anti_tank_equipment_2
-		}
-		enable_equipment_modules = {
-			tank_high_velocity_cannon_2
-			tank_heavy_cannon_2
 		}
 		path = {
 			leads_to_tech = antitank3
@@ -1067,11 +1044,6 @@ technologies = {
 	antitank5 = {
 		enable_equipments = {
 			anti_tank_equipment_3
-		}
-		enable_equipment_modules = {
-			tank_high_velocity_cannon_3
-			tank_heavy_cannon_3
-			auto_loader
 		}
 		research_cost = 1
 		start_year = 1943

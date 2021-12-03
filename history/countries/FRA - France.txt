@@ -12,7 +12,7 @@ set_variable = {
 	value = 0.800
 }
 set_rule = {can_be_spymaster = no}
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.46
 set_war_support = 0.15
 add_ideas = reliance_on_natural_rubber
