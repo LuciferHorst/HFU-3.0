@@ -454,7 +454,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "experience"
-			position = { x = 297 y = 510 }
+			position = { x = 297 y = 10000 }
 			font = "hoi_18mbs"
 			maxWidth = 70
 			maxHeight = 20
@@ -837,7 +837,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "production_resources"
-			position = { x= 548 y= 510 }
+			position = { x= 550 y= 511 }
 			font = "hoi_18mbs"
 			maxWidth = 350
 			maxHeight = 25
@@ -1097,7 +1097,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "designer_division_regiment_slot_entry"
 		position = { x=0 y=0}	
-		size = { width=76 height=53 }
+		size = { width=76 height=44 }
 		clipping = no
 
 		background = {
@@ -1119,7 +1119,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "unit_icon"
-			position = { x = 1 y = 10 }
+			position = { x = 1 y = 1 }
 			spriteType = "GFX_locked_icon"
 			Orientation = CENTER_LOWER
 			clicksound = click_default
@@ -1127,7 +1127,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = 3 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			clicksound = click_default
@@ -1137,7 +1137,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "designer_division_support_slot_entry"
 		position = { x=0 y=0}	
-		size = { width=64 height=53 }
+		size = { width=64 height=44 }
 		clipping = no
 
 		background = {
@@ -1160,7 +1160,7 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
-			position = {x=2 y=20}
+			position = {x=2 y=11}
 			Orientation = CENTER_LOWER
 			scale = 0.8
 			clicksound = click_default
@@ -1168,7 +1168,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 2 y = 21 }
+			position = { x = 2 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			scale = 0.8
