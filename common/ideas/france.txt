@@ -1340,5 +1340,119 @@ ideas = {
 			}
 		}
 	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		somua = {
+		
+			allowed = {
+				original_tag = FRA
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+		}
+		
+		mas = {
+						
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+	
+		schneider = {
+						
+			allowed = {
+				original_tag = FRA
+			}		
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+		
+		fcm = {
+						
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { mediterranean_naval_manufacturer }
+		}
+		aeb = {
+			picture = FRA_aeb		
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+		}
+		acl = {
+			picture = FRA_acl	
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+		}
+		acf = {
+			picture = FRA_acf			
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+		}
+	}
+	industrial_concern = {	
+		
+		famh = {
+						
+			allowed = {
+				original_tag = FRA
+			}
+						
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+	}
 }
 

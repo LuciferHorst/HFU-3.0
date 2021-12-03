@@ -72,28 +72,6 @@ every_possible_country = {
 	}
 
 	generate_character = {
-		token_base = SPA_emilio_mola
-		name=SPA_emilio_mola
-		portraits={
-			army={
-				large="GFX_portrait_SPA_emilio_mola"
-				small="gfx/interface/ideas/idea_SPA_emilio_mola.dds"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = SPA_emilio_mola
-			ledger = army
-			allowed = {
-				has_dlc = "La Resistance"
-				original_tag = SPR
-			}
-			traits = {
-				army_infantry_2
-				}
-			cost = 100
-		}
-	}
 
 	generate_character = {
 		token_base = SPA_juan_yague
@@ -738,48 +716,8 @@ every_possible_country = {
 		}
 	}
 
-	generate_character = {
-		token_base = SPR_dolores_ibarruri
-		name=SPR_dolores_ibarruri
-		portraits={
-			army={
-				small="GFX_idea_dolores_ibarruri"
-			}
-		}
-		gender = female
-		advisor={
-			slot = political_advisor
-			idea_token = SPR_dolores_ibarruri
-			allowed = {
-				has_dlc = "La Resistance"
-				original_tag = SPR
-			}
-			traits = {
-				la_pasionaria 
-			}
-		}
-	}
 
 	generate_character = {
-		token_base = SPR_juan_negrin
-		name=SPR_juan_negrin
-		portraits={
-			army={
-				small="GFX_idea_SPR_juan_negrin"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = SPR_juan_negrin
-			allowed = {
-				has_dlc = "La Resistance"
-				original_tag = SPR
-			}
-			traits = {
-				gran_carabinero 
-			}
-		}
-	}
 
 	generate_character = {
 		token_base = SPR_juan_lopez_sanchez

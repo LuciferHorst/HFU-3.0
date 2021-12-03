@@ -1554,6 +1554,7 @@ characters={
 			}
 		}
 		advisor={
+			cost = 75
 			slot = political_advisor
 			idea_token = clement_attlee
 			available  = {
@@ -1575,7 +1576,7 @@ characters={
 				original_tag  = ENG
 			}
 			traits  = {
-				democratic_reformer 
+				industrial_genius
 			}
 			do_effect  = {
 				NOT = {
