@@ -14,12 +14,12 @@ characters={
 			}
 
 			field_marshal={
-				traits={ logistics_wizard organisational_leader expert_delegator }
-				skill=3
-				attack_skill=3
-				defense_skill=2
-				planning_skill=3
-				logistics_skill=2
+				traits={ logistics_wizard panzer_leader trait_engineer trickster ranger infantry_leader }
+				skill=6
+				attack_skill=5
+				defense_skill=4
+				planning_skill=6
+				logistics_skill=5
 				legacy_id=1108
 				visible = {
 					always = yes
@@ -217,12 +217,12 @@ characters={
 			}
 
 			corps_commander={
-				traits={ trait_SPA_nationalist_sympathies organizer infantry_leader }
-				skill=3
-				attack_skill=3
-				defense_skill=2
-				planning_skill=3
-				logistics_skill=2
+				traits={ trait_SPA_nationalist_sympathies organizer infantry_leader panzer_leader trait_engineer trickster hill_fighter }
+				skill=6
+				attack_skill=5
+				defense_skill=4
+				planning_skill=5
+				logistics_skill=5
 				legacy_id=1114
 				visible = {
 					
