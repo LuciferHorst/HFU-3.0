@@ -1,9 +1,11 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
+5046;8111;impassable;-1;-1;-1;-1;-1;;West-Africa
+5046;4920;impassable;-1;-1;-1;-1;-1;;West-Africa
+
 4318;12789;impassable;-1;-1;-1;-1;-1;;Burma
 4996;12789;impassable;-1;-1;-1;-1;-1;;Burma
 4996;12898;impassable;-1;-1;-1;-1;-1;;Burma
-4996;10863;impassable;-1;-1;-1;-1;-1;;Burma
 10863;12898;impassable;-1;-1;-1;-1;-1;;Burma
 10863;7976;impassable;-1;-1;-1;-1;-1;;Burma
 4210;7976;impassable;-1;-1;-1;-1;-1;;Burma
@@ -243,10 +245,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
-10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
-10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
-10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
 10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -256,6 +254,31 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
+1898;10825;impassable;-1;-1;-1;-1;-1;;Himalayas
+1898;7374;impassable;-1;-1;-1;-1;-1;;Himalayas
+10021;7374;impassable;-1;-1;-1;-1;-1;;Himalayas
+8114;7374;impassable;-1;-1;-1;-1;-1;;Himalayas
+8082;7374;impassable;-1;-1;-1;-1;-1;;Himalayas
+1983;7374;impassable;-1;-1;-1;-1;-1;;Himalayas
+1983;4386;impassable;-1;-1;-1;-1;-1;;Himalayas
+7064;4386;impassable;-1;-1;-1;-1;-1;;Himalayas
+7334;4386;impassable;-1;-1;-1;-1;-1;;Himalayas
+7334;4987;impassable;-1;-1;-1;-1;-1;;Himalayas
+4459;4987;impassable;-1;-1;-1;-1;-1;;Himalayas
+10878;4987;impassable;-1;-1;-1;-1;-1;;Himalayas
+10878;5310;impassable;-1;-1;-1;-1;-1;;Himalayas
+1656;5310;impassable;-1;-1;-1;-1;-1;;Himalayas
+12338;5310;impassable;-1;-1;-1;-1;-1;;Himalayas
+4435;5310;impassable;-1;-1;-1;-1;-1;;Himalayas
+4435;12892;impassable;-1;-1;-1;-1;-1;;Himalayas
+4435;4900;impassable;-1;-1;-1;-1;-1;;Himalayas
+4435;2014;impassable;-1;-1;-1;-1;-1;;Himalayas
+4435;8010;impassable;-1;-1;-1;-1;-1;;Himalayas
+12338;8010;impassable;-1;-1;-1;-1;-1;;Himalayas
+10349;8010;impassable;-1;-1;-1;-1;-1;;Himalayas
+10349;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
+7455;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
+12730;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
 3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
@@ -263,6 +286,20 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 12763;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 2084;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+
+10821;5087;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+10821;1970;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5042;1970;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5042;8112;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5042;4973;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5042;12801;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5042;10802;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+7273;10802;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12884;10802;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12884;1961;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4998;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4998;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
@@ -273,6 +310,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7975;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 8044;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 8044;5064;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5105;5020;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+8013;5020;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+8013;4949;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5075;4949;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5075;2101;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 12805;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12805;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
