@@ -276,6 +276,15 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
+			type = train_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
 			type = motorized_equipment_1
 			creator = "SOV"
 		}
@@ -290,24 +299,6 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.4
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_1
-			creator = "SOV"
-		}
-		requested_factories = 1
-		progress = 0.15
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
-			type = CAS_equipment_1
-			creator = "SOV"
-		}
-		requested_factories = 5
-		progress = 0.2
 		efficiency = 50
 	}
 }
