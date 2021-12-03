@@ -966,6 +966,40 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = USA_operation_Desert_Storm
+		icon = GFX_focus_generic_combined_arms
+		available = {
+			date > 1941.3.1
+		}
+		prerequisite = { focus = USA_american_dream}
+		relative_position_id = USA_american_dream
+		continue_if_invalid = yes
+		x = 10
+		y = 1
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = USA_operation_Noble_Anvil
+		icon = GFX_goal_generic_CAS
+		available = {
+			date > 1941.6.1
+		}
+		prerequisite = { focus = USA_operation_Desert_Storm}
+		relative_position_id = USA_operation_Desert_Storm
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
 		id = USA_the_giant_wakes
 		icon = GFX_USA_the_giant_wakes
 		available = {
