@@ -77,8 +77,8 @@ characters={
 		name=CAN_charles_foulkes
 		portraits={
 			army={
-				large="GFX_CAN_charles_foulkes"
-				small="gfx/interface/ideas/idea_CAN_charles_foulkes.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		field_marshal={
@@ -113,8 +113,8 @@ characters={
 		name=CAN_bert_hoffmeister
 		portraits={
 			army={
-				large="GFX_CAN_bert_hoffmeister"
-				small="gfx/interface/ideas/idea_CAN_bert_hoffmeister.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -132,8 +132,8 @@ characters={
 		name=CAN_leonard_w_murray
 		portraits={
 			army={
-				large="GFX_CAN_leonard_warren_murray"
-				small="gfx/interface/ideas/idea_CAN_leonard_warren_murray.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		navy_leader={
@@ -169,8 +169,8 @@ characters={
 		name=CAN_james_d_prentice
 		portraits={
 			army={
-				large="GFX_CAN_james_prentice"
-				small="gfx/interface/ideas/idea_CAN_james_prentice.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		navy_leader={
@@ -188,8 +188,8 @@ characters={
 		name=CAN_harry_dewolf
 		portraits={
 			army={
-				large="GFX_CAN_harry_dewolf"
-				small="gfx/interface/ideas/idea_CAN_harry_dewolf.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		navy_leader={
@@ -634,7 +634,7 @@ characters={
 					limit = {
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = CAN_swastika_clubs 
+		
 				}
 				if = {
 					limit = {
@@ -676,10 +676,6 @@ characters={
 				if = {
 					limit = {
 						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = CAN_strengthen_the_commonwealth_ties 
-						has_completed_focus = CAN_permanent_joint_defense_board 
 					}
 				}
 				if = {
@@ -723,7 +719,6 @@ characters={
 					limit = {
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = CAN_burn_the_royal_portraits 
 				}
 				if = {
 					limit = {
@@ -860,7 +855,6 @@ characters={
 				has_dlc = "Together for Victory"
 			}
 			available = {
-				has_completed_focus = CAN_forced_quebec_conscription 
 			}
 			traits = {
 				compassionate_gentleman 

@@ -622,8 +622,8 @@ characters={
 		name = USA_alexander_vandegrift
 		portraits={
 			army={
-				large="GFX_portrait_usa_alexander_vandegrift"
-				small="gfx/interface/ideas/idea_USA_alexander_vandegrift.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		corps_commander = {

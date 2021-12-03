@@ -526,12 +526,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_ambusher"
 		texturefile = "gfx/interface/traits/trait_ambusher.dds"
-	}			
-	
-	spriteType = {
-		name = "GFX_trait_paratrooper"
-		texturefile = "gfx/interface/traits/trait_paratroopers.dds"
-	}			
+	}				
 	
 	spriteType = {
 		name = "GFX_trait_camouflage_expert"

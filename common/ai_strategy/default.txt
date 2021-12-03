@@ -16,12 +16,6 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 
 	ai_strategy = {
 		type = role_ratio
-		id = paratroopers
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = mountaineers
 		value = 4
 	}
@@ -343,22 +337,6 @@ default_pp_spend_amount = {
 		type = pp_spend_amount
 		id = decision
 		value = 100
-	}
-}
-
-default_paratroopers_production = {
-	enable = {
-		NOT = { original_tag = GER }
-		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
-	}
-	abort = {
-		ai_wants_divisions < 13 #Massively decreasing the amount of paratroopers the AI wants
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = paratroopers
-		value = 0
 	}
 }
 
@@ -752,12 +730,6 @@ DEFAULT_template_design = {
 
 	ai_strategy = {
 		type = template_prio
-		id = paratroopers
-		value = -50
-	}
-
-	ai_strategy = {
-		type = template_prio
 		id = infantry
 		value = 60
 	}
@@ -803,12 +775,6 @@ DEFAULT_template_design = {
 		type = template_prio
 		id = heavy_armor
 		value = 10
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = paratroopers
-		value = -50
 	}
 
 	ai_strategy = {

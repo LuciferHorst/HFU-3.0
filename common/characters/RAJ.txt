@@ -59,8 +59,8 @@ characters={
 		name=RAJ_noel_beresfordpeirse
 		portraits={
 			army={
-				large="GFX_RAJ_noel_beresford_peirse"
-				small="gfx/interface/ideas/idea_RAJ_noel_beresford_peirse.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -78,8 +78,8 @@ characters={
 		name=RAJ_frank_messervy
 		portraits={
 			army={
-				large="GFX_RAJ_frank_messervy"
-				small="gfx/interface/ideas/idea_RAJ_frank_messervy.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -97,8 +97,8 @@ characters={
 		name=RAJ_douglas_gracey
 		portraits={
 			army={
-				large="GFX_RAJ_douglas_gracey"
-				small="gfx/interface/ideas/idea_RAJ_douglas_gracey.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -116,8 +116,8 @@ characters={
 		name=RAJ_herbert_fitzherbert
 		portraits={
 			army={
-				large="GFX_RAJ_herbert_fitzherbert"
-				small="gfx/interface/ideas/idea_RAJ_herbert_fitzherbert.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		navy_leader={
@@ -137,8 +137,8 @@ characters={
 		name=RAJ_lakshmi_sahgal
 		portraits={
 			army={
-				large="GFX_RAJ_lakshmi_sahgal"
-				small="gfx/interface/ideas/idea_RAJ_herbert_fitzherbert.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		gender = female
@@ -148,8 +148,8 @@ characters={
 		name=RAJ_orde_wingate
 		portraits={
 			army={
-				large="GFX_RAJ_orde_wingate"
-				small="gfx/interface/ideas/idea_RAJ_orde_wingate.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 	}
@@ -158,8 +158,8 @@ characters={
 		name=RAJ_kodandera_madappa_cariappa
 		portraits={
 			army={
-				large="GFX_RAJ_kodandera_madappa_cariappa"
-				small="gfx/interface/ideas/idea_RAJ_kodandera_madappa_cariappa.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 	}
@@ -168,8 +168,8 @@ characters={
 		name=RAJ_kodandera_subayya_thimayya
 		portraits={
 			army={
-				large="GFX_RAJ_kodendera_subayya_thimayya"
-				small="gfx/interface/ideas/idea_RAJ_k_s_thimayya.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 	}
@@ -178,8 +178,8 @@ characters={
 		name=RAJ_jayanto_nath_chaudhuri
 		portraits={
 			army={
-				large="GFX_RAJ_jayanto_nath_chaudhuri"
-				small="gfx/interface/ideas/idea_RAJ_j_n_chaudhuri.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 	}

@@ -73,8 +73,8 @@ characters={
 		name=AST_leslie_morshead
 		portraits={
 			army={
-				large="GFX_AST_leslie_morshead"
-				small="gfx/interface/ideas/idea_AST_leslie_morshead.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -91,8 +91,8 @@ characters={
 		name=AST_thomas_blamey
 		portraits={
 			army={
-				large="GFX_AST_thomas_blamey"
-				small="gfx/interface/ideas/idea_AST_thomas_blamey.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -109,8 +109,8 @@ characters={
 		name=AST_henry_wynter
 		portraits={
 			army={
-				large="GFX_AST_henry_wynter"
-				small="gfx/interface/ideas/idea_AST_henry_wynter.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -127,8 +127,8 @@ characters={
 		name=AST_alan_vasey
 		portraits={
 			army={
-				large="GFX_AST_alan_vasey"
-				small="gfx/interface/ideas/idea_AST_alan_vasey.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -146,8 +146,8 @@ characters={
 		name=AST_horace_robertson
 		portraits={
 			army={
-				large="GFX_AST_horace_robertson"
-				small="gfx/interface/ideas/idea_AST_horace_robertson.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -165,8 +165,8 @@ characters={
 		name=AST_john_northcott
 		portraits={
 			army={
-				large="GFX_AST_john_northcott"
-				small="gfx/interface/ideas/idea_AST_john_northcott.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={
@@ -184,8 +184,8 @@ characters={
 		name=AST_harold_farncomb
 		portraits={
 			army={
-				large="GFX_AST_harold_farncomb"
-				small="gfx/interface/ideas/idea_AST_harold_farncomb.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		navy_leader={
@@ -203,8 +203,8 @@ characters={
 		name=AST_victor_crutchley
 		portraits={
 			army={
-				large="GFX_AST_victor_crutchley"
-				small="gfx/interface/ideas/idea_AST_victor_crutchley.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		navy_leader={
@@ -222,8 +222,8 @@ characters={
 		name=AST_iven_mackay
 		portraits={
 			army={
-				large="GFX_AST_iven_mackay"
-				small="gfx/interface/ideas/idea_AST_iven_mackay.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 	}

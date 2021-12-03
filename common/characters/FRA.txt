@@ -48,8 +48,8 @@ characters={
 		name=FRA_rene_nicod
 		portraits={
 			civilian={
-				large="GFX_portrait_fra_rene_nicod"
-				small = "gfx/interface/ideas/idea_FRA_rene_nicod.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small = "gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={

@@ -50,8 +50,8 @@ characters={
 		name=HUN_geza_lakatos
 		portraits={
 			army={
-				large="GFX_Portrait_hungary_geza_lakatos"
-				small="gfx/interface/ideas/idea_HUN_geza_lakatos.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -68,8 +68,8 @@ characters={
 		name=HUN_ivan_hindy
 		portraits={
 			army={
-				large="GFX_Portrait_hungary_ivan_hindy"
-				small="gfx/interface/ideas/idea_HUN_ivan_hindy.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -87,8 +87,8 @@ characters={
 		name=HUN_ferenc_feketehalmyczeydner
 		portraits={
 			army={
-				large="GFX_Portrait_hungary_ferenc_feketehalmy_czeydner"
-				small="gfx/interface/ideas/idea_HUN_ferenc_feketehalmy_czeydner.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		field_marshal={

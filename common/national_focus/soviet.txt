@@ -1837,7 +1837,7 @@ focus = {
 		    set_technology = {improved_heavy_tank_chassis = 1 popup=no}
 			create_equipment_variant = {
 					name = "KV-1/1"
-					type = improved_heavy_tank_chassis
+					type = heavy_tank_chassis_2
 					upgrades = {
 						tank_gun_upgrade = 5
 						tank_armor_upgrade = 4
@@ -1845,7 +1845,7 @@ focus = {
 						}}
 				add_equipment_production = {
 					equipment = {
-						type = improved_heavy_tank_chassis
+						type = heavy_tank_chassis_2
 						creator = "SOV"
 						version_name = "KV-1/1"		}
 					requested_factories = 15

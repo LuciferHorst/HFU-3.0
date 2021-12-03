@@ -1,8 +1,7 @@
 characters={
 	LAT_gustavs_celminsh={
-		instance = {
-			name=LAT_gustavs_celminsh
-			portraits={
+		name=LAT_gustavs_celminsh
+		portraits={
 				civilian={
 					large="GFX_portrait_LAT_gustavs_celmins"
 				}
@@ -24,5 +23,4 @@ characters={
 				id=-1
 			}
 		}
-	}
 }

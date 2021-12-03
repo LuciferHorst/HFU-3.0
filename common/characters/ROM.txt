@@ -106,8 +106,8 @@ characters={
 		name=ROM_petre_dumitrescu
 		portraits={
 			army={
-				large="GFX_Portrait_romania_petre_dumitrescu"
-				small="gfx/interface/ideas/idea_ROM_petre_dumitrescu.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		field_marshal={
@@ -125,8 +125,8 @@ characters={
 		name=ROM_ioan_mihail_racovita
 		portraits={
 			army={
-				large="GFX_Portrait_romania_ioan_mihail_racovita"
-				small="gfx/interface/ideas/idea_ROM_ioan_mihail_racovita.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 			}
 		}
 		corps_commander={

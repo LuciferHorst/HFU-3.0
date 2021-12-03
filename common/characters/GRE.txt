@@ -243,8 +243,8 @@ characters={
 		name=GRE_charalambos_katsimitros
 		portraits={
 			army={
-				large="GFX_portrait_gre_charalambos_katsimitros"
-				small="gfx/interface/ideas/idea_GRE_charalambos_katsimitros.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		corps_commander={
@@ -266,8 +266,8 @@ characters={
 			name=GRE_markos_drakos
 			portraits={
 				army={
-					large="GFX_portrait_gre_markos_drakos"
-					small="gfx/interface/ideas/idea_GRE_markos_drakos.dds"
+					large="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+					small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 				}
 			}
 			corps_commander={
@@ -309,8 +309,8 @@ characters={
 		name=GRE_theodoros_pangalos
 		portraits={
 			army={
-				large="GFX_portrait_gre_theodoros_pangalos"
-				small="gfx/interface/ideas/idea_GRE_theodoros_pangalos.dds" #Can become a unit leader later
+				large="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds" #Can become a unit leader later
 			}
 		}
 	}
@@ -319,8 +319,8 @@ characters={
 		name=GRE_dimitrios_psarros
 		portraits={
 			army={
-				large="GFX_portrait_gre_dimitrios_psarros"
-				small="gfx/interface/ideas/idea_GRE_dimitrios_psarros.dds" #Can become a unit leader later
+				large="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds" #Can become a unit leader later
 			}
 		}
 	}
@@ -329,8 +329,8 @@ characters={
 		name=GRE_panagiotis_demestichas
 		portraits={
 			army={
-				large="GFX_portrait_gre_panagiotis_demestichas"
-				small="gfx/interface/ideas/idea_GRE_panagiotis_demestichas.dds" #Can become a unit leader later
+				large="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds" #Can become a unit leader later
 			}
 		}
 	}
@@ -949,10 +949,10 @@ characters={
 		name=GRE_eleftherios_venizelos
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_GRE_eleftherios_venizelos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian={
-				large="GFX_portrait_gre_eleftherios_venizelos"
+				large="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		advisor={
@@ -1284,10 +1284,6 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = {
-				OR = {
-					has_government = fascism 
-					has_completed_focus = GRE_recruit_the_fascists 
-				}
 			}
 			traits = {
 				national_socialist_paramilitarist 
@@ -1532,7 +1528,6 @@ characters={
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = {
-				has_completed_focus = GRE_fiscal_responsibility 
 				NOT = {
 					OR = {
 						has_government = communism 

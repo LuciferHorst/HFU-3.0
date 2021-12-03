@@ -1,10 +1,6 @@
 spriteTypes = {
 
 	SpriteType = {
-		name = "GFX_game_rule_allow_paratroopers"
-		texturefile = "gfx/game_rules/allow_paratroopers.dds"
-	}
-	SpriteType = {
 		name = "GFX_boosting_party_popularity"
 		texturefile = "gfx/game_rules/boosting_party_popularity.dds"
 	}

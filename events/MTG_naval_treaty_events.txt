@@ -111,13 +111,11 @@ country_event = {
 			limit = {
 				NOT = { has_naval_treaty_trigger = yes }
 			}
-			activate_mission = MTG_treaty_reduction_mission
 			FROM = {
 				country_event = { id = MTG_naval_treaty.5 days = 3 }
 			}
 		}
 		else = {
-			activate_mission = MTG_treaty_reduction_signatory_mission
 			FROM = {
 				country_event = { id = MTG_naval_treaty.5 days = 3 }
 			}
@@ -184,7 +182,6 @@ country_event = {
 							has_idea = MTG_naval_treaty_adherent
 						}
 					}
-					activate_mission = MTG_escalator_clause_invocation_mission
 					custom_effect_tooltip = MTG_escalator_clause_tt
 				}
 			}
@@ -211,11 +208,6 @@ country_event = {
 
 	option = { #great
 		name = MTG_naval_treaty.5.a 
-		effect_tooltip = {
-			FROM = {
-				activate_mission = MTG_treaty_reduction_mission
-			}
-		}
 	}
 }
 
@@ -251,10 +243,6 @@ country_event = {
 		name = MTG_naval_treaty.6.b 
 		ai_chance = {
 			factor = 30
-			modifier = {
-				has_completed_focus = ENG_enforce_the_naval_treaties
-				factor = 0
-			}
 		}
 	}
 }

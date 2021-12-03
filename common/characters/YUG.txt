@@ -100,8 +100,8 @@ characters={
 		name=YUG_vladimir_Cukavac
 		portraits={
 			army={
-				large="GFX_Portrait_yugoslavia_vladimir_cukavac"
-				small="gfx/interface/ideas/idea_YUG_vladimir_cukavac.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -118,8 +118,8 @@ characters={
 		name=YUG_ivan_gosnjak
 		portraits={
 			army={
-				large="GFX_Portrait_yugoslavia_ivan_gosnjak"
-				small="gfx/interface/ideas/idea_YUG_ivan_gosnjak.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -136,8 +136,8 @@ characters={
 		name=YUG_danilo_kalafatovic
 		portraits={
 			army={
-				large="GFX_Portrait_yugoslavia_danilo_kalafatovic"
-				small="gfx/interface/ideas/idea_YUG_danilo_kalafatovic.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		field_marshal={
@@ -169,8 +169,8 @@ characters={
 		name=YUG_milutin_nedic
 		portraits={
 			army={
-				large="GFX_Portrait_yugoslavia_milutin_nedic"
-				small="gfx/interface/ideas/idea_YUG_milutin_nedic.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		field_marshal={
@@ -201,8 +201,8 @@ characters={
 		name=YUG_petar_kosic
 		portraits={
 			army={
-				large="GFX_Portrait_yugoslavia_petar_kosic"
-				small="gfx/interface/ideas/idea_YUG_petar_kosic.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -250,8 +250,8 @@ characters={
 		name=YUG_marijan_polic
 		portraits={
 			army={
-				large="GFX_Portrait_yugoslavia_marijan_polic"
-				small="gfx/interface/ideas/idea_YUG_marijan_polic.dds"
+				large="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
 			}
 		}
 		navy_leader={

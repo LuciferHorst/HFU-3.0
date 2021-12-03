@@ -724,7 +724,7 @@ focus_tree = {
 				technology = improved_medium_tank
 				technology = advanced_medium_tank
 				technology = main_battle_tank
-				technology = basic_heavy_tank_chassis_chassis
+				technology = basic_heavy_tank_chassis
 				technology = improved_heavy_tank_chassis
 				technology = advanced_heavy_tank_chassis
 			}
