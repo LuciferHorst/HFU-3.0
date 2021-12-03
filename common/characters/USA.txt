@@ -155,6 +155,77 @@ characters={
 			legacy_id=0
 		}
 	}
+	
+	USA_george_s_patton={
+		name=USA_george_s_patton
+		portraits={
+			army={
+				large="gfx/leaders/USA/Portrait_USA_George_S_Patton.dds"
+			}
+			army={
+				small="GFX_idea_george_patton"
+			}
+		}
+		advisor={
+			cost = 150
+			
+			slot = theorist
+			idea_token = george_patton
+			ledger = army
+				allowed = {
+					original_tag = USA
+				}
+				
+				traits = {
+					mobile_warfare_expert
+				}
+		}
+
+		corps_commander={
+			traits={ trickster armor_officer infantry_leader naval_invader panzer_leader war_hero trait_reckless hill_fighter skilled_staffer }
+			skill=6
+			attack_skill=6
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=6
+			legacy_id=0
+		}
+	}
+	USA_dwight_d_eisenhower={
+		name=USA_dwight_d_eisenhower
+		portraits={
+			army={
+				large="gfx/leaders/USA/Portrait_USA_Dwight_D_Eisenhower.dds"
+			}
+			army={
+				small="GFX_idea_dwight_eisenhower"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = dwight_eisenhower
+			allowed = {
+					original_tag = USA
+				}
+				traits = {
+					army_chief_offensive_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		
+		field_marshal={
+			traits={ logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected panzer_leader trait_mountaineer infantry_leader skilled_staffer }
+			skill=6
+			attack_skill=6
+			defense_skill=4
+			planning_skill=7
+			logistics_skill=7
+			legacy_id=602
+		}
+	}
 
 	USA_geoffrey_keyes={
 		name=USA_geoffrey_keyes
@@ -265,12 +336,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ brilliant_strategist career_officer media_personality politically_connected offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=3
+			traits={ media_personality politically_connected infantry_leader infantry_expert naval_invader jungle_rat skilled_staffer trait_engineer fortress_buster }
+			skill=7
+			attack_skill=7
+			defense_skill=4
 			planning_skill=4
-			logistics_skill=2
+			logistics_skill=4
 			legacy_id=57
 		}
 	}

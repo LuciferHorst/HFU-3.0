@@ -10,7 +10,6 @@ if = {
 set_research_slots = 0
 add_ideas = {
 	limited_conscription
-	push_on_limit
 	neutrality_idea1
 }
 set_stability = 0.9
