@@ -21,7 +21,7 @@ state={
 			industrial_complex = 2
 			air_base = 3
 			1047 = {
-				naval_base = 10
+				naval_base = 20
 				coastal_bunker = 5
 
 			}
