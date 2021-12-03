@@ -238,28 +238,28 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			529 = {
+			613 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 30
 				}
 			}
-			292 = {
-				add_resource = {
-					type = aluminium
-					amount = 12
-				}
-			}
-			521 = {
+			613 = {
 				add_resource = {
 					type = aluminium
 					amount = 12
 				}
 			}
-			542 = {
+			608 = {
+				add_resource = {
+					type = tungsten
+					amount = 20
+				}
+			}
+			608 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 40
 				}
 			}
 			if = {

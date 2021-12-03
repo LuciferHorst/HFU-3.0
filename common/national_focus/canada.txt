@@ -188,7 +188,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		complete_tooltip = {
-			437 = {
+			276 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -197,7 +197,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			437 = {
+			276 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -236,7 +236,7 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		complete_tooltip = {
-			432 = {
+			468 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -245,7 +245,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			432 = {
+			468 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -337,7 +337,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			434 = {
+			276 = {
 				add_resource = {
 					type = oil
 					amount = 14

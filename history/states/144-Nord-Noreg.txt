@@ -5,10 +5,8 @@ state={
 	manpower = 355251
 	
 	state_category = rural
-	
+	impassable = yes
 	resources={
-		steel=9 # was: 12
-		tungsten = 15 # was: 20
 	}
 
 	history={
