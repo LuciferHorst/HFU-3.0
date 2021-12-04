@@ -484,7 +484,7 @@ focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = available_theorist
-			show_ideas_tooltip = alexander_golovanov
+			show_ideas_tooltip = aleksandr_golovanov
 }
 }
 	focus = {
@@ -504,7 +504,6 @@ focus = {
 			}
 		}
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 15 }
 			add_ideas = SOV_barb_industry 
 	}
 }

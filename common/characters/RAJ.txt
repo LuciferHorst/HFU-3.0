@@ -864,7 +864,7 @@ characters={
 			}
 		}
 		advisor={
-			available = {
+			allowed = {
 				has_completed_focus = RAJ_indian_national_congress_2
 			}
 			slot = political_advisor

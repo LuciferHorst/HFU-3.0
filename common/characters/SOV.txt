@@ -1458,10 +1458,13 @@ characters = {
 			slot = theorist
 			idea_token = alexander_golovanov
 			ledger = air
+			available = {
+				has_completed_focus = SOV_appoint_golovanov
+			}
 			allowed = {
 				original_tag = SOV
 			}
-			traits = { air_warfare_theorist }
+			traits = { close_air_support_proponent }
 		}		
 	}
 
@@ -2110,13 +2113,11 @@ characters = {
 				has_dlc = "La Resistance"
 				has_completed_focus = SOV_road_quality
 			}
-			visible = {
-				NOT = {
-					has_character_flag = SOV_character_purged_flag 
-				}
+			available = { 
+				has_completed_focus = SOV_road_quality
 			}
-			available = {
-				
+			visible = {
+				always = yes
 			}
 			traits = {
 				infrastructure_expert 
