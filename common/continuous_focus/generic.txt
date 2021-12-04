@@ -25,7 +25,7 @@ continuous_focus_palette = {
 			factor = 1
 		}
 		
-		supports_ai_strategy = ai_focus_naval
+		
 		
 		daily_cost = 1
 		
@@ -46,7 +46,7 @@ continuous_focus_palette = {
 			factor = 1
 		}
 		
-		supports_ai_strategy = ai_focus_aviation
+		
 		
 		daily_cost = 1
 		
@@ -82,7 +82,7 @@ continuous_focus_palette = {
 			factor = 1
 		}
 		
-		supports_ai_strategy = ai_focus_defense
+		
 		
 		daily_cost = 1
 		
@@ -105,7 +105,7 @@ continuous_focus_palette = {
 			factor = 1
 		}
 		
-		supports_ai_strategy = ai_focus_defense
+		
 		
 		daily_cost = 1
 		
@@ -133,7 +133,7 @@ continuous_focus_palette = {
 			}
 		}
 		
-		supports_ai_strategy = ai_focus_military_advancements
+		
 		
 		daily_cost = 1
 		
@@ -161,7 +161,7 @@ continuous_focus_palette = {
 			}
 		}
 		
-		supports_ai_strategy = ai_focus_military_advancements
+		
 		
 		daily_cost = 1
 		
@@ -186,7 +186,7 @@ continuous_focus_palette = {
 			factor = 0
 		}
 		
-		supports_ai_strategy = ai_focus_military_advancements
+		
 		
 		daily_cost = 1
 		
@@ -215,7 +215,7 @@ continuous_focus_palette = {
 			factor = 0
 		}
 		
-		supports_ai_strategy = ai_focus_military_advancements
+		
 		
 		daily_cost = 1
 		

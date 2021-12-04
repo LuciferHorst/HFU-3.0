@@ -255,7 +255,6 @@ on_actions = {
 				limit = {
 					original_tag = YUG
 				}
-				remove_ideas = YUG_idea_economic_aid
 			}
 			if = {
 				limit = {
