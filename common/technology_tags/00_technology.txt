@@ -12,7 +12,6 @@ technology_categories = {
 	artillery
     shocktroop
     shock_tech
-	
     desert_tech
 	cat_anti_tank
 	cat_anti_air

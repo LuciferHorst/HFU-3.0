@@ -383,13 +383,6 @@ guiTypes = {
 			spriteType = "GFX_construction_line_glow"
 			alwaystransparent = yes
 		}
-
-		buttonType = {
-			name = "relative_flag"
-			quadTextureSprite ="GFX_construction_flag"
-			position = { x= 0 y = 0}
-			alwaystransparent = yes
-		}
 		
 #		iconType ={
 #			name ="country_flag_frame"
