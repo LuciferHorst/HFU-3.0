@@ -1437,45 +1437,6 @@ characters={
 		}
 	}
 
-	USA_whittaker_chambers={
-		name=USA_whittaker_chambers
-		portraits={
-			army={
-				small="GFX_idea_USA_whittaker_chambers"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = whittaker_chambers
-			allowed  = {
-				original_tag  = USA
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_reach_out_to_the_ware_group 
-				}
-			}
-			visible  = {
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				editor 
-			}
-			cost  = 0.000
-			do_effect  = {
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-		allowed_civil_war  = {
-			has_government  = communism 
-		}
-	}
-
 	USA_joseph_patterson={
 		name=USA_joseph_patterson
 		portraits={
@@ -1490,11 +1451,7 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-				}
+				has_completed_focus = USA_reach_out_to_the_ware_group
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
@@ -1530,11 +1487,7 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-				}
+				has_completed_focus = USA_reach_out_to_the_ware_group
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
@@ -1739,11 +1692,6 @@ characters={
 			allowed  = {
 				original_tag  = USA
 			}
-			available  = {
-				NOT  = {
-					has_idea  = harry_white 
-				}
-			}
 			traits  = {
 				financial_expert 
 			}
@@ -1798,10 +1746,6 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = usa_william_donovan
-			available  = {
-				has_intelligence_agency  = yes 
-				threat > 0.500
-			}
 			allowed  = {
 				original_tag  = USA
 				has_dlc = "La Resistance"

@@ -64,8 +64,9 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
-			attack_skill=2
+			traits = { panzer_leader desert_fox trait_engineer infantry_leader trickster }
+			skill=6
+			attack_skill=5
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=5
@@ -82,9 +83,10 @@ characters={
 			}
 		}
 		field_marshal={
-			skill=4
+			traits = {panzer_leader infantry_leader organizer hill_fighter }
+			skill=6
 			attack_skill=4
-			defense_skill=2
+			defense_skill=3
 			planning_skill=4
 			logistics_skill=3
 			legacy_id=-1
@@ -100,11 +102,12 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=5
+			traits = { panzer_leader commando }
+			skill=4
+			attack_skill=6
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -118,9 +121,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
+			traits = { hill_fighter infantry_leader trait_mountaineer naval_invader }
 			skill=4
-			attack_skill=4
+			attack_skill=5
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=3
@@ -155,12 +158,12 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ spotter }
-			skill=4
-			attack_skill=3
-			defense_skill=3
-			maneuvering_skill=3
-			coordination_skill=4
+			traits = { spotter blockade_runner }
+			skill=5
+			attack_skill=5
+			defense_skill=1
+			maneuvering_skill=10
+			coordination_skill=6
 			legacy_id=-1
 		}
 	}
@@ -214,7 +217,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = CAN_kenneth_stuart
 			ledger = army
@@ -226,53 +229,6 @@ characters={
 			}
 		}
 	}
-
-	CAN_george_volkoff={
-		name=CAN_george_volkoff
-		portraits={
-			army={
-				small="GFX_idea_CAN_george_volkoff" #small="GFX_idea_generic_political_advisor_europe_2"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = CAN_george_volkoff
-			ledger = army
-			allowed = {
-				original_tag = CAN
-				has_dlc = "Together for Victory"
-			}
-			research_bonus = {
-				nuclear = 0.150
-			}
-			traits = {
-				nuclear_scientist
-			}
-		}
-	}
-
-	CAN_robert_leckie={
-		name=CAN_robert_leckie
-		portraits={
-			army={
-				small="GFX_idea_CAN_robert_leckie" #small="GFX_idea_generic_air_europe_2"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = CAN_robert_leckie
-			ledger = air
-			allowed = {
-				original_tag = CAN
-			}
-			traits = {
-				air_warfare_theorist
-			}
-		}
-	}
-
 
 	### ARMY CHIEFS ###
 

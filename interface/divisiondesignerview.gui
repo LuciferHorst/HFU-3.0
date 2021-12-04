@@ -168,7 +168,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "border_container"
 			position = { x=29 y=101 }
-			size = { width = 96 height = 90 }
+			size = { width = 96 height = 48 }
 			
 			background = {
 				name ="bg_tech_button"
@@ -235,7 +235,7 @@ guiTypes = {
 				name = "regiments_grid"
 				position = { x = 115 y = 57 }
 				size = { width = 445 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 82 height = 43 }
 				format = "UPPER_LEFT"
 			}
 		}
@@ -781,7 +781,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "designerregimentswindow"
-			position = { x=-10 y=40}	
+			position = { x=0 y=40}	
 			size = { width=549 height=459 }
 			margin = { top = 14 bottom = 11 }
 			verticalScrollbar = "right_vertical_slider"
@@ -1142,7 +1142,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"		
-			spriteType ="GFX_div_subunit_item_bg"
+			spriteType ="GFX_ssc_div_subunit_item_bg"
 		}
 		
 		instantTextboxType = {
