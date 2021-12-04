@@ -218,7 +218,6 @@ recruit_character = FRA_leon_blum
 recruit_character = FRA_felix_gouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
-recruit_character = FRA_marcel_bucard
 
 ### VARIANTS ###
 # 1936 Start #

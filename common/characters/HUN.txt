@@ -55,11 +55,12 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
+			traits = { infantry_leader trait_engineer ranger trickster}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -73,12 +74,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster }
-			skill=4
-			attack_skill=3
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=4
+			traits = {  trait_engineer panzer_leader trickster infantry_leader urban_assault_specialist}
+ 	skill = 6
+ 	attack_skill = 5
+ 	defense_skill = 4
+ 	planning_skill = 2
+ 	logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -92,11 +93,12 @@ characters={
 			}
 		}
 		field_marshal={
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
+			traits = { panzer_leader trickster organizer trait_engineer infantry_leader trait_mountaineer}
+ 	skill = 7
+ 	attack_skill = 5
+ 	defense_skill = 2
+ 	planning_skill = 1
+ 	logistics_skill = 2
 			legacy_id=-1
 		}
 	}

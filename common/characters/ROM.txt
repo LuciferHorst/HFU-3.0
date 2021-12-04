@@ -111,12 +111,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ logistics_wizard offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			traits = { panzer_leader trait_engineer ranger infantry_leader}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -130,12 +130,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
+			traits = { swamp_fox infantry_leader trickster panzer_leader }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -251,12 +251,14 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			create_field_marshal = {
+				traits = { infantry_leader organizer panzer_leader trait_engineer}
+				skill = 6
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 3
+			}
 			legacy_id=-1
 		}
 	}
@@ -398,11 +400,12 @@ characters={
 		}
 
 		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=3
+			traits = { naval_invader infantry_leader trait_mountaineer hill_fighter}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 5
 			legacy_id=-1
 		}
 	}
@@ -537,7 +540,7 @@ characters={
 				original_tag  = ROM
 			}
 			traits  = {
-				backroom_backstabber 
+				war_industrialist
 			}
 			ai_will_do  = {
 				factor  = 0.000

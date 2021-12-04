@@ -164,12 +164,12 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { career_officer politically_connected trait_BUL_tsar_loyalist fortress_buster }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits = { organizer panzer_leader infantry_leader ranger trait_engineer expert_improviser }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
 			legacy_id = 1201
 		}
 	}
@@ -183,12 +183,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { trait_reckless cavalry_leader }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits = { infantry_leader ranger trait_mountaineer }
+ 	skill = 5
+ 	attack_skill = 5
+ 	defense_skill = 3
+ 	planning_skill = 2
+ 	logistics_skill = 2
 			legacy_id = 1205
 		}
 	}
@@ -221,12 +221,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { trait_cautious trait_BUL_tsar_loyalist }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
+			traits = { infantry_leader trait_engineer panzer_leader urban_assault_specialist}
+ 		skill = 5
+ 		attack_skill = 3
+ 		defense_skill = 3
+ 		planning_skill = 2
+ 		logistics_skill = 3
 			legacy_id = 1209
 		}
 	}

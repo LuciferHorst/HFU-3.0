@@ -81,12 +81,12 @@ characters={
 		}
 
 		field_marshal={
-			traits={ old_guard inflexible_strategist politically_connected defensive_doctrine }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = { defensive_doctrine infantry_leader commando }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
 			legacy_id=0
 		}
 	}
@@ -117,12 +117,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard trait_cautious politically_connected defensive_doctrine }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = { brilliant_strategist infantry_leader organizer naval_invader trickster trait_engineer }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
 			legacy_id=0
 		}
 	}
@@ -153,12 +153,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ old_guard career_officer trait_cautious }
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=3
+			traits = {  old_guard infantry_leader desert_fox}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 			legacy_id=0
 		}
 	}
@@ -187,12 +187,31 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ armor_officer war_hero }
-			skill=4
-			attack_skill=4
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=4
+			traits = {  panzer_leader panzer_expert desert_fox trickster expert_improviser }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	ITA_Rodolfo_Graziani={
+		name=ITA_Rodolfo_Graziani
+		portraits={
+			army={
+				picture = "portrait_italy_radolfo_graziani.dds"
+				small="gfx/interface/ideas/idea_ITA_sebastiano_visconti_prasca.dds"
+			}
+		}
+		corps_commander={
+			traits = { offensive_doctrine organizer panzer_leader trickster hill_fighter expert_improviser panzer_expert }
+			skill = 7
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
 			legacy_id=0
 		}
 	}
@@ -206,12 +225,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ inflexible_strategist career_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = { inflexible_strategist infantry_leader }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -225,12 +244,31 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer trait_cautious }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = { trait_cautious naval_invader infantry_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+			legacy_id=0
+		}
+	}
+
+	ITA_angelo_di_maria={
+		name = "Angelo Di Maria"
+		portraits={
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Ubaldo_Soddu.dds"
+				small="gfx/interface/ideas/idea_ITA_ubaldo_soddu.dds"
+			}
+		}
+		corps_commander={
+			traits = { infantry_officer infantry_leader skilled_staffer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -248,11 +286,12 @@ characters={
 		
 		corps_commander={
 			traits={ career_officer politically_connected }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = { inflexible_strategist infantry_leader trickster trait_mountaineer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 2
 			legacy_id=0
 		}
 	}
@@ -283,12 +322,12 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ battleship_adherent superior_tactician spotter }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=3
+			traits = { gentlemanly superior_tactician fly_swatter green_water_expert inshore_fighter spotter }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 6
+	coordination_skill = 4
 			legacy_id=0
 		}
 	}
@@ -302,12 +341,12 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ aviation_enthusiast blockade_runner }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=4
-			coordination_skill=2
+			traits = { blockade_runner air_controller superior_tactician }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	maneuvering_skill = 6
+	coordination_skill = 3
 			legacy_id=0
 		}
 	}
@@ -339,12 +378,12 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ gunnery_expert battleship_adherent ironside }
-			skill=2
-			attack_skill=3
-			defense_skill=1
-			maneuvering_skill=2
-			coordination_skill=1
+			traits = { ironside superior_tactician green_water_expert}
+	skill = 5
+	attack_skill = 6
+	defense_skill = 4
+	maneuvering_skill = 5
+	coordination_skill = 3
 			legacy_id=0
 		}
 	}

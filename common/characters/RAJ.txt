@@ -64,12 +64,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ armor_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=1
+			traits = { trickster panzer_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -83,12 +83,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			traits = { hill_fighter infantry_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -102,12 +102,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox }
-			skill=3
-			attack_skill=1
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			traits = { desert_fox infantry_leader}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -600,12 +600,12 @@ characters={
 		advisor={	
 			slot = high_command
 			idea_token = RAJ_arjan_singh_vibhusan
-			ledger = air
+			ledger = army
 			allowed = {
-				original_tag = RAJ
+				has_completed_focus = RAJ_lions_of_the_great_war
 			}
 			traits = {
-				air_air_combat_training_3
+				army_commando_3
 			}
 			cost = 200
 			ai_will_do = {
@@ -864,13 +864,16 @@ characters={
 			}
 		}
 		advisor={
+			available = {
+				has_completed_focus = RAJ_indian_national_congress_2
+			}
 			slot = political_advisor
 			idea_token = RAJ_mahatma_mohandas_gandhi
 			allowed = {
 				original_tag = RAJ
 			}
 			traits = {
-				compassionate_gentleman 
+				nationalist_symbol
 			}
 		}		
 	}
@@ -930,7 +933,7 @@ characters={
 				original_tag = RAJ
 			}
 			traits = {
-				ideological_crusader 
+				captain_of_industry
 			}
 		}
 	}

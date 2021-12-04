@@ -289,7 +289,20 @@ recruit_character = GER_werner_von_fritsch
 recruit_character = GER_erich_raeder
 recruit_character = GER_erich_von_manstein
 recruit_character = GER_heinz_guderian
-
+recruit_character = GER_wilhelm_list
+recruit_character = GER_ewald_von_kleist
+recruit_character = GER_fedor_von_bock
+recruit_character = GER_walter_model
+recruit_character = GER_maximilian_von_weichs
+recruit_character = GER_wilhelm_ritter_von_leeb
+recruit_character = GER_georghans_reinhardt
+recruit_character = GER_walter_kruger
+recruit_character = GER_kurt_student
+recruit_character = GER_erwin_von_witzleben
+recruit_character = GER_johannes_blaskowitz
+recruit_character = GER_georg_von_kuchler
+recruit_character = GER_alfred_jodl
+recruit_character = GER_sepp_dietrich
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

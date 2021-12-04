@@ -86,3 +86,5 @@ recruit_character = HUN_shvoy_kalman
 recruit_character = HUN_gyorgy_jendrassik
 recruit_character = HUN_ferenc_szombathelyi
 recruit_character = HUN_hugo_sonyi
+recruit_character = HUN_ivan_hindy
+recruit_character = HUN_geza_lakatos

@@ -124,7 +124,7 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				army_concealment_2
+				army_commando_3
 			}
 			cost = 100
 			ai_will_do = {
@@ -1434,6 +1434,7 @@ characters={
 			}
 		}
 		advisor={
+			cost = 75
 			slot = political_advisor
 			idea_token = kijuro_shidehara
 			available = {
@@ -1456,7 +1457,7 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				democratic_reformer 
+				industrial_genius
 			}
 			do_effect = {
 				NOT = {
@@ -1561,7 +1562,7 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				compassionate_gentleman 
+				quartermaster_general
 			}
 		}		
 	}
