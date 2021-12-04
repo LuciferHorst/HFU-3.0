@@ -717,7 +717,6 @@ every_possible_country = {
 	}
 
 
-	generate_character = {
 
 	generate_character = {
 		token_base = SPR_juan_lopez_sanchez

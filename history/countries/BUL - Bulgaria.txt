@@ -70,5 +70,5 @@ recruit_character = BUL_valko_chervenkov
 recruit_character = BUL_ivan_dochev
 recruit_character = BUL_stefan_nedev
 recruit_character = BUL_nikola_mihov
-recruit_character = BUL_ivan_marko
+recruit_character = BUL_ivan_markov
 recruit_character = BUL_nikola_stoychev

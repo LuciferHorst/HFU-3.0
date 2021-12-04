@@ -106,4 +106,3 @@ recruit_character = SPR_francisco_ciutat_de_miguel
 recruit_character = SPR_infantry_military_council
 recruit_character = SPA_wilhelm_ritter_von_thoma
 recruit_character = SPR_domenec_batet
-recruit_character = SPR_antonio_escobar_huerta

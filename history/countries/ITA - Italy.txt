@@ -188,22 +188,9 @@ recruit_character = ITA_sebastiano_visconti_prasca
 recruit_character = ITA_Rodolfo_Graziani
 recruit_character = ITA_ubaldo_soddu
 recruit_character = ITA_italo_balbo
-recruit_character = ITA_
-recruit_character = ITA_
-recruit_character = ITA_
 ### VARIANTS ###
 # 1936 Start #
 #plane variants
-create_equipment_variant = {
-	name = "CR.42"
-	type = fighter_equipment_0
-	upgrades = {
-		plane_gun_upgrade = 1
-		plane_range_upgrade = 0
-		plane_engine_upgrade = 2
-		plane_reliability_upgrade = 1
-	}
-}
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

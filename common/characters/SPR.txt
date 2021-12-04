@@ -437,29 +437,4 @@ characters={
 			cost = 100
 		}
 	}
-
-	SPR_antonio_escobar_huerta = {
-		name=SPR_antonio_escobar_huerta
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_5"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = SPR_antonio_escobar_huerta
-			ledger = army
-			allowed = {
-				has_dlc = "La Resistance"
-				original_tag = SPR
-			}
-			visible = {
-			}
-			available = {
-			}
-			traits = { army_logistics_2 }
-			cost = 100
-		}
-	}
-
 }

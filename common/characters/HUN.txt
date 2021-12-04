@@ -55,7 +55,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { infantry_leader trait_engineer ranger trickster}
+			traits = { infantry_leader trait_engineer ranger trickster }
 			skill = 5
 			attack_skill = 3
 			defense_skill = 5
