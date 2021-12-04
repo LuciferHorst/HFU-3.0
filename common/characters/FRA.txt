@@ -279,7 +279,6 @@ characters={
 		corps_commander={
 			traits={ media_personality harsh_leader armor_officer }
 			traits = {  armor_officer harsh_leader media_personality panzer_leader naval_invader desert_fox }
-	id = 101
 	skill = 5
 	attack_skill = 4
 	defense_skill = 3
@@ -490,7 +489,6 @@ characters={
 
 		navy_leader={
 			traits = { spotter blockade_runner bold superior_tactician }
-	id = 102
 	skill = 6
 	attack_skill = 6
 	defense_skill = 3
