@@ -1176,7 +1176,7 @@ focus_tree = {
 		id = uk_mediterranean_focus
 		prerequisite = { focus = uk_empire_focus }
 		available = {
-			412 = {
+			446 = {
 				CONTROLLER = {
 					tag = ENG
 				}
