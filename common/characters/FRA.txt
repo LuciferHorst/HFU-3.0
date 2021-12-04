@@ -128,7 +128,7 @@ characters={
 				
 			}
 			available = {
-				has_completed_focus = fra_agressive_focus
+				has_completed_focus = FRA_aggressive_focus
 			}
 			cost = 100.000
 			traits = {
@@ -165,8 +165,11 @@ characters={
 			slot = army_chief
 			idea_token = maxime_weygand
 			allowed = {
+				has_completed_focus = FRA_defensive_focus	
+			}
+			allowed = {
 				original_tag = FRA
-				has_completed_focus = FRA_defensive_focus
+				
 			}
 			cost = 100.000
 			traits = {
