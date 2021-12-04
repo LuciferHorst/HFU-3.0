@@ -139,14 +139,14 @@ characters = {
 						}
 					}
 					traits = {
-						army_chief_defensive_2
+						army_chief_offensive_2
 					}
 					cost = 100
 					ai_will_do = {
 						factor = 1.000
 						modifier = {
 							factor = 0.100
-							BUL_save_money_for_decisions = yes
+							
 						}
 					}
 				}
@@ -187,35 +187,96 @@ characters = {
 				}
 			}
 		}
-		instance = {
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
+
+		BUL_ferdinand_kozovski = {
 			advisor = {
-				slot = air_chief
-				idea_token = BUL_asen_dobrev_nikolov
+				slot = high_command
+				idea_token = BUL_ferdinand_kozovski
+				ledger = army
 				allowed = {
-					NOT = {
-						has_dlc = "Battle for the Bosporus"
-					}
+					has_dlc = "Battle for the Bosporus"
 					original_tag = BUL
 				}
+				available = {
+				}
 				traits = {
-					air_chief_safety_2
+					army_commando_3
 				}
 				cost = 100
 				ai_will_do = {
 					factor = 1.000
 				}
 			}
-			name = BUL_asen_nikolov
+			name = BUL_ferdinand_kozovski
 			portraits = {
 				army = {
-					small = "GFX_idea_generic_air_europe_2"
+					small = "GFX_idea_bul_ferdinand_kozovski"
 				}
 			}
 		}
-	}
+
+		BUL_kiril_stanchev = {
+			instance = {
+				allowed = {
+					has_dlc = "Battle for the Bosporus"
+				}
+				advisor = {
+					slot = army_chief
+					idea_token = BUL_kiril_stanchev
+					allowed = {
+						has_dlc = "Battle for the Bosporus"
+						original_tag = BUL
+					}
+					available = {
+			
+					}
+					traits = {
+						army_chief_offensive_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1.000
+						modifier = {
+							factor = 0.100
+							
+						}
+					}
+				}
+				name = BUL_kiril_stanchev
+				portraits = {
+					army = {
+						small = "GFX_idea_bul_kiril_stanchev"
+					}
+				}
+			}
+			instance = {
+				allowed = {
+					NOT = { has_dlc = "Battle for the Bosporus" }
+				}
+				advisor = {
+					cost = 100
+					slot = theorist
+					idea_token = BUL_kiril_stanchev
+					ledger = army
+					allowed = {
+						NOT = {
+							has_dlc = "Battle for the Bosporus"
+						}
+						original_tag = BUL
+					}
+					
+					traits = {
+						military_theorist
+					}
+				}
+				name = BUL_kiril_stanchev
+				portraits = {
+					army = {
+						small = "GFX_idea_bul_kiril_stanchev"
+					}
+				}
+			}
+		}
 
 	BUL_stefan_nedev = {
 		advisor = {
@@ -416,7 +477,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { trait_reckless harsh_leader trait_BUL_zveno_member }
+			traits = { trait_reckless harsh_leader  }
 			skill = 2
 			attack_skill = 3
 			defense_skill = 1
@@ -451,6 +512,102 @@ characters = {
 			army = {
 				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" #Can become unit leader later
 				small = "gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	BUL_vladimir_stoychev = {
+		advisor = {
+			slot = high_command
+			idea_token = BUL_vladimir_stoychev
+			ledger = army
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+				original_tag = BUL
+			}
+			available = {
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+				modifier = {
+					factor = 0.100
+				}
+			}
+		}
+		name = BUL_vladimir_stoychev
+		portraits = {
+			army = {
+				small = "GFX_idea_bul_vladimir_stoychev"
+			}
+		}
+	}
+
+	BUL_stoyan_trendafilov = {
+		advisor = {
+			slot = high_command
+			idea_token = BUL_stoyan_trendafilov
+			ledger = army
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+				original_tag = BUL
+			}
+			available = {
+				
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+				modifier = {
+					factor = 0.100
+					
+				}
+			}
+		}
+		name = BUL_stoyan_trendafilov
+		portraits = {
+			army = {
+				small = "GFX_idea_bul_stoyan_trendafilov"
+			}
+		}
+	}
+
+	BUL_trifon_trifonov = {
+		advisor = {
+			slot = high_command
+			idea_token = BUL_trifon_trifonov
+			ledger = army
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+				original_tag = BUL
+			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+				modifier = {
+					factor = 0.100
+					
+				}
+			}
+		}
+		name = BUL_trifon_trifonov
+		portraits = {
+			army = {
+				small = "GFX_idea_bul_trifon_trifonov"
 			}
 		}
 	}
@@ -516,12 +673,12 @@ characters = {
 			}
 		}
 	}
+}
 
 ###################
 ### CHIEFS ARMY ###
 ###################
 
-}
 
 
 

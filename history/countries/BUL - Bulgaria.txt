@@ -72,3 +72,7 @@ recruit_character = BUL_stefan_nedev
 recruit_character = BUL_nikola_mihov
 recruit_character = BUL_ivan_markov
 recruit_character = BUL_nikola_stoychev
+recruit_character = BUL_vladimir_stoychev
+recruit_character = BUL_stoyan_trendafilov
+recruit_character = BUL_trifon_trifonov
+recruit_character = BUL_ferdinand_kozovski
