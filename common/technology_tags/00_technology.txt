@@ -140,15 +140,15 @@ technology_folders = {
 	}
 	land_doctrine_folder = {
 		ledger = army
-		doctrine = yes
+		#doctrine = yes
 	}
 	naval_doctrine_folder = {
 		ledger = navy
-		doctrine = yes
+		#doctrine = yes
 	}
 	air_doctrine_folder = {
 		ledger = air
-		doctrine = yes
+		#doctrine = yes
 	}
 	electronics_folder = {
 		ledger = civilian
