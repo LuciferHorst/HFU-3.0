@@ -37,7 +37,7 @@ bookmarks = {
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
+			available = { always = yes }
 			ideas = {
 				stiff_upper_lip
 				ENG_the_war_to_end_all_wars

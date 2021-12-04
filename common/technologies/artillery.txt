@@ -15,11 +15,6 @@ technologies = {
 			leads_to_tech = interwar_antiair
 			research_cost_coeff = 1
 		}
-		enable_equipment_modules = {
-			ship_anti_air_1
-			tank_small_cannon
-			secondary_turret_small_cannon
-		}
 		research_cost = 1.5
 		folder = {
 			name = artillery_folder
@@ -54,13 +49,6 @@ technologies = {
 		}
 		mot_artillery_brigade = {
 			soft_attack = 0.1
-		}
-
-		enable_equipment_modules = {
-			tank_medium_howitzer
-			tank_small_cannon_2
-			tank_close_support_gun
-			secondary_turret_close_support_gun
 		}
 
 		path = {
@@ -181,9 +169,6 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		enable_equipment_modules = {
-			tank_medium_cannon_2
-		}
 		path = {
 			leads_to_tech = artillery4
 			research_cost_coeff = 1
@@ -256,9 +241,6 @@ technologies = {
 		}
 		mot_artillery_brigade = {
 			soft_attack = 0.1
-		}
-		enable_equipment_modules = {
-			auto_loader
 		}
 
 		research_cost = 1
@@ -412,9 +394,6 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
 		}
-		enable_equipment_modules = {
-			tank_rocket_launcher_2
-		}
 		research_cost = 1
 		start_year = 1943
 		
@@ -439,9 +418,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_anti_air_2
-			tank_auto_cannon
-			tank_anti_air_cannon
-			tank_heavy_cannon
 		}
 		enable_building = {
 			building = anti_air
@@ -692,10 +668,6 @@ technologies = {
 		enable_equipments = {
 			anti_tank_equipment_1
 		}
-		enable_equipment_modules = {
-			tank_high_velocity_cannon
-			tank_heavy_cannon
-		}
 		path = {
 			leads_to_tech = antitank1
 			research_cost_coeff = 1
@@ -879,9 +851,6 @@ technologies = {
 		}
 	}
 	antitank3 = {
-		enable_equipment_modules = {
-			tank_medium_cannon_2
-		}
 		anti_tank = {
 			hard_attack = 0.1
 			ap_attack = 0.1

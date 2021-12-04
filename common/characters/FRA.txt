@@ -125,6 +125,9 @@ characters={
 			idea_token = maurice_gamelin
 			allowed = {
 				original_tag = FRA
+				
+			}
+			available = {
 				has_completed_focus = fra_agressive_focus
 			}
 			cost = 100.000
@@ -252,12 +255,15 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
 			slot = theorist
 			idea_token = charles_de_gaulle
 			ledger = army
 			allowed = {
 				original_tag = FRA
+				
+			}
+			available = {
+				has_completed_focus = FRA_battle_of_maneuver
 			}
 			cost = 75.000
 			

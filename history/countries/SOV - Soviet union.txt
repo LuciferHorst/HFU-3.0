@@ -206,6 +206,12 @@ recruit_character = SOV_ivan_yumashev
 recruit_character = SOV_yakov_smushkevich
 recruit_character = SOV_vasily_blyukher
 
+recruit_character = SOV_better_konstantin_rokossovsky
+
+SOV_better_konstantin_rokossovsky = {
+set_character_flag = SOV_exiled_flag
+}
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

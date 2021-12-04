@@ -2047,16 +2047,17 @@ focus = {
 		y = 3
 		relative_position_id = SOV_great_figher
 		cost = 8
-		ai_will_do = {
-			factor = 1
-		}
 		available_if_capitulated = yes
 		completion_reward = {
             if = {
             limit = {has_completed_focus = SOV_positive_heroism}
-            #swap_ideas = {
-                #figure out how to character swap
-            #}}
+
+			#EXILE THE WORSE VERSION IF POSITIVE HEROISM
+            SOV_konstantin_rokossovsky = { set_character_flag = SOV_exiled_flag }
+
+			#CLEAR THE EXILED FLAG FROM THE BETTER ROKOSSOVSKY
+			SOV_better_konstantin_rokossovsky = { clr_character_flag = SOV_exiled_flag }
+
             else = {
             custom_effect_tooltip = available_chief_of_army
             show_ideas_tooltip = konstantin_rokossovsky

@@ -9,31 +9,6 @@ characters={
 				small="GFX_idea_ENG_winston_churchill"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_winston_churchill
-			available  = {
-				has_government  = neutrality 
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				royalist_bulldog 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
 
 		country_leader={
 			ideology=conservatism
@@ -1410,9 +1385,9 @@ characters={
 				original_tag = ENG
 			}
 			traits = {
-				air_air_superiority_2
+				army_armored_2
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
@@ -1529,10 +1504,16 @@ characters={
 			allowed = {
 				original_tag = ENG
 			}
+			available = {
+				has_completed_focus = ENG_special_air_service
+			}
+			visible = {
+				always = yes
+			}
 			traits = {
 				army_commando_3
 			}
-			cost = 200
+			cost = 150
 			ai_will_do = {
 				factor = 0.200
 			}
@@ -1560,34 +1541,14 @@ characters={
 			slot = political_advisor
 			idea_token = clement_attlee
 			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
+				has_completed_focus = shadow_scheme_focus
 			}
 			allowed  = {
 				original_tag  = ENG
-				has_completed_focus = shadow_scheme_focus
 			}
+			visible = { always = yes }
 			traits  = {
 				industrial_genius
-			}
-			do_effect  = {
-				NOT = {
-					has_government  = democratic 
-				}
-			}
-			ai_will_do  = {
-				factor  = 0.000
 			}
 		}		
 	}
