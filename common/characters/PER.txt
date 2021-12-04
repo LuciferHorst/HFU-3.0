@@ -12,4 +12,22 @@ characters={
 			id=-1
 		}
 	}
+	PER_hasan_arfa={
+		name="Hasan Arfa"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 }

@@ -6,6 +6,7 @@ add_ideas = {
 }
 set_technology = {
 }
+recruit_character = TUR_mustafa_kemal_ataturk
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.2.8"

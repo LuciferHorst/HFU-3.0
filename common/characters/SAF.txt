@@ -71,20 +71,6 @@ characters={
 		}
 	}
 
-	SAF_jan_smuts = {
-		name=SAF_jan_smuts
-		portraits={
-			civilian={
-				large="gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	SAF_george_edwin_brink={
 		name=SAF_george_edwin_brink
 		portraits={
@@ -94,13 +80,30 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox }
+			traits={ desert_fox panzer_leader trickster trait_engineer infantry_leader cavalry_leader naval_invader }
 			skill=4
-			attack_skill=4
-			defense_skill=4
+			attack_skill=5
+			defense_skill=3
 			planning_skill=4
-			logistics_skill=1
+			logistics_skill=4
 			legacy_id=-1
+		}
+	}
+	SAF_jan_smuts = {
+		name=SAF_jan_smuts
+		portraits={
+			army={
+				large="GFX_SAF_jan_smuts"
+			}
+		}
+		corps_commander = {
+		traits = { desert_fox panzer_leader organizer infantry_leader cavalry_leader}
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+		legacy_id=-1
 		}
 	}
 

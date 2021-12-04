@@ -153,4 +153,5 @@ recruit_character = RAJ_john_edward_golightly
 recruit_character = RAJ_bhimrao_ramji_ambedkar
 recruit_character = RAJ_chakravarti_rajagopalachari
 recruit_character = RAJ_mahatma_mohandas_gandhi
+recruit_character = RAJ_john_mathai
 recruit_character = RAJ_bhaskar_soman

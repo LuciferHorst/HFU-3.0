@@ -894,7 +894,7 @@ characters={
 			traits = {
 				captain_of_industry 
 			}
-		}
+		}		
 	}
 
 	RAJ_sir_mohammed_iqbal={
@@ -917,7 +917,7 @@ characters={
 				factor = 0.000
 			}
 		}
-	}
+	} 
 	
 	RAJ_agha_khan_iii={
 		name=RAJ_agha_khan_iii

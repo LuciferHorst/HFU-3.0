@@ -78,11 +78,12 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
-			attack_skill=4
-			defense_skill=2
+			traits = { commando panzer_leader trait_engineer ranger infantry_leader }
+			skill=5
+			attack_skill=3
+			defense_skill=5
 			planning_skill=5
-			logistics_skill=2
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}
@@ -96,10 +97,11 @@ characters={
 			}
 		}
 		corps_commander={
+			traits = { infantry_leader organizer panzer_leader trait_engineer}
 			skill=4
-			attack_skill=4
+			attack_skill=5
 			defense_skill=3
-			planning_skill=3
+			planning_skill=2
 			logistics_skill=3
 			legacy_id=-1
 		}
@@ -114,10 +116,11 @@ characters={
 			}
 		}
 		corps_commander={
+			traits = {panzer_leader desert_fox trait_engineer}
 			skill=4
-			attack_skill=3
-			defense_skill=4
-			planning_skill=3
+			attack_skill=6
+			defense_skill=2
+			planning_skill=1
 			logistics_skill=3
 			legacy_id=-1
 		}
@@ -132,9 +135,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
-			skill=3
-			attack_skill=2
+			traits = { hill_fighter infantry_leader naval_invader }
+			skill=4
+			attack_skill=4
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=1
@@ -151,10 +154,10 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox }
-			skill=3
-			attack_skill=3
-			defense_skill=1
+			traits={ desert_fox infantry_leader trait_mountaineer }
+			skill=4
+			attack_skill=4
+			defense_skill=2
 			planning_skill=3
 			logistics_skill=3
 			legacy_id=-1
@@ -170,12 +173,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ armor_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
+			traits={ infantry_leader jungle_rat trickster }
+			skill=4
+			attack_skill=4
+			defense_skill=3
 			planning_skill=1
-			logistics_skill=1
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -208,12 +211,12 @@ characters={
 			}
 		}
 		navy_leader={
-			traits={ bold }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=2
+			traits={ spotter blockade_runner }
+			skill=5
+			attack_skill=5
+			defense_skill=1
+			maneuvering_skill=10
+			coordination_skill=6
 			legacy_id=-1
 		}
 	}
@@ -236,7 +239,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = AST_norman_makin
 			ledger = navy
@@ -258,7 +261,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = AST_james_fairbairn
 			ledger = air
@@ -267,7 +270,7 @@ characters={
 			}
 			
 			traits = {
-				air_warfare_theorist
+				military_theorist
 			}
 		}
 	}
@@ -334,7 +337,7 @@ characters={
 				original_tag = AST
 			}
 			traits = {
-				army_chief_offensive_1
+				army_chief_offensive_2
 			}
 			cost =  50
 			ai_will_do = {
@@ -532,7 +535,7 @@ characters={
 				original_tag = AST
 			}
 			traits = {
-				army_artillery_2
+				army_commando_2
 			}
 			cost = 100
 			ai_will_do = {
