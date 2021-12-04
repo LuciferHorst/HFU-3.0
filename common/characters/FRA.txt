@@ -125,6 +125,7 @@ characters={
 			idea_token = maurice_gamelin
 			allowed = {
 				original_tag = FRA
+				has_completed_focus = fra_agressive_focus
 			}
 			cost = 100.000
 			traits = {
@@ -162,6 +163,7 @@ characters={
 			idea_token = maxime_weygand
 			allowed = {
 				original_tag = FRA
+				has_completed_focus = FRA_defensive_focus
 			}
 			cost = 100.000
 			traits = {

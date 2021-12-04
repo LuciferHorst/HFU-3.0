@@ -1576,6 +1576,7 @@ characters={
 			}
 			allowed  = {
 				original_tag  = ENG
+				has_completed_focus = shadow_scheme_focus
 			}
 			traits  = {
 				industrial_genius

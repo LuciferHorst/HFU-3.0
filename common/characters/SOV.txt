@@ -2095,6 +2095,7 @@ characters = {
 			allowed = {
 				original_tag = SOV
 				has_dlc = "La Resistance"
+				has_completed_focus = SOV_road_quality
 			}
 			visible = {
 				NOT = {

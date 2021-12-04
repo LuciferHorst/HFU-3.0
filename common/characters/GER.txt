@@ -1112,7 +1112,7 @@ characters={
 				has_completed_focus = GER_albert_speer_focus
 			}
 			traits = {
-				armaments_organizer 
+				armaments_organizer  rustungsorganisator
 			}
 		}		
 	}
