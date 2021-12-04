@@ -2289,18 +2289,3 @@ USA_modern_tank_destroyer = {
 	}
 }
 
-USA_amphibious_tanks = {
-	category = land
-
-	blocked_for = {}
-
-	available_for = {USA}
-
-	roles = {
-		land_amphibious_tank
-	}
-
-	priority = {
-		factor = 20
-	}
-}

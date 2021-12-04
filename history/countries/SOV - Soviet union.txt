@@ -9,7 +9,7 @@ if = {
 }
 add_ideas = peace_training
 create_intelligence_agency = yes
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.41
 set_war_support = 0.55
 # Starting tech

@@ -2229,20 +2229,3 @@ JAP_modern_tank_destroyer = {
 		}
 	}
 }
-
-JAP_amphibious_tanks = {
-	category = land
-
-	blocked_for = {}
-
-	available_for = { JAP }
-
-	roles = {
-		land_amphibious_tank
-	}
-
-	priority = {
-		factor = 20
-	}
-
-}

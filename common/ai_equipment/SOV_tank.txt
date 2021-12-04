@@ -2242,19 +2242,3 @@ SOV_modern_tank_destroyer = {
 	}
 }
 
-SOV_amphibious_tanks = {
-	category = land
-
-	blocked_for = {}
-
-	available_for = {SOV}
-
-	roles = {
-		land_amphibious_tank
-	}
-
-	priority = {
-		factor = 20
-	}
-
-}

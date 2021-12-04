@@ -2358,19 +2358,3 @@ GER_modern_tank_destroyer = {
 	}
 }
 
-GER_amphibious_tanks = {
-	category = land
-
-	blocked_for = {}
-
-	available_for = {GER}
-
-	roles = {
-		land_amphibious_tank
-	}
-
-	priority = {
-		factor = 20
-	}
-
-}

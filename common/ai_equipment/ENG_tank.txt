@@ -2208,20 +2208,3 @@ ENG_modern_tank_destroyer = {
 		}
 	}
 }
-
-ENG_amphibious_tanks = {
-	category = land
-
-	blocked_for = {}
-
-	available_for = {ENG}
-
-	roles = {
-		land_amphibious_tank
-	}
-
-	priority = {
-		factor = 20
-	}
-
-}

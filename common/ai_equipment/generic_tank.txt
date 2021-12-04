@@ -2296,18 +2296,3 @@ generic_modern_tank_destroyer = {
 	}
 }
 
-generic_amphibious_tanks = {
-	category = land
-
-	blocked_for = {GER SOV ENG USA FRA JAP ITA}
-
-	available_for = {}
-
-	roles = {
-		land_amphibious_tank
-	}
-
-	priority = {
-		factor = 20
-	}
-}

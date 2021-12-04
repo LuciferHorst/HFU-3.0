@@ -2208,19 +2208,3 @@ ITA_modern_tank_destroyer = {
 	}
 }
 
-ITA_amphibious_tanks = {
-	category = land
-
-	blocked_for = {}
-
-	available_for = { ITA}
-
-	roles = {
-		land_amphibious_tank
-	}
-
-	priority = {
-		factor = 20
-	}
-
-}
