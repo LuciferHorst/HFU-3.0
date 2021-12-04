@@ -251,7 +251,6 @@ characters={
 		}
 		
 		field_marshal={
-			create_field_marshal = {
 				traits = { infantry_leader organizer panzer_leader trait_engineer}
 				skill = 6
 				attack_skill = 5
@@ -261,7 +260,6 @@ characters={
 			}
 			legacy_id=-1
 		}
-	}
 
 
 	### NAVY CHIEFS ###

@@ -201,7 +201,7 @@ characters={
 		name=ITA_Rodolfo_Graziani
 		portraits={
 			army={
-				picture = "portrait_italy_radolfo_graziani.dds"
+				large = "portrait_italy_radolfo_graziani.dds"
 				small="gfx/interface/ideas/idea_ITA_sebastiano_visconti_prasca.dds"
 			}
 		}
