@@ -66,7 +66,6 @@ recruit_character = SPR_juan_andrade
 recruit_character = SPA_jose_enrique_varela
 recruit_character = SPR_felipe_diaz_sandino
 recruit_character = SPR_etelvino_vega
-recruit_character = SPR_organizational_military_council
 recruit_character = SPA_alfredo_kindelan_duany
 recruit_character = SPR_francisco_ciutat_de_miguel
 recruit_character = SPR_infantry_military_council

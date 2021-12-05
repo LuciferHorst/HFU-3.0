@@ -613,7 +613,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			if = {
-				limit = { has_country_leader = { id =515 } }
+				limit = { has_country_leader = { id=-1 } }
 				retire_country_leader = yes
 			}
 			set_politics = {
