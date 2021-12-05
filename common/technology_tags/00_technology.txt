@@ -2,6 +2,15 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
+	basic_medium_tank_chassis
+	improved_medium_tank_chassis
+	advanced_medium_tank_chassis
+	basic_light_tank_chassis
+	improved_light_tank_chassis
+	advanced_light_tank_chassis
+	basic_heavy_tank_chassis
+	improved_heavy_tank_chassis
+	advanced_heavy_tank_chassis
 	light_air
 	medium_air
 	heavy_air
@@ -144,10 +153,6 @@ technology_folders = {
 	}
 	naval_doctrine_folder = {
 		ledger = navy
-		#doctrine = yes
-	}
-	air_doctrine_folder = {
-		ledger = air
 		#doctrine = yes
 	}
 	electronics_folder = {

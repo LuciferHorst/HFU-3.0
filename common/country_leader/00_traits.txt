@@ -1981,7 +1981,6 @@ leader_traits = {
 	mobile_warfare_expert = {
 		sprite = 14
 		experience_gain_army = 0.2
-
 		ai_will_do = {
 			factor = 500
 		}

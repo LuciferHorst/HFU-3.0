@@ -753,6 +753,8 @@
  operative_escape_artist_desc:0 "The prison that can hold this Operative has yet to be built."
  operative_demolition_expert:0 "Demolition Expert"
  operative_demolition_expert_desc:0 "This Operative is proficient with all the different ways in which one can blow stuff up."
+ regular_trait_tab_title:0 "Traits"
+ advisor_trait_tab_title:0 "Officer Corps Roles"
  lombardy: "Gauleiter of Lombardy"
  mig_aircraft_designer:0 "Light Aircraft Designer"
  rustungsorganisator:0 "Rüstungsorganisator"
