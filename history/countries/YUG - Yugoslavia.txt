@@ -26,10 +26,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	
-	
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
 	fighter1= 1
 	early_bomber = 1
@@ -44,6 +40,11 @@ set_technology = {
 	radio = 1
 	radio_detection = 1
 }
+
+recruit_character = YUG_prince_paul
+recruit_character = YUG_milan_stojadinovic
+recruit_character = YUG_milan_grol
+
 add_ideas = peace_training
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
@@ -74,29 +75,3 @@ set_popularities = {
 }
 set_stability = 0.6
 
-recruit_character = YUG_prince_paul
-recruit_character = YUG_milan_stojadinovic
-recruit_character = YUG_milan_grol
-recruit_character = YUG_josip_broz_tito
-recruit_character = YUG_vladimir_Cukavac
-recruit_character = YUG_ivan_gosnjak
-recruit_character = YUG_danilo_kalafatovic
-recruit_character = YUG_milutin_nedic
-recruit_character = YUG_petar_kosic
-recruit_character = YUG_josef_depre
-recruit_character = YUG_marijan_polic
-recruit_character = YUG_borivoje_mirkovic
-recruit_character = YUG_dusan_simovic
-recruit_character = YUG_draza_mihailovic
-recruit_character = YUG_mihajlo_lukic
-recruit_character = YUG_bogoljub_ilic
-recruit_character = YUG_petar_vukcevic
-recruit_character = YUG_ljubomir_maric
-recruit_character = YUG_arso_jovanovic
-recruit_character = YUG_slobodan_jovanovic
-recruit_character = YUG_milovan_djilas
-recruit_character = YUG_milan_nedic
-recruit_character = YUG_ivan_ribar
-recruit_character = YUG_dimitrije_ljotic
-recruit_character = YUG_ivo_lola_ribar
-recruit_character = YUG_peter_ii

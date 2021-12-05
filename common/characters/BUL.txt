@@ -105,8 +105,8 @@ characters = {
 			name = BUL_asen_nikolov
 			portraits = {
 				army = {
-					large = "GFX_portrait_bul_asen_nikolov"
-					small = "gfx/interface/ideas/idea_BUL_asen_nikolov.dds"
+					large = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+					small = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
 				}
 			}
 			corps_commander = {

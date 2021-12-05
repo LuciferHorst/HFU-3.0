@@ -10,6 +10,10 @@ add_ideas = neutrality_idea1
 set_war_support = 0.1
 set_stability = 0.8
 
+recruit_character = LUX_joseph_bech 
+recruit_character = LUX_pierre_dupong
+recruit_character = LUX_jean_pirson
+
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 10000
@@ -25,5 +29,3 @@ set_popularities = {
 	fascism = 3
 	communism = 5
 }
-
-recruit_character = LUX_joseph_bech

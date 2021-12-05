@@ -4,7 +4,11 @@ set_research_slots = 0
 add_ideas = {
 	limited_conscription
 }
-set_technology = {}
+set_technology = { infantry_weapons = 1 }
+
+recruit_character = EST_konstantin_pats
+recruit_character = EST_johannes_kabin
+recruit_character = EST_herbert_brede
 
 add_ideas = neutrality_idea1
 add_ideas = no_training
@@ -22,4 +26,3 @@ set_popularities = {
 	communism = 5
 	neutrality = 60
 }
-recruit_character = EST_konstantin_pats

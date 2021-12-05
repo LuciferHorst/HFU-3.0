@@ -5,6 +5,11 @@ set_research_slots = 0
 set_technology = {
 	infantry_weapons = 1
 }
+
+recruit_character = PER_reza_shah_pahlavi
+recruit_character = PER_hasan_arfa
+recruit_character = PER_soleyman_mirza_eskandari
+
 add_ideas = no_training
 add_ideas = neutral_idea
 set_convoys = 1
@@ -17,5 +22,3 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-
-recruit_character = PER_reza_shah_pahlavi

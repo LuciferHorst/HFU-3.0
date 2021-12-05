@@ -19,6 +19,11 @@ set_technology = {
 	early_bomber = 1
 	naval_bomber1 = 1
 }
+
+recruit_character = CZE_karl_albrecht
+recruit_character = CZE_karel_vaclav_petrik
+recruit_character = CZE_vojtyech_luzha
+
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 70000
@@ -47,4 +52,3 @@ set_popularities = {
 	communism = 10
 }
 
-recruit_character = CZE_karl_albrecht

@@ -57,6 +57,22 @@ add_equipment_to_stockpile = {
 	amount = 30
 	producer = SPR
 }
+
+recruit_character = SPA_francisco_franco  
+recruit_character = SPR_juan_lopez_sanchez
+recruit_character = SPR_juan_garcia_oliver
+recruit_character = SPR_francisco_largo_caballero
+recruit_character = SPR_juan_andrade
+recruit_character = SPA_jose_enrique_varela
+recruit_character = SPR_felipe_diaz_sandino
+recruit_character = SPR_etelvino_vega
+recruit_character = SPR_organizational_military_council
+recruit_character = SPA_alfredo_kindelan_duany
+recruit_character = SPR_francisco_ciutat_de_miguel
+recruit_character = SPR_infantry_military_council
+recruit_character = SPA_wilhelm_ritter_von_thoma
+recruit_character = SPR_domenec_batet
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
@@ -91,18 +107,3 @@ set_popularities = {
 set_convoys = 200
 set_stability = 0.35
 set_war_support = 0.15
-
-recruit_character = SPA_francisco_franco  
-recruit_character = SPR_juan_lopez_sanchez
-recruit_character = SPR_juan_garcia_oliver
-recruit_character = SPR_francisco_largo_caballero
-recruit_character = SPR_juan_andrade
-recruit_character = SPA_jose_enrique_varela
-recruit_character = SPR_felipe_diaz_sandino
-recruit_character = SPR_etelvino_vega
-recruit_character = SPR_organizational_military_council
-recruit_character = SPA_alfredo_kindelan_duany
-recruit_character = SPR_francisco_ciutat_de_miguel
-recruit_character = SPR_infantry_military_council
-recruit_character = SPA_wilhelm_ritter_von_thoma
-recruit_character = SPR_domenec_batet

@@ -71,7 +71,7 @@ add_ideas = peace_training
 add_to_tech_sharing_group = axis_research
 # Starting tech
 set_technology = {
-	
+	amphibious_mechanized_infantry  = 1
 	airfield_allowed = 1
 	naval_base_allowed = 1
 	desertinfantry_at = 1

@@ -35,6 +35,25 @@ set_technology = {
 	tech_recon = 1
 	tech_signal_company = 1
 }
+
+recruit_character = BUL_boris_iii
+recruit_character = BUL_hristo_lukov
+recruit_character = BUL_georgi_drenikov
+recruit_character = BUL_sava_ivanov
+recruit_character = BUL_asen_nikolov
+recruit_character = BUL_kiril_dimitrov_yanchulev
+recruit_character = BUL_kiril_stanchev
+recruit_character = BUL_valko_chervenkov
+recruit_character = BUL_ivan_dochev
+recruit_character = BUL_stefan_nedev
+recruit_character = BUL_nikola_mihov
+recruit_character = BUL_ivan_markov
+recruit_character = BUL_nikola_stoychev
+recruit_character = BUL_vladimir_stoychev
+recruit_character = BUL_stoyan_trendafilov
+recruit_character = BUL_trifon_trifonov
+recruit_character = BUL_ferdinand_kozovski
+
 set_stability = 0.7
 set_war_support = 0.60
 add_equipment_to_stockpile = {
@@ -59,20 +78,3 @@ add_equipment_to_stockpile = {
 	amount = 30
 	producer = BUL
 }
-recruit_character = BUL_boris_iii
-recruit_character = BUL_hristo_lukov
-recruit_character = BUL_georgi_drenikov
-recruit_character = BUL_sava_ivanov
-recruit_character = BUL_asen_nikolov
-recruit_character = BUL_kiril_dimitrov_yanchulev
-recruit_character = BUL_kiril_stanchev
-recruit_character = BUL_valko_chervenkov
-recruit_character = BUL_ivan_dochev
-recruit_character = BUL_stefan_nedev
-recruit_character = BUL_nikola_mihov
-recruit_character = BUL_ivan_markov
-recruit_character = BUL_nikola_stoychev
-recruit_character = BUL_vladimir_stoychev
-recruit_character = BUL_stoyan_trendafilov
-recruit_character = BUL_trifon_trifonov
-recruit_character = BUL_ferdinand_kozovski

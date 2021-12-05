@@ -43,8 +43,8 @@ every_possible_country = {
 		name=SPR_janos_galicz
 		portraits={
 			army={
-				large="GFX_portrait_SPR_janos_galicz"
-				small="gfx/interface/ideas/idea_SPR_janos_galicz.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
 			}
 		}
 		advisor={
@@ -78,8 +78,8 @@ every_possible_country = {
 		name=SPA_juan_yague
 		portraits={
 			army={
-				large="GFX_portrait_SPA_juan_yague"
-				small="gfx/interface/ideas/idea_SPA_juan_yague.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
 			}
 		}
 		advisor={
@@ -185,8 +185,8 @@ every_possible_country = {
 		name=SPA_miguel_cabanellas
 		portraits={
 			army={
-				large="GFX_portrait_SPA_miguel_cabanellas"
-				small="gfx/interface/ideas/idea_SPA_miguel_cabanellas.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
 			}
 		}
 		advisor={
@@ -209,8 +209,8 @@ every_possible_country = {
 		name=SPA_luis_carrero_blanco
 		portraits={
 			army={
-				large="GFX_portrait_SPA_luis_carrero_blanco"
-				small="gfx/interface/ideas/idea_SPA_luis_carrero_blanco.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
 			}
 		}
 		advisor={

@@ -4,7 +4,13 @@ oob = "LAT_1936"
 add_ideas = {
 	limited_conscription
 }
-set_technology = {}
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = LAT_gustavs_celminsh
+recruit_character = LAT_alberts_kvesis
+recruit_character = LAT_janis_balodis
 
 add_ideas = neutrality_idea1
 add_ideas = no_training
@@ -23,4 +29,3 @@ set_popularities = {
 	neutrality = 40
 }
 
-recruit_character = LAT_gustavs_celminsh

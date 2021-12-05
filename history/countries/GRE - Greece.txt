@@ -18,6 +18,11 @@ set_technology = {
 	trench_warfare = 1
 
 }
+
+recruit_character = GRE_konstantinos_demertzis
+recruit_character = GRE_nikos_zachariadis
+recruit_character = GRE_charalambos_katsimitros
+
 add_ideas = neutrality_idea1
 add_ideas = peace_training
 add_timed_idea = { idea = no_training days= 1095 }
@@ -53,4 +58,3 @@ set_popularities = {
 }
 set_stability = 0.75
 
-recruit_character = GRE_konstantinos_demertzis

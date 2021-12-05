@@ -16,10 +16,10 @@ characters={
 		name=SAF_d_f_malan
 		portraits={
 			civilian={
-				large="GFX_SAF_daniel_malan"
+				large="GFX_idea_generic_army_europe_3"
 			}
 			army={
-				small="gfx/interface/ideas/idea_SAF_daniel_malan.dds"
+				small="GFX_idea_generic_army_europe_3"
 			}
 		}
 		advisor={
@@ -75,8 +75,8 @@ characters={
 		name=SAF_george_edwin_brink
 		portraits={
 			army={
-				large="GFX_SAF_george_edwin_brink"
-				small="gfx/interface/ideas/idea_SAF_george_edwin_brink.dds"
+				large="GFX_idea_generic_army_europe_3"
+				small="GFX_idea_generic_army_europe_3"
 			}
 		}
 		corps_commander={
@@ -111,8 +111,8 @@ characters={
 		name=SAF_guy_hallifax
 		portraits={
 			army={
-				large="GFX_SAF_guy_halifax"
-				small="gfx/interface/ideas/idea_SAF_guy_halifax.dds"
+				large="GFX_idea_generic_army_europe_3"
+				small="GFX_idea_generic_army_europe_3"
 			}
 		}
 		navy_leader={
