@@ -5,8 +5,8 @@ state={
 	manpower = 9069000
 	state_category = USA_state
 	resources={
-		chromium=52
-		steel = 80 # was: 88
+		chromium=130
+		steel = 100 # was: 88
 		aluminium = 70
 	}
 

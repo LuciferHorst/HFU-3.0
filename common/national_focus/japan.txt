@@ -129,37 +129,51 @@ focus_tree = {
 			transfer_state = 746
 			hidden_effect = {
 				JAP = {
+					army_experience = 950
 					air_experience = 600}
-				SOV = { 
+				SOV = { army_experience = 300
 					air_experience = 200}
 				USA = { add_war_support = 0.1
+					army_experience = 100
 					air_experience = 200}
 				ENG = { add_war_support = 0.1
+					army_experience = 100
 					air_experience = 200}
 				AST = { add_war_support = 0.1
+					army_experience = 100
 					air_experience = 200}
 				SAF = { add_war_support = 0.1
+					army_experience = 100
 					air_experience = 200}
 				CAN = { add_war_support = 0.1
+					army_experience = 100
 					air_experience = 200}
 				RAJ = { add_war_support = 0.1
+					army_experience = 100
 					air_experience = 200}
 				FRA = { add_war_support = 0.1
+					army_experience = 100
 					air_experience = 200}
 				GER = {
+					army_experience = 150
 					air_experience = 450}
 				ITA = {
 					army_experience = 150
 				}
 				HUN = {
+					army_experience = 150
 					air_experience = 200}
 				SPR = {
+					army_experience = 150
 					air_experience = 200}
 				BUL = {
+					army_experience = 150
 					air_experience = 200}
 				FIN = {
+					army_experience = 150
 					air_experience = 200}
 				ROM = {
+					army_experience = 150
 					air_experience = 200}
 				USA = {
 					country_event = { id = panay_incident.2 days = 20 }
@@ -210,10 +224,45 @@ focus_tree = {
 			hidden_effect = {
 
 				SOV = { army_experience = 200}
-				USA = {						
+				USA = {
+					army_experience = 100
 					air_experience = 200}
 				ENG = {
+					army_experience = 100
 					air_experience = 200}
+				AST = {
+					army_experience = 100
+				}
+				SAF = {
+					army_experience = 100
+				}
+				CAN = {
+					army_experience = 150
+				}
+				RAJ = {
+					army_experience = 100
+				}
+				FRA = {
+					army_experience = 100
+				}
+				GER = {
+					army_experience = 100
+				}
+				ITA = {
+					army_experience = 100
+				}
+				HUN = {
+					army_experience = 100
+				}
+				SPR = {
+					army_experience = 100
+				}
+				BUL = {
+					army_experience = 100
+				}
+				ROM = {
+					army_experience = 100
+				}
 			}
 		}
 	}
