@@ -1,5 +1,12 @@
 spriteTypes = {
 
+	### CUSTOM
+
+	spriteType = {
+		name = "GFX_idea_mo"
+		texturefile = "gfx/interface/ideas/idea_mo.dds"
+	}
+
 	### AFG
 
 	spriteType = {
