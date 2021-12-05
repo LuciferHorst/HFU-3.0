@@ -165,7 +165,7 @@ technologies = {
 	mass_motorization = {
 		xp_research_type = army
 		xp_research_cost = 100
-xp_research_bonus = 1.00
+        xp_research_bonus = 1.00
 		
 		category_all_infantry = {
 			default_morale = 0.05
