@@ -60,7 +60,7 @@ resources = {
 			
 steel = 2
 			
-rubber = 1
+chromium = 1
 		}
 		
 	}
