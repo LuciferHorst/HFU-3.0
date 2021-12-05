@@ -25,23 +25,9 @@ characters={
 					always = yes
 				}
 			}
-		}
-		instance = {
-			allowed = {
-			}
-			name=SPA_francisco_franco
-			portraits={
-				civilian={
-					large="GFX_portrait_spain_francisco_franco"
-				}
-				army={
-					small="GFX_idea_francisco_franco"
-				}
-			}
 			advisor={
 				slot = army_chief
 				idea_token = SPA_francisco_franco
-				name = SPR_fransisco_franco
 				allowed = {
 					original_tag = SPR
 				}

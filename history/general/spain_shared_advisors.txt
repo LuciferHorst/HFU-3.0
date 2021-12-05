@@ -61,19 +61,6 @@ every_possible_country = {
 	}
 
 	generate_character = {
-		token_base = SPA_francisco_franco
-		name=SPA_francisco_franco
-		portraits={
-			army={
-				large="GFX_portrait_spain_francisco_franco"
-				small="gfx/interface/ideas/idea_SPA_francisco_franco.dds"
-			}
-		}
-	}
-
-	generate_character = {
-
-	generate_character = {
 		token_base = SPA_juan_yague
 		name=SPA_juan_yague
 		portraits={

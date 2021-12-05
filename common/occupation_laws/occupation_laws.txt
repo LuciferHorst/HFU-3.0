@@ -149,11 +149,7 @@ foreign_civilian_oversight = {
 	starting_law = yes	
 
 	ai_will_do = {
-		base = 120
-		modifier = {
-			check_variable  = { resistance_target_without_law > 0.29} 						
-			add = 100
-		}
+		base = 0
 	}
 }
 
@@ -173,25 +169,7 @@ local_police_force_garrison = {
 	
 	
 	ai_will_do = {
-		base = 100
-		modifier = {
-			check_variable  = { resistance_target_without_law > 0.44} 						
-			add = 200
-		}
-		
-	
-		modifier = {
-			check_variable  = { resistance_target_without_law > 0.44}
-
-			set_temp_variable = { requirement_limit = 0.35 }
-			if = {
-				limit = { occupation_law = local_police_force_garrison }
-				set_temp_variable = { requirement_limit = 0.55 }
-			}
-			check_variable = { garrison_min_support_ratio < requirement_limit }
-			
-			add = 350
-		}
+		base = 0
 	}
 }
 
@@ -446,22 +424,6 @@ brutally_oppressive_occupation = {
 	
 	ai_will_do = {
 		base = 0
-		
-		modifier = {		
-			check_variable  = { resistance_target_without_law > 0.94 }
-			
-			set_temp_variable = { resistance_limit = 40 }
-			set_temp_variable = { requirement_limit = 2.0 }
-			if = {
-				limit = { occupation_law = brutally_oppressive_occupation }
-				set_temp_variable = { resistance_limit = 35 }
-				set_temp_variable = { requirement_limit = 1.8 }
-			}
-			check_variable = { garrison_min_support_ratio > requirement_limit }
-			resistance > resistance_limit
-			
-			add = 1000
-		}
 	}
 }
 
@@ -484,6 +446,6 @@ reconciliation = {
 	}
 	
 	ai_will_do = {
-		base = 200
+		base = 0
 	}
 }
