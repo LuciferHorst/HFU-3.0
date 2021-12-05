@@ -2682,7 +2682,7 @@ focus = {
 			HUN = {
 				country_event = { id = germany.51 }
 				add_opinion_modifier = { target = GER modifier = GER_first_vienna_award_GER }
-				transfer_state = 583
+				transfer_state = 664
 			}
 			every_other_country = {
 				limit = {
@@ -2729,11 +2729,7 @@ focus = {
 			add_war_support = 0.1
 			add_political_power = -20
 			set_global_flag = end_of_czechoslovakia
-			CZE = { country_event = germany.53 }
-			if = {
-				limit = { NOT = { country_exists = CZE } }
-				country_event = { id = germany.55 hours = 6 }
-			}
+			annex_country = { target = CZE transfer_troops = yes }
 			add_named_threat = { threat = 5 name = GER_end_of_czechoslovakia }
 		}
 	}
