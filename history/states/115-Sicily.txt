@@ -5,6 +5,9 @@ state={
 	manpower = 3836571
 	
 	state_category = city
+	resources = {
+		chromium = 54
+	}
 	history={
 		owner = ITA
 		victory_points = {

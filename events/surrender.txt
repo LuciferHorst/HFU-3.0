@@ -71,7 +71,6 @@ country_event = {
 				OR={tag=POL tag=LUX
 					}}
 			transfer_navy={target=ENG}
-			transfer_state=262
 			every_owned_state={limit={is_core_of=ROOT}
 				add_state_modifier = {
 					modifier = {

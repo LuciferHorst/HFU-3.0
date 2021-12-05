@@ -4,8 +4,8 @@ operations = {
 		allowed = { original_tag = ENG }
 		available = {
 			EFR = { exists = yes}
-			OR={Date > 1941.1.1
-			AND={415={is_controlled_by_ROOT_or_ally = yes } 413={is_controlled_by_ROOT_or_ally = yes }}
+			OR={Date > 1941.4.1
+			AND={439={is_controlled_by_ROOT_or_ally = yes } 285={is_controlled_by_ROOT_or_ally = yes }}
 			}
 			
 		}
@@ -51,22 +51,22 @@ operations = {
 		fire_only_once = yes
 		days_remove = 7
 		complete_effect = {
-			ITA = { transfer_state = 584
+			ITA = { transfer_state = 665
 				transfer_state = 1
-				transfer_state = 422
+				transfer_state = 458
 				transfer_state = 32
 				transfer_state = 21
 			}
 			FRA={
 				if = {
 				limit={exists=yes}
-				transfer_state = 425
-				transfer_state = 426
+				transfer_state = 461
+				transfer_state = 462
 				}
 				else={
 					USA={
-						transfer_state = 425
-						transfer_state = 426
+						transfer_state = 461
+						transfer_state = 462
 					}
 				}
 			}
