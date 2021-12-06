@@ -82,6 +82,10 @@ tank_close_support_gun:0 "Close Support Gun"
  tank_medium_howitzer_3_desc:0 "A medium field howitzer adapted to be mounted in a vehicle. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
  tank_medium_cannon_3:0 "Advanced Medium Cannon"
  tank_medium_cannon_3_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility."
+ tank_medium_cannon_2_improved:0 "Better Medium Gun"
+ tank_medium_cannon_3_desc:0 "Serb balancing LOLOLOLOLOLOLOLOLOLOL"
+
+ serb_modding_tank_gun:0 "Improved Medium 2 Gun"
 
  RESEARCH_BONUSES_TOOLTIP:0 "Limited technology bonuses we have:"
  RESEARCH_BONUSES_EMPTY_TOOLTIP:0 "Limited technology bonuses will be listed here."

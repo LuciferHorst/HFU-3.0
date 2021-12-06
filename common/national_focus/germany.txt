@@ -1249,6 +1249,23 @@ focus = {
 			}
 		}
 	}
+	
+	focus = {
+		id = GER_panzer_4_ausfg
+		icon = GFX_focus_GER_Schwerer_Panzer
+		prerequisite = { focus = GER_army_innovation_2 }
+		x = 0
+		y = 1
+		relative_position_id = GER_army_innovation_2
+		cost = 2
+		available = { date > 1941.10.1}
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			set_technology = { serb_modding_tank_gun = 1 }
+		}
+	}
+	
 	focus = {
 		id = GER_fighter_3
 		icon = GFX_focus_GER_peenemunde_research_facility
@@ -3809,10 +3826,10 @@ focus = {
 focus = {
 	id = GER_reinforce_the_line
 	icon = GFX_focus_GER_reinforce_the_line
-	prerequisite = {  focus = GER_army_innovation_2 }
+	prerequisite = {  focus = GER_panzer_4_ausfg }
 	x = 0
 	y = 1
-	relative_position_id = GER_army_innovation_2
+	relative_position_id = GER_panzer_4_ausfg
 	cost = 2
 	completion_reward = {
 	    add_ideas = GER_reinforce_the_line_idea

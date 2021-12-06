@@ -3168,12 +3168,13 @@ focus = {
 		cost = 5
 		available = {
 			AND = {
-			date > 1941.7.1
+			date > 1941.10.1
 			has_tech = improved_medium_tank_chassis
 			has_tech = mechanised_infantry
 			}
 		}
-		completion_reward = {			
+		completion_reward = {		
+		set_technology = { serb_modding_tank_gun = 1 }	
 		division_template = {
 					name = "Royal Tank Division"
 					regiments = {
