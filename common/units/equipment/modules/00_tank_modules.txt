@@ -1208,7 +1208,7 @@ forbid_equipment_type = anti_tank
 
 
     tank_medium_cannon_2_improved = {
-		abbreviation = "mc2"
+		abbreviation = "mc2.2"
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 				forbid_equipment_type = artillery

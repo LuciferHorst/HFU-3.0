@@ -640,6 +640,31 @@ focus = {
 		}
 	}
 	focus = {
+		id = SOV_great_industry
+		icon = GFX_focus_SOV_mass_deployment_of_t34
+		relative_position_id = SOV_move_industry_to_urals
+		x = 2
+		y = 1
+		prerequisite = { focus = SOV_move_industry_to_urals}
+		cost =5
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { has_war_with = GER }
+			}
+		}
+		available = {
+			date > 1942.01.1
+		}
+		bypass = {
+		}
+		completion_reward = {
+			army_experience = 100
+			set_technology = { serb_modding_tank_gun = 1 }
+		}
+	}
+	focus = {
 		id = SOV_modifiers
 		icon = GFX_Goal_Great_Purge2
 		relative_position_id = SOV_winter_offensive
