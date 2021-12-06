@@ -39,15 +39,15 @@ tank_gasoline_engine_L = {
 		add_stats = {
 			fuel_consumption = 2.5
 			build_cost_ic = 4
-			reliability = -0.3
+			reliability = -0.2
 			breakthrough = 2
 			defense = 2
 		}
 		multiply_stats = {
 		fuel_consumption = -0.4
-			breakthrough = 0.25
-			defense = 0.25
-			build_cost_ic = 0.1
+			breakthrough = 0.15
+			defense = 0.15
+			build_cost_ic = 0.075
 		}
 	}
 
@@ -108,14 +108,14 @@ tank_gasoline_engine_L = {
 		add_stats = {
 			fuel_consumption = 2
 			build_cost_ic = 4
-			reliability = -0.3
+			reliability = -0.2
 			breakthrough = 2
 			defense = 2
 		}
 		multiply_stats = {
-			breakthrough = 0.25
-			defense = 0.25
-			build_cost_ic = 0.1
+			breakthrough = 0.15
+			defense = 0.15
+			build_cost_ic = 0.075
 		}
 	}
 
@@ -176,15 +176,15 @@ tank_gasoline_engine_L = {
 		add_stats = {
 			fuel_consumption = 2.5
 			build_cost_ic = 7.5
-			reliability = -0.3
+			reliability = -0.2
 			breakthrough = 2
 			defense = 2
 		}
 		multiply_stats = {
 		fuel_consumption = 1
-			breakthrough = 0.25
-			defense = 0.25
-			build_cost_ic = 0.1
+			breakthrough = 0.15
+			defense = 0.15
+			build_cost_ic = 0.075
 		}
 	}
 
@@ -289,7 +289,7 @@ tank_gasoline_engine_L = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			build_cost_ic = -0.1
+			build_cost_ic = -0.05
 			armor_value = -0.1
 
 		}
@@ -306,7 +306,7 @@ tank_gasoline_engine_L = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			build_cost_ic = 0.1
+			build_cost_ic = 0.05
 			armor_value = 0.5
 		}
 	}
@@ -373,7 +373,7 @@ tank_gasoline_engine_L = {
 			reliability = -0.05
 		}
 		multiply_stats =  {
-		build_cost_ic = 0.1
+		build_cost_ic = 0.125
 		}
 	}
 
@@ -1165,7 +1165,7 @@ forbid_equipment_type = anti_tank
 			ap_attack = 100
 			build_cost_ic = 5
 			maximum_speed = -0.2
-			reliability = -0.15
+			reliability = -0.2
 			breakthrough = 4
 		}
 		xp_cost = 0
@@ -1192,7 +1192,7 @@ forbid_equipment_type = anti_tank
 			ap_attack = 100
 			build_cost_ic = 5.5
 			maximum_speed = -0.3
-			reliability = -0.15
+			reliability = -0.2
 			breakthrough = 5
 		}
 		xp_cost = 0
@@ -1205,6 +1205,35 @@ forbid_equipment_type = anti_tank
 			steel = 1
 		}
 	}
+
+
+    tank_medium_cannon_2_improved = {
+		abbreviation = "mc2"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+				forbid_equipment_type = artillery
+		parent = tank_medium_cannon
+		add_stats = {
+			soft_attack = 38
+			hard_attack = 30
+			ap_attack = 105
+			build_cost_ic = 5.5
+			maximum_speed = -0.3
+			reliability = -0.2
+			breakthrough = 5.5
+		}
+		xp_cost = 0
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5
+		}
+		build_cost_resources = {
+			tungsten = 1
+			steel = 1
+		}
+	}
+
+
 	
 		tank_medium_cannon_3 = {
 		abbreviation = "mc3"
@@ -1266,7 +1295,7 @@ tank_high_velocity_cannon_m1 = {
 			hard_attack = 35
 			ap_attack = 130
 			build_cost_ic = 5.5
-			maximum_speed = -0.3
+			maximum_speed = -0.25
 			reliability = -0.175
 		}
 		xp_cost = 0
@@ -1290,7 +1319,7 @@ tank_high_velocity_cannon_m1 = {
 			hard_attack = 38
 			ap_attack = 140
 			build_cost_ic = 6
-			maximum_speed = -0.3
+			maximum_speed = -0.25
 			reliability = -0.2
 		}
 		xp_cost = 0
@@ -1316,7 +1345,7 @@ tank_high_velocity_cannon_m1 = {
 			hard_attack = 1
 			ap_attack = 20
 			build_cost_ic = 5
-			maximum_speed = -0.3
+			maximum_speed = -0.25
 			reliability = -0.2
 		}
 		xp_cost = 0
@@ -1343,7 +1372,7 @@ tank_high_velocity_cannon_m1 = {
 			ap_attack = 25
 			build_cost_ic = 5.5
 			maximum_speed = -0.4
-			reliability = -0.2
+			reliability = -0.25
 		}
 		xp_cost = 0
 		can_convert_from = {
@@ -1368,7 +1397,7 @@ tank_high_velocity_cannon_m1 = {
 			ap_attack = 30
 			build_cost_ic = 6
 			maximum_speed = -0.4
-			reliability = -0.2
+			reliability = -0.25
 		}
 		xp_cost = 0
 		can_convert_from = {
@@ -1395,7 +1424,7 @@ tank_high_velocity_cannon_m1 = {
 			ap_attack = 2
 			build_cost_ic = 4.5
 			maximum_speed = -0.1
-			reliability = -0.1
+			reliability = -0.2
 			breakthrough = 4
 		}
 			build_cost_resources = {
@@ -1422,7 +1451,7 @@ tank_high_velocity_cannon_m1 = {
 			ap_attack = 2
 			build_cost_ic = 6
 			maximum_speed = -0.2
-			reliability = -0.1
+			reliability = -0.2
 						breakthrough = 6
 		}
 			build_cost_resources = {
@@ -1601,7 +1630,7 @@ tank_high_velocity_cannon_m1 = {
 			ap_attack = 35
 			build_cost_ic = 8
 			maximum_speed = -0.4
-			reliability = -0.2
+			reliability = -0.25
 		}
 		xp_cost = 0
 		can_convert_from = {
@@ -1655,7 +1684,7 @@ tank_high_velocity_cannon_m1 = {
 			ap_attack = 60
 			build_cost_ic = 9.5
 			maximum_speed = -0.5
-			reliability = -0.3
+			reliability = -0.25
 		}
 		xp_cost = 0
 		can_convert_from = {
@@ -1753,8 +1782,8 @@ tank_high_velocity_cannon_m1 = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.2
-			breakthrough = 0.4
+			defense = 0.15
+			breakthrough = 0.3
 		}
 	}
 
@@ -1769,8 +1798,8 @@ tank_high_velocity_cannon_m1 = {
 		}
 
 		multiply_stats = {
-			defense = 0.25
-			breakthrough = 0.5
+			defense = 0.2
+			breakthrough = 0.4
 		}
 	}
 
@@ -1785,8 +1814,8 @@ tank_high_velocity_cannon_m1 = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			defense = 0.3
-			breakthrough = 0.6
+			defense = 0.25
+			breakthrough = 0.5
 		}
 	}
 
@@ -1880,8 +1909,9 @@ tank_high_velocity_cannon_m1 = {
 
 		add_stats = {
 			build_cost_ic = 0.5
-			defense = 2
+			defense = 1.5
 			breakthrough = 1.5
+			reliability = -0.05
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -1897,7 +1927,7 @@ tank_high_velocity_cannon_m1 = {
 		add_stats = {
 			reliability = -0.1
 			breakthrough = 3
-			defense = 4
+			defense = 3
 			build_cost_ic = 1
 		}
 		xp_cost = 0
@@ -1910,7 +1940,7 @@ tank_high_velocity_cannon_m1 = {
 
 		add_stats = {
 			reliability = 0.2
-			build_cost_ic = 1.5
+			build_cost_ic = 2
 		}
 		xp_cost = 0
 		multiply_stats = {
