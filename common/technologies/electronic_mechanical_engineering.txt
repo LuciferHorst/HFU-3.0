@@ -270,7 +270,9 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 		research_cost = 0.5
 		start_year = 1942
-		
+		enable_equipment_modules = {
+			tank_radio_3
+		}
 		folder = {
 			name = electronics_folder
 			position = { x = -2 y = 14 }
@@ -416,9 +418,6 @@ technologies = {
 		path = {
 			leads_to_tech = advanced_decryption
 			research_cost_coeff = 1
-		}
-		enable_equipment_modules = {
-			tank_radio_3
 		}
 		research_cost = 1
 		start_year = 1942
