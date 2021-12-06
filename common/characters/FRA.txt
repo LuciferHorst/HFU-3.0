@@ -268,7 +268,7 @@ characters={
 			available = {
 				has_completed_focus = FRA_battle_of_maneuver
 			}
-			cost = 75.000
+			cost = 100
 			
 			traits = {
 				blitzkrieg_theorist
@@ -345,7 +345,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = henri_giraud
 			ledger = army
@@ -658,7 +658,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = jean_decoux
 			ledger = navy
@@ -677,7 +677,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = jean_marie_bergeret
 			ledger = air

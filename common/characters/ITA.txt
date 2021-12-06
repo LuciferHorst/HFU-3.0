@@ -412,6 +412,7 @@ characters={
 				original_tag = ITA
 			}
 			traits = {
+				military_theorist
 				grand_fleet_proponent
 			}
 		}
@@ -425,7 +426,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = renato_sandalli
 			ledger = air
