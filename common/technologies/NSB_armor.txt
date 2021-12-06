@@ -149,7 +149,10 @@ technologies = {
 			tank_small_cannon_2
 			tank_close_support_gun
 			secondary_turret_close_support_gun
-
+            tank_diesel_engine_L
+            tank_gasoline_engine_L
+            tank_petrol_electric_engine_L
+            tank_gas_turbine_engine_L
 			tank_auto_cannon
 			tank_anti_air_cannon
 
@@ -236,7 +239,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_rocket_launcher
-
+            secondary_turret_small_cannon
 			tank_auto_cannon_2
 			tank_anti_air_cannon_2
 		}
@@ -668,7 +671,10 @@ technologies = {
 			tank_small_cannon_2
 			tank_close_support_gun
 			secondary_turret_close_support_gun
-
+            tank_gasoline_engine_H
+            tank_diesel_engine_H
+			tank_petrol_electric_engine_H
+            tank_gas_turbine_engine_H
 			tank_auto_cannon
 			tank_anti_air_cannon
 
@@ -892,6 +898,10 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_super_heavy_cannon
+            tank_gasoline_engine_SH
+            tank_diesel_engine_SH 
+            tank_petrol_electric_engine_SH
+			tank_gas_turbine_engine_SH
 		}
 
 		research_cost = 2.5
