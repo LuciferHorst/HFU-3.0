@@ -330,7 +330,7 @@ if = {
 			tank_nsb_armor_upgrade = 7
 		}
 
-		icon = "gfx/interface/technologies/ger_light_tank_aa_1.dds"
+		icon = "gfx/interface/technologies/armor/ger_light_tank_aa_1.dds"
 	}
 
 	#DEFAULT LIGHT TANK

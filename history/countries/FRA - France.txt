@@ -167,6 +167,106 @@ add_ideas = {
 	FRA_political_violence
 	FRA_inefficient_economy_2
 }
+
+if = { 
+	limit = { has_dlc = "No Step Back" }
+
+	#LSPAA
+	create_equipment_variant = {
+		name = "Light Tank SPAA"
+		type = light_tank_aa_chassis_2
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_anti_air_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			special_type_slot_4 = wet_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 7
+			tank_nsb_armor_upgrade = 7
+		}
+
+		icon = "gfx/interface/technologies/FRA_light_tank_chassis_2.dds"
+	}
+
+	#DEFAULT LIGHT TANK
+	create_equipment_variant = {
+		name = "FCM 36"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_auto_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			special_type_slot_4 = wet_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 7
+			tank_nsb_armor_upgrade = 7
+		}
+		
+		icon = "gfx/interface/technologies/FRA_basic_light_tank.dds"
+	}
+
+	#LIGHT TD
+	create_equipment_variant = {
+		name = "Light Tank Destroyer"
+		type = light_tank_destroyer_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_light_fixed_superstructure_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_small_cannon
+			special_type_slot_3 = extra_ammo_storage
+			special_type_slot_4 = extra_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 7
+			tank_nsb_armor_upgrade = 7
+		}
+
+		icon = "gfx/interface/technologies/FRA_basic_light_tank.dds"
+	}
+
+}
+
+add_equipment_to_stockpile = {
+    type = light_tank_chassis_2
+    amount = 700
+    producer = FRA
+    variant_name = "FCM 36"
+}
+add_equipment_to_stockpile = {
+    type = light_tank_aa_chassis_2
+    amount = 150
+    producer = FRA
+    variant_name = "Light Tank SPAA"
+}
+add_equipment_to_stockpile = {
+    type = light_tank_destroyer_chassis_2
+    amount = 150
+    producer = FRA
+    variant_name = "Light Tank Destroyer"
+}
+
 #Order matters here Daladier will start as leaders because added last
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_pierre_laval

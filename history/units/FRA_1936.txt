@@ -88,11 +88,11 @@ division_template = {
 		light_armor = { x = 1 y = 0 }
 		light_armor = { x = 1 y = 1 }
 		light_armor = { x = 1 y = 2 }
-		light_armor = { x = 1 y = 3 }
+		light_tank_destroyer_brigade = { x = 1 y = 3 }
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
 		light_armor = { x = 2 y = 2 }
-		light_armor = { x = 2 y = 3 }
+		light_sp_anti_air_brigade = { x = 2 y = 3 }
 		motorized = { x = 3 y = 0 }
 		motorized = { x = 3 y = 1 }
 		motorized = { x = 3 y = 2 }
@@ -144,6 +144,36 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+		type = light_tank_chassis_2
+		version_name = "FCM 36"
+		creator = "FRA"
+		}
+		requested_factories = 3
+		progress = 0.6
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+		type = light_tank_aa_chassis_2
+		version_name = "Light Tank SPAA"
+		creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+		type = light_tank_destroyer_chassis_2
+		version_name = "Light Tank Destroyer"
+		creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
 	}
 	add_equipment_production = {
 		equipment = {

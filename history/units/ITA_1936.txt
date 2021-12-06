@@ -154,15 +154,14 @@ division_template = {
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
 		light_armor = { x = 0 y = 3 }
-		light_armor = { x = 0 y = 4 }
 		light_armor = { x = 1 y = 0 }
 		light_armor = { x = 1 y = 1 }
 		light_armor = { x = 1 y = 2 }
-		light_armor = { x = 1 y = 3 }
+		light_tank_destroyer_brigade = { x = 1 y = 3 }
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
 		light_armor = { x = 2 y = 2 }
-		light_armor = { x = 2 y = 3 }
+		light_sp_anti_air_brigade = { x = 2 y = 3 }
 		motorized = { x = 3 y = 0 }
 		motorized = { x = 3 y = 1 }
 		motorized = { x = 3 y = 2 }
@@ -172,12 +171,19 @@ division_template = {
 		motorized = { x = 4 y = 2 }
 		motorized = { x = 4 y = 3 }
 	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		military_police = { x = 0 y = 4 }
+	}
 	priority = 2
 }
 units = {
 	division= {
 		name = "Poggers 1"
-		location =11833
+		location =9940
 		division_template = "Fanteria Del Deserto"
 		start_experience_factor = 0.3
 	}
@@ -185,7 +191,7 @@ units = {
 units = {
 	division= {
 		name = "Poggers 2"
-		location =11833
+		location =9940
 		division_template = "Fanteria Del Deserto"
 		start_experience_factor = 0.3
 	}
@@ -193,7 +199,7 @@ units = {
 units = {
 	division= {
 		name = "Poggers 3"
-		location =11833
+		location =9940
 		division_template = "Divisione Celere"
 		start_experience_factor = 0.3
 	}
@@ -218,6 +224,36 @@ instant_effect = {
 			requested_factories = 1
 			progress = 0.3
 			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+			type = light_tank_chassis_2
+			version_name = "M11/39"
+			creator = "ITA"
+			}
+			requested_factories = 5
+			progress = 0.6
+			efficiency = 100
+		}
+		add_equipment_production = {
+			equipment = {
+			type = light_tank_aa_chassis_2
+			version_name = "Light Tank SPAA"
+			creator = "ITA"
+			}
+			requested_factories = 1
+			progress = 0.4
+			efficiency = 100
+		}
+		add_equipment_production = {
+			equipment = {
+			type = light_tank_destroyer_chassis_2
+			version_name = "Light Tank Destroyer"
+			creator = "ITA"
+			}
+			requested_factories = 1
+			progress = 0.4
+			efficiency = 100
 		}
 		add_equipment_production = {
 			equipment = {
