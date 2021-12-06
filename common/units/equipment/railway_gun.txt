@@ -23,14 +23,14 @@ equipments = {
 	}
 
 	railway_gun_equipment_1 = {
-		year = 1934
+		year = 1940
 
 		archetype = railway_gun_equipment
 		priority = 50
 		visual_level = 0
 		active = no
 
-		build_cost_ic = 800.0
+		build_cost_ic = 2000
 		resources = {
 			steel = 4
 			tungsten = 2
