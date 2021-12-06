@@ -717,7 +717,7 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = 2 }
+			position = { x = 4 y = @1939 }
 		}
 
 		ai_will_do = {
