@@ -390,6 +390,7 @@ technologies = {
 	rocket_artillery4 = {
 		enable_equipments = {
 			rocket_artillery_equipment_2
+			tank_rocket_launcher
 		}
 		motorized_rocket_brigade = {
 			soft_attack = 0.3

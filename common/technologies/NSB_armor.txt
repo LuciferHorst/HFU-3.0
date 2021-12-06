@@ -238,7 +238,6 @@ technologies = {
 			light_tank_aa_chassis_2
 		}
 		enable_equipment_modules = {
-			tank_rocket_launcher
             secondary_turret_small_cannon
 			tank_auto_cannon_2
 			tank_anti_air_cannon_2
@@ -405,12 +404,11 @@ technologies = {
 			tank_medium_howitzer
 			tank_small_cannon_2
 			tank_close_support_gun
-			secondary_turret_close_support_gun
             tank_medium_cannon
 			tank_auto_cannon
 			tank_anti_air_cannon
-
-			tank_high_velocity_cannon
+            tank_high_velocity_cannon_m1
+			
 
 		}
 
@@ -499,7 +497,7 @@ technologies = {
 
 			tank_medium_cannon_2
 			tank_rocket_launcher
-
+            tank_anti_air_cannon_2
 			tank_auto_cannon_2
 			tank_anti_air_cannon_2
 
@@ -567,9 +565,9 @@ technologies = {
             tank_medium_cannon_3
 			tank_anti_air_cannon_3
 			auto_loader
-
-			tank_high_velocity_cannon_3
-
+            tank_medium_howitzer_3
+			tank_high_velocity_cannon_m3 
+            tank_anti_air_cannon_3
 		}
 
 		path = {
@@ -667,7 +665,7 @@ technologies = {
 			heavy_tank_aa_chassis_1
 		}
 		enable_equipment_modules = {
-			tank_medium_howitzer
+			tank_heavy_howitzer
 			tank_small_cannon_2
 			tank_close_support_gun
 			secondary_turret_close_support_gun
@@ -677,7 +675,7 @@ technologies = {
             tank_gas_turbine_engine_H
 			tank_auto_cannon
 			tank_anti_air_cannon
-
+            tank_high_velocity_cannon_h1
 			tank_heavy_cannon
 
 		}
@@ -768,15 +766,15 @@ technologies = {
 			heavy_tank_aa_chassis_2
 		}
 		enable_equipment_modules = {
-			tank_medium_howitzer_2
-
+			tank_heavy_howitzer2
+            
 			tank_rocket_launcher
 
 			tank_auto_cannon_2
 			tank_heavy_cannon_2
 			tank_anti_air_cannon_2
 
-			tank_high_velocity_cannon_2
+			tank_high_velocity_cannon_h2
 		}
 
 		path = {
@@ -839,9 +837,9 @@ technologies = {
 			tank_heavy_cannon_3
 			auto_loader
 
-			tank_heavy_howitzer
+			tank_heavy_howitzer3
 			tank_rocket_launcher_2
-
+            tank_high_velocity_cannon_h3
 			tank_anti_air_cannon_3
 		}
 
@@ -897,7 +895,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_super_heavy_cannon
+			tank_super_heavy_cannon_3
             tank_gasoline_engine_SH
             tank_diesel_engine_SH 
             tank_petrol_electric_engine_SH
@@ -925,6 +923,8 @@ technologies = {
 		enable_equipment_modules = {
 			tank_welded_armor
 		}
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 
 		path = {
 			leads_to_tech = armor_tech_2
@@ -981,6 +981,8 @@ technologies = {
 		enable_equipment_modules = {
 			armor_skirts
 		}
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		path = {
 			leads_to_tech = armor_tech_3
 			research_cost_coeff = 1
@@ -1033,12 +1035,13 @@ technologies = {
 
 	armor_tech_3 = {
 
-
+           
 		path = {
 			leads_to_tech = armor_tech_4
 			research_cost_coeff = 1
 		}
-
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_3_tt
 		}
@@ -1092,7 +1095,8 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1943 }
 		}
-
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_4_tt
 		}
@@ -1138,6 +1142,8 @@ technologies = {
 			leads_to_tech = engine_tech_2
 			research_cost_coeff = 1
 		}
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_1_tt
 		}
@@ -1189,7 +1195,8 @@ technologies = {
 			leads_to_tech = engine_tech_3
 			research_cost_coeff = 1
 		}
-
+        xp_boost_cost = 75
+        xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_2_tt
 		}
@@ -1245,6 +1252,8 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_3_tt
 		}
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		show_effect_as_desc = yes
 		research_cost = 1
 		start_year = 1941
@@ -1294,6 +1303,8 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1943 }
 		}
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt
 		}
