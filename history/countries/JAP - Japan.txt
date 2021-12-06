@@ -60,10 +60,8 @@
  	gwtank_chassis = 1
 	basic_light_tank_chassis = 1
 	improved_light_tank_chassis = 1
-	basic_heavy_tank_chassis = 1
+	
 	engine_tech_1 = 1
- 	#basic_heavy_tank = 1  # PLACEHOLDER
- 	#basic_medium_tank = 1 # PLACEHOLDER
  	early_fighter = 1
  	fighter1 = 1
  	naval_bomber1 = 1

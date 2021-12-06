@@ -42,8 +42,7 @@ set_technology = {
 	gwtank_chassis = 1
 	basic_light_tank_chassis = 1
 	improved_light_tank_chassis = 1
-	basic_heavy_tank_chassis = 1
-	engine_tech_1 = 1
+	
 	early_fighter = 1
 	fighter1 = 1
 	naval_bomber1 = 1
@@ -57,6 +56,8 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 	radio = 1
 	tech_signal_company = 1
+	engine_tech_1 = 1
+	armor_tech_1 = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
