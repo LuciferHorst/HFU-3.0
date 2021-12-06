@@ -161,6 +161,7 @@ if = {
 		basic_heavy_armor_scheme = 1
 		basic_cruiser_armor_scheme = 1
 		smoke_generator = 1
+		armor_tech_1 = 1
 	}
 	set_naval_oob = "GER_1936_naval_mtg"
 }
@@ -303,6 +304,106 @@ recruit_character = GER_johannes_blaskowitz
 recruit_character = GER_georg_von_kuchler
 recruit_character = GER_alfred_jodl
 recruit_character = GER_sepp_dietrich
+
+if = { 
+	limit = { has_dlc = "No Step Back" }
+
+	#LSPAA
+	create_equipment_variant = {
+		name = "FlakPz Luchs"
+		type = light_tank_aa_chassis_2
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_anti_air_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			special_type_slot_4 = wet_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 7
+			tank_nsb_armor_upgrade = 7
+		}
+
+		icon = "gfx/interface/technologies/ger_light_tank_aa_1.dds"
+	}
+
+	#DEFAULT LIGHT TANK
+	create_equipment_variant = {
+		name = "Panzer 38(t)"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_auto_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			special_type_slot_4 = wet_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 7
+			tank_nsb_armor_upgrade = 7
+		}
+
+		icon = "gfx/interface/technologies/ger_basic_light_tank.dds"
+	}
+
+	#LIGHT TD
+	create_equipment_variant = {
+		name = "Marder III"
+		type = light_tank_destroyer_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_light_fixed_superstructure_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_small_cannon
+			special_type_slot_3 = extra_ammo_storage
+			special_type_slot_4 = extra_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 7
+			tank_nsb_armor_upgrade = 7
+		}
+
+		icon = "gfx/interface/technologies/ger_improved_light_td.dds"
+	}
+
+}
+
+add_equipment_to_stockpile = {
+    type = light_tank_chassis_2
+    amount = 800
+    producer = GER
+    variant_name = "Panzer 38(t)"
+}
+add_equipment_to_stockpile = {
+    type = light_tank_aa_chassis_2
+    amount = 300
+    producer = GER
+    variant_name = "FlakPz Luchs"
+}
+add_equipment_to_stockpile = {
+    type = light_tank_destroyer_chassis_2
+    amount = 300
+    producer = GER
+    variant_name = "Marder III"
+}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
