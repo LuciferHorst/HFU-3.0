@@ -927,7 +927,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = dewitt_clinton_ramsey
 			ledger = navy
@@ -975,7 +975,7 @@ characters={
 				original_tag = USA
 			}
 			traits = {
-				victory_through_airpower
+				military_theorist
 			}
 		}
 	}

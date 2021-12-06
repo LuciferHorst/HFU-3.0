@@ -183,7 +183,7 @@ characters={
 				}
 			}
 			advisor={
-				cost = 100
+				cost = 150
 				slot = theorist
 				idea_token = SPA_jose_enrique_varela
 				ledger = army
@@ -225,7 +225,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = SPR_felipe_diaz_sandino
 			ledger = air

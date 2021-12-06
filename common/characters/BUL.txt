@@ -630,7 +630,7 @@ characters = {
 
 	BUL_sava_ivanov = {
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = BUL_sava_ivanov
 			ledger = navy
@@ -653,7 +653,7 @@ characters = {
 
 	BUL_georgi_drenikov = {
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = BUL_georgi_drenikov
 			ledger = air

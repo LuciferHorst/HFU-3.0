@@ -195,7 +195,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100	
+			cost = 150	
 			slot = theorist
 			idea_token = RAJ_rajendra_prasad
 			ledger = army

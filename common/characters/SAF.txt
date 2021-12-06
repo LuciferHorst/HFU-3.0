@@ -140,7 +140,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = SAF_j_f_van_rensburg
 			ledger = army

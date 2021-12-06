@@ -83,7 +83,7 @@ every_possible_country = {
 			}
 		}
 		advisor={
-		cost = 100
+		cost = 150
 			slot = theorist
 			idea_token = SPA_agustin_munoz_grandes
 			ledger = army
@@ -107,7 +107,7 @@ every_possible_country = {
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = SPA_jose_enrique_varela
 			ledger = army
