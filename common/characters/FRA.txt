@@ -277,19 +277,18 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 				}
+		}
+			
+			corps_commander={
+				traits={ media_personality harsh_leader armor_officer }
+				traits = {  armor_officer harsh_leader media_personality panzer_leader naval_invader desert_fox }
+				skill = 5
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+				legacy_id=101
 			}
-		}
-		
-		corps_commander={
-			traits={ media_personality harsh_leader armor_officer }
-			traits = {  armor_officer harsh_leader media_personality panzer_leader naval_invader desert_fox }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-			legacy_id=101
-		}
 	}
 
 	FRA_philippe_leclerc={
