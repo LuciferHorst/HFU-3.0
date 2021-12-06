@@ -1,4 +1,7 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+
+149;11153;sea;2332;-1;-1;-1;-1;;Leningrad-Strait
+
 10219;13001;sea;5414;-1;-1;-1;-1;;Portugese Timor-Lesser Sunda
 10181;1098;sea;8822;-1;-1;-1;-1;;Kalimantan-Sulawesi
 10409;7512;sea;5320;-1;-1;-1;-1;;Kalimantan-Sulawesi-2

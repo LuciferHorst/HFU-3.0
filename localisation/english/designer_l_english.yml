@@ -316,3 +316,6 @@ l_english:
  DESIGNER_SELECT_NICHE_DELAYED:0 "Here you can classify your designs to organize them and allow for more specific reinforcement of your divisions."
  DESIGNER_SELECT_NICHE_DISABLED:0 "Division contains no armored forces"
  DESIGNER_SELECT_NICHE_DISABLED_DELAYED:0 "Add an armored battalion or support company to enable §YEquipment Tag§! selection."
+ DESIGNER_COMBATWIDTH:0 "£combat_width_texticon  Combat width: "
+ DESIGNER_MANPOWER:0 "£manpower_texticon  Manpower: "
+ DESIGNER_TRAINING_TIME:0 "£training_texticon  Training time: "

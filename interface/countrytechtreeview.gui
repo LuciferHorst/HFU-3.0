@@ -3675,7 +3675,7 @@ guiTypes = {
 				position = { x = 22 y = 0 }
 				quadTextureSprite = "GFX_infantry_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_infantry
 			}
 
 			iconType = {
@@ -3691,28 +3691,28 @@ guiTypes = {
 				position = { x = 111 y = 0 }
 				quadTextureSprite = "GFX_support_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_support
 			}
 			buttonType = {
 				name = "armour_folder_tab"
 				position = { x = 200 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_armor
 			}
 			buttonType = {
 				name = "nsb_armour_folder_tab"
 				position = { x = 200 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_armor
 			}
 			buttonType = {
 				name = "artillery_folder_tab"
 				position = { x = 289 y = 0 }
 				quadTextureSprite = "GFX_artillery_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_artillery
 			}
 
 			buttonType = {
@@ -3720,7 +3720,7 @@ guiTypes = {
 				position = { x = 378 y = 0 }
 				quadTextureSprite = "GFX_land_doctrine_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_armor
 			}
 
 			iconType = {
@@ -3736,14 +3736,14 @@ guiTypes = {
 				position = { x = 497 y = 0 }
 				quadTextureSprite = "GFX_naval_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_naval
 			}
 			buttonType = {
 				name = "mtgnavalfolder_tab"
 				position = { x = 497 y = 0 }
 				quadTextureSprite = "GFX_naval_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_naval
 			}
 
 			buttonType = {
@@ -3751,14 +3751,14 @@ guiTypes = {
 				position = { x = 586 y = 0 }
 				quadTextureSprite = "GFX_naval_doctrine_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_naval
 			}
 			buttonType = {
 				name = "air_techs_folder_tab"
 				position = { x = 705 y = 0 }
 				quadTextureSprite = "GFX_air_techs_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_air
 			}
 
 			buttonType = {
@@ -3766,7 +3766,7 @@ guiTypes = {
 				name = "electronics_folder_tab"
 				quadTextureSprite = "GFX_techtree_engineering_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_engineering
 			}
 
 			iconType = {
@@ -3782,7 +3782,7 @@ guiTypes = {
 				name = "industry_folder_tab"
 				quadTextureSprite = "GFX_industry_folder_tab"
 				frame = 1
-				clicksound = click_default
+				clicksound = ui_research_tab_industry
 			}
 
 			iconType = {
