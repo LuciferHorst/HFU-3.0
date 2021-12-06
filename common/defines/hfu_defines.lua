@@ -507,19 +507,19 @@ NDefines.NSupply.CAPITAL_SUPPLY_DOCKYARDS = 0.4 --supply from one naval factory
 	-- a supply reach >= 1.0 considered "perfect" and will be able to fully support units on that particular province (assuming you are not over capacity)
 
 NDefines.NSupply.CAPITAL_INITIAL_SUPPLY_FLOW = 5.0 -- starting supply from
-NDefines.NSupply.CAPITAL_STARTING_PENALTY_PER_PROVINCE = 0.5 -- starting penalty that will be added as supply moves away from its origin (modified by stuff like terrain)
+NDefines.NSupply.CAPITAL_STARTING_PENALTY_PER_PROVINCE = 0.38 -- starting penalty that will be added as supply moves away from its origin (modified by stuff like terrain)
 NDefines.NSupply.CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.2 -- added penalty as we move away from origin
 
 -- defines that are used for supply reach for built nodes
 
 NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 2.8
-NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.50
-NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.70
+NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.38
+NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.5
 
 -- defines that are used for supply reach for dockyards
 
 NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 2
-NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.8
+NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.3
 NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0
 
 -- Node Flow (i.e. province caps) increase by this amount per railway level of the node's bottleneck
@@ -533,7 +533,7 @@ NDefines.NSupply.RIVER_RAILWAY_LEVEL = 1
 -- defines that are used for supply reach for floating harbors
 
 NDefines.NSupply.FLOATING_HARBOR_INITIAL_SUPPLY_FLOW = 2.6
-NDefines.NSupply.HARBOR_STARTING_PENALTY_PER_PROVINCE = 0.8
+NDefines.NSupply.HARBOR_STARTING_PENALTY_PER_PROVINCE = 1
 NDefines.NSupply.FLOATING_HARBOR_ADDED_PENALTY_PER_PROVINCE = 0.8
 NDefines.NSupply.FLOATING_HARBOR_BASE_SUPPLY = 10 -- supply given by a floating harbor
 NDefines.NSupply.FLOATING_HARBOR_BASE_DURATION = 10 -- duration of a full hp floating harbor
@@ -580,8 +580,8 @@ NDefines.NSupply.NAVAL_BASE_FLOW = 5 -- max output/input of a naval node is limi
 NDefines.NSupply.NAVAL_FLOW_PER_LEVEL = 5.0 -- max output/input of a naval node is limited by previous base value + this define per its level
 NDefines.NSupply.SUPPLY_NODE_MIN_SUPPLY_THRESHOLD = 1.0 -- if supply of a node is below this value it will be set to 0 -- Currently unused?
 NDefines.NSupply.INFRA_TO_SUPPLY = 0.2						-- each level of infra gives this many supply
-NDefines.NSupply.VP_TO_SUPPLY_BASE = 0.2						-- Bonus to supply from a VP, no matter the level
-NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.05		-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
+NDefines.NSupply.VP_TO_SUPPLY_BASE = 0.1						-- Bonus to supply from a VP, no matter the level
+NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.025		-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
 NDefines.NSupply.SUPPLY_FROM_DAMAGED_INFRA = 0.1                -- damaged infrastructure counts as this in supply calcs
 NDefines.NSupply.SUPPLY_BASE_MULT = 0.2						-- multiplier on supply base values
 NDefines.NSupply.SUPPLY_DISRUPTION_DAILY_RECOVERY = 1.5		-- every day nodes recover this much of their accumulated disruption.
@@ -645,7 +645,7 @@ NDefines.NSupply.AI_FRONT_MAX_UNITS_ENEMY_COUNT_FACTOR = 1.2 -- Make sure AI fro
 NDefines.NSupply.SUPPLY_THRESHOLD_FOR_ARMY_ATTRITION = 0.35 -- armies will only get attrition below this supply
 NDefines.NSupply.NUMBER_OF_SHOWN_SUPPLY_SOURCES_IN_SUPPLY_MAPMODE = 3 -- number of supply flow sources shown in breakdown tooltip
 NDefines.NSupply.ESTIMATED_DIVISION_WEIGHT_FOR_SUPPLY_ESTIMATIONS_GUI = 1.0	--Division supply consumption used for estimating frontline weight for order tooltips
-NDefines.NSupply.AVAILABLE_MANPOWER_STATE_SUPPLY = 0.18						--Factor for state supply from max manpower (population)
+NDefines.NSupply.AVAILABLE_MANPOWER_STATE_SUPPLY = 0.05						--Factor for state supply from max manpower (population)
 NDefines.NSupply.STORED_SUPPLY_CONSUMPTION_RATE_FACTOR = 0.75				--Multiplies consumption rate of stored supply (more/less easement)
 
 

@@ -312,11 +312,9 @@ technologies = {
 			light_tank_aa_chassis_3
 		}
 		enable_equipment_modules = {
-			tank_heavy_howitzer
 			tank_rocket_launcher_2
 
 			tank_anti_air_cannon_3
-			auto_loader
 
 		}
 
@@ -405,7 +403,7 @@ technologies = {
 			tank_small_cannon_2
 			tank_close_support_gun
 			secondary_turret_close_support_gun
-
+            tank_medium_cannon
 			tank_auto_cannon
 			tank_anti_air_cannon
 
@@ -563,7 +561,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_heavy_howitzer
 			tank_rocket_launcher_2
-
+            tank_medium_cannon_3
 			tank_anti_air_cannon_3
 			auto_loader
 
