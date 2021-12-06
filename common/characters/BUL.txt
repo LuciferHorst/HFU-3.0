@@ -268,6 +268,7 @@ characters = {
 					traits = {
 						military_theorist
 					}
+					research_bonus = { land_doctrine = 0.1 }
 				}
 				name = BUL_kiril_stanchev
 				portraits = {
@@ -642,6 +643,7 @@ characters = {
 			traits = {
 				military_theorist
 			}
+			research_bonus = { land_doctrine = 0.1 }
 		}
 		name = BUL_sava_ivanov
 		portraits = {

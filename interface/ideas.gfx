@@ -4714,4 +4714,8 @@ spriteTypes = {
 		name = "GFX_idea_ita_german_assistance"
 		texturefile = "gfx/interface/ideas/ita/idea_german_assistance.dds"
 	}
+
+	#CHARACTERS
+
+	
 }

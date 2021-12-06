@@ -143,6 +143,7 @@ characters={
 			traits = {
 				superior_firepower_expert
 			}
+			research_bonus = { cat_superior_firepower = 0.15 }
 		}
 
 		corps_commander={
@@ -172,12 +173,12 @@ characters={
 			slot = theorist
 			idea_token = george_patton
 			ledger = army
-				allowed = {
-					original_tag = USA
+			allowed = {
+				original_tag = USA
 				}
 				
-				traits = {
-					mobile_warfare_expert
+			traits = {
+				mobile_warfare_expert
 				}
 		}
 
@@ -977,6 +978,7 @@ characters={
 			traits = {
 				military_theorist
 			}
+			research_bonus = { land_doctrine = 0.1 }
 		}
 	}
 

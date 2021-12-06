@@ -68,7 +68,7 @@ characters={
 			visible = {
 			}
 			traits = {
-				captain_of_industry 
+				infrastructure_expert 
 			}
 			ai_will_do = {
 				factor = 1.000
@@ -120,7 +120,7 @@ characters={
 			name=SPR_francisco_largo_caballero
 			portraits={
 				army={
-					small="GFX_idea_SPR_francisco_largo_caballero"
+					small="GFX_idea_comradevonaustria"
 				}
 			}
 			advisor={
@@ -138,7 +138,7 @@ characters={
 					always = yes
 				}
 				traits = {
-					infrastructure_expert 
+					captain_of_industry
 				}
 			}
 		}
@@ -200,6 +200,7 @@ characters={
 				traits = {
 					military_theorist
 				}
+				research_bonus = { land_doctrine = 0.1 }
 			}
 
 			corps_commander={

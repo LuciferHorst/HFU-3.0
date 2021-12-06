@@ -926,16 +926,16 @@ ideas = {
 				armor = 0.15
 			}
 			equipment_bonus = {
-				medium_tank_equipment = {
+				medium_tank_chassis = {
 					hard_attack = 0.10 soft_attack = 0.10 armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
 				}
-				medium_tank_aa_equipment = {
+				medium_tank_aa_chassis = {
 					air_attack = 0.10 armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
 				}
-				medium_tank_artillery_equipment = {
+				medium_tank_artillery_chassis= {
 					soft_attack = 0.15  armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
 				}
-				medium_tank_destroyer_equipment = {
+				medium_tank_destroyer_chassis = {
 					hard_attack = 0.15 ap_attack = 0.1 armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
 				}
 			}
@@ -955,26 +955,26 @@ ideas = {
 			}
 			picture = volgograd_tractor_plant
 			equipment_bonus = {
-				medium_tank_equipment = {
+				medium_tank_chassis = {
 					reliability = 0.05
 					maximum_speed = 0.1
 					hard_attack = 0.2
 					build_cost_ic = 0.05
 				}
-				medium_tank_artillery_equipment = {
+				medium_tank_artillery_chassis= {
 					reliability = 0.05
 					soft_attack = 0.2
 					maximum_speed = 0.1
 					#build_cost_ic = 0.05
 				}
-				medium_tank_destroyer_equipment = {
+				medium_tank_destroyer_chassis = {
 					hard_attack = 0.2
 					ap_attack = 0.2
 					reliability = 0.05
 					maximum_speed = 0.1
 					#build_cost_ic = 0.05
 				}
-				medium_tank_aa_equipment = {
+				medium_tank_aa_chassis = {
 					reliability = 0.05
 					air_attack = 0.15
 					maximum_speed = 0.1
@@ -996,13 +996,13 @@ ideas = {
 				armor = 0.15
 			}
 			equipment_bonus = {
-				medium_tank_destroyer_equipment = {
+				medium_tank_destroyer_chassis = {
 					build_cost_ic = -0.1 hard_attack = 0.1 hard_attack = 0.1 reliability = 0.05
 				}
-				medium_tank_artillery_equipment = {
+				medium_tank_artillery_chassis= {
 					build_cost_ic = -0.1 soft_attack = 0.1 hard_attack = 0.1 reliability = 0.05
 				}
-				medium_tank_aa_equipment = {
+				medium_tank_aa_chassis = {
 					build_cost_ic = -0.1 air_attack = 0.1 reliability = 0.05
 				}
 			}
@@ -1022,19 +1022,19 @@ ideas = {
 				armor = 0.15
 			}
 			equipment_bonus = {
-				medium_tank_equipment = {
+				medium_tank_chassis = {
 					reliability = 0.1
 					build_cost_ic = -0.15
 				}
-				medium_tank_aa_equipment = {
+				medium_tank_aa_chassis = {
 					reliability = 0.1
 					build_cost_ic = -0.15
 				}
-				medium_tank_artillery_equipment = {
+				medium_tank_artillery_chassis= {
 					reliability = 0.1
 					build_cost_ic = -0.15
 				}
-				medium_tank_destroyer_equipment = {
+				medium_tank_destroyer_chassis = {
 					build_cost_ic = -0.15  reliability = 0.1
 				}
 			}
@@ -1049,30 +1049,30 @@ ideas = {
 				armor = 0.15
 			}
 			equipment_bonus = {
-				medium_tank_equipment = {
+				medium_tank_chassis = {
 					defense = 1
 					hard_attack = 0.1
 					soft_attack = 0.1
 				}
-				medium_tank_destroyer_equipment = {
+				medium_tank_destroyer_chassis = {
 					defense = 1
 					hard_attack = 0.15
 					ap_attack = 0.2
 				}
-				medium_tank_artillery_equipment = {
+				medium_tank_artillery_chassis= {
 					defense = 1
 					soft_attack = 0.15
 				}
-				medium_tank_aa_equipment = {
+				medium_tank_aa_chassis = {
 					defense = 1
 					air_attack = 0.1
 				}
-				light_tank_equipment = {
+				light_tank_chassis = {
 					build_cost_ic = -0.075
 					soft_attack = 0.1
 					reliability = -0.1
 				}
-				light_tank_destroyer_equipment = {
+				light_tank_destroyer_chassis = {
 					build_cost_ic = -0.075
 					ap_attack=0.15
 					soft_attack = 0.1
@@ -1093,13 +1093,13 @@ ideas = {
 				armor = 0.15
 			}
 			equipment_bonus = {
-				medium_tank_equipment = {
+				medium_tank_chassis = {
 					reliability = 0.1 soft_attack =0.15 hard_attack= 0.1 breakthrough = 0.075
 				}
-				medium_tank_destroyer_equipment = {
+				medium_tank_destroyer_chassis = {
 					reliability = 0.1 soft_attack =0.15 hard_attack= 0.2 breakthrough = 0.075
 				}
-				medium_tank_artillery_equipment = {
+				medium_tank_artillery_chassis= {
 					reliability = 0.1 soft_attack =0.2 hard_attack= 0.1 
 				}
 			}
