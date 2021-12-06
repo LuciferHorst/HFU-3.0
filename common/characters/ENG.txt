@@ -399,13 +399,9 @@ characters={
 			traits = {
 				military_theorist
 			}
+			research_bonus = { land_doctrine = 0.1 }
 			ai_will_do = {
 				factor = 2.000
-				modifier = {
-					has_idea_with_trait = industrial_concern
-					has_idea_with_trait = silent_workhorse
-					factor = 10.000
-				}
 			}
 		}
 		
@@ -970,6 +966,7 @@ characters={
 			traits = {
 				military_theorist
 			}
+			research_bonus = { land_doctrine = 0.1 }
 		}
 	}
 
@@ -1011,6 +1008,7 @@ characters={
 				original_tag = ENG
 			}
 			traits = { naval_theorist }
+			research_bonus = { naval_doctrine = 0.1 }
 		}
 	}
 
@@ -1128,6 +1126,7 @@ characters={
 			traits = {
 				blitzkrieg_theorist
 			}
+			research_bonus = { land_doctrine = 0.1 }
 			ai_will_do = {
 				factor = 1.000
 			}

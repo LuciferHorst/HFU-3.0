@@ -186,6 +186,7 @@ characters = {
 			traits = {
 				mass_assault_expert
 			}
+			research_bonus = { cat_mass_assault = 0.15 }
 		}		
 	}
 

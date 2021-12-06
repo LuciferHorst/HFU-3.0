@@ -51,7 +51,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		#doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -97,7 +97,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -133,7 +133,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -206,7 +206,7 @@ technologies = {
 			custom_effect_tooltip = "Each Motorized Artillery requires Batallion 25 less Motorized Equipment"
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -255,7 +255,7 @@ xp_research_bonus = 0.75
 			custom_effect_tooltip = "Each Mechanized Batallion requires 5 less Mechanized Equipment"
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -294,7 +294,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -334,7 +334,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -384,7 +384,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -431,7 +431,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -469,7 +469,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -509,7 +509,7 @@ xp_research_bonus = 0.75
 			max_organisation = 5
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -546,7 +546,7 @@ xp_research_bonus = 0.75
 			breakthrough = 0.20
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		air_cas_present_factor = 0.25
 		categories = {
 			land_doctrine
@@ -591,7 +591,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -636,7 +636,7 @@ xp_research_bonus = 0.75
 			defense = 0.1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -667,7 +667,7 @@ xp_research_bonus = 0.75
 		}
 		#enable_tactic = tactic_guerrilla_tactics
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -734,7 +734,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -774,7 +774,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -810,7 +810,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -846,7 +846,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -890,7 +890,7 @@ xp_research_bonus = 0.75
 			default_morale = 0.05
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -929,7 +929,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -970,7 +970,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1008,7 +1008,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1046,7 +1046,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1084,7 +1084,7 @@ xp_research_bonus = 0.75
 			default_morale = 0.1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1119,7 +1119,7 @@ xp_research_bonus = 0.75
 		#combat advantage when air superior
 		army_bonus_air_superiority_factor = 0.20
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1158,7 +1158,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1194,7 +1194,7 @@ xp_research_bonus = 0.75
 			recon = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1230,7 +1230,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1262,7 +1262,7 @@ xp_research_bonus = 0.75
 		}
 		enable_tactic = tactic_breakthrough
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_superior_firepower
@@ -1334,7 +1334,7 @@ xp_research_bonus = 0.75
 		#planning max bonus increase
 		max_planning = 0.15
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1376,7 +1376,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1418,7 +1418,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1458,7 +1458,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1500,7 +1500,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1544,7 +1544,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1590,7 +1590,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1629,7 +1629,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1670,7 +1670,7 @@ xp_research_bonus = 0.75
 			max_organisation = 3
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1715,7 +1715,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1750,7 +1750,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1790,7 +1790,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1828,7 +1828,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1871,7 +1871,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1904,7 +1904,7 @@ xp_research_bonus = 0.75
 			recon = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_grand_battle_plan
@@ -1974,7 +1974,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2019,7 +2019,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2054,7 +2054,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2103,7 +2103,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2146,7 +2146,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2186,7 +2186,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2229,7 +2229,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2277,7 +2277,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2327,7 +2327,7 @@ xp_research_bonus = 0.75
 		army_fuel_capacity_factor = 1
 		enable_tactic = tactic_backhand_blow
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2383,7 +2383,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2424,7 +2424,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2477,7 +2477,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2519,7 +2519,7 @@ xp_research_bonus = 0.75
 			research_cost_coeff = 1
 		}
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault
@@ -2558,7 +2558,7 @@ xp_research_bonus = 0.75
 		resistance_growth_on_our_occupied_states = 0.25
 		#enable_tactic = tactic_guerrilla_tactics
 		doctrine = yes
-		research_cost = 3.70
+		research_cost = 4
 		categories = {
 			land_doctrine
 			cat_mass_assault

@@ -148,6 +148,7 @@ characters={
 			traits = {
 				military_theorist
 			}
+			research_bonus = { land_doctrine = 0.1 }
 		}		
 	}
 
@@ -169,6 +170,7 @@ characters={
 			traits = {
 				naval_theorist
 			}
+			research_bonus = { naval_doctrine = 0.1 }
 		}		
 	}
 
