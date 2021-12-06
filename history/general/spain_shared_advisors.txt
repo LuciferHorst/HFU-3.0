@@ -94,6 +94,7 @@ every_possible_country = {
 			traits = {
 				mobile_warfare_expert
 			}
+			research_bonus = { cat_mobile_warfare = 0.15 }
 		}
 	}
 
@@ -118,6 +119,7 @@ every_possible_country = {
 			traits = {
 				military_theorist
 			}
+			research_bonus = { land_doctrine = 0.1 }
 		}
 	}
 

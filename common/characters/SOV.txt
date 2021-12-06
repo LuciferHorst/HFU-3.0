@@ -502,8 +502,9 @@ characters = {
 				}
 			}
 			traits = {
-				mass_assault_expert
+				military_theorist
 			}
+			research_bonus = { land_doctrine = 0.10 }
 		}
 
 		field_marshal = {
