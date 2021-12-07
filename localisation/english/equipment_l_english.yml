@@ -1,6 +1,7 @@
 ﻿l_english:
 
-  train_equipment:0 "Train"
+ assault_gun_equipment:0 "Assault Guns"
+ train_equipment:0 "Train"
  train_equipment_desc:0 "Trains transport supplies from the Supply Capital to Supply Hubs connected by rail."
  train_equipment_1:0 "Civilian Train"
  train_equipment_1_desc:0 "Taken over by the military from regular civilian freight duty, this train engine is well-suited to move a large amount of supplies over long distances. However, its civilian construction makes it vulnerable."

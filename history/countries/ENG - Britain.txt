@@ -58,6 +58,7 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	armor_tech_1 = 1
+	assault_guns_1 = 1
 }
 if = {
 	limit = {

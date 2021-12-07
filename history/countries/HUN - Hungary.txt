@@ -26,7 +26,7 @@ capital = 43
  	gwtank_chassis = 1
 	basic_light_tank_chassis = 1
 	improved_light_tank_chassis = 1
-	
+	assault_guns_1 = 1
 	engine_tech_1 = 1
 	basic_light_art = 1
  	early_fighter = 1

@@ -7,6 +7,7 @@ add_ideas = reliance_on_natural_rubber
 set_rule = {can_be_spymaster = no}
 # Starting tech
 set_technology = {
+	assault_guns_1 = 1
 	amphibious_mechanized_infantry = 1
 	airfield_allowed = 1
 	naval_base_allowed = 1

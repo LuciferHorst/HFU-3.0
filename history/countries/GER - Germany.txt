@@ -109,6 +109,7 @@ set_technology = {
 	improved_light_tank_chassis = 1
 	engine_tech_1 = 1
 	armor_tech_1 = 1
+	assault_guns_1 = 1
 }
 if = {
 	limit = {
