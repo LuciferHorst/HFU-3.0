@@ -190,7 +190,7 @@ NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST= 50
 NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.15
 NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED=0
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 50 -- Was 30, exists to help speed 5 macro
-NDefines.NTechnology.DEFAULT_XP_UNLOCK_RESEARCH_COST = 10000		-- default xp cost of a research to unlock directly
+NDefines.NTechnology.DEFAULT_XP_UNLOCK_RESEARCH_COST = 0			-- default xp cost of a research to unlock directly
 NDefines.NTechnology.DEFAULT_XP_BOOST_RESEARCH_COST = 0				-- default xp cost of a research to speed up the process
 NDefines.NTechnology.DEFAULT_XP_BOOST_RESEARCH_BONUS = 0			-- default boost research bonus gained when xp is used to research an item
 --generals
