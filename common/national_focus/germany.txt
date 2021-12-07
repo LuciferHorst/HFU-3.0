@@ -3985,11 +3985,26 @@ focus = {
 				create_equipment_variant = {
 					name = "Tiger Panzer"
 					type = heavy_tank_chassis_2
+					parent_version = 0
+					modules = {
+						main_armament_slot = tank_heavy_cannon_2
+						turret_type_slot = tank_heavy_three_man_tank_turret
+						special_type_slot_1 = tank_radio_3
+						special_type_slot_2 = secondary_turret_small_cannon
+						special_type_slot_3 = extra_ammo_storage
+						special_type_slot_4 = wet_ammo_storage
+			
+						suspension_type_slot = tank_bogie_suspension
+						armor_type_slot = tank_cast_armor
+						engine_type_slot = tank_gasoline_engine
+					}
 					upgrades = {
-						tank_gun_upgrade = 5
-						tank_armor_upgrade = 5
-						tank_reliability_upgrade = 3
-						}}
+						tank_nsb_engine_upgrade = 10
+						tank_nsb_armor_upgrade = 10
+					}
+			
+					icon = "gfx/interface/technologies/ger_basic_light_tank.dds"
+				}
 				add_equipment_production = {
 					equipment = {
 						type = heavy_tank_chassis_2
