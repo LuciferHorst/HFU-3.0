@@ -105,8 +105,8 @@ characters = {
 			name = BUL_asen_nikolov
 			portraits = {
 				army = {
-					large = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
-					small = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+					large = "gfx/leaders/portrait_europe_generic_land_13.dds"
+					small = "gfx/leaders/portrait_europe_generic_land_13.dds"
 				}
 			}
 			corps_commander = {
@@ -397,8 +397,8 @@ characters = {
 		name = BUL_nikola_mihov
 		portraits = {
 			army = {
-				large = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large = "gfx/leaders/Portrait_Europe_Generic_land_5.dds"
+				small = "gfx/leaders/Portrait_Europe_Generic_land_5.dds"
 			}
 		}
 		field_marshal = {
@@ -416,8 +416,8 @@ characters = {
 		name = BUL_ivan_markov
 		portraits = {
 			army = {
-				large = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large = "gfx/leaders/BUL/Konstantin_Ivanov_Bekyarov.dds"
+				small = "gfx/leaders/BUL/Konstantin_Ivanov_Bekyarov.dds"
 			}
 		}
 		corps_commander = {
@@ -454,8 +454,8 @@ characters = {
 		name = BUL_nikola_stoychev
 		portraits = {
 			army = {
-				large = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large = "gfx/leaders/BUL/Nikola_Totev_Markov.dds"
+				small = "gfx/leaders/BUL/Nikola_Totev_Markov.dds"
 			}
 		}
 		corps_commander = {

@@ -73,8 +73,8 @@ characters={
 		name=AST_leslie_morshead
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/Portrait_Europe_Generic_land_3.dds"
+				small="gfx/leaders/Portrait_Europe_Generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -92,8 +92,8 @@ characters={
 		name=AST_thomas_blamey
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/Portrait_Europe_Generic_land_4.dds"
+				small="gfx/leaders/Portrait_Europe_Generic_land_4.dds"
 			}
 		}
 		corps_commander={
@@ -111,8 +111,8 @@ characters={
 		name=AST_henry_wynter
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/Portrait_Europe_Generic_land_3.dds"
+				small="gfx/leaders/Portrait_Europe_Generic_land_3.dds"
 			}
 		}
 		corps_commander={
@@ -130,8 +130,8 @@ characters={
 		name=AST_alan_vasey
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/Portrait_Europe_Generic_land_5.dds"
+				small="gfx/leaders/Portrait_Europe_Generic_land_5.dds"
 			}
 		}
 		corps_commander={
@@ -149,8 +149,8 @@ characters={
 		name=AST_horace_robertson
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/Portrait_Europe_Generic_land_1.dds"
+				small="gfx/leaders/Portrait_Europe_Generic_land_1.dds"
 			}
 		}
 		corps_commander={
@@ -168,8 +168,8 @@ characters={
 		name=AST_john_northcott
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/Portrait_Europe_Generic_land_2.dds"
+				small="gfx/leaders/Portrait_Europe_Generic_land_2.dds"
 			}
 		}
 		corps_commander={
