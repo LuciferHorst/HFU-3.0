@@ -356,7 +356,7 @@ if = {
 			tank_nsb_armor_upgrade = 7
 		}
 
-		icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+		icon = "gfx/interface/technologies/ger_basic_light_tank.dds"
 	}
 
 	#LIGHT TD

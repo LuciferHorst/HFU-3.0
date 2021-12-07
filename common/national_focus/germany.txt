@@ -4003,7 +4003,7 @@ focus = {
 						tank_nsb_armor_upgrade = 10
 					}
 			
-					icon = "gfx/interface/technologies/ger_basic_light_tank.dds"
+					icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
 				}
 				add_equipment_production = {
 					equipment = {
