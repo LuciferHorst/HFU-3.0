@@ -24,33 +24,39 @@ sub_units = {
 
 
 		forest = {
-		    attack = -0.40
+			attack = -0.25
 			movement = -0.40
+			defence = -0.4
 		}
 		hills = {
-		    attack = -0.20
+			attack = -0.2
+			defence = -0.6
 		}
 		mountain = 	{
-		    attack = -0.3
+			attack = -0.5
+			defence= -0.8
+			movement = -0.2
 		}
 		jungle = {
-		    attack = -0.6
+			attack = -0.6
 			movement = -0.4
+			defence = -0.6
 		}
 		marsh = {
-		    attack = -0.4 
+			attack = -0.4
+			defence = -0.6
 			movement = -0.2
 		}
 		urban = {
-			attack = -0.5
-			defence = -0.2
+			attack = -0.4
+			defence = -0.7
 		}
-		river = { 
-			attack = -0.4 
+		river = {
+			attack = -0.4
 			movement = -0.4
 		}
-		amphibious = { 
-			attack = -0.9
+		amphibious = {
+			attack = -1.3
 		}
 		fort = {
 			attack = 0.1
