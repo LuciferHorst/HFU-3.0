@@ -37,7 +37,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 0
 		categories = {
@@ -74,7 +74,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -121,7 +121,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -174,7 +174,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -221,7 +221,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -255,7 +255,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -292,7 +292,7 @@ technologies = {
 		mines_planting_by_fleets_factor = 0.1
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -335,7 +335,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -384,7 +384,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -433,7 +433,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -489,7 +489,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -538,7 +538,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -573,7 +573,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -610,7 +610,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -642,7 +642,7 @@ technologies = {
 		#######
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -696,7 +696,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 0
 		categories = {
@@ -742,7 +742,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -790,7 +790,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -839,7 +839,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -887,7 +887,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -945,7 +945,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -999,7 +999,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1040,7 +1040,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1082,7 +1082,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1116,7 +1116,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1147,7 +1147,7 @@ technologies = {
 		########
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1181,7 +1181,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1224,7 +1224,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1260,7 +1260,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1297,7 +1297,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1352,7 +1352,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 0
 		categories = {
@@ -1402,7 +1402,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1464,7 +1464,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1518,7 +1518,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1578,7 +1578,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1638,7 +1638,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1686,7 +1686,7 @@ technologies = {
 		###########
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1745,7 +1745,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1790,7 +1790,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1837,7 +1837,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1879,7 +1879,7 @@ technologies = {
 		#######
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1925,7 +1925,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -1976,7 +1976,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -2024,7 +2024,7 @@ technologies = {
 		}
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -2078,7 +2078,7 @@ technologies = {
 		#####
 		xp_research_type = navy
 		xp_boost_cost = 0.75
-		
+		xp_unlock_cost = 0
 		doctrine = yes
 		research_cost = 2
 		categories = {
