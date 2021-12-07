@@ -3,7 +3,7 @@ state={
 	id=521
 	name="STATE_521"
 	resources={
-		rubber = 8
+		rubber = 6
 		tungsten=24.000
 	}
 

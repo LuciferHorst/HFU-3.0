@@ -10,22 +10,22 @@ political_actions = {
 			}                      
           }
           is_good = yes                                         
-          days_mission_timeout = 30           
+          days_mission_timeout = 40           
           timeout_effect = {                    
 			add_resource = {
 				type = rubber
 				amount = -15
-				state = 398
+				state = 432
 			}
 			add_resource = {
 				type = rubber
 				amount = 15
-				state = 407
+				state = 439
 			}
 			activate_mission = raj_rubber2
           }
           complete_effect = {                   
-			398 = {
+			439 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -46,17 +46,17 @@ political_actions = {
 		  add_resource = {
 			  type = rubber
 			  amount = -10
-			  state = 396
+			  state = 430
 		  } 
 		  add_resource = {
 			type = rubber
 			amount = 10
-			state = 405
+			state = 440
 		}
 		activate_mission = raj_rubber3
 		}
 		complete_effect = {                   
-		  398 = {
+		  440 = {
 			  add_building_construction = {
 				  type = infrastructure
 				  level = 3
@@ -71,22 +71,22 @@ political_actions = {
 		JAP = { controls_state = 397 }                     
 	}
 	is_good = yes                                         
-	days_mission_timeout = 30            
+	days_mission_timeout = 40            
 	timeout_effect = {        
 	  add_resource = {
 		  type = rubber
 		  amount = -5
-		  state = 397
+		  state = 431
 	  } 
 	  add_resource = {
 		type = rubber
 		amount = 5
-		state = 406
+		state = 443
 	}
 	activate_mission = raj_rubber4
 	}
 	complete_effect = {                   
-	397 = {
+	443 = {
 	add_building_construction = {
 	type = infrastructure
 	level = 3
@@ -101,21 +101,21 @@ political_actions = {
 			JAP = { controls_state = 401 }                     
 		}
 		is_good = yes                                         
-		days_mission_timeout = 30            
+		days_mission_timeout = 40            
 		timeout_effect = {        
 		  add_resource = {
 			  type = rubber
 			  amount = -10
-			  state = 401
+			  state = 435
 		  } 
 		  add_resource = {
 			type = rubber
 			amount = 10
-			state = 701
+			state = 428
 		}
 		}
 		complete_effect = {                   
-		  401 = {
+		  428 = {
 			  add_building_construction = {
 				  type = infrastructure
 				  level = 3
