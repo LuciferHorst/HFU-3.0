@@ -188,6 +188,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1922
 		folder = {
@@ -225,6 +226,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1936
 		
@@ -263,6 +265,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1940
 		
@@ -298,6 +301,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1944
 		folder = {
@@ -621,6 +625,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1936
 		
@@ -659,6 +664,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1940
 		
@@ -693,6 +699,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1944
 		folder = {
@@ -948,6 +955,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1936
 		
@@ -983,6 +991,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1940
 		
@@ -1159,6 +1168,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1922
 		path = {
@@ -1206,6 +1216,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1936
 		
@@ -1260,6 +1271,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1940
 		
@@ -1302,6 +1314,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1940
 		
@@ -1329,6 +1342,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
 		
@@ -1361,6 +1375,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
 		
@@ -1610,6 +1625,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 1.25
 		start_year = 1944
 		folder = {
@@ -1640,6 +1656,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1922
 		path = {
@@ -1688,6 +1705,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
 		
@@ -1724,6 +1742,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
 		
@@ -1781,6 +1800,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1936
 		
@@ -1831,6 +1851,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1941
 		
@@ -1877,6 +1898,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
 		
@@ -1914,6 +1936,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
 		
@@ -1969,6 +1992,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1936
 		
@@ -2003,6 +2027,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1941
 		
@@ -2033,6 +2058,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
 		
@@ -2076,6 +2102,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
 		
@@ -2147,6 +2174,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1938
 		
@@ -2182,6 +2210,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1941
 		
@@ -2213,6 +2242,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.8
 		start_year = 1922
 		path = {
@@ -2247,6 +2277,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.8
 		start_year = 1936
 		
@@ -2282,6 +2313,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.0
+		xp_unlock_cost = 0
 		research_cost = 0.8
 		start_year = 1940
 		
@@ -2337,6 +2369,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 1 }
@@ -2382,6 +2415,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 6 }
@@ -2423,6 +2457,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 12 }
@@ -2470,6 +2505,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 1 }
@@ -2493,6 +2529,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		research_cost = 2
 		path = {
 			leads_to_tech = fire_control_methods_3
@@ -2554,6 +2591,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
+		xp_unlock_cost = 0
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 12 }
