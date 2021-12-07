@@ -2136,11 +2136,11 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
+			cost = 75
 			idea_token = SOV_vsevolod_merkulov
 			allowed = {
 				original_tag = SOV
 				has_dlc = "La Resistance"
-				has_completed_focus = SOV_road_quality
 			}
 			available = { 
 				has_completed_focus = SOV_road_quality
