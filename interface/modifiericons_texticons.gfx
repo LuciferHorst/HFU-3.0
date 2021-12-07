@@ -2218,12 +2218,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_naval_patrol_texticon"
-		texturefile = "gfx/texticons/naval_patrol_texticon.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
 		name = "GFX_maneuver_texticon"
 		texturefile = "gfx/texticons/maneuver_texticon.dds"
 		legacy_lazy_load = no
