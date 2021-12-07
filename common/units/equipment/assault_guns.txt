@@ -7,7 +7,7 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_assault_guns			
+		picture = GFX_assault_guns_1_medium			
 		type = motorized
 		group_by = archetype
 		

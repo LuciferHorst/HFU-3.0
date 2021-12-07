@@ -319,8 +319,8 @@ spriteType = {
 	}
 
 	SpriteType = {
-		name = "GFX_archetype_assault_guns"
-		texturefile = "gfx/interface/technologies/archetype_assault_guns.dds"
+		name = "GFX_assault_guns_1_medium"
+		texturefile = "gfx/interface/technologies/assault_guns_1.dds"
 	}	
 	
 	SpriteType = {
