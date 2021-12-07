@@ -1,4 +1,5 @@
 ﻿l_english:
+ SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
  ITA_social_republic:0 "Credere, Obbedire, Combattere"
  ITA_hitler_rome:0 "Hitler Visits Rome"
  ITA_manpower:0 "Blackshirts"
@@ -174,6 +175,7 @@
  german_advisors:0 "German Military Advisors"
  german_advisors_desc:0 "A German military mission led by Alexander von Falkenhausen is present in China, and its advisors are assisting us in bringing our army up to Western standards."
  walther_von_brauchitsch:0 "W. von Brauchitsch"
+ joseph_stilwell:0 "Joseph Stilwell"
  erwin_rommel:0 "Erwin Rommel"
  gerd_von_rundstedt:0 "Gerd von Rundstedt"
  albert_kesselring:0 "Albert Kesselring"

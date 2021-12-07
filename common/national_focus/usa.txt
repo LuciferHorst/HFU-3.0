@@ -1380,10 +1380,10 @@ focus_tree = {
 		relative_position_id = USA_war_plan_black
 		cost = 4
 		completion_reward = {
-			#swap_ideas = {
-				#remove_idea =joseph_stilwell
-				#add_idea = joseph_stilwell_2
-			#}
+			set_country_flag = USA_armor_genius
+
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = joseph_stilwell
 		}
 	}
 	focus = {
@@ -1768,7 +1768,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_war_with = JAP
-			date >1941.7.01
+			date >1941.6.01
 		}
 		bypass = {
 		}
@@ -1776,8 +1776,17 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		custom_effect_tooltip = available_political_advisor
-		show_ideas_tooltip = ernest_king
+		create_navy_leader = {
+			name = "Chester W. Nimitz"
+			picture = "Portrait_USA_Chester_W_Nimitz.dds"
+			traits={ gentlemanly blue_water_expert naval_lineage superior_tactician spotter ironside air_controller }
+			skill=6
+			attack_skill=6
+			defense_skill=5
+			maneuvering_skill=6
+			coordination_skill=7
+			legacy_id=0
+			}	
 		}
 	}
 	focus = {

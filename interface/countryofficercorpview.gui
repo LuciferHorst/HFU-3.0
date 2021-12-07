@@ -657,7 +657,7 @@ guiTypes = {
 				size = {width=20 height=20}
 				clipping = no
 
-				buttonType = {
+				iconType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
 					position = { x=34 y=47 }
@@ -766,7 +766,7 @@ guiTypes = {
 				size = {width=20 height=20}
 				clipping = no
 
-				buttonType = {
+				iconType = {
 					name = "button"
 					quadTextureSprite = "GFX_technology_land_doctrine_folder_available_item_bg"
 					position = { x=68 y=47 }

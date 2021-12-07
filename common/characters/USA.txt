@@ -627,27 +627,28 @@ characters={
 			allowed = {
 				original_tag = USA
 			}
+			visible = {
+				has_country_flag = USA_armor_genius
+			}
 			available = {
-				NOT = {
-					has_country_flag = joseph_stilwell_sent_to_china
-				}
+				has_country_flag = USA_armor_genius
 			}
 			traits = {
-				army_logistics_2
+				army_armored_3
 			}
-			cost = 100
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
 		
 		corps_commander={
-			traits={ career_officer harsh_leader infantry_officer politically_connected }
+			traits={ career_officer panzer_leader panzer_expert harsh_leader politically_connected trait_engineer organizer }
 			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=7
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=6
 			legacy_id=601
 		}
 	}
@@ -725,7 +726,7 @@ characters={
 				original_tag = USA
 			}
 			traits = {
-				navy_chief_reform_2
+				navy_chief_decisive_battle_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -754,21 +755,6 @@ characters={
 				small="GFX_idea_chester_nimitz"
 			}
 		}
-		advisor={
-			slot = navy_chief
-			idea_token = chester_nimitz
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				navy_chief_commerce_raiding_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
 		navy_leader={
 			traits={ gentlemanly blue_water_expert naval_lineage superior_tactician spotter ironside air_controller }
 			skill=6
@@ -829,9 +815,9 @@ characters={
 			traits={ superior_tactician spotter ironside }
 			skill=5
 			attack_skill=5
-			defense_skill=5
-			maneuvering_skill=3
-			coordination_skill=3
+			defense_skill=7
+			maneuvering_skill=5
+			coordination_skill=5
 			legacy_id=0
 		}
 	}
