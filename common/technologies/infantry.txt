@@ -1282,6 +1282,10 @@ technologies = {
 			leads_to_tech = amphibious_mechanized_infantry
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = assault_guns_1
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1936
 		
@@ -1354,12 +1358,16 @@ technologies = {
 			leads_to_tech = armored_car2
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = assault_gun_1
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1914
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1936 }
-		}
+		} 
 		categories = {
 			motorized_equipment
 			armor
@@ -1475,22 +1483,24 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
+		}
+	}
+	assault_guns_1 = {
+		enable_equipments = {
+			early_assault_guns
+		}
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 2 }
+		}
+		categories = {
+			assault_guns
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	mechanised_infantry = {
@@ -1645,6 +1655,7 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	######### FROM JAPANESE FOCUS ##########
 	bicycle_infantry = {
 		allow = {

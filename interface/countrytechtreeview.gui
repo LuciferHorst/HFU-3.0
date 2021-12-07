@@ -79,7 +79,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 950 }
+					position = { x = 40 y = 1100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -278,40 +278,37 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "marines_tree"
-				position = { x = 140 y = 825 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "tech_mountaineers_tree"
 				position = { x = 140 y = 930 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "desertinfantry_at_tree"
-				position = { x = 140 y = 1135 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			
-			gridboxtype = {
-				name = "jaegers_tree"
-				position = { x = 140 y = 1245 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-	
-			
-			gridboxtype = {
-				name = "shocktroops_tree"
-				position = { x = 140 y = 1110 }
+				name = "tech_mountaineers_tree"
+				position = { x = 140 y = 1025 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
+			gridboxtype = {
+				name = "desertinfantry_at_tree"
+				position = { x = 140 y = 1245 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "shocktroops_tree"
+				position = { x = 140 y = 1195 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "jaegers_tree"
+				position = { x = 140 y = 1110 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
 			gridboxtype = {
 				name = "tech_special_forces_tree"
 				position = { x = 1435 y = 10 }

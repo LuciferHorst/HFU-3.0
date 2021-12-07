@@ -103,6 +103,7 @@ technology_categories = {
 	cat_production
 	cat_synth_rubber
 	tank_land_doctrine
+	assault_guns
 }
 
 technology_folders = {
