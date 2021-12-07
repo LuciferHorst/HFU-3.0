@@ -7,7 +7,7 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = GFX_assault_guns_1			
+		picture = archetype_assault_guns			
 		type = motorized
 		group_by = archetype
 		
@@ -48,8 +48,7 @@ equipments = {
 		priority = 5
 		visual_level = 0
 		
-		
-
+	
 		#Misc Abilities
 		maximum_speed 	= 9
 		reliability 	= 0.8
