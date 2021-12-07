@@ -1466,7 +1466,7 @@ characters = {
 			allowed = {
 				original_tag = SOV
 			}
-			traits = { close_air_support_proponent }
+			traits = { dive_bomber }
 		}		
 	}
 

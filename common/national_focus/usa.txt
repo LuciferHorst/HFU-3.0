@@ -1708,7 +1708,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			273={is_controlled_by_ROOT_or_ally=yes}
+			285={is_controlled_by_ROOT_or_ally=yes}
 		}
 		bypass = {
 		}

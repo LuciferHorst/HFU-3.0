@@ -16,10 +16,10 @@ state={
 		buildings = {
 			infrastructure = 7 #was: 7
 			air_base = 3
-			dockyard = 5
+			dockyard = 6
 			arms_factory = 1
 			industrial_complex = 2
-
+            
 		}
 		victory_points = {
 			1025 10 
