@@ -920,8 +920,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_welded_armor
 		}
-		xp_boost_cost = 75
-        xp_research_bonus = 1
+		
 
 		path = {
 			leads_to_tech = armor_tech_2
@@ -932,7 +931,9 @@ technologies = {
 			custom_effect_tooltip = armor_tech_1_tt
 		}
 		show_effect_as_desc = yes
-
+		xp_research_type = army
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		research_cost = 1
 		start_year = 1934
 		folder = {
@@ -978,8 +979,6 @@ technologies = {
 		enable_equipment_modules = {
 			armor_skirts
 		}
-		xp_boost_cost = 75
-        xp_research_bonus = 1
 		path = {
 			leads_to_tech = armor_tech_3
 			research_cost_coeff = 1
@@ -989,7 +988,9 @@ technologies = {
 			custom_effect_tooltip = armor_tech_2_tt
 		}
 		show_effect_as_desc = yes
-
+		xp_research_type = army
+		xp_boost_cost = 75
+        xp_research_bonus = 1
 		research_cost = 1
 		start_year = 1936
 		folder = {
@@ -1037,6 +1038,7 @@ technologies = {
 			leads_to_tech = armor_tech_4
 			research_cost_coeff = 1
 		}
+		xp_research_type = army
 		xp_boost_cost = 75
         xp_research_bonus = 1
 		on_research_complete = {
@@ -1092,6 +1094,7 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1943 }
 		}
+		xp_research_type = army
 		xp_boost_cost = 75
         xp_research_bonus = 1
 		on_research_complete = {
@@ -1139,6 +1142,8 @@ technologies = {
 			leads_to_tech = engine_tech_2
 			research_cost_coeff = 1
 		}
+		xp_research_type = army
+
 		xp_boost_cost = 75
         xp_research_bonus = 1
 		on_research_complete = {
@@ -1192,6 +1197,7 @@ technologies = {
 			leads_to_tech = engine_tech_3
 			research_cost_coeff = 1
 		}
+		xp_research_type = army
         xp_boost_cost = 75
         xp_research_bonus = 1
 		on_research_complete = {
@@ -1249,6 +1255,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_3_tt
 		}
+		xp_research_type = army
 		xp_boost_cost = 75
         xp_research_bonus = 1
 		show_effect_as_desc = yes
@@ -1300,6 +1307,7 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1943 }
 		}
+		xp_research_type = army
 		xp_boost_cost = 75
         xp_research_bonus = 1
 		on_research_complete = {
