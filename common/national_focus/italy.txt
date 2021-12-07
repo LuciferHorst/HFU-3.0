@@ -212,8 +212,8 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_germaniawerft
 		cost = 5
-		available={controls_state=152}
-		bypass = {NOT={controls_state=152}}
+		available={controls_state=117}
+		bypass = {NOT={controls_state=117}}
 		available_if_capitulated = yes
 		completion_reward = {
 			117 = {
@@ -334,7 +334,7 @@ focus = {
 		y = 1
 		relative_position_id = ITA_modular_construction
 		cost = 3
-		available={controls_state=154}
+		available={controls_state=117}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
@@ -1396,7 +1396,7 @@ focus = {
 			if = {
 				SPR = {
 					has_war = no
-					owns_state = 173
+					owns_state = 177
 				}
 			}
 		}
@@ -1407,7 +1407,7 @@ focus = {
 		completion_reward = {
 			random_other_country = {
 				limit = {
-					owns_state = 173
+					owns_state = 177
 				}
 				country_event = { id = italy.9 }
 			}
@@ -1756,23 +1756,6 @@ focus = {
 	    }
 	}
 	focus = {
-		id = ITA_roman_legacy
-		icon = GFX_focus_ITA_sparta
-		prerequisite = { focus = ITA_egypt}
-		available = {
-		}
-		relative_position_id = ITA_egypt
-		x = 0
-		y = 2
-		cost = 5
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-		add_ideas = ITA_roman_legacy
-		}
-	}
-	focus = {
 		id = ITA_8_Million_Bayonets
 		prerequisite = { focus = ITA_rommel}
 		icon = GOAL_equpiment
@@ -1821,7 +1804,7 @@ focus = {
 		id = ITA_escape_the_cage
 		icon = GFX_focus_ITA_escape_the_cage
 		prerequisite = { focus = ITA_rommel}
-		available = {NOT = {has_full_control_of_state = 113 has_full_control_of_state = 112}}
+		available = {NOT = {has_full_control_of_state = 448 has_full_control_of_state = 450}}
 		relative_position_id = ITA_rommel
 		x = -1
 		y = 2
@@ -1833,7 +1816,7 @@ focus = {
 		    custom_effect_tooltip="Adds a Coastal Fort to every coastal provinces in Northern Italy that have at least one coastal fort."
 			custom_effect_tooltip="Adds one level of State Anti-Air to every state in Northern Italy that has at least one one level of State Anti-Air."
 		    hidden_effect = { 
-			162 = {
+			158 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -1852,26 +1835,7 @@ focus = {
 					}
 				}
 			}
-		    158 = {
-				if = {
-					limit= {anti_air_building >0 anti_air_building <5 }
-					add_building_construction = {
-					type = anti_air_building
-					level = 1
-					instant_build = yes
-					}
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-						level > 0
-					}
-				}
-			}
-			161 = {
+		    162 = {
 				if = {
 					limit= {anti_air_building >0 anti_air_building <5 }
 					add_building_construction = {
@@ -1909,21 +1873,75 @@ focus = {
 					}
 				}
 			}
-			}	
+			161 = {
+				if = {
+					limit= {anti_air_building >0 anti_air_building <5 }
+					add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+					}
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 1
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+						level > 0
+					}
+				}
+			}
+			160 = {
+				if = {
+					limit= {anti_air_building >0 anti_air_building <5 }
+					add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+					}
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 1
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+						level > 0
+					}
+				}
+			}
+		}	
+	}
+}
+    focus = {
+		id = ITA_roman_legacy
+		icon = GFX_focus_ITA_sparta
+		prerequisite = { focus = ITA_escape_the_cage }
+		prerequisite = { focus = ITA_german_rocketry }
+		available = {
+		}
+		relative_position_id = ITA_escape_the_cage
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		add_ideas = ITA_roman_legacy
 		}
 	}
 	focus = {
 		id = ITA_viva_il_duce
 		icon = GFX_focus_ITA_viva_il_duce
 		prerequisite = { focus = ITA_roman_legacy}
-		prerequisite = { focus = ITA_escape_the_cage}
-		prerequisite = { focus = ITA_german_rocketry}
 		available = {
 		surrender_progress > 0.5
 		}
-		relative_position_id = ITA_rommel
+		relative_position_id = ITA_roman_legacy
 		x = 0
-		y = 4
+		y = 1
 		cost = 5
 		ai_will_do = {
 			factor = 10

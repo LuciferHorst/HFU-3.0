@@ -385,7 +385,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_manhattan_project
-				bonus = 5
+				bonus = 3
 				uses = 2
 				category = nuclear
 			}
@@ -1321,8 +1321,8 @@ focus_tree = {
 		icon = GFX_focus_attack_germany
 		prerequisite = { focus = USA_war_plan_black }
 		available = {
-			423={is_controlled_by_ROOT_or_ally=yes}
-			440={is_controlled_by_ROOT_or_ally=yes}
+			461={is_controlled_by_ROOT_or_ally=yes}
+			513={is_controlled_by_ROOT_or_ally=yes}
 		}
 		continue_if_invalid = yes
 		available_if_capitulated = yes

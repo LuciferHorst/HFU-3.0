@@ -609,14 +609,14 @@ focus_tree = {
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			navy_experience = 100
-			444={add_building_construction = {
+			285={add_building_construction = {
 					type = naval_base
 					level = 20
-					province=7213
+					province=12406
 					instant_build = yes
 					}}
 			random_owned_controlled_state = {
-				prioritize = { 273 }
+				prioritize = { 517 }
 				limit = {
 					is_coastal = yes
 					free_building_slots = {
@@ -969,27 +969,15 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		complete_tooltip = {
-			447 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
 		completion_reward = {
-		    448 = {add_extra_state_shared_building_slots = 2}
-			273 = {add_extra_state_shared_building_slots = 2}
-			444 = {add_extra_state_shared_building_slots = 2}
-			273 = {
+			521 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-			444 = {
+			517 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1055,7 +1043,7 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		complete_tooltip = {
-			448 = {
+			285 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1064,7 +1052,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			448 = {
+			285 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1160,16 +1148,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 273 444 }
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					not = { state = 593 }
-				}
-				add_extra_state_shared_building_slots = 21
+				prioritize = { 285 }
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -1548,7 +1528,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-		582 = {is_controlled_by_ROOT_or_ally=yes}
+		448 = {is_controlled_by_ROOT_or_ally=yes}
 		}
 		bypass = {
 		}
@@ -1588,12 +1568,12 @@ focus_tree = {
 					anti_tank = {x = 0 y = 5}
 				}
 			}
-			582 = {
+			451 = {
 				for_loop_effect = {
 					end = 4
 					create_unit = {
 						division = "name = \"Rats of Tobruk\" division_template = \"Rats of Tobruk\" start_experience_factor = 2.0 start_equipment_factor = 1"
-						prioritize_location = 1075
+						prioritize_location = 1130
 						owner = AST
 					}
 					}}

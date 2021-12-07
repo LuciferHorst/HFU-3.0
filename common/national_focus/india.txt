@@ -674,8 +674,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		custom_effect_tooltip = available_political_advisor
-		    show_ideas_tooltip = RAJ_mehar_singh
+			set_country_flag = RAJ_armor_genius
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = mehar_singh
 		}
 	}
 	focus = {

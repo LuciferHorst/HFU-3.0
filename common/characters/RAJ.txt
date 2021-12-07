@@ -650,14 +650,20 @@ characters={
 		advisor={
 			slot = high_command
 			idea_token = RAJ_mehar_singh
-			ledger = air
+			ledger = army
 			allowed = {
 				original_tag = RAJ
 			}
-			traits = {
-				air_close_air_support_3
+			visible = {
+				has_country_flag = RAJ_armor_genius
 			}
-			cost = 200
+			available = {
+				has_country_flag = RAJ_armor_genius
+			}
+			traits = {
+				army_armored_3
+			}
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}

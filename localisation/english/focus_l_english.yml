@@ -1,4 +1,7 @@
 ﻿l_english:
+
+ confirm_cancel_national_focus:0 "Cancel National Focus"
+ confirm_cancel_national_focus_desc:0 "Are you sure you want to cancel the national focus §H$FOCUS_NAME$§!?"
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
  ITA_Fiat_26:0 "P26/40"
  ITA_german_rocketry:0 "German Rocket Technology"
