@@ -5,7 +5,8 @@
 --NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT =0
 --NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT =0.1
 --NDefines.NMilitary.NUKE_DELAY_HOURS =12
-NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.15
+NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.3
+NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.25
 NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.001
 ---
 --new graphics
