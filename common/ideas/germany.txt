@@ -483,7 +483,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_acquire_tanks
 			modifier = {
-				army_armor_attack_factor = 0.10
+				army_armor_attack_factor = 0.05
 				air_mission_efficiency = 0.1
 				air_cas_present_factor = 0.1
 				no_supply_grace = 72
@@ -619,6 +619,7 @@ ideas = {
 			targeted_modifier = {
 				tag = SOV
 				defense_bonus_against  = -0.1
+				breakthrough_bonus_against = 0.05
 			}
 		}
 		GER_blau = {
