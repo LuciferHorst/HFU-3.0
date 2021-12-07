@@ -178,8 +178,8 @@ characters={
 			name=SPA_jose_enrique_varela
 			portraits={
 				army={
-					large="GFX_portrait_SPA_jose_enrique_varela"
-					small="gfx/interface/ideas/idea_spa_jose_enrique_varela.dds"
+					large="gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
+					small="gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
 				}
 			}
 			advisor={

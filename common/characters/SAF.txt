@@ -93,7 +93,8 @@ characters={
 		name=SAF_jan_smuts
 		portraits={
 			army={
-				large="GFX_SAF_jan_smuts"
+				large="gfx/leaders/Portrait_Europe_Generic_land_2.dds"
+				small="gfx/leaders/Portrait_Europe_Generic_land_2.dds"
 			}
 		}
 		corps_commander = {
