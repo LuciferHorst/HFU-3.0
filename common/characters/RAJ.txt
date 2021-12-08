@@ -74,6 +74,29 @@ characters={
 		}
 	}
 
+	RAJ_harold_rawdon={
+		name=RAJ_harold_rawdon
+		portraits={
+			army={
+				small="GFX_idea_AST_edmund_herring"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = RAJ_harold_rawdon
+			allowed = {
+				original_tag = RAJ
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
 	RAJ_frank_messervy={
 		name=RAJ_frank_messervy
 		portraits={

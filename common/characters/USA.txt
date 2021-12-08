@@ -364,7 +364,7 @@ characters={
 				original_tag = USA
 			}
 			traits = {
-				army_chief_planning_2
+				army_chief_offensive_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -725,6 +725,9 @@ characters={
 			allowed = {
 				original_tag = USA
 			}
+			available = {
+				has_completed_focus = USA_Ernst_King
+			}
 			traits = {
 				navy_chief_decisive_battle_2
 			}
@@ -1058,7 +1061,7 @@ characters={
 				original_tag = USA
 			}
 			traits = {
-				army_chief_drill_2
+				army_chief_defensive_2
 			}
 			cost = 100
 			ai_will_do = {

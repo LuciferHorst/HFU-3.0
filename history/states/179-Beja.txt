@@ -7,7 +7,7 @@ state={
 		add_core_of = SWI
 	}
 	provinces={
-		3790 
+		3790 9869 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

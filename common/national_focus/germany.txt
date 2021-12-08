@@ -3984,6 +3984,7 @@ focus = {
 					improved_heavy_tank_chassis = 1
 				}
 				create_equipment_variant = {
+
 					name = "Tiger Panzer"
 					type = heavy_tank_chassis_2
 					parent_version = 0
@@ -4004,7 +4005,7 @@ focus = {
 						tank_nsb_armor_upgrade = 10
 					}
 			
-					icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+					icon = "gfx/interface/technologies/ger_imp_heavy_tank.dds"
 				}
 				add_equipment_production = {
 					equipment = {

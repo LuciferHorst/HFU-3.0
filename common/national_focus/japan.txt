@@ -1858,23 +1858,41 @@ focus_tree = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
-			custom_effect_tooltip = "Two fully equipped Iwakuro-Divisions will spawn in Nagasaki. A designer can be used."
+			custom_effect_tooltip = "Two fully equipped Iwakuro-Divisions will spawn in Tokyo. A designer can be used."
 			hidden_effect={
 				set_technology = {
 					improved_heavy_tank_chassis = 1
 				}
 				create_equipment_variant = {
+					
 					name = "Iwakuro A"
 					type = heavy_tank_chassis_2
+					parent_version = 0
+					modules = {
+						main_armament_slot = tank_heavy_cannon_2
+						turret_type_slot = tank_heavy_three_man_tank_turret
+						special_type_slot_1 = tank_radio_3
+						special_type_slot_2 = secondary_turret_small_cannon
+						special_type_slot_3 = extra_ammo_storage
+						special_type_slot_4 = wet_ammo_storage
+			
+						suspension_type_slot = tank_bogie_suspension
+						armor_type_slot = tank_cast_armor
+						engine_type_slot = tank_gasoline_engine
+					}
 					upgrades = {
-						tank_gun_upgrade = 5
-						tank_reliability_upgrade = 5
-						}}
+						tank_nsb_engine_upgrade = 10
+						tank_nsb_armor_upgrade = 10
+					}
+			
+					icon = "gfx/interface/technologies/JAP_imp_heavy_tank.dds"
+				}
 				add_equipment_production = {
 					equipment = {
-						type = heavy_tank_chassis_2
-						creator = "JAP"
-						version_name = "Iwakuro A"		}
+					type = heavy_tank_chassis_2
+					creator = "JAP"
+					version_name = "Iwakuro A"		
+				}
 					requested_factories = 10
 					progress = 0.1
 					efficiency = 50
@@ -1904,7 +1922,7 @@ focus_tree = {
 						motorized = { x = 4 y = 3 }
 					}
 					support = {
-						recon = { x = 0 y = 0 }
+						light_tank_recon = { x = 0 y = 0 }
 						engineer = { x = 0 y = 1 }
 						artillery = { x = 0 y = 2 }
 						logistics_company = { x = 0 y = 3 }
@@ -1915,11 +1933,12 @@ focus_tree = {
 					for_loop_effect = {
 						end = 2
 						create_unit = {
-							prioritize_location =9135
+							prioritize_location =1182
 							division = "name = \"Sensha Dai-ichi Shidan\" division_template = \"Sensha Dai-ichi Shidan\" start_experience_factor = 2.0"
 							owner = JAP
 						}
-						}}
+						}
+					}
 			}
 			army_experience = 200
 			add_tech_bonus = {

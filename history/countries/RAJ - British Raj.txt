@@ -105,6 +105,7 @@ recruit_character = RAJ_p_krishna_pillai
 recruit_character = RAJ_b_p_sitaramayya
 recruit_character = RAJ_noel_beresfordpeirse
 recruit_character = RAJ_frank_messervy
+recruit_character = RAJ_harold_rawdon
 recruit_character = RAJ_douglas_gracey
 recruit_character = RAJ_herbert_fitzherbert
 recruit_character = RAJ_mohan_singh
