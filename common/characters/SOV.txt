@@ -2004,6 +2004,7 @@ characters = {
 			traits = {
 				macro_fanatic 
 			}
+			cost = 200
 		}
 	}
 

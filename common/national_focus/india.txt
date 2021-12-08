@@ -649,9 +649,10 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
+			set_country_flag = RAJ_commando
+			
 			custom_effect_tooltip = available_political_advisor
 		    show_ideas_tooltip = RAJ_arjan_singh_vibhusan
-			
 		}
 	}
 	focus = {
@@ -676,7 +677,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = RAJ_armor_genius
 			custom_effect_tooltip = available_military_high_command
-			show_ideas_tooltip = mehar_singh
+			show_ideas_tooltip = RAJ_mehar_singh
 		}
 	}
 	focus = {

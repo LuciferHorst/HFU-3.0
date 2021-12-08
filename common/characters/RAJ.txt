@@ -59,8 +59,8 @@ characters={
 		name=RAJ_noel_beresfordpeirse
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+				small="gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 			}
 		}
 		corps_commander={
@@ -78,8 +78,8 @@ characters={
 		name=RAJ_frank_messervy
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+				small="gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
 			}
 		}
 		corps_commander={
@@ -97,8 +97,8 @@ characters={
 		name=RAJ_douglas_gracey
 		portraits={
 			army={
-				large="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+				small="gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
 			}
 		}
 		corps_commander={
@@ -603,13 +603,14 @@ characters={
 			slot = high_command
 			idea_token = RAJ_arjan_singh_vibhusan
 			ledger = army
+			visible = { always = yes }
 			allowed = {
 				has_completed_focus = RAJ_lions_of_the_great_war
 			}
 			traits = {
-				army_commando_3
+				army_commando_2
 			}
-			cost = 200
+			cost = 150
 			ai_will_do = {
 				factor = 1.000
 			}

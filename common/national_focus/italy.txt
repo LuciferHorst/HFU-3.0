@@ -1375,7 +1375,7 @@ focus = {
 				bonus = 1
 				ahead_reduction = 0.5
 				uses = 1
-				technology = advanced_medium_tank
+				technology = advanced_medium_tank_chassis
 			}
 			ITA = {
 				add_opinion_modifier = { target = GER modifier = ger_ita_tech_treaty }

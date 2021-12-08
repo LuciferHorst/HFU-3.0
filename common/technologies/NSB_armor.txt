@@ -574,7 +574,9 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1943
-
+		allow = {
+			date > 1940.1.1
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 0 y = @1943 }
@@ -847,7 +849,9 @@ technologies = {
 
 		research_cost = 2.5
 		start_year = 1943
-
+		allow = {
+			date > 1940.1.1
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 4 y = @1943 }
@@ -898,7 +902,9 @@ technologies = {
             tank_petrol_electric_engine_SH
 			tank_gas_turbine_engine_SH
 		}
-
+		allow = {
+			date > 1940.1.1
+		}
 		research_cost = 2.5
 		start_year = 1943
 		folder = {
