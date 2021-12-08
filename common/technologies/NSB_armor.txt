@@ -1322,7 +1322,7 @@ technologies = {
 		}
 		xp_research_type = army
 		xp_boost_cost = 75
-		xp_research_cost = 0
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt

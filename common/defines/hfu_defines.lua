@@ -557,28 +557,28 @@ NDefines.NSupply.SUPPLY_FLOW_DIST_LOGISTICS_FALLOFF_MIN_PENALTY_SCALE = 0.25 -- 
 
 -- The range bonus added to a fully motorized hub. This supply is added on top of the XXX_INITIAL_SUPPLY_FLOW defined above.
 
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 3
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 2.5
 
 -- How many trucks does it cost to fully motorize a hub
 
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 50
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 120
 
 -- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 
-NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.6
+NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 2
 
 -- used for calculating "flow" for railways.
 
 NDefines.NSupply.RAILWAY_BASE_FLOW = 10		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
 NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 8.0 	-- how much additional flow a railway level gives
-NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 7.0 -- penalty to flow per damaged railway
+NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 6.0 -- penalty to flow per damaged railway
 NDefines.NSupply.RAILWAY_MIN_FLOW = 5.0		-- minimum railway flow can be reduced to
 
     -- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
 
 NDefines.NSupply.NAVAL_BASE_MAX_SUPPLY_FLOW_FACTOR = 0.9 -- flow of the parent node is factored to this ratio (so at most it can transfer parent naval node flow * this define)
-NDefines.NSupply.NAVAL_BASE_FLOW = 5 -- max output/input of a naval node is limited by this base value + additional ratio for each level
-NDefines.NSupply.NAVAL_FLOW_PER_LEVEL = 5.0 -- max output/input of a naval node is limited by previous base value + this define per its level
+NDefines.NSupply.NAVAL_BASE_FLOW = 3 -- max output/input of a naval node is limited by this base value + additional ratio for each level
+NDefines.NSupply.NAVAL_FLOW_PER_LEVEL = 2.0 -- max output/input of a naval node is limited by previous base value + this define per its level
 NDefines.NSupply.SUPPLY_NODE_MIN_SUPPLY_THRESHOLD = 1.0 -- if supply of a node is below this value it will be set to 0 -- Currently unused?
 NDefines.NSupply.INFRA_TO_SUPPLY = 0.2						-- each level of infra gives this many supply
 NDefines.NSupply.VP_TO_SUPPLY_BASE = 0.1						-- Bonus to supply from a VP, no matter the level

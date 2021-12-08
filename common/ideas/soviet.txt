@@ -107,7 +107,7 @@ ideas = {
 			picture = generic_production_bonus
 			modifier = {
 				consumer_goods_factor = -0.02
-				production_speed_industrial_complex_factor = 0.15
+				production_speed_industrial_complex_factor = 0.125
 			}
 		}
 		SOV_research_institutes1 = {
