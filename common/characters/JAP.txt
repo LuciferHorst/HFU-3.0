@@ -65,7 +65,7 @@ characters={
 		}
 
 		corps_commander={
-			traits={ trickster trait_engineer brilliant_strategist jungle_rat infantry_leader infantry_expert }
+			traits={ trickster trait_engineer brilliant_strategist jungle_rat infantry_leader infantry_expert JAP_samurai_lineage }
 			skill=6
 			attack_skill=7
 			defense_skill=4
@@ -98,7 +98,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits={  		offensive_doctrine
+			traits={  JAP_samurai_lineage		offensive_doctrine
 			infantry_leader infantry_expert organize }
 			skill=4
 			attack_skill=6
@@ -134,7 +134,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ organizer trait_engineer panzer_leader }
+			traits={ organizer trait_engineer JAP_samurai_lineage panzer_leader }
 			skill=5
 			attack_skill=6
 			defense_skill=4
@@ -153,7 +153,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ organizer infantry_leader trait_engineer }
+			traits={ organizer infantry_leader trait_engineer JAP_samurai_lineage }
 			skill=5
 			attack_skill=2
 			defense_skill=6
@@ -291,7 +291,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected }
+			traits={ politically_connected JAP_samurai_lineage }
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -458,7 +458,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster trait_engineer brilliant_strategist jungle_rat infantry_leader infantry_expert }
+			traits={ trickster trait_engineer brilliant_strategist jungle_rat infantry_leader infantry_expert JAP_samurai_lineage }
 			skill=6
 			attack_skill=7
 			defense_skill=4
