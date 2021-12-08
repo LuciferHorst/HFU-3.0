@@ -1254,7 +1254,7 @@ focus_tree = {
 		relative_position_id = uk_mediterranean_focus
 		cost = 2
 		completion_reward = {
-			116 = {
+			118 = {
 				set_building_level = {
 					type = coastal_bunker
 					level = 5
@@ -1356,7 +1356,7 @@ focus_tree = {
 		id = uk_eri_focus
 		prerequisite = { focus = uk_protect_suez }
 		available = {
-			660 = { is_controlled_by_ROOT_or_ally = yes }
+			550 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 		icon = GFX_goal_generic_construct_military
 		x = 0
@@ -1390,7 +1390,7 @@ focus_tree = {
 		id = uk_defend_ceylon
 		prerequisite = { focus = uk_eri_focus }
 		available = {
-			388 = { is_controlled_by_ROOT_or_ally = yes }
+			422 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 		icon = GFX_goal_generic_construct_military
 		x = 0
@@ -1621,7 +1621,7 @@ focus_tree = {
 		completion_reward = {
 			RAJ = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
-				405 = {
+				439 = {
 					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
@@ -1695,7 +1695,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			117 = {
+			129 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -1706,12 +1706,12 @@ focus_tree = {
 			add_resource = {
 					type = aluminium
 					amount = 20
-					state = 124
+					state = 129
 					}
 			add_resource = {
 					type = aluminium
 					amount = -30
-					state = 401
+					state = 435
 					}
 			}}
 	focus = {
@@ -1945,22 +1945,22 @@ focus_tree = {
 			add_resource = {
 					type = rubber
 					amount = 10
-					state = 124
+					state = 126
 					}
 			add_resource = {
 					type = rubber
 					amount = -5
-					state = 714
+					state = 285
 					}
 			add_resource = {
 					type = rubber
 					amount = -5
-					state = 448
+					state = 521
 					}
 			add_resource = {
 					type = rubber
 					amount = -5
-					state = 273
+					state = 523
 					}
 				}
 			}
@@ -2084,14 +2084,24 @@ focus_tree = {
 			}
 			add_resource = {
 					type = aluminium
-					amount = 20
-					state = 124
+					amount = 10
+					state = 129
 					}
 			add_resource = {
 					type = aluminium
-					amount = -40
-					state = 602
+					amount = -9
+					state = 682
 					}
+					add_resource = {
+						type = aluminium
+						amount = -6
+						state = 466
+						}
+						add_resource = {
+							type = aluminium
+							amount = 6
+							state = 129
+							}
 				}
 			}
 					
@@ -2313,12 +2323,12 @@ focus = {
 			add_resource = {
 				type = chromium
 				amount = 30
-				state = 121
+				state = 126
 				}
 			add_resource = {
 				type = chromium
 				amount = -50
-				state = 267
+				state = 275
 				}
 			                  }
 		}
@@ -2396,7 +2406,7 @@ focus = {
 			add_resource = {
     				type = steel
    				amount = 40
-    				state = 126#eng
+    				state = 130#eng
 			}
 			add_resource = {
     				type = aluminium
@@ -2406,102 +2416,82 @@ focus = {
 			add_resource = {
     				type = tungsten
    				amount = 40
-    				state = 118#eng
+    				state = 130#eng
 			}
 			add_resource = {
     				type = steel
    				amount = 20
-    				state = 601#canada
+    				state = 682#canada
 			}
 			add_resource = {
     				type = tungsten
    				amount = 10
-    				state = 430#canada
+    				state = 682#canada
 			}
 			add_resource = {
     				type = chromium
    				amount = 10
-    				state = 430#canada
+    				state = 682#canada
 			}
 			add_resource = {
     				type = steel
    				amount = 20
-    				state = 267#saf
+    				state = 275#saf
 			}
 			add_resource = {
     				type = steel
    				amount = 15
-    				state = 450#astpapua
+    				state = 285#astpapua
 			}
 			add_resource = {
     				type = tungsten
    				amount = 15
-    				state = 450#astpapua
+    				state = 285#astpapua
 			}
 			add_resource = {
     				type = chromium
    				amount = 15
-    				state = 450#astpapua
-			}
-			add_resource = {
-    				type = aluminium
-   				amount = 7
-    				state = 272#nzl
-			}
-			add_resource = {
-    				type = steel
-   				amount = 7
-    				state = 272#nzl
-			}
-			add_resource = {
-    				type = tungsten
-   				amount = 7
-    				state = 641#nzl
-			}
-			add_resource = {
-    				type = chromium
-   				amount = 7
-    				state = 641#nzl
+    				state = 285#astpapua
 			}
 			add_resource = {
     				type = aluminium
    				amount = 10
-    				state = 446#fra
+    				state = 538#fra
 			}
 			add_resource = {
     				type = steel
    				amount = 10
-    				state = 446#fra
+    				state = 538#fra
 			}
 			add_resource = {
     				type = tungsten
    				amount = 10
-    				state = 446#fra
+    				state = 538#fra
 			}
 			add_resource = {
     				type = chromium
    				amount = 10
-    				state = 446#fra
+    				state = 538#fra
 			}
 			add_resource = {
     				type = aluminium
    				amount = 10
-    				state = 405#raj
+    				state = 439#raj
 			}
 			add_resource = {
     				type = steel
    				amount = 10
-    				state = 405#raj
+    				state = 439#raj
 			}
 			add_resource = {
     				type = tungsten
    				amount = 15
-    				state = 404#raj
+    				state = 439#raj
 			}
 			add_resource = {
     				type = chromium
    				amount = 10
-    				state = 404#raj
+    				state = 439#raj
 			}		
 		}
 	}

@@ -787,8 +787,7 @@ technologies = {
 	antitank2 = {
 
 		mot_anti_tank_brigade = {
-			hard_attack = 0.2
-			ap_attack = 0.2
+			hard_attack = 0.1
 		}
 
 		enable_equipments = {

@@ -565,7 +565,7 @@ NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 120
 
 -- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 
-NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 2
+NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.6
 
 -- used for calculating "flow" for railways.
 
