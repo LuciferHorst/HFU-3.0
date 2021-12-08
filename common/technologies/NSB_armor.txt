@@ -939,6 +939,7 @@ technologies = {
 		show_effect_as_desc = yes
 		xp_research_type = army
 		xp_boost_cost = 75
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		research_cost = 1
 		start_year = 1934
@@ -996,6 +997,7 @@ technologies = {
 		show_effect_as_desc = yes
 		xp_research_type = army
 		xp_boost_cost = 75
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		research_cost = 1
 		start_year = 1936
@@ -1046,6 +1048,7 @@ technologies = {
 		}
 		xp_research_type = army
 		xp_boost_cost = 75
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_3_tt
@@ -1102,6 +1105,7 @@ technologies = {
 		}
 		xp_research_type = army
 		xp_boost_cost = 75
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_4_tt
@@ -1151,6 +1155,7 @@ technologies = {
 		xp_research_type = army
 
 		xp_boost_cost = 75
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_1_tt
@@ -1205,6 +1210,7 @@ technologies = {
 		}
 		xp_research_type = army
         xp_boost_cost = 75
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_2_tt
@@ -1263,6 +1269,7 @@ technologies = {
 		}
 		xp_research_type = army
 		xp_boost_cost = 75
+		xp_unlock_cost = 0
         xp_research_bonus = 1
 		show_effect_as_desc = yes
 		research_cost = 1
@@ -1315,6 +1322,7 @@ technologies = {
 		}
 		xp_research_type = army
 		xp_boost_cost = 75
+		xp_research_cost = 0
         xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt

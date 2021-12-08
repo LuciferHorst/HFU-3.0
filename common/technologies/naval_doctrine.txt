@@ -57,7 +57,7 @@ technologies = {
 		}
 	}
 	battlefleet_concentration = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -110,7 +110,7 @@ technologies = {
 		}
 	}
 	subsidiary_carrier_role = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -159,7 +159,7 @@ technologies = {
 		}
 	}
 	hunter_killer_groups = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -208,7 +208,7 @@ technologies = {
 		}
 	}
 	floating_fortress = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -247,7 +247,7 @@ technologies = {
 		}
 	}
 	floating_airfield = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -284,7 +284,7 @@ technologies = {
 		}
 	}
 	grand_battlefleet = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -329,7 +329,7 @@ technologies = {
 		}
 	}
 	convoy_sailing = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -379,7 +379,7 @@ technologies = {
 		}
 	}
 	convoy_escorts = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -430,7 +430,7 @@ technologies = {
 		}
 	}
 	escort_carriers = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -481,7 +481,7 @@ technologies = {
 		}
 	}
 	integrated_convoy_defence = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -538,7 +538,7 @@ technologies = {
 		}
 	}
 	submarine_operations = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -576,7 +576,7 @@ technologies = {
 		}
 	}
 	undersea_blockade = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -613,7 +613,7 @@ technologies = {
 		}
 	}
 	convoy_interdiction = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -651,7 +651,7 @@ technologies = {
 		}
 	}
 	submarine_offensive = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -746,7 +746,7 @@ technologies = {
 		}
 	}
 	convoy_interdiction_ti = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -796,7 +796,7 @@ technologies = {
 		}
 	}
 	unrestricted_submarine_warfare = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -845,7 +845,7 @@ technologies = {
 		}
 	}
 	wolfpacks = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -896,7 +896,7 @@ technologies = {
 		}
 	}
 	advanced_submarine_warfare = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -945,7 +945,7 @@ technologies = {
 		}
 	}
 	combined_operations_raiding = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1005,7 +1005,7 @@ technologies = {
 		}
 	}
 	raider_patrols = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1048,7 +1048,7 @@ technologies = {
 		}
 	}
 	capital_ship_raiders = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1091,7 +1091,7 @@ technologies = {
 		}
 	}
 	battlefleet_concentration_ti = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1133,7 +1133,7 @@ technologies = {
 		}
 	}
 	floating_fortress_ti = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1169,7 +1169,7 @@ technologies = {
 		}
 	}
 	floating_airfield_ti = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1203,7 +1203,7 @@ technologies = {
 		}
 	}
 	carrier_operations = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1246,7 +1246,7 @@ technologies = {
 		}
 	}
 	convoy_sailing_ti = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1284,7 +1284,7 @@ technologies = {
 		}
 	}
 	subsidiary_carrier_role_ti = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1320,7 +1320,7 @@ technologies = {
 		}
 	}
 	naval_air_operations = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1427,7 +1427,7 @@ technologies = {
 		}
 	}
 	carrier_primacy = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1488,7 +1488,7 @@ technologies = {
 		}
 	}
 	carrier_task_forces = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1548,7 +1548,7 @@ technologies = {
 		}
 	}
 	floating_airfield_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1607,7 +1607,7 @@ technologies = {
 		}
 	}
 	massed_strikes = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1669,7 +1669,7 @@ technologies = {
 		}
 	}
 	floating_fortress_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1722,7 +1722,7 @@ technologies = {
 		}
 	}
 	carrier_battlegroups = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1781,7 +1781,7 @@ technologies = {
 		}
 	}
 	submarine_operations_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1829,7 +1829,7 @@ technologies = {
 		}
 	}
 	undersea_blockade_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1876,7 +1876,7 @@ technologies = {
 		}
 	}
 	convoy_interdiction_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1925,7 +1925,7 @@ technologies = {
 		}
 	}
 	submarine_offensive_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -1969,7 +1969,7 @@ technologies = {
 		}
 	}
 	convoy_escorts_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -2019,7 +2019,7 @@ technologies = {
 		}
 	}
 	escort_patrols = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -2072,7 +2072,7 @@ technologies = {
 		}
 	}
 	convoy_sailing_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
@@ -2121,7 +2121,7 @@ technologies = {
 		}
 	}
 	integrated_convoy_defence_bs = {
-		xp_research_type = army
+		xp_research_type = navy
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
 		xp_research_bonus = 1
