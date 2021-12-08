@@ -191,11 +191,8 @@ focus_tree = {
 		available = {
 		date > 1941.03.01
 		RAJ = {
-		276= {is_controlled_by_ROOT_or_ally=yes}
-		642= {is_controlled_by_ROOT_or_ally=yes}
-		303= {is_controlled_by_ROOT_or_ally=yes}
-		561= {is_controlled_by_ROOT_or_ally=yes}
-		275= {is_controlled_by_ROOT_or_ally=yes}
+		289= {is_controlled_by_ROOT_or_ally=yes}
+		286= {is_controlled_by_ROOT_or_ally=yes}
 		}
 		}
 		
