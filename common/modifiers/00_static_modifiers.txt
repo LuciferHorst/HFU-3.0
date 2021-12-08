@@ -70,7 +70,7 @@ weather_arctic_water = { # on Region
 weather_mud = { # on Province
 	attrition = 0.25
 	army_speed_factor = -0.25
-	army_attack_factor = -0.15
+	army_attack_factor = -0.1
 }
 weather_extreme_cold = { # on Province
 	winter_attrition = 0.3

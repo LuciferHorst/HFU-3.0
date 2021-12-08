@@ -29,121 +29,121 @@ division_template = {
 units = {
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "Jalkaväkidivisioona"
-		location =10074
+		location =3161
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.5
 	}
