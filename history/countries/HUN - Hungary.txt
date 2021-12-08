@@ -37,6 +37,10 @@ capital = 43
  	mtg_transport = 1
  	interwar_antitank = 1
  	interwar_antiair = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
  }
 
  recruit_character = HUN_miklos_horthy

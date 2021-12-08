@@ -11,6 +11,7 @@ sub_units = {
 		type = {
 			infantry
 			support
+			flame
 		}
 
 		group = support
@@ -52,6 +53,7 @@ sub_units = {
 			infantry_equipment = 10
 			support_equipment = 30
 		}
+		same_support_type = flame
 
 		can_be_parachuted = yes
 

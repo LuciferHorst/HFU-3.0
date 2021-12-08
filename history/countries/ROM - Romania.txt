@@ -43,6 +43,9 @@ set_technology = {
 	mtg_transport = 1
 	interwar_antitank = 1
 	tech_recon = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
 	tech_signal_company = 1
 }
 if = {
