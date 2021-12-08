@@ -44,7 +44,7 @@ sub_units = {
 
 		# Support nerfs to combat abilities
 		armor_value = -0.5
-
+		
 		need = {
 			light_tank_flame_chassis = 30
 		}
@@ -77,7 +77,7 @@ sub_units = {
 		amphibious = {
 			attack = 0.1
 		}
-
+		same_support_type = engineer
 		same_support_type = flame
 	}
 
@@ -159,7 +159,7 @@ sub_units = {
 		amphibious = {
 			attack = 0.1
 		}
-
+		same_support_type = engineer
 		same_support_type = flame
 	}
 
@@ -241,7 +241,7 @@ sub_units = {
 		amphibious = {
 			attack = 0.1
 		}
-
+		same_support_type = engineer	
 		same_support_type = flame
 	}
 }
