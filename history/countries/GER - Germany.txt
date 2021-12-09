@@ -390,6 +390,19 @@ if = {
 
 }
 
+#Fighter 1 variant for Germany
+create_equipment_variant = {
+	name = "Bf 109 A"
+	type = fighter_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 3
+		plane_engine_upgrade = 1
+	}
+
+	icon = "gfx/interface/technologies/GER_fighter1.dds"
+}
+
 add_equipment_to_stockpile = {
     type = light_tank_chassis_2
     amount = 800

@@ -2004,7 +2004,7 @@ characters = {
 			traits = {
 				industrial_genius
 			}
-			cost = 200
+			cost = 150
 		}
 	}
 
