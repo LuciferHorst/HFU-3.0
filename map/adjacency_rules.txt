@@ -86,7 +86,7 @@ adjacency_rule={
 		submarine = yes
 		trade = yes
 	}
-	required_provinces = {3685}
+	required_provinces = {3938}
 	is_disabled = {
 		NOT = {
 			tag=SPR
@@ -125,7 +125,7 @@ adjacency_rule= {
 		submarine = yes
 		trade = yes
 	}
-	required_provinces = {854}
+	required_provinces = {896}
 	is_disabled = {
 		NOT = {
 			tag=SPR
