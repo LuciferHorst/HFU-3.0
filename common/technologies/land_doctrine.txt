@@ -1968,7 +1968,7 @@ xp_research_bonus = 1
 			mountain = {
 				attack = 0.1
 			}
-			hill = {
+			hills = {
 				attack = 0.1
 			}
 		}

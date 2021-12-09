@@ -115,7 +115,6 @@ foreign_politics = {
 			clr_global_flag=GER_resource_rights_swe
 		}
 	}
-ENG_imperial_conference_decision = {
 	ENG_imperial_conference_decision = {
 		icon = generic_political_discourse
 		available = {
