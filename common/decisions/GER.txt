@@ -738,7 +738,7 @@ operations = {
 		remove_effect = {
 			SWE = {
 				remove_resource_rights = 666
-				give_resource_rights = { receiver = GER state = 585 }
+				give_resource_rights = { receiver = GER state = 666 }
 			}
 			set_global_flag=GER_resource_rights_swe
 		}
