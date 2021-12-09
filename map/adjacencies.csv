@@ -18,6 +18,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5046;8111;impassable;-1;-1;-1;-1;-1;;West-Africa
 5046;4920;impassable;-1;-1;-1;-1;-1;;West-Africa
 
+3938;6521;sea;;-1;-1;-1;-1;Berlin-Madrid;Berlin-Madrid
+896;11666;sea;;-1;-1;-1;-1;Vienna-Madrid;Vienna-Madrid
+
 4318;12789;impassable;-1;-1;-1;-1;-1;;Burma
 4996;12789;impassable;-1;-1;-1;-1;-1;;Burma
 4996;12898;impassable;-1;-1;-1;-1;-1;;Burma
