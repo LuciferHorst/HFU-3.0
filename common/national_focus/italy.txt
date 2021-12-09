@@ -1628,7 +1628,7 @@ focus = {
 		icon = GFX_goal_generic_oil_refinery
 		available = {
 			ITA = {
-				controls_state = 413
+				controls_state = 661
 			}
 		}
 		x = 1
@@ -1639,9 +1639,9 @@ focus = {
 		    add_resource = {
 				type = oil
 				amount = 40
-				state = 414
+				state = 661
 			}
-			2 = {
+			158 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = synthetic_refinery
@@ -1649,7 +1649,7 @@ focus = {
 					instant_build = yes
 				}
 			}
-			157 = {
+			162 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = synthetic_refinery
@@ -1657,7 +1657,7 @@ focus = {
 					instant_build = yes
 				}
 			}
-			154 = {
+			156 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = synthetic_refinery

@@ -764,14 +764,14 @@
 					instant_build = yes
 				}
 			}
-			149 = {
+			152= {
 				add_building_construction = {
 					type = anti_air_building
 					level = 3
 					instant_build = yes
 				}
 			}
-			148 = {
+			153 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 3
@@ -1847,8 +1847,8 @@ focus = {
 				35= {is_controlled_by_ROOT_or_ally=no}
 				36= {is_controlled_by_ROOT_or_ally=no}
 				7= {is_controlled_by_ROOT_or_ally=no}
-				699= {is_controlled_by_ROOT_or_ally=no}
-				677= {is_controlled_by_ROOT_or_ally=no}
+				785= {is_controlled_by_ROOT_or_ally=no}
+				806= {is_controlled_by_ROOT_or_ally=no}
 				46= {is_controlled_by_ROOT_or_ally=no}
 				2= {is_controlled_by_ROOT_or_ally=no}
 				10= {is_controlled_by_ROOT_or_ally=no}
@@ -2125,66 +2125,26 @@ focus = {
 				country_event = soviet.141
 				
 				13 = { remove_core_of = EST }
-				184 = { remove_core_of = EST }
+				191 = { remove_core_of = EST }
+				811 = { remove_core_of = EST }
+				812 = { remove_core_of = EST }
+				813 = { remove_core_of = EST }
 				
 				12 = { remove_core_of = LAT }
-				183 = { remove_core_of = LAT }
+				190 = { remove_core_of = LAT }
+				808 = { remove_core_of = LAT }
+				809 = { remove_core_of = LAT  }
+				810 = { remove_core_of = LAT }
 				
 				11 = { remove_core_of = LIT }
-				182 = { remove_core_of = LIT }
-				181 = { remove_core_of = LIT }
-				hidden_effect = {182 = {
-				set_temp_variable= {GER.a = building_level@arms_factory}
-				set_temp_variable= {GER.b = building_level@industrial_complex}
-				remove_building = {
-   					type = arms_factory
-    					level = GER.a
-				}
-				remove_building = {
-   					type = industrial_complex
-    					level = GER.b
-				}
-				}
-				698 = {
-					add_extra_state_shared_building_slots = GER.a
-					add_extra_state_shared_building_slots = GER.b
-					add_building_construction = {
-    						type = arms_factory
-    						level = GER.a
-					}
-					add_building_construction = {
-    						type = industrial_complex
-    						level = GER.b
-					}
-				}
-				183 = {
-				set_temp_variable= {GER.c = building_level@arms_factory}
-				set_temp_variable= {GER.d = building_level@industrial_complex}
-				remove_building = {
-   					type = arms_factory
-    					level = GER.a
-				}
-				remove_building = {
-   					type = industrial_complex
-    					level = GER.b
-				}
-				}
-				199 = {
-					add_extra_state_shared_building_slots = GER.c
-					add_extra_state_shared_building_slots = GER.d
-					add_building_construction = {
-    						type = arms_factory
-    						level = GER.c
-					}
-					add_building_construction = {
-    						type = industrial_complex
-    						level = GER.d
-					}
-				}
+				188 = { remove_core_of = LIT }
+				189 = { remove_core_of = LIT }
+				814 = { remove_core_of = LIT }
+				815 = { remove_core_of = LIT }
+				
 				}
 			}
 		}
-	}
 	focus = {
 		id = GER_danzig_or_war
 		icon = GFX_focus_GER_danzig

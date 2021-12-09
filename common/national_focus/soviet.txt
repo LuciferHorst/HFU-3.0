@@ -965,7 +965,7 @@ focus = {
 					level = 20
 					instant_build = yes
 					}}
-			270={set_building_level = {
+			255={set_building_level = {
 					type = air_base
 					level = 20
 					instant_build = yes

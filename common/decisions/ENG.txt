@@ -91,26 +91,6 @@ foreign_politics = {
 			}
 		}
 	}
-	ENG_get_chromium = {
-		icon = generic_operation
-		allowed = {
-			tag = ENG
-		}
-		available = {
-			NOT={has_country_flag=resource_rights_saf}
-		}
-		cost = 0
-		visible = {
-			SAF={has_completed_focus = SAF_secure_interests_in_africa}
-		}
-		complete_effect = {
-			SAF = {
-				give_resource_rights = { receiver = ENG state = 468 }
-				give_resource_rights = { receiver = ENG state = 685 }
-			}
-			set_country_flag=resource_rights_saf
-		}
-	}
 	ENG_pressure_sweden= {
 		icon = generic_operation
 		fire_only_once = no
@@ -135,26 +115,6 @@ foreign_politics = {
 			clr_global_flag=GER_resource_rights_swe
 		}
 	}
-	ENG_give_chromium = {
-		icon = generic_operation
-		allowed = {
-			tag = ENG
-		}
-		available = {
-			has_country_flag=resource_rights_saf
-		}
-		cost = 0
-		visible = {
-			SAF={has_completed_focus = SAF_secure_interests_in_africa}
-			always=yes
-		}
-		complete_effect = {
-			remove_resource_rights = 542
-			remove_resource_rights = 771
-			clr_country_flag=resource_rights_saf
-		}
-	}
-}
 ENG_imperial_conference_decision = {
 	ENG_imperial_conference_decision = {
 		icon = generic_political_discourse

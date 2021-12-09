@@ -264,37 +264,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SAF_secure_interests_in_africa
-		icon = GFX_goal_tfv_saf_secure_interests_in_africa
-		prerequisite = { focus = SAF_suppress_the_stormjaers }
-		prerequisite = { focus = SAF_desert_equipment }
-		x = -3
-		y = 3
-		relative_position_id = SAF_support_the_policy_of_appeasement
-		cost = 10
-		ai_will_do = {
-			factor = 0
-		}
-		available = {
-		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		completion_reward = {
-			unlock_decision_tooltip = { decision = SAF_zambia
-				show_effect_tooltip = no
-				show_modifiers = no }
-			unlock_decision_tooltip = { decision = SAF_rhodesia
-				show_effect_tooltip = no
-				show_modifiers = no }
-			unlock_decision_tooltip = { decision = SAF_east_africa
-				show_effect_tooltip = no
-				show_modifiers = no }
-		}
-	}
-	focus = {
 		id = SAF_native_laws_amendment_act
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = SAF_police_windhoek }

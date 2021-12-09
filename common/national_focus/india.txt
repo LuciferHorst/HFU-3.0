@@ -1338,7 +1338,7 @@ completion_reward = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-        579 = {
+       294 = {
 				
 		     set_building_level = {
 					type = air_base
@@ -1348,7 +1348,7 @@ completion_reward = {
 			 
 		
 			}
-		578 = {
+			658 = {
 				
 		     set_building_level = {
 					type = air_base
