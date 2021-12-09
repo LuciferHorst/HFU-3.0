@@ -293,7 +293,7 @@ NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 20
 NDefines.MAX_ESTIMATED_PLAN_UNITS_NOT_IN_PLACE_FACTOR = -0.6 	--Scaled by % of units not in place. Used to be a flat -50%
 NDefines.ARMY_GENERAL_PREFERRED_TACTIC_WEIGHT_FACTOR = 0.5   -- extra weight multiplier for the army general preferred tactic when doing weighted random
 NDefines.COUNTRY_PREFERRED_TACTIC_WEIGHT_FACTOR = 0.25  -- extra weight multiplier for the country preferred tactic when doing weighted random
-NDefines.DAMAGE_SPLIT_ON_FIRST_TARGET = 0.35			--% of damage dealt to the first target in a combat. The rest will be split amongst subsequent targets. Modifiers can affect this up to a maximum of 0.9. That value must not be exposed as a define.
+NDefines.DAMAGE_SPLIT_ON_FIRST_TARGET = 0.9			--% of damage dealt to the first target in a combat. The rest will be split amongst subsequent targets. Modifiers can affect this up to a maximum of 0.9. That value must not be exposed as a define.
 NDefines.NEW_ARMY_LEADER_LEVEL_CHANCES = {				-- chances for new army leaders to start at a given level
 0.95, -- 95% for level one
 0.05  -- 5% for level two
@@ -304,7 +304,7 @@ NDefines.SOFT_ATTACK_TARGETING_FACTOR = 1.0		-- How much we care about potential
 NDefines.NMilitary.HARD_ATTACK_TARGETING_FACTOR = 1.2		-- How much we care about potential hard attacks when evaluating priority combat target
 NDefines.NMilitary.MIN_BALANCE_SCORE_TO_PROCEED_ATTACK = 0.2		--A combat balance score of less than this will prevent auto attacking
 NDefines.NMilitary.DYNAMIC_MODIFIER_ATTACK_BIAS = 1.0			--This factors the weighting bias of dynamic attack modifiers
-NDefines.NMilitary.ENGAGEMENT_WIDTH_PER_WIDTH = 2.0	-- how much enemy combat width we are allowed to engage per width of our own
+NDefines.NMilitary.ENGAGEMENT_WIDTH_PER_WIDTH = 0.5	-- how much enemy combat width we are allowed to engage per width of our own "seems to be limited to 1 as lower limit"
 NDefines.NMilitary.STRATEGIC_SPEED_INFRA_BASE = 5.0             -- Base speed of strategic redeployment when not on railways
 NDefines.NMilitary.STRATEGIC_SPEED_INFRA_MAX = 10.0             -- Additional speed of strategic redeployment on max-level infrastructure
 NDefines.NMilitary.STRATEGIC_SPEED_RAIL_BASE = 15.0             -- Base speed of strategic redeployment when on railways

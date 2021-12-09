@@ -1180,6 +1180,13 @@ characters={
 			allowed = {
 				original_tag = GER
 			}
+			on_recruit = {
+				hidden_effect = {
+					every_country = {limit = { check_variable= { speeches_enabled > 0}  }
+						scoped_sound_effect = "sp_ger_doctor"
+					}
+				}
+			}
 			available = {
 				has_government = fascism 
 				if = {
