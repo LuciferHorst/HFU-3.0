@@ -106,14 +106,15 @@ focus_tree = {
 				category = cat_mobile_warfare
 			}
 			add_tech_bonus = {
-				name = armor_bonus
+				bonus = 1
 				ahead_reduction = 2
-				technology = medium_tank_chassis
+				uses = 1
+				technology = basic_medium_tank_chassis
 			}
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = armor
 			}
 			

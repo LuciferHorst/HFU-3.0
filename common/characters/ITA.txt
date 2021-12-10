@@ -945,7 +945,7 @@ characters={
 				original_tag  = ITA
 			}
 			traits  = {
-				armaments_organizer 
+				silent_workhorse
 			}
 			on_add  = {
 			}
