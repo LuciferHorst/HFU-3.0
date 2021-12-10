@@ -24,7 +24,7 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 2.5 
+			build_cost_ic = 3 
 			fuel_consumption = 1.5
 			reliability = 0.20
 			maximum_speed = 1
@@ -94,7 +94,7 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 2.5 
+			build_cost_ic = 3 
 			fuel_consumption = 1.5
 			reliability = 0.20
 			maximum_speed = 1
@@ -163,7 +163,7 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 5
+			build_cost_ic = 6
 			fuel_consumption = 1.5
 			reliability = 0.2
 			maximum_speed = 1
@@ -233,7 +233,7 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 10 
+			build_cost_ic = 12 
 			fuel_consumption = 1.5
 			reliability = 0.2
 			maximum_speed = 1

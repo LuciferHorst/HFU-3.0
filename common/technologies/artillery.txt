@@ -3,6 +3,10 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_1
 		}
+		enable_equipment_modules = {
+			tank_heavy_howitzer
+			tank_medium_howitzer
+		}
 		path = {
 			leads_to_tech = interwar_artillery
 			research_cost_coeff = 1
@@ -81,6 +85,10 @@ technologies = {
 	artillery1 = {
 		enable_equipments = {
 			artillery_equipment_2
+		}
+		enable_equipment_modules = {
+			tank_heavy_howitzer2
+			tank_medium_howitzer_2
 		}
 
 		path = {
@@ -200,7 +208,10 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_3
 		}
-
+		enable_equipment_modules = {
+			tank_heavy_howitzer3
+			tank_medium_howitzer_3
+		}
 		path = {
 			leads_to_tech = artillery5
 			research_cost_coeff = 1
@@ -290,6 +301,9 @@ technologies = {
 	rocket_artillery = {
 		enable_equipments = {
 			rocket_artillery_equipment_1
+		}
+		enable_equipment_modules = {
+			tank_rocket_launcher
 		}
 #		enable_subunits = {
 #			rocket_artillery_brigade
@@ -392,6 +406,9 @@ technologies = {
 			rocket_artillery_equipment_2
 			tank_rocket_launcher
 		}
+		enable_equipment_modules = {
+			tank_rocket_launcher_2
+		}
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
 		}
@@ -419,6 +436,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_anti_air_2
+			tank_anti_air_cannon_2
 		}
 		enable_building = {
 			building = anti_air
@@ -507,6 +525,7 @@ technologies = {
 		static_anti_air_damage_factor = 0.1
 		enable_equipment_modules = {
 			ship_anti_air_3
+			tank_anti_air_cannon_3
 		}
 		path = {
 			leads_to_tech = antiair3
@@ -669,6 +688,12 @@ technologies = {
 		enable_equipments = {
 			anti_tank_equipment_1
 		}
+		enable_equipment_modules = {
+			tank_high_velocity_cannon_m1
+			tank_high_velocity_cannon_h1
+			tank_heavy_cannon
+			tank_medium_cannon
+		}
 		path = {
 			leads_to_tech = antitank1
 			research_cost_coeff = 1
@@ -792,6 +817,12 @@ technologies = {
 
 		enable_equipments = {
 			anti_tank_equipment_2
+		}
+		enable_equipment_modules = {
+			tank_high_velocity_cannon_m2
+			tank_high_velocity_cannon_h2
+			tank_heavy_cannon_2
+			tank_medium_cannon_2
 		}
 		path = {
 			leads_to_tech = antitank3
@@ -1013,6 +1044,12 @@ technologies = {
 	antitank5 = {
 		enable_equipments = {
 			anti_tank_equipment_3
+		}
+		enable_equipment_modules = {
+			tank_high_velocity_cannon_m3
+			tank_high_velocity_cannon_h3
+			tank_heavy_cannon_3
+			tank_medium_cannon_3
 		}
 		research_cost = 1
 		start_year = 1943
