@@ -1536,7 +1536,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 75
+			cost = 50
 			slot = political_advisor
 			idea_token = clement_attlee
 			available  = {

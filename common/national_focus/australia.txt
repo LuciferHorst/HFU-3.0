@@ -636,7 +636,7 @@ focus_tree = {
 			}
 			random_owned_controlled_state = {
 				limit = { is_in_home_area = yes }
-				prioritize = { 273 }
+				prioritize = { 283 }
 				add_resource = {
 					type = steel
 					amount = 12
@@ -665,7 +665,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 		completion_reward = {
 		    random_owned_controlled_state = {
-				prioritize = { 273 }
+				prioritize = { 283 }
 				limit = {
 					is_coastal = yes
 					free_building_slots = {
@@ -712,7 +712,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 273 }
+				prioritize = { 283 }
 				limit = {
 					is_coastal = yes
 					free_building_slots = {
@@ -753,7 +753,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 		completion_reward = {
 		    random_owned_controlled_state = {
-				prioritize = { 273 }
+				prioritize = { 283 }
 				limit = {
 					is_coastal = yes
 					free_building_slots = {
@@ -801,7 +801,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH  }
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 273 }
+				prioritize = { 283 }
 				limit = {
 					is_coastal = yes
 					free_building_slots = {
@@ -848,48 +848,48 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = {  }
 		completion_reward = {
-			448 = {
+			447 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					set_building_level = {
 						type = coastal_bunker
 						level = 5
-						province =7013
+						province =4648
 						instant_build = yes
 					}
 				}
 			}
-			273 = {
+			283 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					set_building_level = {
 						type = coastal_bunker
 						level = 5
-						province =11269
+						province =12406
 						instant_build = yes
 					}
 				}
 			}
-			444 = {
+			521 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					set_building_level = {
 						type = coastal_bunker
 						level = 5
-						province =7213
+						province =7564
 						instant_build = yes
 					}
 					set_building_level = {
 						type = coastal_bunker
 						level = 5
-						province =11651
+						province =7566
 						instant_build = yes
 					}
 				}
 			}
 			random_owned_controlled_state = {
 				limit = { is_in_home_area = yes }
-				prioritize = { 273 }
+				prioritize = { 283 }
 				add_resource = {
 					type = steel
 					amount = 12
@@ -1193,7 +1193,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 273 }
+				prioritize = { 283 }
 				limit = {
 					free_building_slots = {
 						building = arms_factory
