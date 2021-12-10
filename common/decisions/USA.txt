@@ -233,7 +233,7 @@ war_measures = {
 			original_tag = USA
 		}
 		available = {
-			FRA = {has_full_control_of_state = 466}
+			FRA = {has_full_control_of_state = 538}
 		}
 		cost = 10
 		visible = {
@@ -255,7 +255,7 @@ war_measures = {
 					infantry = { x = 2 y = 1 }
 				}
 			}
-			466 = {
+			538 = {
 				for_loop_effect = {
 					end = 20
 					create_unit = {
