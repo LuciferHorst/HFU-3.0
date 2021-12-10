@@ -24,9 +24,10 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 3 
+			build_cost_ic = 2.5 
 			fuel_consumption = 1.5
-			reliability = 0.25
+			reliability = 0.20
+			maximum_speed = 1
 		}
 		multiply_stats = { fuel_consumption = -0.4  }
 	}
@@ -93,9 +94,10 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 3 
+			build_cost_ic = 2.5 
 			fuel_consumption = 1.5
-			reliability = 0.25
+			reliability = 0.20
+			maximum_speed = 1
 		}
 		multiply_stats = {  }
 	}
@@ -161,9 +163,10 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 6
+			build_cost_ic = 5
 			fuel_consumption = 1.5
-			reliability = 0.25
+			reliability = 0.2
+			maximum_speed = 1
 		}
 		multiply_stats = {  fuel_consumption = 1}
 	}
@@ -230,9 +233,10 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			build_cost_ic = 12 
+			build_cost_ic = 10 
 			fuel_consumption = 1.5
-			reliability = 0.25
+			reliability = 0.2
+			maximum_speed = 1
 		}
 		multiply_stats = {  fuel_consumption = 1.5 }
 	}
@@ -291,6 +295,7 @@ tank_gasoline_engine_L = {
 		multiply_stats = {
 			build_cost_ic = -0.05
 			armor_value = -0.1
+			hardness = -0.05
 
 		}
 	}
@@ -308,6 +313,7 @@ tank_gasoline_engine_L = {
 		multiply_stats = {
 			build_cost_ic = 0.05
 			armor_value = 0.5
+			hardness = 0.05
 		}
 	}
 
@@ -445,7 +451,7 @@ tank_gasoline_engine_L = {
 			tank_super_heavy_main_armament = armor
 		}
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 1
 			breakthrough = 10
 		}
 		xp_cost = 0
@@ -470,8 +476,7 @@ tank_gasoline_engine_L = {
 			}
 		}
 		add_stats = {
-			build_cost_ic = 0.8
-			hard_attack = -3
+			build_cost_ic = 1.5
 			breakthrough = 15
 		}
 		xp_cost = 0
@@ -571,7 +576,7 @@ allowed_module_categories = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 3
+			build_cost_ic = 4
 			maximum_speed = -0.25
 			breakthrough = 20
 		}
@@ -668,7 +673,7 @@ allowed_module_categories = {
 		}
 		xp_cost = 0
 		add_stats = {
-			build_cost_ic = 6.75
+			build_cost_ic = 8
 			maximum_speed = -0.25
 			breakthrough = 22
 		}
@@ -727,7 +732,7 @@ allowed_module_categories = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 15
+			build_cost_ic = 18
 			reliability = -0.1
 			maximum_speed = -0.5
 			breakthrough = 35
@@ -1970,6 +1975,7 @@ tank_high_velocity_cannon_m1 = {
 			armor_value = 6
 			breakthrough = 2
 			build_cost_ic = 1.5
+			hardness = 0.05
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -2032,7 +2038,8 @@ tank_high_velocity_cannon_m1 = {
 		add_stats = {
 			soft_attack = 3
 			defense = 1
-			build_cost_ic = 1
+			air_attack = 1.5
+			build_cost_ic = 2
 		}
 		xp_cost = 0
 		multiply_stats = {
