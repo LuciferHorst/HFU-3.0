@@ -200,13 +200,13 @@ country_event = {
 				}
 				add_compliance = GER.collabo
 			}
+			country_event = {id=france.15 days=10}
 		}
 		VEN={transfer_navy = {
 				target = FRA
 				}}
 		FRA = {set_equipment_fraction = 0}
 		FRA = { country_event = {id=france.187 days=10} }
-		GER = { country_event = {id=france.15 days=10} }
 	}
 }
 country_event = {

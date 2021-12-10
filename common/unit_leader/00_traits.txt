@@ -2361,23 +2361,4 @@ leader_traits = {
 			operation_rescue_operative_cost = -0.1
 		}
 	}
-
-	operative_demolition_expert = {
-		type = operative
-		trait_type = basic_trait
-
-		cost = 400
-		gain_xp_leader = {
-			OR = {
-				operative_leader_operation = operation_targeted_sabotage_resources
-			}
-		}
-
-		modifier = {
-			target_sabotage_factor = 0.25
-			boost_resistance_factor = 0.25
-		}
-	}
-
-
 }
