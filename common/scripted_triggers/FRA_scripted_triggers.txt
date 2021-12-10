@@ -229,7 +229,7 @@ FRA_controls_central_africa = {
 			}
 		}
 	}
-	466 = {
+	539= {
 		OR = {
 			is_controlled_by = ROOT
 			CONTROLLER = {

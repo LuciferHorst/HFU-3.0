@@ -195,7 +195,7 @@ FRA_transfer_central_africa_effect = {
 	}
 	if = {
 		limit = {
-			466 = { CONTROLLER = { original_tag = FRA } }
+			539 = { CONTROLLER = { original_tag = FRA } }
 		}
 		transfer_state = 539
 	}

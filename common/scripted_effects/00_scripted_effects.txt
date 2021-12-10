@@ -301,8 +301,6 @@ remove_from_allowed_party = {
 		set_temp_variable = { allowed_party_neutrality = 0 }
 	}
 }
-instantiate_collaboration_government = {
-}
 on_daily = {
 }
 

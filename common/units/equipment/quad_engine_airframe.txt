@@ -124,9 +124,6 @@ equipments = {
     		year = 1950
     		archetype = jet_strat_bomber_equipment
     		priority = 150
-    		can_convert_from = {
-    			jet_strat_bomber_equipment_1_f
-    		}
     		air_range = 7000
     		maximum_speed = 920
     		air_agility = 14

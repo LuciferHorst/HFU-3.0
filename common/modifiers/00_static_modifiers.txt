@@ -57,7 +57,7 @@ weather_sandstorm = { # on Region
 	air_accidents = 0.6
 	naval_strike = -0.9
 	air_bombing_targetting = -1
-	local_org_regain = -0.5
+	local_org_regain = -0.2
 	air_mission_efficiency = -0.5
 }
 
@@ -80,7 +80,7 @@ weather_extreme_cold = { # on Province
 }
 weather_very_cold = { # on Province
 	winter_attrition = 0.2
-	dig_in_speed_factor = -0.3
+	dig_in_speed_factor = -0.1
 
 }
 weather_very_hot = { # on Province
@@ -94,18 +94,18 @@ dont_take_gibraltar = { # on Province
 weather_extreme_hot = { # on Province
 	heat_attrition = 0.2
 	local_org_regain = -0.1
-	supply_consumption_factor = 0.5
+	supply_consumption_factor = 0.1
 	army_attack_factor = -0.05
 }
 weather_ground_snow_medium = { # on Province
-	army_attack_factor = -0.3
-	army_speed_factor = -0.15
-	winter_attrition = 0.25
+	army_attack_factor = -0.1
+	army_speed_factor = -0.125
+	winter_attrition = 0.1
 }
 weather_ground_snow_high = { # on Province
-	army_speed_factor = -0.25
-	army_attack_factor = -0.4
-	winter_attrition = 0.3
+	army_speed_factor = -0.15
+	army_attack_factor = -0.25
+	winter_attrition = 0.2
 }
 
 flooded = { # on Province

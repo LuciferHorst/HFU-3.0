@@ -2210,9 +2210,7 @@ leader_traits = {
 		}
 
 		modifier = {
-			own_operative_detection_chance_factor = -0.1
 			target_sabotage_factor = 0.25
-			target_sabotage_risk = -0.25
 			operation_capture_cipher_outcome = 0.25
 			operation_capture_cipher_risk = -0.25
 		}
@@ -2248,7 +2246,6 @@ leader_traits = {
 				operative_leader_operation = operation_infiltrate_armed_forces_army
 				operative_leader_operation = operation_infiltrate_armed_forces_navy
 				operative_leader_operation = operation_infiltrate_armed_forces_airforce
-				operative_leader_operation = operation_make_resistance_contacts
 			}
 		}
 
@@ -2331,8 +2328,6 @@ leader_traits = {
 
 		modifier = {
 			operation_capture_cipher_outcome = 0.25
-			operation_steal_tech_risk = -0.25
-			operation_steal_tech_outcome = 0.25
 		}
 	}
 
@@ -2366,26 +2361,4 @@ leader_traits = {
 			operation_rescue_operative_cost = -0.1
 		}
 	}
-
-	operative_demolition_expert = {
-		type = operative
-		trait_type = basic_trait
-
-		cost = 400
-		gain_xp_leader = {
-			OR = {
-				operative_leader_operation = operation_targeted_sabotage_industry
-				operative_leader_operation = operation_targeted_sabotage_infrastructure
-				operative_leader_operation = operation_targeted_sabotage_resources
-			}
-		}
-
-		modifier = {
-			target_sabotage_factor = 0.25
-			target_sabotage_cost = -0.25
-			boost_resistance_factor = 0.25
-		}
-	}
-
-
 }
