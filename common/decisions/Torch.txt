@@ -62,11 +62,13 @@ operations = {
 				limit={exists=yes}
 				transfer_state = 461
 				transfer_state = 462
+				transfer_state = 699
 				}
 				else={
 					USA={
 						transfer_state = 461
 						transfer_state = 462
+						transfer_state = 699
 					}
 				}
 			}
