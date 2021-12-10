@@ -1727,37 +1727,42 @@ focus_tree = {
 			add_equipment_to_stockpile = {
                 type = convoy
                 amount = 200
-                    }
+            }
             add_equipment_to_stockpile = {
                 type = artillery_equipment
                 amount = 2000
                 producer = FRA
-                    }
+            }
                 add_equipment_to_stockpile = {
                 type = anti_air_equipment
                 amount = 1000
                 producer = FRA
-                    }
+			}
             add_equipment_to_stockpile = {
                 type = infantry_equipment
                 amount = 35000
                 producer = FRA
-                    }
+            }
             add_equipment_to_stockpile = {
                 type = motorized_equipment
                 amount = 1000
                 producer = FRA
-                    }
+            }
             add_equipment_to_stockpile = {
                 type = anti_tank_equipment
                 amount = 1000
                 producer = FRA
-                    }
+            }
             add_equipment_to_stockpile = {
                 type = support_equipment
                 amount = 500
                 producer = FRA
-                            }
+        	}
+			add_equipment_to_stockpile = {
+				type = train_equipment_1
+				amount = 200
+				producer = FRA
+			}
 		}	
 }	
 	focus = {
