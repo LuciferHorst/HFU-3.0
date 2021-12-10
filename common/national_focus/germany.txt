@@ -2225,7 +2225,7 @@ focus = {
 		y = 1
 		cost = 1
 		available = {
-			NOR_axis=yes
+			controls_state = 110
 		}
 		completion_reward = {
 			ENG = {

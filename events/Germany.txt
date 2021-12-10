@@ -533,7 +533,7 @@ country_event = {
 			transfer_state = 91
 			transfer_state = 97
 			transfer_state = 89
-			transfer_state = 763
+			transfer_state = 784
 			country_event = germany.15 
 		}
 	}
