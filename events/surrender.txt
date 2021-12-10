@@ -37,13 +37,12 @@ country_event = {
 			}
 			if={limit={tag=DEN}USA = { transfer_state = 101}
 				ENG = { transfer_state =  100
-					transfer_state = 304 }
-				GER={set_province_controller=5870}
+					transfer_state = 337 }
+				GER={set_province_controller=6361}
 			}
 			ENG={annex_country={target=ROOT transfer_troops=yes}}
 			if={limit={tag=HOL}
-				ENG={	set_state_controller=287
-					set_state_controller=613
+				ENG={	
 					add_to_faction=INS
 				}
 			}
@@ -59,13 +58,6 @@ country_event = {
 					}
 				}
 				GER={transfer_state=PREV}}
-			FRA={annex_country={target=ROOT transfer_troops=yes}
-				set_state_controller=465
-				set_state_controller=636
-				set_state_controller=282
-				set_state_controller=682
-				set_state_controller=683
-			}
 		}
 		else_if={limit = {
 				OR={tag=POL tag=LUX

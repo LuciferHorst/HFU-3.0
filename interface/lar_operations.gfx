@@ -1,24 +1,13 @@
 spriteTypes = {	
 	### Operation types
 	spriteType = {
-		name = "GFX_operations_boost_resistance"
-		texturefile = "gfx/interface/operations/boost_resistance.dds"
-	}
-	spriteType = {
 		name = "GFX_operations_capture_ciphers"
 		texturefile = "gfx/interface/operations/capture_ciphers.dds"
 	}
-	spriteType = {
-		name = "GFX_operations_collaboration_government"
-		texturefile = "gfx/interface/operations/collaboration_government.dds"
-	}
+	
 	spriteType = {
 		name = "GFX_operations_coordinated_strike"
 		texturefile = "gfx/interface/operations/coordinated_strike.dds"
-	}
-	spriteType = {
-		name = "GFX_operations_coup_government"
-		texturefile = "gfx/interface/operations/coup_government.dds"
 	}
 	spriteType = {
 		name = "GFX_operations_fake_intel"
@@ -39,10 +28,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_operations_infiltrate_civilian_govt"
 		texturefile = "gfx/interface/operations/infiltrate_civilian_govt.dds"
-	}
-	spriteType = {
-		name = "GFX_operations_make_resistance_contacts"
-		texturefile = "gfx/interface/operations/make_resistance_contacts.dds"
 	}
 	spriteType = {
 		name = "GFX_operations_rescue_captured_operative"
@@ -108,24 +93,13 @@ spriteTypes = {
 
 	### Operation types - map icons
 	spriteType = {
-		name = "GFX_operations_boost_resistance_map"
-		texturefile = "gfx/interface/operations/map/boost_resistance_map.dds"
-	}
-	spriteType = {
 		name = "GFX_operations_capture_ciphers_map"
 		texturefile = "gfx/interface/operations/map/capture_ciphers_map.dds"
 	}
-	spriteType = {
-		name = "GFX_operations_collaboration_government_map"
-		texturefile = "gfx/interface/operations/map/collaboration_government_map.dds"
-	}
+	
 	spriteType = {
 		name = "GFX_operations_coordinated_strike_map"
 		texturefile = "gfx/interface/operations/map/coordinated_strike_map.dds"
-	}
-	spriteType = {
-		name = "GFX_operations_coup_government_map"
-		texturefile = "gfx/interface/operations/map/coup_government_map.dds"
 	}
 	spriteType = {
 		name = "GFX_operations_fake_intel_map"
@@ -146,10 +120,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_operations_infiltrate_civilian_govt_map"
 		texturefile = "gfx/interface/operations/map/infiltrate_civilian_govt_map.dds"
-	}
-	spriteType = {
-		name = "GFX_operations_make_resistance_contacts_map"
-		texturefile = "gfx/interface/operations/map/make_resistance_contacts_map.dds"
 	}
 	spriteType = {
 		name = "GFX_operations_rescue_captured_operative_map"
@@ -353,20 +323,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/operations/images/phase_free_operative_smuggle_in_escape_gear.dds"
 	}
 
-	spriteType = { 
-		name = "GFX_phase_collaboration_government_set_up_planning_committees"
-		texturefile = "gfx/interface/operations/images/phase_collaboration_government_set_up_planning_committees.dds"
-	}
-
-	spriteType = { 
-		name = "GFX_phase_collaboration_government_train_paramilitary_forces"
-		texturefile = "gfx/interface/operations/images/phase_collaboration_government_train_paramilitary_forces.dds"
-	}
-
-	spriteType = { 
-		name = "GFX_phase_collaboration_government_contact_military_officers"
-		texturefile = "gfx/interface/operations/images/phase_collaboration_government_contact_military_officers.dds"
-	}
+	
 
 	spriteType = { 
 		name = "GFX_phase_fake_intel_decoy_tanks"
@@ -423,10 +380,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/operations/images/phase_lar_communist_uprising_train_workers_militia.dds"
 	}
 
-	spriteType = { 
-		name = "GFX_phase_lar_fra_coup_pre_position_units"
-		texturefile = "gfx/interface/operations/images/phase_lar_fra_coup_pre_position_units.dds"
-	}
 
 	spriteType = { 
 		name = "GFX_phase_lar_fra_launch_coup"
@@ -708,20 +661,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/operations/phases_small/phase_free_operative_smuggle_in_escape_gear_small.dds"
 	}
 
-	spriteType = { 
-		name = "GFX_phase_collaboration_government_set_up_planning_committees_small"
-		texturefile = "gfx/interface/operations/phases_small/phase_collaboration_government_set_up_planning_committees_small.dds"
-	}
-
-	spriteType = { 
-		name = "GFX_phase_collaboration_government_train_paramilitary_forces_small"
-		texturefile = "gfx/interface/operations/phases_small/phase_collaboration_government_train_paramilitary_forces_small.dds"
-	}
-
-	spriteType = { 
-		name = "GFX_phase_collaboration_government_contact_military_officers_small"
-		texturefile = "gfx/interface/operations/phases_small/phase_collaboration_government_contact_military_officers_small.dds"
-	}
+	
 
 	spriteType = { 
 		name = "GFX_phase_fake_intel_decoy_tanks_small"
@@ -783,14 +723,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/operations/phases_small/phase_lar_communist_uprising_train_workers_militia_small.dds"
 	}
 
-	spriteType = { 
-		name = "GFX_phase_lar_fra_coup_pre_position_units_small"
-		texturefile = "gfx/interface/operations/phases_small/phase_lar_fra_coup_pre_position_units_small.dds"
-	}
-	spriteType = { 
-		name = "GFX_phase_lar_fra_coup_launch_coup_small"
-		texturefile = "gfx/interface/operations/phases_small/phase_lar_fra_launch_coup_small.dds"
-	}
 
 	spriteType = { 
 		name = "GFX_phase_heavy_water_infiltration_small"

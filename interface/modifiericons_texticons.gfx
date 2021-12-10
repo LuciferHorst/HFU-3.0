@@ -1605,11 +1605,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
-	spriteType = {
-		name = "GFX_stage_coup_texticon"
-		texturefile = "gfx/texticons/stage_coup_texticon.dds"
-		legacy_lazy_load = no
-	}
 	
 	spriteType = {
 		name = "GFX_territorial_expansion_texticon"

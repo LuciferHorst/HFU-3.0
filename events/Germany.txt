@@ -11,7 +11,7 @@ country_event = {
 	immediate = {
 	    HUN = {
 			transfer_state = 45
-			transfer_state = 678
+			transfer_state = 764
 		}
 		if = {
 			limit = {country_exists = BUL }
@@ -66,7 +66,7 @@ country_event = {
 			else={ENG={transfer_state=182}}
 			if={
 				limit={
-					187={
+					182={
 						OR= {
 							is_controlled_by = GER
 							is_controlled_by = ITA
@@ -76,9 +76,9 @@ country_event = {
 						}
 					}
 				}
-				transfer_state =187
+				transfer_state =182
 			}
-			else={ENG={transfer_state=187}}
+			else={ENG={transfer_state=182}}
 		}
 	}
 	option = {
@@ -367,31 +367,6 @@ country_event = {
 	}
 }
 country_event = {
-	id = germany.8546
-	title = germany.8546.t
-	desc = germany.8546.d
-	picture = GFX_report_event_german_speech
-	is_triggered_only = yes
-	hidden = yes
-	option = {
-		name = germany.8546.a
-		ROM = {transfer_state = 76}
-			POL = {
-			transfer_state = 63
-			transfer_state = 68
-			transfer_state = 66 
-			transfer_state = 67
-			transfer_state = 5
-			transfer_state = 97
-			}
-			SOV = {transfer_state = 677 transfer_state = 181 transfer_state = 65 transfer_state =60 transfer_state = 64 transfer_state = 61 transfer_state = 4 transfer_state = 62 }
-			ENG = {transfer_state =58 transfer_state =59 transfer_state =57 transfer_state = 56 transfer_state = 51}
-			FRA = {transfer_state = 42}
-			USA = {transfer_state = 52 transfer_state = 53 transfer_state = 54 transfer_state = 55 transfer_state = 50 transfer_state =149 transfer_state =148 }
-		  SOV ={puppet = ROM puppet = HUN puppet = BUL puppet = CZE puppet = POL puppet = YUG puppet = ALB}
-	}
-}
-country_event = {
 	id = germany.5
 	title = germany.5.t
 	desc = germany.5.d
@@ -558,7 +533,7 @@ country_event = {
 			transfer_state = 91
 			transfer_state = 97
 			transfer_state = 89
-			transfer_state = 784
+			transfer_state = 763
 			country_event = germany.15 
 		}
 	}

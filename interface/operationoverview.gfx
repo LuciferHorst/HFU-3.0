@@ -234,10 +234,6 @@ spriteTypes = {
 
 #--- OPERATION ICONS ----
 	
-	spriteType = {
-		name = "GFX_operation_icon"
-		texturefile = "gfx/interface/operations/boost_resistance.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_launch_operation_button_anim"
