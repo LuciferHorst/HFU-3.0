@@ -47,15 +47,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "active_ability"
-			spriteType = "GFX_onmap_unit_counter_active_ability"
-			position = { x=32 y=-11 }
-			alwaystransparent = no
-			orientation = center
-			scale = 0.8
-		}
-
 		iconType ={
 			name ="type"
 			spriteType = "GFX_tiled_window_transparent"

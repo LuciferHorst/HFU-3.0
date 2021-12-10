@@ -18,10 +18,13 @@ state=
 			10007 = {
 				naval_base = 4
 			}
+			7003 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = GRE
 	}
-	provinces={ 10007 }
+	provinces={ 10007 7003 }
 
 	local_supplies=0.0 
 }
