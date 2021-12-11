@@ -15,6 +15,10 @@ spriteTypes = {
 		name = "GFX_button_transparent"
 		texturefile = "gfx/interface/button_transparent.dds"
 	}
+	spriteType = {
+		name = "GFX_tiled_plain_bg_transparent"
+		texturefile = "gfx/interface/tiles/marble_tiled_bg_edges.dds"
+	}
     spriteType = {
         name = "GFX_horst_help2"
         texturefile = "gfx/horst_gui/horsttool/horst_help.dds"

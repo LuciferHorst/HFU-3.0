@@ -105,7 +105,39 @@ guiTypes = {
 			name = "Background"
 			spriteType ="GFX_tiled_plain_bg"
 		}
-
+		containerWindowType = {
+		name ="lobbybackground"
+		position = { x= 15 y = 60 }			
+#		show_position = { x=10% y =15% }
+#		hide_position = { x=10% y =110% }
+#		animation_type = decelerated
+#		animation_time = 1000
+		size = { width = 860 height = 622 }
+		clipping=yes
+		background = {
+			name = "Background"
+				spriteType ="GFX_tiled_window_1b_border"
+				alwaystransparent = yes				
+			}
+			containerWindowType = {
+		name ="lobbybackground2"
+		position = { x= 0 y = 0 }			
+#		show_position = { x=10% y =15% }
+#		hide_position = { x=10% y =110% }
+#		animation_type = decelerated
+#		animation_time = 1000
+		size = { width = 835 height = 606 }
+		clipping=yes
+		iconType ={
+			name ="lobbybackgroundimage"
+			spriteType = "GFX_superevent_custom_flammenwerfer"
+			position = { x=15 y= 5}
+			Orientation = "UPPER_LEFT"
+			scale=1.6
+			alwaystransparent = yes
+		}
+		}
+		}
 		iconType ={
 			name ="player_lobby_header"
 			spriteType = "GFX_player_lobby_header"
@@ -120,7 +152,7 @@ guiTypes = {
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
-			text = "MULTIPLAYER_LOBBY"
+			text = "HFU 3.0 - SERB EDITON"
 			maxWidth = 900
 			maxHeight = 32
 			format = center	
@@ -136,18 +168,18 @@ guiTypes = {
 		
 		containerWindowType = {
 			name ="playerlobby_playerlist"
-			position = { x=0 y = 65 }	
+			position = { x=10 y = 65 }	
 			size = { width = 450 height = -40 }
 			
-			background = {
-				name = "Background"
-				spriteType ="GFX_tiled_window_1b_border"
-				alwaystransparent = yes				
-			}
+			#background = {
+			#	name = "Background"
+			#	spriteType ="GFX_tiled_window_1b_border"
+			#	alwaystransparent = yes				
+			#}
 			
 			containerWindowType = {
 				name ="multiplayer_list_window"
-				position = { x=15 y = 13 }	
+				position = { x=25 y = 13 }	
 				size = { width = 436 height = -12 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 40
@@ -173,11 +205,11 @@ guiTypes = {
 			size = { width = -1 height = -40 }
 			clipping = no
 			
-			background = {
-				name = "Background"
-				spriteType ="GFX_tiled_window_1b_border"
-				alwaystransparent = yes
-			}
+			#background = {
+			#	name = "Background"
+			#	spriteType ="GFX_tiled_window_1b_border"
+			#	alwaystransparent = yes
+			#}
 			
 			containerWindowType = {
 				name ="chatlog_window"
@@ -203,7 +235,7 @@ guiTypes = {
 			containerWindowType = {
 				name ="lobby_chat_edit_bg"
 				position = { x = 13 y = -43 }	
-				size = { width=414 height=32 }
+				size = { width=390 height=32 }
 				orientation = lower_left
 				clipping = no
 				
