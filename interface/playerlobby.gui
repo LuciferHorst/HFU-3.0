@@ -93,7 +93,7 @@ guiTypes = {
 #		hide_position = { x=10% y =110% }
 #		animation_type = decelerated
 #		animation_time = 1000
-		size = { width = 902 height = 50% }
+		size = { width = 902 height = 540 }
 		orientation = center_left
 #		orientation = upper_left		
 		origo = center
@@ -112,7 +112,8 @@ guiTypes = {
 #		hide_position = { x=10% y =110% }
 #		animation_type = decelerated
 #		animation_time = 1000
-		size = { width = 860 height = 622 }
+		max_height = 1440
+		size = { width = 860 height = 444 }
 		clipping=yes
 		background = {
 			name = "Background"
@@ -121,19 +122,15 @@ guiTypes = {
 			}
 			containerWindowType = {
 		name ="lobbybackground2"
-		position = { x= 0 y = 0 }			
-#		show_position = { x=10% y =15% }
-#		hide_position = { x=10% y =110% }
-#		animation_type = decelerated
-#		animation_time = 1000
-		size = { width = 835 height = 606 }
+		position = { x= 0 y = 5 }			
+		size = { width = 846 height = 427 }
 		clipping=yes
 		iconType ={
 			name ="lobbybackgroundimage"
 			spriteType = "GFX_superevent_custom_flammenwerfer"
-			position = { x=15 y= 5}
+			position = { x=13 y= 8}
 			Orientation = "UPPER_LEFT"
-			scale=1.6
+			scale=1.5
 			alwaystransparent = yes
 		}
 		}
@@ -235,7 +232,7 @@ guiTypes = {
 			containerWindowType = {
 				name ="lobby_chat_edit_bg"
 				position = { x = 13 y = -43 }	
-				size = { width=390 height=32 }
+				size = { width=397 height=32 }
 				orientation = lower_left
 				clipping = no
 				
