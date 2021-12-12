@@ -728,6 +728,9 @@ technologies = {
 			building = fuel_silo
 			level = 3
 		}
+		enable_equipment_modules = {
+		external_fuel_tank
+		}
 		path = {
 			leads_to_tech = synth_oil_experiments
 			research_cost_coeff = 1
