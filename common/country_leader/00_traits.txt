@@ -1406,6 +1406,12 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	voice_of_the_people = {
+		sprite = 13
+		stability_factor = 0.15
+		political_power_gain = 0.2
+	}
 	
 	captain_of_industry = {
 		sprite = 10
@@ -2416,6 +2422,20 @@ leader_traits = {
 		}
 	}
 
+	liberty_ships_manufacturer = {
+		random = no
+		equipment_bonus = {
+			light_cruiser = {
+				build_cost_ic = -0.05
+				lg_attack = 0.1
+			}
+			destroyer = {
+				build_cost_ic = -0.05
+				torpedo_attack = 0.2
+			}
+		}
+	}
+
 	atlantic_fleet_naval_manufacturer = { #armored carriers, slightly buffed cap ships
 		random = no
 		equipment_bonus = {
@@ -2486,16 +2506,13 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			carrier = {
-				surface_visibility = -0.07 naval_speed = 0.1 carrier_size = -0.1
+				surface_visibility = -0.07 naval_speed = 0.1 build_cost_ic = 0.05
 			}
 			capital_ship = {
-				surface_visibility = -0.07 naval_speed = 0.1 hg_attack = -0.1
+				surface_visibility = -0.07 naval_speed = 0.1 build_cost_ic = 0.05
 			}
 			screen_ship = {
-				surface_visibility = -0.07 naval_speed = 0.1
-			}
-			submarine = {
-				sub_visibility = -0.07 surface_visibility = -0.07 naval_speed = 0.1
+				surface_visibility = -0.07 naval_speed = 0.1 build_cost_ic = 0.05
 			}
 		}
 

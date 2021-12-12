@@ -310,6 +310,7 @@
  infantry_tank_manufacturer:0 "Infantry Tank Designer"
  armored_car_manufacturer:0 "Armored Car Designer"
  pacific_fleet_naval_manufacturer:0 "Pacific Fleet Designer"
+ liberty_ships_manufacturer:0 "Liberty Ships"
  atlantic_fleet_naval_manufacturer:0 "Atlantic Fleet Designer"
  med_fleet_naval_manufacturer:0 "Mediterrenean Fleet Designer"
  raiding_fleet_naval_manufacturer:0 "Raiding Fleet Designer"
@@ -762,3 +763,4 @@
  industrial_genius:0 "Industrial Genius"
  infrastructure_expert:0 "Infrastructure Expert"
  macro_fanatic:0 "Macro Fanatic"
+ voice_of_the_people:0 "Voice Of The People"
