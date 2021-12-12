@@ -2046,4 +2046,18 @@ tank_high_velocity_cannon_m1 = {
 			
 		}
 	}
+	external_fuel_tank = {
+		abbreviation = "mg"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hardness = -0.025
+			fuel_capacity=  200
+		}
+		xp_cost = 0
+		multiply_stats = {
+			
+		}
+	}
 }
