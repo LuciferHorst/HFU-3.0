@@ -420,6 +420,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_EMI_external_fuel_tank"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fuel_tank_icn.dds"
+		legacy_lazy_load = no
+	}
 	
 	spriteType = {
 		name = "GFX_EMI_flamethrower"

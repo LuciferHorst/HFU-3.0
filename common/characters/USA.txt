@@ -1407,7 +1407,6 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus  = USA_reach_out_to_the_ware_group 
 				}
 			}
 			visible  = {
@@ -1442,15 +1441,15 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				has_completed_focus = USA_voice_of_the_people
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
 			}
 			traits  = {
-				editor 
+				voice_of_the_people 
 			}
-			cost  = 50.000
+			cost  = 100
 			do_effect  = {
 			}
 			ai_will_do  = {
@@ -1478,15 +1477,15 @@ characters={
 				original_tag  = USA
 			}
 			available  = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				has_completed_focus = USA_appoint_regnery
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
 			}
 			traits  = {
-				industrial_genius 
+				captain_of_industry 
 			}
-			cost  = 50.000
+			cost  = 100
 			do_effect  = {
 			}
 			ai_will_do  = {
@@ -1602,10 +1601,14 @@ characters={
 			}
 		}
 		advisor={
+			cost = 75 
 			slot = political_advisor
 			idea_token = USA_robert_taft
 			allowed  = {
 				original_tag  = USA
+			}
+			available = {
+				has_completed_focus = USA_invite_robert_taft
 			}
 			traits  = {
 				silent_workhorse 
@@ -1678,13 +1681,14 @@ characters={
 			}
 		}
 		advisor={
+			cost = 150
 			slot = political_advisor
 			idea_token = USA_henry_morgenthau
 			allowed  = {
 				original_tag  = USA
 			}
 			traits  = {
-				financial_expert 
+				industrial_genius 
 			}
 		}
 	}

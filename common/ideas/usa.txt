@@ -27,6 +27,15 @@ ideas = {
 			}
 			removal_cost = -1
 		}
+		USA_navy_speed ={
+			allowed = {
+				original_tag = USA
+			}
+			picture = GFX_goal_generic_navy_battleship
+
+			research_bonus = { naval_equipment = 0.1 }
+			removal_cost = -1
+		}
 		USA_war_time={
 			allowed = {
 				original_tag = ENG
@@ -155,7 +164,6 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.1
 				production_speed_infrastructure_factor = 0.2
 				stability_factor = 0.10
 			}
@@ -170,10 +178,44 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.05
-				production_speed_industrial_complex_factor = 0.5
-				production_speed_infrastructure_factor = 0.2
-				stability_factor = 0.10
+				production_speed_industrial_complex_factor = 0.075
+			}
+		}
+		USA_stability = {
+			picture = generic_war_preparation
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_weekly = 0.01
+			}
+		}
+		USA_ford_motor_company = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			research_bonus = { industry = 0.15 }
+		}
+		USA_amend_the_budget = {
+			picture = home_of_the_free_2
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
 			}
 		}
 		USA_war_plans_1 = {
@@ -270,10 +312,13 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				political_power_cost = 1
-				consumer_goods_factor = 0.3
-				industrial_capacity_factory = -0.2
-				industrial_capacity_dockyard = -0.2
+				political_power_cost = 0.9
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_industrial_complex_factor = 0.3
+				production_speed_dockyard_factor = -0.6
+				production_speed_arms_factory_factor = -0.6
 			}
 		}
 		great_depression_2 = {
@@ -286,10 +331,13 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				political_power_cost = 0.65
-				consumer_goods_factor = 0.25
-				industrial_capacity_factory = -0.15
-				industrial_capacity_dockyard = -0.15
+				political_power_cost = 0.6
+				consumer_goods_factor = 0.025
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_dockyard_factor = -0.4
+				production_speed_arms_factory_factor = -0.4
 			}
 		}
 		great_depression_3 = {
@@ -302,10 +350,79 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				political_power_cost = 0.25
-				consumer_goods_factor = 0.175
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
+				political_power_cost = 0.3
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_dockyard_factor = -0.2
+				production_speed_arms_factory_factor = -0.2
+			}
+		}
+		USA_bigger_wages = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_weekly = 0.005
+				research_speed_factor = 0.20
+			}
+		}
+		USA_set_for_life = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.20
+				research_speed_factor = -0.1
+			}
+		}
+		USA_shipyard_expansion = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_dockyard_factor = 0.15
+				production_speed_arms_factory_factor = -0.05
+			}
+		}
+		USA_foreign_scientists = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		USA_reform_the_bureaucracy = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 2
 			}
 		}
 		USA_limited_intervention = {
@@ -509,7 +626,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				refit_speed = 0.1
+				refit_speed = 0.25
 				repair_speed_factor = 0.1
 			}
 		}
@@ -792,19 +909,19 @@ ideas = {
 			}
 			equipment_bonus = {
 				ship_hull_heavy = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				ship_hull_carrier = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				ship_hull_cruiser = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				ship_hull_light = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				ship_hull_submarine = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 			}
 		}
@@ -1684,12 +1801,15 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
+			available = {
+				has_completed_focus = USA_liberty_ships
+			}
 			cost = 100
 			research_bonus = {
 				naval_equipment = 0.15
 			}
-			traits = { coastal_defence_naval_manufacturer }
 			modifier = { naval_manufacturer_cost_factor = -1 }
+			traits = { liberty_ships_manufacturer }
 		}
 		electric_boat_company = {
 			allowed = {
