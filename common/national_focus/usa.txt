@@ -716,6 +716,7 @@ focus_tree = {
 					}
 			}
 		}
+		add_ideas = civilian_economy
 
 	}
 }
