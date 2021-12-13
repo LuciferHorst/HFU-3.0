@@ -3244,5 +3244,9 @@ SpriteTypes = {
 		name = "GFX_focus_USA_eco_law_1"
 		texturefile = "gfx/interface/goals/usa/USA_eco_law_1.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_USA_appoint_regnery"
+		texturefile = "gfx/interface/goals/usa/USA_appoint_regnery.dds"
+	}
 
 }
