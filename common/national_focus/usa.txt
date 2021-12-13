@@ -1422,7 +1422,7 @@ swap_ideas = {
 		cost = 10
 		#search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
-
+          add_ideas = war_preparation
 		}
 	}
 

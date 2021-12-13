@@ -96,7 +96,7 @@ USA_congress = {
 				check_variable = { representatives_support < representatives_total }
 			}
 		}
-		cost = 50
+		cost = 20
 		ai_will_do = {
 			factor = 100
 			modifier = {
@@ -133,27 +133,6 @@ USA_congress = {
 			USA_congress_small_support = yes
 		}
 	}
-	USA_amend_the_budget = {
-		icon = ger_mefo_bills
-		available = {
-			congress_medium_support_trigger = yes
-		}
-		visible = {has_government = democratic }
-		cost = 25
-		days_remove = 90
-		days_re_enable = 275
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				congress_low_support_trigger = yes
-				factor = 0
-			}
-		}
-		modifier = { consumer_goods_factor = -0.05 }
-		remove_effect = {
-			USA_congress_medium_opposition = yes
-		}
-	}
 	USA_research_grants = {
 		icon = ger_mefo_bills
 		available = {
@@ -161,7 +140,7 @@ USA_congress = {
 		}
 		visible = {has_government = democratic }
 		cost = 25
-		days_remove = 90
+		days_remove = 180
 		days_re_enable = 275
 		ai_will_do = {
 			factor = 1
