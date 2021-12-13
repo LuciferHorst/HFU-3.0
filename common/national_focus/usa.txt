@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_healthcare_act
-		icon = GFX_focus_generic_self_management
+		icon = GFX_focus_USA_national_healthcare
 		available = {
 		}
 		available_if_capitulated = yes
@@ -31,6 +31,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_develop_the_steel_belt
+		icon = GFX_focus_generic_construct_infrastructure2
 		relative_position_id = USA_healthcare_act
 		prerequisite = { focus = USA_healthcare_act }
 		available = {
@@ -67,6 +68,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_second_new_deal
+		icon = GFX_focus_USA_second_new_deal
 		relative_position_id = USA_healthcare_act
 		prerequisite = { focus = USA_healthcare_act }
 		available = {
@@ -101,6 +103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_philipino_workers
+		icon = GFX_focus_USA_philipino_workers
 		relative_position_id = USA_healthcare_act
 		prerequisite = { focus = USA_healthcare_act }
 		mutually_exclusive = { focus = USA_USACE_projects }
@@ -149,6 +152,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_colonial_development
+		icon = GFX_focus_USA_colonial_development
 		relative_position_id = USA_philipino_workers
 		prerequisite = { focus = USA_philipino_workers }
 		available = {
@@ -195,6 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_appease_the_people
+		icon = GFX_focus_USA_appease_the_people
 		relative_position_id = USA_wpa
 		prerequisite = { focus = USA_wpa }
 		available = {
@@ -210,6 +215,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_invite_robert_taft
+		icon = GFX_focus_USA_invite_robert
 		relative_position_id = USA_amend_the_budget_focus
 		prerequisite = { focus = USA_amend_the_budget_focus }
 		available = {
@@ -261,6 +267,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_new_reforms
+		icon = GFX_focus_USA_new_reforms
 		available = {
 		}
 		available_if_capitulated = yes
@@ -314,6 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_industrial_expansion
+		icon = GFX_focus_USA_industrial_expansion
 		relative_position_id = USA_new_reforms
 		prerequisite = { focus = USA_new_reforms }
 		mutually_exclusive = { focus = USA_factorio }
@@ -345,6 +353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_roosevelt_highway
+		icon = GFX_focus_USA_highway
 		relative_position_id = USA_USACE_projects
 		prerequisite = { focus = USA_USACE_projects }
 		available = {
@@ -394,6 +403,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_congress_support
+		icon = GFX_focus_USA_the_congress_support
 		relative_position_id = USA_industrial_expansion
 		prerequisite = { focus = USA_industrial_expansion }
 		available = {
@@ -410,6 +420,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ford_motor_company_focus
+		icon = GFX_focus_USA_ford_motor_company
 		relative_position_id = USA_roosevelt_highway
 		prerequisite = { focus = USA_roosevelt_highway }
 		available = {
@@ -425,6 +436,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_bigger_shipyards
+		icon = GFX_focus_USA_expand_shipyards
 		relative_position_id = USA_congress_support
 		prerequisite = { focus = USA_congress_support }
 		available = {
@@ -456,6 +468,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_factorio
+		icon = GFX_focus_USA_factorio
 		relative_position_id = USA_appoint_regnery
 		prerequisite = { focus = USA_appoint_regnery }
 		mutually_exclusive = { focus = USA_industrial_expansion }
@@ -472,6 +485,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_national_security
+		icon = GFX_focus_USA_national_security
 		relative_position_id = USA_appoint_regnery
 		prerequisite = { focus = USA_appoint_regnery }
 		available = {
@@ -490,6 +504,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_voice_of_the_people
+		icon = GFX_focus_USA_voice_of_the_people
 		relative_position_id = USA_appoint_regnery
 		prerequisite = { focus = USA_appoint_regnery }
 		available = {
@@ -595,6 +610,7 @@ swap_ideas = {
 	}
 	focus = {
 		id = USA_scientists_abroad
+		icon = GFX_focus_USA_scientist_abroad
 		relative_position_id = USA_fair_labour_standards_act
 		prerequisite = { focus = USA_labour focus = USA_fair_labour_standards_act }
 		available = {
@@ -611,6 +627,7 @@ swap_ideas = {
 	}
 	focus = {
 		id = USA_am_works
+		icon = GFX_focus_USA_am_works
 		relative_position_id = USA_fair_labour_standards_act
 		prerequisite = { focus = USA_fair_labour_standards_act focus = USA_extra_research_slot }
 		available = {
@@ -685,6 +702,7 @@ swap_ideas = {
 
 	focus = {
 		id = USA_25
+		icon = GFX_focus_USA_eco_law_1
 		relative_position_id = USA_colonial_development
 		prerequisite = { focus = USA_agricultural_adjustment_act focus = USA_colonial_development focus = USA_ford_motor_company_focus }
 		available = {
@@ -718,6 +736,66 @@ swap_ideas = {
 		}
 		add_ideas = isolation
 
+	}
+}
+focus = {
+	id = USA_lend_lease_act
+	icon = GFX_focus_generic_treaty
+	x = 2
+	y = 1
+	prerequisite = { focus = USA_25 }
+	relative_position_id = USA_25
+	cost = 5
+	available = {
+		date > 1940.7.1
+		ENG = { has_country_leader =  {
+			name = "Winston Churchill"
+			ruling_only = yes
+		}}
+	}
+	completion_reward = {
+		remove_ideas = USA_neutrality_act
+		ENG = {
+			add_offsite_building = { type = industrial_complex level = 10 }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10000 producer = USA }
+			add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 300 producer = USA }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = USA }
+			country_event = { id = wtt_britain.30 }
+		}
+	}
+}
+	focus = {
+	id = USA_destroyers_for_bases
+	icon = GFX_focus_USA_destroyers_for_bases
+	prerequisite = { focus = USA_25 }
+	available = {
+		ENG = {
+			has_war = yes
+		}
+	}
+	bypass = {
+		NOT = { 696 = { is_controlled_by = ENG } }
+		NOT = { 690 = { is_controlled_by = ENG } }
+		NOT = { 693 = { is_controlled_by = ENG } }
+		NOT = { 689 = { is_controlled_by = ENG } }
+		ENG = { exists = no }
+	}
+	x = -2
+	y = 1
+	relative_position_id = USA_25
+	cost = 1
+	completion_reward = {
+		ENG = {
+			custom_effect_tooltip = needs_approval
+			country_event = { id = usa.4 days = 1 }
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = USA_destroyers_for_bases_tt
+			transfer_state = 696
+			transfer_state = 690
+			transfer_state = 693
+			transfer_state = 689
+		}
 	}
 }
 	focus = {
@@ -773,6 +851,7 @@ swap_ideas = {
 	}
 	focus = {
 		id = USA_income_tax_assesment_act
+		icon = GFX_focus_USA_income_tax
 		relative_position_id = USA_appease_the_people
 		prerequisite = { focus = USA_appease_the_people focus = USA_agricultural_adjustment_act }
 		available = {
@@ -1357,6 +1436,7 @@ swap_ideas = {
 
 	focus = {
 		id = USA_new_construction_tools
+		icon = GFX_focus_USA_new_construction_tools
 		relative_position_id = USA_labour
 		prerequisite = { focus = USA_labour }
 		available = {
@@ -1377,6 +1457,7 @@ swap_ideas = {
 	}
 	focus = {
 		id = USA_adapt_modern_solutions
+		icon = GFX_focus_USA_simplify_production
 		relative_position_id = USA_extra_research_slot
 		prerequisite = { focus = USA_extra_research_slot }
 		available = {
@@ -1401,12 +1482,6 @@ swap_ideas = {
 			}
 		}
 	}
-
-
-
-
-
-
 	focus = {
 		id = USA_american_dream
 		icon = GFX_USA_our_america_our_problems
@@ -1425,7 +1500,6 @@ swap_ideas = {
           add_ideas = war_preparation
 		}
 	}
-
 	focus = {
 		id = USA_office_of_strategic_services
 		icon = GFX_goal_generic_major_war

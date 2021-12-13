@@ -3155,4 +3155,94 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/sov/SOV_open_old_stockpiles.dds"
 	}
 
+	#USA
+	SpriteType = {
+		name = "GFX_focus_USA_appease_the_people"
+		texturefile = "gfx/interface/goals/usa/USA_appease_the_people.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_colonial_development"
+		texturefile = "gfx/interface/goals/usa/USA_colonial_development.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_destroyers_for_bases"
+		texturefile = "gfx/interface/goals/usa/USA_destroyers_for_bases.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_expand_shipyards"
+		texturefile = "gfx/interface/goals/usa/USA_expand_shipyards.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_factorio"
+		texturefile = "gfx/interface/goals/usa/USA_factorio.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_ford_motor_company"
+		texturefile = "gfx/interface/goals/usa/USA_ford_motor_company.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_am_works"
+		texturefile = "gfx/interface/goals/usa/USA_am_works.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_highway"
+		texturefile = "gfx/interface/goals/usa/USA_highway.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_income_tax"
+		texturefile = "gfx/interface/goals/usa/USA_income_tax.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_industrial_expansion"
+		texturefile = "gfx/interface/goals/usa/USA_industrial_expansion.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_invite_robert"
+		texturefile = "gfx/interface/goals/usa/USA_invite_robert.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_national_healthcare"
+		texturefile = "gfx/interface/goals/usa/USA_national_healthcare.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_national_security"
+		texturefile = "gfx/interface/goals/usa/USA_national_security.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_new_construction_tools"
+		texturefile = "gfx/interface/goals/usa/USA_new_construction_tools.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_new_reforms"
+		texturefile = "gfx/interface/goals/usa/USA_new_reforms.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_philipino_workers"
+		texturefile = "gfx/interface/goals/usa/USA_philipino_workers.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_scientist_abroad"
+		texturefile = "gfx/interface/goals/usa/USA_scientist_abroad.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_second_new_deal"
+		texturefile = "gfx/interface/goals/usa/USA_second_new_deal.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_simplify_production"
+		texturefile = "gfx/interface/goals/usa/USA_simplify_production.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_the_congress_support"
+		texturefile = "gfx/interface/goals/usa/USA_the_congress_support.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_voice_of_the_people"
+		texturefile = "gfx/interface/goals/usa/USA_voice_of_the_people.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_USA_eco_law_1"
+		texturefile = "gfx/interface/goals/usa/USA_eco_law_1.dds"
+	}
+
 }
