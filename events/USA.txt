@@ -494,8 +494,6 @@ country_event = {
 					factor = 0
 				}
 				modifier = {
-					has_completed_focus = USA_military_construction
-					factor = 2
 				}
 				modifier = {
 					NOT = { has_completed_focus = USA_the_giant_wakes }

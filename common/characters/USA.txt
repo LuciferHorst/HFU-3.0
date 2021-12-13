@@ -66,12 +66,6 @@ characters={
 					}
 					NOT  = {
 						focus_progress  = {
-							focus  = USA_neutrality_act 
-							progress > 0.000
-						}
-					}
-					NOT  = {
-						focus_progress  = {
 							focus  = USA_limited_intervention 
 							progress > 0.000
 						}

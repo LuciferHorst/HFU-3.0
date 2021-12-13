@@ -1347,7 +1347,7 @@ ideas = {
 				original_tag = "USA"
 			}
 			available = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				
 			}
 			visible = { has_dlc = "Man the Guns" }
 			traits = { technocrat }
@@ -1367,7 +1367,7 @@ ideas = {
 				has_government = communism
 			}
 			available = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				
 			}
 			visible = { has_dlc = "Man the Guns" }
 			traits = { editor }
@@ -1384,7 +1384,7 @@ ideas = {
 				original_tag = "USA"
 			}
 			available = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				
 			}
 			visible = { has_dlc = "Man the Guns" }
 			traits = { industrial_genius }
@@ -1400,7 +1400,7 @@ ideas = {
 				original_tag = "USA"
 			}
 			available = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				
 			}
 			traits = { democratic_reformer }
 			cost = 50
@@ -1432,7 +1432,7 @@ ideas = {
 		USA_henry_stimson = {
 			picture = generic_political_advisor_europe_2
 			available = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				
 			}
 			allowed = {
 				original_tag = USA
@@ -1442,7 +1442,7 @@ ideas = {
 		USA_donald_nelson = {
 			picture = generic_political_advisor_europe_3
 			available = {
-				has_completed_focus = USA_reach_out_to_the_ware_group
+				
 			}
 			allowed = {
 				original_tag = USA
