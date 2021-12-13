@@ -4,6 +4,15 @@
  confirm_cancel_national_focus_desc:0 "Are you sure you want to cancel the national focus §H$FOCUS_NAME$§!?"
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
 
+ #NEW JAPAN FOCUSES
+ JAP_resource_extraction:0 "Resource Extraction"
+ JAP_temporary_civilian_investment:0 "Temporary Civilian Investment"
+ JAP_kanto_steel_works:0 "Kanto Steel Works"
+ JAP_american_trade:0 "American Trade"
+ JAP_labour:0 "Increased Labour"
+ JAP_japanese_railways:0 "Japanese Railways"
+
+ #NEW USA FOCUSES
  USA_a_call_to_arms:0 "A Call To Arms"
  USA_new_construction_tools:0 "New Construction Tools"
  USA_adapt_modern_solutions:0 "Simplify Production"
@@ -67,6 +76,7 @@
  ITA_doc_tt:0 "§R For every State that has Level 10 Infrastructure you get 2 mils (for every core state) §!"
  USA_doc_tt:0 "§R For every State that has Level 10 Infrastructure you get 1 civ (for every core state) §!"
  USA_call_tt:0 "If you completed the focus §R Colonial Development §! you will get 6 civs total in the two Philipino states."
+ JAP_trade_tt:0 "This idea will be removed when you declare war on the United States."
  GER_h_class_tt:0 " "
  army_effort:0 "Army Effort"
  SOV_heavy_tonk:0 "Opytniy Konstruktorsko-Mekhanicheskiy Otdel"

@@ -1417,6 +1417,14 @@ leader_traits = {
 		}
 	}
 
+	colonial_governor = {
+		sprite = 10
+		local_resources_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	voice_of_the_people = {
 		sprite = 13
 		stability_factor = 0.15

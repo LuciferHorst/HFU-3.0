@@ -1,6 +1,12 @@
 ﻿l_english:
  SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
 
+ JAP_economy_law:0 "Civilian Administration"
+ JAP_industrial_research:0 "Experience From Our Colonies"
+ JAP_american_trade:0 "American Trade"
+ JAP_consumer_goods:0 "Civilian Funding"
+
+
  USA_shipyard_expansion:0 "Shipyard Expansion"
  USA_foreign_scientists:0 "Foreign Scientists"
  USA_set_for_life:0 "Set Up For Life"
@@ -10,6 +16,7 @@
  USA_amend_the_budget: "Amend The Budget"
  USA_stability:0 "Pre-War Propaganda"
  USA_navy_speed:0 "Fund The Navy" 
+
  ITA_social_republic:0 "Credere, Obbedire, Combattere"
  ITA_hitler_rome:0 "Hitler Visits Rome"
  ITA_manpower:0 "Blackshirts"
