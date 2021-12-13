@@ -135,7 +135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_scientist_haven
-		icon = GFX_focus_research
+		icon = GFX_focus_research2
 		relative_position_id = USA_develop_the_steel_belt
 		prerequisite = { focus = USA_develop_the_steel_belt }
 		available = {
@@ -415,7 +415,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			USA_congress_medium_support = yes
-			add_political_power = 50
+			add_political_power = 75
 		}
 	}
 	focus = {
@@ -453,7 +453,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_appoint_regnery
-
+		icon = GFX_focus_USA_appoint_regnery
 		available = {
 		}
 		available_if_capitulated = yes
