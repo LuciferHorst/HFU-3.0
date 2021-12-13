@@ -238,24 +238,24 @@ focus_tree = {
 		cost = 10
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+						#IF YOU DID IT TWICE
+						if = { limit = { has_idea = great_depression_3 }
+						remove_ideas = great_depression_3
+					}
+								#IF YOU DID IT ONCE
+			if = { limit = { has_idea = great_depression_2 }
+			swap_ideas = {
+				remove_idea = great_depression_2
+				add_idea = great_depression_3
+			}
+		}
 			#IF YOU DIDN'T REMOVE DEPRESSION AT ALL
 			if = { limit = { has_idea = great_depression }
-				swap_ideas = {
+			swap_ideas = {
 					remove_idea = great_depression
 					add_idea = great_depression_2
-				}
 			}
-			#IF YOU DID IT ONCE
-			if = { limit = { has_idea = great_depression_2 }
-				swap_ideas = {
-					remove_idea = great_depression_2
-					add_idea = great_depression_3
-				}
 			}
-			#IF YOU DID IT TWICE
-			if = { limit = { has_idea = great_depression_3 }
-					remove_ideas = great_depression_3
-				}
 		}
 	}
 
@@ -557,25 +557,25 @@ focus_tree = {
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			#IF YOU DIDN'T REMOVE DEPRESSION AT ALL
-			if = { limit = { has_idea = great_depression }
-			swap_ideas = {
-				remove_idea = great_depression
-				add_idea = great_depression_2
-				}
-			}
-			#IF YOU DID IT ONCE
-			if = { limit = { has_idea = great_depression_2 }
-			swap_ideas = {
-				remove_idea = great_depression_2
-				add_idea = great_depression_3
-				}
-			}
 			#IF YOU DID IT TWICE
 			if = { limit = { has_idea = great_depression_3 }
-				remove_ideas = great_depression_3
-			}
+			remove_ideas = great_depression_3
 		}
+					#IF YOU DID IT ONCE
+if = { limit = { has_idea = great_depression_2 }
+swap_ideas = {
+	remove_idea = great_depression_2
+	add_idea = great_depression_3
+}
+}
+#IF YOU DIDN'T REMOVE DEPRESSION AT ALL
+if = { limit = { has_idea = great_depression }
+swap_ideas = {
+		remove_idea = great_depression
+		add_idea = great_depression_2
+}
+}
+}
 	}
 	focus = {
 		id = USA_extra_research_slot
@@ -662,25 +662,25 @@ focus_tree = {
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			#IF YOU DIDN'T REMOVE DEPRESSION AT ALL
-			if = { limit = { has_idea = great_depression }
-			swap_ideas = {
-				remove_idea = great_depression
-				add_idea = great_depression_2
-				}
-			}
-			#IF YOU DID IT ONCE
-			if = { limit = { has_idea = great_depression_2 }
-			swap_ideas = {
-				remove_idea = great_depression_2
-				add_idea = great_depression_3
-				}
-			}
 			#IF YOU DID IT TWICE
 			if = { limit = { has_idea = great_depression_3 }
-				remove_ideas = great_depression_3
-			}
+			remove_ideas = great_depression_3
 		}
+					#IF YOU DID IT ONCE
+if = { limit = { has_idea = great_depression_2 }
+swap_ideas = {
+	remove_idea = great_depression_2
+	add_idea = great_depression_3
+}
+}
+#IF YOU DIDN'T REMOVE DEPRESSION AT ALL
+if = { limit = { has_idea = great_depression }
+swap_ideas = {
+		remove_idea = great_depression
+		add_idea = great_depression_2
+}
+}
+}
 	}
 
 	focus = {
