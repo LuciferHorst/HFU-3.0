@@ -529,7 +529,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		x = -2
 		y = 1
-		cost = 7.2
+		cost = 5
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 		378 = {
@@ -701,19 +701,20 @@ swap_ideas = {
 	}
 
 	focus = {
-		id = USA_25
+		id = USA_a_call_to_arms
 		icon = GFX_focus_USA_eco_law_1
 		relative_position_id = USA_colonial_development
 		prerequisite = { focus = USA_agricultural_adjustment_act focus = USA_colonial_development focus = USA_ford_motor_company_focus }
 		available = {
-			date > 1938.1.1
+			date > 1938.3.1
 		}
 		available_if_capitulated = yes
 		x = 0
 		y = 2
 		cost = 10
-		#search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			custom_effect_tooltip = USA_call_tt
 			hidden_effect = {
 				if = { limit = { has_completed_focus = USA_colonial_development }
 				627 = {
@@ -743,8 +744,8 @@ focus = {
 	icon = GFX_focus_generic_treaty
 	x = 2
 	y = 1
-	prerequisite = { focus = USA_25 }
-	relative_position_id = USA_25
+	prerequisite = { focus = USA_a_call_to_arms }
+	relative_position_id = USA_a_call_to_arms
 	cost = 5
 	available = {
 		date > 1940.7.1
@@ -767,7 +768,7 @@ focus = {
 	focus = {
 	id = USA_destroyers_for_bases
 	icon = GFX_focus_USA_destroyers_for_bases
-	prerequisite = { focus = USA_25 }
+	prerequisite = { focus = USA_a_call_to_arms }
 	available = {
 		ENG = {
 			has_war = yes
@@ -782,7 +783,7 @@ focus = {
 	}
 	x = -2
 	y = 1
-	relative_position_id = USA_25
+	relative_position_id = USA_a_call_to_arms
 	cost = 1
 	completion_reward = {
 		ENG = {
@@ -1485,8 +1486,8 @@ focus = {
 	focus = {
 		id = USA_american_dream
 		icon = GFX_USA_our_america_our_problems
-		relative_position_id = USA_25
-		prerequisite = { focus = USA_25 }
+		relative_position_id = USA_a_call_to_arms
+		prerequisite = { focus = USA_a_call_to_arms }
 		prerequisite = { focus = USA_income_tax_assesment_act }
 		prerequisite = { focus = USA_administration }
 		available = {

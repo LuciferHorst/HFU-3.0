@@ -4,6 +4,7 @@
  confirm_cancel_national_focus_desc:0 "Are you sure you want to cancel the national focus §H$FOCUS_NAME$§!?"
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
 
+ USA_a_call_to_arms:0 "A Call To Arms"
  USA_new_construction_tools:0 "New Construction Tools"
  USA_adapt_modern_solutions:0 "Simplify Production"
  USA_healthcare_act:0 "National Health Insurance Law"
@@ -65,6 +66,7 @@
  SOV_doc_tt:0 "§RTHIS FOCUS WILL SWITCH YOUR DOCTRINE TO MW. DONT FORGET THAT MW NEEDS 20% MORE INFANTRY/ ARTILLERY EQUIPMENT.§!"
  ITA_doc_tt:0 "§R For every State that has Level 10 Infrastructure you get 2 mils (for every core state) §!"
  USA_doc_tt:0 "§R For every State that has Level 10 Infrastructure you get 1 civ (for every core state) §!"
+ USA_call_tt:0 "If you completed the focus §R Colonial Development §! you will get 6 civs total in the two Philipino states."
  GER_h_class_tt:0 " "
  army_effort:0 "Army Effort"
  SOV_heavy_tonk:0 "Opytniy Konstruktorsko-Mekhanicheskiy Otdel"

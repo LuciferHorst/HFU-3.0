@@ -118,7 +118,6 @@ USA_congress = {
 				check_variable = { representatives_support < representatives_total }
 			}
 		}
-		visible = { has_completed_focus = USA_agricultural_adjustment_act }
 		cost = 0
 		ai_will_do = {
 			factor = 1
@@ -127,8 +126,8 @@ USA_congress = {
 				factor = 0
 			}
 		}
-		days_remove = 90
-		modifier = { consumer_goods_factor = 0.03 }
+		days_remove = 60
+		modifier = { consumer_goods_factor = 0.01 }
 		remove_effect = {
 			USA_congress_small_support = yes
 		}
