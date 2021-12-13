@@ -238,26 +238,26 @@ focus_tree = {
 		cost = 10
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-						#IF YOU DID IT TWICE
-						if = { limit = { has_idea = great_depression_3 }
-						remove_ideas = great_depression_3
-					}
-								#IF YOU DID IT ONCE
-			if = { limit = { has_idea = great_depression_2 }
+		#IF YOU DID IT TWICE
+		if = { limit = { has_idea = great_depression_3 }
+				remove_ideas = great_depression_3
+		}
+		#IF YOU DID IT ONCE
+		if = { limit = { has_idea = great_depression_2 }
 			swap_ideas = {
-				remove_idea = great_depression_2
-				add_idea = great_depression_3
+			remove_idea = great_depression_2
+			add_idea = great_depression_3
 			}
 		}
-			#IF YOU DIDN'T REMOVE DEPRESSION AT ALL
-			if = { limit = { has_idea = great_depression }
+		#IF YOU DIDN'T REMOVE DEPRESSION AT ALL
+		if = { limit = { has_idea = great_depression }
 			swap_ideas = {
-					remove_idea = great_depression
-					add_idea = great_depression_2
-			}
+			remove_idea = great_depression
+			add_idea = great_depression_2
 			}
 		}
 	}
+}
 
 	focus = {
 		id = USA_new_reforms
@@ -802,7 +802,7 @@ swap_ideas = {
 		available = {
 		}
 		available_if_capitulated = yes
-		x = 23
+		x = 27
 		y = 0
 		cost = 5
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
@@ -811,17 +811,35 @@ swap_ideas = {
 		}
 	}
 	focus = {
-		id = USA_support_rock_island
-        icon = GFX_goal_generic_army_artillery
-        x = -4
+		id = USA_louisiana_maneuvers
+        icon = GFX_goal_generic_cavalry
+        x = -6
         y = 1
+        prerequisite = { focus = USA_selective_training_act }
         relative_position_id = USA_selective_training_act
         cost = 5
-        prerequisite = { focus = USA_selective_training_act }
-        ai_will_do = {
-            factor = 5
+		search_filters = { FOCUS_FILTER_RESEARCH }
+        available = {
         }
-        available_if_capitulated = yes
+        completion_reward = {
+            army_experience = 100
+            add_tech_bonus = {
+                name = USA_louisiana_maneuvers
+                bonus = 1.0
+                uses = 3
+                category = land_doctrine
+            }
+        }
+	}
+	focus = {
+		id = USA_support_rock_island
+        icon = GFX_goal_generic_army_artillery
+        x = -1
+        y = 1
+        relative_position_id = USA_louisiana_maneuvers
+        cost = 5
+        prerequisite = { focus = USA_louisiana_maneuvers }
+        search_filters = { FOCUS_FILTER_RESEARCH }
         completion_reward = {
             add_tech_bonus = {
                 name = USA_support_rock_island
@@ -845,7 +863,7 @@ swap_ideas = {
         cost = 5
         prerequisite = { focus = USA_selective_training_act }
         relative_position_id = USA_selective_training_act
-        available_if_capitulated = yes
+        search_filters = { FOCUS_FILTER_RESEARCH }
         available ={date > 1939.08.1}
         completion_reward = {
             air_experience = 200
@@ -858,30 +876,9 @@ swap_ideas = {
         }
 	}
 	focus = {
-		id = USA_louisiana_maneuvers
-        icon = GFX_goal_generic_cavalry
-        x = 0
-        y = 1
-        prerequisite = { focus = USA_support_rock_island }
-        relative_position_id = USA_support_rock_island
-        cost = 5
-		search_filters = { FOCUS_FILTER_RESEARCH }
-        available = {
-        }
-        completion_reward = {
-            army_experience = 100
-            add_tech_bonus = {
-                name = USA_louisiana_maneuvers
-                bonus = 1.0
-                uses = 3
-                category = land_doctrine
-            }
-        }
-	}
-	focus = {
 		id = USA_tank_experiments
         icon = GFX_focus_USA_tank_experiments
-        x = 0
+        x = 1
         y = 1
         prerequisite = { focus = USA_louisiana_maneuvers }
         relative_position_id = USA_louisiana_maneuvers
@@ -914,12 +911,106 @@ swap_ideas = {
         }
 	}
 	focus = {
+		id = USA_tank_destroyer_doctrine
+		icon = GFX_focus_usa_tank_destroyer_doctrine
+		x = 1
+		y = 1
+		prerequisite = { focus = USA_tank_experiments }
+		relative_position_id = USA_tank_experiments
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = tank_destroyer_board
+		}
+	}
+	focus = {
+		id = USA_armored_infantry
+		icon = GFX_goal_generic_build_tank
+		x = -1
+		y = 1
+		prerequisite = { focus = USA_support_rock_island }
+		relative_position_id = USA_support_rock_island
+		cost = 5
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+			name = USA_armored_infantry
+			uses = 2
+			bonus = 1.2
+			category = motorized_equipment
+			}
+		}
+	}
+	focus = {
+		id = USA_first_special_service_force
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = USA_armored_infantry }
+		x = 0
+		y = 1
+		relative_position_id = USA_armored_infantry
+		cost = 5
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+		army_experience = 5
+			add_tech_bonus = {
+				name = special_bonus
+				bonus = 1.0
+				uses = 2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_engineers
+				technology = tech_engineers2
+				technology = tech_engineers3
+				technology = tech_recon
+				technology = tech_recon2
+				technology = tech_recon3
+			}
+		}
+	}
+	focus = {
+		id = USA_main_battle_tanks
+		icon = GFX_focus_generic_combined_arms
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_tank_destroyer_doctrine }
+		relative_position_id = USA_tank_destroyer_doctrine
+		cost = 5
+		available = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = detroit_arsenal
+		}
+	}
+	focus = {
+		id = USA_womens_armed_service_integration_act
+		icon = GFX_focus_generic_treaty
+		x = -1
+		y = 1
+		prerequisite = { focus = USA_tank_experiments focus = USA_support_rock_island }
+		relative_position_id = USA_tank_experiments
+		cost = 5
+		completion_reward = {
+			add_ideas = USA_womens_armed_service_integration_act
+		}
+	}
+	focus = {
 		id = USA_airborne_divisions
         icon = GFX_focus_generic_paratrooper
         x = 0
         y = 1
-        prerequisite = { focus = USA_tank_experiments }
-        relative_position_id = USA_tank_experiments
+        prerequisite = { focus = USA_womens_armed_service_integration_act }
+        relative_position_id = USA_womens_armed_service_integration_act
         cost = 5
         available = {
         }
@@ -931,6 +1022,7 @@ swap_ideas = {
 		id = USA_CAS
         text = CAS_effort
         icon = GFX_goal_generic_CAS
+		search_filters = { FOCUS_FILTER_RESEARCH }
         prerequisite = { focus = USA_air_war_plans_division }
         x = 0
         y = 1
@@ -950,6 +1042,7 @@ swap_ideas = {
 	focus = {
 		id = USA_TAC
         icon = GFX_goal_generic_air_doctrine
+		search_filters = { FOCUS_FILTER_RESEARCH }
         prerequisite = { focus = USA_CAS }
         x = 0
         y = 1
@@ -969,6 +1062,7 @@ swap_ideas = {
 	focus = {
 		id = USA_us_army_airforce
         icon = GFX_focus_generic_strike_at_democracy1
+		search_filters = { FOCUS_FILTER_RESEARCH }
         x = 0
         y = 1
         prerequisite = { focus = USA_TAC }
@@ -1003,11 +1097,12 @@ swap_ideas = {
 		relative_position_id = USA_selective_training_act
 		prerequisite = { focus = USA_selective_training_act }
 		available = {
+			congress_medium_support_trigger = yes
 		}
 		available_if_capitulated = yes
 		x = 2
 		y = 1
-		cost = 5
+		cost = 7.2
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			378 = {
@@ -1029,27 +1124,6 @@ swap_ideas = {
 		}
 	}
 	focus = {
-		id = USA_naval_radar
-		icon = GFX_goal_generic_radar
-		relative_position_id = USA_two_ocean_navy_act
-		prerequisite = { focus = USA_two_ocean_navy_act }
-		available = {
-		}
-		available_if_capitulated = yes
-		x = -2
-		y = 1
-		cost = 5
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = {
-                name = USA_naval_radar
-                uses = 3
-                bonus = 1.0
-                category = radar_tech
-            }
-		}
-	}
-	focus = {
         id = USA_bureau_of_ships
         icon = GFX_goal_generic_build_navy
 		relative_position_id = USA_two_ocean_navy_act
@@ -1066,14 +1140,35 @@ swap_ideas = {
 		}
 	}
 	focus = {
-		id = USA_fund_the_navy
-        icon = GFX_goal_generic_construct_naval_dockyard
+		id = USA_escort_effort
+        icon = GFX_goal_generic_navy_anti_submarine
 		relative_position_id = USA_two_ocean_navy_act
 		prerequisite = { focus = USA_two_ocean_navy_act }
 		available = {
 		}
 		available_if_capitulated = yes
 		x = 2
+		y = 1
+		cost = 5
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+                name = USA_battleship_primacy
+                bonus = 1.0
+                uses = 2
+                category = cl_tech
+            }
+		}
+	}
+	focus = {
+		id = USA_fund_the_navy
+        icon = GFX_goal_generic_construct_naval_dockyard
+		relative_position_id = USA_escort_effort
+		prerequisite = { focus = USA_escort_effort }
+		available = {
+		}
+		available_if_capitulated = yes
+		x = 0
 		y = 1
 		cost = 5
 		#search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
@@ -1084,12 +1179,12 @@ swap_ideas = {
 	focus = {
 		id = USA_battleship_primacy
         icon = GFX_goal_generic_navy_battleship
-		relative_position_id = USA_naval_radar
-		prerequisite = { focus = USA_naval_radar }
+		relative_position_id = USA_two_ocean_navy_act
+		prerequisite = { focus = USA_two_ocean_navy_act }
 		available = {
 		}
 		available_if_capitulated = yes
-		x = 0
+		x = -2
 		y = 1
 		cost = 5
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1103,10 +1198,31 @@ swap_ideas = {
 		}
 	}
 	focus = {
-		id = USA_maritime_commission
-        icon = GFX_goal_generic_production2
+		id = USA_naval_radar
+		icon = GFX_goal_generic_radar
 		relative_position_id = USA_battleship_primacy
 		prerequisite = { focus = USA_battleship_primacy }
+		available = {
+		}
+		available_if_capitulated = yes
+		x = 0
+		y = 1
+		cost = 5
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+                name = USA_naval_radar
+                uses = 3
+                bonus = 1.0
+                category = radar_tech
+            }
+		}
+	}
+	focus = {
+		id = USA_maritime_commission
+        icon = GFX_goal_generic_production2
+		relative_position_id = USA_naval_radar
+		prerequisite = { focus = USA_naval_radar }
 		available = {
 		}
 		available_if_capitulated = yes
@@ -1162,31 +1278,10 @@ swap_ideas = {
 		}
 	}
 	focus = {
-		id = USA_escort_effort
-        icon = GFX_goal_generic_navy_anti_submarine
-		relative_position_id = USA_fund_the_navy
-		prerequisite = { focus = USA_fund_the_navy }
-		available = {
-		}
-		available_if_capitulated = yes
-		x = 0
-		y = 1
-		cost = 5
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = {
-                name = USA_battleship_primacy
-                bonus = 1.0
-                uses = 2
-                category = cl_tech
-            }
-		}
-	}
-	focus = {
 		id = USA_liberty_ships
         icon = GFX_focus_USA_liberty_ships
-		relative_position_id = USA_escort_effort
-		prerequisite = { focus = USA_escort_effort }
+		relative_position_id = USA_fund_the_navy
+		prerequisite = { focus = USA_fund_the_navy }
 		available = {
 		}
 		available_if_capitulated = yes

@@ -159,7 +159,6 @@ add_ideas = {
 	USA_first_deal
 	great_depression
 	free_trade
-	USA_segregation
 }
 
 recruit_character = USA_franklin_delano_roosevelt
