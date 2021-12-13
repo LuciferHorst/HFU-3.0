@@ -1605,7 +1605,7 @@ characters={
 				has_completed_focus = USA_invite_robert_taft
 			}
 			traits  = {
-				silent_workhorse 
+				silent_workhorse_usa 
 			}
 		}
 	}
