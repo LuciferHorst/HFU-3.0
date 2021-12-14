@@ -22,6 +22,20 @@
  JAP_keep_korea_as_a_colony:0 "Keep Korea As A Colony"
  JAP_Japanese_settlers_in_korea:0 "Japanese Settlers In Korea"
  JAP_aut_tt:0 "If we complete the first line of development focuses we get  2 4 and 6 military factories §R (per later development) each §! , if we complete the second line of development focuses we get  10, 15 and 25 steel and chromium §R (per later development) each. §!"
+ JAP_guide_the_zaibatsu:0 "Guide The Zaibatsu"
+ JAP_for_the_emperor:0 "For The Emperor"
+ JAP_civic_changes:0 "Civic Changes"
+ JAP_government_funding:0 "Government Funding"
+ JAP_military_industry:0 "Military Industry"
+ JAP_the_railroad:0 "The Railroad"
+ JAP_the_kaiji_corporation:0 "The Kaiji Corporation"
+ JAP_the_squid_game:0 "The Squid Game"
+ JAP_purge_the_kwantung_army:0 "Purge The Kwantung Army"
+ JAP_salvo_industries:0 "Salvo Industries"
+ JAP_occupation_mastery:0 "Occupation Mastery"
+
+
+
 
 
  #NEW USA FOCUSES

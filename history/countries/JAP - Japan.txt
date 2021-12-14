@@ -15,10 +15,8 @@
  	JAP_duplicate_research_efforts
  	JAP_militarism
 	never_surrender
- }
- add_timed_idea = {
-	 idea = JAP_Civs
-	 days = 365
+	JAP_the_kwantung_army
+	JAP_kodoha_faction
  }
  create_intelligence_agency = yes
  set_variable = {
@@ -107,6 +105,7 @@
  		improved_secondary_battery = 1
  		cruiser_submarines = 1
 		basic_heavy_armor_scheme = 1
+		armor_tech_1 = 1
  		}
  	set_naval_oob = "JAP_1936_naval"
  }

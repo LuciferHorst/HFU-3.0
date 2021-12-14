@@ -209,8 +209,7 @@ units = {
 		}
 	}
 }
-instant_effect =
-{
+instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_heavy_1
@@ -233,16 +232,6 @@ instant_effect =
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_carrier_conversion_ca
-			creator = "JAP"
-			version_name = "Zuiho Class"
-		}
-		requested_factories = 20
-		progress = 0.15
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "JAP"
 			version_name = "Myoko Class"
@@ -259,106 +248,6 @@ instant_effect =
 		}
 		requested_factories = 20
 		progress = 0.15
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_light_1
-			creator = "JAP"
-			version_name = "Fubuki Class"
-		}
-		requested_factories = 20
-		progress = 0.7
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_light_1
-			creator = "JAP"
-			version_name = "Fubuki Class"
-		}
-		requested_factories = 20
-		progress = 0.6
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_light_1
-			creator = "JAP"
-			version_name = "Fubuki Class"
-		}
-		requested_factories = 20
-		progress = 0.5
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_light_1
-			creator = "JAP"
-			version_name = "Fubuki Class"
-		}
-		requested_factories = 20
-		progress = 0.4
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_light_1
-			creator = "JAP"
-			version_name = "Fubuki Class"
-		}
-		requested_factories = 20
-		progress = 0.3
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_1
-			creator = "JAP"
-			version_name = "Kaidai III Class"
-		}
-		requested_factories = 20
-		progress = 0.7
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_1
-			creator = "JAP"
-			version_name = "Kaidai III Class"
-		}
-		requested_factories = 20
-		progress = 0.6
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_1
-			creator = "JAP"
-			version_name = "Kaidai III Class"
-		}
-		requested_factories = 20
-		progress = 0.7
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_1
-			creator = "JAP"
-			version_name = "Kaidai III Class"
-		}
-		requested_factories = 20
-		progress = 0.6
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_1
-			creator = "JAP"
-			version_name = "Ro-26 Class"
-		}
-		requested_factories = 20
-		progress = 0.80
 		amount = 1
 	}
 }

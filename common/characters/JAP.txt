@@ -96,6 +96,18 @@ characters={
 			}
 			research_bonus = { land_doctrine = 0.1 }
 		}
+		advisor={
+			cost = 150
+			slot = political_advisor
+			idea_token = hisaichi_terauchi
+			ledger = army
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				war_industrialist
+			}
+		}
 		
 		field_marshal={
 			traits={  JAP_samurai_lineage		offensive_doctrine
@@ -1114,17 +1126,17 @@ characters={
 			}
 		}
 		advisor={
-			slot = army_chief
+			cost = 100
+			slot = political_advisor
 			idea_token = hideki_tojo
 			allowed = {
 				original_tag = JAP
 			}
-			traits = {
-				army_chief_morale_2
+			available = {
+				has_completed_focus = JAP_occupation_mastery
 			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
+			traits = {
+				chinese_ambassador
 			}
 		}
 	}
@@ -1435,7 +1447,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 75
+			cost = 150
 			slot = political_advisor
 			idea_token = kijuro_shidehara
 			available = {
@@ -1458,7 +1470,7 @@ characters={
 				original_tag = JAP
 			}
 			traits = {
-				industrial_genius
+				captain_of_industry
 			}
 			do_effect = {
 				NOT = {
@@ -1479,31 +1491,17 @@ characters={
 			}
 		}
 		advisor={
+			cost = 75
 			slot = political_advisor
 			idea_token = kingoro_hashimoto
 			allowed = {
 				original_tag = JAP
 			}
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
+				has_completed_focus = JAP_civic_changes
 			}
 			traits = {
-				fascist_demagogue 
-			}
-			do_effect = {
-				NOT = {
-					has_government = fascism 
-				}
-			}
-			ai_will_do = {
-				factor = 0.000
+				infrastructure_expert 
 			}
 		}		
 	}
@@ -1516,6 +1514,7 @@ characters={
 			}
 		}
 		advisor={
+			cost = 100
 			slot = political_advisor
 			idea_token = JAP_mitsumasa_yonai
 			allowed = {

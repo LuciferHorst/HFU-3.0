@@ -285,6 +285,7 @@ ideas = {
 				sortie_efficiency = 0.2
 			}
 		}
+
 		JAP_zaibatsus = {
 			allowed = {
 				always = no
@@ -295,16 +296,14 @@ ideas = {
 			removal_cost = -1
 			picture = jap_zaibatsu
 			modifier = {
-				political_power_cost = 0.25
-				trade_laws_cost_factor = 0.25
-				economy_cost_factor = 0.25
-				production_speed_industrial_complex_factor = 0.10
-				#production_speed_arms_factory_factor = 0.05
-				#production_speed_dockyard_factor = 0.05
-				consumer_goods_factor = 0.10
+				political_power_cost = 0.35
+				economy_cost_factor = 0.35
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				consumer_goods_factor = 0.05
 			}
 		}
-	
 		JAP_guide_the_zaibatsus = {
 			allowed = {
 				always = no
@@ -315,12 +314,42 @@ ideas = {
 			removal_cost = -1
 			picture = jap_zaibatsu_ally
 			modifier = {
-				production_speed_arms_factory_factor = 0.1
-				production_speed_industrial_complex_factor = 0.1
-				industrial_capacity_factory = 0.05
-				consumer_goods_factor = 0.10
+				political_power_cost = 0.25
+				economy_cost_factor = 0.25
+				production_speed_industrial_complex_factor = 0.05
+				consumer_goods_factor = 0.025
 			}
 		}
+
+		JAP_the_kwantung_army = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = genial_anti_revolutionary
+			research_bonus = { land_doctrine = -0.1 }
+			modifier = {
+				stability_weekly = -0.003
+			}
+		}
+		JAP_kodoha_faction = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+
+
 		JAP_hi_hi = {
 			allowed = {
 				always = no

@@ -72,7 +72,7 @@ leader_traits = {
 
 	emperor_showa = {
 		random = no
-		stability_factor = 0.6 #FOR THE EMPERAH
+		stability_factor = 0.35 #FOR THE EMPERAH
 
 		ai_will_do = {
 			factor = 1
@@ -1412,6 +1412,15 @@ leader_traits = {
 		sprite = 10
 		production_speed_industrial_complex_factor = 0.20
 		political_power_gain = -0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	chinese_ambassador = {
+		sprite = 10
+		compliance_gain = 0.15
+		war_support_weekly = -0.01
 		ai_will_do = {
 			factor = 1
 		}

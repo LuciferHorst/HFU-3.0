@@ -350,16 +350,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_17
+		id = JAP_salvo_industries
 		
 		prerequisite = { focus = JAP_labour focus = JAP_american_trade focus = JAP_japanese_railways }
 		relative_position_id = JAP_american_trade
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
-
+			534 = {	
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+				type = dockyard
+				level = 4
+				instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -503,105 +510,146 @@ focus_tree = {
 	}
 }
 	focus = {
-		id = JAP_20
+		id = JAP_the_squid_game
 		
 		prerequisite = { focus = JAP_16 }
-		prerequisite = { focus = JAP_17 }
+		prerequisite = { focus = JAP_salvo_industries }
 		prerequisite = { focus = JAP_18 }
-		relative_position_id = JAP_17
+		relative_position_id = JAP_salvo_industries
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
 
 		}
 	}
 
 	focus = {
-		id = JAP_2
-		
+		id = JAP_guide_the_zaibatsu
+		icon = GFX_focus_jap_zaibatsu
 		cost = 5
 		x = 13
 		y = 0
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-
+			swap_ideas = {
+				remove_idea = JAP_zaibatsus
+				add_idea = JAP_guide_the_zaibatsus
+			}
 		}
 	}
 	focus = {
-		id = JAP_3
+		id = JAP_for_the_emperor
 		
 		cost = 5
 		x = 17
 		y = 0
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-
+			add_stability = 0.1
 		}
 	}
 	focus = {
-		id = JAP_21
+		id = JAP_government_funding
 		
-		prerequisite = { focus = JAP_2 }
-		relative_position_id = JAP_2
+		prerequisite = { focus = JAP_guide_the_zaibatsu }
+		relative_position_id = JAP_guide_the_zaibatsu
 		cost = 5
 		x = -1
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-
+			add_political_power = 150
 		}
 	}
 	focus = {
-		id = JAP_22
+		id = JAP_the_kaiji_corporation
 		
-		prerequisite = { focus = JAP_2 }
-		relative_position_id = JAP_2
+		prerequisite = { focus = JAP_guide_the_zaibatsu }
+		relative_position_id = JAP_guide_the_zaibatsu
 		cost = 5
 		x = 1
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
-
+		534 = {	
+			add_extra_state_shared_building_slots = 6
+			add_building_construction = {
+			type = industrial_complex
+			level = 4
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = dockyard
+			level = 2
+			instant_build = yes
+			}
 		}
 	}
+}
 	focus = {
-		id = JAP_23
+		id = JAP_civic_changes
 		
-		prerequisite = { focus = JAP_3 }
-		relative_position_id = JAP_3
+		prerequisite = { focus = JAP_for_the_emperor }
+		relative_position_id = JAP_for_the_emperor
 		cost = 5
 		x = -1
-		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		y = 1 
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = JAP_kingoro_hashimoto
 		}
 	}
 	focus = {
-		id = JAP_24
-		
-		prerequisite = { focus = JAP_3 }
-		relative_position_id = JAP_3
+ 		id = JAP_national_research_policy
+		icon = GFX_focus_research
+		prerequisite = { focus = JAP_for_the_emperor }
+		relative_position_id = JAP_for_the_emperor
 		cost = 5
 		x = 1
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+			add_research_slot = 1
 		}
 	}
 	focus = {
-		id = JAP_25
-		
-		prerequisite = { focus = JAP_21 focus = JAP_22 focus = JAP_23  focus = JAP_24 }
-		relative_position_id = JAP_21
+		id = JAP_military_industry
+		prerequisite = { focus = JAP_government_funding focus = JAP_the_kaiji_corporation focus = JAP_civic_changes  focus = JAP_national_research_policy }
+		relative_position_id = JAP_government_funding
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
+			529 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			528 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -612,12 +660,12 @@ focus_tree = {
 		available = {
 			NOT = { has_completed_focus = JAP_Autarky_Achieved }
 		}
-		prerequisite = { focus = JAP_21 focus = JAP_22 focus = JAP_23  focus = JAP_24 }
-		relative_position_id = JAP_21
+		prerequisite = { focus = JAP_government_funding focus = JAP_the_kaiji_corporation focus = JAP_civic_changes  focus = JAP_national_research_policy }
+		relative_position_id = JAP_government_funding
 		cost = 5
 		x = 2
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
           custom_effect_tooltip = JAP_kor_tt
 		}
@@ -627,12 +675,12 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = JAP_keep_korea_as_a_colony
 		}
-		prerequisite = { focus = JAP_21 focus = JAP_22 focus = JAP_23  focus = JAP_24 }
-		relative_position_id = JAP_21
+		prerequisite = { focus = JAP_government_funding focus = JAP_the_kaiji_corporation focus = JAP_civic_changes  focus = JAP_national_research_policy }
+		relative_position_id = JAP_government_funding
 		cost = 5
 		x = 4
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
 			add_state_core = 527
 			add_state_core = 525
@@ -647,49 +695,74 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_28
+		id = JAP_the_railroad
 		
-		prerequisite = { focus = JAP_21 focus = JAP_22 focus = JAP_23  focus = JAP_24 }
-		relative_position_id = JAP_21
+		prerequisite = { focus = JAP_government_funding focus = JAP_the_kaiji_corporation focus = JAP_civic_changes  focus = JAP_national_research_policy }
+		relative_position_id = JAP_government_funding
 		cost = 5
 		x = 6
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
-
+			528 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			529 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			530 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
-		id = JAP_29
+		id = JAP_purge_the_kodoha_faction
 		
-		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_28 }
-		relative_position_id = JAP_25
+		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_the_railroad }
+		relative_position_id = JAP_military_industry
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = { 
-
+			add_stability = 0.15
+			remove_ideas = JAP_kodoha_faction
 		}
 	}
 	focus = {
-		id = JAP_30
+		id = JAP_occupation_mastery
 		
-		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_28 }
-		relative_position_id = JAP_25
+		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_the_railroad }
+		relative_position_id = JAP_military_industry
 		cost = 5
 		x = 2
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = JAP_hideki_tojo
 		}
 	}
 	focus = {
 		id = JAP_31
 		
-		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_28 }
-		relative_position_id = JAP_25
+		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_the_railroad }
+		relative_position_id = JAP_military_industry
 		cost = 5
 		x = 4
 		y = 1
@@ -699,23 +772,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_32
+		id = JAP_purge_the_kwantung_army
 		
-		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_28 }
-		relative_position_id = JAP_25
+		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_the_railroad }
+		relative_position_id = JAP_military_industry
 		cost = 5
 		x = 6
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-
+			remove_ideas = JAP_the_kwantung_army
 		}
 	}
 	focus = {
 		id = JAP_33
 		
-		prerequisite = { focus = JAP_29 focus = JAP_30 focus = JAP_31  focus = JAP_32 }
-		relative_position_id = JAP_29
+		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_31  focus = JAP_purge_the_kwantung_army }
+		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
 		x = 0
 		y = 1
@@ -727,8 +800,8 @@ focus_tree = {
 	focus = {
 		id = JAP_34
 		
-		prerequisite = { focus = JAP_29 focus = JAP_30 focus = JAP_31  focus = JAP_32 }
-		relative_position_id = JAP_29
+		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_31  focus = JAP_purge_the_kwantung_army }
+		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
 		x = 2
 		y = 1
@@ -740,8 +813,8 @@ focus_tree = {
 	focus = {
 		id = JAP_35
 		
-		prerequisite = { focus = JAP_29 focus = JAP_30 focus = JAP_31  focus = JAP_32 }
-		relative_position_id = JAP_29
+		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_31  focus = JAP_purge_the_kwantung_army }
+		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
 		x = 4
 		y = 1
@@ -753,8 +826,8 @@ focus_tree = {
 	focus = {
 		id = JAP_36
 		
-		prerequisite = { focus = JAP_29 focus = JAP_30 focus = JAP_31  focus = JAP_32 }
-		relative_position_id = JAP_29
+		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_31  focus = JAP_purge_the_kwantung_army }
+		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
 		x = 6
 		y = 1
@@ -771,7 +844,6 @@ focus_tree = {
 		icon = GFX_focus_JAP_army_expansion
 		x = 24
 		y = 0
-		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
 		
 		available = {
@@ -886,7 +958,6 @@ focus_tree = {
 		id = JAP_naval_quality_control
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = JAP_modern_artillery }
-		prerequisite = { focus = JAP_national_research_policy }
 		x = -1
 		y = 1
 		relative_position_id = JAP_modern_artillery
@@ -2909,28 +2980,6 @@ load_oob = "sov_spawn"
 # 			else = {
 # 				add_ideas = war_economy
 # 			}
-# 		}
-# 	}
-# 	focus = {
-# 		id = JAP_national_research_policy
-# 		icon = GFX_focus_research
-# 		prerequisite = { focus = JAP_national_mobilization_law }
-# 		x = 0
-# 		y = 1
-# 		relative_position_id = JAP_national_mobilization_law
-# 		cost = 10
-# 		ai_will_do = {
-# 			factor = 4
-# 		}
-# 		available = {
-# 		}
-# 		bypass = {
-# 		}
-# 		cancel_if_invalid = yes
-# 		continue_if_invalid = no
-# 		available_if_capitulated = no
-# 		completion_reward = {
-# 			add_research_slot = 1
 # 		}
 # 	}
 # 	focus = {
