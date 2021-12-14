@@ -42,7 +42,6 @@ focus_tree = {
 		cost = 5
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			USA_congress_medium_support = yes
 			395 = {
 				add_building_construction = {
 					type = infrastructure
@@ -98,6 +97,7 @@ focus_tree = {
 		cost = 5
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			USA_congress_medium_support = yes
 			add_timed_idea = { idea = USA_amend_the_budget days = 180 }
 		}
 	}
