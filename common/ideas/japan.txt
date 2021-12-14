@@ -98,6 +98,20 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
+		JAP_national_propaganda = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			modifier = {
+				stability_weekly = 0.005
+			}
+		}
 		JAP_banzai = {
 			picture = generic_infantry_bonus
 			allowed = {
@@ -345,10 +359,36 @@ ideas = {
 			removal_cost = -1
 			picture = generic_production_bonus
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				political_power_gain = 0.3
 			}
 		}
-
+		JAP_look_to_the_meiji_era = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+		JAP_quality_ships= {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			research_bonus = {
+				naval_equipment = 0.2
+			}
+		}
 
 		JAP_hi_hi = {
 			allowed = {
@@ -581,7 +621,7 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = jap_supremacy_of_technology
-			modifier={research_speed_factor=0.15}
+			modifier = { research_speed_factor=0.1 }
 		}
 		JAP_superior_will = {
 			allowed = {
@@ -1101,11 +1141,14 @@ ideas = {
 			allowed = {
 				original_tag = JAP
 			}
+			available = {
+				has_completed_focus = JAP_civic_changes
+			}
+			cost = 75
 			research_bonus = {
 				industry = 0.05
-				synth_resources = 0.1
 			}
-			traits = { refinery_concern }
+			traits = { refinery_concern infrastructure_expert }
 		}
 	}
 	materiel_manufacturer = {

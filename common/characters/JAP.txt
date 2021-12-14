@@ -1491,17 +1491,17 @@ characters={
 			}
 		}
 		advisor={
-			cost = 75
+			cost = 150
 			slot = political_advisor
 			idea_token = kingoro_hashimoto
 			allowed = {
 				original_tag = JAP
 			}
 			available = {
-				has_completed_focus = JAP_civic_changes
+				
 			}
 			traits = {
-				infrastructure_expert 
+				industrial_genius 
 			}
 		}		
 	}
