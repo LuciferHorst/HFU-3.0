@@ -5,12 +5,24 @@
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
 
  #NEW JAPAN FOCUSES
- JAP_resource_extraction:0 "Resource Extraction"
+ JAP_resource_extraction:0 "Begin The Process of Autarky"
  JAP_temporary_civilian_investment:0 "Temporary Civilian Investment"
  JAP_kanto_steel_works:0 "Kanto Steel Works"
  JAP_american_trade:0 "American Trade"
  JAP_labour:0 "Increased Labour"
  JAP_japanese_railways:0 "Japanese Railways"
+ JAP_expand_the_manchurian_industry:0 "Expand The Manchurian Industry"
+ JAP_develop_the_showa_steel_works:0 "Develop The Showa Steel Works"
+ JAP_develop_the_coastline:0 " Invest Into The Chinese Coastline"
+ JAP_develop_the_interior:0 "Develop The Chinese Interior"
+ JAP_expand_the_coastal_development:0 "Expand Coastal Development"
+ JAP_expand_the_interiors_agriculture:0 "Expand Interiors Agriculture"
+ JAP_Autarky_Achieved:0 "Autarky Achieved"
+ JAP_kor_tt:0 "If we keep Korea as a colonial possesion, once we complete the focus §R Autarky Achieved §! we will get 2 civs and 4 mils in Korea"
+ JAP_keep_korea_as_a_colony:0 "Keep Korea As A Colony"
+ JAP_Japanese_settlers_in_korea:0 "Japanese Settlers In Korea"
+ JAP_aut_tt:0 "If we complete the first line of development focuses we get  2 4 and 6 military factories §R (per later development) each §! , if we complete the second line of development focuses we get  10, 15 and 25 steel and chromium §R (per later development) each. §!"
+
 
  #NEW USA FOCUSES
  USA_a_call_to_arms:0 "A Call To Arms"

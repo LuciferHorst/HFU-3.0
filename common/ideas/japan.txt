@@ -54,6 +54,22 @@ ideas = {
 			}
 			research_bonus = { industry = 0.1 }
 		}
+		JAP_industrial_research_2 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			research_bonus = { industry = 0.2 }
+			research_bonus = { electronics  = 0.15 }
+			modifier = {
+			consumer_goods_factor = -0.02
+		}
+		}
 		JAP_american_trade = {
 			picture = generic_production_bonus
 			allowed = {

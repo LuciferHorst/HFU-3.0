@@ -59,44 +59,95 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_7
+		id = JAP_develop_the_showa_steel_works
 		
 		prerequisite = { focus = JAP_resource_extraction }
 		relative_position_id = JAP_resource_extraction
+		available = {
+			has_full_control_of_state = 716
+			NOT = { has_completed_focus = JAP_Autarky_Achieved }
+		}
 		cost = 5
 		x = -2
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+			716 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+											}
+				}
 		}
 	}
 	focus = {
-		id = JAP_8
+		id = JAP_develop_the_coastline
 		
 		prerequisite = { focus = JAP_resource_extraction }
 		relative_position_id = JAP_resource_extraction
 		cost = 5
+		available = {
+			has_full_control_of_state = 608
+			has_full_control_of_state = 613
+			NOT = { has_completed_focus = JAP_Autarky_Achieved }
+		}
 		x = 0
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+				608 = {
+					add_extra_state_shared_building_slots = 5
+					add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+												}
+					}
+					613 = {
+						add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+													}
+						}
+			}
 		}
-	}
 	focus = {
-		id = JAP_9
+		id = JAP_develop_the_interior
 		
 		prerequisite = { focus = JAP_resource_extraction }
 		relative_position_id = JAP_resource_extraction 
 		cost = 5
 		x = 2
 		y = 1
+		available = {
+			has_full_control_of_state = 620
+			has_full_control_of_state = 605
+			NOT = { has_completed_focus = JAP_Autarky_Achieved }
+		}
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+				620 = {
+					add_extra_state_shared_building_slots = 6
+					add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+												}
+					}
+					620 = {
+						add_extra_state_shared_building_slots = 6
+						add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+													}
+						}
+			}
 		}
-	}
 	focus = {
 		id = JAP_labour
 		
@@ -161,42 +212,128 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_13
+		id = JAP_expand_the_manchurian_industry
 		
-		prerequisite = { focus = JAP_7 focus = JAP_8 focus = JAP_9 }
-		relative_position_id = JAP_7
+		prerequisite = { focus = JAP_develop_the_showa_steel_works  }
+		relative_position_id = JAP_develop_the_showa_steel_works
+		available = {
+			NOT = { has_completed_focus = JAP_Autarky_Achieved }
+		}
 		cost = 5
 		x = 0
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
+				716 = {
+					add_compliance = 20
+					add_manpower = -50000
+					add_state_modifier = {
+						modifier = {
+							state_production_speed_buildings_factor = 0.5
+						}
+					}
+				}
+				328 = { 
+					add_compliance = 20
+					add_extra_state_shared_building_slots = 5
+					add_manpower = -50000
+					add_state_modifier = {
+						modifier = {
+							state_production_speed_buildings_factor = 0.5
+						}
+					}
+				}
+		}
+	}
+	focus = {
+		id = JAP_expand_the_coastal_development
+		
+		prerequisite = {  focus = JAP_develop_the_coastline  }
+		relative_position_id = JAP_develop_the_coastline
+		cost = 5
+		available = {
+			has_full_control_of_state = 608
+			has_full_control_of_state = 613
+			NOT = { has_completed_focus = JAP_Autarky_Achieved }
+		}
+		x = 0
+		y = 1
+		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		completion_reward = { 
+			608 = {
+				add_compliance = 10
+				add_manpower = -50000
+				add_state_modifier = {
+					modifier = {
+						state_production_speed_buildings_factor = 0.5
+					}
+				}
+			}
+			613 = { 
+				add_compliance = 10
+				add_manpower = -50000
+				add_state_modifier = {
+					modifier = {
+						state_production_speed_buildings_factor = 0.5
+					}
+				}
+			}
+			every_controlled_state = {
+				limit = {
+					is_controlled_by = PREV
+					NOT = {
+						is_core_of = PREV
+					}
+					is_on_continent = asia
+				}
+				add_compliance = 10
+			}
 
 		}
 	}
 	focus = {
-		id = JAP_14
+		id = JAP_expand_the_interiors_agriculture
 		
-		prerequisite = { focus = JAP_7 focus = JAP_8 focus = JAP_9 }
-		relative_position_id = JAP_8
+		prerequisite = {  focus = JAP_develop_the_interior }
+		relative_position_id = JAP_develop_the_interior
 		cost = 5
-		x = 0
-		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
-		completion_reward = { 
-
+		available = {
+			has_full_control_of_state = 620
+			has_full_control_of_state = 605
+			NOT = { has_completed_focus = JAP_Autarky_Achieved }
 		}
-	}
-	focus = {
-		id = JAP_15
-		
-		prerequisite = { focus = JAP_7 focus = JAP_8 focus = JAP_9 }
-		relative_position_id = JAP_9
-		cost = 5
 		x = 0
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+			620 = {
+				add_compliance = 25
+				add_manpower = -50000
+				add_state_modifier = {
+					modifier = {
+						state_production_speed_buildings_factor = 0.5
+					}
+				}
+			}
+			605 = { 
+				add_compliance = 25
+				add_manpower = -50000
+				add_state_modifier = {
+					modifier = {
+						state_production_speed_buildings_factor = 0.5
+					}
+				}
+			}
+			every_controlled_state = {
+				limit = {
+					is_controlled_by = PREV
+					NOT = {
+						is_core_of = PREV
+					}
+					is_on_continent = asia
+				}
+				add_compliance = 10
+			}
 		}
 	}
 	focus = {
@@ -239,18 +376,132 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_19
+		id = JAP_Autarky_Achieved
 		
-		prerequisite = { focus = JAP_13 focus = JAP_14 focus = JAP_15  }
-		relative_position_id = JAP_14
+		prerequisite = { focus = JAP_expand_the_manchurian_industry focus =  JAP_expand_the_coastal_development focus = JAP_expand_the_interiors_agriculture  }
+		relative_position_id = JAP_expand_the_coastal_development
 		cost = 5
 		x = 0
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+			custom_effect_tooltip = JAP_aut_tt
+			swap_ideas = {
+				remove_idea = JAP_industrial_research
+				add_idea = JAP_industrial_research_2
+			}
+			hidden_effect = {
+				if = { limit = { has_completed_focus = JAP_develop_the_showa_steel_works }
+				716 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+												}
+					}
+				328 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+					type =   arms_factory
+					level = 1
+					instant_build = yes
+												}
+					}
+			}
+			if = { limit = { has_completed_focus = JAP_develop_the_coastline }
+				608 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+												}
+					}
+				613 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type =   arms_factory
+					level = 2
+					instant_build = yes
+												}
+					}
+			}
+			if = { limit = { has_completed_focus = JAP_develop_the_interior }
+				620 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+												}
+					}
+				605 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+					type =   arms_factory
+					level = 3
+					instant_build = yes
+												}
+					}
+			}
+			if = { limit = { has_completed_focus = JAP_keep_korea_as_a_colony }
+				527 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+												}
+					}
+				525 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+					type =   arms_factory
+					level = 4
+					instant_build = yes
+												}
+					}
+			}
+			if = { limit = { has_completed_focus = JAP_expand_the_manchurian_industry }
+			716 = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+		}
+		if = { limit = { has_completed_focus = JAP_expand_the_coastal_development }
+		608 = {
+			add_resource = {
+				type = steel
+				amount = 15
+			}
+			add_resource = {
+				type = chromium
+				amount = 15
+			}
 		}
 	}
+	if = { limit = { has_completed_focus = JAP_expand_the_interiors_agriculture }
+	748 = {
+		add_resource = {
+			type = steel
+			amount = 25
+		}
+		add_resource = {
+			type = chromium
+			amount = 25
+		}
+	}
+}
+		}
+	}
+}
 	focus = {
 		id = JAP_20
 		
@@ -351,12 +602,16 @@ focus_tree = {
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
 		}
 	}
 	focus = {
-		id = JAP_26
-		
+		id = JAP_keep_korea_as_a_colony
+		mutually_exclusive = {
+			focus = JAP_Japanese_settlers_in_korea
+		}
+		available = {
+			NOT = { has_completed_focus = JAP_Autarky_Achieved }
+		}
 		prerequisite = { focus = JAP_21 focus = JAP_22 focus = JAP_23  focus = JAP_24 }
 		relative_position_id = JAP_21
 		cost = 5
@@ -364,12 +619,14 @@ focus_tree = {
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+          custom_effect_tooltip = JAP_kor_tt
 		}
 	}
 	focus = {
-		id = JAP_27
-		
+		id = JAP_Japanese_settlers_in_korea
+		mutually_exclusive = {
+			focus = JAP_keep_korea_as_a_colony
+		}
 		prerequisite = { focus = JAP_21 focus = JAP_22 focus = JAP_23  focus = JAP_24 }
 		relative_position_id = JAP_21
 		cost = 5
@@ -377,7 +634,16 @@ focus_tree = {
 		y = 1
 		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+			add_state_core = 527
+			add_state_core = 525
+            525 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+				type = dockyard
+				level = 4
+				instant_build = yes
+											}
+				}
 		}
 	}
 	focus = {
@@ -396,7 +662,7 @@ focus_tree = {
 	focus = {
 		id = JAP_29
 		
-		prerequisite = { focus = JAP_25 focus = JAP_26 focus = JAP_27  focus = JAP_28 }
+		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_28 }
 		relative_position_id = JAP_25
 		cost = 5
 		x = 0
@@ -409,7 +675,7 @@ focus_tree = {
 	focus = {
 		id = JAP_30
 		
-		prerequisite = { focus = JAP_25 focus = JAP_26 focus = JAP_27  focus = JAP_28 }
+		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_28 }
 		relative_position_id = JAP_25
 		cost = 5
 		x = 2
@@ -422,7 +688,7 @@ focus_tree = {
 	focus = {
 		id = JAP_31
 		
-		prerequisite = { focus = JAP_25 focus = JAP_26 focus = JAP_27  focus = JAP_28 }
+		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_28 }
 		relative_position_id = JAP_25
 		cost = 5
 		x = 4
@@ -435,7 +701,7 @@ focus_tree = {
 	focus = {
 		id = JAP_32
 		
-		prerequisite = { focus = JAP_25 focus = JAP_26 focus = JAP_27  focus = JAP_28 }
+		prerequisite = { focus = JAP_25 focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_28 }
 		relative_position_id = JAP_25
 		cost = 5
 		x = 6

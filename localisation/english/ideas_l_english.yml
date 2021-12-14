@@ -2,7 +2,8 @@
  SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
 
  JAP_economy_law:0 "Civilian Administration"
- JAP_industrial_research:0 "Experience From Our Colonies"
+ JAP_industrial_research:0 "Colonial Industry Expirience"
+ JAP_industrial_research_2:0 "Apply The Expirience From Our Colonies"
  JAP_american_trade:0 "American Trade"
  JAP_consumer_goods:0 "Civilian Funding"
 
