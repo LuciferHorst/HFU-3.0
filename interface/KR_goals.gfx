@@ -3249,4 +3249,85 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/usa/USA_appoint_regnery.dds"
 	}
 
+	#JAPAN
+	SpriteType = {
+		name = "GFX_focus_JAP_naval_funding"
+		texturefile = "gfx/interface/goals/jap/JAP_naval_funding.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_government_funding"
+		texturefile = "gfx/interface/goals/jap/JAP_government_funding.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_salvo_industries"
+		texturefile = "gfx/interface/goals/jap/JAP_salvo_industries.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_research_slot"
+		texturefile = "gfx/interface/goals/jap/JAP_research_slot.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_american_trade"
+		texturefile = "gfx/interface/goals/jap/JAP_american_trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_autarky_achieved"
+		texturefile = "gfx/interface/goals/jap/JAP_autarky_achieved.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_chinese_interior"
+		texturefile = "gfx/interface/goals/jap/JAP_chinese_interior.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_expand_coastal_development"
+		texturefile = "gfx/interface/goals/jap/JAP_expand_coastal_development.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_for_the_emperor"
+		texturefile = "gfx/interface/goals/jap/JAP_for_the_emperor.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_hiruzen"
+		texturefile = "gfx/interface/goals/jap/JAP_hiruzen.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_kazutaka"
+		texturefile = "gfx/interface/goals/jap/JAP_kazutaka.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_kwantung_army"
+		texturefile = "gfx/interface/goals/jap/JAP_kwantung_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_military_industry"
+		texturefile = "gfx/interface/goals/jap/JAP_military_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_occupation_mastery"
+		texturefile = "gfx/interface/goals/jap/JAP_occupation_mastery.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_purge_kodoha"
+		texturefile = "gfx/interface/goals/jap/JAP_purge_kodoha.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_settle_in_korea"
+		texturefile = "gfx/interface/goals/jap/JAP_settle_in_korea.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_showa_steel"
+		texturefile = "gfx/interface/goals/jap/JAP_showa_steel.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_squid_game"
+		texturefile = "gfx/interface/goals/jap/JAP_squid_game.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_temporary_civilian_investment"
+		texturefile = "gfx/interface/goals/jap/JAP_temporary_civilian_investment.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_JAP_the_railroad"
+		texturefile = "gfx/interface/goals/jap/JAP_the_railroad.dds"
+	}
 }

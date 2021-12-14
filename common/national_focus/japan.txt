@@ -12,7 +12,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_kanto_steel_works
-		
+		icon = GFX_GOAL_move_industry
 		cost = 5
 		x = 5
 		y = 0
@@ -30,7 +30,7 @@ focus_tree = {
 }
 	focus = {
 		id = JAP_resource_extraction
-		
+		icon = GFX_focus_generic_construct_infrastructure2
 		prerequisite = { focus = JAP_kanto_steel_works }
 		relative_position_id = JAP_kanto_steel_works
 		mutually_exclusive = { focus = JAP_temporary_civilian_investment }
@@ -46,7 +46,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_temporary_civilian_investment
-		
+		icon = GFX_focus_JAP_temporary_civilian_investment
 		prerequisite = { focus = JAP_kanto_steel_works }
 		relative_position_id = JAP_kanto_steel_works
 		mutually_exclusive = { focus = JAP_resource_extraction }
@@ -60,7 +60,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_develop_the_showa_steel_works
-		
+		icon = GFX_focus_JAP_showa_steel
 		prerequisite = { focus = JAP_resource_extraction }
 		relative_position_id = JAP_resource_extraction
 		available = {
@@ -117,7 +117,7 @@ focus_tree = {
 		}
 	focus = {
 		id = JAP_develop_the_interior
-		
+		icon = GFX_focus_JAP_chinese_interior
 		prerequisite = { focus = JAP_resource_extraction }
 		relative_position_id = JAP_resource_extraction 
 		cost = 5
@@ -150,7 +150,7 @@ focus_tree = {
 		}
 	focus = {
 		id = JAP_labour
-		
+		icon = GFX_focus_generic_industry_1_shine
 		prerequisite = { focus = JAP_temporary_civilian_investment }
 		relative_position_id = JAP_temporary_civilian_investment
 		cost = 5
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_american_trade
-		
+		icon = GFX_focus_JAP_american_trade
 		prerequisite = { focus = JAP_temporary_civilian_investment }
 		relative_position_id = JAP_temporary_civilian_investment
 		cost = 5
@@ -177,7 +177,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_japanese_railways
-		
+		icon = GFX_goal_generic_construct_infrastructure_shine
 		prerequisite = { focus = JAP_temporary_civilian_investment }
 		relative_position_id = JAP_temporary_civilian_investment
 		cost = 5
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_expand_the_manchurian_industry
-		icon = GFX_goal_JAP_bomber
+		icon = GFX_Focus_industry
 		prerequisite = { focus = JAP_develop_the_showa_steel_works  }
 		relative_position_id = JAP_develop_the_showa_steel_works
 		available = {
@@ -247,7 +247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_expand_the_coastal_development
-		
+		icon = GFX_focus_JAP_expand_coastal_development
 		prerequisite = {  focus = JAP_develop_the_coastline  }
 		relative_position_id = JAP_develop_the_coastline
 		cost = 5
@@ -384,7 +384,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Autarky_Achieved
-		
+		icon = GFX_focus_JAP_autarky_achieved
 		prerequisite = { focus = JAP_expand_the_manchurian_industry focus =  JAP_expand_the_coastal_development focus = JAP_expand_the_interiors_agriculture  }
 		relative_position_id = JAP_expand_the_coastal_development
 		cost = 5
@@ -511,7 +511,7 @@ focus_tree = {
 }
 	focus = {
 		id = JAP_the_squid_game
-		
+		icon = GFX_focus_JAP_squid_game
 		prerequisite = { focus = JAP_16 }
 		prerequisite = { focus = JAP_salvo_industries }
 		prerequisite = { focus = JAP_18 }
@@ -541,7 +541,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_for_the_emperor
-		icon = GFX_goal_samurai
+		icon = GFX_focus_JAP_for_the_emperor
 		cost = 5
 		x = 17
 		y = 0
@@ -552,7 +552,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_government_funding
-		icon = GFX_goal_government_budget
+		icon = GFX_focus_JAP_government_funding
 		prerequisite = { focus = JAP_guide_the_zaibatsu }
 		relative_position_id = JAP_guide_the_zaibatsu
 		cost = 5
@@ -565,7 +565,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_the_kaiji_corporation
-		
+		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = JAP_guide_the_zaibatsu }
 		relative_position_id = JAP_guide_the_zaibatsu
 		cost = 5
@@ -590,7 +590,7 @@ focus_tree = {
 }
 	focus = {
 		id = JAP_civic_changes
-		icon = GFX_focus_generic_public_works_A
+		icon = GFX_focus_generic_industry_2
 		prerequisite = { focus = JAP_for_the_emperor }
 		relative_position_id = JAP_for_the_emperor
 		cost = 5
@@ -604,7 +604,7 @@ focus_tree = {
 	}
 	focus = {
  		id = JAP_national_research_policy
-		icon = GFX_goal_research_silver
+		icon = GFX_focus_JAP_research_slot
 		prerequisite = { focus = JAP_for_the_emperor }
 		relative_position_id = JAP_for_the_emperor
 		cost = 5
@@ -617,6 +617,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_military_industry
+		icon = GFX_focus_JAP_military_industry
 		prerequisite = { focus = JAP_government_funding focus = JAP_the_kaiji_corporation focus = JAP_civic_changes  focus = JAP_national_research_policy }
 		relative_position_id = JAP_government_funding
 		cost = 5
@@ -654,6 +655,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_keep_korea_as_a_colony
+		icon = GFX_focus_chi_legislative_yuan
 		mutually_exclusive = {
 			focus = JAP_Japanese_settlers_in_korea
 		}
@@ -672,6 +674,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Japanese_settlers_in_korea
+		icon = GFX_focus_JAP_settle_in_korea
 		mutually_exclusive = {
 			focus = JAP_keep_korea_as_a_colony
 		}
@@ -696,7 +699,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_the_railroad
-		
+		icon = GFX_focus_JAP_the_railroad
 		prerequisite = { focus = JAP_government_funding focus = JAP_the_kaiji_corporation focus = JAP_civic_changes  focus = JAP_national_research_policy }
 		relative_position_id = JAP_government_funding
 		cost = 5
@@ -732,7 +735,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_purge_the_kodoha_faction
-		
+		icon = GFX_focus_JAP_purge_kodoha
 		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_the_railroad }
 		relative_position_id = JAP_military_industry
 		cost = 5
@@ -746,7 +749,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_occupation_mastery
-		
+		icon = GFX_focus_JAP_occupation_mastery
 		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea  focus = JAP_the_railroad }
 		relative_position_id = JAP_military_industry
 		cost = 5
@@ -760,7 +763,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_spread_the_word
-		icon = GFX_goal_government_budget
+		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_the_railroad }
 		relative_position_id = JAP_military_industry
 		cost = 5
@@ -776,7 +779,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_purge_the_kwantung_army
-		
+		icon = GFX_focus_JAP_kwantung_army
 		prerequisite = { focus = JAP_military_industry focus = JAP_keep_korea_as_a_colony focus = JAP_Japanese_settlers_in_korea focus = JAP_the_railroad }
 		relative_position_id = JAP_military_industry
 		cost = 5
@@ -789,7 +792,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_increased_naval_funding
-		
+		icon = GFX_focus_JAP_naval_funding
 		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_spread_the_word  focus = JAP_purge_the_kwantung_army }
 		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
@@ -818,7 +821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_kazutaka_scientists
-		
+		icon = GFX_focus_JAP_kazutaka
 		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_spread_the_word  focus = JAP_purge_the_kwantung_army }
 		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
@@ -845,7 +848,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_hiruzen_technologies
-		
+		icon = GFX_focus_JAP_hiruzen
 		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_spread_the_word  focus = JAP_purge_the_kwantung_army }
 		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
@@ -864,7 +867,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_meiji_era
-		icon = GFX_sca_focus_admirality
+		icon = GFX_focus_JAP_samurai
 		prerequisite = { focus = JAP_purge_the_kodoha_faction focus = JAP_occupation_mastery focus = JAP_spread_the_word  focus = JAP_purge_the_kwantung_army }
 		relative_position_id = JAP_purge_the_kodoha_faction
 		cost = 5
