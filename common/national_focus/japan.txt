@@ -337,21 +337,21 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_16
-		
+		id = JAP_bigger_labs
+		icon = GFX_focus_research2
 		prerequisite = { focus = JAP_labour focus = JAP_american_trade focus = JAP_japanese_railways }
 		relative_position_id = JAP_labour
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+			add_ideas = JAP_research_speed
 		}
 	}
 	focus = {
 		id = JAP_salvo_industries
-		icon = GFX_goal_generic_expand_the_naval_industry
+		icon = GFX_focus_JAP_salvo_industries
 		prerequisite = { focus = JAP_labour focus = JAP_american_trade focus = JAP_japanese_railways }
 		relative_position_id = JAP_american_trade
 		cost = 5
@@ -377,9 +377,9 @@ focus_tree = {
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = { 
-
+			add_stability = 0.075
 		}
 	}
 	focus = {
@@ -512,7 +512,7 @@ focus_tree = {
 	focus = {
 		id = JAP_the_squid_game
 		icon = GFX_focus_JAP_squid_game
-		prerequisite = { focus = JAP_16 }
+		prerequisite = { focus = JAP_bigger_labs }
 		prerequisite = { focus = JAP_salvo_industries }
 		prerequisite = { focus = JAP_18 }
 		relative_position_id = JAP_salvo_industries
