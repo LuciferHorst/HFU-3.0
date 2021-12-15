@@ -337,21 +337,21 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_16
-		
+		id = JAP_bigger_labs
+		icon = GFX_focus_research2
 		prerequisite = { focus = JAP_labour focus = JAP_american_trade focus = JAP_japanese_railways }
 		relative_position_id = JAP_labour
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = { 
-
+			add_ideas = JAP_research_speed
 		}
 	}
 	focus = {
 		id = JAP_salvo_industries
-		icon = GFX_goal_generic_expand_the_naval_industry
+		icon = GFX_focus_JAP_salvo_industries
 		prerequisite = { focus = JAP_labour focus = JAP_american_trade focus = JAP_japanese_railways }
 		relative_position_id = JAP_american_trade
 		cost = 5
@@ -377,9 +377,9 @@ focus_tree = {
 		cost = 5
 		x = 0
 		y = 1
-		#search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = { 
-
+			add_stability = 0.075
 		}
 	}
 	focus = {
@@ -512,7 +512,7 @@ focus_tree = {
 	focus = {
 		id = JAP_the_squid_game
 		icon = GFX_focus_JAP_squid_game
-		prerequisite = { focus = JAP_16 }
+		prerequisite = { focus = JAP_bigger_labs }
 		prerequisite = { focus = JAP_salvo_industries }
 		prerequisite = { focus = JAP_18 }
 		relative_position_id = JAP_salvo_industries
@@ -758,7 +758,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = JAP_hideki_tojo
+			show_ideas_tooltip = hideki_tojo
 		}
 	}
 	focus = {
@@ -1640,7 +1640,7 @@ focus_tree = {
 	prerequisite = { focus = JAP_meiji_era }
 	mutually_exclusive = { focus = JAP_coal_liquification}
 	relative_position_id = JAP_hiruzen_technologies
-	cost = 10
+	cost = 3
 	ai_will_do = {
 		factor = 2
 	}
@@ -1649,9 +1649,6 @@ focus_tree = {
 	}
 	bypass = {
 	}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 	completion_reward = {
 		SOV = {
@@ -1669,7 +1666,7 @@ focus = {
 	x = 1
 	y = 1
 	relative_position_id = JAP_increased_naval_funding
-	cost = 10
+	cost = 3
 	ai_will_do = {
 		factor = 2
 	}
@@ -1677,9 +1674,6 @@ focus = {
 	}
 	bypass = {
 	}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 	completion_reward = {
 		282 = {

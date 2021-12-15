@@ -108,7 +108,6 @@ country_event = {
 		set_variable = { election_factor = random }
 		add_to_variable = { election_factor = -0.5 }
 		custom_effect_tooltip = usa_congress_elections_tt_bad
-		country_event = usa.30
 	}
 }
 country_event = {
@@ -218,7 +217,7 @@ country_event = {
 	}
 	option = {
 		name = usa.44.a
-		USA_senate_medium_support = yes
+		USA_senate_small_support = yes
 		hidden_effect = {
 			country_event = { id = usa.50 days = 70 random_days = 20 }
 		}
@@ -235,7 +234,7 @@ country_event = {
 	}
 	option = {
 		name = usa.45.a
-		USA_house_medium_support = yes
+		USA_house_small_support = yes
 		hidden_effect = {
 			country_event = { id = usa.51 days = 70 random_days = 10 }
 		}
@@ -252,7 +251,7 @@ country_event = {
 	}
 	option = {
 		name = usa.46.a
-		USA_senate_medium_opposition = yes
+		USA_senate_small_opposition = yes
 		hidden_effect = {
 			country_event = { id = usa.50 days = 70 random_days = 20 }
 		}
@@ -269,7 +268,7 @@ country_event = {
 	}
 	option = {
 		name = usa.47.a
-		USA_house_medium_opposition = yes
+		USA_house_small_opposition = yes
 		hidden_effect = {
 			country_event = { id = usa.51 days = 70 random_days = 10 }
 		}

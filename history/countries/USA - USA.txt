@@ -9,7 +9,7 @@ if = {
 }
 set_rule = {can_be_spymaster = no}
 add_ideas = USA_naval_neutrality
-add_ideas = disarmed_nation
+add_ideas = volunteer_only
 add_ideas = reliance_on_natural_rubber
 add_ideas = peace_training
 add_ideas = Pacific_focus
@@ -34,8 +34,13 @@ USA = {
 	country_event = { id = usa.50 days = 5 }
 	country_event = { id = usa.51 days = 5 }
 }
+set_country_flag = USA_no_armor_genius
 # Starting tech
 set_technology = {
+	engine_tech_1 = 1
+	armor_tech_1 = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
 	amphibious_mechanized_infantry = 1
 	armored_car1 = 1
 	airfield_allowed = 1
@@ -53,7 +58,6 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank_chassis = 1
 	early_fighter = 1
 	fighter1 = 1
 	naval_bomber1 = 1
@@ -179,6 +183,7 @@ recruit_character = USA_william_simpson
 recruit_character = USA_j_lawton_collins
 recruit_character = USA_courtney_hodges
 recruit_character = USA_joseph_stilwell
+recruit_character = USA_joseph_stilwell2
 recruit_character = USA_oscar_griswold
 recruit_character = USA_maurice_rose
 recruit_character = USA_alexander_vandegrift

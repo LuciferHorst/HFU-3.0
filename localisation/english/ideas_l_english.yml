@@ -11,6 +11,7 @@
  JAP_national_propaganda:0 "National Propaganda"
  JAP_look_to_the_meiji_era:0 "Look To The Meiji Era"
  JAP_quality_ships: "Quality Ships"
+ JAP_research_speed:0 "Technological Improvements"
 
 
 
@@ -2526,6 +2527,7 @@
  SOV_scientist_defect:0 "Scientists Defect"
  SOV_realism:0 "Socialist realism"
  USA_robert_taft:0 "Robert Taft"
+ USA_better_joseph_stilwell:0 "Joseph Stilwell"
  USA_john_winant:0 "John Winant"
  USA_cordell_hull:0 "Cordell Hull"
  USA_henry_stimson:0 "Henry Stimson"

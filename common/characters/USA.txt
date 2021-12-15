@@ -614,7 +614,48 @@ characters={
 				large="gfx/leaders/USA/Portrait_USA_Joseph_Stilwell.dds"
 			}
 		}
+		#WEAKER ADVISOR
 		advisor={
+			slot = high_command
+			idea_token = joseph_stilwell
+			ledger = army
+			allowed = {
+				original_tag = USA
+			}
+			visible = {
+				has_country_flag = USA_no_armor_genius
+			}
+			available = {
+				has_country_flag = USA_no_armor_genius
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+		}
+		corps_commander={
+			traits={ career_officer panzer_leader panzer_expert harsh_leader politically_connected trait_engineer organizer }
+			skill=1
+			attack_skill=7
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=601
+		}
+	}
+
+	USA_better_joseph_stilwell={
+		name=USA_better_joseph_stilwell
+		portraits={
+			army={
+				small="GFX_idea_joseph_stilwell"
+			}
+			army={
+				large="gfx/leaders/USA/Portrait_USA_Joseph_Stilwell.dds"
+			}
+		}
+		#STRONGER ADVISOR
+		advisor={ 
 			slot = high_command
 			idea_token = joseph_stilwell
 			ledger = army
@@ -631,9 +672,6 @@ characters={
 				army_armored_3
 			}
 			cost = 150
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 		
 		corps_commander={

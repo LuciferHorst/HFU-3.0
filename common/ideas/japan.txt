@@ -389,6 +389,19 @@ ideas = {
 				naval_equipment = 0.2
 			}
 		}
+		JAP_research_speed = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
 
 		JAP_hi_hi = {
 			allowed = {
@@ -727,6 +740,18 @@ ideas = {
 		}
 	}
 	political_advisor = {
+		hideki_tojo = {
+			ledger = political_advisor
+			allowed = {
+				original_tag = JAP
+			}
+			visible = {
+			}
+			available = {
+				has_completed_focus = JAP_occupation_mastery
+			}
+			traits = { chinese_ambassador }
+		}
 		kingoro_hashimoto = {
 			allowed = {
 				original_tag = "JAP"
@@ -890,7 +915,6 @@ ideas = {
 		}
 	}
 	high_command = {
-		
 		yasuji_okamura = {
 			ledger = army
 			allowed = {
@@ -1023,19 +1047,19 @@ ideas = {
 				#
 			}
 		}
-		sasebo_naval_arsenal = {
-			allowed = {
-				original_tag = JAP
-			}
-			modifier = { naval_manufacturer_cost_factor = -1 }
-			cost = 100
-			research_bonus = {
-				naval_equipment = 0.15
-			}
-			traits = { coastal_defence_naval_manufacturer } #used for many repairs and conversions
-			equipment_bonus = {
-			}
-		}
+		# sasebo_naval_arsenal = {
+		# 	allowed = {
+		# 		original_tag = JAP
+		# 	}
+		# 	modifier = { naval_manufacturer_cost_factor = -1 }
+		# 	cost = 100
+		# 	research_bonus = {
+		# 		naval_equipment = 0.15
+		# 	}
+		# 	traits = { coastal_defence_naval_manufacturer } #used for many repairs and conversions
+		# 	equipment_bonus = {
+		# 	}
+		# }
 		kawasaki_dockyards = {
 			picture = generic_naval_manufacturer_3
 			allowed = {

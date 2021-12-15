@@ -33,7 +33,7 @@ ideas = {
 			}
 			picture = GFX_goal_generic_navy_battleship
 
-			research_bonus = { naval_equipment = 0.1 }
+			research_bonus = { naval_equipment = 0.15 }
 			removal_cost = -1
 		}
 		USA_war_time={
@@ -316,7 +316,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 				industrial_capacity_factory = -0.10
 				industrial_capacity_dockyard = -0.10
-				production_speed_industrial_complex_factor = 0.4
+				production_speed_industrial_complex_factor = 0.3
 				production_speed_dockyard_factor = -0.6
 				production_speed_arms_factory_factor = -0.6
 			}
@@ -353,6 +353,7 @@ ideas = {
 				political_power_cost = 0.3
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
+				production_speed_industrial_complex_factor = 0.1
 				production_speed_dockyard_factor = -0.2
 				production_speed_arms_factory_factor = -0.2
 			}
@@ -1579,7 +1580,7 @@ ideas = {
 				factor = 1
 			}
 		}
-		joseph_stilwell_2 = {
+		better_joseph_stilwell = {
 			ledger = army
 			allowed = {
 				original_tag = USA
