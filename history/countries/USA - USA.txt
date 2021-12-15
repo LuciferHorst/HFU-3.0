@@ -34,6 +34,7 @@ USA = {
 	country_event = { id = usa.50 days = 5 }
 	country_event = { id = usa.51 days = 5 }
 }
+set_country_flag = USA_no_armor_genius
 # Starting tech
 set_technology = {
 	amphibious_mechanized_infantry = 1
@@ -179,6 +180,7 @@ recruit_character = USA_william_simpson
 recruit_character = USA_j_lawton_collins
 recruit_character = USA_courtney_hodges
 recruit_character = USA_joseph_stilwell
+recruit_character = USA_joseph_stilwell2
 recruit_character = USA_oscar_griswold
 recruit_character = USA_maurice_rose
 recruit_character = USA_alexander_vandegrift
