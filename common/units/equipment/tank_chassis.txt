@@ -582,7 +582,7 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_medium_turret_type
+					tank_light_turret_type
 				}
 			}
 
@@ -654,7 +654,7 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2 #two secondary turrets only
 		}
 		module_count_limit = {
 			module = amphibious_drive
@@ -922,7 +922,7 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2 #two secondary turrets only
 		}
 		module_count_limit = {
 			module = amphibious_drive
@@ -1053,7 +1053,7 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2 #two secondary turrets only
 		}
 		module_count_limit = {
 			module = amphibious_drive
@@ -1204,7 +1204,7 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2 #two secondary turrets only
 		}
 		module_count_limit = {
 			module = amphibious_drive
