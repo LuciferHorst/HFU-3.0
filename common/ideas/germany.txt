@@ -1394,8 +1394,9 @@ ideas = {
 				original_tag = GER
 			}
 			research_bonus = {
-				electronics = 0.15
+				electronics = 0.20
 			}
+			cost = 75
 			traits = { electronics_concern }
 		}
 	}

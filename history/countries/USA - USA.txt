@@ -37,6 +37,7 @@ USA = {
 set_country_flag = USA_no_armor_genius
 # Starting tech
 set_technology = {
+	synth_oil_experiments = 1 
 	engine_tech_1 = 1
 	armor_tech_1 = 1
 	gwtank_chassis = 1

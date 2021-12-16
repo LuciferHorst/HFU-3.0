@@ -15,10 +15,7 @@
  JAP_look_to_the_meiji_era:0 "Look To The Meiji Era"
  JAP_quality_ships: "Quality Ships"
  JAP_research_speed:0 "Technological Improvements"
-
-
-
-
+ JAP_civilian_sector:0 "Civilian Sector"
 
  USA_shipyard_expansion:0 "Shipyard Expansion"
  USA_foreign_scientists:0 "Foreign Scientists"

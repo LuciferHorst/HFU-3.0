@@ -1289,7 +1289,7 @@ leader_traits = {
 	silent_workhorse_usa = {
 		random = yes
 		sprite = 13
-		political_power_factor = 0.45
+		political_power_factor = 0.40
 
 		ai_will_do = {
 			factor = 1

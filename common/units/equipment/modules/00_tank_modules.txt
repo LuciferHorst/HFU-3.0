@@ -1916,9 +1916,9 @@ tank_high_velocity_cannon_m1 = {
 		add_stats = {
 			build_cost_ic = 2
 			breakthrough = 8
-		xp_cost = 0
-
+	
 		}
+		xp_cost = 0
 	}
 
 	smoke_launchers = {

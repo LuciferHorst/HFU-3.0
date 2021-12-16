@@ -972,8 +972,9 @@ ideas = {
 				original_TAG = ENG
 			}
 			research_bonus = {
-				electronics = 0.15
+				electronics = 0.20
 			}
+			cost = 75
 			traits = { electronics_concern }
 			modifier = {
 			}

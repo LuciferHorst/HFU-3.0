@@ -1106,7 +1106,7 @@ characters={
 				original_tag = JAP
 			}
 			available = {
-				has_completed_focus = JAP_army_expansion
+				has_completed_focus = JAP_army_expansion_law
 			}
 			traits = {
 				army_chief_drill_3
@@ -1541,10 +1541,10 @@ characters={
 				original_tag = JAP
 			}
 			available = {
-				has_completed_focus = JAP_resource_extraction
+			
 			}
 			traits = {
-				colonial_governor 
+				editor
 			}
 			ai_will_do = {
 				factor = 0.300

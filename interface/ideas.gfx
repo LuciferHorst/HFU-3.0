@@ -1,5 +1,25 @@
 spriteTypes = {
-
+	
+	spriteType = {
+		name = "GFX_idea_factorio"
+		texturefile = "gfx/interface/ideas/usa/idea_factorio.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_new_reforms"
+		texturefile = "gfx/interface/ideas/usa/idea_new_reforms.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_shipyard_expansion"
+		texturefile = "gfx/interface/ideas/usa/idea_shipyard_expansion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kwantung_army"
+		texturefile = "gfx/interface/ideas/jap/idea_kwantung_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kodoha_faction"
+		texturefile = "gfx/interface/ideas/jap/idea_kodoha_faction.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_mass_production"
 		texturefile = "gfx/interface/ideas/GER_eco.dds"

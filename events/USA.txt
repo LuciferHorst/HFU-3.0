@@ -268,7 +268,7 @@ country_event = {
 	}
 	option = {
 		name = usa.47.a
-		USA_house_small_opposition = yes
+		USA_house_medium_opposition = yes
 		hidden_effect = {
 			country_event = { id = usa.51 days = 70 random_days = 10 }
 		}

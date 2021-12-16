@@ -262,7 +262,6 @@ add_equipment_to_stockpile = {
  recruit_character = JAP_gengo_hyakutake
  recruit_character = JAP_fushimi_hiroyasu
  recruit_character = JAP_korechika_anami
- recruit_character = JAP_mitsuo_fuchida
  recruit_character = JAP_tateo_kato
  recruit_character = JAP_osami_nagano
  recruit_character = JAP_torashiro_kawabe

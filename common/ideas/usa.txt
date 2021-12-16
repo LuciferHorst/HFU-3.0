@@ -195,7 +195,7 @@ ideas = {
 			}
 		}
 		USA_ford_motor_company = {
-			picture = generic_production_bonus
+			picture = generic_research_bonus
 			allowed = {
 				always = no
 			}
@@ -373,7 +373,7 @@ ideas = {
 			}
 		}
 		USA_set_for_life = {
-			picture = generic_production_bonus
+			picture = factorio
 			allowed = {
 				always = no
 			}
@@ -387,7 +387,7 @@ ideas = {
 			}
 		}
 		USA_shipyard_expansion = {
-			picture = generic_production_bonus
+			picture = shipyard_expansion
 			allowed = {
 				always = no
 			}
@@ -401,7 +401,7 @@ ideas = {
 			}
 		}
 		USA_foreign_scientists = {
-			picture = generic_production_bonus
+			picture = generic_research_bonus
 			allowed = {
 				always = no
 			}
@@ -414,7 +414,7 @@ ideas = {
 			}
 		}
 		USA_reform_the_bureaucracy = {
-			picture = generic_production_bonus
+			picture = new_reforms
 			allowed = {
 				always = no
 			}
@@ -1666,17 +1666,17 @@ ideas = {
 			}
 			traits = {  }
 			equipment_bonus = {
-				medium_tank_chassis = {
-					hard_attack = 0.10 soft_attack = 0.10 armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
+				light_tank_chassis = {
+					hard_attack = 0.10 soft_attack = 0.10  hardness = 0.05 build_cost_ic = 0.05
 				}
-				medium_tank_aa_chassis = {
-					air_attack = 0.10 armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
+				light_tank_aa_chassis = {
+					air_attack = 0.15  armor_value = 0.1 build_cost_ic = 0.05
 				}
-				medium_tank_artillery_chassis= {
-					soft_attack = 0.15  armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
+				light_tank_artillery_chassis= {
+					soft_attack = 0.15  armor_value = 0.1 hardness = -0.05 build_cost_ic = 0.05 
 				}
-				medium_tank_destroyer_chassis = {
-					hard_attack = 0.15 ap_attack = 0.1 armor_value = -0.1 hardness = -0.1 build_cost_ic = -0.075
+				light_tank_destroyer_chassis = {
+					hard_attack = 0.15 ap_attack = 0.1 armor_value = 0.1 build_cost_ic = 0.05 
 				}
 			}
 			modifier = { tank_manufacturer_cost_factor = -1 }
@@ -1690,13 +1690,6 @@ ideas = {
 			}
 			equipment_bonus = {
 				medium_tank_chassis = {
-					reliability = 0.05
-					soft_attack = 0.1
-					hard_attack = 0.1
-					armor_value = 0.1
-					build_cost_ic = 0.05
-				}
-				amphibious_tank_equipment = {
 					reliability = 0.05
 					soft_attack = 0.1
 					hard_attack = 0.1
@@ -1754,18 +1747,18 @@ ideas = {
 			traits = { }
 			equipment_bonus = {
 				light_tank_destroyer_chassis = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.075
 					ap_attack = 0.1
-					hard_attack = 0.25
+					hard_attack = 0.2
 				}
 				medium_tank_destroyer_chassis = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.075
 					ap_attack = 0.20
-					hard_attack = 0.25
+					hard_attack = 0.2
 				}
 				heavy_tank_destroyer_chassis = {
 					build_cost_ic = -0.05
-					ap_attack = 0.10
+					ap_attack = 0.20
 					hard_attack = 0.20
 				}
 			}
@@ -1960,8 +1953,9 @@ ideas = {
 				original_tag = USA
 			}
 			research_bonus = {
-				electronics = 0.15
+				electronics = 0.20
 			}
+			cost = 75
 			traits = { electronics_concern }
 			modifier = {
 			}

@@ -34,7 +34,7 @@ focus_tree = {
               add_ideas  = JAP_civilian_sector
 		}
 	}
-		focus = {
+	focus = {
 		id = JAP_fighter_modernization
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = JAP_purge_the_kodoha_faction }
@@ -65,21 +65,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_range_focus
-		icon = GFX_goal_generic_air_production
-		prerequisite = { focus = JAP_unified_fighter_development }
-		x = -1
-		y = 1
-		relative_position_id = JAP_unified_fighter_development
-		cost = 10
-		available = {
-		}
-		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = aichi
-		}
-	}
-	focus = {
 		id = JAP_unified_fighter_development
 		icon = GFX_goal_generic_air_fighter
 		prerequisite = { focus = JAP_fighter_modernization }
@@ -93,6 +78,21 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = JAP_duplicate_research_efforts
 			air_experience = 250
+		}
+	}
+	focus = {
+		id = JAP_range_focus
+		icon = GFX_goal_generic_air_production
+		prerequisite = { focus = JAP_unified_fighter_development }
+		x = -1
+		y = 1
+		relative_position_id = JAP_unified_fighter_development
+		cost = 10
+		available = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = aichi
 		}
 	}
 	focus = {
@@ -190,22 +190,6 @@ focus_tree = {
 			}
 		}
 	}
-
-    focus = {
-		 		id = JAP_occupation_mastery
-		 		icon = GFX_focus_JAP_occupation_mastery
-		 		prerequisite = { focus= JAP_civ_greed }
-		 		relative_position_id = JAP_civ_greed
-		 		cost = 5
-		 		x = 0
-		 		y = 1
-		 		search_filters = { FOCUS_FILTER_POLITICAL }
-		 		completion_reward = { 
-		 			custom_effect_tooltip = available_political_advisor
-		 			show_ideas_tooltip = hideki_tojo
-		 		}
-		 	}
-
 	focus = {
 		id = JAP_modern_at_guns
 		icon = GFX_focus_GER_flak_36
@@ -810,6 +794,20 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = JAP_occupation_mastery
+		icon = GFX_focus_JAP_occupation_mastery
+		prerequisite = { focus= JAP_civ_greed }
+		relative_position_id = JAP_civ_greed
+		cost = 5
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { 
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = hideki_tojo
+		 		}
+		}
+	focus = {
 		id = JAP_spread_the_word
 		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = { focus = JAP_kanto_steel_works }
@@ -823,6 +821,21 @@ focus_tree = {
 				idea = JAP_national_propaganda
 				days = 140
 			}
+		}
+	}
+	focus = {
+		id = JAP_idemitsu_kosan_focus
+		icon = GFX_focus_JAP_showa_steel
+		prerequisite = { focus = JAP_kanto_steel_works }
+		relative_position_id = JAP_kanto_steel_works
+		available = {
+		}
+		cost = 5
+		x = -3
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = { 
+			add_ideas = JAP_idemitsu_kosan
 		}
 	}
 	focus = {
@@ -910,6 +923,19 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = JAP_labour
+		icon = GFX_focus_generic_industry_2_shine
+		prerequisite = { focus = JAP_spread_the_word }
+		relative_position_id = JAP_spread_the_word
+		cost = 5
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = { 
+			add_timed_idea = { idea = JAP_consumer_goods days = 180 }
+		}
+	}
+	focus = {
 		id = JAP_hiruzen_technologies
 		icon = GFX_focus_JAP_hiruzen
 		prerequisite = { focus = JAP_labour }
@@ -928,43 +954,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = JAP_develop_the_showa_steel_works
-		icon = GFX_focus_JAP_showa_steel
-		prerequisite = { focus = JAP_for_the_emperor }
-		relative_position_id = JAP_for_the_emperor
-		available = {
-		}
-		cost = 5
-		x = 0
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = { 
-			534 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
-											}
-			}
-	}
-}
-	focus = {
-		id = JAP_idemitsu_kosan_focus
-		icon = GFX_focus_JAP_showa_steel
-		prerequisite = { focus = JAP_kanto_steel_works }
-		relative_position_id = JAP_kanto_steel_works
-		available = {
-		}
-		cost = 5
-		x = -3
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = { 
-			add_ideas = JAP_idemitsu_kosan
-		}
-	}
-		focus = {
 		id = JAP_guide_the_zaibatsu
 		icon = GFX_focus_jap_zaibatsu
 		cost = 5
@@ -994,6 +983,28 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = JAP_develop_the_showa_steel_works
+		icon = GFX_focus_JAP_showa_steel
+		prerequisite = { focus = JAP_for_the_emperor }
+		relative_position_id = JAP_for_the_emperor
+		available = {
+		}
+		cost = 5
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = { 
+			534 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+											}
+			}
+	}
+}
+	focus = {
 		id = JAP_national_research_policy
 	   icon = GFX_focus_JAP_research_slot
 	   prerequisite = { focus = JAP_guide_the_zaibatsu }
@@ -1006,20 +1017,7 @@ focus_tree = {
 		   add_research_slot = 1
 	   }
    }
-   focus = {
-	id = JAP_labour
-	icon = GFX_focus_generic_industry_2_shine
-	prerequisite = { focus = JAP_spread_the_word }
-	relative_position_id = JAP_spread_the_word
-	cost = 5
-	x = 0
-	y = 1
-	search_filters = { FOCUS_FILTER_INDUSTRY }
-	completion_reward = { 
-		add_timed_idea = { idea = JAP_consumer_goods days = 180 }
-	}
-}
-focus = {
+	focus = {
 	id = JAP_expand_the_interiors_agriculture
 	icon = GFX_focus_man_claim_the_mandate_of_heaven
 	prerequisite = {  focus = JAP_national_research_policy }
@@ -1504,7 +1502,7 @@ focus = {
 			}
 		}
 		focus = {
-			id = JAP_build_escorts
+			id = JAP_build_escorts_1
 			icon = GFX_focus_generic_destroyer
 			prerequisite = { focus = JAP_strike_on_the_southern_resource_area }
 			x = 3
