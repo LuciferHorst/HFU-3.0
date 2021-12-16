@@ -1624,6 +1624,11 @@ equipments = {
 		build_cost_ic = 5
 		reliability = 1
 		armor_value = 30
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
 	}
 
 	heavy_tank_chassis_1 = {
