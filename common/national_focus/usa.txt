@@ -283,7 +283,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		x = 0
 		y = 1
-		cost = 7.2
+		cost = 5
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 		USA_senate_small_opposition = yes
@@ -521,7 +521,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		x = -2
 		y = 1
-		cost = 7.2
+		cost = 5
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_ideas = USA_set_for_life
@@ -613,7 +613,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		x = 0
 		y = 1
-		cost = 7.2
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 		USA_senate_small_opposition = yes
@@ -722,7 +722,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		x = 1
 		y = 1
-		cost = 7.2
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			USA_senate_small_opposition = yes
@@ -1045,16 +1045,8 @@ focus = {
 		prerequisite = { focus = USA_tank_experiments }
 		relative_position_id = USA_tank_experiments
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
 		available = {
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = tank_destroyer_board
@@ -1656,9 +1648,6 @@ focus = {
 		cost = 4
 		available = {
 			date > 1942.1.1
-		}
-		ai_will_do = {
-			factor = 1
 		}
 		available_if_capitulated = yes
 		completion_reward = {

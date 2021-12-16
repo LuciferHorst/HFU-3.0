@@ -21,10 +21,10 @@ set_variable = {
 create_intelligence_agency = yes
 set_research_slots = 4
 set_stability = 0.25
-set_war_support = 0.02
-set_variable = { var = senators_support value = 48 }
+set_war_support = 0.05
+set_variable = { var = senators_support value = 44 }
 set_variable = { var = senators_total value = 96 }
-set_variable = { var = representatives_support value = 218 }
+set_variable = { var = representatives_support value = 206 }
 set_variable = { var = representatives_total value = 435 }
 set_variable = { var = quorum_low value = 39 }
 set_variable = { var = quorum_medium value = 49 }
