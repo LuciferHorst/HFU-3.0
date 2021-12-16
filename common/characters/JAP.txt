@@ -1461,9 +1461,6 @@ characters={
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
 				}
 			}
 			allowed = {
@@ -1471,11 +1468,6 @@ characters={
 			}
 			traits = {
 				captain_of_industry
-			}
-			do_effect = {
-				NOT = {
-					has_government = democratic 
-				}
 			}
 			ai_will_do = {
 				factor = 0.000

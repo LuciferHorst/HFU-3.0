@@ -31,7 +31,8 @@ focus_tree = {
 		y = 1
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = { 
-              add_ideas  = JAP_civilian_sector
+			  add_political_power = 75
+			 add_ideas =  JAP_civilian_sector
 		}
 	}
 	focus = {
@@ -340,7 +341,7 @@ focus_tree = {
 				target = GER
 				modifier = japan_armor_sharing
 			}
-			custom_effect_tooltip="License production factory output will be -10%.       "
+			custom_effect_tooltip="License production factory output will be -10%."
 			add_tech_bonus = {
 				name = JAP_armored_divisions
 				bonus = 1.2
@@ -481,7 +482,7 @@ focus_tree = {
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-			custom_effect_tooltip = "After Jan 1940, Salvo will give -5 dockyard output"
+			custom_effect_tooltip = "After Jan 1940, Salvo will give -10 dockyard output"
 		add_ideas = JAP_salvo_genius
 	}
 }
@@ -886,7 +887,7 @@ focus_tree = {
 		completion_reward = { 
 			add_tech_bonus = {
 				name = JAP_industry
-				bonus = 0.5
+				bonus = 0.75
 				uses = 2
 				technology = advanced_machine_tools
 				technology = flexible_line
@@ -947,7 +948,7 @@ focus_tree = {
 		completion_reward = { 
 			add_tech_bonus = {
 				name = JAP_construction
-				bonus = 1.2
+				bonus = 1.5
 				uses = 2
 				category = construction_tech
 			}

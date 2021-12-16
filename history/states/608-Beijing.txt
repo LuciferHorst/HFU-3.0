@@ -8,6 +8,7 @@ state={
     resources={
 		tungsten = 20
 		aluminium = 30
+		steel=60
 	}
 	history={
 		owner = CHI
