@@ -1447,7 +1447,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 150
+			cost = 75
 			slot = political_advisor
 			idea_token = kijuro_shidehara
 			available = {
@@ -1491,7 +1491,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 150
+			cost = 100
 			slot = political_advisor
 			idea_token = kingoro_hashimoto
 			allowed = {
