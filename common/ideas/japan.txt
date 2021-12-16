@@ -373,7 +373,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = GFX_goal_generic_construct_civ_factory
+			picture = generic_goods_red_bonus
 			modifier = {
 				production_speed_industrial_complex_factor = 0.1
 			}

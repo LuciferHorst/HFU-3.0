@@ -924,7 +924,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_labour
-		icon = GFX_focus_generic_industry_2_shine
+		icon = GFX_focus_generic_industry_2
 		prerequisite = { focus = JAP_spread_the_word }
 		relative_position_id = JAP_spread_the_word
 		cost = 5
@@ -1067,7 +1067,7 @@ focus = {
 }
 	focus = {
 	id = JAP_civic_changes
-	icon = GFX_focus_generic_industry_2
+	icon = GFX_focus_research2
 	prerequisite = { focus = JAP_expand_the_interiors_agriculture }
 	relative_position_id = JAP_expand_the_interiors_agriculture
 	cost = 5

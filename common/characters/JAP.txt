@@ -1534,7 +1534,7 @@ characters={
 			}
 		}
 		advisor= {
-			cost = 75
+			cost = 150
 			slot = political_advisor
 			idea_token = JAP_hiroshi_oshima
 			allowed = {
@@ -1544,7 +1544,7 @@ characters={
 			
 			}
 			traits = {
-				editor
+				popular_figurehead
 			}
 			ai_will_do = {
 				factor = 0.300

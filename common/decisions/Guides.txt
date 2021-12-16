@@ -28,6 +28,7 @@ hoi_guide = {
             }    
         }
 	}
+
     japan_guide = {
 		allowed = {
 		tag = JAP
@@ -38,6 +39,20 @@ hoi_guide = {
 		complete_effect = {
             country_event = {
                 id =  guide.3
+            }    
+        }
+	}
+
+    usa_guide = {
+		allowed = {
+		tag = USA
+		}
+		visible = {
+           always = yes
+        }
+		complete_effect = {
+            country_event = {
+                id =  guide.5
             }    
         }
 	}
