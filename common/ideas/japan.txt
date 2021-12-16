@@ -64,10 +64,39 @@ ideas = {
 					has_government = fascism
 				}
 			}
-			research_bonus = { industry = 0.2 }
-			research_bonus = { electronics  = 0.15 }
+			research_bonus = { electronics  = 0.2 }
 			modifier = {
-			consumer_goods_factor = -0.02
+				local_resources_factor = 0.1
+				fuel_gain_factor_from_states = 1.5
+		}
+		}
+		JAP_salvo_genius = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			modifier = {
+				production_speed_dockyard_factor = 0.125
+		}
+		}
+		JAP_salvo_dummkopf = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			modifier = {
+				production_speed_dockyard_factor = 0.125
+				industrial_capacity_dockyard = -0.05
 		}
 		}
 		JAP_american_trade = {
@@ -312,7 +341,7 @@ ideas = {
 			modifier = {
 				political_power_cost = 0.35
 				economy_cost_factor = 0.35
-				production_speed_industrial_complex_factor = 0.15
+				production_speed_industrial_complex_factor = 0.2
 				production_speed_arms_factory_factor = -0.1
 				production_speed_dockyard_factor = -0.1
 				consumer_goods_factor = 0.05
@@ -329,9 +358,24 @@ ideas = {
 			picture = jap_zaibatsu_ally
 			modifier = {
 				political_power_cost = 0.25
-				economy_cost_factor = 0.25
-				production_speed_industrial_complex_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
 				consumer_goods_factor = 0.025
+			}
+		}
+
+		JAP_civilian_sector = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_goal_generic_construct_civ_factory
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
 			}
 		}
 
@@ -346,7 +390,7 @@ ideas = {
 			picture = genial_anti_revolutionary
 			research_bonus = { land_doctrine = -0.1 }
 			modifier = {
-				stability_weekly = -0.003
+				stability_weekly = -0.002
 			}
 		}
 		JAP_kodoha_faction = {
@@ -359,7 +403,8 @@ ideas = {
 			removal_cost = -1
 			picture = generic_production_bonus
 			modifier = {
-				political_power_gain = 0.3
+				political_power_gain = 0.2
+				stability_factor = -0.1
 			}
 		}
 		JAP_look_to_the_meiji_era = {
@@ -399,7 +444,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_production_bonus
 			modifier = {
-				research_speed_factor = 0.05
+				research_speed_factor = 0.075
 			}
 		}
 
@@ -499,6 +544,25 @@ ideas = {
 				production_speed_industrial_complex_factor = 0.1
 			}
 		}
+
+		JAP_construction_speed = {
+			name = JAP_militarism
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = jap_militarism_showa
+			modifier = {
+				war_support_factor = 0.1
+				mobilization_laws_cost_factor = -0.15
+				justify_war_goal_time = -0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		
 		MAN_militarism = {
 			allowed = {
 				always = no
@@ -1166,7 +1230,7 @@ ideas = {
 				original_tag = JAP
 			}
 			available = {
-				has_completed_focus = JAP_civic_changes
+				has_completed_focus = JAP_idemitsu_kosan_focus
 			}
 			cost = 75
 			research_bonus = {

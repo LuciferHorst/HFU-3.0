@@ -1420,7 +1420,7 @@ leader_traits = {
 	chinese_ambassador = {
 		sprite = 10
 		compliance_gain = 0.15
-		war_support_weekly = -0.01
+		war_support_weekly = -0.003
 		ai_will_do = {
 			factor = 1
 		}

@@ -95,6 +95,29 @@ focus_tree = {
  }
 }
 }
+
+focus = {
+	id = VEN_Salvo
+	icon = GFX_goal_generic_consumer_goods
+	x = 10
+	y = 3
+	cost = 1
+	ai_will_do = {
+		factor = 1
+	}
+	available_if_capitulated = yes
+	available = { 
+		date > 1940.6.1
+		AND= { JAP = { has_idea = JAP_salvo_genius } }
+		 }
+		 completion_reward = { 
+			 swap_ideas = {
+				remove_idea = JAP_salvo_genius
+				add_idea = JAP_salvo_dummkopf
+			 }
+			}
+		}
+
  focus = {
 	id = VEN_rubber_railroad_two
 	icon = GFX_goal_generic_consumer_goods
