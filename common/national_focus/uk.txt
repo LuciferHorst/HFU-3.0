@@ -1247,7 +1247,7 @@ focus_tree = {
 		id = uk_rock_focus
 		prerequisite = { focus = uk_mediterranean_focus }
 		available = {
-			116 = { is_owned_and_controlled_by = ENG }
+			118 = { is_owned_and_controlled_by = ENG }
 		}
 		icon = GFX_goal_generic_construct_military
 		x = -1
@@ -1324,7 +1324,7 @@ focus_tree = {
 		id = uk_khar_focus
 		prerequisite = { focus = uk_rock_focus }
 		available = {
-			476 = { is_owned_and_controlled_by = ENG }
+			551 = { is_owned_and_controlled_by = ENG }
 		}
 		icon = GFX_goal_generic_construct_military
 		x = 0
@@ -1460,10 +1460,10 @@ focus_tree = {
 		id = uk_malta_focus
 		prerequisite = { focus = uk_mediterranean_focus }
 		available = {
-			114 = { is_owned_and_controlled_by = ENG }
+			116 = { is_owned_and_controlled_by = ENG }
 		}
 		bypass = {
-			114 = { NOT={is_owned_and_controlled_by = ENG }}
+			116 = { is_controlled_by_ROOT_or_ally = no  }
 		}
 		icon = GFX_goal_generic_construct_military
 		x = 1
@@ -2956,7 +2956,7 @@ focus = {
 		available = {
 			date > 1941.08.1
 		}
-		bypass ={NOT ={ITA ={controls_state = 413 controls_state = 581}}}
+		bypass ={NOT ={ITA ={controls_state = 291 controls_state = 454}}}
 		continue_if_invalid = yes
 		icon = GFX_goal_generic_major_war
 		x = 0
@@ -2982,8 +2982,8 @@ focus = {
 		prerequisite = { focus = ENG_crusader }
 		available = {
 			date > 1942.5.1
-			16 = {is_controlled_by_Root_or_ally=yes}
-			113 = {is_controlled_by_Root_or_ally=yes}
+			450 = {is_controlled_by_Root_or_ally=yes}
+			448 = {is_controlled_by_Root_or_ally=yes}
 		}
 		continue_if_invalid = yes
 		icon = GFX_focus_attack_germany

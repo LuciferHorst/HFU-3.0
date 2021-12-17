@@ -1616,6 +1616,12 @@ focus = {
 					level = 20
 					instant_build = yes
 				}
+				add_building_construction = {
+					type = coastal_bunker
+					province =4180
+					level = 5
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -1776,11 +1782,11 @@ focus = {
 					anti_tank = {x = 0 y = 5}
 				}
 			}
-			116 = {
+			118 = {
 				for_loop_effect = {
 					end = 8
 					create_unit = {
-						division = "name = \"US-Mountaineers\" division_template = \"US-Mountaineers\" start_experience_factor = 2.0 start_equipment_factor = 0.1"
+						division = "name = \"US-Mountaineers\" division_template = \"US-Mountaineers\" start_experience_factor = 2.0 start_equipment_factor = 0.5"
 						owner = USA
 					}
 					}}
@@ -1791,8 +1797,8 @@ focus = {
 		icon = GFX_focus_attack_germany
 		prerequisite = { focus = USA_war_plan_black }
 		available = {
-			423={is_controlled_by_ROOT_or_ally=yes}
-			440={is_controlled_by_ROOT_or_ally=yes}
+			461={is_controlled_by_ROOT_or_ally=yes}
+			462={is_controlled_by_ROOT_or_ally=yes}
 		}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
@@ -1801,7 +1807,7 @@ focus = {
 		relative_position_id = USA_war_plan_black
 		cost = 4
 		completion_reward = {
-			425 = {
+			461 = {
 				set_building_level = {
 					type = naval_base
 					level = 20
@@ -1810,25 +1816,18 @@ focus = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 20
+					level = 10
 					instant_build = yes
 				}
 			}
-			426 = {
+			462 = {
 				set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			423 = {
-				set_building_level = {
-					type = air_base
-					level = 10
-					instant_build = yes
-				}
-			}
-			440 = {
+			513 = {
 				set_building_level = {
 					type = air_base
 					level = 10
@@ -1870,7 +1869,7 @@ focus = {
 		cost = 4
 		completion_reward = {
 			every_state = {
-				limit={OR={state=138 state=139}}
+				limit={OR={state=142 state=110}}
 				add_dynamic_modifier = { modifier = JAP_attack days=60  }}
 		}
 	}
@@ -1889,9 +1888,9 @@ focus = {
 		cost = 2
 		completion_reward = {
 			every_state = {
-				limit={OR={state=1 state=112 state=113 state=152 state=115 }}
+				limit={OR={state=115 state=114 state=156 state=1 state=117 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=120  }}
-		}
+		} 
 	}
 	focus = {
 		id = USA_ger6
@@ -1908,7 +1907,7 @@ focus = {
 		cost = 2
 		completion_reward = {
 			every_state = {
-				limit={OR={state=21 state=653 state=113 state=152 state=115 }}
+				limit={OR={state=2 state=162 state=157 state=161 state=158 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=120  }}
 		}
 	}
@@ -2145,7 +2144,7 @@ focus = {
 		cost = 2
 		completion_reward = {
 			every_state = {
-				limit={OR={state=566 state=453}}
+				limit={OR={state=526 state=645}}
 				add_dynamic_modifier = {modifier = JAP_attack days=120}
 		    }
 		}
@@ -2167,8 +2166,8 @@ focus = {
 		completion_reward = {
 		 JAP={remove_ideas = JAP_defense_of_homeland}
 		 every_state = {
-				limit={OR={state=455 state=457}}
-				add_dynamic_modifier = {modifier = JAP_attack days=120}
+				limit={OR={state=282 state=532}}
+				add_dynamic_modifier = {modifier = JAP_attack days=60}
 		    }
 		}
 	}
@@ -2184,7 +2183,7 @@ focus = {
 			factor = 1
 		}
 		available = {
-			273={is_controlled_by_ROOT_or_ally=yes}
+			285 = {is_controlled_by_ROOT_or_ally=yes}
 		}
 		bypass = {
 		}
@@ -2224,11 +2223,11 @@ focus = {
 					anti_tank = {x = 0 y = 5}
 				}
 			}
-			273 = {
+			285 = {
 				for_loop_effect = {
 					end = 8
 					create_unit = {
-						division = "name = \"US-Marines\" division_template = \"US-Marines\" start_experience_factor = 2.0 start_equipment_factor = 0.25"
+						division = "name = \"US-Marines\" division_template = \"US-Marines\" start_experience_factor = 2.0 start_equipment_factor = 0.5"
 						owner = USA
 					}
 				}}
@@ -2268,11 +2267,6 @@ focus = {
 			factor = 1
 		}
 		available = {
-			568={is_controlled_by_ROOT_or_ally=yes}
-			603={is_controlled_by_ROOT_or_ally=yes}
-			559={is_controlled_by_ROOT_or_ally=yes}
-			567 ={is_controlled_by_ROOT_or_ally=yes}
-			603={is_controlled_by_ROOT_or_ally=yes}
 		}
 		bypass = {
 		}
@@ -2281,7 +2275,7 @@ focus = {
 		available_if_capitulated = no
 		completion_reward = {
 			every_state = {
-				limit={OR={state=544 state=545 state=546 state=549 state=547 state=548 state=294 }}
+				limit={OR={state=603 state=327 state=628 state=627 state=623 state=626 state=624 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }}
 		}
 	}
@@ -2305,7 +2299,7 @@ focus = {
 		available_if_capitulated = no
 		completion_reward = {
 			every_state = {
-				limit={OR={state=591 state = 712 state = 713 state=302 state=592 state=588 state=450 state=300 state=692 state=301 state=587 }}
+				limit={OR={state=836 state = 672 state = 335 state=835 state=333 state=334 state=673 state=668 state=738 state=336 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }}
 		}
 	}

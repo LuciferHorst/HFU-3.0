@@ -74,6 +74,10 @@ equipments = {
 			category = ship_radar
 			count < 2
 		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty

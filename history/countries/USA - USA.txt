@@ -205,7 +205,6 @@ recruit_character = USA_dewitt_clinton_ramsey
 recruit_character = USA_charles_lindbergh
 recruit_character = USA_george_kenney
 recruit_character = USA_william_halsey
-recruit_character = USA_john_cannon
 recruit_character = USA_george_marshall
 recruit_character = USA_carl_spaatz
 recruit_character = USA_marc_mitscher

@@ -42,7 +42,7 @@ focus_tree = {
 		x = -5
 		y = 1
 		relative_position_id = JAP_purge_the_kodoha_faction
-		cost = 10
+		cost = 5
 		available = {
 		}
 		bypass = {
@@ -482,7 +482,7 @@ focus_tree = {
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = { 
-			custom_effect_tooltip = "After Jan 1940, Salvo will give -10 dockyard output"
+		custom_effect_tooltip = "After Jan 1940, Salvo will give -10 dockyard output"
 		add_ideas = JAP_salvo_genius
 	}
 }
