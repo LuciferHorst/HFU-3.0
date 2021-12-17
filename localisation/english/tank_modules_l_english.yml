@@ -36,7 +36,7 @@
  EQ_MOD_SLOT_special_type_slot_2_TITLE:0 "Special Features"
  EQ_MOD_SLOT_special_type_slot_3_TITLE:0 "Special Features"
  EQ_MOD_SLOT_special_type_slot_4_TITLE:0 "Special Features"
-
+ EQ_MOD_SLOT_special_type_slot_5_TITLE:0 "Special Features"
  ### EQUIPMENT MODULES ###
  external_fuel_tank:0 "External Fuel Tank"
  external_fuel_tank_desc:0 "Yes its a fuel tank. What did you expect?"

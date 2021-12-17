@@ -218,7 +218,7 @@ military_governor_occupation = {
 	
 	state_modifier = {
 		resistance_target 			= -0.4
-		compliance_gain 			= -0.045
+		compliance_gain 			= -0.05
 		required_garrison_factor 	= -0.1
 		#local_factories 			= 0.00
 		local_resources 			= 0.10
@@ -455,7 +455,7 @@ brutally_oppressive_occupation = {
 	
 	state_modifier = {		
 		resistance_target 				= -0.75
-		compliance_gain 				= -0.11
+		compliance_gain 				= -1
 		required_garrison_factor 		= 1.0
 		resistance_damage_to_garrison 	= 1.0
 		local_resources 				= 0.10

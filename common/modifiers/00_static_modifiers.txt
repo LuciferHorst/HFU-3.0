@@ -451,6 +451,9 @@ screening_bonus = {
 	naval_retreat_speed = 0.2
 	naval_hit_chance = 0.4
 }
+JAP_burma = {
+	max_dig_in = 15
+}
 
 capital_screening_bonus = {
 	naval_retreat_speed = 0.2

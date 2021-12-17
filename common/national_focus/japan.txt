@@ -88,7 +88,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = JAP_unified_fighter_development
-		cost = 10
+		cost = 5
 		available = {
 		}
 		completion_reward = {
@@ -126,7 +126,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = JAP_unified_fighter_development
-		cost = 10
+		cost = 5
 		available = {
 		}
 		completion_reward = {
@@ -1266,7 +1266,7 @@ focus = {
 		613 = {
 			add_resource = {
 				type = aluminium
-				amount = 12
+				amount = 30
 			}
 		}
 		608 = {
@@ -1278,7 +1278,7 @@ focus = {
 		608 = {
 			add_resource = {
 				type = steel
-				amount = 40
+				amount = 70
 			}
 		}
 		if = {
@@ -1667,7 +1667,7 @@ focus = {
 						}
 						upgrades = {
 							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 10
+							tank_nsb_armor_upgrade = 7
 						}
 				
 						icon = "gfx/interface/technologies/JAP_imp_heavy_tank.dds"
