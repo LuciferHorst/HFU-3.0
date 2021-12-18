@@ -566,7 +566,6 @@ technologies = {
 			tank_rocket_launcher_2
             tank_medium_cannon_3
 			tank_anti_air_cannon_3
-			auto_loader
             tank_medium_howitzer_3
 			tank_high_velocity_cannon_m3 
 		}
@@ -838,7 +837,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_heavy_cannon_3
-			auto_loader
 
 			tank_heavy_howitzer3
 			tank_rocket_launcher_2

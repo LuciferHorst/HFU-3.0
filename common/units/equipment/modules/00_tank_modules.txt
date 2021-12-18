@@ -2039,8 +2039,9 @@ tank_high_velocity_cannon_m1 = {
 
 		add_stats = {
 			build_cost_ic = 2.
-			breakthrough = 7
-			defense = 6
+			breakthrough = 6
+			defense = 4
+			reliability = -0.1
 		}
 		xp_cost = 0
 		
