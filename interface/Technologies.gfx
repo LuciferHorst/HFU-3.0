@@ -1988,6 +1988,14 @@ spriteType = {
 		name = "GFX_concentrated_industry4_medium"
 		texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
 	}	
+	SpriteType = {
+		name = "GFX_Lucifer_medium"
+		texturefile = "gfx/interface/technologies/Lucifer.dds"
+	}	
+	SpriteType = {
+		name = "GFX_Joker_medium"
+		texturefile = "gfx/interface/technologies/Joker.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_concentrated_industry5_medium"
