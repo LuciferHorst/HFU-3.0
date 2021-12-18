@@ -101,6 +101,7 @@ guiTypes = {
 			@fixed_btn_mod_col_4 = 293
 			@fixed_btn_mod_col_5 = 366
 			@fixed_btn_mod_col_6 = 439
+			@fixed_btn_mod_col_7 = 512
 
 			@fixed_btn_mod_row_0 = 1
 			@fixed_btn_mod_row_1 = 300
@@ -163,6 +164,10 @@ guiTypes = {
 			positionType = {
 				name = "pos_custom_module_slot_window_8"
 				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_0 }
+			}
+			positionType = {
+				name = "pos_custom_module_slot_window_9"
+				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_0 }
 			}
 
 			######################################################################
@@ -258,13 +263,13 @@ guiTypes = {
 		iconType = {
 			name = "tag_icon_bg"
 			spriteType = "GFX_role_icon_bg"
-			position = { x = 465 y = 143 }
+			position = { x = 251 y = 442 }
 			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "niche_button"
-			position = { x = 474 y = 150 }
+			position = { x = 260 y = 449 }
 			spriteType = "GFX_niche_icon_strip"
 			clicksound = "ui_tank_designer_company_icon"
 			pdx_tooltip = "DESIGNER_SELECT_NICHE"

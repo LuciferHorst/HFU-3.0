@@ -1314,7 +1314,7 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2 #two secondary turrets only
 		}
 		module_count_limit = {
 			module = amphibious_drive
@@ -1995,6 +1995,14 @@ equipments = {
 			}
 
 			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+			special_type_slot_5 = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
