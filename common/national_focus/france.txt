@@ -635,7 +635,7 @@ focus_tree = {
 			add_resource = {
 				type = steel
 				amount = 20
-				state = 466
+				state = 539
 			}
 			every_owned_state={
 				limit={NOT={is_core_of=ROOT has_state_category=wasteland } is_on_continent=africa
