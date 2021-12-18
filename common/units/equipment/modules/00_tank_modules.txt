@@ -900,8 +900,8 @@ forbid_equipment_type = anti_tank
 		forbid_equipment_type = artillery
 
 		add_stats = {
-			soft_attack = 25
-			hard_attack = 8
+			soft_attack = 20
+			hard_attack = 12
 			ap_attack = 20
 			build_cost_ic = 3
 			maximum_speed = -0.1
@@ -922,8 +922,8 @@ forbid_equipment_type = anti_tank
 				forbid_equipment_type = artillery
 
 		add_stats = {
-			soft_attack = 30
-			hard_attack = 10
+			soft_attack = 25
+			hard_attack = 14
 			ap_attack = 35
 			build_cost_ic = 3.3
 			maximum_speed = -0.1
@@ -945,8 +945,8 @@ forbid_equipment_type = anti_tank
 				forbid_equipment_type = artillery
 
 		add_stats = {
-			soft_attack = 34
-			hard_attack = 12
+			soft_attack = 30
+			hard_attack = 16
 			ap_attack = 50
 			build_cost_ic = 3.5
 			maximum_speed = -0.1
@@ -1860,7 +1860,7 @@ tank_high_velocity_cannon_m1 = {
 
 		add_stats = {
 			build_cost_ic = 2.5
-			soft_attack = 7
+			soft_attack = 5
 			hard_attack = 1
 			breakthrough = 5
 			reliability = -0.05
@@ -1879,8 +1879,11 @@ tank_high_velocity_cannon_m1 = {
 			soft_attack = 1
 			hard_attack = 6
 			build_cost_ic = 3
-			reliability = -0.05
-			breakthrough = 3
+			reliability = -0.1
+			breakthrough = 2
+		}
+		multiply_stats = {
+			maximum_speed = -0.1
 		}
 		xp_cost = 0
 		multiply_stats = {
@@ -1895,6 +1898,8 @@ tank_high_velocity_cannon_m1 = {
 		add_stats = {
 			soft_attack = 6
 			hard_attack = 1
+			defense = 2			
+			breakthrough = 2
 			air_attack = 3
 			hardness = -0.05
 			build_cost_ic = 2.5
@@ -1952,10 +1957,13 @@ tank_high_velocity_cannon_m1 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			reliability = -0.075
-			breakthrough = 5
-			defense = 1
-			build_cost_ic = 1
+			reliability = -0.1
+
+			build_cost_ic = 2
+		}
+		multiply_stats ={ 
+		breakthrough =0.20
+		defense = 0.40
 		}
 		xp_cost = 0
 	}
@@ -1966,13 +1974,10 @@ tank_high_velocity_cannon_m1 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			reliability = 0.15
-			build_cost_ic = 2
+			reliability = 0.2
+			build_cost_ic = 1
 		}
 		xp_cost = 0
-		multiply_stats = {
-			
-		}
 	}
 
 	squeezebore_adaptor = {
@@ -2061,7 +2066,7 @@ tank_high_velocity_cannon_m1 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			soft_attack = 3
+			soft_attack = 4
 			defense = 1
 			air_attack = 1.5
 			build_cost_ic = 2
@@ -2079,11 +2084,10 @@ tank_high_velocity_cannon_m1 = {
 
 		add_stats = {
 			hardness = -0.025
-			fuel_capacity=  200
+			reliability =-0.05
+			fuel_capacity = 150
 		}
 		xp_cost = 0
-		multiply_stats = {
-			
-		}
+
 	}
 }

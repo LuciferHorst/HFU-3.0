@@ -67,8 +67,7 @@ buildings = {
 	}	
 	
 	rail_way = {
-		base_cost = 175 #higher cost to balance out cheaper supply nodes
-		per_level_extra_cost = 100
+		base_cost = 200 #higher cost to balance out cheaper supply nodes
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 16
