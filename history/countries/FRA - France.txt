@@ -60,7 +60,7 @@ set_technology = {
 	radio = 1
 	engine_tech_1 = 1
 	armor_tech_1 = 1
-	assault_guns_1 = 1
+
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

@@ -312,11 +312,6 @@ spriteType = {
 		name = "GFX_archetype_light_tank_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_light_tank_equipment.dds"
 	}		
-	
-	SpriteType = {
-		name = "GFX_archetype_armored_car_equipment_medium"
-		texturefile = "gfx/interface/archetypes/archetype_armored_car_equipment.dds"
-	}
 
 	SpriteType = {
 		name = "GFX_assault_guns_1_medium"

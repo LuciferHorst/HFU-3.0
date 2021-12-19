@@ -1594,6 +1594,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_attacker_speed2_texticon"
+		texturefile = "gfx/texticons/attacker_speed2_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
 		name = "GFX_operatives_build_intel_network_texticon"
 		texturefile = "gfx/texticons/operatives_build_intel_network_texticon.dds"
 		legacy_lazy_load = no
@@ -1605,6 +1611,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = "GFX_stage_coup_texticon"
+		texturefile = "gfx/texticons/stage_coup_texticon.dds"
+		legacy_lazy_load = no
+	}
 	
 	spriteType = {
 		name = "GFX_territorial_expansion_texticon"
@@ -1823,7 +1834,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_anti_air_texticon"
+		name = "GFX_anti_air_gun_texticon"
 		texturefile = "gfx/texticons/anti_air_texticon.dds"
 		legacy_lazy_load = no
 	}
@@ -2213,6 +2224,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_naval_patrol_texticon"
+		texturefile = "gfx/texticons/naval_patrol_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
 		name = "GFX_maneuver_texticon"
 		texturefile = "gfx/texticons/maneuver_texticon.dds"
 		legacy_lazy_load = no
@@ -2425,5 +2442,23 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_production_efficiency_loss_texticon"
 		texturefile = "gfx/texticons/production_efficiency_loss_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_kx_education_texticon"
+		texturefile = "gfx/texticons/kx_education_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_kx_illiteracy_texticon"
+		texturefile = "gfx/texticons/kx_illiteracy_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_wheat_texticon"
+		texturefile = "gfx/texticons/wheat_texticon.dds"
 		legacy_lazy_load = no
 	}

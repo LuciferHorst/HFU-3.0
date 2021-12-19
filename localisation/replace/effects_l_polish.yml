@@ -40,3 +40,5 @@
  EFFECT_ADD_TECH_BONUS_AHEAD_ONLY:2 "£research_bonus_texticon  Zmniejszenie kary za przedwczesne prace (lat: $USES$$AHEAD|G.1$): $LIST|Y$."
  EFFECT_ADD_TECH_BONUS_BONUS_ONLY:0 "£research_bonus_texticon  Premia do prac: $LIST|Y$ ($USES$$BONUS|%0+$)."
  EFFECT_ADD_DOCTRINE_COST_REDUCTION:0 "£experience_neutral_texticon  $USES$$REDUCTION|G%.0$ Zmniejszenie kosztu dzięki: $LIST|Y$."
+ EFFECT_MANPOWER_ADD_COUNTRY:0 "£manpower_texticon  Zasoby ludzkie: $VAL|+=0$."
+ EFFECT_MANPOWER_ADD_STATE:1 "£population_texticon  Miejscowa ludność: $VAL|+=0$."

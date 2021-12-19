@@ -1,0 +1,172 @@
+sub_units = {
+	light_assault_gun = {
+		abbreviation = "LAG"
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			armor
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_tanks
+			category_all_armor
+			category_army
+		}
+
+		combat_width = 0
+
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+
+		soft_attack = -0.7
+		hard_attack = -0.7
+		defense = -0.7
+		breakthrough = -0.9
+
+		# Support nerfs to combat abilities
+		armor_value = -0.99
+		
+		need = {
+			light_tank_artillery_chassis = 35
+		}
+
+		fort = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+
+	medium_assault_gun = {
+		abbreviation = "MAG"
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			armor
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_tanks
+			category_all_armor
+			category_army
+		}
+
+		combat_width = 0
+
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.025
+		can_be_parachuted = yes
+
+		soft_attack = -0.6
+		hard_attack = -0.6
+		defense = -0.6
+		breakthrough = -0.9
+
+		# Support nerfs to combat abilities
+		armor_value = -0.99
+
+		need = {
+			medium_tank_artillery_chassis = 25
+		}
+
+		fort = {
+			attack = 0.1
+		}
+		urban = {
+			attack = 0.1
+		}
+	}
+
+	heavy_assault_gun = {
+		abbreviation = "HAG"
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			armor
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_tanks
+			category_all_armor
+			category_army
+		}
+
+		combat_width = 0
+
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = yes
+
+		soft_attack = -0.7
+		hard_attack = -0.7
+		defense = -0.7
+		breakthrough = -0.9
+
+		# Support nerfs to combat abilities
+		armor_value = -0.99
+
+		need = {
+			heavy_tank_artillery_chassis = 15
+		}
+
+		fort = {
+			attack = 0.15
+		}
+		urban = {
+			attack = 0.15
+		}
+	}
+}

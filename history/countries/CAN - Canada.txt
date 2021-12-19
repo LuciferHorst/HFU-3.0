@@ -21,7 +21,7 @@ add_ideas = peace_training
 add_timed_idea = { idea = CAN_lend_lease days = 2150 }
 # Starting tech
 set_technology = {
-	assault_guns_1 = 1
+
 	airfield_allowed = 1
 	naval_base_allowed = 1
 	desertinfantry_at = 1
