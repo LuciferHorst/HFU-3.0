@@ -1283,7 +1283,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = assault_guns_1
 			research_cost_coeff = 1
 		}
 		research_cost = 2
@@ -1480,24 +1479,6 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	assault_guns_1 = {
-		enable_equipments = {
-			early_assault_guns
-		}
-		research_cost = 2
-		start_year = 1936
-		
-		folder = {
-			name = infantry_folder
-			position = { x = 6 y = 2 }
-		}
-		categories = {
-			assault_guns
 		}
 		ai_will_do = {
 			factor = 1

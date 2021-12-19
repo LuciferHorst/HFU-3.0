@@ -43,7 +43,7 @@ set_technology = {
 	tech_field_hospital = 1
 	tech_logistics_company = 1
 	tech_signal_company = 1
-	assault_guns_1 = 1
+
 }
 if = {
 	limit = {

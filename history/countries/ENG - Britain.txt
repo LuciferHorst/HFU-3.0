@@ -42,9 +42,6 @@ set_technology = {
 	basic_light_tank_chassis = 1
 	improved_light_tank_chassis = 1
 	engine_tech_1 = 1
-	improved_light_spaa = 1
-	improved_light_td  = 1
-	improved_light_art = 1
 	early_fighter = 1
 	fighter1 = 1
 	naval_bomber1 = 1
@@ -58,7 +55,7 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	armor_tech_1 = 1
-	assault_guns_1 = 1
+
 }
 if = {
 	limit = {
@@ -107,7 +104,6 @@ if = {
 		mtg_transport = 1
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
-		improved_light_art = 1
 		tech_maintenance_company = 1
 	    tech_field_hospital = 1
     	tech_logistics_company = 1

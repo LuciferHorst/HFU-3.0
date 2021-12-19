@@ -438,19 +438,6 @@ guiTypes = {
 			}
 
 		}
-		
-		containerWindowType = {
-			name = "cost"
-			size = { width = 70 height = 29 }
-			position = { x=285 y=505 }
-			
-			background = {
-				name = "cost_bg"
-				quadTextureSprite = "GFX_generic_background"
-				position = { x = 15 y = 0 }
-				alwaystransparent = yes
-			}
-		}
 
 		instantTextboxType = {
 			name = "experience"
@@ -1207,18 +1194,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-		instantTextboxType = {
-			name = "cost"
-			position = { x = 85 y = 41 }
-			textureFile = ""
-			font = "hoi_18mbs"
-			borderSize = {x = 0 y = 0}
-			text = "Maus"
-			maxWidth = 160
-			maxHeight = 20
-			format = left
-			alwaystransparent = yes
-		}
 	}
 	
 	containerWindowType = {
@@ -1254,7 +1229,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 85 y = 41 }
+			position = { x = 9999 y = 9999 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}

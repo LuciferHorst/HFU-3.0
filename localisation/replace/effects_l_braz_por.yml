@@ -41,3 +41,5 @@
  EFFECT_ADD_TECH_BONUS_AHEAD_ONLY:2 "£research_bonus_texticon  $USES$$AHEAD|G.1$ anos de redução de pena adiantada por: $LIST|Y$."
  EFFECT_ADD_TECH_BONUS_BONUS_ONLY:0 "£research_bonus_texticon  $USES$$BONUS|%0+$ Bônus de pesquisa por: $LIST|Y$."
  EFFECT_ADD_DOCTRINE_COST_REDUCTION:0 "£experience_neutral_texticon  $USES$$REDUCTION|G%.0$ redução de custo para: $LIST|Y$."
+ EFFECT_MANPOWER_ADD_COUNTRY:0 "£manpower_texticon  Mão de obra: $VAL|+=0$."
+ EFFECT_MANPOWER_ADD_STATE:1 "£population_texticon  População local: $VAL|+=0$."

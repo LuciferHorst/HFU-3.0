@@ -51,6 +51,21 @@
  FRA_railway_gun_equipment_1_short:0 "Canon de 305"
  SOV_railway_gun_equipment_1:0 "TM-3-12"
 
+ light_tank_flame_equipment:0 "Light Flame Tank"
+ light_tank_flame_equipment_1:0 "Light Flame Tank I"
+ light_tank_flame_equipment_2:0 "Light Flame Tank II"
+ light_tank_flame_equipment_3:0 "Light Flame Tank III"
+ 
+ medium_tank_flame_equipment:0 "Medium Flame Tank"
+ medium_tank_flame_equipment_1:0 "Medium Flame Tank I"
+ medium_tank_flame_equipment_2:0 "Medium Flame Tank II"
+ medium_tank_flame_equipment_3:0 "Medium Flame Tank III"
+
+ heavy_tank_flame_equipment:0 "Heavy Flame Tank"
+ heavy_tank_flame_equipment_1:0 "Heavy Flame Tank I"
+ heavy_tank_flame_equipment_2:0 "Heavy Flame Tank II"
+ heavy_tank_flame_equipment_3:0 "Heavy Flame Tank III"
+
  tank_nsb_engine_upgrade:0 "$tank_engine_upgrade$"
  tank_nsb_armor_upgrade:0 "$tank_armor_upgrade$"
  submarine:0 "Submarine"

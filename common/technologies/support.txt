@@ -70,6 +70,9 @@ technologies = {
 	tech_engineers = {
 		enable_subunits = {
 			engineer
+			light_assault_gun
+			medium_assault_gun
+			heavy_assault_gun
 		}
 		path = {
 			leads_to_tech = tech_engineers2

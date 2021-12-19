@@ -2699,6 +2699,29 @@ focus = {
 			add_political_power = -20
 			set_global_flag = end_of_czechoslovakia
 			annex_country = { target = CZE transfer_troops = yes }
+			create_equipment_variant = {
+				name = "Panzer 38(t)"
+				type = light_tank_chassis_2
+				parent_version = 1
+				modules = {
+					main_armament_slot = tank_small_cannon_2
+					turret_type_slot = tank_light_two_man_tank_turret
+					suspension_type_slot = tank_bogie_suspension
+					armor_type_slot = tank_riveted_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_1
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = empty
+					special_type_slot_4 = empty
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 3
+					tank_nsb_armor_upgrade = 3
+				}
+				
+				icon = "gfx/interface/technologies/cze_basic_main_tank.dds"
+			}
+			add_equipment_to_stockpile = { type = light_tank_chassis_2 amount = 2900 producer = GER variant_name = "Panzer 38(t)" }
 			add_named_threat = { threat = 5 name = GER_end_of_czechoslovakia }
 		}
 	}

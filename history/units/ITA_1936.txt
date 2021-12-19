@@ -147,8 +147,8 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Divisione Celere"
-	division_names_group = ITA_CAV_02
+	name = "Divisione Corazzata"
+	division_names_group = ITA_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -182,7 +182,7 @@ division_template = {
 }
 units = {
 	division= {
-		name = "Poggers 1"
+		name = "1a Divisione Libica"
 		location =9904
 		division_template = "Fanteria Del Deserto"
 		start_experience_factor = 0.3
@@ -190,7 +190,7 @@ units = {
 }
 units = {
 	division= {
-		name = "Poggers 2"
+		name = "2a Divisione Libica"
 		location =9904
 		division_template = "Fanteria Del Deserto"
 		start_experience_factor = 0.3
@@ -198,9 +198,9 @@ units = {
 }
 units = {
 	division= {
-		name = "Poggers 3"
+		name = "1a Divisione Corazzata"
 		location =9904
-		division_template = "Divisione Celere"
+		division_template = "Divisione Corazzata"
 		start_experience_factor = 0.3
 	}
 }
