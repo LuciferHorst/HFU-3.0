@@ -14,7 +14,7 @@ state = {
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			4608 3 
+			4608 10 
 		}
 
 		buildings = {
@@ -30,5 +30,5 @@ state = {
 		12277 10135 12293 1413 4390 10491 1209 4608 4306 10479 12472 7654
 	}
 
-	local_supplies=5.0 
+	local_supplies=10.0 
 }

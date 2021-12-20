@@ -1312,7 +1312,6 @@ completion_reward = {
 		 transfer_state = 659
 		 transfer_state = 733
 		 transfer_state = 336
-		 transfer_state = 333
 		give_resource_rights = { receiver = ENG state = 336 }
 		RAJ = {set_cosmetic_tag = RAJ_LW_2}
 		}
