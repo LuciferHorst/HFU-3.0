@@ -1405,6 +1405,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_4
 		}
+		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
 		xp_unlock_cost = 0
@@ -1615,7 +1616,6 @@ technologies = {
 			leads_to_tech = improved_submarine_snorkel
 			research_cost_coeff = 1
 		}
-		allow_branch = {always=no}
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1768,6 +1768,7 @@ technologies = {
 	advanced_light_battery = {
 		research_cost = 0.75
 		start_year = 1942
+		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
 		xp_unlock_cost = 0
@@ -1965,6 +1966,7 @@ technologies = {
 	advanced_medium_battery = {
 		research_cost = 0.75
 		start_year = 1942
+		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
 		xp_unlock_cost = 0
@@ -2139,6 +2141,7 @@ technologies = {
 	advanced_heavy_battery = {
 		research_cost = 0.75
 		start_year = 1942
+		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
 		xp_unlock_cost = 0

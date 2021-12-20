@@ -218,6 +218,7 @@ recruit_character = USA_donald_nelson
 recruit_character = USA_william_regnery
 recruit_character = USA_joseph_patterson
 recruit_character = USA_henry_stimson
+recruit_character = USA_chester_w_nimitz
 
 ### VARIANTS ###
 # 1936 Start #
@@ -302,13 +303,13 @@ if = {
 	# Submarines #
 	create_equipment_variant = {			# represents O/R class, S class
 		name = "S Class"
-		type = ship_hull_submarine_1
+		type = ship_hull_submarine_2
 		name_group = USA_SS_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = empty
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
 		}
 		obsolete = yes
 	}
@@ -318,9 +319,9 @@ if = {
 		name_group = USA_SS_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = empty
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
 		}
 		obsolete = yes
 	}
@@ -330,9 +331,9 @@ if = {
 		name_group = USA_SS_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
-			rear_1_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_sub_2
 		}
 	}
 	# Destroyers #

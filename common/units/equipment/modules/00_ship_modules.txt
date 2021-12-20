@@ -1468,7 +1468,7 @@ ship_super_heavy_battery_2 = {
 		}
 
 		multiply_stats = {
-			naval_speed = 0.45
+			naval_speed = 0.5
 			reliability = -0.2
 		}
 
@@ -1898,7 +1898,7 @@ ship_super_heavy_battery_2 = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			carrier_size = 20
-			build_cost_ic = 1500
+			build_cost_ic = 1250
 		}
 		manpower = 500 #outside the add_stats section for code reasons
 		multiply_stats = {
