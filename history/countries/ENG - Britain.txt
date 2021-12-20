@@ -134,12 +134,12 @@ add_ideas = {
 set_convoys = 1200
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 1600
+	amount = 2500
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
-	amount = 200
+	amount = 400
 	producer = ENG
 }
 add_equipment_to_stockpile = {
@@ -149,17 +149,17 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = armored_car_equipment
-	amount = 500
+	amount = 800
 	producer =ENG
 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 40000
+	amount = 50000
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
-	amount = 1500
+	amount = 2500
 	producer = ENG
 }
 add_equipment_to_stockpile = {
@@ -272,8 +272,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 7
-			tank_nsb_armor_upgrade = 7
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
 
 		icon = "gfx/interface/technologies/ENG_light_tank_chassis_2.dds"
@@ -297,8 +297,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 7
-			tank_nsb_armor_upgrade = 7
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
 		
 		icon = "gfx/interface/technologies/ENG_imp_light_tank.dds"
@@ -322,8 +322,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 7
-			tank_nsb_armor_upgrade = 7
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
 
 		icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"

@@ -29,7 +29,7 @@ characters={
 				original_tag = SAF
 			}
 			traits = {
-				backroom_backstabber 
+				war_industrialist 
 			}
 			ai_will_do = {
 				factor = 0.000

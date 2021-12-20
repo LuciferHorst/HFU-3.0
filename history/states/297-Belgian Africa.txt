@@ -4,7 +4,7 @@ state=
 	name="STATE_297" # Equatorial Guinea
 	manpower = 185000
 	
-	state_category = pastoral
+	state_category = french_colony
 	
 	history=
 	{
@@ -14,7 +14,7 @@ state=
 			1903 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 	}
 	provinces=

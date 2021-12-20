@@ -4,7 +4,7 @@ state={
 	name="STATE_543"
 	manpower = 3694611
 	
-	state_category = rural
+	state_category = french_colony
 	
 	history={
 		add_core_of = SWE
@@ -13,7 +13,7 @@ state={
 			5128 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			air_base = 1
 			5222 = {
 				naval_base = 1

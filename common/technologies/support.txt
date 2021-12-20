@@ -166,9 +166,7 @@ technologies = {
 				defence = 0.10
 			}
 		}
-		enable_equipment_modules = {
-			auto_loader
-		}
+		
 
 		light_flame_tank = {
 			urban = {
@@ -199,7 +197,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		
 		folder = {
 			name = support_folder
@@ -233,6 +231,9 @@ technologies = {
 				defence = 0.1
 			}
 		}
+		enable_equipment_modules = {
+			auto_loader
+		}
 		light_flame_tank = {
 			urban = {
 				attack = 0.1
@@ -258,7 +259,7 @@ technologies = {
 			}
 		}
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1943
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1945 }
@@ -373,7 +374,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		
 		folder = {
 			name = support_folder
@@ -404,7 +405,7 @@ technologies = {
 			recon = 2
 		}
 		research_cost = 1
-		start_year = 1944
+		start_year = 1943
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1945 }
@@ -518,7 +519,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		
 		folder = {
 			name = support_folder
@@ -541,7 +542,7 @@ technologies = {
 			suppression_factor = 0.1
 		}
 		research_cost = 1
-		start_year = 1944
+		start_year = 1943
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1945 }
@@ -642,7 +643,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		
 		folder = {
 			name = support_folder
@@ -674,7 +675,7 @@ technologies = {
 			equipment_capture_factor = 0.05
 		}
 		research_cost = 1
-		start_year = 1944
+		start_year = 1943
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1945 }
@@ -785,7 +786,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		
 		folder = {
 			name = support_folder
@@ -818,7 +819,7 @@ technologies = {
 			experience_loss_factor = -0.10
 		}
 		research_cost = 1
-		start_year = 1944
+		start_year = 1943
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1945 }
@@ -938,7 +939,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		
 		folder = {
 			name = support_folder
@@ -971,7 +972,7 @@ technologies = {
 			fuel_consumption_factor = -0.05
 		}
 		research_cost = 1
-		start_year = 1944
+		start_year = 1943
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1945 }
@@ -1075,7 +1076,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		
 		folder = {
 			name = support_folder
@@ -1107,7 +1108,7 @@ technologies = {
 			initiative = 0.07
 		}
 		research_cost = 1
-		start_year = 1944
+		start_year = 1943
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1945 }

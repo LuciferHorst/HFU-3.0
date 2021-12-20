@@ -12,7 +12,7 @@ set_variable = {
 	value = 0.800
 }
 set_rule = {can_be_spymaster = no}
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.46
 set_war_support = 0.15
 add_ideas = reliance_on_natural_rubber
@@ -193,8 +193,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 7
-			tank_nsb_armor_upgrade = 7
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
 
 		icon = "gfx/interface/technologies/FRA_light_tank_chassis_2.dds"
@@ -218,8 +218,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 7
-			tank_nsb_armor_upgrade = 7
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
 		
 		icon = "gfx/interface/technologies/FRA_basic_light_tank.dds"
@@ -243,8 +243,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 7
-			tank_nsb_armor_upgrade = 7
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
 
 		icon = "gfx/interface/technologies/FRA_basic_light_tank.dds"

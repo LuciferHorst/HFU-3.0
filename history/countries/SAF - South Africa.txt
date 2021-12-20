@@ -106,6 +106,7 @@ if = {
 	add_ideas = SAF_ossewabrandwag
 	add_ideas = SAF_history_of_segregation
 	add_ideas = SAF_the_commonwealth
+	add_ideas = SAF_civ_railroad
 	add_to_tech_sharing_group = commonwealth_research
 	add_ideas = peace_training
 }
@@ -122,7 +123,7 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
-	amount = 50
+	amount = 200
 	producer = SAF
 }
 add_equipment_to_stockpile = {

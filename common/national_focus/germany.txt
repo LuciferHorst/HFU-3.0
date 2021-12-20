@@ -1390,7 +1390,7 @@ focus = {
 				35= {NOT={is_controlled_by_ROOT_or_ally=yes}}
 				6= {NOT={is_controlled_by_ROOT_or_ally=yes}}
 				29= {NOT={is_controlled_by_ROOT_or_ally=yes}}
-				699= {NOT={is_controlled_by_ROOT_or_ally=yes}}
+				785= {NOT={is_controlled_by_ROOT_or_ally=yes}}
 				15= {NOT={is_controlled_by_ROOT_or_ally=yes}}
 				14= {NOT={is_controlled_by_ROOT_or_ally=yes}}
 				30= {NOT={is_controlled_by_ROOT_or_ally=yes}}
@@ -3961,7 +3961,7 @@ focus = {
 						engine_type_slot = tank_gasoline_engine
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 10
+						tank_nsb_engine_upgrade = 7
 						tank_nsb_armor_upgrade = 7
 					}
 			

@@ -73,7 +73,7 @@ focus_tree = {
 			539 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = FRA_autoroutes_target
@@ -81,7 +81,7 @@ focus_tree = {
 		    773= {
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 				set_state_flag = FRA_autoroutes_target
@@ -1832,7 +1832,7 @@ focus_tree = {
 					engine_type_slot = tank_gasoline_engine
 				}
 				upgrades = {
-					tank_nsb_engine_upgrade = 10
+					tank_nsb_engine_upgrade = 7
 					tank_nsb_armor_upgrade = 7
 				}
 		
@@ -1912,7 +1912,7 @@ focus_tree = {
 				engine_type_slot = tank_gasoline_engine
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 10
+				tank_nsb_engine_upgrade = 7
 				tank_nsb_armor_upgrade = 7
 			}
 	
