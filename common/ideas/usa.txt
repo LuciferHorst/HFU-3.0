@@ -31,7 +31,7 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			picture = GFX_goal_generic_navy_battleship
+			picture = fund_the_navy
 
 			research_bonus = { naval_equipment = 0.15 }
 			removal_cost = -1
@@ -52,7 +52,7 @@ ideas = {
 			allowed = {
 				original_tag = ENG
 			}
-			picture = USA_war_plan_orange
+			picture = islands_picture
 			targeted_modifier = {
 				tag = JAP
 				defense_bonus_against  = -0.05

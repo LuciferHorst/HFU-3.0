@@ -1,6 +1,18 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "GFX_idea_industrial_boom"
+		texturefile = "gfx/interface/ideas/sov/idea_industrial_boom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_islands_picture"
+		texturefile = "gfx/interface/ideas/usa/idea_islands_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fund_the_navy"
+		texturefile = "gfx/interface/ideas/usa/idea_fund_the_navy.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_factorio"
 		texturefile = "gfx/interface/ideas/usa/idea_factorio.dds"
 	}
