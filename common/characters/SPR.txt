@@ -179,7 +179,7 @@ characters={
 			portraits={
 				army={
 					large="gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
-					small="gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
+					small="gfx/interface/ideas/idea_spa_jose_enrique_varela.dds"
 				}
 			}
 			advisor={

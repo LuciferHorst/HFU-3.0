@@ -72,7 +72,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = GFX_goal_generic_axis_build_infantry
+			picture = blackshirts_manpower
 			modifier = {
 			conscription  = 0.05
 			}
@@ -124,9 +124,8 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = GFX_goal_generic_construct_naval_dockyard
-			modifier =
-			{
+			picture = italy_refit
+			modifier = {
 				refit_ic_cost = -0.1
 				refit_speed = 0.1
 				repair_speed_factor = 0.1

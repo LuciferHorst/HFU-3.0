@@ -281,9 +281,12 @@ equipments = {
 		manpower = 1400
 		build_cost_ic = 2100
 		naval_range = 4500
-		max_strength = 156
+		max_strength = 154
+		lg_attack = 0.05
+		lg_armor_piercing = 12
+		armor_value = 6
 		resources = {
-			steel = 3
+			steel = 4
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -324,6 +327,7 @@ equipments = {
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
+			rear_3_custom_slot = rear_2_custom_slot
 		}
 
 		default_modules = {

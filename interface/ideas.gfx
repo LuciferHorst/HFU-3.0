@@ -1,5 +1,57 @@
 spriteTypes = {
-	
+
+	spriteType = {
+		name = "GFX_idea_bul_kiril_yanchulev"
+		texturefile = "gfx/interface/ideas/idea_bul_kiril_yanchulev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_trifon_trifonov"
+		texturefile = "gfx/interface/ideas/idea_bul_trifon_trifonov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_valko_chervenkov"
+		texturefile = "gfx/interface/ideas/idea_bul_valko_chervenkov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_georgi_drenikov"
+		texturefile = "gfx/interface/ideas/idea_bul_georgi_drenikov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_stoyan_trendafilov"
+		texturefile = "gfx/interface/ideas/idea_bul_stoyan_trendafilov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_sava_ivanov"
+		texturefile = "gfx/interface/ideas/idea_bul_sava_ivanov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_japan_hi_hi"
+		texturefile = "gfx/interface/ideas/jap/idea_japan_hi_hi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_total_war"
+		texturefile = "gfx/interface/ideas/ger/idea_total_war.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_blackshirts_manpower"
+		texturefile = "gfx/interface/ideas/ita/idea_blackshirts_manpower.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_italy_refit"
+		texturefile = "gfx/interface/ideas/ita/idea_italy_refit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_boom"
+		texturefile = "gfx/interface/ideas/sov/idea_industrial_boom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_islands_picture"
+		texturefile = "gfx/interface/ideas/usa/idea_islands_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fund_the_navy"
+		texturefile = "gfx/interface/ideas/usa/idea_fund_the_navy.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_factorio"
 		texturefile = "gfx/interface/ideas/usa/idea_factorio.dds"

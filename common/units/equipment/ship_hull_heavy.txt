@@ -68,6 +68,13 @@ equipments = {
 					ship_heavy_battery
 				}
 			}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+				}
+			}
 		}
 
 		module_count_limit = {
@@ -445,6 +452,14 @@ equipments = {
 					ship_airplane_launcher
 				}
 			}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_heavy_battery
+					ship_secondaries
+					ship_airplane_launcher
+				}
+			}
 		}
 
 		default_modules = {
@@ -458,6 +473,8 @@ equipments = {
 		fuel_consumption = 67
 		reliability = 0.95
 		build_cost_ic = 3600
+		hg_armor_piercing = 10
+		armor_value = 5
 		resources = {
 			#oil = 1
 			steel = 1

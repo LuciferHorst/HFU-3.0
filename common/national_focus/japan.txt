@@ -1883,13 +1883,10 @@ focus = {
 			}
 			available = {
 				NOT={has_idea=main_focus_set_idea}
-				398= {is_controlled_by_ROOT_or_ally=yes}
+				432= {is_controlled_by_ROOT_or_ally=yes}
 			}
 			bypass = {
 			}
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-			available_if_capitulated = no
 			search_filters = { FOCUS_FILTER_INDUSTRY }
 			completion_reward = {
 				hidden_effect={	add_timed_idea={idea=main_focus_set_idea days=35}}
@@ -1910,14 +1907,11 @@ focus = {
 				factor = 2
 			}
 			available = {
-				275= {is_controlled_by_ROOT_or_ally=yes}
-				561= {is_controlled_by_ROOT_or_ally=yes}
+				288= {is_controlled_by_ROOT_or_ally=yes}
+				640= {is_controlled_by_ROOT_or_ally=yes}
 			}
 			bypass = {
 			}
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-			available_if_capitulated = no
 			search_filters = { FOCUS_FILTER_INDUSTRY }
 			completion_reward = {
 				640 = {
@@ -1950,9 +1944,6 @@ focus = {
 			}
 			bypass = {
 			}
-			cancel_if_invalid = yes
-			continue_if_invalid = no
-			available_if_capitulated = no
 			search_filters = { FOCUS_FILTER_INDUSTRY }
 			completion_reward = {
 				update_pacific_war = yes

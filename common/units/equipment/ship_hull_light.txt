@@ -272,16 +272,6 @@ equipments = {
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					ship_light_battery
-				}
-			}
 		}
 
 
@@ -290,10 +280,9 @@ equipments = {
 		naval_range = 2500
 		max_strength = 60
 		sub_detection = 12
-		build_cost_ic = 600
+		build_cost_ic = 720
 		resources = {
 			steel = 4
-			chromium = 1
 		}
 		manpower = 500
 	}
