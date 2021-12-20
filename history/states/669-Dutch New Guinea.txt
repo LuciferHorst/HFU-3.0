@@ -12,13 +12,13 @@ state={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
-			7529 3
+			7529 10
 		}
 		victory_points = {
-			947 3 
+			947 1 
 		}
 		victory_points = {
-			1546 5
+			1546 1
 		}
 		buildings = {
 			infrastructure = 5

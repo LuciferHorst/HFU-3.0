@@ -12,7 +12,7 @@ state = {
 		add_core_of = INS
 		
 		victory_points = {
-			4652 1 
+			4652 10 
 		}
 
 		buildings = {
@@ -26,5 +26,5 @@ state = {
 	provinces = {
 		7658 10509 12488 1648 8360 4652 10522 7673 4446 12302 1460 7327 7463 10354 12181 1277 12168 10382 12343 10209 12126 1428
 	}
-	local_supplies=1.0 
+	local_supplies=10.0 
 }
