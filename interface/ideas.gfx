@@ -1,5 +1,29 @@
 spriteTypes = {
-	
+
+	spriteType = {
+		name = "GFX_idea_bul_kiril_yanchulev"
+		texturefile = "gfx/interface/ideas/idea_bul_kiril_yanchulev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_trifon_trifonov"
+		texturefile = "gfx/interface/ideas/idea_bul_trifon_trifonov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_valko_chervenkov"
+		texturefile = "gfx/interface/ideas/idea_bul_valko_chervenkov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_georgi_drenikov"
+		texturefile = "gfx/interface/ideas/idea_bul_georgi_drenikov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_stoyan_trendafilov"
+		texturefile = "gfx/interface/ideas/idea_bul_stoyan_trendafilov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bul_sava_ivanov"
+		texturefile = "gfx/interface/ideas/idea_bul_sava_ivanov.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_japan_hi_hi"
 		texturefile = "gfx/interface/ideas/jap/idea_japan_hi_hi.dds"
