@@ -186,7 +186,6 @@ if = {
 			special_type_slot_1 = tank_radio_1
 			special_type_slot_2 = extra_ammo_storage
 			special_type_slot_3 = extra_ammo_storage
-			special_type_slot_4 = wet_ammo_storage
 
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
@@ -211,7 +210,6 @@ if = {
 			special_type_slot_1 = tank_radio_1
 			special_type_slot_2 = extra_ammo_storage
 			special_type_slot_3 = extra_ammo_storage
-			special_type_slot_4 = wet_ammo_storage
 
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
@@ -236,7 +234,6 @@ if = {
 			special_type_slot_1 = tank_radio_1
 			special_type_slot_2 = secondary_turret_small_cannon
 			special_type_slot_3 = extra_ammo_storage
-			special_type_slot_4 = extra_ammo_storage
 
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
