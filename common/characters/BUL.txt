@@ -351,7 +351,7 @@ characters = {
 		name = BUL_valko_chervenkov
 		portraits = {
 			army = {
-				small = "GFX_idea_bul_valko_chervenkov"
+				small = "gfx/leaders/Portrait_Europe_Generic_1"
 			}
 		}
 	}
