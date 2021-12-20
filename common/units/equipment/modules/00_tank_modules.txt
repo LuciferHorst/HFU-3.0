@@ -288,13 +288,11 @@ tank_gasoline_engine_L = {
 		add_stats = {
 			#soft_attack = 1 # that's when rivets shoot back because they got dislodged by the shock. That was in fact the first reactive armor.
 			
-			defense = 2
-			breakthrough = 2
 		}
 		xp_cost = 0
 		multiply_stats = {
-			build_cost_ic = -0.10
-			hardness = -0.05
+			build_cost_ic = -0.075
+			hardness = -0.075
 
 		}
 	}
@@ -313,7 +311,7 @@ tank_gasoline_engine_L = {
 		multiply_stats = {
 			build_cost_ic = 0.075
 			armor_value = 0.5
-			hardness = 0.05
+			hardness = 0.075
 		}
 	}
 

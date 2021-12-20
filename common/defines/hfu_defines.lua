@@ -562,18 +562,18 @@ NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 2.5
 
 -- How many trucks does it cost to fully motorize a hub
 
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 120
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 150
 
 -- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 
-NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.6
+NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.8
 
 -- used for calculating "flow" for railways.
 
-NDefines.NSupply.RAILWAY_BASE_FLOW = 10		-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
+NDefines.NSupply.RAILWAY_BASE_FLOW = 7	-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
 NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 8.0 	-- how much additional flow a railway level gives
-NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 6.0 -- penalty to flow per damaged railway
-NDefines.NSupply.RAILWAY_MIN_FLOW = 5.0		-- minimum railway flow can be reduced to
+NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 5 -- penalty to flow per damaged railway
+NDefines.NSupply.RAILWAY_MIN_FLOW = 4 -- minimum railway flow can be reduced to
 
     -- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
 
@@ -587,7 +587,7 @@ NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.025		-- Bonus to supply local
 NDefines.NSupply.SUPPLY_FROM_DAMAGED_INFRA = 0.1                -- damaged infrastructure counts as this in supply calcs
 NDefines.NSupply.SUPPLY_BASE_MULT = 0.2						-- multiplier on supply base values
 NDefines.NSupply.SUPPLY_DISRUPTION_DAILY_RECOVERY = 1.5		-- every day nodes recover this much of their accumulated disruption.
-NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 5 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown
+NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 7 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CORE = 0
 NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CIVILWAR = 0
 NDefines.NSupply.DEFAULT_STARTING_TRUCK_RATIO = 1.5 -- countries get this ratio of starting truck in their buffers compared to their need
