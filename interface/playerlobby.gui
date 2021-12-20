@@ -112,7 +112,6 @@ guiTypes = {
 #		hide_position = { x=10% y =110% }
 #		animation_type = decelerated
 #		animation_time = 1000
-		max_height = 1440
 		size = { width = 860 height = 444 }
 		clipping=yes
 		background = {
