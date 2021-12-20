@@ -2917,6 +2917,9 @@ technologies = {
 		invasion_preparation = -0.5
 		amphibious_invasion = 0.25
 		research_cost = 1
+		enable_equipments = {
+			floating_harbor_equipment_1
+		}
 		start_year = 1922
 		folder = {
 			name = mtgnavalfolder
