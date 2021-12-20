@@ -111,12 +111,14 @@ focus = {
 		AND= { JAP = { has_idea = JAP_salvo_genius } }
 		 }
 		 completion_reward = { 
+			 JAP = { 
 			 swap_ideas = {
 				remove_idea = JAP_salvo_genius
 				add_idea = JAP_salvo_dummkopf
 			 }
 			}
 		}
+	}
 
 	focus = {
 			id = VEN_Jap_railraod

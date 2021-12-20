@@ -218,6 +218,7 @@ recruit_character = USA_donald_nelson
 recruit_character = USA_william_regnery
 recruit_character = USA_joseph_patterson
 recruit_character = USA_henry_stimson
+recruit_character = USA_chester_w_nimitz
 
 ### VARIANTS ###
 # 1936 Start #

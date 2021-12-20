@@ -2245,11 +2245,6 @@ focus = {
 			has_war_with = JAP
 			date >1941.7.01
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 		custom_effect_tooltip = available_political_advisor
 		show_ideas_tooltip = ernest_king
