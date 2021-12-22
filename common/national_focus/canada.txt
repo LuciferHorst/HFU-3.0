@@ -388,18 +388,12 @@ focus_tree = {
 		x = -2
 		y = 0
 		relative_position_id = CAN_defence_of_canada_regulations
-		cost = 10
-		ai_will_do = {
-			factor = 80
-		}
+		cost = 5
 		available = {
 			GER = {has_completed_focus = GER_end_of_czechoslovakia}
 		}
 		bypass = {
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_ideas = CAN_war_bonds_1
@@ -635,21 +629,9 @@ focus_tree = {
 		x = 3
 		y = 2
 		relative_position_id = CAN_defence_of_canada_regulations
-		cost = 10
-		ai_will_do = {
-			factor = 25
-			modifier = {
-				factor = 2
-				has_completed_focus = CAN_mine_the_shield
-			}
-		}
+		cost = 5
 		available = {
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			swap_ideas = {
