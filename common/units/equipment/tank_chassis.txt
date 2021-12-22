@@ -1782,7 +1782,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		build_cost_ic = 5
+		build_cost_ic = 6
 		reliability = 1.2
 		armor_value = 40
 		breakthrough = 6
@@ -1928,7 +1928,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		build_cost_ic = 6
+		build_cost_ic = 8
 		reliability = 1.2
 		armor_value = 60
 		breakthrough = 8
@@ -2082,7 +2082,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		build_cost_ic = 7
+		build_cost_ic = 10
 		reliability = 1.4
 		armor_value = 80
 		breakthrough = 10
