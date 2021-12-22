@@ -310,7 +310,7 @@ ideas = {
 			}
 			modifier={production_factory_efficiency_gain_factor = 0.3
 				training_time_factor = -0.2
-				air_strategic_bomber_bombing_factor = 0.2
+				air_strategic_bomber_bombing_factor = 0.1
 				political_power_gain = 0.2
 				line_change_production_efficiency_factor = 0.05
 			}
@@ -336,7 +336,7 @@ ideas = {
 			}
 			modifier={production_factory_efficiency_gain_factor = 0.3
 				training_time_factor = -0.2
-				air_strategic_bomber_bombing_factor = 0.2
+				air_strategic_bomber_bombing_factor = 0.1
 				political_power_gain = 0.2
 				line_change_production_efficiency_factor = 0.1
 			}
@@ -366,7 +366,7 @@ ideas = {
 			}
 			modifier={production_factory_efficiency_gain_factor = 0.4
 				training_time_factor = -0.3
-				air_strategic_bomber_bombing_factor = 0.3
+				air_strategic_bomber_bombing_factor = 0.1
 				political_power_gain = 0.3
 				line_change_production_efficiency_factor = 0.15
 			}

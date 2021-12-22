@@ -1447,7 +1447,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1938
+		start_year = 1939
 		
 		folder = {
 			name = air_techs_folder
