@@ -72,7 +72,7 @@ sub_units = {
 			movement = -0.2
 		}
 		amphibious = {
-			attack = -0.8
+			attack = -1.5
 		}
 		desert = {
 			attack = 0.2

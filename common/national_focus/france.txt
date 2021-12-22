@@ -921,7 +921,8 @@ focus_tree = {
 				name = FRA_light_medium_armor
 				bonus = 1.0
 				uses = 1
-				category = armor
+				technology = improved_medium_tank_chassis
+				technology = improved_heavy_tank_chassis
 			}
 		}
 	}
@@ -1082,14 +1083,11 @@ focus_tree = {
 			focus = FRA_form_the_popular_front
 		}
 		relative_position_id = FRA_form_the_popular_front
-		cost = 10
+		cost = 5
 		available = {
 		}
 		bypass = {
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_tech_bonus = {

@@ -200,14 +200,13 @@ on_actions = {
 		effect = {
 		if = { 
 			limit = {
-        date > 1941.6.1
-		GER = { controls_state = 27 }
-        NOT = {GER = { controls_state = 14 controls_state = 15 controls_state = 30 controls_state = 23 controls_state = 19 controls_state = 699 controls_state = 29 controls_state = 6 controls_state = 35 controls_state = 7 controls_state = 36 controls_state = 59 controls_state = 58 }
-	                }
-				}		
-        GER = {
+        	date > 1941.6.1
+			GER = { controls_state = 27 }
+        	NOT = {GER = { controls_state = 19 controls_state = 23 controls_state = 30 controls_state = 14 controls_state = 15 controls_state = 785 controls_state = 29 controls_state = 6 controls_state = 35 controls_state = 7 controls_state = 36 controls_state = 56 controls_state = 59 } }
+		}		
+        	GER = {
 	        country_event = germany.357
-              }
+            }
 	}
 }
 	}	
