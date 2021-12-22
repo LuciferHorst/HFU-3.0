@@ -541,7 +541,7 @@ xp_research_bonus = 1
 		xp_research_type = army
 		xp_boost_cost = 75 
  	 	xp_unlock_cost = 0
-xp_research_bonus = 1
+		xp_research_bonus = 1
 		
 		category_tanks = {
 			#max_organisation = 3
@@ -560,7 +560,7 @@ xp_research_bonus = 1
 		}
 		#doctrine = yes
 		research_cost = 4
-		air_cas_present_factor = 0.25
+		air_cas_present_factor = 0.15
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
