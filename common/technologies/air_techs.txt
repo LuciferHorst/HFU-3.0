@@ -1447,7 +1447,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1940
+		start_year = 1938
 		
 		folder = {
 			name = air_techs_folder
@@ -1479,7 +1479,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1943
+		start_year = 1941
 		
 		folder = {
 			name = air_techs_folder
@@ -1511,7 +1511,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1945
+		start_year = 1943
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }
