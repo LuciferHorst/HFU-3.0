@@ -1882,8 +1882,8 @@ focus_tree = {
 						amount = 200
 						producer = FRA
 					}
-				}
-	}	
+		}
+		
 		if = { limit = {has_tech = improved_heavy_tank_chassis }
 			
 		create_equipment_variant = {			
