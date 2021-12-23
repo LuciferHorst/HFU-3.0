@@ -1116,7 +1116,6 @@ characters={
 			idea_token = ENG_jfc_fuller
 			ledger = army
 			available = {
-				has_government = fascism
 			}
 			allowed = {
 				original_tag = ENG

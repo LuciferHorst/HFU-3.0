@@ -382,11 +382,6 @@ focus_tree = {
 				is_controlled_by = ROOT
 			}
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			every_owned_state = {
@@ -395,6 +390,30 @@ focus_tree = {
 					not = { is_on_continent = europe }
 				}
 				add_compliance = 10
+			}
+			539 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			773 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			660 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			772 = {
+				add_extra_state_shared_building_slots = 6
+			}
+			540 = {
+				add_extra_state_shared_building_slots = 6
+			}
+			295 = {
+				add_extra_state_shared_building_slots = 6
+			}
+			538 = {
+				add_extra_state_shared_building_slots = 6
+			}
+			718 = {
+				add_extra_state_shared_building_slots = 6
 			}
 		}
 	}
@@ -1155,11 +1174,6 @@ focus_tree = {
 		}
 		available = {
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			swap_ideas = {
@@ -1731,15 +1745,10 @@ focus_tree = {
 		available = {
 			has_country_leader = { ruling_only = yes name = "Charles de Gaulle"}
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
 		completion_reward = {
 			add_offsite_building = {
 				type = industrial_complex
-				level = 2
+				level = 4
 			}
 			remove_ideas = { FRA_defeatism }
 		}
@@ -2402,7 +2411,7 @@ focus_tree = {
 		completion_reward = {
 				add_resource = {
 					type = steel
-					amount = 50
+					amount = 30
 					state = 539
 				}
 				add_resource = {
@@ -2413,7 +2422,12 @@ focus_tree = {
 				add_resource = {
 					type = tungsten
 					amount = 30
-					state = 539
+					state = 540
+				}
+				add_resource = {
+					type = tungsten
+					amount = 20
+					state = 540
 				}
 		}
 	}
