@@ -158,31 +158,41 @@ focus_tree = {
 		y = 2
 		relative_position_id = RAJ_indian_national_congress
 		cost = 5
-		ai_will_do = {
-			factor = 25
-		}
 		available = {
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		complete_tooltip = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 		hidden_effect = {pow_before_annex=yes clear_variable=getting_annexed}
-		 ENG ={set_autonomy = {
+		 	ENG ={set_autonomy = {
         	target = RAJ
          	autonomy_state = autonomy_dominion
-   		 }   	}
+   		 	}   	}
 		
 	        RAJ={add_equipment_to_stockpile = { type = infantry_equipment amount = 10000 producer = RAJ }
 				add_equipment_to_stockpile = { type = artillery_equipment amount = 1200 producer = RAJ }
 				add_equipment_to_stockpile = { type = anti_air_equipment amount = 200 producer = RAJ }
 				add_equipment_to_stockpile = { type = support_equipment amount = 300 producer = RAJ }
 		    }
+			439 = {
+				add_resource = {
+					type = steel
+					amount = 50
+				}
+			}
+			439 = {
+				add_resource = {
+					type = tungsten
+					amount = 30
+				}
+			}
+			440 = {
+				add_resource = {
+					type = aluminium
+					amount = 30
+				}
+			}
         }
 	}
 	focus = {

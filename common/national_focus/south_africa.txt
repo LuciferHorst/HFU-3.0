@@ -132,20 +132,18 @@ focus_tree = {
 		y = 4
 		relative_position_id = SAF_war_measures_act
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
 		available = {
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_cheap_labor_2
 				add_idea = SAF_cheap_labor_3
+			}
+			275 = {
+				add_resource = {
+					type = tungsten
+					amount = 30
+				}
 			}
 		}
 	}
@@ -554,16 +552,11 @@ focus_tree = {
 		}
 		available = {
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			275 = {
 				add_resource = {
 					type = steel
-					amount = 50
+					amount = 70
 				}
 			}
 		}
