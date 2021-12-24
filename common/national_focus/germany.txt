@@ -559,7 +559,7 @@
 			}
 			add_tech_bonus = {
 				name = mech_army_bonus
-				bonus = 1.0
+				bonus = 1.5
 				uses = 1
 				technology = mechanised_infantry
 			}
@@ -1332,7 +1332,6 @@ focus = {
 		}
 		available = {
 			date > 1940.9.1
-			NOT= {has_war_with = SOV }
 		}
 		completion_reward = {
 			custom_effect_tooltip=GER_atlantikwall_tt
