@@ -2032,7 +2032,7 @@ tank_high_velocity_cannon_m1 = {
 		forbid_equipment_type = artillery
 		forbid_equipment_type = anti_tank
 		add_stats = {
-			entrenchment = 3
+			entrenchment = 2
 			build_cost_ic = 4
 		}
 		xp_cost = 0
