@@ -287,11 +287,11 @@ on_actions = {
 				limit = {
 					NOT = {FRA ={has_country_flag = lel}}
 					count_triggers = {
-						amount = 6
+						amount = 7
 						18 = { NOT={is_controlled_by = FRA}}
 						29 = { NOT={is_controlled_by = FRA}}
 						16 = { NOT={is_controlled_by = FRA}}
-						699 = { NOT={is_controlled_by = FRA}}
+						785 = { NOT={is_controlled_by = FRA}}
 						17 = { NOT={is_controlled_by = FRA}}
 						28 = { NOT={is_controlled_by = FRA}}
 						15 = { NOT={is_controlled_by = FRA}}

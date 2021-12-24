@@ -81,7 +81,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { trickster brilliant_strategist cavalry_officer war_hero infantry_leader }
+			traits = { trickster brilliant_strategist cavalry_officer war_hero infantry_leader desert_fox }
 			skill=4
 			attack_skill=4
 			defense_skill=2
@@ -281,12 +281,12 @@ characters={
 			
 			corps_commander={
 				traits={ media_personality harsh_leader armor_officer }
-				traits = {  armor_officer harsh_leader media_personality panzer_leader naval_invader desert_fox }
-				skill = 5
-				attack_skill = 4
-				defense_skill = 3
-				planning_skill = 3
-				logistics_skill = 2
+				traits = {   harsh_leader  naval_invader panzer_leader  organizer hill_fighter }
+				skill=6
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
 				legacy_id=101
 			}
 	}
@@ -401,12 +401,12 @@ characters={
 		
 		corps_commander={
 			traits={ old_guard infantry_officer }
-			traits = {  armor_officer trait_reckless panzer_leader }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
+			traits = {  armor_officer trait_reckless panzer_leader desert_fox  }
+			skill=6
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=5
 			legacy_id=0
 		}
 	}
@@ -933,7 +933,7 @@ characters={
 				original_tag = FRA
 			}
 			traits = {
-				army_armored_2
+				army_armored_3
 			}
 			cost = 100
 			ai_will_do = {
@@ -990,29 +990,7 @@ characters={
 		}
 	}
 	
-	FRA_alfred_heurtaux={
-		name=FRA_alfred_heurtaux
-		portraits={
-			army={
-				small="GFX_idea_alfred_heurtaux"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = alfred_heurtaux
-			ledger = air
-			allowed = {
-				original_tag = FRA
-			}
-			traits = {
-				air_air_combat_training_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
+	
 
 	FRA_rene_prioux={
 		name=FRA_rene_prioux
@@ -1029,7 +1007,7 @@ characters={
 				original_tag = FRA
 			}
 			traits = {
-				army_cavalry_2
+				army_infantry_2
 			}
 			cost = 100
 			ai_will_do = {
