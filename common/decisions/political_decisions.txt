@@ -423,7 +423,7 @@ political_actions = {
 			has_government = democratic
 		}
 		modifier = {
-			stability_weekly = 0.0025
+			stability_weekly = 0.0035
 			communism_drift = -0.01
 			fascism_drift = -0.01
 			democratic_drift = 0.03
@@ -444,7 +444,7 @@ political_actions = {
 			has_government = communism
 		}
 		modifier = {
-			stability_weekly = 0.0025
+			stability_weekly = 0.0035
 			communism_drift = 0.03
 			fascism_drift = -0.01
 			democratic_drift = -0.01
