@@ -175,11 +175,20 @@ division_template = {
 
 units = {
 	division= {
-		name = "This is here so you can look at your generals"
+		name = "Division Légère Mécanique 1"
 		location =11506
-		division_template = "Division d'Infanterie"
+		division_template = "Division Légère Mécanique"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division= {
+		name = "Division Légère Mécanique 2"
+		location =11506
+		division_template = "Division Légère Mécanique"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 }
 instant_effect = {

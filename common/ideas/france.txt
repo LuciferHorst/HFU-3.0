@@ -332,8 +332,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_speed_arms_factory_factor = 0.05
-				production_speed_dockyard_factor = 0.05
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
 			}
 		}
 		FRA_market_dynamism = {
@@ -348,7 +348,7 @@ ideas = {
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.1
 			}
-			research_bonus = { industry = 0.05}
+			research_bonus = { industry = 0.15}
 		}
 		FRA_anti_decandence = {
 			picture = generic_oppression
@@ -1082,12 +1082,10 @@ ideas = {
 			picture = generic_wall_line
 			modifier = {
 				surrender_limit = 0.5
-				max_planning = 0.2
-				planning_speed = -0.3
-                army_armor_attack_factor = 0.2
+				max_planning = 0.1
+				conscription = 0.005
+				planning_speed = -0.2
 				army_org_factor = 0.1
-				army_speed_factor = -0.3
-				army_morale_factor = -0.3
 				conversion_cost_civ_to_mil_factor=2
 			}
 		}
