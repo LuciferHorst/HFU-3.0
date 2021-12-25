@@ -344,10 +344,11 @@ tank_gasoline_engine_L = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			reliability = 0.125
+			reliability = 0.1
 		}
 		multiply_stats = {
 		build_cost_ic = 0.1
+		maximum_speed  = 0.1
 		}
 	}
 
@@ -367,6 +368,9 @@ tank_gasoline_engine_L = {
 		abbreviation = "bog"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+		reliability = 0.05
+		}
 		multiply_stats =  {
 		build_cost_ic = 0.05
 		}
@@ -379,7 +383,8 @@ tank_gasoline_engine_L = {
 
 		add_stats = {
 			breakthrough = 7
-			reliability = -0.05
+			reliability = -0.1
+			hardness = 0.05
 		}
 		multiply_stats =  {
 		build_cost_ic = 0.15
@@ -1871,6 +1876,7 @@ tank_high_velocity_cannon_m1 = {
 			soft_attack = 5
 			hard_attack = 1
 			breakthrough = 5
+			defense = 1
 			reliability = -0.05
 		}
 		xp_cost = 0
@@ -1924,9 +1930,9 @@ tank_high_velocity_cannon_m1 = {
 		}
 		xp_cost = 0
 		multiply_stats = {
-			armor_value = 0.2
+			armor_value = 0.25
 			breakthrough = 0.1
-			build_cost_ic = 0.1
+			build_cost_ic = 0.125
 		}
 	}
 
@@ -2010,9 +2016,8 @@ tank_high_velocity_cannon_m1 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			armor_value = 6
 			breakthrough = 3
-			reliability = -0.1
+			reliability = -0.05
 			build_cost_ic = 1.5
 			hardness = 0.05
 		}
@@ -2095,7 +2100,9 @@ tank_high_velocity_cannon_m1 = {
 		add_stats = {
 			hardness = -0.025
 			reliability =-0.05
-			fuel_capacity = 150
+		}
+		multiply_stats = {
+			fuel_capacity = 1
 		}
 		xp_cost = 0
 

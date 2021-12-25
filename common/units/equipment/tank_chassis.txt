@@ -149,6 +149,7 @@ equipments = {
 		reliability = 0.8
 		hardness = 0.70
 		armor_value = 5
+		fuel_capacity = 50
 		resources = {
 			steel = 1
 		}
@@ -801,6 +802,7 @@ equipments = {
 		reliability = 1
 		armor_value = 15
 		hardness = 0.8
+		fuel_capacity = 50
 		resources = {
 			steel = 1
 		}
@@ -1524,7 +1526,8 @@ equipments = {
 		build_cost_ic = 5
 		reliability = 1
 		armor_value = 25
-		hardness = 0.8
+		hardness = 0.85
+		fuel_capacity = 50
 
 		resources = {
 			steel = 1

@@ -93,7 +93,7 @@ sub_units = {
 		can_be_parachuted = yes
 	}
 
-	support_light_sp_artillery = {
+	light_sp_artillery = {
 		abbreviation = "LAR"
 		sprite = infantry
 		map_icon_category = infantry
@@ -137,7 +137,7 @@ sub_units = {
 		breakthrough = -0.70
 		urban = { attack = 0.1 }
 	}
-	support_medium_sp_artillery = {
+	medium_sp_artillery = {
 		abbreviation = "MAR"
 		sprite = infantry
 		map_icon_category = infantry
@@ -181,7 +181,7 @@ sub_units = {
 		breakthrough = -0.70
 		urban = { attack = 0.1 }
 	}
-	support_heavy_sp_artillery = {
+	heavy_sp_artillery = {
 		abbreviation = "HAR"
 		sprite = infantry
 		map_icon_category = infantry
