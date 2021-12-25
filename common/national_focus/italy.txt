@@ -1547,6 +1547,21 @@ focus = {
 					}
 				}
 			}
+			663  = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = anti_air_building
+						level = 3
+						instant_build = yes
+					}
+					set_building_level = {
+						type = air_base
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
 			451 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
