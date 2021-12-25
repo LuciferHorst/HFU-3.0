@@ -2057,6 +2057,7 @@ focus = {
 						amount = 15
 					}
 				}
+				transfer_state = 447
 		}
 	}
 	focus = {
