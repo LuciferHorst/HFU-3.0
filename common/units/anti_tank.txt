@@ -16,6 +16,8 @@ sub_units = {
 			support
 		}
 
+		same_support_type = anti_tank
+		
 		categories = {
 			category_front_line
 			category_support_battalions
@@ -44,6 +46,154 @@ sub_units = {
 		breakthrough = -0.70
 		soft_attack = -0.70
 		hard_attack = -0.6
-		ap_attack = -0.6
+		ap_attack = -0.3
 	}
-}
+	light_tank_destroyer = {
+		abbreviation = "LTD"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		
+		type = {
+			infantry
+			support
+		}
+		same_support_type = anti_tank
+		group = support
+
+		categories = {
+			category_support_battalions
+			category_all_armor
+			category_mobile_artillery
+			category_army
+		}		
+
+		combat_width = 0
+
+		need = {
+	light_tank_destroyer_chassis = 24
+		}
+		manpower = 300
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.6
+		training_time = 180
+		weight = 1
+		supply_consumption = 0.3
+
+		suppression = 1
+		ap_attack = -0.4
+		defense = -0.9
+		soft_attack = -0.60
+		hard_attack = -0.60
+		breakthrough = -0.3
+		armor_value = -0.70
+		urban = {defence = 0.1}
+		forest ={defence = 0.05}
+		mountain = {defence = 0.05}
+		jungle = {defence = 0.05}
+	}
+	medium_tank_destroyer = {
+		abbreviation = "MTD"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		
+		type = {
+			infantry
+			support
+		}
+		same_support_type = anti_tank
+		group = support
+
+		categories = {
+			category_support_battalions
+			category_all_armor
+			category_army
+			category_mobile_artillery
+		}		
+
+		combat_width = 0
+
+		need = {
+			medium_tank_destroyer_chassis = 24
+		}
+		manpower = 300
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.6
+		training_time = 180
+		weight = 1
+		supply_consumption = 0.3
+
+		suppression = 1
+		ap_attack = -0.3
+		defense = -0.9
+		soft_attack = -0.60
+		hard_attack = -0.60
+		breakthrough = -0.4
+		armor_value = -0.70
+		urban = { defence = 0.05 }
+		forest = { defence = 0.1}
+		hills = {defence=0.05}
+		plains = {defence = 0.05}
+		desert = {defence = 0.05}
+	}
+	heavy_tank_destroyer = {
+		abbreviation = "HTD"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		
+		type = {
+			infantry
+			support
+		}
+		same_support_type = anti_tank
+		group = support
+
+		categories = {
+			category_support_battalions
+			category_all_armor
+			category_army
+			category_mobile_artillery
+		}		
+
+		combat_width = 0
+
+		need = {
+			heavy_tank_destroyer_chassis = 18
+		}
+		manpower = 300
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.6
+		training_time = 180
+		weight = 1
+		supply_consumption = 0.3
+
+		suppression = 1
+		ap_attack = -0.3
+		defense = -0.9
+		soft_attack = -0.60
+		hard_attack = -0.60
+		breakthrough = -0.30
+		armor_value = -0.70
+		plains = { defence = 0.1}
+		desert = {defence = 0.1}
+		hills = {defence=0.05}
+	}
+}	
+
