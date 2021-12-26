@@ -104,6 +104,7 @@ technologies = {
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
+			tank_land_doctrine
 		}
 		folder = {
 			name = land_doctrine_folder
@@ -305,6 +306,7 @@ xp_research_bonus = 1
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
+			tank_land_doctrine
 		}
 		folder = {
 			name = land_doctrine_folder
@@ -346,6 +348,7 @@ xp_research_bonus = 1
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
+			tank_land_doctrine
 		}
 		folder = {
 			name = land_doctrine_folder
@@ -397,6 +400,7 @@ xp_research_bonus = 1
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
+			tank_land_doctrine
 		}
 		folder = {
 			name = land_doctrine_folder
@@ -484,6 +488,7 @@ xp_research_bonus = 1
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
+			tank_land_doctrine
 		}
 		folder = {
 			name = land_doctrine_folder
@@ -525,6 +530,7 @@ xp_research_bonus = 1
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
+			tank_land_doctrine
 		}
 		folder = {
 			name = land_doctrine_folder
@@ -564,6 +570,7 @@ xp_research_bonus = 1
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
+			tank_land_doctrine
 		}
 		folder = {
 			name = land_doctrine_folder

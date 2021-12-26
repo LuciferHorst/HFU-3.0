@@ -72,7 +72,7 @@ focus_tree = {
 				name = land_doc_bonus
 				bonus = 1.0
 				uses = 2
-				category = cat_mobile_warfare
+				category = tank_land_doctrine
 			}
 			add_tech_bonus = {
 				name = CAN_cmp_truck
@@ -103,7 +103,7 @@ focus_tree = {
 				name = land_doc_bonus
 				bonus = 1.0
 				uses = 2				
-				category = cat_mobile_warfare
+				category = tank_land_doctrine
 			}
 			add_tech_bonus = {
 				bonus = 1
@@ -677,7 +677,7 @@ focus_tree = {
 		bypass = {
 		}
 		completion_reward = {
-			add_timed_idea = {idea = britannia_rules_the_waves days=120}
+			add_timed_idea = {idea = britannia_rules_the_waves days=60}
 
 
 		}
