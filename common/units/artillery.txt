@@ -142,7 +142,7 @@ sub_units = {
 		forest ={attack =0.025}
 		mountain = {attack = 0.025}
 		jungle = {attack = 0.025}
-		march = {attack = 0.025}
+		marsh = {attack = 0.025}
 	}
 	medium_sp_artillery = {
 		abbreviation = "MAR"
