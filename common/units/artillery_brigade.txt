@@ -334,9 +334,8 @@ sub_units = {
 		training_time = 120
 		weight = 0.75
 
-		soft_attack = 12
-		breakthrough = 6
-		defense = 2
+		soft_attack = 8
+		breakthrough =4
 
 		supply_consumption = 0.15
 
