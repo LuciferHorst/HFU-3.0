@@ -262,8 +262,12 @@ equipments = {
 		}	
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2 #two secondary turrets only
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}		
 
 		upgrades = {
 			tank_nsb_engine_upgrade
@@ -385,6 +389,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
 			count < 2
 		}
 		maximum_speed = 6
@@ -509,6 +517,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
 			count < 2
 		}
 		build_cost_ic = 1.5
@@ -646,6 +658,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}		
 		build_cost_ic = 2
 		maximum_speed = 6.5
 		reliability = 1.4
@@ -916,12 +932,16 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
-		upgrades = {
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+			upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 		maximum_speed = 4.5
-		build_cost_ic = 2
+		build_cost_ic = 2.5
 		breakthrough = 3
 		reliability = 0.75
 		armor_value = 25
@@ -1048,6 +1068,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = tank_medium_cannon
 			turret_type_slot = tank_medium_three_man_tank_turret
@@ -1058,7 +1082,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 5
-		build_cost_ic = 2
+		build_cost_ic = 3.5
 		reliability = 1
 		armor_value = 35
 		breakthrough = 4
@@ -1199,6 +1223,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = tank_medium_cannon_2
 			turret_type_slot = tank_medium_three_man_tank_turret
@@ -1209,7 +1237,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 5.5
-		build_cost_ic = 2.5
+		build_cost_ic = 4
 		reliability = 1.4
 		armor_value = 45
 		breakthrough = 5.5
@@ -1356,6 +1384,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = tank_medium_cannon_3
 			turret_type_slot = tank_medium_three_man_tank_turret
@@ -1366,7 +1398,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 6
-		build_cost_ic = 3
+		build_cost_ic = 5
 		breakthrough = 7
 		reliability = 1.6
 		armor_value = 55
@@ -1523,7 +1555,7 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 4
-		build_cost_ic = 5
+		build_cost_ic = 6
 		reliability = 1
 		armor_value = 25
 		hardness = 0.85
@@ -1645,8 +1677,12 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		maximum_speed = 3.5
-		build_cost_ic = 5
+		build_cost_ic = 6
 		reliability = 1
 		breakthrough = 4
 		armor_value = 30
@@ -1778,6 +1814,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = tank_heavy_cannon
 			turret_type_slot = tank_heavy_three_man_tank_turret
@@ -1785,7 +1825,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		build_cost_ic = 6
+		build_cost_ic = 8
 		reliability = 1.2
 		armor_value = 40
 		breakthrough = 6
@@ -1924,6 +1964,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = tank_heavy_cannon_2
 			turret_type_slot = tank_heavy_three_man_tank_turret
@@ -1931,7 +1975,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		build_cost_ic = 8
+		build_cost_ic = 10
 		reliability = 1.2
 		armor_value = 60
 		breakthrough = 8
@@ -2078,6 +2122,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = tank_heavy_cannon_3
 			turret_type_slot = tank_heavy_three_man_tank_turret
@@ -2085,7 +2133,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		build_cost_ic = 10
+		build_cost_ic = 12
 		reliability = 1.4
 		armor_value = 80
 		breakthrough = 10
@@ -2384,6 +2432,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_super_heavy_three_man_tank_turret
@@ -2547,7 +2599,10 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
-
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
