@@ -3242,8 +3242,30 @@ focus = {
 			has_tech = mechanised_infantry
 			}
 		}
-		completion_reward = {		
-		set_technology = { serb_modding_tank_gun = 1 }	
+		completion_reward = {			
+					create_equipment_variant = {
+
+					name = "Sherman Firefly"
+					type = medium_tank_chassis_2
+					parent_version = 0
+					modules = {
+						main_armament_slot = tank_high_velocity_cannon_m3
+						turret_type_slot = tank_medium_three_man_tank_turret
+						special_type_slot_1 = tank_radio_3
+						special_type_slot_2 = secondary_turret_hmg
+						special_type_slot_3 = extra_ammo_storage
+						special_type_slot_4 = wet_ammo_storage
+			
+						suspension_type_slot = tank_bogie_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 2
+						tank_nsb_armor_upgrade = 0
+					}
+					icon = "gfx/interface/equipmentdesigner/tanks/designer/Usa/USA_medium_CAA_camo.dds"
+				}
 		division_template = {
 					name = "Royal Tank Division"
 					regiments = {
@@ -3258,8 +3280,7 @@ focus = {
 						medium_armor = { x = 2 y = 0 }
 						medium_armor = { x = 2 y = 1 }
 						medium_armor = { x = 2 y = 2 }
-						medium_sp_anti_air_brigade = { x = 2 y = 3 }
-						medium_sp_anti_air_brigade = { x = 2 y = 4 }
+						light_sp_anti_air_brigade = { x = 2 y = 3 }
 						mechanized = { x = 3 y = 0 }
 						mechanized = { x = 3 y = 1 }
 						mechanized = { x = 3 y = 2 }
@@ -3277,7 +3298,7 @@ focus = {
 						signal_company = { x = 0 y = 4 }
 					}
 				}
-				126 = {
+				551 = {
 					for_loop_effect = {
 						end = 2
 						create_unit = {
