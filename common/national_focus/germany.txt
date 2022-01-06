@@ -2651,6 +2651,7 @@ focus = {
 				country_event = { id = germany.51 }
 				add_opinion_modifier = { target = GER modifier = GER_first_vienna_award_GER }
 				transfer_state = 664
+				transfer_state = 73 
 			}
 			every_other_country = {
 				limit = {
@@ -2661,6 +2662,7 @@ focus = {
 			ENG = {
 				country_event = germany.40
 			}
+			
 			69 = { add_core_of = GER }
 			GER = { transfer_state = 69 }
 			74 = { add_core_of = GER }

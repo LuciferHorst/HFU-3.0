@@ -139,7 +139,7 @@ sub_units = {
 		defense = -0.9
 		soft_attack = -0.60
 		hard_attack = -0.60
-		breakthrough = -0.4
+		breakthrough = -0.3
 		armor_value = -0.70
 		urban = { defence = 0.05 }
 		forest = { defence = 0.1}

@@ -267,7 +267,11 @@ equipments = {
 		module_count_limit = {
 			module = additional_machine_guns
 			count < 2
-		}		
+		}	
+		module_count_limit = {
+			module = tungston_core_ammunition
+			count < 2
+		}
 
 		upgrades = {
 			tank_nsb_engine_upgrade
@@ -393,6 +397,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		maximum_speed = 6
@@ -521,6 +529,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		build_cost_ic = 1.5
@@ -660,6 +672,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}		
 		build_cost_ic = 2
@@ -936,6 +952,10 @@ equipments = {
 			module = additional_machine_guns
 			count < 2
 		}
+		module_count_limit = {
+			module = tungston_core_ammunition
+			count < 2
+		}
 			upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
@@ -1070,6 +1090,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		default_modules = {
@@ -1225,6 +1249,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		default_modules = {
@@ -1386,6 +1414,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		default_modules = {
@@ -1681,6 +1713,10 @@ equipments = {
 			module = additional_machine_guns
 			count < 2
 		}
+		module_count_limit = {
+			module = tungston_core_ammunition
+			count < 2
+		}
 		maximum_speed = 3.5
 		build_cost_ic = 6
 		reliability = 1
@@ -1816,6 +1852,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		default_modules = {
@@ -1968,6 +2008,11 @@ equipments = {
 			module = additional_machine_guns
 			count < 2
 		}
+		module_count_limit = {
+			module = tungston_core_ammunition
+			count < 2
+		}
+		
 		default_modules = {
 			main_armament_slot = tank_heavy_cannon_2
 			turret_type_slot = tank_heavy_three_man_tank_turret
@@ -2124,6 +2169,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		default_modules = {
@@ -2601,6 +2650,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		default_modules = {

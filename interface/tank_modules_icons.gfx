@@ -530,5 +530,9 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_wheeled_suspension.dds"
 		legacy_lazy_load = no
 	}
-
+	spriteType = {
+		name = GFX_EMI_tungston_core_ammunition
+		textureFile = gfx/interface/technologies/improved_medium_shell.dds
+		legacy_lazy_load = no
+	}
 }

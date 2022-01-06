@@ -72,18 +72,11 @@ sub_units = {
 			defence = 0.2
 		}
 
-		river = {
-			attack = 0.1
-			movement = 0.25
-		}
 
 		urban = {
 			attack = 0.05
 		}
 
-		amphibious = {
-			attack = 0.3
-		}
 		same_support_type = flame
 	}
 
@@ -160,17 +153,10 @@ sub_units = {
 			defence = 0.1
 		}
 		urban = {
-			attack = 0.1
+			attack = 0.05
 		}
 
-		river = {
-			attack = 0.1
-			movement = 0.25
-		}
 
-		amphibious = {
-			attack = 0.3
-		}
 		same_support_type = flame
 	}
 
@@ -247,7 +233,7 @@ sub_units = {
 			defence = 0.1
 		}
 		urban = {
-			attack = 0.15
+			attack = 0.05
 		}
 
 		river = {
@@ -255,9 +241,6 @@ sub_units = {
 			movement = 0.25
 		}
 
-		amphibious = {
-			attack = 0.3
-		}
 		same_support_type = flame
 	}
 }
