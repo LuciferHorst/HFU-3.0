@@ -5,7 +5,15 @@ state={
 	
 	state_category = megalopolis
 	
+
+	
+	
 	history={
+	
+	buildings = { 
+		infrastructure = 6
+		industrial_complex = 1
+	}
 		victory_points = {
 			3581 3
 		}

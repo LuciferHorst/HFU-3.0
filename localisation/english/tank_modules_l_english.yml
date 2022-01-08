@@ -153,6 +153,7 @@
  sloped_armor_desc:0 "Armor placed at an angle to an incoming shell has a much greater effective thickness than the same amount of armor placed vertically. It also increases the chance that the shell will simply bounce off harmlessly. However, it requires the entire tank to be designed around it, making the vehicle more difficult to assemble."
  stabilizer:0 "Stabilizer"
  stabilizer_desc:0 "A mechanical device to keep the gun pointing in the same direction when the tank is moving. While not advanced enough to allow accurate firing on the move, it does allow the gunner to fire accurately during a short stop, without having to re-acquire the target."
+ tungston_core_ammunition:0 "Tungston Core Ammunition"
  smoke_launchers:0 "Smoke Launchers"
  smoke_launchers_desc:0 "A battery of pyrotechnic devices that can be triggered from inside the tank to create a thick cloud of smoke to hide the tank. Very useful when on the defensive or after driving into an ambush."
  extra_ammo_storage:0 "Extra Ammunition Storage"
