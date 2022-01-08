@@ -8,17 +8,8 @@ state={
 	resources={
 		tungsten=10 # was: 2
 	}
-	
 
-	
-	
-	
 	history={
-	
-	buildings = { 
-		infrastructure = 6
-		industrial_complex = 1
-	}
 		owner = CZE
 		victory_points = {
 			9692 10
