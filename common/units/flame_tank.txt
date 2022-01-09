@@ -76,6 +76,10 @@ sub_units = {
 		urban = {
 			attack = 0.05
 		}
+		river = {
+			defence = 0.1
+			movement = 0.25
+		}
 
 		same_support_type = flame
 	}
@@ -154,6 +158,10 @@ sub_units = {
 		}
 		urban = {
 			attack = 0.05
+		}
+		river = {
+			defence = 0.1
+			movement = 0.25
 		}
 
 
