@@ -11,7 +11,6 @@ technologies = {
 		allow_branch = { has_dlc = "La Resistance" }
 		research_cost = 2
 		start_year = 1936
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 4 }
@@ -49,7 +48,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 6 }
@@ -96,7 +94,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1933
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
@@ -159,7 +156,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 4 }
@@ -248,7 +244,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -306,7 +301,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		categories = {
 			light_air
 			light_fighter
@@ -325,7 +319,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		categories = {
 			light_air
 			light_fighter
@@ -398,7 +391,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		allow = {
 			date > 1939.6.1
 		}
@@ -453,7 +445,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
-		
 		allow = {
 			date > 1941.6.1
 		}
@@ -499,7 +490,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		categories = {
 			light_air
 			light_fighter
@@ -604,7 +594,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 4 }
@@ -687,7 +676,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 6 }
@@ -782,7 +770,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 8 }
@@ -834,7 +821,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 10 }
@@ -883,7 +869,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 4 }
@@ -926,7 +911,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 6 }
@@ -979,7 +963,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 8 }
@@ -1032,7 +1015,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 10 }
@@ -1087,7 +1069,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1933
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 2 }
@@ -1111,7 +1092,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 4 }
@@ -1134,10 +1114,8 @@ technologies = {
 			leads_to_tech = heavy_fighter3
 			research_cost_coeff = 1
 		}
-		
 		research_cost = 2
 		start_year = 1940
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 6 }
@@ -1156,13 +1134,12 @@ technologies = {
 		enable_equipments = {
 			heavy_fighter_equipment_3
 		}
-	    path = {
+		path = {
 			leads_to_tech = heavy_fighter4
 			research_cost_coeff = 1
-			}
+		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 8 }
@@ -1190,7 +1167,6 @@ technologies = {
 			#}
 		research_cost = 2
 		start_year = 1942
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 10 }
@@ -1218,7 +1194,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 4 }
@@ -1264,7 +1239,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 6 }
@@ -1313,7 +1287,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 8 }
@@ -1357,7 +1330,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 10 }
@@ -1448,7 +1420,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 4 }
@@ -1480,7 +1451,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -1512,6 +1482,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }

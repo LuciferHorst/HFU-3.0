@@ -77,7 +77,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1936 }
@@ -133,7 +132,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1939 }
@@ -166,22 +164,17 @@ technologies = {
 				defence = 0.10
 			}
 		}
-		
-
 		light_flame_tank = {
-
 			fort = {
 				attack = 0.10
 			}
 		}
 		medium_flame_tank = {
-
 			fort = {
 				attack = 0.10
 			}
 		}
 		heavy_flame_tank = {
-	
 			fort = {
 				attack = 0.10
 			}
@@ -192,7 +185,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1942 }
@@ -254,6 +246,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1945 }
@@ -291,7 +286,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1936 }
@@ -334,7 +328,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1939 }
@@ -369,7 +362,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1942 }
@@ -400,6 +392,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1945 }
@@ -434,7 +429,6 @@ technologies = {
 		}
 		research_cost = 0.5
 		start_year = 1936
-		
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1936 }
@@ -487,7 +481,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1939 }
@@ -514,7 +507,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1942 }
@@ -537,6 +529,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1945 }
@@ -563,7 +558,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1936 }
@@ -602,7 +596,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1939 }
@@ -638,7 +631,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1942 }
@@ -670,6 +662,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1945 }
@@ -707,7 +702,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1936 }
@@ -744,7 +738,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1939 }
@@ -781,7 +774,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1942 }
@@ -814,6 +806,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1945 }
@@ -852,7 +847,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1936 }
@@ -893,7 +887,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1939 }
@@ -934,7 +927,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1942 }
@@ -967,6 +959,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1945 }
@@ -1006,7 +1001,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1936 }
@@ -1035,7 +1029,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1939 }
@@ -1071,7 +1064,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1942 }
@@ -1103,6 +1095,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1945 }
@@ -1128,33 +1123,27 @@ technologies = {
 			}
 		}
 	}
-
-    basic_train = {
+	basic_train = {
 		enable_equipments = {
 			train_equipment_1
 		}
-
 		research_cost = 1.5
 		start_year = 1910
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1918 }
 		}
-
 		path = {
 			leads_to_tech = wartime_train
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = armored_train
 			research_cost_coeff = 1
 		}
-		
 		categories = {
 			train_tech
 		}
-		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1165,44 +1154,36 @@ technologies = {
 				factor = 1.2
 				date > "1936.1.1"
 			}
-			
 			modifier = {
 				factor = 1.2
 				date > "1937.1.1"
 			}
-			
 			modifier = {
 				factor = 1.2
 				date > "1938.1.1"
 			}
 		}
 	}
-
 	railway_gun = {
 		enable_equipments = {
 			railway_gun_equipment_1
 		}
-
 		research_cost = 1.5
 		start_year = 1940
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1940 }
 		}
-		
 		categories = {
 			train_tech
 			artillery
 		}
-		
 		ai_will_do = {
 			factor = 1
-			
 			modifier = {
 				is_major = yes
 				factor = 2
 			}
-
 			modifier = {
 				OR = {
 					TAG = GER
@@ -1212,7 +1193,6 @@ technologies = {
 			}
 		}
 	}
-
 	wartime_train = {
 		enable_equipments = {
 			train_equipment_2
@@ -1221,21 +1201,17 @@ technologies = {
 			leads_to_tech = railway_gun
 			research_cost_coeff = 1
 		}
-
 		research_cost = 1.5
 		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 4 }
 		}
-		
 		categories = {
 			train_tech
 		}
-		
 		ai_will_do = {
 			factor = 2
-			
 			modifier = {
 				has_war = yes
 				factor = 20
@@ -1244,48 +1220,38 @@ technologies = {
 				factor = 1.2
 				date > "1940.1.1"
 			}
-			
 			modifier = {
 				factor = 1.2
 				date > "1941.1.1"
 			}
-			
 			modifier = {
 				factor = 1.2
 				date > "1942.1.1"
 			}
 		}
 	}
-
 	armored_train = {
 		enable_equipments = {
 			train_equipment_3
 		}
-
 		allow_branch = {
 		}
-
 		path = {
 			research_cost_coeff = 1
 		}
-		
 		allow_branch = {
 		}
-		
 		research_cost = 1.5
 		start_year = 1941
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1942 }
 		}
-		
 		categories = {
 			train_tech
 		}
-		
 		ai_will_do = {
 			factor = 1
-			
 			modifier = {
 				has_war = yes
 				factor = 20
@@ -1298,12 +1264,10 @@ technologies = {
 				factor = 1.2
 				date > "1938.1.1"
 			}
-			
 			modifier = {
 				factor = 1.2
 				date > "1939.1.1"
 			}
-			
 			modifier = {
 				factor = 1.2
 				date > "1940.1.1"

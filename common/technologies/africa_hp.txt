@@ -22,15 +22,12 @@ technologies = {
 			max_strength = 6
 		}
 	}
-
 	soviet_air = {
-
 		enable_building = {
 			building =air_base
 			level = 20
 		}
 	}
-
 	africa_hp_off = {
 		motorized = {
 			max_strength = -10

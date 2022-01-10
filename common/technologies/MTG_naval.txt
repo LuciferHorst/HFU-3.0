@@ -61,7 +61,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 7 }
@@ -98,7 +97,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 13 }
@@ -228,7 +226,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = 7 }
@@ -267,7 +264,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = 12 }
@@ -371,7 +367,6 @@ technologies = {
 		}
 		research_cost = 0.5
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 2 y = 6 }
@@ -405,7 +400,6 @@ technologies = {
 		allow_branch = {
 			always = no
 		}
-		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 2 y = 13 }
@@ -492,7 +486,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 7 }
@@ -527,7 +520,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 13 }
@@ -587,7 +579,6 @@ technologies = {
 		}
 		research_cost = 0.5
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = 0 y = 1 }
@@ -626,7 +617,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = 0 y = 6 }
@@ -665,7 +655,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = 0 y = 12 }
@@ -787,7 +776,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 7 }
@@ -830,7 +818,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1938
-		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -857,7 +844,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 13 }
@@ -892,7 +878,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -954,7 +939,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = 0 y = 6 }
@@ -990,7 +974,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 1
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = 0 y = 12 }
@@ -1070,7 +1053,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 7 }
@@ -1104,7 +1086,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 13 }
@@ -1214,7 +1195,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = homing_torpedo
 			research_cost_coeff = 1
@@ -1269,7 +1249,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1940
-		
 		destroyer = {
 			torpedo_attack = 0.2
 		}
@@ -1312,7 +1291,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1940
-		
 		naval_torpedo_reveal_chance_factor = -0.25
 		folder = {
 			name = mtgnavalfolder
@@ -1340,7 +1318,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = advanced_ship_torpedo_launcher
 			research_cost_coeff = 1
@@ -1373,7 +1350,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
-		
 		path = {
 			leads_to_tech = modern_ship_torpedo_launcher
 			research_cost_coeff = 1
@@ -1478,7 +1454,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1936
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -2 y = 7 }
@@ -1516,7 +1491,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -2 y = 13 }
@@ -1578,7 +1552,6 @@ technologies = {
 		}
 		research_cost = 1.25
 		start_year = 1940
-		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 12 }
@@ -1702,7 +1675,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = improved_light_battery
 			research_cost_coeff = 1
@@ -1739,7 +1711,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
-		
 		path = {
 			leads_to_tech = advanced_light_battery
 			research_cost_coeff = 1
@@ -1800,7 +1771,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = improved_light_shell
 			research_cost_coeff = 1
@@ -1851,7 +1821,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1941
-		
 		destroyer = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -1898,7 +1867,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = improved_medium_battery
 			research_cost_coeff = 1
@@ -1936,7 +1904,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
-		
 		path = {
 			leads_to_tech = advanced_medium_battery
 			research_cost_coeff = 1
@@ -1995,7 +1962,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = improved_medium_shell
 			research_cost_coeff = 1
@@ -2030,7 +1996,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1941
-		
 		light_cruiser = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -2061,7 +2026,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = improved_heavy_battery
 			research_cost_coeff = 1
@@ -2105,13 +2069,12 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.75
 		start_year = 1940
-		
 		path = {
 			leads_to_tech = advanced_heavy_battery
 			research_cost_coeff = 1
 		}
 		enable_equipment_modules = {
-			ship_heavy_battery_3	
+			ship_heavy_battery_3
 		}
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
@@ -2180,7 +2143,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1938
-		
 		path = {
 			leads_to_tech = improved_heavy_shell
 			research_cost_coeff = 1
@@ -2216,7 +2178,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 2
 		start_year = 1941
-		
 		battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -2283,7 +2244,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.8
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = dp_secondary_battery
 			research_cost_coeff = 1
@@ -2319,7 +2279,6 @@ technologies = {
 		xp_unlock_cost = 0
 		research_cost = 0.8
 		start_year = 1940
-		
 		enable_equipment_modules = {
 			dp_ship_secondaries
 			dp_light_battery
@@ -2354,17 +2313,17 @@ technologies = {
 	damage_control_1 = {
 		research_cost = 2
 		battleship = {
- reliability = 0.03}
+			reliability = 0.03}
 		battle_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		heavy_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		light_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		carrier = {
- reliability = 0.03}
+			reliability = 0.03}
 		destroyer = {
- reliability = 0.03}
+			reliability = 0.03}
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
@@ -2400,17 +2359,17 @@ technologies = {
 	damage_control_2 = {
 		research_cost = 2
 		battleship = {
- reliability = 0.03}
+			reliability = 0.03}
 		battle_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		heavy_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		light_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		carrier = {
- reliability = 0.03}
+			reliability = 0.03}
 		destroyer = {
- reliability = 0.03}
+			reliability = 0.03}
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
@@ -2446,17 +2405,17 @@ technologies = {
 	damage_control_3 = {
 		research_cost = 2
 		battleship = {
- reliability = 0.03}
+			reliability = 0.03}
 		battle_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		heavy_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		light_cruiser = {
- reliability = 0.03}
+			reliability = 0.03}
 		carrier = {
- reliability = 0.03}
+			reliability = 0.03}
 		destroyer = {
- reliability = 0.03}
+			reliability = 0.03}
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -2702,7 +2661,6 @@ technologies = {
 	improved_submarine_mine_laying = {
 		research_cost = 1
 		start_year = 1940
-		
 		submarine = {
 			mines_planting = 0.2
 		}
@@ -2731,7 +2689,6 @@ technologies = {
 	improved_naval_mines = {
 		research_cost = 1
 		start_year = 1936
-		
 		path = {
 			leads_to_tech = advanced_naval_mines
 			research_cost_coeff = 1
@@ -2774,7 +2731,6 @@ technologies = {
 	degaussing = {
 		research_cost = 0.75
 		start_year = 1938
-		
 		naval_mines_effect_reduction = 0.5
 		folder = {
 			name = mtgnavalfolder
@@ -2801,7 +2757,6 @@ technologies = {
 	advanced_naval_mines = {
 		research_cost = 1
 		start_year = 1942
-		
 		path = {
 			leads_to_tech = modern_naval_mines
 			research_cost_coeff = 1
@@ -2835,7 +2790,6 @@ technologies = {
 	airdrop_mines = {
 		research_cost = 1
 		start_year = 1942
-		
 		category_nav_bomber = {
 			mines_planting = 0.05
 		}
@@ -2963,7 +2917,6 @@ technologies = {
 		}
 		research_cost = 0.75
 		start_year = 1936
-		
 		#set at gamestart
 		allow_branch = {always=no}
 	}
@@ -2973,7 +2926,6 @@ technologies = {
 		}
 		research_cost = 0.75
 		start_year = 1936
-		
 		#set at gamestart
 		allow_branch = {always=no}
 	}
@@ -2983,7 +2935,6 @@ technologies = {
 		}
 		research_cost = 0.75
 		start_year = 1936
-		
 		#set at gamestart
 		allow_branch = {always=no}
 	}
@@ -2993,7 +2944,6 @@ technologies = {
 		}
 		research_cost = 0.75
 		start_year = 1936
-		
 		#set at gamestart
 		allow_branch = {always=no}
 	}
@@ -3006,7 +2956,6 @@ technologies = {
 		}
 		research_cost = 0.75
 		start_year = 1936
-		
 		#set at gamestart
 		allow_branch = {always=no}
 	}

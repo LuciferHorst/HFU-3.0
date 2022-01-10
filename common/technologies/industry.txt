@@ -23,7 +23,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1936
-		
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -48,7 +47,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
-		
 		on_research_complete = {
 			meta_effect = {
 				text = {
@@ -84,7 +82,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
-		
 		on_research_complete = {
 			meta_effect = {
 				text = {
@@ -136,7 +133,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 8 }
@@ -157,7 +153,9 @@ technologies = {
 		line_change_production_efficiency_factor = 0.2
 		research_cost = 2.5
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		XOR = {
 			streamlined_line
 		}
@@ -181,7 +179,9 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.1
 		research_cost = 2.5
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		XOR = {
 			flexible_line
 		}
@@ -208,7 +208,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1937
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 4 }
@@ -227,10 +226,8 @@ technologies = {
 	}
 	improved_equipment_conversion = {
 		line_change_production_efficiency_factor = 0.05
-
 		research_cost = 1
 		start_year = 1939
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 6 }
@@ -246,14 +243,11 @@ technologies = {
 				NOT = { has_government = fascism }
 			}
 		}
-
 	}
 	advanced_equipment_conversion = {
 		line_change_production_efficiency_factor = 0.05
-
 		research_cost = 1
 		start_year = 1941
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 8 }
@@ -344,7 +338,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1937
-		
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = 4 }
@@ -382,7 +375,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
-		
 		on_research_complete = {
 			meta_effect = {
 				text = {
@@ -420,7 +412,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = 8 }
@@ -454,7 +445,9 @@ technologies = {
 		global_building_slots_factor = 0.25
 		research_cost = 2
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 4 y = 10 }
@@ -570,7 +563,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1937
-		
 		on_research_complete = {
 			meta_effect = {
 				text = {
@@ -613,7 +605,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
-		
 		on_research_complete = {
 			meta_effect = {
 				text = {
@@ -664,7 +655,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		folder = {
 			name = industry_folder
 			position = { x = 6 y = 8 }
@@ -695,7 +685,9 @@ technologies = {
 		conversion_cost_mil_to_civ_factor = -0.025
 		research_cost = 2
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 6 y = 10 }
@@ -729,7 +721,7 @@ technologies = {
 			level = 3
 		}
 		enable_equipment_modules = {
-		external_fuel_tank
+			external_fuel_tank
 		}
 		path = {
 			leads_to_tech = synth_oil_experiments
@@ -739,7 +731,6 @@ technologies = {
 			leads_to_tech = fuel_refining
 			research_cost_coeff = 1
 		}
-		
 		path = {
 			leads_to_tech = Joker
 			research_cost_coeff = 1
@@ -750,7 +741,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1936
-		
 		folder = {
 			name = industry_folder
 			position = { x = 1 y = 0 }
@@ -832,7 +822,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1936
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 2 }
@@ -890,7 +879,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 4 }
@@ -940,7 +928,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1939
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 6 }
@@ -982,7 +969,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1941
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 8 }
@@ -1020,7 +1006,9 @@ technologies = {
 		fuel_gain_factor_from_states = 0.6
 		research_cost = 1.5
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 10 }
@@ -1064,7 +1052,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1936
-		
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 2 }
@@ -1116,7 +1103,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
-		
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 4 }
@@ -1167,7 +1153,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1939
-		
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 6 }
@@ -1218,7 +1203,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1941
-		
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 8 }
@@ -1265,7 +1249,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 10 }
@@ -1316,7 +1302,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
-		
 		categories = {
 			industry
 			construction_tech
@@ -1387,7 +1372,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1937
-		
 		categories = {
 			industry
 			construction_tech
@@ -1419,7 +1403,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1937
-		
 		categories = {
 			industry
 			construction_tech
@@ -1468,7 +1451,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
-		
 		on_research_complete = {
 			meta_effect = {
 				text = {
@@ -1508,7 +1490,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
-		
 		categories = {
 			industry
 			construction_tech
@@ -1565,7 +1546,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		categories = {
 			industry
 			construction_tech
@@ -1589,7 +1569,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
-		
 		categories = {
 			industry
 			construction_tech
@@ -1634,7 +1613,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		on_research_complete = {
 			meta_effect = {
 				text = {
@@ -1666,7 +1647,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
-		
+		categories = {
+			year_1943
+		}
 		categories = {
 			industry
 			construction_tech
