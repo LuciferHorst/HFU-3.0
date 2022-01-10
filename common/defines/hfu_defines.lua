@@ -71,7 +71,7 @@ NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0	-- License production tec
 NDefines.NProduction.BASE_LICENSE_IC_COST = 0.4			-- Base IC cost for lended license
 NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0	-- IC cost equipment for every year of equipment after 1936
 NDefines.NProduction.FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 5
-NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 5
+NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 10
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 5000000
 NDefines.NProduction.RAILWAY_GUN_REPAIR_SPEED = 8.0		-- Railway gun strength repair speed per factory
 ---------------------------------------------------------------
