@@ -223,6 +223,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
+		categories = {
+			year_1936
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 4 }
@@ -283,6 +286,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			year_1941
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 8 }
@@ -358,6 +364,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			year_1939
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 0 y = @1939 }
@@ -413,6 +422,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			year_1941
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 0 y = @1941 }
@@ -608,6 +620,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			year_1939
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 4 y = @1939 }
@@ -667,6 +682,9 @@ technologies = {
 		}
 		research_cost = 2.5
 		start_year = 1941
+		categories = {
+			year_1941
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 4 y = @1941 }
@@ -851,6 +869,9 @@ technologies = {
 		xp_research_bonus = 1
 		research_cost = 1
 		start_year = 1936
+		categories = {
+			year_1936
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1938 }
@@ -897,6 +918,9 @@ technologies = {
 		show_effect_as_desc = yes
 		research_cost = 1
 		start_year = 1941
+		categories = {
+			year_1941
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1941 }
@@ -1034,6 +1058,9 @@ technologies = {
 		show_effect_as_desc = yes
 		research_cost = 1
 		start_year = 1936
+		categories = {
+			year_1936
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1938 }
@@ -1080,6 +1107,9 @@ technologies = {
 		show_effect_as_desc = yes
 		research_cost = 1
 		start_year = 1941
+		categories = {
+			year_1941
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1941 }
