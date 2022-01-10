@@ -131,6 +131,11 @@ recruit_character = RAJ_bhaskar_soman
 
 set_convoys = 100
 add_equipment_to_stockpile = {
+	type = motorized_equipment
+	amount = 250
+	producer = RAJ
+}
+add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 30000
 	producer = RAJ

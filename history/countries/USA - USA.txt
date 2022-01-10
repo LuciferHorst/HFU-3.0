@@ -70,7 +70,6 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	interwar_antitank = 1
-	improved_light_art = 1
 	tech_maintenance_company = 1
 	tech_field_hospital = 1
 	tech_logistics_company = 1
@@ -149,6 +148,11 @@ add_equipment_to_stockpile = {
 add_equipment_to_stockpile = {
 	type = train_equipment
 	amount = 100
+	producer = USA
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment
+	amount = 250
 	producer = USA
 }
 set_politics = {

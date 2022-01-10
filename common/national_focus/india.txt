@@ -608,9 +608,9 @@ focus_tree = {
 					gfx = "GFX_RAJ_kodandera_madappa_cariappa"
 					traits = { infantry_leader organizer}
 					skill = 5
-					attack_skill = 5
-					defense_skill = 3
-					planning_skill = 2
+					attack_skill = 6
+					defense_skill = 4
+					planning_skill = 4
 					logistics_skill = 6
 				}
 				create_corps_commander = {
@@ -619,8 +619,8 @@ focus_tree = {
 					traits = { jungle_rat ranger infantry_leader}
 					skill = 5
 					attack_skill = 6
-					defense_skill = 3
-					planning_skill = 2
+					defense_skill = 4
+					planning_skill = 4
 					logistics_skill = 6
 				}
 				create_corps_commander = {
@@ -629,8 +629,8 @@ focus_tree = {
 					traits = { panzer_leader ranger jungle_rat organizer }
 					skill = 5
 					attack_skill = 5
-					defense_skill = 2
-					planning_skill = 3
+					defense_skill = 3
+					planning_skill = 4
 					logistics_skill = 4
 				}
 			}

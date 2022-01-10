@@ -517,6 +517,7 @@
  low_economic_mobilisation:0 "Early Mobilization"
  partial_economic_mobilisation:0 "Partial Mobilization"
  war_economy:0 "General Mobilization"
+ USA_war_economy:0 "General Mobilization"
  tot_economic_mobilisation:0 "Total Mobilization"
  war_preparation:0 "Prepare For The War"
  idea_group_mobilization_laws:0 "Conscription Laws"

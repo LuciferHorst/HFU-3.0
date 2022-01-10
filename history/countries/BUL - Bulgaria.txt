@@ -81,3 +81,8 @@ add_equipment_to_stockpile = {
 	amount = 30
 	producer = BUL
 }
+add_equipment_to_stockpile = {
+	type = motorized_equipment
+	amount = 250
+	producer = BUL
+}

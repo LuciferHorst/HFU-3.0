@@ -289,7 +289,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_speed_synthetic_refinery_factor = -1.2
+				production_speed_synthetic_refinery_factor = -2
 			}
 		}
 		reliance_on_natural_rubber2 = {

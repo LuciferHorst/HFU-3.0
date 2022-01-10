@@ -800,7 +800,6 @@ focus = {
 			factor = 100
 		}
 		completion_reward = {
-			army_experience = 20
 			351={set_building_level = {
 					type = air_base
 					level = 20
@@ -887,7 +886,6 @@ focus = {
 			factor = 100
 		}
 		completion_reward = {
-			army_experience = 20
 			217={set_building_level = {
 					type = air_base
 					level = 20
@@ -990,7 +988,6 @@ focus = {
 			factor = 100
 		}
 		completion_reward = {
-			army_experience = 20
 			219={set_building_level = {
 					type = air_base
 					level = 20
@@ -1093,9 +1090,6 @@ focus = {
 		x = -2
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
 		available_if_capitulated = yes
 		bypass = {
 			custom_trigger_tooltip =  {
@@ -1109,10 +1103,7 @@ focus = {
 				}
 			}
 		}
-
 		completion_reward = {
-
-			army_experience = 40
 			if = {
 				limit = {
 					573 = {

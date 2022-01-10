@@ -1977,8 +1977,8 @@ news_event = {
 	picture = GFX_news_event_052
 	major = yes
 	trigger = {
-		116 = { is_controlled_by = GER }
-		116 = { is_owned_by = ENG }
+		118 = { is_controlled_by = GER }
+		118 = { is_owned_by = ENG }
 		GER = { has_war_with = ENG }
 		NOT = { has_global_flag = fall_of_gibraltar_ger }
 	}
@@ -2095,8 +2095,8 @@ news_event = {
 	picture = GFX_news_event_052
 	major = yes
 	trigger = {
-		116 = { is_controlled_by = ITA }
-		116 = { is_owned_by = ENG }
+		118 = { is_controlled_by = ITA }
+		118 = { is_owned_by = ENG }
 		ITA = { has_war_with = ENG }
 		NOT = { has_global_flag = fall_of_gibraltar_ita }
 	}

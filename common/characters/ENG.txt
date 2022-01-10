@@ -1509,7 +1509,7 @@ characters={
 				always = yes
 			}
 			traits = {
-				army_commando_3
+				army_commando_4
 			}
 			cost = 150
 			ai_will_do = {

@@ -136,6 +136,19 @@ focus_tree = {
 				uses = 3
 				category = naval_doctrine
 			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
 		}
 	}
 	focus = {
@@ -246,8 +259,14 @@ focus_tree = {
 					type = dockyard
 					level = 4
 					instant_build = yes
+											}
 				}
-		}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.5
+				uses = 2
+				category = dd_tech
+			}	
 	}
 }	
 	focus = {
@@ -264,6 +283,12 @@ focus_tree = {
 				uses = 1
 				bonus = 2
                 technology = improved_ship_hull_heavy  
+			}
+			add_tech_bonus = {
+				name = ITA_battleship
+				uses = 1
+				bonus = 1
+                technology = advanced_ship_hull_heavy
 			}
 	}
 }

@@ -453,7 +453,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_carrier_warfare_experiments
 				bonus = 1.00
-				uses = 1
+				uses = 2
 				category = cv_tech
 			}
 		}
@@ -599,8 +599,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_cruiser_modernization
-				bonus = 2.0
-				uses = 1
+				bonus = 1.5
+				uses = 2
 				category = cl_tech
 				category = ca_tech
 			}
@@ -670,14 +670,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_modern_escorts
 				bonus = 1.0
-				uses = 1
-				category = dd_tech
-			}
-			add_tech_bonus = {
-				name = "Japanese ASW"
-				bonus = 1.0
 				uses = 2
-				category = asw_tech
+				category = dd_tech
 			}
 		}
 	}
@@ -1114,9 +1108,9 @@ focus = {
 		transfer_state = 728
 		hidden_effect = {
 			JAP = {
-				army_experience = 950
+				army_experience = 500
 				air_experience = 600}
-			SOV = { army_experience = 300
+			SOV = { army_experience = 200
 				air_experience = 200}
 			USA = { add_war_support = 0.1
 				army_experience = 100
@@ -1140,25 +1134,22 @@ focus = {
 				army_experience = 100
 				air_experience = 200}
 			GER = {
-				army_experience = 150
-				air_experience = 450}
+				army_experience = 50
+				air_experience = 400}
 			ITA = {
-				army_experience = 150
+				army_experience = 100
 			}
 			HUN = {
-				army_experience = 150
+				army_experience = 100
 				air_experience = 200}
 			SPR = {
-				army_experience = 150
+				army_experience = 100
 				air_experience = 200}
 			BUL = {
-				army_experience = 150
-				air_experience = 200}
-			FIN = {
-				army_experience = 150
+				army_experience = 100
 				air_experience = 200}
 			ROM = {
-				army_experience = 150
+				army_experience = 100
 				air_experience = 200}
 			USA = {
 				country_event = { id = panay_incident.2 days = 20 }

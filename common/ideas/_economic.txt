@@ -122,7 +122,26 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.3
-				production_speed_dockyard_factor = 0.1
+				production_speed_dockyard_factor = 0.10
+			}
+			allowed_to_remove = {
+				OR = {
+					has_war = yes
+				}
+			}
+			cancel_if_invalid = no
+		}
+		USA_war_economy = {
+			allowed = {
+				always = no
+				tag = USA
+			}
+			picture = war_economy
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_dockyard_factor = 0.20
+				production_speed_arms_factory_factor = 0.1
 			}
 			allowed_to_remove = {
 				OR = {

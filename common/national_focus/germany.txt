@@ -478,7 +478,7 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			army_experience = 40
+			army_experience = 25
 			add_tech_bonus = {
 				name = at
 				bonus = 1
@@ -544,13 +544,10 @@
 		y = 1
 		relative_position_id = GER_soviet_treaty
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			army_experience = 50
+			army_experience = 25
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
@@ -579,7 +576,7 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			army_experience = 50
+			army_experience = 25
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
@@ -817,7 +814,7 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			air_experience = 150
+			air_experience = 100
 			add_ideas = GER_air_innovations_2_idea
 			add_tech_bonus = {
 				name = radar_tech_bonus
@@ -2023,15 +2020,12 @@ focus = {
 				date < 1938.1.1
 			}
 		}
-		bypass = {
-		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 			set_cosmetic_tag = GER_greater_german_reich
 			hidden_effect = {
 				set_global_flag = form_greater_german_reich_flag
 			}
-			army_experience = 10
 			add_political_power = 75
 			add_war_support = 0.1
 			add_stability = 0.05
@@ -2308,10 +2302,6 @@ focus = {
 		completion_reward = {
 			unlock_decision_tooltip=GER_fall_barb
 			hidden_effect={
-				ENG={
-					remove_ideas=stiff_upper_lip
-					add_timed_idea={idea=stiff_upper_lip days=150}
-				}
 				SOV={remove_ideas=Fast_Training }
 				every_country={
 					add_ideas=speed3

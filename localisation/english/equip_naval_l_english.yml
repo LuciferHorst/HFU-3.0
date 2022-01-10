@@ -1,4 +1,8 @@
 ﻿l_english:
+
+ improved_ship_hull_carrier: "Carrier III"
+ screen_ship:0 "Screens"
+ capital_ship:0 "Capitals"
  naval_equipment:0 "Ships"
  submarine_1:0 "Submarine I"
  submarine_2:0 "Submarine II"

@@ -42,9 +42,6 @@ set_technology = {
 	basic_light_tank_chassis = 1
 	improved_light_tank_chassis = 1
 	engine_tech_1 = 1
-	improved_light_spaa = 1
-	improved_light_td  = 1
-	improved_light_art = 1
 	early_fighter = 1
 	fighter1 = 1
 	naval_bomber1 = 1
@@ -107,7 +104,6 @@ if = {
 		mtg_transport = 1
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
-		improved_light_art = 1
 		tech_maintenance_company = 1
 	    tech_field_hospital = 1
     	tech_logistics_company = 1
@@ -132,6 +128,11 @@ add_ideas = {
 	george_v
 }
 set_convoys = 1200
+add_equipment_to_stockpile = {
+	type = motorized_equipment
+	amount = 250
+	producer = ENG
+}
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 2500

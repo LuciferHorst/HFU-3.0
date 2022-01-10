@@ -837,6 +837,7 @@ equipments = {
 		fuel_capacity = 50
 		resources = {
 			steel = 1
+			tungsten = 1
 		}
 
 		manpower = 2
@@ -1595,6 +1596,7 @@ equipments = {
 
 		resources = {
 			steel = 1
+			chromium = 1
 		}
 
 		manpower = 2

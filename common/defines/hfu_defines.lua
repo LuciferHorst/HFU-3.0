@@ -562,7 +562,7 @@ NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 2.5
 
 -- How many trucks does it cost to fully motorize a hub
 
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 150
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 75
 
 -- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
 

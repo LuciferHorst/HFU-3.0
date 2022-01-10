@@ -407,26 +407,6 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = submarine_1
-			creator = "ENG"
-			version_name = "S Class"
-		}
-		requested_factories = 1
-		progress = 0.50
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = submarine_1
-			creator = "ENG"
-			version_name = "S Class"
-		}
-		requested_factories = 1
-		progress = 0.40
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
 			type = light_cruiser_1
 			creator = "ENG"
 			version_name = "Amphion Class"
