@@ -2306,9 +2306,13 @@ focus = {
 				every_country={
 					add_ideas=speed3
 				}
-			}		
+					}
+			ENG={
+					remove_ideas=stiff_upper_lip
+					add_timed_idea={idea=stiff_upper_lip days=250}
+				}		
+					}
 		}
-	}
 	focus = {
 		id = GER_leningrad
 		mutually_exclusive = { focus = GER_moscow focus = GER_stalingrad}
