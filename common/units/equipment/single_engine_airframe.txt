@@ -312,7 +312,7 @@ equipments = {
     		build_cost_ic = 65
 	 	    lend_lease_cost = 11
     		resources = {
-    			aluminium = 4
+    			aluminium = 3
     			rubber = 1
     		}
     		naval_strike_attack = 6
@@ -333,7 +333,7 @@ equipments = {
     		build_cost_ic = 65
 	 	    lend_lease_cost = 11
     		resources = {
-    			aluminium = 4
+    			aluminium = 3
     			rubber = 1
     		}
     		naval_strike_attack = 6
