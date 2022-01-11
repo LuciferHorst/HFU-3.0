@@ -37,6 +37,7 @@ technologies = {
 			leads_to_tech = basic_heavy_tank
 			research_cost_coeff = 1
 		}
+		
 		research_cost = 2
 		start_year = 1918
 		folder = {
