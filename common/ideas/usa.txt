@@ -178,7 +178,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_speed_industrial_complex_factor = 0.075
+				production_speed_industrial_complex_factor = 0.1
 			}
 		}
 		USA_stability = {
@@ -368,8 +368,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				war_support_weekly = 0.005
-				research_speed_factor = 0.20
+				stability_weekly = 0.005
+				research_speed_factor = 0.25
 			}
 		}
 		USA_set_for_life = {

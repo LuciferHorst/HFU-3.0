@@ -492,7 +492,7 @@ NDefines.NAI.PLAN_FRONTUNIT_DISTANCE_FACTOR	= 30 --- closer units move first but
 --NDefines.NAI.REDEPLOY_DISTANCE_VS_ORDER_SIZE = 100
 NDefines.NMilitary.FRONT_MIN_PATH_TO_REDEPLOY = 3				--should really help--	-- If a units path is at least this long to reach its front location it will strategically redeploy.
 NDefines.NMilitary.ARMY_INITIATIVE_REINFORCE_FACTOR = 0.5		-- scales initiative for reinforce chance
-NDefines.NMilitary.REINFORCE_CHANCE = 0.0
+NDefines.NMilitary.REINFORCE_CHANCE = 0.05
 
 NDefines.NSupply.MAX_RAILWAY_LEVEL = 5 -- update railway texture as well, each frame corresponds to a level
 

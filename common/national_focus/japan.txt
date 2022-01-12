@@ -1457,6 +1457,7 @@ focus = {
 			}  
 			search_filters = { FOCUS_FILTER_ANNEXATION }
 			completion_reward = {
+				transfer_state = 669
 				hidden_effect = {
 					remove_ideas = JAP_american_trade
 				}
