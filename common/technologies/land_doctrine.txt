@@ -2397,12 +2397,12 @@ technologies = {
 		}
 		motorized = {
 			need = {
-				motorized_rocket_equipment = 10
+				motorized_rocket_equipment = 5
 			}
 		}
 		mechanized = {
 			need = {
-				motorized_rocket_equipment = 10
+				motorized_rocket_equipment = 5
 			}
 		}
 		on_research_complete= {

@@ -120,7 +120,7 @@
  SOV_prepare_japan:0 "Preparations against Japan"
  USA_swpa:0 "SWPA Protector"
  USA_swpa_tt:0 "The §Yfollowing effect§! will happen §Yonce§! Japan declares war:"
- continuous_offensive_tt:0 "§YMotorized§! and §YMechanized Brigades§! require \n §Y10 Motorized Rocket Equipment§!"
+ continuous_offensive_tt:0 "§YMotorized§! and §YMechanized Brigades§! require \n §Y5 Motorized Rocket Equipment§!"
  USA_synthetic_rubber:0 "U.S. Synthetic Rubber Program"
  GER_motorised_infantry:1 "Motorized Rocket Artillery"
  jet_fighter1:0"Me 262"
