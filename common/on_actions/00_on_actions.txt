@@ -297,6 +297,9 @@ on_actions = {
 						15 = { NOT={is_controlled_by = FRA}}
 						24 = { NOT={is_controlled_by = FRA}}
 						27 = { NOT={is_controlled_by = FRA}}
+						30 = { NOT={is_controlled_by = FRA}}
+						21 = { NOT={is_controlled_by = FRA}}
+						14 = { NOT={is_controlled_by = FRA}}
 					}
 				}
 				every_country={
