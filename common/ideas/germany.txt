@@ -276,8 +276,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				air_cas_present_factor = 0.1
 				army_org_Factor = 0.1
-				army_morale_factor=0.1
 				agency_upgrade_time = -0.30
 			}
 		}
@@ -465,7 +465,6 @@ ideas = {
 			picture = blitzkrieg
 			modifier = {
 				air_mission_efficiency = 0.1
-				army_org_regain = 0.1
 				air_cas_present_factor = 0.1
 				no_supply_grace = 72
 				max_dig_in = -7

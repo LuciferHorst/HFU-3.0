@@ -270,6 +270,11 @@ ideas = {
 				political_power_gain = 0.5
 				production_speed_arms_factory_factor = 0.1
 			}
+			equipment_bonus = {
+				motorized_rocket_equipment = {
+					build_cost_ic = -0.2
+				}
+			}
 		}
 		SOV_barb_industry = {
 			removal_cost = -1
@@ -513,7 +518,6 @@ ideas = {
 			picture = generic_morale_bonus
 			modifier = {
 				land_reinforce_rate = 0.02
-				army_morale_factor = 0.10
 			}
 		}
 		SOV_tankograd = {

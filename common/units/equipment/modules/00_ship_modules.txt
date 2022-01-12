@@ -1730,17 +1730,17 @@ ship_super_heavy_battery_2 = {
 
 
 		add_stats = {
-			sub_attack = 22.5
-			build_cost_ic = 40
+			sub_attack = 25
+			build_cost_ic = 20
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 60
+			convert_cost_ic = 50
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
@@ -1750,17 +1750,17 @@ ship_super_heavy_battery_2 = {
 
 
 		add_stats = {
-			sub_attack = 31.5
-			build_cost_ic = 50
+			sub_attack = 30
+			build_cost_ic = 30
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 90
+			convert_cost_ic = 60
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
@@ -1770,17 +1770,17 @@ ship_super_heavy_battery_2 = {
 
 
 		add_stats = {
-			sub_attack = 40.5
-			build_cost_ic = 60
+			sub_attack = 40
+			build_cost_ic = 45
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 120
+			convert_cost_ic = 70
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
@@ -1790,17 +1790,17 @@ ship_super_heavy_battery_2 = {
 
 
 		add_stats = {
-			sub_attack = 49.5
-			build_cost_ic = 70
+			sub_attack = 60
+			build_cost_ic = 55
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 150
+			convert_cost_ic = 80
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
@@ -1966,8 +1966,8 @@ ship_super_heavy_battery_2 = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			sub_detection = 4
-			build_cost_ic = 40
+			sub_detection = 10
+			build_cost_ic = 20
 		}
 	}
 
@@ -1977,8 +1977,8 @@ ship_super_heavy_battery_2 = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			sub_detection = 7
-			build_cost_ic = 60
+			sub_detection = 15
+			build_cost_ic = 30
 		}
 		can_convert_from = {
 			module_category = ship_sonar
@@ -1992,8 +1992,8 @@ ship_super_heavy_battery_2 = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			sub_detection = 10
-			build_cost_ic = 90
+			sub_detection = 11
+			build_cost_ic = 40
 		}
 		can_convert_from = {
 			module_category = ship_sonar
