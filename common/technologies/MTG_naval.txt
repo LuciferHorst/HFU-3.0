@@ -130,6 +130,9 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_4
 		}
+		allow = {
+			date > 1941.1.1
+		}
 		research_cost = 1
 		start_year = 1942
 		categories = {
@@ -952,10 +955,16 @@ technologies = {
 		enable_equipment_modules = {
 			heavy_ship_engine_4
 		}
+		allow = {
+			date > 1941.1.1
+		}
 		research_cost = 1
 		start_year = 1942
 		categories = {
 			year_1942
+		}
+		allow = {
+			date > 1941.1.1
 		}
 		folder = {
 			name = mtgnavalfolder
@@ -1181,6 +1190,9 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			carrier_ship_engine_4
+		}
+		allow = {
+			date > 1941.1.1
 		}
 		research_cost = 1
 		start_year = 1942
@@ -1614,6 +1626,9 @@ technologies = {
 			ship_torpedo_sub_4
 			sub_ship_engine_4
 		}
+		allow = {
+			date > 1941.1.1
+		}
 		research_cost = 1.5
 		start_year = 1942
 		categories = {
@@ -1853,6 +1868,9 @@ technologies = {
 		categories = {
 			year_1942
 		}
+		allow = {
+			date > 1941.1.1
+		}
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -2062,6 +2080,9 @@ technologies = {
 		categories = {
 			year_1942
 		}
+		allow = {
+			date > 1941.1.1
+		}
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -2254,6 +2275,9 @@ technologies = {
 		xp_unlock_cost = 0
 		enable_equipment_modules = {
 			ship_heavy_battery_4
+		}
+		allow = {
+			date > 1941.1.1
 		}
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt

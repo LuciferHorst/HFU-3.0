@@ -247,7 +247,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 17
-			build_cost_ic = 1400
+			build_cost_ic = 1500
 		}
 		multiply_stats = {
 			naval_speed = -0.07
