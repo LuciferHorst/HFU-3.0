@@ -2820,7 +2820,7 @@ focus = {
 		icon = GFX_focus_GER_naval_rearm
 		x = 27
 		y = 0
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -2905,7 +2905,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_naval_rearmament
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -2984,7 +2984,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_naval_effort
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3023,7 +3023,7 @@ focus = {
 					rear_2_custom_slot=ship_light_medium_battery_3
 				}
 			}
-			custom_effect_tooltip="Adds two Hindenburg-Klasse Light Cruisers to the production queue, at 85% and 90% complete, respectively."
+			custom_effect_tooltip="Adds five Hindenburg-Klasse Light Cruisers to the production queue, at 90% completion rate"
 			hidden_effect = {
 				add_equipment_production = {
 					equipment = {
@@ -3044,10 +3044,43 @@ focus = {
 					}
 					name = "Roon"
 					requested_factories = 1
-					progress = 0.85
+					progress = 0.9
 					amount = 1
 				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_cruiser_3
+						creator = "GER"
+						version_name = "Hindenburg-Klasse"
+					}
+					name = "Lenny"
+					requested_factories = 1
+					progress = 0.9
+					amount = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_cruiser_3
+						creator = "GER"
+						version_name = "Hindenburg-Klasse"
+					}
+					name = "Florian"
+					requested_factories = 1
+					progress = 0.9
+					amount = 1
+				}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_cruiser_3
+					creator = "GER"
+					version_name = "Hindenburg-Klasse"
+				}
+				name = "Vinnie"
+				requested_factories = 1
+				progress = 0.9
+				amount = 1
 			}
+		}
 			random_owned_controlled_state = {
 				limit = {
 					dockyard > 0
@@ -3093,8 +3126,9 @@ focus = {
 		mutually_exclusive = { focus = GER_u_boat_effort focus = GER_all_options }
 		x = -3
 		y = 1
+		cost = 2.98
 		relative_position_id = GER_naval_effort
-		cost = 5
+		
 		ai_will_do = {
 			factor = 0.25
 		}
@@ -3190,7 +3224,7 @@ focus = {
 		x = 3
 		y = 1
 		relative_position_id = GER_naval_effort
-		cost = 5
+		 cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3233,7 +3267,7 @@ focus = {
 		x = 1
 		y = 1
 		relative_position_id = GER_u_boat_effort
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3257,7 +3291,7 @@ focus = {
 		x = 1
 		y = 1
 		relative_position_id = GER_plan_z
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3323,7 +3357,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_graf_zeppelin
-		cost = 3
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3344,7 +3378,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_all_options
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3388,7 +3422,7 @@ focus = {
 		y = 1
 		available={controls_state=140}
 		relative_position_id = GER_recover_from_operation_chariot
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3428,7 +3462,7 @@ focus = {
 		x = -1
 		y = 1
 		relative_position_id = GER_plan_z
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3453,7 +3487,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_germaniawerft
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3518,7 +3552,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_trade_interdiction
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3535,7 +3569,7 @@ focus = {
 		x = -1
 		y = 1
 		relative_position_id =GER_u_boat_effort
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3564,7 +3598,7 @@ focus = {
 		x = 0
 		y = 1
 		relative_position_id = GER_u_boot_bunker
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
@@ -3645,7 +3679,7 @@ focus = {
 		y = 1
 		available={date>1942.1.1}
 		relative_position_id =GER_modular_construction
-		cost = 5
+		cost = 2.98
 		ai_will_do = {
 			factor = 1
 		}
