@@ -3298,52 +3298,17 @@ focus = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_tech_bonus = {
-				name = cv_bonus
-				bonus = 2.0
-				uses = 1
-				category = cv_tech
-			}
-			set_technology = {
-				basic_ship_hull_carrier = 1
-				early_ship_hull_carrier = 1
-			}
-			create_equipment_variant = {
-				name = "Graf-Zeppelin-Klasse"
-				type = ship_hull_carrier_1
-				name_group = GER_CV_HISTORICAL
-				parent_version = 0
-				modules={
-					fixed_ship_engine_slot=carrier_ship_engine_2
-					fixed_ship_deck_slot_1=ship_deck_space
-					fixed_ship_deck_slot_2=ship_deck_space
-					front_1_custom_slot=ship_deck_space
-					fixed_ship_secondaries_slot=ship_secondaries_2
-					fixed_ship_anti_air_slot=ship_anti_air_2
-				}
-			}
-			custom_effect_tooltip="Adds two Graf-Zeppelin-Klasse Carriers to the production queue, at 75% and 50% complete, respectively."
+			custom_effect_tooltip="Adds one Bismarck-Klasse Battleship to the production queue, at 90% complete."
 			hidden_effect = {
 				add_equipment_production = {
 					equipment = {
-						type = ship_hull_carrier_1
+						type = ship_hull_heavy_3
 						creator = "GER"
-						version_name = "Graf-Zeppelin-Klasse"
+						version_name = "Bismarck-Klasse"
 					}
-					name = "Graf Zeppelin"
+					name = "Hindenburg"
 					requested_factories = 1
-					progress = 0.75
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_carrier_1
-						creator = "GER"
-						version_name = "Graf-Zeppelin-Klasse"
-					}
-					name = "Peter Strasser"
-					requested_factories = 1
-					progress = 0.5
+					progress = 0.9
 					amount = 1
 				}
 			}

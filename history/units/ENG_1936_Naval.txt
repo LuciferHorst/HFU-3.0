@@ -5,7 +5,7 @@
 		task_force = {
 			name = "Home Fleet"
 			location =9458
-			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } }
+			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Ark Royal Class" } }
 				air_wings = {
 					nav_bomber_equipment_1 =  { owner = "ENG" amount = 60 }
 				}
@@ -54,7 +54,7 @@
 			ship = { name = "HMS Viceroy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
 			ship = { name = "HMS Verdun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
 			ship = { name = "HMS Vanity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
-			ship = { name = "HMS Courageous" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } }
+			ship = { name = "HMS Courageous" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_1= { amount = 1 owner = ENG version_name = "Ark Royal Class" } }
 				air_wings = {
 					nav_bomber_equipment_1 =  { owner = "ENG" amount = 60 }
 				}
@@ -158,7 +158,7 @@
 			ship = { name = "HMS H44" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Class" } } }
 			ship = { name = "HMS H49" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Class" } } }
 			ship = { name = "HMS H50" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } }
+			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Ark Royal Class" } }
 				air_wings = {
 					nav_bomber_equipment_1 =  { owner = "ENG" amount = 60 }
 				}
