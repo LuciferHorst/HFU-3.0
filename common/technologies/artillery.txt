@@ -447,6 +447,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_anti_air_2
 			tank_anti_air_cannon_2
+			tank_medium_anti_air_cannon_1
 		}
 		enable_building = {
 			building = anti_air
@@ -540,6 +541,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_anti_air_3
 			tank_anti_air_cannon_3
+			tank_medium_anti_air_cannon_2
 		}
 		path = {
 			leads_to_tech = antiair3
@@ -673,6 +675,7 @@ technologies = {
 		}
 		static_anti_air_damage_factor = 0.1
 		enable_equipment_modules = {
+			tank_medium_anti_air_cannon_3
 			ship_anti_air_4
 		}
 		navy_anti_air_attack_factor = 0.05

@@ -357,6 +357,7 @@ technologies = {
 			tank_auto_cannon
 			tank_anti_air_cannon
 			tank_high_velocity_cannon_m1
+			tank_medium_anti_air_cannon_1
 		}
 		path = {
 			leads_to_tech = improved_medium_tank_chassis
@@ -436,6 +437,7 @@ technologies = {
 			tank_anti_air_cannon_2
 			tank_auto_cannon_2
 			tank_high_velocity_cannon_m2
+			tank_medium_anti_air_cannon_2
 		}
 		ai_will_do = {
 			factor = 3
@@ -491,6 +493,7 @@ technologies = {
 			tank_anti_air_cannon_3
 			tank_medium_howitzer_3
 			tank_high_velocity_cannon_m3
+			tank_medium_anti_air_cannon_3
 		}
 		path = {
 			leads_to_tech = main_battle_tank_chassis
