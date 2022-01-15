@@ -34,6 +34,9 @@ sub_units = {
 		weight = 0.1
 		supply_consumption = 0.02
 		can_be_parachuted = yes
+
+		breakthrough = -0.5
+		soft_attack = -0.5
 		
 		# Important Ability
 		suppression_factor = 0.20
@@ -45,7 +48,7 @@ sub_units = {
 		
 		need = {
 			support_equipment = 10
-			infantry_equipment = 40
+			infantry_equipment = 20
 		}
 
 	}
