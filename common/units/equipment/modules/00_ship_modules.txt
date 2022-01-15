@@ -619,13 +619,13 @@ ship_super_heavy_battery_2 = {
 		gfx = ship_secondaries_3
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			lg_attack = 6
-			anti_air_attack = 2.5
+			lg_attack = 4
+			anti_air_attack = 2
 			build_cost_ic = 300
 		}
 
 		multiply_stats = {
-			naval_speed = -0.03
+			naval_speed = -0.02
 			build_cost_ic = 0.01
 		}
 

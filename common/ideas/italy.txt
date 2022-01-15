@@ -318,7 +318,7 @@ ideas = {
 			picture = ita_bad_leadership
 			removal_cost = -1
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.1
 				political_advisor_cost_factor = 0.15
 				production_speed_infrastructure_factor = -0.1
 			}

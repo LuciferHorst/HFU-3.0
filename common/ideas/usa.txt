@@ -69,7 +69,6 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			targeted_modifier = { tag = JAP attack_bonus_against = -0.2 defense_bonus_against = -0.2 }
 			modifier = {
 				army_org_factor = 0.1
 				army_morale_factor = 0.1

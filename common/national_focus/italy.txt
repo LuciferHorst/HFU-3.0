@@ -149,6 +149,9 @@ focus_tree = {
 				category = cl_tech
 				category = ca_tech
 			}
+			set_technology = {
+				decimetric_radar = 1
+			}
 		}
 	}
 	focus = {
@@ -189,6 +192,9 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				technology = improved_heavy_battery
+			}
+			set_technology = {
+				improved_fire_control_system = 1
 			}
 		}
 	}
