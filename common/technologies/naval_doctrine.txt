@@ -333,6 +333,9 @@ technologies = {
 		destroyer = {
 			sub_detection = 0.05
 		}
+		battleship = {
+			reliability = 0.02
+		}
 		convoy_escort_efficiency = 0.05
 		#####
 		path = {
@@ -381,6 +384,9 @@ technologies = {
 		# EFFECT #############
 		destroyer = {
 			sub_detection = 0.05
+		}
+		battleship = {
+			reliability = 0.02
 		}
 		convoy_escort_efficiency = 0.1
 		#####
@@ -431,6 +437,9 @@ technologies = {
 		carrier = {
 			sub_detection = 0.25
 			max_organisation = 10
+		}
+		battleship = {
+			reliability = 0.02
 		}
 		convoy_escort_efficiency = 0.15
 		####
@@ -487,6 +496,9 @@ technologies = {
 		}
 		carrier = {
 			sub_detection = 0.25
+		}
+		battleship = {
+			reliability = 0.02
 		}
 		convoy_escort_efficiency = 0.10
 		#####
@@ -1008,6 +1020,10 @@ technologies = {
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
 		}
+		battle_cruiser = {
+			max_organisation = 20
+			hg_armor_piercing = 0.15
+		}
 		navy_screen_attack_factor = 0.1
 		#######
 		path = {
@@ -1199,6 +1215,9 @@ technologies = {
 		carrier = {
 			max_organisation = 10
 		}
+		light_cruiser = {
+			reliability = 0.03
+		}
 		########
 		path = {
 			leads_to_tech = convoy_sailing_ti
@@ -1242,6 +1261,9 @@ technologies = {
 			max_organisation = 10
 			sub_detection = 0.05
 		}
+		light_cruiser = {
+			reliability = 0.03
+		}
 		convoy_escort_efficiency = 0.15
 		#####
 		path = {
@@ -1279,6 +1301,9 @@ technologies = {
 		carrier = {
 			max_organisation = 10
 		}
+		battle_cruiser = {
+			reliability = 0.03
+		}
 		sortie_efficiency = 0.05
 		########
 		path = {
@@ -1314,6 +1339,9 @@ technologies = {
 		# EFFECT #############
 		carrier = {
 			max_organisation = 10
+		}
+		battle_cruiser = {
+			reliability = 0.03
 		}
 		########
 		path = {
@@ -1950,6 +1978,7 @@ technologies = {
 		destroyer = {
 			max_organisation = 10
 			sub_detection = 0.05
+			reliability = 0.02
 		}
 		convoy_escort_efficiency = 0.15
 		#####
@@ -1999,6 +2028,7 @@ technologies = {
 		destroyer = {
 			max_organisation = 10
 			sub_detection = 0.05
+			reliability = 0.02
 		}
 		light_cruiser = {
 			max_organisation = 10
@@ -2051,6 +2081,7 @@ technologies = {
 		destroyer = {
 			max_organisation = 15
 			sub_detection = 0.05
+			reliability = 0.02
 		}
 		convoy_escort_efficiency = 0.05
 		#####
@@ -2100,6 +2131,7 @@ technologies = {
 		destroyer = {
 			max_organisation = 20
 			sub_detection = 0.10
+			reliability = 0.02
 		}
 		light_cruiser = {
 			max_organisation = 10
