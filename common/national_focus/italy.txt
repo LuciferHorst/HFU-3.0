@@ -1181,6 +1181,9 @@ focus = {
 			set_technology={
 				fighter2_alt=1
 			}
+			set_technology={
+				fighter3=1
+			}
 			create_equipment_variant = {
 				name = "Homeland Fighter Upgraded"
 				type = fighter_equipment_alt_2
@@ -1203,7 +1206,7 @@ focus = {
 				name = fighter_bonus
 				bonus = 3
 				uses = 1
-				technology=fighter2
+				technology=fighter3
 			}
 			add_tech_bonus = {
 				name = fighter_bonus
@@ -1249,13 +1252,14 @@ focus = {
 				name = fighter_bonus
 				bonus = 1.0
 				uses = 1
-				technology=fighter3
+				technology=fighter4
 			}
 			add_tech_bonus = {
 				name = fighter_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				technology=cas3
+				technology=cas4
 			}
 		}
 	}

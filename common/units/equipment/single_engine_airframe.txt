@@ -236,24 +236,24 @@ equipments = {
     	}
     	# Improved Homeland Fighter
     	fighter_equipment_alt_2 = {
-    		year = 1940
+    		year = 1941
     		carrier_capable = yes
     		archetype = fighter_equipment_alt
     		parent = fighter_equipment_2
+			can_license=no
     		priority = 10
-    		can_license = no
-    		air_range = 900
-    		maximum_speed = 580
-    		air_agility = 62
-    		air_attack = 25
-    		air_defence = 10
-    		build_cost_ic = 60
+    		air_range = 950
+    		maximum_speed = 605
+    		air_agility = 66
+    		air_attack = 27
+    		air_defence = 11
+    		build_cost_ic = 63
 	 	    lend_lease_cost = 11
     		resources = {
     			aluminium = 3
     			rubber = 1
     		}
-    		naval_strike_attack = 4
+    		naval_strike_attack = 6
     		naval_strike_targetting = 10
     	}
     	# Advanced Fighter
@@ -278,18 +278,18 @@ equipments = {
     		naval_strike_targetting = 10
     	}
     	fighter_equipment_alt_3 = {
-			year = 1941
+    		year = 1943
     		carrier_capable = yes
     		archetype = fighter_equipment_alt
     		parent = fighter_equipment_alt_2
+			can_license=no
     		priority = 10
-    		can_license = no
-    		air_range = 950
-    		maximum_speed = 605
-    		air_agility = 66
-    		air_attack = 27
+    		air_range = 1000
+    		maximum_speed = 630
+    		air_agility = 70
+    		air_attack = 29
     		air_defence = 11
-    		build_cost_ic = 63
+    		build_cost_ic = 65
 	 	    lend_lease_cost = 11
     		resources = {
     			aluminium = 3

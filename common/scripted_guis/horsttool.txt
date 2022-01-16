@@ -17,7 +17,7 @@ scripted_gui = {
 
 			observer_click = { owner = {
 					set_temp_variable = { ROOT.marks = this}
-					DEN = {change_tag_from =var:marks}
+					PHI = {change_tag_from =var:marks}
 
 				}
 
@@ -214,8 +214,9 @@ scripted_gui = {
 		triggers = {
 
 			observer_click_enabled = {
-				owner = {
-					is_ai=no}
+				always=yes
+				#owner = {
+					#is_ai=no}
 			}
 
 

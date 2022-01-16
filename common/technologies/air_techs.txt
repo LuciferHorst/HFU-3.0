@@ -245,11 +245,7 @@ technologies = {
 		enable_equipments = {
 			fighter_equipment_2
 		}
-		on_research_complete= {
-			if={limit={OR={tag=USA tag=ITA}}
-				set_technology={fighter2_alt=1}
-			}
-		}
+		
 		path = {
 			leads_to_tech = fighter3
 			research_cost_coeff = 1
@@ -407,7 +403,7 @@ technologies = {
 		}
 		on_research_complete= {
 			if={limit={OR={tag=USA tag=ITA}}
-				set_technology={fighter3_alt=1}
+				set_technology={fighter2_alt=1}
 			}
 		}
 		research_cost = 2
