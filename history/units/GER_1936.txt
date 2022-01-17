@@ -311,6 +311,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = CAS_equipment_1
+			version_name = "Ju 87 A"
 			creator = "GER"
 		}
 		requested_factories = 1
@@ -321,6 +322,7 @@ instant_effect = {
 		equipment = {
 			type = tac_bomber_equipment_1
 			creator = "GER"
+			version_name = "He 111 A"
 		}
 		requested_factories = 1
 		progress = 0.1

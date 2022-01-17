@@ -5,6 +5,7 @@
 		# 2a Divisione Aerea 'Borea'
 		fighter_equipment_1 = { 
 			amount = 1500 
+			variant_name = "C200 Saetta A"
 			owner = "ITA" 
 		} 
 	}

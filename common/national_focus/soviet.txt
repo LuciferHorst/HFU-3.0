@@ -1503,7 +1503,7 @@ focus = {
 	focus = {
 		id = SOV_aviation_cult
 		icon = GFX_focus_SOV_aviation_cult
-		prerequisite = { focus = SOV_socialist_realism }
+		prerequisite = { focus = SOV_factories_must_grow }
 		x = 2
 		y = 1
 		relative_position_id = SOV_positive_heroism
@@ -1537,10 +1537,10 @@ focus = {
 	focus = {
 		id = SOV_socialist_realism
 		icon = GFX_focus_SOV_socialist_realism
-		prerequisite = { focus = SOV_stalin_constitution }
-		x = 2
+		prerequisite = { focus = SOV_people_work }
+		x = 0
 		y = 1
-		relative_position_id = SOV_stalin_constitution
+		relative_position_id = SOV_people_work
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -2482,12 +2482,11 @@ focus = {
 focus = {
 	id = SOV_factories_must_grow
 	icon = GFX_focus_SOV_factories_must_grow
-	cost = 5
-	prerequisite = { focus = SOV_road_quality focus = SOV_industrial_revolution }
-
-	relative_position_id = SOV_road_quality
-	x = 1
+	prerequisite = { focus = SOV_stalin_constitution }
+	x = 2
 	y = 1
+	relative_position_id = SOV_stalin_constitution
+	cost = 5
 	completion_reward = { 
 		add_ideas = SOV_factories_must_grow1
 	}
@@ -2496,9 +2495,9 @@ focus = {
 	id = SOV_people_work
 	icon = GFX_focus_SOV_people_work
 	cost = 10
-	prerequisite = { focus = SOV_factories_must_grow }
-	relative_position_id = SOV_factories_must_grow
-	x = 0
+	prerequisite =  { focus = SOV_road_quality focus = SOV_industrial_revolution }
+	relative_position_id = SOV_road_quality
+	x = 1
 	y = 1
 	completion_reward = { 
 		add_timed_idea = { idea = SOV_manual_labor days = 300 }

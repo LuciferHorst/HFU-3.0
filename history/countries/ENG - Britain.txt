@@ -119,6 +119,48 @@ if = {
 		armored_car1 = 1
 	}
 }
+
+
+create_equipment_variant = {
+	name = "Hurricane A"
+	type = fighter_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 2
+	}
+}
+
+	create_equipment_variant = {
+		name = "Hector A"
+		type = CAS_equipment_1
+		parent_version = 0
+		upgrades = {
+			plane_range_upgrade = 5
+			plane_cas_upgrade = 2
+		}
+	}
+
+		create_equipment_variant = {
+			name = "Swordfish A"
+			type = nav_bomber_equipment_1
+			parent_version = 0
+			upgrades = {
+				plane_range_upgrade = 5
+				plane_naval_upgrade = 2
+			}
+		}
+
+			create_equipment_variant = {
+				name = "Welington A"
+				type = tac_bomber_equipment_1
+				parent_version = 0
+				upgrades = {
+					plane_range_upgrade = 5
+					plane_tac_bomb_upgrade = 2
+				}
+			}
+
 set_country_flag=fuel_system_enabled
 add_ideas = {
     peace_training
@@ -164,21 +206,25 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = fighter_equipment_1
+	variant_name = "Hurricane A"
 	amount = 1500
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = nav_bomber_equipment_1
+	variant_name = "Swordfish A"
 	amount = 500
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = tac_bomber_equipment_1
+	variant_name = "Welington A"
 	amount = 600
 	producer = ENG
 }
 add_equipment_to_stockpile = {
 	type = CAS_equipment_1
+	variant_name = "Hector A"
 	amount = 900
 	producer = ENG
 }

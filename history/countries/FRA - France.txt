@@ -137,11 +137,13 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = cas_equipment_1
+	variant_name = "Br.693 A"
 	amount = 400
 	producer = FRA
 }
 add_equipment_to_stockpile = {
 	type = fighter_equipment_1
+	variant_name = "M.S.406 A"
 	amount = 1000
 	producer = FRA
 }
@@ -176,6 +178,28 @@ add_ideas = {
 	FRA_political_violence
 	FRA_inefficient_economy_2
 }
+
+
+create_equipment_variant = {
+	name = "M.S.406 A"
+	type = fighter_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 2
+	}
+}
+
+	create_equipment_variant = {
+		name = "Br.693 A"
+		type = CAS_equipment_1
+		parent_version = 0
+		upgrades = {
+			plane_range_upgrade = 5
+			plane_cas_upgrade = 2
+		}
+	}
+
 
 if = { 
 	limit = { has_dlc = "No Step Back" }

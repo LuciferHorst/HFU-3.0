@@ -321,15 +321,17 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_1
+			version_name = "Hurricane A"
 			creator = "ENG"
 		}
-		requested_factories = 1
+		requested_factories = 5
 		progress = 0.15
 		efficiency = 50
 	}
 	add_equipment_production = {
 		equipment = {
 			type = tac_bomber_equipment_1
+			version_name = "Welington A"
 			creator = "ENG"
 		}
 		requested_factories = 1
@@ -339,6 +341,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = nav_bomber_equipment_1
+			version_name = "Swordfish A"
 			creator = "ENG"
 		}
 		requested_factories = 1

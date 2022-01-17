@@ -65,6 +65,29 @@ set_technology = {
 	improved_ship_torpedo_launcher = 1
 	basic_ship_hull_heavy = 1
 }
+
+
+create_equipment_variant = {
+	name = "C200 Saetta A"
+	type = fighter_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 2
+	}
+}
+
+	create_equipment_variant = {
+		name = "BA.65 A"
+		type = CAS_equipment_1
+		parent_version = 0
+		upgrades = {
+			plane_range_upgrade = 5
+			plane_cas_upgrade = 2
+		}
+	}
+
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
@@ -144,6 +167,7 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = CAS_equipment_1
+	variant_name = "BA.65 A"
 	amount = 300
 	producer = ITA
 }

@@ -59,6 +59,47 @@ set_technology = {
 	armor_tech_1 = 1
 	assault_guns_1 = 1
 }
+
+create_equipment_variant = {
+	name = "I-16-A"
+	type = fighter_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 2
+	}
+}
+
+	create_equipment_variant = {
+		name = "LBSh A"
+		type = CAS_equipment_1
+		parent_version = 0
+		upgrades = {
+			plane_range_upgrade = 5
+			plane_cas_upgrade = 2
+		}
+	}
+
+		create_equipment_variant = {
+			name = "Il 4 A"
+			type = nav_bomber_equipment_1
+			parent_version = 0
+			upgrades = {
+				plane_range_upgrade = 5
+				plane_naval_upgrade = 2
+			}
+		}
+
+			create_equipment_variant = {
+				name = "SB-2M A"
+				type = tac_bomber_equipment_1
+				parent_version = 0
+				upgrades = {
+					plane_range_upgrade = 5
+					plane_tac_bomb_upgrade = 2
+				}
+			}
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
@@ -131,21 +172,25 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = fighter_equipment_1
+	variant_name = "I-16-A"
 	amount = 1500
 	producer = SOV
 }
 add_equipment_to_stockpile = {
 	type = CAS_equipment_1
+	variant_name = "LBSh A"
 	amount = 600
 	producer = SOV
 }
 add_equipment_to_stockpile = {
 	type = nav_bomber_equipment_1
 	amount = 300
+	variant_name = "Il 4 A"
 	producer = SOV
 }
 add_equipment_to_stockpile = {
 	type = tac_bomber_equipment_1
+	variant_name = "SB-2M A"
 	amount = 300
 	producer = SOV
 }

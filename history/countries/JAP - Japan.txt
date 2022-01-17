@@ -183,6 +183,7 @@ add_equipment_to_stockpile = {
 }
  add_equipment_to_stockpile = {
           type = fighter_equipment_1
+		  variant_name = "Ki-27 A"
           amount = 1400
           producer = JAP
  }
@@ -193,11 +194,13 @@ add_equipment_to_stockpile = {
  }
  add_equipment_to_stockpile = {
           type = CAS_equipment_1
+		  variant_name = "Ki-32 A"
           amount = 400
           producer = JAP
  }
  add_equipment_to_stockpile = {
           type = nav_bomber_equipment_1
+		  variant_name = "G3M1 A"
           amount = 700
           producer = JAP
  }
@@ -206,6 +209,40 @@ add_equipment_to_stockpile = {
           amount = 100
           producer = JAP
  }
+
+
+ create_equipment_variant = {
+	name = "Ki-27 A"
+	type = fighter_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 2
+	}
+}
+
+	create_equipment_variant = {
+		name = "Ki-32 A"
+		type = CAS_equipment_1
+		parent_version = 0
+		upgrades = {
+			plane_range_upgrade = 5
+			plane_cas_upgrade = 2
+		}
+	}
+
+		create_equipment_variant = {
+			name = "G3M1 A"
+			type = nav_bomber_equipment_1
+			parent_version = 0
+			upgrades = {
+				plane_range_upgrade = 5
+				plane_naval_upgrade = 2
+			}
+		}
+
+
+
  set_politics = {
  	ruling_party = fascism
  	last_election = "1936.1.1"
