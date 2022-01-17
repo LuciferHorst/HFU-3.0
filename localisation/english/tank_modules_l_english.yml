@@ -357,6 +357,7 @@
  tank_rocket_launcher_desc:0 "A multi-barrelled launcher for unguided, high-explosive rockets. The high volume of fire gives it excellent performance against soft targets, but even direct hits do little against armored targets."
  tank_rocket_launcher_2:0 "Improved Rocket Launcher"
  tank_rocket_launcher_2_desc:0 "While there are a number of improvements to accuracy, the main advantage of this improved rocket launcher is that it can hold more rockets to fire at the enemy."
+ tank_regular_suspension:0 "Regular Suspension"
  tank_wheeled_suspension:0 "Wheeled Suspension"
  tank_wheeled_suspension_desc:0 "Derived from a truck chassis, this suspension is very limited in its carrying capacity and has limited cross-country performance, but has the advantage of being very cheap to make."
  tank_half_track_suspension:0 "Half-track Suspension"
