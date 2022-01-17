@@ -1,15 +1,4 @@
-﻿air_wings = { 
-	### ITALY ###
-	# 1a Squadra Aerea - SQA1 (Milan)
-	2 = { 
-		# 2a Divisione Aerea 'Borea'
-		fighter_equipment_1 = { 
-			amount = 1500 
-			variant_name = "C200 Saetta A"
-			owner = "ITA" 
-		} 
-	}
-}
+﻿
 division_template = {
 	name = "Divisione di Fanteria"
 	division_names_group = ITA_INF_01

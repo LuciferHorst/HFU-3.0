@@ -1535,22 +1535,6 @@ focus = {
 		}
 	}
 	focus = {
-		id = SOV_socialist_realism
-		icon = GFX_focus_SOV_socialist_realism
-		prerequisite = { focus = SOV_people_work }
-		x = 0
-		y = 1
-		relative_position_id = SOV_people_work
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas=SOV_realism
-		}
-	}
-	focus = {
 		id = SOV_transpolar_flights
 		icon = GFX_focus_SOV_transpolar_flights
 		prerequisite = { focus = SOV_aviation_cult }
@@ -2491,6 +2475,22 @@ focus = {
 		add_ideas = SOV_factories_must_grow1
 	}
 }	
+focus = {
+	id = SOV_socialist_realism
+	icon = GFX_focus_SOV_socialist_realism
+	prerequisite = { focus = SOV_people_work }
+	x = 0
+	y = 1
+	relative_position_id = SOV_people_work
+	cost = 5
+	ai_will_do = {
+		factor = 1
+	}
+	available_if_capitulated = yes
+	completion_reward = {
+		add_ideas=SOV_realism
+	}
+}
 focus = {
 	id = SOV_people_work
 	icon = GFX_focus_SOV_people_work

@@ -172,6 +172,12 @@ add_equipment_to_stockpile = {
 	producer = ITA
 }
 add_equipment_to_stockpile = {
+	type = fighter_equipment_1
+	variant_name = "C200 Saetta A"
+	amount = 1500
+	producer = ITA
+}
+add_equipment_to_stockpile = {
 	type = train_equipment
 	amount = 100
 	producer = ITA
