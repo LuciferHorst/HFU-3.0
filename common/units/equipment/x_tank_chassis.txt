@@ -3,6 +3,37 @@
 
 duplicate_archetypes = {
 
+	#mechanized
+	
+	mechanized_aa_equipment = {
+		archetype = mechanized_equipment
+		type = { armor anti_air}
+		for_each = { 
+		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+	mechanized_spg_equipment = {
+		archetype = mechanized_equipment
+		type = { armor anti_tank }
+		for_each = { 
+		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+	mechanized_td_equipment = {
+		archetype = mechanized_equipment
+		type = { armor artillery }
+		for_each = { 
+		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+	mechanized_flame_equipment = {
+		archetype = mechanized_equipment
+		type = { armor flame }
+		for_each = { 
+		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
 	# light_tank
 
 	light_tank_aa_chassis = {
@@ -32,6 +63,7 @@ duplicate_archetypes = {
 		type = { armor anti_tank }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		defense = {set = -12 }
 		}
 	}
 
