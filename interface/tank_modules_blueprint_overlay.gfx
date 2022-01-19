@@ -401,6 +401,13 @@ spriteTypes = {
 	# eng ####################################################################
 
 	# eng light_tank_chassis
+    
+
+    spriteType = {
+		name = "GFX_TC_mechanised_chassis"
+		textureFile = "gfx/interface/equipmentdesigner/HFU_mech_blueprint.dds"
+		legacy_lazy_load = no
+	}
 
 	spriteType = {
 		name = "GFX_TC_light_tank_chassis_eng"
