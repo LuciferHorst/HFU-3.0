@@ -841,9 +841,6 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_1_tt
 		}
-		category_all_armor = {
-			hardness = 0.025
-		}
 		show_effect_as_desc = yes
 		xp_research_type = army
 		xp_boost_cost = 75
@@ -893,9 +890,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_2_tt
 		}
-		category_all_armor = {
-			hardness = 0.025
-		}
+		
 		show_effect_as_desc = yes
 		xp_research_type = army
 		xp_boost_cost = 75
@@ -955,9 +950,7 @@ technologies = {
 		categories = {
 			year_1941
 		}
-		category_all_armor = {
-			hardness = 0.025
-		}
+		
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1941 }
@@ -1005,9 +998,6 @@ technologies = {
 		xp_research_bonus = 1
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_4_tt
-		}
-		category_all_armor = {
-			hardness = 0.025
 		}
 		show_effect_as_desc = yes
 		ai_will_do = {
@@ -1095,9 +1085,6 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_2_tt
 		}
-		category_mobile_infantry = {
-			maximum_speed = 0.05
-		}
 		show_effect_as_desc = yes
 		research_cost = 1
 		start_year = 1936
@@ -1142,9 +1129,6 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_3_tt
-		}
-		category_mobile_infantry = {
-			maximum_speed = 0.05
 		}
 		xp_research_type = army
 		xp_boost_cost = 75
@@ -1192,9 +1176,6 @@ technologies = {
 		start_year = 1943
 		categories = {
 			year_1943
-		}
-		category_mobile_infantry = {
-			maximum_speed = 0.05
 		}
 		folder = {
 			name = nsb_armour_folder
