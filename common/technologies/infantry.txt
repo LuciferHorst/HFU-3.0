@@ -1576,7 +1576,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_half_track_suspension
-			tank_mechanized_fixed_superstructure_turret
 		}
 		motorized = {
 			hardness = 1.0

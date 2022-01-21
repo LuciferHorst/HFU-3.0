@@ -14,14 +14,14 @@ duplicate_archetypes = {
 	}
 	mechanized_spg_equipment = {
 		archetype = mechanized_equipment
-		type = { armor artillery  }
+		type = { armor anti_tank }
 		for_each = { 
 		variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
 	}
 	mechanized_td_equipment = {
 		archetype = mechanized_equipment
-		type = { armor anti_tank}
+		type = { armor artillery }
 		for_each = { 
 		variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
@@ -63,6 +63,7 @@ duplicate_archetypes = {
 		type = { armor anti_tank }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		defense = {set = -12 }
 		}
 	}
 
