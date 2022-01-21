@@ -9,28 +9,28 @@ duplicate_archetypes = {
 		archetype = mechanized_equipment
 		type = { armor anti_air}
 		for_each = { 
-		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		variant_name = { find_and_replace = { "aa_equipment" "equipment" } }
 		}
 	}
 	mechanized_spg_equipment = {
 		archetype = mechanized_equipment
 		type = { armor artillery  }
 		for_each = { 
-		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		variant_name = { find_and_replace = { "spg_equipment" "equipment" } }
 		}
 	}
 	mechanized_td_equipment = {
 		archetype = mechanized_equipment
 		type = { armor anti_tank}
 		for_each = { 
-		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		variant_name = { find_and_replace = { "td_equipment" "equipment" } }
 		}
 	}
 	mechanized_flame_equipment = {
 		archetype = mechanized_equipment
 		type = { armor flame }
 		for_each = { 
-		variant_name = { find_and_replace = { "chassis" "equipment" } }
+		variant_name = { find_and_replace = { "flame_equipment" "equipment" } }
 		}
 	}
 
