@@ -155,6 +155,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_fixed_superstructure.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_EMI_tank_mechanized_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_fixed_superstructure.dds"
+		legacy_lazy_load = no
+	}
 
 	spriteType = {
 		name = "GFX_EMI_tank_light_one_man_tank_turret"
@@ -450,6 +455,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_tank_light_turret_type"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_light_turret_type.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_mechanized_turret_type"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_fixed_superstructure.dds"
 		legacy_lazy_load = no
 	}
 
