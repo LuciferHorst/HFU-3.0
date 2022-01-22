@@ -1576,6 +1576,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_half_track_suspension
+			BRK_mech
 			tank_mechanized_fixed_superstructure_turret
 		}
 		motorized = {

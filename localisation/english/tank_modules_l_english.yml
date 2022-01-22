@@ -152,6 +152,7 @@
  secondary_turret_small_cannon_desc:0 "A small cannon in a secondary turret. The placement of the turret limits its arc of fire, lowering the gun's overall effectiveness, but it does allow the tank to engage more targets. This is particularly useful when on the attack."
  secondary_turret_close_support_gun:1 "Close Support Gun"
  secondary_turret_close_support_gun_desc:0 "A close support gun in a secondary turret. The placement of the turret limits its arc of fire, lowering the gun's overall effectiveness, but it does allow the tank to engage more targets. This is particularly useful when on the attack."
+ BRK_mech:0 "Breakthrough"
  sloped_armor:0 "Sloped Armor"
  sloped_armor_desc:0 "Armor placed at an angle to an incoming shell has a much greater effective thickness than the same amount of armor placed vertically. It also increases the chance that the shell will simply bounce off harmlessly. However, it requires the entire tank to be designed around it, making the vehicle more difficult to assemble."
  stabilizer:0 "Stabilizer"

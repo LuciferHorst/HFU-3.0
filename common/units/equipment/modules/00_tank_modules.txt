@@ -2057,6 +2057,22 @@ tank_high_velocity_cannon_m1 = {
 	}
 		xp_cost = 0
 	}
+
+    BRK_mech = {
+		abbreviation = "brk"
+		category = mech_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			breakthrough = 6
+			defense = -4
+			reliability = -0.1
+			build_cost_ic = 1
+		}
+		xp_cost = 0
+	}
+
+
 	sloped_armor = {
 		abbreviation = "slop"
 		category = tank_special_module
