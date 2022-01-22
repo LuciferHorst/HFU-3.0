@@ -152,6 +152,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_battery_icn_5.dds"
 	}
 
+	spriteType = {
+		name = "GFX_SMI_ship_rocket_arty"
+		textureFile = "gfx/interface/technologies/rocket_artillery2.dds"
+	}
 	
 ######## Ship Light Medium battery
 

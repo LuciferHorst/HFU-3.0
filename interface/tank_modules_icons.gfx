@@ -12,7 +12,13 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_aa_gun_2.dds"
 		legacy_lazy_load = no
 	}
-
+	
+	spriteType = {
+		name = "GFX_EMI_tank_light_rocket_launcher"
+		textureFile ="gfx/interface/technologies/rocket_artillery2.dds"
+		legacy_lazy_load = no
+	}
+		
 	spriteType = {
 		name = "GFX_EMI_tank_anti_air_cannon_3"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_aa_gun_3.dds"

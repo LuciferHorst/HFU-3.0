@@ -422,7 +422,10 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+<<<<<<< Updated upstream
 					mech_special_module
+=======
+>>>>>>> Stashed changes
 					tank_mechanized_turret_type
 				}
 			}

@@ -29,6 +29,7 @@ equipments = {
 		max_strength = 150
 		max_organisation = 30
 		anti_air_attack = 0
+		armor_value = 1
 
 		#Space taken in convoy
 		lend_lease_cost = 0

@@ -114,6 +114,7 @@
  tank_medium_howitzer_2_desc:0 "A medium field howitzer adapted to be mounted in a vehicle. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
  tank_heavy_howitzer:0 "Heavy Howitzer"
  tank_heavy_howitzer_desc:0 "A heavy field howitzer adapted to be mounted in a vehicle. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
+ tank_light_rocket_launcher:0 "Light Rocket launcher"
  tank_small_cannon:0 "Small Tank Destroyer Cannon"
  tank_small_cannon_desc:0 "A small and cheap cannon, able to fire both anti-infantry and anti-armor rounds. Its small caliber limits its usefulness."
  tank_small_cannon_2:0 "Improved Small Tank Destroyer Cannon"

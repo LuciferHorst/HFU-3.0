@@ -517,7 +517,7 @@ sub_units = {
 		active = yes
 
 		type = {
-			mechanized
+			armor
 		}
 
 		group = mobile

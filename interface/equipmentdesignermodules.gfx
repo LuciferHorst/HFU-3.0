@@ -22,7 +22,7 @@ spriteTypes = {
 ###################################################
 # Destroyer (light)
 ###################################################
-
+	
 	spriteType = {
 		name = "GFX_SM_light_hull_anti_air"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_hull/light_hull_fixed_anti_air.dds"
