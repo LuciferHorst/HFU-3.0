@@ -1923,20 +1923,15 @@ technologies = {
 			land_doctrine
 			cat_grand_battle_plan
 		}
+		custom_effect_tooltip = "This doctrine gives engineers 10 attack on harsh terrain"
 		engineer = {
 			urban = {
-				attack = 0.1
-			}
-			forest = {
 				attack = 0.1
 			}
 			jungle = {
 				attack = 0.1
 			}
 			mountain = {
-				attack = 0.1
-			}
-			hills = {
 				attack = 0.1
 			}
 		}
@@ -1944,16 +1939,10 @@ technologies = {
 			urban = {
 				attack = 0.1
 			}
-			forest = {
-				attack = 0.1
-			}
 			jungle = {
 				attack = 0.1
 			}
 			mountain = {
-				attack = 0.1
-			}
-			hills = {
 				attack = 0.1
 			}
 		}
@@ -1961,16 +1950,10 @@ technologies = {
 			urban = {
 				attack = 0.1
 			}
-			forest = {
-				attack = 0.1
-			}
 			jungle = {
 				attack = 0.1
 			}
 			mountain = {
-				attack = 0.1
-			}
-			hills = {
 				attack = 0.1
 			}
 		}
@@ -1978,16 +1961,10 @@ technologies = {
 			urban = {
 				attack = 0.1
 			}
-			forest = {
-				attack = 0.1
-			}
 			jungle = {
 				attack = 0.1
 			}
 			mountain = {
-				attack = 0.1
-			}
-			hills = {
 				attack = 0.1
 			}
 		}
