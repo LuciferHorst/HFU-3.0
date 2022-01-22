@@ -448,7 +448,12 @@ spriteType = {
 	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
-	}	
+	}
+	
+	SpriteType = {
+		name = "GFX_mechanised_infantry_0_medium"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_interwar_antitank_medium"
