@@ -144,7 +144,7 @@ equipments = {
     		visual_level = 0
     		is_buildable = yes
 			can_license = yes
-		resources = {
+			resources = {
     			steel = 2
     			rubber = 1
     		}
@@ -266,6 +266,7 @@ equipments = {
     	mechanized_equipment_1 = {
     		year = 1940
     		archetype = mechanized_equipment
+			parent = mechanized_equipment_0
     		priority = 40
     		visual_level = 0
 			module_slots = {

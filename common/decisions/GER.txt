@@ -805,61 +805,6 @@ operations = {
 			annex_country = { target = EFR transfer_troops = yes }
 		}
 	}
-	GER_seize_syria = {
-		icon = generic_operation
-		fire_only_once = yes
-		allowed = {
-			tag = GER
-		}
-		visible = {
-			tag = GER
-			EFR = {
-				exists = yes
-			}
-			EFR = {
-				owns_state = 478
-				owns_state = 599
-				owns_state = 596
-			}
-		}
-		days_remove = 10
-		available = {
-			any_country = {
-				is_in_faction_with = ROOT
-				controls_state = 419
-			}
-			any_country = {
-				is_in_faction_with = ROOT
-				controls_state = 418
-			}
-		}
-		complete_effect = {
-			hidden_effect = {
-				every_enemy_country = {
-					country_event = {
-						id = germany.121
-						days = 0
-					}
-				}
-			}
-		}
-		remove_effect = {
-			ITA={
-			transfer_state = 478
-			transfer_state = 599
-			transfer_state = 596
-			}
-			478 = {
-				set_demilitarized_zone = no
-			}
-			599 = {
-				set_demilitarized_zone = no
-			}
-			596 = {
-				set_demilitarized_zone = no
-			}
-		}
-	}
 	GER_barbarossa_mission = {
 		icon = generic_operation
 		allowed = {
@@ -904,7 +849,6 @@ operations = {
 				}
 			}
 		}
-		fire_only_once = yes
 		complete_effect = {
 			set_province_name = { id =3151 name = "Lennigrad" }
 		}

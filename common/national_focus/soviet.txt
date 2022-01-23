@@ -2474,7 +2474,19 @@ focus = {
 	completion_reward = { 
 		add_ideas = SOV_factories_must_grow1
 	}
-}	
+}
+focus = {
+	id = SOV_people_work
+	icon = GFX_focus_SOV_people_work
+	cost = 10
+	prerequisite =  { focus = SOV_road_quality focus = SOV_industrial_revolution }
+	relative_position_id = SOV_road_quality
+	x = 1
+	y = 1
+	completion_reward = { 
+		add_timed_idea = { idea = SOV_manual_labor days = 300 }
+	}
+}
 focus = {
 	id = SOV_socialist_realism
 	icon = GFX_focus_SOV_socialist_realism
@@ -2489,18 +2501,6 @@ focus = {
 	available_if_capitulated = yes
 	completion_reward = {
 		add_ideas=SOV_realism
-	}
-}
-focus = {
-	id = SOV_people_work
-	icon = GFX_focus_SOV_people_work
-	cost = 10
-	prerequisite =  { focus = SOV_road_quality focus = SOV_industrial_revolution }
-	relative_position_id = SOV_road_quality
-	x = 1
-	y = 1
-	completion_reward = { 
-		add_timed_idea = { idea = SOV_manual_labor days = 300 }
 	}
 }
 focus = {

@@ -384,7 +384,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_regular_track_suspensionn"
+		name = "GFX_EMI_tank_regular_track_suspension"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_bogie_suspension.dds"
 		legacy_lazy_load = no
 	}
