@@ -1836,7 +1836,7 @@ guiTypes = {
 
 		iconType = {
 			name = "unit_icon"
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = 4 }
 			spriteType = "GFX_locked_icon"
 			Orientation = CENTER_LOWER
 		}
@@ -2021,7 +2021,7 @@ guiTypes = {
 				name = "support_grid"
 				position = { x = 4 y = 78 }
 				size = { width = 85 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 82 height = 42 }
 				format = "UPPER_LEFT"
 			}
 
@@ -2029,7 +2029,7 @@ guiTypes = {
 				name = "regiments_grid"
 				position = { x = 110 y = 78 }
 				size = { width = 445 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 82 height = 43 }
 				format = "UPPER_LEFT"
 			}
 		}
