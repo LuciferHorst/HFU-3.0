@@ -106,7 +106,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { hill_fighter infantry_leader }
+			traits = { hill_fighter infantry_leader naval_invader }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 2

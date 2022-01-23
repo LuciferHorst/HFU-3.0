@@ -136,18 +136,6 @@ add_equipment_to_stockpile = {
 	producer = FRA
 }
 add_equipment_to_stockpile = {
-	type = cas_equipment_1
-	variant_name = "Br.693 A"
-	amount = 400
-	producer = FRA
-}
-add_equipment_to_stockpile = {
-	type = fighter_equipment_1
-	variant_name = "M.S.406 A"
-	amount = 1000
-	producer = FRA
-}
-add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 2500
 	producer = FRA
@@ -278,6 +266,18 @@ if = {
 
 }
 
+add_equipment_to_stockpile = {
+	type = cas_equipment_1
+	variant_name = "Br.693 A"
+	amount = 400
+	producer = FRA
+}
+add_equipment_to_stockpile = {
+	type = fighter_equipment_1
+	variant_name = "M.S.406 A"
+	amount = 1000
+	producer = FRA
+}
 add_equipment_to_stockpile = {
     type = light_tank_chassis_2
     amount = 700

@@ -606,9 +606,9 @@ focus_tree = {
 				create_field_marshal = {
 					name = "Kodandera Madappa Cariappa"
 					gfx = "GFX_RAJ_kodandera_madappa_cariappa"
-					traits = { infantry_leader organizer}
-					skill = 5
-					attack_skill = 6
+					traits = { infantry_leader organizer naval_invader }
+					skill = 6
+					attack_skill = 5
 					defense_skill = 4
 					planning_skill = 4
 					logistics_skill = 6
@@ -616,9 +616,9 @@ focus_tree = {
 				create_corps_commander = {
 					name = "Kodandera Subayya Thimayya"
 					gfx = "GFX_RAJ_kodendera_subayya_thimayya"
-					traits = { jungle_rat ranger infantry_leader}
+					traits = { desert_fox ranger infantry_leader }
 					skill = 5
-					attack_skill = 6
+					attack_skill = 5
 					defense_skill = 4
 					planning_skill = 4
 					logistics_skill = 6
@@ -626,9 +626,9 @@ focus_tree = {
 				create_corps_commander = {
 					name = "Jayanto Nath Chaudhuri"
 					gfx = "GFX_RAJ_jayanto_nath_chaudhuri"
-					traits = { panzer_leader ranger jungle_rat organizer }
+					traits = { panzer_leader ranger desert_fox organizer }
 					skill = 5
-					attack_skill = 5
+					attack_skill = 6
 					defense_skill = 3
 					planning_skill = 4
 					logistics_skill = 4
@@ -1649,10 +1649,6 @@ completion_reward = {
 			factor = 30
 		}
 		available = {
-			AND = {
-				date > 1938.1.1
-				compare_autonomy_state > autonomy_puppet
-			}
 		}
 		bypass = {
 		}
@@ -1695,7 +1691,7 @@ completion_reward = {
 			factor = 30
 		}
 		available = {
-			date > 1938.5.1
+			
 		}
 		bypass = {
 		}
@@ -1727,7 +1723,7 @@ completion_reward = {
 			factor = 30
 		}
 		available = {
-			date > 1938.5.1
+		
 		}
 		bypass = {
 		}

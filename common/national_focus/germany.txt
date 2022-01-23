@@ -2311,7 +2311,7 @@ focus = {
 					remove_ideas=stiff_upper_lip
 					add_timed_idea={idea=stiff_upper_lip days=250}
 				}		
-					}
+			}
 		}
 	focus = {
 		id = GER_leningrad
@@ -2477,7 +2477,7 @@ focus = {
 		prerequisite = { focus = GER_winter_attack focus = GER_winter_defense }
 		icon = GFX_focus_ger_reichskommisariats
 		available = {
-			Date > 1942.5.1
+			Date > 1942.3.1
 			NOT={has_idea=GER_barbarossa}
 			NOT={has_idea=GER_barbarossa_2}
 			NOT={has_idea=GER_barbarossa_3}
@@ -2495,22 +2495,22 @@ focus = {
 					scoped_sound_effect="ss_marschiert"
 				}
 			GER = {
-				add_timed_idea = { idea = GER_blau days = 100 }
+				add_timed_idea = { idea = GER_blau days = 120 }
 			}
 			hidden_effect={  ROM = {
-					add_timed_idea = { idea = GER_blau days = 100 }
+					add_timed_idea = { idea = GER_blau days = 120 }
 				}
 				HUN = {
-					add_timed_idea = { idea = GER_blau days = 100 }
+					add_timed_idea = { idea = GER_blau days = 120 }
 				}
 				BUL = {
-					add_timed_idea = { idea = GER_blau days = 100 }
+					add_timed_idea = { idea = GER_blau days = 120 }
 				}
 				ITA = {
-					add_timed_idea = { idea = GER_blau days = 100 }
+					add_timed_idea = { idea = GER_blau days = 120 }
 				}
 				SPR = {
-					add_timed_idea = { idea = GER_blau days = 100 }
+					add_timed_idea = { idea = GER_blau days = 120 }
 					}}
 			custom_effect_tooltip = GER_barbarossa_others_text
 		}

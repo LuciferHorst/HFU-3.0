@@ -263,12 +263,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -296,7 +290,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10349;8010;impassable;-1;-1;-1;-1;-1;;Himalayas
 10349;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
 7455;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
 3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains

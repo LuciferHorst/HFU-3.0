@@ -217,30 +217,6 @@ add_equipment_to_stockpile = {
 	producer = GER
 }
 add_equipment_to_stockpile = {
-	type = nav_bomber_equipment_1
-	amount = 300
-	producer = GER
-	variant_name = "Do 22"
-}
-add_equipment_to_stockpile = {
-	type = tac_bomber_equipment_1
-	amount = 400
-	producer = GER
-	variant_name = "He 111 A"
-}
-add_equipment_to_stockpile = {
-	type = fighter_equipment_1
-	amount = 1000
-	producer = GER
-	variant_name = "BF 109 A"
-}
-add_equipment_to_stockpile = {
-	type = CAS_equipment_1
-	amount = 600
-	producer = GER
-	variant_name = "Ju 87 A"
-}
-add_equipment_to_stockpile = {
 	type = train_equipment
 	amount = 100
 	producer = GER
@@ -402,39 +378,61 @@ create_equipment_variant = {
 	}
 	icon = "gfx/interface/technologies/GER_fighter1.dds"
 }
-	create_equipment_variant = {
-		name = "Ju 87 A"
-		type = CAS_equipment_1
-		parent_version = 0
-		upgrades = {
-			plane_range_upgrade = 5
-			plane_cas_upgrade = 2
-		}
+
+create_equipment_variant = {
+	name = "Ju 87 A"
+	type = CAS_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_cas_upgrade = 2
 	}
+}
 
-		create_equipment_variant = {
-			name = "Do 22 A"
-			type = nav_bomber_equipment_1
-			parent_version = 0
-			upgrades = {
-				plane_range_upgrade = 5
-				plane_naval_upgrade = 2
-			}
-		}
+create_equipment_variant = {
+	name = "Do 22 A"
+	type = nav_bomber_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_naval_upgrade = 2
+	}
+}
 
-			create_equipment_variant = {
-				name = "He 111 A"
-				type = tac_bomber_equipment_1
-				parent_version = 0
-				upgrades = {
-					plane_range_upgrade = 5
-					plane_tac_bomb_upgrade = 2
-				}
-			}
+create_equipment_variant = {
+	name = "He 111 A"
+	type = tac_bomber_equipment_1
+	parent_version = 0
+	upgrades = {
+		plane_range_upgrade = 5
+		plane_tac_bomb_upgrade = 2
+	}
+}
 
-	
-
-
+add_equipment_to_stockpile = {
+	type = nav_bomber_equipment_1
+	amount = 300
+	producer = GER
+	variant_name = "Do 22 A"
+}
+add_equipment_to_stockpile = {
+	type = tac_bomber_equipment_1
+	amount = 400
+	producer = GER
+	variant_name = "He 111 A"
+}
+add_equipment_to_stockpile = {
+	type = fighter_equipment_1
+	amount = 1000
+	producer = GER
+	variant_name = "Bf 109 A"
+}
+add_equipment_to_stockpile = {
+	type = CAS_equipment_1
+	amount = 600
+	producer = GER
+	variant_name = "Ju 87 A"
+	}	
 add_equipment_to_stockpile = {
     type = light_tank_chassis_2
     amount = 800
