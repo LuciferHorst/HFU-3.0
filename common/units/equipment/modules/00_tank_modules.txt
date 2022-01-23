@@ -407,11 +407,6 @@ tank_gasoline_engine_L = {
 		category = tank_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 
-		add_stats = {
-			breakthrough = 4
-			defense = 1
-		}
-
 		multiply_stats =  {
 			build_cost_ic = 0.125
 			maximum_speed = -0.1
