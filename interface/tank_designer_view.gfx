@@ -54,8 +54,4 @@ spriteTypes = {
 		name = "GFX_role_forbidden"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_forbidden.dds"
 	}
-	spriteType = {
-		name = "GFX_3d_view_placeholder_new"
-		texturefile = "gfx/interface/equipmentdesigner/tanks/3d_view_placeholder.dds"
-	}
 }
