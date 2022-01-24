@@ -572,6 +572,9 @@ technologies = {
 		}
 	}
 	advanced_ship_hull_cruiser = {
+		allow = {
+			date > 1941.1.1
+		}
 		enable_equipments = {
 			ship_hull_cruiser_4
 		}
