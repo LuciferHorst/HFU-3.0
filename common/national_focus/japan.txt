@@ -1461,12 +1461,6 @@ focus = {
 				hidden_effect = {
 					remove_ideas = JAP_american_trade
 				}
-				CAN = {
-					add_ideas = JAP_hi_hi
-				}
-				FRA = {
-					add_ideas = JAP_hi_hi
-				}
 				activate_decision = suprise_attack
 				declare_war_on = {
 					target = INS
