@@ -264,7 +264,6 @@ ideas = {
 			}
 			picture = generic_manpower_bonus
 			modifier = {
-				army_speed_factor = 0.1
 				consumer_goods_factor=-0.15
 				industry_repair_factor = 1
 				political_power_gain = 0.5

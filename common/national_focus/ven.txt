@@ -158,12 +158,10 @@ focus = {
 					}
 					available_if_capitulated = yes
 					available = { 
-						or = {
-							RAJ = {NOT = {has_full_control_of_state = 640 }}
-							RAJ= {NOT = {has_full_control_of_state = 288}}
+							640 = { is_owned_and_controlled_by = JAP }
+							288 = { is_owned_and_controlled_by = JAP }
 						}
 						
-						 }
 						 completion_reward = { 
 							every_state = {
 								limit= {OR = {state = 431 state = 430 state = 422 }}

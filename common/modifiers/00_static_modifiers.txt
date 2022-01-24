@@ -451,7 +451,7 @@ screening_bonus = {
 	naval_hit_chance = 0.4
 }
 JAP_burma = {
-	max_dig_in = 15
+	max_dig_in = 10
 }
 
 capital_screening_bonus = {
