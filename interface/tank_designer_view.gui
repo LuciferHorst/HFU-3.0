@@ -302,7 +302,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "base_stats"
 				position = { x = 10 y = 55 }
-				size = { width = 171 height = 166 }
+				size = { width = 181 height = 166 }
 				clipping = yes
 
 				background = {
@@ -314,9 +314,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 5 y = 0 }
-					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					position = { x = 2 y = 0 }
+					size = { width = 165 height = 100%% }
+					slotsize = { width = 165 height = 20 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -324,7 +324,7 @@ guiTypes = {
 
 			instantTextboxType = {
 					name = "combat_stats_label"
-					position = { x = 187 y = 34 }
+					position = { x = 197 y = 34 }
 					font = "hoi4_typewriter22"
 					text = "DESIGNER_COMBAT_STATS_LABEL"
 					maxWidth = 165
@@ -335,8 +335,8 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "combat_stats"
-				position = { x = 183 y = 55 }
-				size = { width = 174 height = 166 }
+				position = { x = 193 y = 55 }
+				size = { width = 184 height = 166 }
 				clipping = yes
 
 				background = {
@@ -348,9 +348,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 5 y = 0 }
-					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					position = { x = 2 y = 0 }
+					size = { width = 165 height = 100%% }
+					slotsize = { width = 165 height = 20 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -358,7 +358,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "misc_stats_label"
-				position = { x = 362 y = 34 }
+				position = { x = 382 y = 34 }
 				font = "hoi4_typewriter22"
 				text = "FE_MISC_STATS"
 				maxWidth = 165
@@ -369,8 +369,8 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "misc_stats"
-				position = { x = 356 y = 55 }
-				size = { width = 172 height = 166 }
+				position = { x = 376 y = 55 }
+				size = { width = 182 height = 166 }
 				clipping = yes
 
 				background = {
@@ -382,9 +382,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 5 y = 0 }
-					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					position = { x = 2 y = 0 }
+					size = { width = 165 height = 100%% }
+					slotsize = { width = 165 height = 20 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -393,13 +393,13 @@ guiTypes = {
 
 		iconType = {
 			name = "select_model"
-			position = { x=540 y=265 }
+			position = { x=560 y=265 }
 			quadTextureSprite = "GFX_3d_view_placeholder"
 		}
 
 		containerWindowType = {
 			name = "border_container"
-			position = { x=538 y=263 }
+			position = { x=558 y=263 }
 			size = { width = 524 height = 229 }
 			
 			background = {
@@ -413,7 +413,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "select3d_button"
-			position = { x=930 y=270 }
+			position = { x=950 y=270 }
 			size = { x=504 y=22 }
 			font = "hoi_16mbs"				
 			buttontext = "SELECT_3D_MODEL"
