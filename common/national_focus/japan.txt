@@ -1104,7 +1104,6 @@ focus = {
 		transfer_state = 594
 		transfer_state = 591
 		transfer_state = 749
-		transfer_state = 729
 		transfer_state = 728
 		hidden_effect = {
 			JAP = {
