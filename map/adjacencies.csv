@@ -21,23 +21,32 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3938;6521;sea;;-1;-1;-1;-1;Berlin-Madrid;Berlin-Madrid
 896;11666;sea;;-1;-1;-1;-1;Vienna-Madrid;Vienna-Madrid
 
-4318;12789;impassable;-1;-1;-1;-1;-1;;Burma
-4996;12789;impassable;-1;-1;-1;-1;-1;;Burma
-4996;12898;impassable;-1;-1;-1;-1;-1;;Burma
-10863;12898;impassable;-1;-1;-1;-1;-1;;Burma
-10863;7976;impassable;-1;-1;-1;-1;-1;;Burma
+7455;12730;impassable;-1;-1;-1;-1;-1;;Burma
+7455;1116;impassable;-1;-1;-1;-1;-1;;Burma
+1525;1116;impassable;-1;-1;-1;-1;-1;;Burma
+1525;12322;impassable;-1;-1;-1;-1;-1;;Burma
+1525;4087;impassable;-1;-1;-1;-1;-1;;Burma
+1553;4087;impassable;-1;-1;-1;-1;-1;;Burma
+4588;4087;impassable;-1;-1;-1;-1;-1;;Burma
+4588;8063;impassable;-1;-1;-1;-1;-1;;Burma
+1082;8063;impassable;-1;-1;-1;-1;-1;;Burma
+1082;4425;impassable;-1;-1;-1;-1;-1;;Burma
+10920;4425;impassable;-1;-1;-1;-1;-1;;Burma
+10920;10863;impassable;-1;-1;-1;-1;-1;;Burma
+12363;10863;impassable;-1;-1;-1;-1;-1;;Burma
+4210;10863;impassable;-1;-1;-1;-1;-1;;Burma
 4210;7976;impassable;-1;-1;-1;-1;-1;;Burma
 4210;5009;impassable;-1;-1;-1;-1;-1;;Burma
 4210;10413;impassable;-1;-1;-1;-1;-1;;Burma
 7400;10413;impassable;-1;-1;-1;-1;-1;;Burma
-7909;10413;impassable;-1;-1;-1;-1;-1;;Burma
-7909;10776;impassable;-1;-1;-1;-1;-1;;Burma
+7400;7909;impassable;-1;-1;-1;-1;-1;;Burma
+4175;7909;impassable;-1;-1;-1;-1;-1;;Burma
+7974;7909;impassable;-1;-1;-1;-1;-1;;Burma
 
 13228;1048;impassable;-1;-1;-1;-1;-1;;Gibraltar
 13228;10094;impassable;-1;-1;-1;-1;-1;;Gibraltar
 4135;10094;impassable;-1;-1;-1;-1;-1;;Gibraltar
 4135;7153;impassable;-1;-1;-1;-1;-1;;Gibraltar
-
 
 6721;3698;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
 6721;9663;impassable;-1;-1;-1;-1;-1;;Caucasus-Region
@@ -263,7 +272,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;10825;impassable;-1;-1;-1;-1;-1;;Himalayas

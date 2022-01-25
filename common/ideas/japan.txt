@@ -446,6 +446,21 @@ ideas = {
 				research_speed_factor = 0.075
 			}
 		}
+		JAP_hi_hi = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = japan_hi_hi
+				targeted_modifier = {
+					tag = JAP
+					defense_bonus_against  = -0.3
+					attack_bonus_against = -0.3
+				}
+		}
 		JAP_zaibatsus_challenged = {
 			allowed = {
 				always = no

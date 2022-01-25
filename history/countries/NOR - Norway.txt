@@ -39,18 +39,22 @@ add_ideas = neutrality_idea1
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 7000
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = support_equipment
-	amount = 300
+	amount = 400
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 1000
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
 	amount = 400
+	producer = GER
 }
 
 

@@ -2,7 +2,7 @@ political_actions = {
     raj_rubber1 = {                           
           allowed = { tag = RAJ tag = JAP }                 
           available = {                          
-              JAP = { controls_state = 398 }                     
+              JAP = { controls_state = 432 }                     
           }
           activation = {                          
 			JAP = {
@@ -10,7 +10,7 @@ political_actions = {
 			}                      
           }
           is_good = yes                                         
-          days_mission_timeout = 40           
+          days_mission_timeout = 60           
           timeout_effect = {                    
 			add_resource = {
 				type = rubber
@@ -25,7 +25,7 @@ political_actions = {
 			activate_mission = raj_rubber2
           }
           complete_effect = {                   
-			439 = {
+			640 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -38,10 +38,10 @@ political_actions = {
 	 raj_rubber2 = {                           
 		allowed = { tag = RAJ tag = JAP }                 
 		available = {                          
-			JAP = { controls_state = 396 }                     
+			JAP = { controls_state = 430 }                     
 		}
 		is_good = yes                                         
-		days_mission_timeout = 45            
+		days_mission_timeout = 50            
 		timeout_effect = {        
 		  add_resource = {
 			  type = rubber
@@ -56,7 +56,7 @@ political_actions = {
 		activate_mission = raj_rubber3
 		}
 		complete_effect = {                   
-		  440 = {
+		  288 = {
 			  add_building_construction = {
 				  type = infrastructure
 				  level = 3
@@ -68,7 +68,7 @@ political_actions = {
    raj_rubber3 = {                           
 	allowed = { tag = RAJ tag = JAP }                 
 	available = {                          
-		JAP = { controls_state = 397 }                     
+		JAP = { controls_state = 431 }                     
 	}
 	is_good = yes                                         
 	days_mission_timeout = 40            
@@ -81,12 +81,12 @@ political_actions = {
 	  add_resource = {
 		type = rubber
 		amount = 5
-		state = 443
+		state = 440
 	}
 	activate_mission = raj_rubber4
 	}
 	complete_effect = {                   
-	443 = {
+	432 = {
 	add_building_construction = {
 	type = infrastructure
 	level = 3
@@ -98,7 +98,7 @@ political_actions = {
 	raj_rubber4 = {                           
 		allowed = { tag = RAJ tag = JAP }                 
 		available = {                          
-			JAP = { controls_state = 401 }                     
+			JAP = { controls_state = 435 }                     
 		}
 		is_good = yes                                         
 		days_mission_timeout = 40            
@@ -111,11 +111,11 @@ political_actions = {
 		  add_resource = {
 			type = rubber
 			amount = 10
-			state = 428
+			state = 440
 		}
 		}
 		complete_effect = {                   
-		  428 = {
+		  430 = {
 			  add_building_construction = {
 				  type = infrastructure
 				  level = 3

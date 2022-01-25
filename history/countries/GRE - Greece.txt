@@ -29,18 +29,22 @@ add_timed_idea = { idea = no_training days= 1095 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 40000
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
 	amount = 1100
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 800
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 1700
+	producer = GER
 }
 add_manpower = 1000000
 set_convoys = 10

@@ -17,6 +17,7 @@ recruit_character = LUX_jean_pirson
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 10000
+	producer = GER
 }
 set_politics = {
 	ruling_party = democratic

@@ -51,7 +51,7 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = generic_air_bonus
-			research_bonus = { air_equipment = 0.20 }
+			research_bonus = { air_equipment = 0.25 }
 		}
 		GER_reinforce_the_line_idea = {
 			picture = generic_research_bonus

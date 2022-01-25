@@ -91,31 +91,19 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-		random_owned_controlled_state = {
-		 limit={industrial_complex > 0}
-		 damage_building = {
-         type = industrial_complex
-         damage = 1
-		 }}
-		 random_owned_controlled_state = {
-		 limit={industrial_complex > 0}
-		 damage_building = {
-         type = industrial_complex
-         damage = 1
-		 }}
-		 add_political_power = 150
-		 custom_effect_tooltip = available_political_advisor
-		 show_ideas_tooltip = RAJ_mahatma_mohandas_gandhi
-		 433 = {
-		 add_extra_state_shared_building_slots = 5
-		 add_building_construction = {
-					type = industrial_complex
-					level = 5
-					instant_build = yes
-				}
-		 
+		add_political_power = 150
+		custom_effect_tooltip = available_political_advisor
+		show_ideas_tooltip = RAJ_mahatma_mohandas_gandhi
+		433 = {
+		add_extra_state_shared_building_slots = 4
+		add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
 			}
+		
 		}
+	}
 	}
 	focus = {
 		id = RAJ_indian_national_congress_3
@@ -385,19 +373,14 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_lessons_of_the_great_war
 		cost = 10
-		ai_will_do = {
-			factor = 25
-		}
 		available = {
-		}
-		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			army_experience = 20
+			army_experience = 25
 			add_tech_bonus = {
 				name = RAJ_british_army_support
 				bonus = 1.0
@@ -763,7 +746,7 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			army_experience = 10
+			army_experience = 25
 			add_tech_bonus = {
 				name = RAJ_royal_indian_artillery
 				bonus = 1.0
@@ -825,6 +808,11 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = RAJ_revive_the_screw_guns_effect
 			hidden_effect = { set_technology = { mountain_gun = 1 } }
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = cat_anti_tank
+			}
 		}
 	}
 	focus = {

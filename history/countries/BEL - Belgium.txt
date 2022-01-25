@@ -19,20 +19,19 @@ add_equipment_to_stockpile = {
 	producer = GER
 }
 add_equipment_to_stockpile = {
-	type = infantry_equipment_2
-	amount = 1000
-}
-add_equipment_to_stockpile = {
 	type = support_equipment
 	amount = 1500
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 1300
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
 	amount = 1600
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = convoy

@@ -1465,6 +1465,13 @@ focus = {
 					target = INS
 					type = annex_everything
 				}
+
+				CAN = {
+					add_timed_idea = { idea = JAP_hi_hi days = 90 }
+				}
+				FRA = {
+					add_timed_idea = { idea = JAP_hi_hi days = 90 }
+				}
 			}
 		}
 		focus = {

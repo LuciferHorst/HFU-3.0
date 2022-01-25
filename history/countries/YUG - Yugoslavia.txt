@@ -48,19 +48,23 @@ recruit_character = YUG_milan_grol
 add_ideas = peace_training
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 25000
+	amount = 50000
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = support_equipment
-	amount = 600
+	amount = 1000
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 600
+	amount = 1000
+	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
 	amount = 1000
+	producer = GER
 }
 add_manpower = 250000
 set_convoys = 350
