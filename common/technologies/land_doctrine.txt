@@ -2423,6 +2423,9 @@ technologies = {
 		infantry = {
 			need = {infantry_equipment= -20}
 		}
+		guard_battalion = {
+			need = {infantry_equipment = -20}
+		}
 		artillery_brigade={
 			need = {
 				artillery_equipment = -7
@@ -2530,6 +2533,9 @@ technologies = {
 			need = {support_equipment = -5}
 		}
 		maintenance_company = {
+			need = {support_equipment = -5}
+		}
+		sniper_recon = {
 			need = {support_equipment = -5}
 		}
 		on_research_complete = {
@@ -2651,6 +2657,9 @@ technologies = {
 		allow = {
 			always = no
 		}
+	}
+	guard_battalion = {
+		enable_subunits ={guard_battalion}
 	}
 }
 

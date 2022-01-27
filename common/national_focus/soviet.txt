@@ -541,22 +541,23 @@ focus = {
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = "This focus will spawn 30 Elite Divisions in Kazan"
+			custom_effect_tooltip = "This focus will spawn 20 Elite Divisions in Kazan"
+			set_technology = {guard_battalion =1}
 			division_template = {
 				name = "Red Guards"
 				regiments = {
-					shocktroop = { x = 0 y = 0 }
-					shocktroop = { x = 0 y = 1 }
-					shocktroop = { x = 0 y = 2 }
-					shocktroop = { x = 0 y = 3 }
-					shocktroop = { x = 1 y = 0 }
-					shocktroop = { x = 1 y = 1 }
-					shocktroop = { x = 1 y = 2 }
-					shocktroop = { x = 1 y = 3 }
-					shocktroop = { x = 2 y = 0 }
-					shocktroop = { x = 2 y = 1 }
-					shocktroop = { x = 2 y = 2 }
-					shocktroop = { x = 2 y = 3 }
+					guard_battalion = { x = 0 y = 0 }
+					guard_battalion = { x = 0 y = 1 }
+					guard_battalion = { x = 0 y = 2 }
+					guard_battalion = { x = 0 y = 3 }
+					guard_battalion = { x = 1 y = 0 }
+					guard_battalion = { x = 1 y = 1 }
+					guard_battalion = { x = 1 y = 2 }
+					guard_battalion = { x = 1 y = 3 }
+					guard_battalion = { x = 2 y = 0 }
+					guard_battalion = { x = 2 y = 1 }
+					guard_battalion = { x = 2 y = 2 }
+					guard_battalion = { x = 2 y = 3 }
 					anti_tank_brigade = { x = 3 y = 0 }
 					anti_tank_brigade = { x = 3 y = 1 }
 					anti_air_brigade = { x = 3 y = 2 }
@@ -567,17 +568,17 @@ focus = {
 					artillery_brigade = { x = 4 y = 3 }
 				}
 				support = {
-					recon = { x = 0 y = 0 }
+					sniper_recon = { x = 0 y = 0 }
 					engineer = { x = 0 y = 1 }
-					artillery = { x = 0 y = 2 }
+					light_sp_artillery= { x = 0 y = 2 }
 					logistics_company = { x = 0 y = 3 }
 					signal_company = { x = 0 y = 4 }
-					anti_tank = {x = 0 y = 5}
+					light_tank_destroyer = {x = 0 y = 5}
 				}
 			}
 			249 = {
 				for_loop_effect = {
-					end = 30
+					end = 20
 					create_unit = {
 						division = "name = \"Red Guards\" division_template = \"Red Guards\" start_experience_factor = 0.4"
 						owner = SOV
