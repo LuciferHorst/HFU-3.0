@@ -170,15 +170,15 @@ ideas = {
 		}
 		SOV_uranus = {
 			modifier = {
-				army_armor_attack_factor = 0.15
-				army_infantry_attack_factor = 0.15
+				army_armor_attack_factor = 0.1
+				army_infantry_attack_factor = 0.1
 				winter_attrition_factor = -1
 			}
 		}
 		SOV_bagration = {
 			modifier = {
-				army_armor_attack_factor = 0.3
-				army_infantry_attack_factor = 0.3
+				army_armor_attack_factor = 0.2
+				army_infantry_attack_factor = 0.2
 				winter_attrition_factor = -1
 			}
 		}
