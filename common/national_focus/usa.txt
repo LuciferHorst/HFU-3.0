@@ -1607,6 +1607,7 @@ focus = {
 		relative_position_id = USA_magic
 		cost = 3
 		available = {
+			NOT = { 721 = { is_controlled_by = JAP } }
 		}
 		completion_reward = {
 		    transfer_state = 721
@@ -1947,73 +1948,43 @@ focus = {
 		relative_position_id = USA_american_dream
 		cost = 3
 		completion_reward = {
-			570 = {
+			721 = {
 				set_building_level = {
 					type = coastal_bunker
-					province =11745
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province =11745
-					level = 2
-					instant_build = yes
-				}
-			}
-			552 = {
-				set_building_level = {
-					type = coastal_bunker
-					province =11736
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province =11736
-					level = 2
-					instant_build = yes
-				}
-			}
-			553 = {
-				set_building_level = {
-					type = coastal_bunker
-					province =11731
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province =11731
-					level = 2
-					instant_build = yes
-				}
-			}
-			559 = {
-				set_building_level = {
-					type = coastal_bunker
-					province =11024
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province =11024
-					level = 2
-					instant_build = yes
-				}
-			}
-			563 = {
-				set_building_level = {
-					type = coastal_bunker
-					province =11734
+					province = 12190
 					level = 3
 					instant_build = yes
 				}
-				add_building_construction = {
-					type = naval_base
-					province =11734
-					level = 2
+			}
+			737 = {
+				set_building_level = {
+					type = coastal_bunker
+					province = 7251
+					level = 3
+					instant_build = yes
+				}
+			}
+			523 = {
+				set_building_level = {
+					type = coastal_bunker
+					province = 4329
+					level = 3
+					instant_build = yes
+				}
+			}
+			634 = {
+				set_building_level = {
+					type = coastal_bunker
+					province = 1269
+					level = 3
+					instant_build = yes
+				}
+			}
+			520 = {
+				set_building_level = {
+					type = coastal_bunker
+					province = 7669
+					level = 3
 					instant_build = yes
 				}
 			}
