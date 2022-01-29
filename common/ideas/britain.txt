@@ -860,7 +860,7 @@ ideas = {
 				naval_equipment = 0.15
 			}
 			modifier = { naval_manufacturer_cost_factor = -1 }
-			traits = { coastal_defence_naval_manufacturer }
+			traits = { raiding_fleet_naval_manufacturer }
 		}
 	}
 	aircraft_manufacturer = {

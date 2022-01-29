@@ -1053,7 +1053,7 @@ ship_super_heavy_battery_2 = {
 		}
 
 		multiply_stats = {
-			naval_speed = 0.36
+			naval_speed = 0.35
 			reliability = -0.2
 		}
 

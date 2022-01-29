@@ -210,7 +210,7 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = AST_additional_militia_training
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -280,7 +280,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = AST_fund_owen_gun_research
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = infantry_weapons
 			}
 		}
@@ -1074,8 +1074,6 @@ focus_tree = {
 		}
 		available = {
 		}
-		bypass = {
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1085,10 +1083,10 @@ focus_tree = {
 				limit = {
 					has_state_flag = AST_south_australian_housing_trust_IC
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -1104,10 +1102,10 @@ focus_tree = {
 					}
 					not = { state = 593 }
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = AST_south_australian_housing_trust_IC

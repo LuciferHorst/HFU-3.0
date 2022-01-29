@@ -258,19 +258,6 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
-		USA_naval_neutrality = {
-			picture = generic_the_london_naval_treaty
-			allowed = {
-				always = no
-			}
-			cancel = {
-				has_war = yes
-			}
-			removal_cost = -1
-			modifier = {
-				navy_max_range_factor = -0.90
-			}
-		}
 		USA_wasteful_navy = {
 			picture = escort_effort_focus
 			allowed = {
