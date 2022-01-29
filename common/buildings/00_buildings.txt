@@ -72,6 +72,7 @@ buildings = {
 		disabled_in_dmz = yes
 		icon_frame = 16
 		max_level = 1
+		damage_factor = 0.2
 		allied_build = yes
 	}
 	

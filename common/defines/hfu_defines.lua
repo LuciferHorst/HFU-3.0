@@ -515,11 +515,21 @@ NDefines.NSupply.CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.2 -- added penalty as we
 -- defines that are used for supply reach for built nodes
 
 NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 2.8
-NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.38
-NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.5
+NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.7
+NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.25
 
 -- defines that are used for supply reach for dockyards
-
+NDefines.NMapMode.SUPPLY_MAP_MODE_REACH_COLOR = {
+		0.0,   0.45, 0.00, 0.20, 1.0, 		-- #990066 dark purple
+		0.02,  0.35, 0.12, 0.45, 1.0, 		-- #332B85 dark purple blue
+		0.12,  0.20, 0.15, 0.45, 1.0,		-- #0A2B99 dark blue
+		0.2,   0.27, 0.27, 0.50, 1.0,		-- #215CA6 blue
+		
+		0.4,   0.15, 0.25, 0.40, 1.0,		-- #1C8FBF light blue
+		0.6,   0.20, 0.42, 0.60, 1.0,		-- #40B5C2 teal
+		0.8,   0.35, 0.50, 0.30, 1.0,		-- #78CCBA light teal
+		1.0,   0.15, 0.54, 0.15, 1.0,		-- #99D199 light green
+	}
 NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 2
 NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.3
 NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.0
@@ -570,8 +580,8 @@ NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.8
 
 -- used for calculating "flow" for railways.
 
-NDefines.NSupply.RAILWAY_BASE_FLOW = 7	-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
-NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 8.0 	-- how much additional flow a railway level gives
+NDefines.NSupply.RAILWAY_BASE_FLOW = 6	-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
+NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 6 	-- how much additional flow a railway level gives
 NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 5 -- penalty to flow per damaged railway
 NDefines.NSupply.RAILWAY_MIN_FLOW = 4 -- minimum railway flow can be reduced to
 
