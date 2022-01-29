@@ -304,11 +304,11 @@ ideas = {
 			allowed = {
 				original_tag = "ITA"
 			}
-			picture = ita_bad_leadership
-			removal_cost = -1
-			modifier = {
-			army_org_Factor = 0.1
-			army_morale_factor=0.1	
+				picture = ita_bad_leadership
+				removal_cost = -1
+				modifier = {
+				army_org_Factor = 0.1
+				army_morale_factor=0.1	
 			}
 		}
 		ITA_bad_leadership = {
@@ -318,7 +318,7 @@ ideas = {
 			picture = ita_bad_leadership
 			removal_cost = -1
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = -0.05
 				political_advisor_cost_factor = 0.15
 				production_speed_infrastructure_factor = -0.1
 			}
@@ -329,8 +329,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				stability_weekly = 0.01
-				war_support_weekly = 0.01
+				stability_weekly = 0.015
+				war_support_weekly = 0.015
 				political_power_factor = -0.1
 			}
 		}

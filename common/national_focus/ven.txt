@@ -158,8 +158,8 @@ focus = {
 					}
 					available_if_capitulated = yes
 					available = { 
-							640 = { is_owned_and_controlled_by = JAP }
-							288 = { is_owned_and_controlled_by = JAP }
+							640 = { is_controlled_by = JAP }
+							288 = { is_controlled_by = JAP }
 						}
 						
 						 completion_reward = { 
