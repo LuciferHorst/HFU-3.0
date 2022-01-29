@@ -141,6 +141,13 @@ equipments = {
     		fuel_consumption = 2.4
     	}
     	# ~1941
+	mechanized_equipment_0 = {
+    		year = 1930
+    		archetype = mechanized_equipment
+    		priority = 40
+    		is_buildable = no
+		build_cost_ic = 20.5
+	}
     	mechanized_equipment_1 = {
     		year = 1940
     		archetype = mechanized_equipment
@@ -410,13 +417,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 					mech_special_module
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> c94bdcffb62cf40bb36ceb5c1a580ab2956b8d85
 					tank_mechanized_turret_type
 				}
 			}
