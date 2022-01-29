@@ -1075,21 +1075,21 @@ focus = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			air_experience = 50
-			112 = {	add_building_construction = {
+			162 = {	add_building_construction = {
 					type = air_base
-					level = 5
+					level = 10
 					instant_build = yes
 				}
 			}
-			113 = {	add_building_construction = {
+			156 = {	add_building_construction = {
 					type = air_base
-					level = 5
+					level = 10
 					instant_build = yes
 				}
 			}
 			160 = {	add_building_construction = {
 					type = air_base
-					level = 5
+					level = 10
 					instant_build = yes
 				}
 			}
