@@ -1299,13 +1299,16 @@ focus_tree = {
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 447 }
+				prioritize = { 521 }
 				limit = {
 					free_building_slots = {
 						building = infrastructure
 						size > 1
 					}
-					not = { state = 593 }
+					not = { state = 447 }
+					not = { state = 523 }
+					not = { state = 737 }
+					not = { state = 634 }
 				}
 				add_building_construction = {
 					type = infrastructure
