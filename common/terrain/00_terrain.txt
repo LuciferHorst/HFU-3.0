@@ -60,7 +60,7 @@ categories =  {
 			defence = -0.05
 			#movement = -0.2
 		}
-		enemy_army_bonus_air_superiority_factor = -0.05
+		enemy_army_bonus_air_superiority_factor = -0.1
 		
 		supply_flow_penalty_factor = 0.1
 		
@@ -84,7 +84,7 @@ categories =  {
 			#movement = -0.4
 		}
 
-		enemy_army_bonus_air_superiority_factor = -0.4
+		enemy_army_bonus_air_superiority_factor = -0.3
 		
 		supply_flow_penalty_factor = 0.12
 		
@@ -128,7 +128,7 @@ categories =  {
 			#movement = -0.2
 		}
 
-		enemy_army_bonus_air_superiority_factor = -0.45
+		enemy_army_bonus_air_superiority_factor = -0.4
 				
 		supply_flow_penalty_factor = -0.2
 	}
@@ -150,7 +150,7 @@ categories =  {
 			#movement = -0.3
 		}
 
-		enemy_army_bonus_air_superiority_factor = -0.5
+		enemy_army_bonus_air_superiority_factor = -0.3
 		
 		sickness_chance = 1.0
 		
