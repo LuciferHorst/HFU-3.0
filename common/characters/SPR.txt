@@ -14,7 +14,7 @@ characters={
 			}
 
 			field_marshal={
-				traits={ logistics_wizard panzer_leader trait_engineer trickster ranger infantry_leader }
+				traits={  panzer_leader trait_engineer trickster ranger infantry_leader }
 				skill=6
 				attack_skill=5
 				defense_skill=4
