@@ -1021,7 +1021,7 @@ technologies = {
 			surface_detection = 0.10
 		}
 		battle_cruiser = {
-			max_organisation = 20
+			max_organisation = 30
 			hg_armor_piercing = 0.15
 		}
 		navy_screen_attack_factor = 0.1
@@ -1058,7 +1058,7 @@ technologies = {
 		#Battleships/Battlecrusiers are used as raiders rather than in the line of battle in a fleet
 		# EFFECT ##############
 		battle_cruiser = {
-			max_organisation = 15
+			max_organisation = 25
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
@@ -1737,6 +1737,9 @@ technologies = {
 		light_cruiser = {
 			max_organisation = 20
 		}
+		heavy_cruiser = {
+			max_organisation = 20
+		}
 		destroyer = {
 			surface_visibility = -0.05
 		}
@@ -2033,6 +2036,9 @@ technologies = {
 		light_cruiser = {
 			max_organisation = 10
 			sub_detection = 0.1
+		}
+		heavy_cruiser = {
+			max_organisation = 0.1
 		}
 		convoy_escort_efficiency = 0.1
 		path = {
