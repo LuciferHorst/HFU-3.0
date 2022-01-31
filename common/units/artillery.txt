@@ -132,17 +132,10 @@ sub_units = {
 
 		suppression = 1
 		defense = -0.9
-		soft_attack = -0.60
+		soft_attack = -0.45
 		hard_attack = -0.60
-		breakthrough = -0.60
+		breakthrough = -0.9
 		armor_value = -0.70
-		urban = {attack = 0.05}
-		hills = {attack = 0.05}
-		fort = {attack=0.05}
-		forest ={attack =0.025}
-		mountain = {attack = 0.025}
-		jungle = {attack = 0.025}
-		marsh = {attack = 0.025}
 	}
 	medium_sp_artillery = {
 		abbreviation = "MAR"
@@ -183,13 +176,10 @@ sub_units = {
 
 		suppression = 1
 			defense = -0.9
-		soft_attack = -0.60
+		soft_attack = -0.4
 		hard_attack = -0.60
-		breakthrough = -0.60
+		breakthrough = -0.70
 		armor_value = -0.70
-		urban = { attack = 0.075 }
-		forest = { attack = 0.05}
-		fort = {attack = 0.1}
 	}
 	heavy_sp_artillery = {
 		abbreviation = "HAR"
@@ -230,11 +220,9 @@ sub_units = {
 
 		suppression = 1
 		defense = -0.9
-		soft_attack = -0.60
+		soft_attack = -0.50
 		hard_attack = -0.60
 		breakthrough = -0.60
 		armor_value = -0.70
-		urban = { attack = 0.1 }
-		fort = {attack = 0.20}
 	}
 }
