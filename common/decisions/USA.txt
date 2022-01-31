@@ -113,13 +113,13 @@ war_measures = {
 			add_ideas = USA_homeland_defense
 		}
 	}
-	USA_ast = {
+	USA_hawaii = {
 		icon = generic_prepare_civil_war
 		allowed = {
 			original_tag = USA
 		}
 		available = {
-			AST = {has_full_control_of_state = 285}
+			USA = {has_full_control_of_state = 629}
 		}
 		cost = 10
 		visible = {
@@ -141,7 +141,7 @@ war_measures = {
 					infantry = { x = 2 y = 1 }
 				}
 			}
-			285 = {
+			629 = {
 				for_loop_effect = {
 					end = 20
 					create_unit = {
@@ -195,7 +195,7 @@ war_measures = {
 			original_tag = USA
 		}
 		available = {
-			RAJ = {has_full_control_of_state = 439}
+			RAJ = {has_full_control_of_state = 444}
 		}
 		cost = 10
 		visible = {
@@ -217,7 +217,7 @@ war_measures = {
 					infantry = { x = 2 y = 1 }
 				}
 			}
-			439 = {
+			444 = {
 				for_loop_effect = {
 					end = 20
 					create_unit = {

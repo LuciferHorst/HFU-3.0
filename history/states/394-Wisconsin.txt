@@ -6,7 +6,7 @@ state={
 	state_category = USA_state
 	
 	resources={
-		steel=53 # was: 84
+		steel = 75 # was: 84
 	}
 
 	history={

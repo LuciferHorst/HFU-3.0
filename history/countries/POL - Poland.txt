@@ -19,7 +19,7 @@ set_technology = {
 	CAS1 = 1
 	trench_warfare = 1
 }
-add_timed_idea = { idea = no_training days= 1095 }
+add_timed_idea = { idea = no_training days = 1005 }
 add_ideas = peace_training
 add_ideas = neutrality_idea1
 
