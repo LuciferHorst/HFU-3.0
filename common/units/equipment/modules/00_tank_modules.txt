@@ -41,8 +41,6 @@ tank_gasoline_engine_L = {
 			fuel_consumption = 2
 			build_cost_ic = 4
 			reliability = -0.25
-			breakthrough = 2
-			defense = 2
 			hardness = 0.025
 		}
 		multiply_stats = {
@@ -109,8 +107,6 @@ tank_gasoline_engine_L = {
 			fuel_consumption = 2
 			build_cost_ic = 4
 			reliability = -0.2
-			breakthrough = 2
-			defense = 2
 			hardness = 0.025
 		}
 		multiply_stats = {
@@ -178,8 +174,6 @@ tank_gasoline_engine_L = {
 			fuel_consumption = 2
 			build_cost_ic = 4
 			reliability = -0.2
-			breakthrough = 2
-			defense = 2
 			hardness = 0.025
 		}
 		multiply_stats = {
@@ -248,8 +242,6 @@ tank_gasoline_engine_L = {
 			fuel_consumption = 2.5
 			build_cost_ic = 16
 			reliability = -0.3
-			breakthrough = 2
-			defense = 2
 		}
 		multiply_stats = {
 		 fuel_consumption = 1.5
