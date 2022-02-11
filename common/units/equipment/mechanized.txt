@@ -119,18 +119,18 @@ equipments = {
 		reliability = 0.9
 
 		#Defensive Abilities
-		defense = 10
+		defense = 8
 		breakthrough = 2
 		hardness = 0.4
 		armor_value = 10
-		fuel_capacity = 50
+		fuel_capacity = 75
 
 		#Offensive Abilities
 		ap_attack = 11
 		air_attack = 0
 
 		#Space taken in convoy
-		build_cost_ic = 2
+		build_cost_ic = 1.5
 			
 	 	lend_lease_cost = 1.2   
     		resources = {
@@ -262,13 +262,13 @@ equipments = {
     		visual_level = 1
     		maximum_speed = 6
     		#Defensive Abilities
-    		defense = 12
+    		defense = 10
     		breakthrough = 4
     		hardness = 0.45
     		armor_value = 15
     		#Offensive Abilities
     		ap_attack = 16
-    		    build_cost_ic = 2.5
+    		    build_cost_ic = 2
 	 	lend_lease_cost = 1.5   
     		resources = {
     			steel = 3
@@ -390,13 +390,13 @@ equipments = {
     		visual_level = 2
     		maximum_speed = 8
     		#Defensive Abilities
-    		defense = 16
+    		defense = 14
     		breakthrough = 5
     		hardness = 0.5
     		armor_value = 20
     		#Offensive Abilities
     		ap_attack = 21
-    		    build_cost_ic = 3 
+    		    build_cost_ic = 2.5
 	 	lend_lease_cost = 2   
     		resources = {
     			steel = 4

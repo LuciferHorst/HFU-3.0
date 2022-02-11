@@ -1496,12 +1496,11 @@ tank_high_velocity_cannon_m1 = {
 		abbreviation = "mh1"
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
 			forbid_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 40
-			hard_attack = 4
+			soft_attack = 45
+			hard_attack = 14
 			ap_attack = 20
 			build_cost_ic = 5
 			maximum_speed = -0.25
@@ -1521,13 +1520,12 @@ tank_high_velocity_cannon_m1 = {
 		abbreviation = "mh2"
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
 					forbid_equipment_type = anti_tank
 
 		parent = tank_medium_howitzer
 		add_stats = {
-			soft_attack = 45
-			hard_attack = 6
+			soft_attack = 50
+			hard_attack = 16
 			ap_attack = 25
 			build_cost_ic = 5.5
 			maximum_speed = -0.4
@@ -1546,13 +1544,12 @@ tank_high_velocity_cannon_m1 = {
 		abbreviation = "mh3"
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
 					forbid_equipment_type = anti_tank
 
 		parent = tank_medium_howitzer
 		add_stats = {
-			soft_attack = 50
-			hard_attack = 8
+			soft_attack = 55
+			hard_attack = 18
 			ap_attack = 30
 			build_cost_ic = 6
 			maximum_speed = -0.4
@@ -1578,7 +1575,7 @@ tank_high_velocity_cannon_m1 = {
 			forbid_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 48
+			soft_attack = 55
 			hard_attack = 1
 			ap_attack = 2
 			build_cost_ic = 4.5
@@ -1605,7 +1602,7 @@ tank_high_velocity_cannon_m1 = {
 					forbid_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 56
+			soft_attack = 60
 			hard_attack = 1
 			ap_attack = 2
 			build_cost_ic = 6
@@ -1631,8 +1628,8 @@ tank_high_velocity_cannon_m1 = {
 				forbid_equipment_type = artillery
 
 		add_stats = {
-			soft_attack = 27
-			hard_attack = 35
+			soft_attack = 22
+			hard_attack = 40
 			ap_attack = 105
 			build_cost_ic = 7
 			maximum_speed = -0.3
@@ -1657,8 +1654,8 @@ tank_high_velocity_cannon_m1 = {
 				forbid_equipment_type = artillery
 
 		add_stats = {
-			soft_attack = 29
-			hard_attack = 40
+			soft_attack = 24
+			hard_attack = 45
 			ap_attack = 145
 			build_cost_ic = 8
 			maximum_speed = -0.35
@@ -1683,8 +1680,8 @@ tank_high_velocity_cannon_m1 = {
 				forbid_equipment_type = artillery
 
 		add_stats = {
-			soft_attack = 31
-			hard_attack = 45
+			soft_attack = 26
+			hard_attack = 50
 			ap_attack = 195
 			build_cost_ic = 10
 			maximum_speed = -0.4
@@ -1783,15 +1780,14 @@ tank_high_velocity_cannon_m1 = {
 		abbreviation = "hh1"
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
 			forbid_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 56
-			hard_attack = 5
+			soft_attack = 50
+			hard_attack = 15
 			ap_attack = 35
-			build_cost_ic = 6.5
-			maximum_speed = -0.4
+			build_cost_ic = 8
+			maximum_speed = -0.5
 			reliability = -0.2
 		}
 		xp_cost = 0
@@ -1810,15 +1806,14 @@ tank_high_velocity_cannon_m1 = {
 		abbreviation = "hh1"
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
 			forbid_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 62
-			hard_attack = 7
+			soft_attack = 55
+			hard_attack = 17
 			ap_attack = 45
-			build_cost_ic = 7
-			maximum_speed = -0.45
+			build_cost_ic = 8.5
+			maximum_speed = -0.6
 			reliability = -0.35
 		}
 		xp_cost = 0
@@ -1837,15 +1832,14 @@ tank_high_velocity_cannon_m1 = {
 		abbreviation = "hh1"
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
 			forbid_equipment_type = anti_tank
 
 		add_stats = {
-			soft_attack = 68
-			hard_attack = 10
+			soft_attack = 60
+			hard_attack = 20
 			ap_attack = 60
-			build_cost_ic = 7.5
-			maximum_speed = -0.5
+			build_cost_ic = 9
+			maximum_speed = -0.7
 			reliability = -0.5
 		}
 		xp_cost = 0
@@ -2095,8 +2089,9 @@ tank_high_velocity_cannon_m1 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 2
-			breakthrough = 8
+			build_cost_ic = 1.5
+			breakthrough = 6
+			reliability = -0.1
 	
 		}
 		xp_cost = 0
@@ -2108,9 +2103,9 @@ tank_high_velocity_cannon_m1 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 1.25
 			reliability = -0.1
-			defense = 3
+			defense = 4
 		
 		}
 		
@@ -2207,7 +2202,7 @@ tank_high_velocity_cannon_m1 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 2.
+			build_cost_ic = 1.5
 			breakthrough = 6
 			defense = 3
 			reliability = -0.1
@@ -2237,8 +2232,6 @@ tank_high_velocity_cannon_m1 = {
 
 		add_stats = {
 			soft_attack = 3
-			defense = 1
-			breakthrough = 1
 			air_attack = 1
 			build_cost_ic = 1
 			reliability = -0.05

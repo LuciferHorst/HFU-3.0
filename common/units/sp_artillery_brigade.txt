@@ -21,10 +21,10 @@ sub_units = {
 			category_army
 		}		
 
-		combat_width = 3
+		combat_width = 2
 
 		need = {
-			mechanized_spg_equipment = 36
+			mechanized_spg_equipment = 50
 		}
 		manpower = 500
 		max_organisation = 0
@@ -37,7 +37,7 @@ sub_units = {
 		suppression = 1.25
 
 		forest = {
-			attack = -0.2
+			attack = -0.1
 			movement = -0.4
 			defence = -0.2
 		}
@@ -89,10 +89,10 @@ sub_units = {
 			category_army
 		}		
 
-		combat_width = 3
+		combat_width = 2
 
 		need = {
-			light_tank_artillery_chassis = 36
+			light_tank_artillery_chassis = 60
 		}
 		manpower = 500
 		max_organisation = 0
@@ -155,10 +155,10 @@ sub_units = {
 			category_all_armor
 			category_army
 		}		
-		combat_width = 3
+		combat_width = 2
 
 		need = {
-			medium_tank_artillery_chassis = 36
+			medium_tank_artillery_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 0
@@ -173,9 +173,11 @@ sub_units = {
 		forest = {
 			attack = -0.3
 			movement = -0.4
+			defence = -0.1
 		}
 		hills = 	{
 			attack = -0.2
+			defence = -0.2
 		}
 		mountain = 	{
 			attack = -0.5
@@ -189,7 +191,7 @@ sub_units = {
 		}
 		marsh = {
 			attack = -0.2
-			defence= -0.2
+			defence= -0.4
 			movement = -0.1
 		}
 		urban = {
@@ -226,10 +228,10 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 3
+		combat_width = 2
 
 		need = {
-			heavy_tank_artillery_chassis = 24
+			heavy_tank_artillery_chassis = 40
 		}
 		manpower = 500
 		max_organisation = 0
@@ -247,6 +249,7 @@ sub_units = {
 		}
 		hills = {
 			attack = -0.20
+			defence = -0.2
 		}
 		mountain = 	{
 			attack = -0.5
@@ -297,10 +300,10 @@ sub_units = {
 		}
 		
 
-		combat_width = 3
+		combat_width = 2
 
 		need = {
-			super_heavy_tank_artillery_chassis = 12
+			super_heavy_tank_artillery_chassis = 40
 		}
 		manpower = 500
 		max_organisation = 0
@@ -315,9 +318,11 @@ sub_units = {
 		forest = {
 			attack = -0.5
 			movement = -0.4
+			defence = -0.2
 		}
 		hills = {
 			attack = -0.3
+			defence = -0.2
 		}
 		mountain = 	{
 			attack = -0.4
@@ -366,7 +371,7 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 3
+		combat_width = 2
 
 		need = {
 			modern_tank_artillery_chassis = 40
