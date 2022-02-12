@@ -259,9 +259,9 @@ if = {
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_auto_cannon_2
-			turret_type_slot = tank_light_two_man_tank_turret
+			turret_type_slot = tank_light_three_man_tank_turret
 			special_type_slot_1 = tank_radio_1
-			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_2 = secondary_turret_hmg
 			special_type_slot_3 = extra_ammo_storage
 
 			suspension_type_slot = tank_bogie_suspension

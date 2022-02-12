@@ -544,20 +544,20 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = theorist
 			idea_token = albert_kesselring
+			ledger = air
 			allowed = {
 				original_tag = GER
 			}
 			traits = {
-				air_chief_reform_2
+				dive_bomber
 			}
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
-		}
-		
+		}		
 		corps_commander={
 			traits = { harsh_leader infantry_leader naval_invader trickster trait_mountaineer }
 			skill=6

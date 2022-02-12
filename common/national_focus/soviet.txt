@@ -1479,9 +1479,9 @@ focus = {
 	focus = {
 		id = SOV_socialist_science
 		icon = GFX_focus_SOV_socialist_science
-		prerequisite = { focus = SOV_workers_culture }
+		prerequisite = { focus = SOV_winter_camps }
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = SOV_workers_culture
 		cost = 5
 		ai_will_do = {
@@ -2196,11 +2196,11 @@ focus = {
 			}	
 focus = {
     id = SOV_winter_camps
-	prerequisite = { focus = SOV_socialist_science }
+	prerequisite = { focus = SOV_workers_culture }
 	icon = GFX_focus_SOV_winter_camps
 	x = 0
 	y = 1
-	relative_position_id = SOV_socialist_science
+	relative_position_id = SOV_workers_culture
 	cost = 5
 	completion_reward = {
 		833 = {
@@ -2228,6 +2228,14 @@ focus = {
 			instant_build = yes
 				}
 			}
+			260 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+					}
+				}
 			}
 		}		
 focus = {
@@ -2385,10 +2393,10 @@ focus = {
 	id = SOV_modernize_the_tank_corp
 	icon = GFX_focus_SOV_modernize_tank
 	cost = 5
-	prerequisite = { focus = SOV_winter_camps focus = SOV_mechanization_effort }
+	prerequisite = { focus = SOV_socialist_science focus = SOV_mechanization_effort }
 	relative_position_id = SOV_winter_camps 
 	x = 1
-	y = 1
+	y = 2
 	completion_reward = { 
 		add_tech_bonus = {
 		name = armor

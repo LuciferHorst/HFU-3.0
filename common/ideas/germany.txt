@@ -475,10 +475,6 @@ ideas = {
 				production_speed_rail_way_factor = 0.2
 				production_speed_supply_node_factor = 0.2
 			}
-			targeted_modifier = {
-				tag = SOV
-				defense_bonus_against  = -0.1
-			}
 		}
 		GER_barbarossa_spr = {
 			allowed = {
@@ -501,47 +497,7 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = SOV
-				defense_bonus_against  = -0.1
 				breakthrough_bonus_against  = 0.05
-			}
-			targeted_modifier = {
-				tag = ENG
-				defense_bonus_against  = -0.1
-				attack_bonus_against  = -0.1
-			}
-			targeted_modifier = {
-				tag = USA
-				defense_bonus_against  = -0.1
-				attack_bonus_against  = -0.1
-			}
-			targeted_modifier = {
-				tag = FRA
-				defense_bonus_against  = -0.1
-				attack_bonus_against  = -0.1
-			}
-			targeted_modifier = {
-				tag = AST
-				defense_bonus_against  = -0.1
-				attack_bonus_against  = -0.1
-				
-			}
-			targeted_modifier = {
-				tag = CAN
-				defense_bonus_against  = -0.1
-				attack_bonus_against  = -0.1
-				
-			}
-			targeted_modifier = {
-				tag = RAJ
-				defense_bonus_against  = -0.1
-				attack_bonus_against  = -0.1
-				
-			}
-			targeted_modifier = {
-				tag = SAF
-				defense_bonus_against  = -0.1
-				attack_bonus_against  = -0.1
-				
 			}
 		}
 		GER_barbarossa_2 = {
@@ -627,7 +583,6 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = SOV
-				defense_bonus_against  = -0.1
 				breakthrough_bonus_against = 0.05
 			}
 		}

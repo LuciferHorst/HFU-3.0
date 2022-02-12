@@ -1314,7 +1314,7 @@ focus = {
 		x = 1
 		y = 1
 		relative_position_id = GER_hermann_goering_plan
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -1325,7 +1325,7 @@ focus = {
 			add_political_power = 150
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = todt
-			add_ideas = GER_organisation_todt
+			add_ideas = ITA_infantry1
 
 			ITA = {
 				add_ideas = ITA_infantry1
@@ -3777,25 +3777,7 @@ focus = {
 		}		
 						}	
 		}
-focus = {
-	id = GER_marinestosstrupp
-	icon = GFX_focus_GER_marine
-	prerequisite = {  focus = GER_improve_our_military }
-	x = 0
-	y = 1
-	relative_position_id = GER_improve_our_military
-	cost = 5
-	completion_reward = {
-		add_tech_bonus = {
-		name = GER_panzerfaus^
-		bonus = 2.0
-		ahead_reduction = 1
-		uses = 2
-		technology = infantry_at
-		technology = infantry_at2
-						}	
-	    }
-	}
+
 focus = {
 	id = GER_reinforce_the_line
 	icon = GFX_focus_GER_reinforce_the_line
@@ -3824,10 +3806,10 @@ focus = {
 focus = {
 	id = GER_develop_mp43
 	icon = GFX_focus_GER_new_weapons
-	prerequisite = {  focus = GER_marinestosstrupp }
+	prerequisite = {  focus = GER_improve_our_military }
 	x = 0
 	y = 1
-	relative_position_id = GER_marinestosstrupp
+	relative_position_id = GER_improve_our_military
 	cost = 5
 	completion_reward = {
 		add_tech_bonus = {
@@ -3836,7 +3818,26 @@ focus = {
 	    technology = advanced_infantry_weapons
 		}	
 						}
-}						
+}
+focus = {
+	id = GER_marinestosstrupp
+	icon = GFX_focus_GER_marine
+	prerequisite = {  focus = GER_develop_mp43 }
+	x = 0
+	y = 1
+	relative_position_id = GER_develop_mp43
+	cost = 5
+	completion_reward = {
+		add_tech_bonus = {
+		name = GER_panzerfaust
+		bonus = 2.0
+		ahead_reduction = 1
+		uses = 2
+		technology = infantry_at
+		technology = infantry_at2
+						}	
+	    }
+	}						
 focus = {
 	id = GER_get_better_advisors
 	icon = GFX_focus_GER_get_better_advisors

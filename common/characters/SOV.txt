@@ -1648,7 +1648,7 @@ characters = {
 				original_tag = SOV
 			}
 			traits = {
-				army_chief_organizational_2
+				army_chief_offensive_1
 			}
 			cost = 100
 			ai_will_do = {
