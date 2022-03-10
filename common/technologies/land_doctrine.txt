@@ -178,7 +178,7 @@ technologies = {
 		xp_research_bonus = 1
 		category_all_infantry = {
 			default_morale = 0.05
-			max_organisation = 10
+			max_organisation = 5
 			maximum_speed = 0.1
 		}
 		path = {
@@ -2533,9 +2533,6 @@ technologies = {
 			need = {support_equipment = -5}
 		}
 		maintenance_company = {
-			need = {support_equipment = -5}
-		}
-		sniper_recon = {
 			need = {support_equipment = -5}
 		}
 		on_research_complete = {

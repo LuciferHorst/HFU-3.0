@@ -2083,19 +2083,19 @@ tank_high_velocity_cannon_m1 = {
 		}
 	}
 
-	stabilizer = {
-		abbreviation = "stab"
-		category = tank_special_module
-		sfx = sfx_ui_sd_module_turret
+	#stabilizer = {
+	#	abbreviation = "stab"
+	#	category = tank_special_module
+	#	sfx = sfx_ui_sd_module_turret
 
-		add_stats = {
-			build_cost_ic = 1.5
-			breakthrough = 6
-			reliability = -0.1
-	
-		}
-		xp_cost = 0
-	}
+	#	add_stats = {
+	#		build_cost_ic = 1.5
+	#		breakthrough = 6
+	#		reliability = -0.1
+	#
+	#	}
+	#	xp_cost = 0
+	#}
 
 	smoke_launchers = {
 		abbreviation = "smok"
@@ -2104,9 +2104,8 @@ tank_high_velocity_cannon_m1 = {
 
 		add_stats = {
 			build_cost_ic = 1.25
-			reliability = -0.1
-			defense = 4
-		
+			reliability = -0.075
+			defense = 3
 		}
 		
 		multiply_stats = {

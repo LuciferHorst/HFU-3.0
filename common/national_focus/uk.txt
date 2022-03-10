@@ -677,7 +677,7 @@ focus_tree = {
 		bypass = {
 		}
 		completion_reward = {
-			add_timed_idea = {idea = britannia_rules_the_waves days=60}
+			add_timed_idea = {idea = britannia_rules_the_waves days = 100}
 
 
 		}

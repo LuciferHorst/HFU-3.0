@@ -29,7 +29,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				production_speed_dockyard_factor = 2
+				production_speed_dockyard_factor = 1
 			}
 			picture = eng_the_sun_never_sets
 			removal_cost = -1

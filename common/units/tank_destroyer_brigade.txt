@@ -1,6 +1,4 @@
 sub_units = {
-
-
 		mechanised_tank_destroyer_brigade = {
 			abbreviation = "MECHTD"
 			sprite = light_armor

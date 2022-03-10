@@ -1107,7 +1107,7 @@ focus = {
 		transfer_state = 728
 		hidden_effect = {
 			JAP = {
-				army_experience = 500
+				army_experience = 400
 				air_experience = 600}
 			SOV = { army_experience = 200
 				air_experience = 200}

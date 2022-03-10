@@ -280,7 +280,6 @@ ideas = {
 				army_org_Factor = 0.1
 				agency_upgrade_time = -0.30
 				sortie_efficiency = -1
-				navy_anti_air_attack_factor = 1
 			}
 		}
 		GER_air_innovations_2_idea = {
