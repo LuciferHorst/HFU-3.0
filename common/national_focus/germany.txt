@@ -3906,8 +3906,17 @@ focus = {
 	cost = 5
 	completion_reward = {
 		add_ideas = GER_determine_the_investment1
-						}	
-	    }
+
+		add_tech_bonus = {
+			name = GER_investment
+			bonus = 1.5
+			uses = 3
+			technology = fuel_refining
+			technology = fuel_refining2
+			technology = fuel_refining3
+		}
+	}	
+}
 focus = {
 	id = GER_rocketry_focus
 	icon = GFX_focus_GER_New_Missile_Designs

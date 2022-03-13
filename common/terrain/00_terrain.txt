@@ -185,7 +185,7 @@ categories =  {
 	
 	desert = {
 		color = { 255 127 0 }
-		movement_cost = 1.05
+		movement_cost = 1.25
 		combat_width = 80
 		combat_support_width = 40
 		ai_terrain_importance_factor = 8.0

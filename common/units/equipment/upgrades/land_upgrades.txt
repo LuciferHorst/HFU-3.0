@@ -6,7 +6,7 @@ upgrades = {
 		cost = land
 
 		linear_cost = {
-			cost_by_level = 5
+			cost_by_level = 7.5
 			cost_by_level_for_licensed_equipment = 5
 		}
 
@@ -31,10 +31,10 @@ upgrades = {
 			}
 		}
 
-		maximum_speed = 0.14
+		maximum_speed = 0.09
 		reliability = -0.02
 		add_stats = {
-			fuel_consumption = 0.06
+			fuel_consumption = 0.05
 			build_cost_ic = 0.1
 		}
 	}
@@ -45,7 +45,7 @@ upgrades = {
 		cost = land
 
 		linear_cost = {
-			cost_by_level = 5
+			cost_by_level = 7.5
 			cost_by_level_for_licensed_equipment = 2
 		}
 
@@ -82,7 +82,6 @@ upgrades = {
 		add_stats = {
 			build_cost_ic = 0.2
 			armor_value = 2.5
-
 		}
 	}
 
