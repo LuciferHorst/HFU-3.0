@@ -17,6 +17,9 @@ operations = {
 				owns_state = 799
 				owns_state = 680
             }
+			ITA = {
+				owns_state = 446
+			}
         }
         days_remove = 10
         available = {
