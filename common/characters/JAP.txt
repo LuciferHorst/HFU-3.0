@@ -144,6 +144,20 @@ characters={
 				factor = 1.000
 			}
 		}
+
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = shunroku_hata
+			ledger = army
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				military_theorist
+			}
+			research_bonus = { land_doctrine = 0.1 }
+		}
 		
 		field_marshal={
 			traits={ organizer trait_engineer JAP_samurai_lineage panzer_leader }

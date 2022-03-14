@@ -1350,6 +1350,7 @@ ideas = {
 					original_TAG = GER
 					original_TAG = HUN
 			}
+		}
 			research_bonus = {
 				industry = 0.15
 			}
