@@ -43,6 +43,7 @@
  	desertinfantry_at = 1
 	bicycle_infantry = 1 
 	shocktroops = 1
+	paratroopers = 1
 	tech_mountaineers = 1
 	marines = 1
 	basic_train = 1

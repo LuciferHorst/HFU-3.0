@@ -1711,9 +1711,9 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
+					
 					tank_radio_module
-					tank_secondary_turret
+					
 				}
 			}
 
@@ -1722,7 +1722,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
 				}
 			}
 
@@ -1731,7 +1731,15 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+				
 				}
 			}
 
@@ -1857,9 +1865,9 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
+					
 					tank_radio_module
-					tank_secondary_turret
+					
 				}
 			}
 
@@ -1868,7 +1876,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+				
 				}
 			}
 
@@ -1877,7 +1885,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
 				}
 			}
 
@@ -1886,7 +1894,15 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+				
 				}
 			}
 
@@ -2012,9 +2028,9 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
+				
 					tank_radio_module
-					tank_secondary_turret
+					
 				}
 			}
 
@@ -2023,7 +2039,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
 				}
 			}
 
@@ -2032,7 +2048,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
 				}
 			}
 
@@ -2041,7 +2057,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
 				}
 			}
 			special_type_slot_5 = {
@@ -2049,7 +2065,15 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
+				}
+			}
+			special_type_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+				
 				}
 			}
 
@@ -2179,7 +2203,7 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
+					
 					tank_radio_module
 				}
 			}
@@ -2188,7 +2212,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 
@@ -2196,7 +2220,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 
@@ -2204,7 +2228,24 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_radio_module
+					tank_secondary_turret
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					
+				}
+			}
+
+			special_type_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+				
 				}
 			}
 
@@ -2217,11 +2258,11 @@ equipments = {
 			category = tank_radio_module
 			count < 2
 		}
+
 		module_count_limit = {
 			module = amphibious_drive
-			count < 1
+			count < 2
 		}
-
 		module_count_limit = {
 			module = wet_ammo_storage
 			count < 2
@@ -2230,6 +2271,10 @@ equipments = {
 		module_count_limit = {
 			module = squeezebore_adaptor
 			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 2 #two secondary turrets only
 		}
 
 		module_count_limit = {
@@ -2248,6 +2293,14 @@ equipments = {
 		}
 		module_count_limit = {
 			module = auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 
@@ -2340,9 +2393,9 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
+					
 					tank_radio_module
-					tank_secondary_turret
+				
 				}
 			}
 
@@ -2351,7 +2404,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
 				}
 			}
 
@@ -2360,7 +2413,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
 				}
 			}
 
@@ -2369,7 +2422,25 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_secondary_turret
-					tank_radio_module
+					
+				}
+			}
+
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+				
+				}
+			}
+
+			special_type_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+				
 				}
 			}
 
@@ -2382,9 +2453,10 @@ equipments = {
 			category = tank_radio_module
 			count < 2
 		}
+
 		module_count_limit = {
 			module = amphibious_drive
-			count < 1
+			count < 2
 		}
 		module_count_limit = {
 			module = wet_ammo_storage
@@ -2394,6 +2466,10 @@ equipments = {
 		module_count_limit = {
 			module = squeezebore_adaptor
 			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 2 #two secondary turrets only
 		}
 
 		module_count_limit = {
@@ -2416,6 +2492,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = tungston_core_ammunition
 			count < 2
 		}
 		default_modules = {
