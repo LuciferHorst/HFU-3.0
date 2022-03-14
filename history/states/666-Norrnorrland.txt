@@ -6,7 +6,7 @@ state={
 	resources={
 		tungsten=70 # was: 70
 		steel= 80 # was: 80
-		chromium = 40 # was: 40
+		chromium = 20 # was: 40
 	}
 	
 	state_category = rural

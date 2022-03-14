@@ -1,5 +1,5 @@
---Horst defines:
-
+--HFU defines:
+NDefines.NMilitary.PLANNING_MAX = 0.25
 --------------------------------------------------------------
 ---nukes
 --NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT =0

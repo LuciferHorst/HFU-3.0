@@ -276,6 +276,7 @@ recruit_character = GER_erich_raeder
 recruit_character = GER_erich_von_manstein
 recruit_character = GER_heinz_guderian
 recruit_character = GER_wilhelm_list
+recruit_character = GER_kurt_schmitt
 recruit_character = GER_ewald_von_kleist
 recruit_character = GER_fedor_von_bock
 recruit_character = GER_walter_model

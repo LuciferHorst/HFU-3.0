@@ -5,7 +5,9 @@ state={
 	manpower = 1
 	
 	state_category = rural
-
+	resources={
+		chromium = 8
+	}
 	history={
 		owner = TUR
 		buildings = {

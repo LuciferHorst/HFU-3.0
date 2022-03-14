@@ -1145,6 +1145,29 @@ characters={
 		}		
 	}
 
+	GER_kurt_schmitt = {
+		name= GER_kurt_schmitt
+		portraits={
+			army={
+				small="GFX_idea_joachim_von_ribbentrop"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kurt_schmitt
+			cost = 75.000
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				has_completed_focus = GER_get_better_advisors 
+			}
+			traits = {
+				industrial_genius 
+			}
+		}		
+	}
+
 	GER_walther_funk={
 		name=GER_walther_funk
 		portraits={
@@ -1314,10 +1337,10 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_get_better_advisors
+
 			}
 			traits = {
-				industrial_genius 
+				smooth_talking_charmer 
 			}
 			ai_will_do = {
 				factor = 0.000
