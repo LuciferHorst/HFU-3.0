@@ -951,8 +951,9 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = ROM
 					original_TAG = HUN
+					original_TAG = ROM
+					
 				}
 			}
 			available = {
@@ -994,8 +995,9 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = ROM
 					original_TAG = HUN
+					original_TAG = ROM
+					
 				}
 			}
 			research_bonus = {
@@ -1037,8 +1039,9 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = ROM
 					original_TAG = HUN
+					original_TAG = ROM
+					
 				}
 			}
 			research_bonus = {
@@ -1072,8 +1075,9 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = ROM
 					original_TAG = HUN
+					original_TAG = ROM
+					
 				}
 			}
 			traits = {  }
@@ -1101,8 +1105,9 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = ROM
 					original_TAG = HUN
+					original_TAG = ROM
+					
 				}
 			}
 			available = {
@@ -1140,9 +1145,10 @@ ideas = {
 					original_TAG = GER
 					original_TAG = ITA
 					original_TAG = SPR
+					original_TAG = HUN
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = HUN
+					
 				}
 			}
 			available = {
@@ -1183,9 +1189,9 @@ ideas = {
 					original_TAG = GER
 					original_TAG = ITA
 					original_TAG = SPR
+					original_TAG = HUN
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = HUN
 					original_TAG = JAP
 				}
 			}
@@ -1340,7 +1346,9 @@ ideas = {
 		}
 		krupp = {
 			allowed = {
-				original_tag = GER
+				or = {
+					original_TAG = GER
+					original_TAG = HUN
 			}
 			research_bonus = {
 				industry = 0.15
