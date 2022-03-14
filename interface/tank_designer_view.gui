@@ -102,9 +102,11 @@ guiTypes = {
 			@fixed_btn_mod_col_5 = 366
 			@fixed_btn_mod_col_6 = 439
 			@fixed_btn_mod_col_7 = 512
+			
 
 			@fixed_btn_mod_row_0 = 1
 			@fixed_btn_mod_row_1 = 300
+			
 
 			# Code checks this position to know if module is in upper or low row to
 			# give the tooltip the correct anchor 
@@ -117,58 +119,76 @@ guiTypes = {
 			# defines the position of an instance of the window
 			# equipment_designer_module_slot_entry
 
-			positionType = {
+			positionType = {            #gun
 				name = "pos_custom_module_slot_window_0"
 				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_0 }
 			}
 
-			positionType = {
+			positionType = {            #turret
 				name = "pos_custom_module_slot_window_1"
 				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_0 }
 			}
 
-			positionType = {
+			positionType = {            #suspension
 				name = "pos_custom_module_slot_window_2"
 				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_1 }
 			}
 
-			positionType = {
+			positionType = {            #armor
 				name = "pos_custom_module_slot_window_3"
 				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_1 }
 			}
 
-			positionType = {
+			
+
+			positionType = {             #engine
 				name = "pos_custom_module_slot_window_4"
 				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_1 }
+			}
+
+			positionType = {              #radio
+				name = "pos_custom_module_slot_window_5"
+				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_1 }
 			}
 
 			######################################################################
 			# Special module slot below
 			######################################################################
 
+            positionType = {
+				name = "pos_custom_module_slot_window_4"
+				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_0 }
+			}
+
 			positionType = {
 				name = "pos_custom_module_slot_window_5"
-				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_0 }
+				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_6"
-				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_0 }
+				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_7"
-				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_0 }
+				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_0 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_8"
-				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_0 }
+				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_0 }
 			}
 			positionType = {
 				name = "pos_custom_module_slot_window_9"
+				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_0 }
+			}
+			positionType = {
+				name = "pos_custom_module_slot_window_10"
 				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_0 }
 			}
+			
+			
 
 			######################################################################
 			# Equipment upgrades
@@ -263,13 +283,13 @@ guiTypes = {
 		iconType = {
 			name = "tag_icon_bg"
 			spriteType = "GFX_role_icon_bg"
-			position = { x = 251 y = 442 }
+			position = { x = 450 y = 200 }
 			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "niche_button"
-			position = { x = 260 y = 449 }
+			position = { x = 459 y = 205 }
 			spriteType = "GFX_niche_icon_strip"
 			clicksound = "ui_tank_designer_company_icon"
 			pdx_tooltip = "DESIGNER_SELECT_NICHE"
