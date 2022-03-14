@@ -198,24 +198,6 @@ equipments = {
 					tank_engine_type
 				}
 			}
-
-			special_type_slot_1 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
-				}
-			}
-
-			special_type_slot_2 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
-				}
-			}
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -881,24 +863,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_engine_type
 				}
-			}
-
-			special_type_slot_1 = {
-				required = no
-				allowed_module_categories = {
-					tank_radio_module
-					tank_special_module
-					tank_secondary_turret
-				}
-			}
-
-			special_type_slot_2 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_secondary_turret
-					tank_radio_module
-				}
 			}		
 		}
 		module_count_limit = {
@@ -1437,11 +1401,7 @@ equipments = {
 		}
 
 		manpower = 2
-
 	}
-
-
-	
 
 	heavy_tank_chassis = {
 		year = 1922
@@ -1641,26 +1601,8 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_engine_type
+					}
 				}
-			}
-
-			special_type_slot_1 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
-				}
-			}
-
-			special_type_slot_2 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_secondary_turret
-					tank_radio_module
-				}
-			}
 		}
 		module_count_limit = {
 			module = sloped_armor
