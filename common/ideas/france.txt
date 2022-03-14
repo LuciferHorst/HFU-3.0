@@ -346,9 +346,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_factory_efficiency_gain_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.15
 			}
-			research_bonus = { industry = 0.15}
+			research_bonus = { industry = 0.1 }
 		}
 		FRA_anti_decandence = {
 			picture = generic_oppression
