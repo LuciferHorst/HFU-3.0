@@ -696,7 +696,7 @@ ideas = {
 			}
 		}
 	}
-	materiel_manufacturer = {
+	materiel_research = {
 		designer = yes
 		beretta = {
 			allowed = {

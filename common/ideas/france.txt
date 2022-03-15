@@ -1339,7 +1339,7 @@ ideas = {
 		}
 	}
 
-	materiel_manufacturer = {
+	materiel_research = {
 			
 		designer = yes
 		
@@ -1437,7 +1437,7 @@ ideas = {
 			traits = { raiding_fleet_naval_manufacturer }
 		}
 	}
-	industrial_concern = {	
+	industrial_research = {	
 		
 		famh = {
 						

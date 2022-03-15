@@ -301,7 +301,7 @@ ideas = {
 			traits = { pacific_fleet_naval_manufacturer }
 		}
 	}
-	materiel_manufacturer = {
+	materiel_research = {
 		designer = yes
 		lysaghts_works = {
 			picture = generic_infantry_equipment_manufacturer_2

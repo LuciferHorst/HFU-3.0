@@ -1894,7 +1894,7 @@ ideas = {
 			modifier = { aircraft_manufacturer_cost_factor = -1 }
 		}
 	}
-	materiel_manufacturer = {
+	materiel_research = {
 		designer = yes
 		springfield_armory = {
 			allowed = {

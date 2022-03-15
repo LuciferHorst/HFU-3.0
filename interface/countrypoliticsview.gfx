@@ -1,5 +1,31 @@
 spriteTypes = {
 	
+	#Research icons
+	spriteType = {
+		name = "GFX_idea_slot_industrial_research"
+		textureFile = "gfx/interface/idea_slot_industrial_research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_materiel_research"
+		textureFile = "gfx/interface/idea_slot_materiel_research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_naval_research"
+		textureFile = "gfx/interface/idea_slot_naval_research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_aircraft_research"
+		textureFile = "gfx/interface/idea_slot_aircraft_research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_tank_research"
+		textureFile = "gfx/interface/idea_slot_tank_research.dds"
+	}
+
 	#Government in Exile
 
 	spriteType = {
@@ -123,8 +149,6 @@ spriteTypes = {
 		name = "GFX_autonomy_integrated_puppet_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_integrated_puppet_icon.dds"
 	}
-	
-	
 	
 	spriteType = {
 		name = "GFX_autonomy_level_button"

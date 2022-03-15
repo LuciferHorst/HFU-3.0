@@ -1,6 +1,21 @@
 ﻿l_english:
- SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
 
+ #Research & Theory tab
+ tank_research:0 "Armor Research"
+ naval_research:0 "Naval Research"
+ aircraft_research:0 "Air Research"
+ materiel_research:0 "Weapons Research"
+ industrial_research:0 "Industrial Research"
+ 
+ #Traits
+ tank_research_trait:0 "Tank Research"
+ naval_research_trait:0 "Naval Research"
+ materiel_research_trait:0 "Materiel Research"
+ artillery_research_trait:0 "Artillery Research"
+ motorized_research_trait:0 "Motorized Research"
+ aircraft_research_trait:0 "Aircraft Research"
+
+ SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
  JAP_economy_law:0 "Civilian Administration"
  JAP_economy_law:0 "Public Funding"
  JAP_industrial_research:0 "Colonial Industrial Expirience"
@@ -765,7 +780,8 @@
  wartime_industry_focus:0 "Wartime Industry"
  bureau_of_ships_focus:0 "Bureau of Ships"
  government:1 "Laws & Government"
- research_production:0 "Research & Production"
+ research_production:0 "Research & Theory"
+ design_production:0 "Design & Production"
  military_staff:0 "Military Staff"
  political_advisor:0 "Political Advisor"
  mobilization_laws:0 "Conscription Law"

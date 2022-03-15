@@ -133,7 +133,7 @@ ideas = {
 			}
 		}
 	}
-	materiel_manufacturer = {
+	materiel_research = {
 		designer = yes
 		SPR_star_bonifacio_echeverria = {
 			picture = SPR_star_bonifacio_echeverria

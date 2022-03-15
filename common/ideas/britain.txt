@@ -823,9 +823,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				naval_equipment = 0.15
-			}
 			modifier = { naval_manufacturer_cost_factor = -1 }
 			traits = { convoy_escort_naval_manufacturer }
 		}
@@ -834,9 +831,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				naval_equipment = 0.15
-			}
 			modifier = { naval_manufacturer_cost_factor = -1 }
 			traits = { pacific_fleet_naval_manufacturer }
 		}
@@ -845,9 +839,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				naval_equipment = 0.15
-			}
 			traits = { atlantic_fleet_naval_manufacturer }
 			modifier = { naval_manufacturer_cost_factor = -1 }
 		}
@@ -856,9 +847,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				naval_equipment = 0.15
-			}
 			modifier = { naval_manufacturer_cost_factor = -1 }
 			traits = { raiding_fleet_naval_manufacturer }
 		}
@@ -870,9 +858,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				air_equipment = 0.15
-			}
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = 0.1
@@ -886,9 +871,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				air_equipment = 0.15
-			}
 			equipment_bonus = {
 				CAS_equipment = {
 					build_cost_ic = -0.1
@@ -905,9 +887,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				air_equipment = 0.15
-			}
 			traits = { medium_aircraft_manufacturer }
 			modifier = { aircraft_manufacturer_cost_factor = -1 }
 		}
@@ -916,24 +895,17 @@ ideas = {
 				original_TAG = ENG
 			}
 			cost = 100
-			research_bonus = {
-				air_equipment = 0.15
-			}
 			traits = { naval_aircraft_manufacturer }
 			modifier = { aircraft_manufacturer_cost_factor = -1 }
 		}
 	}
-	materiel_manufacturer = {
+	materiel_research = {
 		designer = yes
 		rsaf_enfield = {
 			allowed = {
 				original_TAG = ENG
 			}
-			research_bonus = {
-				infantry_weapons = 0.15
-				motorized_equipment = 0.15
-			}
-			traits = { infantry_equipment_manufacturer motorized_equipment_manufacturer}
+			traits = { infantry_equipment_manufacturer }
 			modifier = {
 			}
 		}
@@ -941,16 +913,12 @@ ideas = {
 			allowed = {
 				original_TAG = ENG
 			}
-			research_bonus = {
-				artillery = 0.15
-				support_tech = 0.15
-			}
 			traits = { artillery_manufacturer support_equipment_manufacturer }
 			modifier = {
 			}
 		}
 	}
-	industrial_concern = {
+	industrial_research = {
 		aioc = {
 			allowed = {
 				original_TAG = ENG
@@ -994,9 +962,6 @@ ideas = {
 					original_TAG = RAJ
 				}
 			}
-			research_bonus = {
-				armor = 0.15
-			}
 			equipment_bonus = {
 				armor = {
 					maximum_speed = 0.05
@@ -1016,9 +981,6 @@ ideas = {
 					original_TAG = RAJ
 				}
 			}
-			research_bonus = {
-				armor = 0.15
-			}
 			modifier = { tank_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				armor = {
@@ -1037,9 +999,6 @@ ideas = {
 					original_TAG = AST
 					original_TAG = RAJ
 				}
-			}
-			research_bonus = {
-				armor = 0.15
 			}
 			modifier = { tank_manufacturer_cost_factor = -1 }
 			equipment_bonus = {

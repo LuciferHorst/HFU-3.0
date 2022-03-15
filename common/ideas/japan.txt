@@ -1234,7 +1234,7 @@ ideas = {
 			traits = { refinery_concern infrastructure_expert }
 		}
 	}
-	materiel_manufacturer = {
+	materiel_research = {
 		designer = yes
 		tokyo_arsenal = {
 			allowed = {
