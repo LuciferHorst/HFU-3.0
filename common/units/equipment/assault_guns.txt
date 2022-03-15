@@ -63,4 +63,48 @@ equipments = {
 
 	}
 
+	improved_assault_guns = {
+		year = 1940
+	
+		archetype = assault_gun_equipment
+		priority = 5
+		visual_level = 0
+		
+		#STATS
+		manpower = 500
+		default_morale = 0.3
+		max_strength = 0.1
+		weight = 1
+		supply_consumption = 0
+		initiative = 0.005
+		suppression = 2
+		soft_attack = 4
+		defense = 2
+		breakthrough = 2
+		build_cost_ic = 10
+
+	}
+
+	advanced_assault_guns = {
+		year = 1942
+	
+		archetype = assault_gun_equipment
+		priority = 5
+		visual_level = 0
+		
+		#STATS
+		manpower = 500
+		default_morale = 0.3
+		max_strength = 0.1
+		weight = 1
+		supply_consumption = 0
+		initiative = 0.005
+		suppression = 2
+		soft_attack = 4
+		defense = 2
+		breakthrough = 2
+		build_cost_ic = 10
+
+	}
+
 }

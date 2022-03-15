@@ -1596,13 +1596,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1940
 		categories = {
-			year_1939
+			year_1940
 		}
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 5 }
+			position = { x = 4 y = @1940 }
 		}
 		categories = {
 			motorized_equipment
@@ -1633,13 +1633,13 @@ technologies = {
 			armored_car_equipment_2
 		}
 		research_cost = 2
-		start_year = 1940
+		start_year = 1942
 		categories = {
-			year_1940
+			year_1942
 		}
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1940 }
+			position = { x = 4 y = @1942 }
 		}
 		categories = {
 			motorized_equipment
@@ -1673,9 +1673,9 @@ technologies = {
 			armored_car_at_equipment
 		}
 		research_cost = 1
-		start_year = 1941
+		start_year = 1942
 		categories = {
-			year_1941
+			year_1942
 		}
 		sub_tech_index = 1
 		categories = {
@@ -1695,9 +1695,57 @@ technologies = {
 		categories = {
 			year_1936
 		}
+		path = {
+			leads_to_tech = assault_guns_2
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = infantry_folder
 			position = { x = 6 y = 2 }
+		}
+		categories = {
+			assault_guns
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	assault_guns_2 = {
+		enable_equipments = {
+			improved_assault_guns
+		}
+		research_cost = 2
+		start_year = 1940
+		categories = {
+			year_1940
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 8 }
+		}
+		path = {
+			leads_to_tech = assault_guns_3
+			research_cost_coeff = 1
+		}
+		categories = {
+			assault_guns
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	assault_guns_3 = {
+		enable_equipments = {
+			advanced_assault_guns
+		}
+		research_cost = 2
+		start_year = 1942
+		categories = {
+			year_1942
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 12 }
 		}
 		categories = {
 			assault_guns
@@ -1789,6 +1837,33 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1940 }
+		}
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_3
+			research_cost_coeff = 1
+		}
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	amphibious_mechanized_infantry_3 = {
+		enable_equipments = {
+			amphibious_mechanized_equipment_2
+		}
+		research_cost = 2
+		start_year = 1942
+		categories = {
+			year_1942
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1942 }
 		}
 		categories = {
 			motorized_equipment
