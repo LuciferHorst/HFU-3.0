@@ -126,9 +126,9 @@ ideas = {
 			}
 			picture = italy_refit
 			modifier = {
-				refit_ic_cost = -0.1
-				refit_speed = 0.1
-				repair_speed_factor = 0.1
+				refit_ic_cost = -0.15
+				refit_speed = 0.15
+				repair_speed_factor = 0.15
 			}
 		}
 		ITA_dockyard_building = {

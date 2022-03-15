@@ -23,13 +23,13 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "countrystateview"
-		position = { x=-416 y=-549}
-		show_position = { x=-6 y =-549 }
+		position = { x=-416 y=-653}
+		show_position = { x=-6 y =-653 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
 		orientation = lower_left
-		size = { width=436 height=496 }
+		size = { width=436 height=600 }
 		
 		containerWindowType = {
 			name = "state_info_window"
@@ -59,13 +59,14 @@ guiTypes = {
 				position = { x = 155 y = 45 }
 				size = { width = 480 height = 105 }
 				format = "UPPER_LEFT"
-				slotsize = { width = 60 height = 52 }
+				slotsize = { width = 60 height = 102 }
 				max_slots_horizontal = 5
+				#scale=0.7143
 			}
 			
 			instantTextboxType = {
 				name = "shared_slot_count"
-				position = { x = 194 y = 147 }
+				position = { x = 194 y = 251 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				text = "SLOTS"
@@ -76,11 +77,11 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_shared_slot_building_entries"
-				position = { x = 153 y = 170 }
+				position = { x = 153 y = 274 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 58 height = 46 }
-				max_slots_horizontal = 5
+				slotsize = { width = 41 height = 33 }
+				max_slots_horizontal = 7
 			}
 
 			iconType ={
@@ -160,7 +161,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "state_resources"
-				position = { x= 26 y=301}
+				position = { x= 26 y=405}
 				size = { width=135 height=99 }
 				
 				
@@ -200,7 +201,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "resistance_container"
-				position = { x = 20 y = 196}	
+				position = { x = 20 y = 300}	
 				size = { width = 519 height = 100 }
 				
 				iconType ={
@@ -273,7 +274,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "province_info_window"
-			position = { x = 20 y = 435 }
+			position = { x = 20 y = 539 }
 			size = { width=480 height=29%% }
 			
 			iconType = {
@@ -489,12 +490,14 @@ guiTypes = {
 			position = { x=0 y=0 }	
 			spriteType = "GFX_build_slot_bg"
 			alwaystransparent = yes
+			scale=0.7143
 		}
 		
 		buttonType = {
 			name = "building_picture"
 			position = { x = 10 y = 0 }
 			quadTextureSprite = "GFX_buildings_strip"
+			scale=0.7143
 		}
 		
 		iconType = {
@@ -502,6 +505,7 @@ guiTypes = {
 			position = { x = 10 y = 0 }
 			quadTextureSprite = "GFX_building_status_overlay"
 			alwaystransparent = yes
+			scale=0.7143
 		}
 		
 		buttonType = {
