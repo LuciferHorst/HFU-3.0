@@ -246,4 +246,27 @@ focus = {
 			GER = {add_ideas =  tot_economic_mobilisation}
 		}
 	}
-
+	focus = {
+		id = VEN_hurensohn_sealion_3
+		icon = GFX_goal_generic_consumer_goods
+		cost = 1
+		x = 14
+		y = 0
+		available_if_capitulated = yes
+		available = {
+			or = {
+				USA = {NOT = {has_full_control_of_state = 378 }}
+				USA = {NOT = {has_full_control_of_state = 385 }}
+				USA = {NOT = {has_full_control_of_state = 386 }}
+				USA = {NOT = {has_full_control_of_state = 361 }}
+				USA = {NOT = {has_full_control_of_state = 360 }}
+				USA = {NOT = {has_full_control_of_state = 358 }}
+				USA = {NOT = {has_full_control_of_state = 359 }}
+				USA = {NOT = {has_full_control_of_state = 357 }}
+			}
+		}
+		completion_reward = { 
+			USA = {add_ideas =  tot_economic_mobilisation}
+		}
+	}
+}

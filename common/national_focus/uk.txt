@@ -703,6 +703,7 @@ focus_tree = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
+			add_ideas = ENG_expand_the_repair_yards
 			add_ideas = ENG_secure_the_imperial_shipping_routes
 			add_tech_bonus = {
 				name = ENG_secure_the_imperial_shipping_routes
@@ -970,7 +971,6 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = ENG_expand_the_repair_yards
 			129 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

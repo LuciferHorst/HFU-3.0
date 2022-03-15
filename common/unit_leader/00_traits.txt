@@ -1495,6 +1495,8 @@ leader_traits = {
 		type = navy
 		modifier = {
 			naval_enemy_fleet_size_ratio_penalty_factor = 0.5
+			naval_has_potf_in_combat_attack = 0.05
+			naval_has_potf_in_combat_defense = 0.05
 		}
 
 		ai_will_do = {
@@ -1634,7 +1636,7 @@ leader_traits = {
 	marksman = {
 		type = navy
 		modifier = {
-			naval_critical_score_chance_factor = 0.1
+			naval_hit_chance = 0.05
 		}
 
 		ai_will_do = {
@@ -1651,7 +1653,7 @@ leader_traits = {
 	crisis_magician = {
 		type = navy
 		modifier = {
-			naval_critical_effect_factor = -0.5
+			naval_retreat_speed = 0.1
 		}
 
 		ai_will_do = {
