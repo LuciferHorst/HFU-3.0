@@ -168,12 +168,6 @@ equipments = {
 					tank_mechanized_turret_type
 				}
 			}
-			special_type_slot_1 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-				}
-			}
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -309,14 +303,6 @@ equipments = {
 					tank_special_module
 				}
 			}
-			special_type_slot_2 = {
-				required = no
-				allowed_module_categories = {
-					
-					tank_special_module
-					
-				}
-			}
 
 		}
 
@@ -439,12 +425,6 @@ equipments = {
 				}
 			}
 			special_type_slot_2 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-				}
-			}
-			special_type_slot_3= {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
