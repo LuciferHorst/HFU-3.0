@@ -107,9 +107,6 @@ technologies = {
 		mechanized = {
 			soft_attack = 0.05
 		}
-		amphibious_mechanized = {
-			soft_attack = 0.05
-		}
 		path = {
 			leads_to_tech = improved_infantry_weapons
 			research_cost_coeff = 1
@@ -198,9 +195,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		mechanized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
 		path = {
@@ -354,9 +348,6 @@ technologies = {
 		mechanized = {
 			soft_attack = 0.1
 		}
-		amphibious_mechanized = {
-			soft_attack = 0.1
-		}
 		research_cost = 1.5
 		start_year = 1944
 		folder = {
@@ -430,7 +421,7 @@ technologies = {
 	marines2 = {
 		marine = {
 			max_organisation = 5
-			soft_attack = 0.05
+			
 		}
 		path = {
 			leads_to_tech = marines3
@@ -547,7 +538,7 @@ technologies = {
 
 		paratrooper = {
 			max_organisation = 5
-			soft_attack = 0.05
+			
 		}
 		
 		path = {
@@ -665,7 +656,7 @@ technologies = {
 	tech_mountaineers2 = {
 		mountaineers = {
 			max_organisation = 5
-			soft_attack = 0.05
+			
 		}
 		path = {
 			leads_to_tech = tech_mountaineers3
@@ -957,7 +948,6 @@ technologies = {
 	shocktroops2 = {
 		shocktroop = {
 			max_organisation = 5
-			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = shocktroops3
@@ -1036,7 +1026,6 @@ technologies = {
 	desertinfantry_at2 = {
 		desertinfantry = {
 			max_organisation = 5
-			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = desertinfantry_at3
