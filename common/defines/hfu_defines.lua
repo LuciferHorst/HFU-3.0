@@ -2,11 +2,13 @@
 NDefines.NMilitary.PLANNING_MAX = 0.25
 --------------------------------------------------------------
 ---nukes
---NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT =0
---NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT =0.1
---NDefines.NMilitary.NUKE_DELAY_HOURS =12
---NDefines.NMilitary.PARADROP_HOURS = 72
---NDefines.NMilitary.PARADROP_PENALTY = -0.25
+NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT =0
+NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT =0.1
+NDefines.NMilitary.NUKE_DELAY_HOURS =12
+NDefines.NMilitary.PARADROP_HOURS = 72
+NDefines.NMilitary.PARADROP_PENALTY = -0.25
+NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.75
+NDefines.NMilitary.PARACHUTE_COMPLETE_ORG = 0.25     
 NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.25
 NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.25
 NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.001
