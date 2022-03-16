@@ -20,7 +20,7 @@ equipments = {
     			plane_engine_upgrade
     			plane_reliability_upgrade
     		}
-    		air_superiority = 0.5
+    		air_superiority = 0.25
     		reliability = 0.8
     		# Air vs Navy - high damage / low hit chance / hard to hurt
     		naval_strike_attack = 10
@@ -55,7 +55,7 @@ equipments = {
     			plane_engine_upgrade
     			plane_reliability_upgrade
     		}
-    		air_superiority = 0.5
+    		air_superiority = 0.25
     		reliability = 0.8
     		# Air vs Navy - high damage / low hit chance / hard to hurt
     		naval_strike_attack = 15
