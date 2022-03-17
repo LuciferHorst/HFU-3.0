@@ -66,7 +66,7 @@
     		defense = 20
     		breakthrough = 8
     		#Offensive Abilities
-    		soft_attack = 8
+    		soft_attack = 6
     		hard_attack = 1.5
     		ap_attack = 5
     		air_attack = 0
@@ -88,7 +88,7 @@
 			maximum_speed = 4
     		breakthrough = 10
     		#Offensive Abilities
-    		soft_attack = 10
+    		soft_attack = 8
     		hard_attack = 2
     		ap_attack = 10
     		air_attack = 0

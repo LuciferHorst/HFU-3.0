@@ -28,7 +28,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 10
 		
-		build_cost_ic 	= 4.5
+		build_cost_ic 	= 6
 		resources = {
 			#oil 		= 1
 			steel 		= 2
@@ -56,7 +56,7 @@ equipments = {
 		#Offensive Abilities
 		soft_attack 	= 1
 		ap_attack 		= 6
-		build_cost_ic 		= 4 
+		build_cost_ic 		= 6
 	}
 
 	armored_car_equipment_1 = {
@@ -91,7 +91,7 @@ equipments = {
 		soft_attack 	= 5
 			
 		
-		build_cost_ic = 5
+		build_cost_ic = 7
 		resources = {
 			#oil = 1
 			steel = 2

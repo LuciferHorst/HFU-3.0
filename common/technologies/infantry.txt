@@ -742,7 +742,6 @@ technologies = {
 			improved_special_forces
 		}
 		category_special_forces = {
-			max_organisation = 5
 			defense = 0.075
 		}
 		special_forces_training_time_factor = 0.1
@@ -773,7 +772,7 @@ technologies = {
 		}
 		category_special_forces = {
 			breakthrough = 0.05
-			max_organisation = 5
+		
 		}
 		special_forces_training_time_factor = -0.2
 		path = {
@@ -858,7 +857,7 @@ technologies = {
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.20
 			acclimatization_cold_climate_gain_factor = 0.20
-			max_organisation = 5
+	
 			soft_attack = 0.05
 		}
 		special_forces_no_supply_grace = 48
@@ -1843,7 +1842,7 @@ technologies = {
 	}
 	amphibious_mechanized_infantry_3 = {
 		enable_equipments = {
-			amphibious_mechanized_equipment_2
+			amphibious_mechanized_equipment_3
 		}
 		research_cost = 2
 		start_year = 1942

@@ -705,7 +705,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		category_army = {
-			soft_attack = 0.15
+			soft_attack = 0.1
 			breakthrough = 0.1
 		}
 		enable_tactic = tactic_barrage
@@ -1268,7 +1268,7 @@ technologies = {
 		xp_unlock_cost = 0
 		xp_research_bonus = 1
 		category_artillery = {
-			soft_attack = 0.10
+			soft_attack = 0.05
 		}
 		enable_tactic = tactic_breakthrough
 		#doctrine = yes
