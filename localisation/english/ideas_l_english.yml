@@ -23,10 +23,19 @@
  aircraft_research_trait:0 "Aircraft Research"
 
  #MATERIEL DESIGNERS
- heavy_weapons_designer:0 "Heavy Weapons Designer"
- cheap_weapons_designer:0 "Cheap Weapons Designer"
- advanced_artillery_designer:0 "Advanced Artillery Designer"
- improvised_artillery_designer:0 "Improvised Artillery Designer"
+ dimavag:0 "Dimavag"
+ raba:0 "Rába"
+ small_arms_limited:0 "Small Arms Limited"
+ inglis:0 "Toronto Inglis"
+ gustloff_werke:0 "Gustloff Werke"
+ hanomag:0 "Hanomag"
+ lancia:0 "Lancia"
+ ishapore_rifle_factory:0 "Ishapore Rifle Factory"
+ ordnance_factories_board:0 "Ordnance Factories Board"
+ the_white_company:0 "The White Company"
+ astra_brashov:0 "Astra Brasov"
+
+
 
  SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
  JAP_economy_law:0 "Civilian Administration"

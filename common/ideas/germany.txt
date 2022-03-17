@@ -1292,11 +1292,11 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
-		heavy_weapons_designer = {
+		gustloff_werke = {
 			allowed = {
-				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
+				tag = GER
 			}
-			picture = generic_infantry_equipment_manufacturer_3
+			picture = GFX_idea_gustloff_werke
 			cost = 100
 			equipment_bonus = {
 				infantry_equipment = {
@@ -1306,44 +1306,17 @@ ideas = {
 				}
 			}
 		}
-		cheap_weapons_designer = {
+		hanomag = {
 			allowed = {
-				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
+				tag = GER
 			}
-			picture = generic_infantry_equipment_manufacturer_2
-			cost = 100
-			equipment_bonus = {
-				infantry_equipment = {
-					soft_attack = -0.1
-					defense = -0.05
-					build_cost_ic = -0.05
-				}
-			}
-		}
-		advanced_artillery_designer = {
-			allowed = {
-				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
-			}
-			picture = generic_artillery_manufacturer_2
+			picture = GFX_idea_hanomag
 			cost = 100
 			equipment_bonus = {
 				artillery = {
 					soft_attack = 0.05
 					hard_attack = 0.05
 					build_cost_ic = 0.05
-				}
-			}
-		}
-		improvised_artillery_designer = {
-			allowed = {
-				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
-			}
-			picture = generic_artillery_manufacturer_3
-			cost = 100
-			equipment_bonus = {
-				artillery = {
-					soft_attack = -0.1
-					build_cost_ic = -0.05
 				}
 			}
 		}

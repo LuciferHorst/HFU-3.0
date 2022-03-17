@@ -961,7 +961,7 @@ ideas = {
 	  }
 	  generic_industrial_research = {
 		  
-		picture = generic_industrial_research_1
+		picture = generic_industrial_research_2
 
 		allowed = {
 			OR = { tag = HUN tag = BUL tag = RAJ tag = SAF tag = CAN }

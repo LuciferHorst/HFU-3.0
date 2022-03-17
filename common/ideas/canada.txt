@@ -281,5 +281,37 @@ ideas = {
 			}
 		}
 	}
+	materiel_manufacturer = {
+		small_arms_limited = {
+			allowed = {
+				tag = CAN
+			}
+			picture = GFX_idea_dimavag
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					breakthrough = 0.1
+					build_cost_ic = 0.075
+				}
+			}
+			traits = { materiel_research_trait }
+		}
+		inglis = {
+			allowed = {
+				tag = CAN
+			}
+			picture = GFX_idea_inglis
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = 0.1
+					breakthrough = 0.05
+					build_cost_ic = 0.01
+				}
+			}
+			traits = { artillery_research_trait }
+		}
+	}
 }
 

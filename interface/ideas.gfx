@@ -1,5 +1,47 @@
 spriteTypes = {
 
+	#MATERIEL DESIGNERS
+	spriteType = {
+		name = "GFX_idea_inglis"
+		texturefile = "gfx/interface/ideas/CAN_inglis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_small_arms_limited"
+		texturefile = "gfx/interface/ideas/CAN_small_arms_limited.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dimavag"
+		texturefile = "gfx/interface/ideas/HUN_dimavag.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_raba"
+		texturefile = "gfx/interface/ideas/HUN_raba_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gustloff_werke"
+		texturefile = "gfx/interface/ideas/ger/idea_gustloff_werke.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hanomag"
+		texturefile = "gfx/interface/ideas/ger/idea_hanomag.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_company_lancia"
+		texturefile = "gfx/interface/ideas/idea_company_lancia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ishapore_rifle_factory"
+		texturefile = "gfx/interface/ideas/RAJ_ishapore_rifle_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_ordnance_factories_board"
+		texturefile = "gfx/interface/ideas/RAJ_ordnance_factories_board.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_white_company"
+		texturefile = "gfx/interface/ideas/usa/white_company.dds"
+	}
+
 	spriteType = {
 		name = "GFX_idea_bul_kiril_yanchulev"
 		texturefile = "gfx/interface/ideas/idea_bul_kiril_yanchulev.dds"

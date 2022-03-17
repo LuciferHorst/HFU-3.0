@@ -419,6 +419,35 @@ ideas = {
 			}
 		}
 	}
-	
+	materiel_manufacturer = {
+		ishapore_rifle_factory = {
+			allowed = {
+				tag = RAJ 
+			}
+			picture = GFX_idea_ishapore_rifle_factory
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					breakthrough = 0.5
+					build_cost_ic = 0.075
+				}
+			}
+		}
+		ordnance_factories_board = {
+			allowed = {
+				tag = RAJ
+			}
+			picture = GFX_ordnance_factories_board
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = 0.05
+					breakthrough = 0.05
+					build_cost_ic = 0.05
+				}
+			}
+		}
+	}
 }
 
