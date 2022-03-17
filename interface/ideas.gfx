@@ -37,9 +37,9 @@ spriteTypes = {
 		name = "GFX_ordnance_factories_board"
 		texturefile = "gfx/interface/ideas/RAJ_ordnance_factories_board.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_white_company"
-		texturefile = "gfx/interface/ideas/usa/white_company.dds"
+    spriteType = {
+		name = "GFX_idea_white_motor"
+		texturefile = "gfx/interface/ideas/white.tga"
 	}
 
 	spriteType = {

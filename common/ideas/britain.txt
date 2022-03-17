@@ -904,7 +904,7 @@ ideas = {
 			allowed = {
 				tag = ENG 
 			}
-			picture = GFX_idea_white_company
+			picture = generic_infantry_equipment_manufacturer_3
 			cost = 100
 			equipment_bonus = {
 				infantry_equipment = {
@@ -918,7 +918,7 @@ ideas = {
             allowed = {
                 tag = ENG
             }
-            picture = GFX_idea_ROM_cugir
+            picture = generic_artillery_manufacturer_1
             cost = 100
             equipment_bonus = {
                 infantry_equipment = {
@@ -932,7 +932,7 @@ ideas = {
             allowed = {
                 tag = ENG
             }
-            picture = generic_artillery_manufacturer_1
+            picture = generic_artillery_manufacturer_2
             cost = 100
             equipment_bonus = {
                 artillery = {

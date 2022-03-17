@@ -1702,14 +1702,14 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CAN_the_valentine_tank
-				bonus = 1.0
+				bonus = 1.1
 				ahead_reduction = 2
 				uses = 1
 				category = armor
 			}
 			add_tech_bonus = {
 				name = CAN_the_valentine_tank
-				bonus = 1.0
+				bonus = 1.1
 				uses = 1
 				category = armor
 			}

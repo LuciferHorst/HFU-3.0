@@ -1442,7 +1442,7 @@ ideas = {
 			allowed = {
 				tag = FRA 
 			}
-			picture = GFX_idea_white_company
+			picture = generic_infantry_equipment_manufacturer_2
 			cost = 100
 			equipment_bonus = {
 				infantry_equipment = {
@@ -1452,20 +1452,6 @@ ideas = {
 				}
 			}
 		}
-		MAS_manufacturer = {
-            allowed = {
-                tag = FRA
-            }
-            picture = GFX_idea_ROM_cugir
-            cost = 100
-            equipment_bonus = {
-                infantry_equipment = {
-                    soft_attack = 0.1
-                    breakthrough = 0.1
-                    build_cost_ic = 0.075
-                }
-            }
-        }
         schneider_manufacturer = {
             allowed = {
                 tag = FRA

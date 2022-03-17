@@ -444,7 +444,7 @@ ideas = {
 			allowed = {
 				tag = ROM
 			}
-			picture = generic_infantry_equipment_manufacturer_2
+			picture = ROM_cugir
 			cost = 100
 			equipment_bonus = {
 				infantry_equipment = {
