@@ -1520,8 +1520,8 @@ ship_super_heavy_battery_2 = {
 
 
 		add_stats = {
-			torpedo_attack = 12
-			build_cost_ic = 50
+			torpedo_attack = 8
+			build_cost_ic = 40
 		}
 		multiply_stats = {
 			naval_speed = -0.03
@@ -1539,8 +1539,8 @@ ship_super_heavy_battery_2 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 14.8
-			build_cost_ic = 60
+			torpedo_attack = 10.8
+			build_cost_ic = 50
 		}
 		multiply_stats = {
 			naval_speed = -0.03
@@ -1571,8 +1571,8 @@ ship_super_heavy_battery_2 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 18.4
-			build_cost_ic = 70
+			torpedo_attack = 14.4
+			build_cost_ic = 60
 		}
 		multiply_stats = {
 			naval_speed = -0.03
@@ -1593,8 +1593,8 @@ ship_super_heavy_battery_2 = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 22
-			build_cost_ic = 80
+			torpedo_attack = 18
+			build_cost_ic = 70
 		}
 		multiply_stats = {
 			naval_speed = -0.03

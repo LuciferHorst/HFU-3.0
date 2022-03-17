@@ -2452,7 +2452,6 @@ leader_traits = {
 			capital_ship = {
 				armor_value = 0.15
 				hg_attack = 0.15
-				maximum_speed = -0.05
 			}
 			#screen_ship = {
 				#
@@ -2473,11 +2472,10 @@ leader_traits = {
 			capital_ship = {
 				armor_value = -0.20
 				hg_attack = 0.15
-				naval_speed = 0.1
+				naval_speed = 0.15
 			}
 			screen_ship = {
-				naval_speed = 0.1
-				build_cost_ic = 0.05
+				naval_speed = 0.15
 			}
 			submarine = {
 				naval_range = 0.20
@@ -3694,7 +3692,7 @@ leader_traits = {
 
 	navy_chief_naval_aviation_2 = {
 		sprite = 1
-		sortie_efficiency = 0.05
+		sortie_efficiency = 0.1
 
 		ai_will_do = {
 			factor = 2

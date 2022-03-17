@@ -582,7 +582,7 @@ if = {
 	# Destroyers #
 	create_equipment_variant = {
 		name = "A/B/C/D Class"
-		type = ship_hull_light_1
+		type = ship_hull_light_2
 		name_group = ENG_DD_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -598,7 +598,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "E/F/G/H Class"
-		type = ship_hull_light_2
+		type = ship_hull_light_1
 		name_group = ENG_DD_HISTORICAL
 		parent_version = 0
 		modules = {
