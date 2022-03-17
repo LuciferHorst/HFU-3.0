@@ -1393,10 +1393,6 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
-						
-			research_bonus = {
-				naval_equipment = 0.15
-			}
 			
 			traits = { mediterranean_naval_manufacturer }
 		}
@@ -1404,10 +1400,6 @@ ideas = {
 			picture = FRA_aeb		
 			allowed = {
 				original_tag = FRA
-			}
-						
-			research_bonus = {
-				naval_equipment = 0.15
 			}
 			
 			traits = { convoy_escort_naval_manufacturer }
@@ -1417,10 +1409,6 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
-						
-			research_bonus = {
-				naval_equipment = 0.15
-			}
 			
 			traits = { atlantic_fleet_naval_manufacturer }
 		}
@@ -1429,11 +1417,6 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
-						
-			research_bonus = {
-				naval_equipment = 0.15
-			}
-			
 			traits = { raiding_fleet_naval_manufacturer }
 		}
 	}

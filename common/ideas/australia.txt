@@ -258,9 +258,9 @@ ideas = {
 			}
 		}
 	}
-	industrial_concern = {
+	industrial_research = {
 		bhp_steel = {
-			picture = generic_industrial_concern_1
+			picture = generic_industrial_research_1
 			allowed = {
 				original_TAG = AST
 				has_dlc = "Together for Victory"

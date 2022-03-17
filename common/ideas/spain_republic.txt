@@ -168,7 +168,7 @@ ideas = {
 			}
 		}
 	}
-	industrial_concern = {
+	industrial_research = {
 		SPR_compania_telefonica_nacional = {
 			picture = SPR_compania_telefonica_nacional
 			allowed = {

@@ -975,7 +975,7 @@ ideas = {
 		}
 		generic_industrial_research = {
 			
-			picture = generic_industrial_concern_1
+			picture = generic_industrial_research_1
 
 			allowed = {
 				NOT = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA }
