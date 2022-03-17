@@ -444,7 +444,7 @@ ideas = {
 			allowed = {
 				tag = ROM
 			}
-			picture = GFX_idea_ROM_cugir
+			picture = generic_infantry_equipment_manufacturer_2
 			cost = 100
 			equipment_bonus = {
 				infantry_equipment = {

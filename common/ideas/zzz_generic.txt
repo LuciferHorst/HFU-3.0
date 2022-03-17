@@ -898,7 +898,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { tag = SWE }
+				NOT = { tag = SWE tag = SPR }
 			}
 			
 			cost = 100
@@ -916,7 +916,7 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				OR = { tag = CAN tag = SAF tag = RAJ tag = HUN tag = BUL tag = ROM tag = SPR }
+				OR = { tag = CAN tag = SAF tag = RAJ tag = HUN tag = BUL tag = ROM }
 			}
 			
 			cost = 100
@@ -931,7 +931,7 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				OR = { tag = CAN tag = SAF tag = RAJ tag = HUN tag = BUL tag = ROM tag = SPR }
+				OR = { tag = CAN tag = SAF tag = RAJ tag = HUN tag = BUL tag = ROM }
 			}
 			
 			cost = 100

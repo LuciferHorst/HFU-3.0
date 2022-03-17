@@ -1176,5 +1176,34 @@ ideas = {
 			}
 		}
 	}
+	materiel_manufacturer = {
+		grabin_manufacturer = {
+			allowed = {
+				tag = SOV
+			}
+			picture = grabin_design_bureau
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = -0.05
+					hard_attack = -0.05
+					build_cost_ic = -0.05
+				}
+			}
+		}
+		tula_arms_manufacturer = {
+			allowed = {
+				original_tag = SOV
+			}
+			picture = generic_infantry_equipment_manufacturer_1
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = -0.05
+					hard_attack = -0.05
+					build_cost_ic = -0.05
+				}
+			}
+		}
+	}
 }
 
