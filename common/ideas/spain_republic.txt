@@ -82,9 +82,7 @@ ideas = {
 				NOT = { has_dlc = "La Resistance" }
 				original_tag = SPR
 			}
-			research_bonus = {
-				air_equipment = 0.15
-			}
+			
 			traits = { light_aircraft_manufacturer }
 			equipment_bonus = {
 				# capable of aerobatics, forward shooting machine guns, low number of crashes
@@ -102,9 +100,7 @@ ideas = {
 			}
 			available = {
 			}
-			research_bonus = {
-				air_equipment = 0.15
-			}
+			
 			traits = { medium_aircraft_manufacturer }
 			equipment_bonus = {
 				# capable of aerobatics, forward shooting machine guns, low number of crashes
@@ -121,9 +117,7 @@ ideas = {
 			}
 			available = {
 			}
-			research_bonus = {
-				air_equipment = 0.15
-			}
+			
 			traits = { light_aircraft_manufacturer }
 			equipment_bonus = {
 				# capable of aerobatics, forward shooting machine guns, low number of crashes
@@ -143,10 +137,7 @@ ideas = {
 			}
 			available = {
 			}
-			research_bonus = {
-				infantry_weapons = 0.15
-				motorized_equipment = 0.15
-			}
+			
 			traits = { infantry_equipment_manufacturer motorized_equipment_manufacturer}
 			modifier = {
 			}
@@ -159,10 +150,7 @@ ideas = {
 			}
 			available = {
 			}
-			research_bonus = {
-				artillery = 0.15
-				support_tech = 0.15
-			}
+			
 			traits = { artillery_manufacturer support_equipment_manufacturer }
 			modifier = {
 			}
@@ -177,9 +165,7 @@ ideas = {
 			}
 			available = {
 			}
-			research_bonus = {
-				electronics = 0.15
-			}
+			
 			traits = { electronics_concern }
 			modifier = {
 			}
@@ -206,9 +192,7 @@ ideas = {
 			}
 			available = {
 			}
-			research_bonus = {
-				industry = 0.15
-			}
+			
 			traits = { industrial_concern }
 			modifier = {
 			}
@@ -221,10 +205,7 @@ ideas = {
 			}
 			available = {
 			}
-			research_bonus = {
-				synth_resources = 0.1
-				industry = 0.05
-			}
+			
 			traits = { refinery_concern }
 			modifier = {
 			}

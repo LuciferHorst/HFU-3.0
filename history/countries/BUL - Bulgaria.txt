@@ -40,7 +40,7 @@ set_technology = {
 	tech_logistics_company = 1
 }
 
-#recruit_character = BUL_boris_iii
+recruit_character = BUL_boris_iii
 recruit_character = BUL_hristo_lukov
 recruit_character = BUL_georgi_drenikov
 recruit_character = BUL_sava_ivanov

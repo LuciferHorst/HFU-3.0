@@ -63,7 +63,7 @@ country_event = {
 				}
 				transfer_state =182
 			}
-			else={ENG={transfer_state=182}}
+			else={ENG={transfer_state=187}}
 			if={
 				limit={
 					182={
@@ -76,9 +76,9 @@ country_event = {
 						}
 					}
 				}
-				transfer_state =182
+				transfer_state =187
 			}
-			else={ENG={transfer_state=182}}
+			else={ENG={transfer_state=187}}
 		}
 	}
 	option = {
