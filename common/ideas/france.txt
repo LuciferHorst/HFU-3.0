@@ -1350,10 +1350,10 @@ ideas = {
 			}
 
 			research_bonus = {
-				motorized_equipment = 0.15
+				motorized_equipment = 0.2
 			}
 			
-			traits = { motorized_equipment_manufacturer }
+			traits = { motorized_research_trait }
 
 		}
 		
@@ -1367,7 +1367,7 @@ ideas = {
 				infantry_weapons = 0.15
 			}
 			
-			traits = { infantry_equipment_manufacturer }
+			traits = { materiel_research_trait }
 		}
 	
 		schneider = {
@@ -1378,9 +1378,10 @@ ideas = {
 			
 			research_bonus = {
 				artillery = 0.15
+				support_tech = 0.15
 			}
 			
-			traits = { artillery_manufacturer }
+			traits = { artillery_research_trait }
 		}
 	}
 
@@ -1417,6 +1418,7 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
+
 			traits = { raiding_fleet_naval_manufacturer }
 		}
 	}

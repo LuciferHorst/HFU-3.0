@@ -1880,9 +1880,7 @@ ideas = {
 				infantry_weapons = 0.15
 				motorized_equipment = 0.15
 			}
-			traits = { infantry_equipment_manufacturer motorized_equipment_manufacturer}
-			modifier = {
-			}
+			traits = { materiel_research_trait }
 		}
 		rock_island_arsenal = {
 			allowed = {
@@ -1892,9 +1890,7 @@ ideas = {
 				artillery = 0.15
 				support_tech = 0.15
 			}
-			traits = { artillery_manufacturer support_equipment_manufacturer }
-			modifier = {
-			}
+			traits = { artillery_research_trait }
 		}
 	}
 	industrial_research = {

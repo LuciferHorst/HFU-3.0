@@ -1309,7 +1309,6 @@ ideas = {
 			allowed = {
 				or = {
 					original_TAG = GER
-					original_TAG = HUN
 			}
 		}
 			research_bonus = {
@@ -1333,19 +1332,6 @@ ideas = {
 	}
 	materiel_research = {
 		designer = yes
-		rheinmetall = {
-			allowed = {
-				OR = { original_tag = GER
-					original_tag = BUL
-				}
-			}
-			research_bonus = {
-				artillery = 0.15
-				support_tech = 0.15
-			}
-			traits = { artillery_manufacturer support_equipment_manufacturer }
-			
-		}
 		mauser = {
 			allowed = {
 				OR = { original_tag = GER
@@ -1356,12 +1342,24 @@ ideas = {
 				infantry_weapons = 0.15
 				motorized_equipment = 0.15
 			}
-			traits = { infantry_equipment_manufacturer motorized_equipment_manufacturer}
+			traits = { materiel_research_trait }
 			ai_will_do = {
 				factor = 2
 			}
 		}
-		
+		rheinmetall = {
+			allowed = {
+				OR = { original_tag = GER
+					original_tag = BUL
+				}
+			}
+			research_bonus = {
+				artillery = 0.15
+				support_tech = 0.15
+			}
+			traits = { artillery_research_trait }
+			
+		}
 	}
 	theorist = {
 		von_braun = {

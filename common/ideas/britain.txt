@@ -905,17 +905,21 @@ ideas = {
 			allowed = {
 				original_TAG = ENG
 			}
-			traits = { infantry_equipment_manufacturer }
-			modifier = {
+			traits = { materiel_research_trait }
+			research_bonus = {
+				infantry_tech = 0.15
+				motorized_equipment = 0.15
 			}
 		}
 		royal_arsenal = {
 			allowed = {
 				original_TAG = ENG
 			}
-			traits = { artillery_manufacturer support_equipment_manufacturer }
-			modifier = {
+			research_bonus = {
+				artillery = 0.15
+				support_tech = 0.15
 			}
+			traits = { artillery_research_trait }
 		}
 	}
 	industrial_research = {

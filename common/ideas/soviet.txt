@@ -1139,9 +1139,7 @@ ideas = {
 				artillery = 0.15
 				support_tech = 0.15
 			}
-			traits = { artillery_manufacturer support_equipment_manufacturer }
-			modifier = {
-			}
+			traits = { artillery_research_trait }
 		}
 		tula_arms_plant = {
 			allowed = {
@@ -1150,9 +1148,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
-			traits = { infantry_equipment_manufacturer }
-			modifier = {
-			}
+			traits = { materiel_research_trait }
 		}
 		gaz = {
 			allowed = {

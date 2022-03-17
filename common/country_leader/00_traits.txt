@@ -2311,37 +2311,13 @@ leader_traits = {
 		}
 	}
 
-	heavy_aircraft_manufacturer = {
-		random = no
-		equipment_bonus = {
-
-			strat_bomber_equipment = {
-				air_bombing = 0.1
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	naval_aircraft_manufacturer = {
 		random = no
 		equipment_bonus = {
 			nav_bomber_equipment = {
 				air_range = 0.1 naval_strike_attack = 0.1
 			}
-			# cv_nav_bomber_equipment = {
-				# air_range = 0.1 naval_strike_attack = 0.1
-				# }
-			# cv_fighter_equipment = {
-				# air_range = 0.1 air_agility = 0.1
-				# }
-			# cv_CAS_equipment = {
-				# air_range = 0.1 naval_strike_attack = 0.1
-				# }
 		}
-
 		ai_will_do = {
 			factor = 1
 		}
