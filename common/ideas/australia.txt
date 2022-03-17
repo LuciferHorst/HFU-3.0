@@ -359,5 +359,34 @@ ideas = {
 			}
 		}
 	}
+	materiel_manufacturer = {
+		bathurst = {
+			allowed = {
+				tag = AST
+			}
+			picture = generic_artillery_manufacturer_3
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = -0.05
+					hard_attack = -0.05
+					build_cost_ic = -0.05
+				}
+			}
+		}
+		lithgow_designer = {
+			allowed = {
+				original_tag = AST
+			}
+			picture = lithgow_saf
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = -0.05
+					hard_attack = -0.05
+					build_cost_ic = -0.05
+				}
+			}
+		}
+	}
 }
 

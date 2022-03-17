@@ -853,6 +853,20 @@ ideas = {
 				}
 			}
 		}
+		breda_designer = {
+			allowed = {
+				tag = ITA
+			}
+			picture = GFX_idea_breda
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+					build_cost_ic = 0.05
+				}
+			}
+		}
 	}
 	theorist = {
 		giovanni_messe = {
