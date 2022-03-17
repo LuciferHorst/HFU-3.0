@@ -1885,6 +1885,34 @@ ideas = {
 				}
 			}
 		}
+		johnson_automatics = {
+            allowed = {
+                tag = USA
+            }
+            picture = GFX_idea_ROM_cugir
+            cost = 100
+            equipment_bonus = {
+                infantry_equipment = {
+                    soft_attack = 0.1
+                    breakthrough = 0.1
+                    build_cost_ic = 0.075
+                }
+            }
+        }
+        rock_island_arsenal_manufacturer = {
+            allowed = {
+                tag = USA
+            }
+            picture = generic_artillery_manufacturer_1
+            cost = 100
+            equipment_bonus = {
+                artillery = {
+                    soft_attack = 0.1
+                    breakthrough = 0.1
+                    build_cost_ic = 0.075
+                }
+            }
+        }
 	}
 	materiel_research = {
 		designer = yes
@@ -2022,5 +2050,6 @@ ideas = {
 			traits = { rocket_scientist }
 		}
 	}
+
 }
 

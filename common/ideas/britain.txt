@@ -900,7 +900,48 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
-		
+		royal_small_arms_factory = {
+			allowed = {
+				tag = ENG 
+			}
+			picture = GFX_idea_white_company
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					breakthrough = 0.5
+					build_cost_ic = 0.075
+				}
+			}
+		}
+		vickers_armstrong = {
+            allowed = {
+                tag = ENG
+            }
+            picture = GFX_idea_ROM_cugir
+            cost = 100
+            equipment_bonus = {
+                infantry_equipment = {
+                    soft_attack = 0.1
+                    breakthrough = 0.1
+                    build_cost_ic = 0.075
+                }
+            }
+        }
+        woolwich_arsenal = {
+            allowed = {
+                tag = ENG
+            }
+            picture = generic_artillery_manufacturer_1
+            cost = 100
+            equipment_bonus = {
+                artillery = {
+                    soft_attack = 0.1
+                    breakthrough = 0.1
+                    build_cost_ic = 0.075
+                }
+            }
+        }
 	}
 	materiel_research = {
 		designer = yes

@@ -1375,5 +1375,49 @@ ideas = {
 			traits = { rocket_scientist }
 		}
 	}
+	materiel_manufacturer = {
+		nagoya_arsenal = {
+			allowed = {
+				tag = JAP 
+			}
+			picture = GFX_idea_white_company
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					breakthrough = 0.5
+					build_cost_ic = 0.075
+				}
+			}
+		}
+		kijiro_nambu = {
+            allowed = {
+                tag = JAP
+            }
+            picture = GFX_idea_ROM_cugir
+            cost = 100
+            equipment_bonus = {
+                infantry_equipment = {
+                    soft_attack = 0.1
+                    breakthrough = 0.1
+                    build_cost_ic = 0.075
+                }
+            }
+        }
+        tokyo_arsenal_manufacturer = {
+            allowed = {
+                tag = JAP
+            }
+            picture = generic_artillery_manufacturer_1
+            cost = 100
+            equipment_bonus = {
+                artillery = {
+                    soft_attack = 0.1
+                    breakthrough = 0.1
+                    build_cost_ic = 0.075
+                }
+            }
+        }
+	}
 }
 
