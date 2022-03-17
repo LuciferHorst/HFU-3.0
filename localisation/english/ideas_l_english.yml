@@ -22,6 +22,12 @@
  motorized_research_trait:0 "Motorized Research"
  aircraft_research_trait:0 "Aircraft Research"
 
+ #MATERIEL DESIGNERS
+ heavy_weapons_designer:0 "Heavy Weapons Designer"
+ cheap_weapons_designer:0 "Cheap Weapons Designer"
+ advanced_artillery_designer:0 "Advanced Artillery Designer"
+ improvised_artillery_designer:0 "Improvised Artillery Designer"
+
  SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
  JAP_economy_law:0 "Civilian Administration"
  JAP_economy_law:0 "Public Funding"

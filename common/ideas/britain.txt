@@ -899,6 +899,63 @@ ideas = {
 			modifier = { aircraft_manufacturer_cost_factor = -1 }
 		}
 	}
+	materiel_manufacturer = {
+		heavy_weapons_designer = {
+			allowed = {
+				OR = { tag = ENG tag = FRA tag = USA tag = SAF tag = CAN tag = RAJ tag = AST }
+			}
+			picture = generic_infantry_equipment_manufacturer_3
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.075
+					breakthrough = 0.075
+					build_cost_ic = 0.05
+				}
+			}
+		}
+		cheap_weapons_designer = {
+			allowed = {
+				OR = { tag = ENG tag = FRA tag = USA tag = SAF tag = CAN tag = RAJ tag = AST }
+			}
+			picture = generic_infantry_equipment_manufacturer_2
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = -0.1
+					defense = -0.075
+					build_cost_ic = -0.05
+				}
+			}
+		}
+		advanced_artillery_designer = {
+			allowed = {
+				OR = { tag = ENG tag = FRA tag = USA tag = SAF tag = CAN tag = RAJ tag = AST }
+			}
+			picture = generic_artillery_manufacturer_2
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+					build_cost_ic = 0.075
+				}
+			}
+		}
+		improvised_artillery_designer = {
+			allowed = {
+				OR = { tag = ENG tag = FRA tag = USA tag = SAF tag = CAN tag = RAJ tag = AST }
+			}
+			picture = generic_artillery_manufacturer_3
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = -0.1
+					build_cost_ic = -0.05
+				}
+			}
+		}
+	}
 	materiel_research = {
 		designer = yes
 		rsaf_enfield = {

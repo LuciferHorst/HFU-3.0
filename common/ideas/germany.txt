@@ -1291,6 +1291,63 @@ ideas = {
 			modifier = { aircraft_manufacturer_cost_factor = -1 }
 		}
 	}
+	materiel_manufacturer = {
+		heavy_weapons_designer = {
+			allowed = {
+				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
+			}
+			picture = generic_infantry_equipment_manufacturer_3
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					breakthrough = 0.1
+					build_cost_ic = 0.075
+				}
+			}
+		}
+		cheap_weapons_designer = {
+			allowed = {
+				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
+			}
+			picture = generic_infantry_equipment_manufacturer_2
+			cost = 100
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = -0.1
+					defense = -0.05
+					build_cost_ic = -0.05
+				}
+			}
+		}
+		advanced_artillery_designer = {
+			allowed = {
+				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
+			}
+			picture = generic_artillery_manufacturer_2
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+					build_cost_ic = 0.05
+				}
+			}
+		}
+		improvised_artillery_designer = {
+			allowed = {
+				OR = { tag = GER tag = HUN tag = ITA tag = ROM tag = BUL tag = SPR }
+			}
+			picture = generic_artillery_manufacturer_3
+			cost = 100
+			equipment_bonus = {
+				artillery = {
+					soft_attack = -0.1
+					build_cost_ic = -0.05
+				}
+			}
+		}
+	}
 	industrial_research = {
 		ig_faben = {
 			allowed = {
