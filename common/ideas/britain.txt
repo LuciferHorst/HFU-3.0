@@ -900,6 +900,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		royal_small_arms_factory = {
 			allowed = {
 				tag = ENG 

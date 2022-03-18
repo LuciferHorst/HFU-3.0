@@ -360,6 +360,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		bathurst = {
 			allowed = {
 				tag = AST

@@ -159,6 +159,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		esperanza_designer = {
 			allowed = {
 				tag = SPR

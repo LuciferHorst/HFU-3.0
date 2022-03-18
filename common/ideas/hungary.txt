@@ -215,6 +215,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		dimavag = {
 			allowed = {
 				tag = HUN

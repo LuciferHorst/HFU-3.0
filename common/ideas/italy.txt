@@ -839,6 +839,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		lancia = {
 			allowed = {
 				tag = ITA

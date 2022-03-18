@@ -1871,6 +1871,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		the_white_company = {
 			allowed = {
 				tag = USA 

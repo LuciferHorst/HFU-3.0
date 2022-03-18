@@ -11,6 +11,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		vmz_sopot = {
 			allowed = {
 				tag = BUL

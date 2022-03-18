@@ -440,6 +440,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		cugir = {
 			allowed = {
 				tag = ROM

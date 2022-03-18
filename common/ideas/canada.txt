@@ -282,6 +282,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		small_arms_limited = {
 			allowed = {
 				tag = CAN

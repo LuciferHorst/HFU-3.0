@@ -1292,6 +1292,7 @@ ideas = {
 		}
 	}
 	materiel_manufacturer = {
+		designer = yes
 		gustloff_werke = {
 			allowed = {
 				tag = GER
