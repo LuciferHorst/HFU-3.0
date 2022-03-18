@@ -176,7 +176,7 @@ characters={
 				}
 			}
 			traits = {
-				fascist_demagogue 
+				democratic_reformer 
 			}
 			do_effect = {
 				NOT = {

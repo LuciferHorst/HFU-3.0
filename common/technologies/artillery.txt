@@ -140,7 +140,7 @@ technologies = {
 			leads_to_tech = rocket_artillery
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 1.1
 		start_year = 1940
 		categories = {
 			year_1940
@@ -182,7 +182,7 @@ technologies = {
 			leads_to_tech = artillery4
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 1.1
 		start_year = 1941
 		categories = {
 			year_1941
@@ -218,7 +218,7 @@ technologies = {
 			leads_to_tech = artillery5
 			research_cost_coeff = 1
 		}
-		research_cost = 2
+		research_cost = 2.2
 		start_year = 1942
 		categories = {
 			year_1942
@@ -256,7 +256,7 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		research_cost = 1
+		research_cost = 1.2
 		start_year = 1943
 		categories = {
 			year_1943
@@ -353,7 +353,7 @@ technologies = {
 			leads_to_tech = rocket_artillery3
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 1.1
 		start_year = 1941
 		categories = {
 			year_1941
@@ -390,7 +390,7 @@ technologies = {
 			leads_to_tech = rocket_artillery4
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 1.2
 		start_year = 1942
 		categories = {
 			year_1942
@@ -423,7 +423,7 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
 		}
-		research_cost = 1
+		research_cost = 1.2
 		start_year = 1943
 		categories = {
 			year_1943
@@ -682,7 +682,7 @@ technologies = {
 			ship_anti_air_4
 		}
 		navy_anti_air_attack_factor = 0.05
-		research_cost = 1
+		research_cost = 1.2
 		start_year = 1943
 		categories = {
 			year_1943
@@ -1054,7 +1054,7 @@ technologies = {
 			tank_heavy_cannon_3
 			tank_medium_cannon_3
 		}
-		research_cost = 1
+		research_cost = 1.2
 		start_year = 1943
 		categories = {
 			year_1943
