@@ -222,7 +222,7 @@ add_equipment_to_stockpile = {
 	amount = 100
 	producer = GER
 }
-set_stability = 0.61
+set_stability = 0.66
 set_war_support = 0.4
 #Trade
 set_politics = {

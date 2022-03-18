@@ -864,7 +864,7 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { tag = SWE }
+				NOT = { tag = SWE tag = GER tag = ITA }
 			}
 			
 			cost = 100
@@ -898,7 +898,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { tag = SWE tag = SPR }
+				NOT = { tag = SWE tag = SPR tag = GER }
 			}
 			
 			cost = 100

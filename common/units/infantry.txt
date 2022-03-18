@@ -87,10 +87,9 @@ sub_units = {
 		hard_attack = -0.1
 		
 		### Best Of The Best
-		soft_attack = 1
-		breakthrough = 0.7
+		soft_attack = 0.9
+		breakthrough = 0.65
 		defense = 0.1
-		
 		
 		can_be_parachuted = yes
 	
@@ -101,7 +100,19 @@ sub_units = {
 		urban = {
 			defence = -0.1
 			attack = 0.1
+		}
+		marsh = {
+			defence = -0.1
+			attack = -0.1
 		}	
+		hills = {
+			defence = -0.1
+			attack = -0.1
+		}
+		forest = {
+			defence = -0.05
+			attack = -0.05
+		}
 	}
 
 

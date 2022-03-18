@@ -56,6 +56,12 @@
  johnson_automatics:0 "Johnson Automatics"
  rock_island_arsenal_manufacturer:0 "Rock Island"
 
+ #RESEARCH 
+ krupp_research:0 "Krupp"
+ okwl_research:0 "OKW-L"
+ fiat_research:0 "Fiat"
+
+
  SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
  JAP_economy_law:0 "Civilian Administration"
  JAP_economy_law:0 "Public Funding"

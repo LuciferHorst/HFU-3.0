@@ -1373,9 +1373,7 @@ ideas = {
 		designer = yes
 		mauser = {
 			allowed = {
-				OR = { original_tag = GER
-					original_tag = BUL
-				}
+				original_tag = GER
 			}
 			research_bonus = {
 				infantry_weapons = 0.15
@@ -1388,9 +1386,7 @@ ideas = {
 		}
 		rheinmetall = {
 			allowed = {
-				OR = { original_tag = GER
-					original_tag = BUL
-				}
+				original_tag = GER
 			}
 			research_bonus = {
 				artillery = 0.15
@@ -1398,6 +1394,32 @@ ideas = {
 			}
 			traits = { artillery_research_trait }
 			
+		}
+	}
+	tank_research = {
+		krupp_research = {
+			
+			cost = 100
+			picture = krupp
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = { tank_research_trait }
+		}
+	}
+	aircraft_research = {
+		okwl_research = {
+			available = {
+				tag = GER
+			}
+			cost = 100
+			picture = messerschmitt
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			traits = { aircraft_research_trait }
 		}
 	}
 	theorist = {
