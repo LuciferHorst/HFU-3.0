@@ -1444,11 +1444,25 @@ ideas = {
 			}
 			picture = generic_infantry_equipment_manufacturer_2
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				infantry_equipment = {
 					soft_attack = 0.1
-					breakthrough = 0.5
-					build_cost_ic = 0.075
+					breakthrough = 0.1
+					build_cost_ic = 0.05
+				}
+				artillery = {
+					soft_attack = 0.1
+					build_cost_ic = 0.1
+				}
+				anti_air = {
+					air_attack = 0.1
+					build_cost_ic = 0.1
+				}
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+					build_cost_ic = 0.1
 				}
 			}
 		}
@@ -1458,12 +1472,24 @@ ideas = {
             }
             picture = generic_artillery_manufacturer_1
             cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
             equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					breakthrough = 0.2
+					defense = -0.1
+					build_cost_ic = 0.1
+				}
                 artillery = {
-                    soft_attack = 0.1
-                    breakthrough = 0.1
-                    build_cost_ic = 0.075
+                    soft_attack = 0.15
+                    breakthrough = 0.15
+                    build_cost_ic = 0.15
                 }
+				anti_tank = {
+					hard_attack = 0.15
+					ap_attack = 0.15
+					build_cost_ic = 0.15
+				}
             }
         }
 	}

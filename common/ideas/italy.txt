@@ -845,11 +845,12 @@ ideas = {
 			}
 			picture = GFX_idea_company_lancia
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				infantry_equipment = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
+					soft_attack = -0.05
+					defense = -0.05
+					build_cost_ic = -0.1
 				}
 			}
 		}
@@ -857,13 +858,25 @@ ideas = {
 			allowed = {
 				tag = ITA
 			}
-			picture = GFX_idea_breda
+			picture = breda
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				artillery = {
-					soft_attack = 0.05
+					soft_attack = 0.15
+					defense = -0.1
+					build_cost_ic = 0.1
+				}
+				anti_tank = {
 					hard_attack = 0.05
-					build_cost_ic = 0.05
+					ap_attack = 0.1
+					build_cost_ic = -0.1
+					reliability = -0.1
+				}
+				anti_air = {
+					air_attack = 0.15
+					ap_attack = 0.1
+					build_cost_ic = -0.1
 				}
 			}
 		}

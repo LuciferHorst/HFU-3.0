@@ -982,7 +982,7 @@ ideas = {
 		generic_naval_manufacturer = {
 			picture = generic_naval_manufacturer_1
 			allowed = {
-				OR = { tag = AST tag = RAJ tag = SAF }
+				OR = { tag = RAJ tag = SAF }
 			}
 			cost = 100
 			removal_cost = 10

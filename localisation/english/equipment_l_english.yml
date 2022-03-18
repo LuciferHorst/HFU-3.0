@@ -2638,6 +2638,10 @@
  HOL_mechanized_equipment_3:1 "DAF Pantrado 3"
  HOL_mechanized_equipment_3_short:1 "DAF Pantrado 3"
 
+ rocket_artillery:0 "Rocket Artillery"
+ anti_tank:0 "Anti-Tank"
+ artillery:0 "Artillery"
+ anti_air:0 "Anti-Air"
  anti_air_equipment:0 "Towed Anti-Air"
  anti_air_equipment_short:0 "Anti-Air"
  anti_air_equipment_desc:0 "Anti-air artillery is primarily designed to shoot down hostile planes, although the rapid fire cannons can also be effective against ground targets."

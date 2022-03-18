@@ -906,11 +906,16 @@ ideas = {
 			}
 			picture = generic_infantry_equipment_manufacturer_3
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				infantry_equipment = {
 					soft_attack = 0.1
-					breakthrough = 0.5
-					build_cost_ic = 0.075
+					breakthrough = 0.1
+					build_cost_ic = 0.05
+				}
+				artillery = {
+					soft_attack = 0.1
+					build_cost_ic = 0.05
 				}
 			}
 		}
@@ -920,12 +925,27 @@ ideas = {
             }
             picture = generic_artillery_manufacturer_1
             cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
             equipment_bonus = {
                 infantry_equipment = {
-                    soft_attack = 0.1
-                    breakthrough = 0.1
-                    build_cost_ic = 0.075
+                    soft_attack = -0.1
+                    breakthrough = -0.2
+                    build_cost_ic = -0.1
                 }
+				artillery = {
+					soft_attack = -0.1
+					defense = -0.1
+					build_cost_ic = -0.1
+				}
+				anti_tank = {
+					hard_attack = -0.1
+					defense = -0.5
+					build_cost_ic = -0.1
+				}
+				anti_air = {
+					air_attack = -0.15
+					build_cost_ic = -0.1
+				}
             }
         }
         woolwich_arsenal = {
@@ -934,12 +954,25 @@ ideas = {
             }
             picture = generic_artillery_manufacturer_2
             cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
             equipment_bonus = {
                 artillery = {
                     soft_attack = 0.1
                     breakthrough = 0.1
-                    build_cost_ic = 0.075
+					defense = -0.1
+                    build_cost_ic = 0.1
                 }
+				rocket_artillery = {
+					soft_attack = 0.1
+					breakthrough = 0.1
+					defense = -0.1
+					build_cost_ic = 0.1
+				}
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+					build_cost_ic = 0.05
+				}
             }
         }
 	}

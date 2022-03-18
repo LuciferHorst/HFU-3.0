@@ -446,11 +446,13 @@ ideas = {
 			}
 			picture = ROM_cugir
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				infantry_equipment = {
-					soft_attack = 0.1
-					breakthrough = 0.1
-					build_cost_ic = 0.075
+					soft_attack = 0.05
+					breakthrough = 0.15
+					defense = -0.05
+					build_cost_ic = 0.1
 				}
 			}
 		}
@@ -460,11 +462,13 @@ ideas = {
 			}
 			picture = generic_artillery_manufacturer_1
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
-				artillery = {
-					soft_attack = 0.1
-					breakthrough = 0.1
-					build_cost_ic = 0.075
+				anti_tank = {
+					hard_attack = 0.2
+					ap_attack = 0.15
+					defense = 0.5
+					build_cost_ic = 0.15
 				}
 			}
 		}

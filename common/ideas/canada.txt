@@ -290,9 +290,9 @@ ideas = {
 			cost = 100
 			equipment_bonus = {
 				infantry_equipment = {
-					soft_attack = 0.1
-					breakthrough = 0.1
-					build_cost_ic = 0.075
+					soft_attack = 0.15
+					breakthrough = 0.2
+					build_cost_ic = 0.15
 				}
 			}
 			traits = { materiel_research_trait }
@@ -303,11 +303,22 @@ ideas = {
 			}
 			picture = GFX_idea_inglis
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				artillery = {
-					soft_attack = 0.1
-					breakthrough = 0.05
+					soft_attack = 0.2
+					breakthrough = -0.2
+					build_cost_ic = 0.015
+				}
+				anti_tank = {
+					hard_attack = 0.2
+					soft_attack = -0.2
+					defense = -0.5
 					build_cost_ic = 0.01
+				}
+				anti_air = {
+					air_attack = 0.1
+					ap_attack = 0.1
 				}
 			}
 			traits = { artillery_research_trait }

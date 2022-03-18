@@ -221,14 +221,28 @@ ideas = {
 			}
 			picture = GFX_idea_dimavag
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				infantry_equipment = {
 					soft_attack = 0.1
 					breakthrough = 0.1
-					build_cost_ic = 0.075
+					build_cost_ic = 0.05
+				}
+				artillery = {
+					soft_attack = 0.1
+					breakthrough = 0.05
+					build_cost_ic = 0.05
+				}
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+					build_cost_ic = 0.05
+				}
+				anti_air = {
+					air_attack = 0.1
+					build_cost_ic = 0.05
 				}
 			}
-			traits = { materiel_research_trait }
 		}
 		raba = {
 			allowed = {
@@ -236,14 +250,23 @@ ideas = {
 			}
 			picture = GFX_idea_raba
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				artillery = {
-					soft_attack = 0.1
-					breakthrough = 0.1
+					soft_attack = 0.15
+					breakthrough = 0.15
 					build_cost_ic = 0.01
 				}
+				anti_tank = {
+					hard_attack = 0.15
+					ap_attack = 0.15
+					build_cost_ic = 0.1
+				}
+				anti_air = {
+					air_attack = 0.15
+					build_cost_ic = 0.1
+				}
 			}
-			traits = { artillery_research_trait }
 		}
 	}
 }

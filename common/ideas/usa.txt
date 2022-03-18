@@ -1877,11 +1877,23 @@ ideas = {
 			}
 			picture = white_motor
 			cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				infantry_equipment = {
 					soft_attack = 0.1
-					breakthrough = 0.5
-					build_cost_ic = 0.075
+					breakthrough = 0.2
+					defense = -0.15
+					reliability = -0.1
+					build_cost_ic = 0.15
+				}
+				artillery = {
+					soft_attack = 0.1
+					defense = -0.1
+				}
+				anti_tank = {
+					hard_attack = 0.2
+					ap_attack = 0.1
+					defense = -0.5
 				}
 			}
 		}
@@ -1891,12 +1903,20 @@ ideas = {
             }
             picture = generic_infantry_equipment_manufacturer_1
             cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
             equipment_bonus = {
                 infantry_equipment = {
-                    soft_attack = 0.1
-                    breakthrough = 0.1
-                    build_cost_ic = 0.075
+                    soft_attack = -0.1
+                    breakthrough = -0.1
+					defense = 0.1
+                    build_cost_ic = 0.1
                 }
+				anti_tank = {
+					hard_attack = 0.15
+					ap_attack = 0.1
+					defense = 0.5
+					build_cost_ic = 0.15`
+				}
             }
         }
         rock_island_arsenal_manufacturer = {
@@ -1905,12 +1925,23 @@ ideas = {
             }
             picture = rock_island_arsenal
             cost = 100
+			modifier = { materiel_manufacturer_cost_factor = -1 }
             equipment_bonus = {
                 artillery = {
                     soft_attack = 0.1
                     breakthrough = 0.1
-                    build_cost_ic = 0.075
+                    build_cost_ic = 0.1
                 }
+				rocket_artillery = {
+                    soft_attack = 0.1
+                    breakthrough = 0.1
+					defense = 0.1
+                    build_cost_ic = 0.15
+                }
+				anti_air = {
+					air_attack = 0.1
+					ap_attack = 0.1
+				}
             }
         }
 	}
