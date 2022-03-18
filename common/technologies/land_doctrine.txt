@@ -1342,7 +1342,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		#planning max bonus increase
-		max_planning = 0.15
+		max_planning = 0.1
 		#doctrine = yes
 		research_cost = 4
 		categories = {
@@ -1420,7 +1420,7 @@ technologies = {
 		category_all_infantry = {
 			default_morale = 0.05
 		}
-		max_planning = 0.15
+		max_planning = 0.1
 		enable_tactic = tactic_planned_attack
 		path = {
 			leads_to_tech = central_planning
