@@ -1909,13 +1909,13 @@ ideas = {
                     soft_attack = -0.1
                     breakthrough = -0.1
 					defense = 0.1
-                    build_cost_ic = 0.1
+                    build_cost_ic = 0.05
                 }
 				anti_tank = {
 					hard_attack = 0.15
 					ap_attack = 0.1
 					defense = 0.5
-					build_cost_ic = 0.15`
+					build_cost_ic = 0.15
 				}
             }
         }
@@ -1936,7 +1936,7 @@ ideas = {
                     soft_attack = 0.1
                     breakthrough = 0.1
 					defense = 0.1
-                    build_cost_ic = 0.15
+                    build_cost_ic = 0.2
                 }
 				anti_air = {
 					air_attack = 0.1

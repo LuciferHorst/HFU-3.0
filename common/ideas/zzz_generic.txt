@@ -949,7 +949,7 @@ ideas = {
 		picture = generic_electronics_concern_1
 
 		allowed = {
-			OR = { tag = HUN tag = BUL tag = RAJ tag = SAF tag = CAN tag = AST }
+			OR = { tag = ROM tag = HUN tag = BUL tag = RAJ tag = SAF tag = CAN tag = AST }
 		}
 		  
 		cost = 100
@@ -964,7 +964,7 @@ ideas = {
 		picture = generic_industrial_concern_1
 
 		allowed = {
-			OR = { tag = HUN tag = BUL tag = RAJ tag = SAF tag = CAN }
+			OR = { tag = ROM tag = HUN tag = BUL tag = RAJ tag = SAF tag = CAN }
 		}
 		  
 		cost = 100

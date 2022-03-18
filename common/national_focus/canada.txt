@@ -1467,7 +1467,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = CAN_army_modernization
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 25
 		}
@@ -1483,22 +1483,20 @@ focus_tree = {
 			add_tech_bonus = {
 				name = CAN_the_walkie_talkie
 				bonus = 1.0
-				uses = 1
-				category = electronics
-				}add_tech_bonus = {
-				name = rocketry
-				bonus = 1.0
-				uses = 1
-				category = rocketry
-			}
-			add_tech_bonus = {
-				name = CAN_the_walkie_talkie
-				bonus = 1.0
-				uses = 1
+				uses = 2
 				technology = tech_signal_company
 				technology = tech_signal_company2
 				technology = tech_signal_company3
 				technology = tech_signal_company4
+			}
+			add_tech_bonus = {
+				name = CAN_the_walkie_talkie
+				bonus = 1.0
+				uses = 2
+				technology = tech_logistics_company
+				technology = tech_logistics_company2
+				technology = tech_logistics_company3
+				technology = tech_logistics_company4
 			}
 		}
 	}

@@ -61,10 +61,10 @@ equipments = {
 
 	improved_assault_guns = {
 		year = 1940
-	
 		archetype = assault_gun_equipment
+		parent = early_assault_guns
 		priority = 5
-		visual_level = 0
+		visual_level = 1
 		
 		#STATS
 		manpower = 500
@@ -80,8 +80,9 @@ equipments = {
 		year = 1942
 	
 		archetype = assault_gun_equipment
+		parent = improved_assault_guns
 		priority = 5
-		visual_level = 0
+		visual_level = 2
 		
 		#STATS
 		manpower = 500
@@ -91,7 +92,6 @@ equipments = {
 		defense = 3
 		breakthrough = 5
 		build_cost_ic = 10
-
 	}
 
 }

@@ -295,7 +295,6 @@ ideas = {
 					build_cost_ic = 0.15
 				}
 			}
-			traits = { materiel_research_trait }
 		}
 		inglis = {
 			allowed = {
@@ -321,7 +320,6 @@ ideas = {
 					ap_attack = 0.1
 				}
 			}
-			traits = { artillery_research_trait }
 		}
 	}
 }

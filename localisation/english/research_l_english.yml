@@ -4,7 +4,9 @@
  early_assault_guns_desc:0 "Our infantry will need this type of equipment to support them if they are to be successful in urban fights."
 
  improved_assault_guns:0 "Improved Assault Guns"
+ improved_assault_guns_short:0 "Improved AG"
  advanced_assault_guns:0 "Advanced Assault Guns"
+ advanced_assault_guns_short:0 "Advanced AG"
 
 
  tank_close_support_gun:0 "Close Support Gun"

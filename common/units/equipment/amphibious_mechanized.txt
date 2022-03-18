@@ -88,7 +88,7 @@ equipments = {
 	archetype = amphibious_mechanized_equipment
 	parent = amphibious_mechanized_equipment_2
 	priority = 40
-	visual_level = 1
+	visual_level = 2
 
 	maximum_speed = 10
 

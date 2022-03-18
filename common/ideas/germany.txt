@@ -1398,7 +1398,9 @@ ideas = {
 	}
 	tank_research = {
 		krupp_research = {
-			
+			visible = {
+				tag = GER
+			}
 			cost = 100
 			picture = krupp
 			
@@ -1410,7 +1412,7 @@ ideas = {
 	}
 	aircraft_research = {
 		okwl_research = {
-			available = {
+			visible = {
 				tag = GER
 			}
 			cost = 100

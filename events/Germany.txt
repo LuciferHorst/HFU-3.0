@@ -43,12 +43,12 @@ country_event = {
 			transfer_state = 47
 			transfer_state = 185
 			transfer_state = 186
+			transfer_state = 187
 		}
 		GER = {
 		    transfer_state = 102
 			transfer_state = 108
 			transfer_state = 107
-			
 			if={
 				limit={
 					182={
@@ -63,22 +63,7 @@ country_event = {
 				}
 				transfer_state =182
 			}
-			else={ENG={transfer_state=187}}
-			if={
-				limit={
-					182={
-						OR= {
-							is_controlled_by = GER
-							is_controlled_by = ITA
-							is_controlled_by = ROM
-							is_controlled_by = HUN
-							is_controlled_by = BUL
-						}
-					}
-				}
-				transfer_state =187
-			}
-			else={ENG={transfer_state=187}}
+			else = { ENG = { transfer_state=182 } }
 		}
 	}
 	option = {

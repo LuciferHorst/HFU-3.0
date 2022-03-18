@@ -321,6 +321,16 @@ spriteType = {
 	SpriteType = {
 		name = "GFX_assault_guns_1_medium"
 		texturefile = "gfx/interface/technologies/assault_guns_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_assault_guns_2_medium"
+		texturefile = "gfx/interface/technologies/assault_guns_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_assault_guns_3_medium"
+		texturefile = "gfx/interface/technologies/assault_guns_1.dds"
 	}	
 	
 	SpriteType = {
@@ -4854,6 +4864,11 @@ spriteType = {
 	
 	SpriteType = {
 		name = "GFX_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/generic_amphibious_mech_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_amphibious_mechanized_infantry_3_medium"
 		texturefile = "gfx/interface/technologies/generic_amphibious_mech_2.dds"
 	}
 

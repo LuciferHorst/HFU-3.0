@@ -883,7 +883,7 @@ ideas = {
 	}
 	tank_research = {
 		fiat_research = {
-			available = {
+			visible = {
 				tag = ITA
 			}
 			cost = 100
