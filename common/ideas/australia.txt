@@ -369,13 +369,13 @@ ideas = {
 			cost = 100
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
-				artillery = {
+				artillery_equipment = {
 					soft_attack = 0.1
 					breakthrough = 0.2
 					build_cost_ic = 0.1
 					reliability = -0.1
 				}
-				rocket_artillery = {
+				rocket_artillery_equipment = {
 					soft_attack = 0.1
 					breakthrough = 0.1
 					build_cost_ic = 0.1
@@ -397,7 +397,7 @@ ideas = {
 					breakthrough = 0.1
 					build_cost_ic = 0.075
 				}
-				anti_tank = {
+				anti_tank_equipment = {
 					hard_attack = 0.15
 					ap_attack = 0.1
 					build_cost_ic = 0.075

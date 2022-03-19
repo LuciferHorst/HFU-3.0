@@ -2638,15 +2638,10 @@
  HOL_mechanized_equipment_3:1 "DAF Pantrado 3"
  HOL_mechanized_equipment_3_short:1 "DAF Pantrado 3"
 
- 
- rocket_artillery:0 "Rocket Artillery"
- anti_tank:0 "Anti-Tank"
- artillery:0 "Artillery"
- anti_air:0 "Anti-Air"
- anti_air_equipment:0 "Towed Anti-Air"
+ anti_air_equipment:0 "Anti-Air"
  anti_air_equipment_short:0 "Anti-Air"
  anti_air_equipment_desc:0 "Anti-air artillery is primarily designed to shoot down hostile planes, although the rapid fire cannons can also be effective against ground targets."
- anti_tank_equipment:0 "Towed Anti-Tank"
+ anti_tank_equipment:0 "Anti-Tank"
  anti_tank_equipment_short:0 "Anti-Tank"
  anti_tank_equipment_desc:0 "Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells."
 
@@ -2859,7 +2854,7 @@
  anti_tank_equipment_1:0 "Towed Anti-Tank"
  anti_tank_equipment_1_short:0 "Anti-Tank"
  anti_tank_equipment_1_desc:0 "Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells."
- artillery_equipment:0 "Towed Artillery"
+ artillery_equipment:0 "Artillery"
  artillery_equipment_short:0 "Artillery"
  artillery_equipment_desc:0 "Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons."
  
