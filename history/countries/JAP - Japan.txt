@@ -183,29 +183,6 @@ add_equipment_to_stockpile = {
 	producer = JAP
 }
  add_equipment_to_stockpile = {
-          type = fighter_equipment_1
-		  variant_name = "Ki-27 A"
-          amount = 1400
-          producer = JAP
- }
- add_equipment_to_stockpile = {
-          type = tac_bomber_equipment_0
-          amount = 500
-          producer = JAP
- }
- add_equipment_to_stockpile = {
-          type = CAS_equipment_1
-		  variant_name = "Ki-32 A"
-          amount = 400
-          producer = JAP
- }
- add_equipment_to_stockpile = {
-          type = nav_bomber_equipment_1
-		  variant_name = "G3M1 A"
-          amount = 700
-          producer = JAP
- }
- add_equipment_to_stockpile = {
           type = transport_plane_equipment_1
           amount = 100
           producer = JAP
@@ -241,6 +218,30 @@ add_equipment_to_stockpile = {
 				plane_naval_upgrade = 2
 			}
 		}
+
+		add_equipment_to_stockpile = {
+			type = fighter_equipment_1
+			variant_name = "Ki-27 A"
+			amount = 1000
+			producer = JAP
+   }
+   add_equipment_to_stockpile = {
+			type = tac_bomber_equipment_0
+			amount = 500
+			producer = JAP
+   }
+   add_equipment_to_stockpile = {
+			type = CAS_equipment_1
+			variant_name = "Ki-32 A"
+			amount = 400
+			producer = JAP
+   }
+   add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_1
+			variant_name = "G3M1 A"
+			amount = 700
+			producer = JAP
+   }
 
 
 
