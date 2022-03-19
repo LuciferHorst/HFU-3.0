@@ -20,7 +20,7 @@ ideas = {
 			cost = 100
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
-				artillery = {
+				artillery_equipment = {
 					soft_attack = -0.1
 					breakthrough = -0.1
 					reliability = 0.1

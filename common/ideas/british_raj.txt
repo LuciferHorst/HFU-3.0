@@ -435,7 +435,7 @@ ideas = {
 					soft_attack = 0.1
 					build_cost_ic = 0.075
 				}
-				artillery = {
+				artillery_equipment = {
 					defense = 0.1
 					soft_attack = -0.1
 					build_cost_ic = -0.05
@@ -451,12 +451,12 @@ ideas = {
 			cost = 100
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
-				anti_tank = {
+				anti_tank_equipment = {
 					hard_attack = 0.15
 					ap_attack = 0.1
 					build_cost_ic = 0.05
 				}
-				anti_air = {
+				anti_air_equipment = {
 					air_attack = 0.15
 					ap_attack = 0.1
 					build_cost_ic = 0.05
