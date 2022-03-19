@@ -1067,52 +1067,7 @@ characters={
 		}
 	}
 
-	FRA_marcel_bucard={
-		name=FRA_marcel_bucard
-		portraits={
-			army={
-				small="GFX_idea_marcel_bucard"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = marcel_bucard
-			allowed  = {
-				original_tag  = FRA
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				fascist_demagogue 
-			}
-			do_effect  = {
-				not  = {
-					has_government  = fascism 
-				}
-			}
-			on_add  = {
-				if  = {
-					limit  = {
-						not  = {
-							tag  = VIC 
-						}
-					}
-					country_event  = lar_france_political_violence.2
-				}
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-	}
+	
 
 	FRA_rene_massigli={
 		name=FRA_rene_massigli

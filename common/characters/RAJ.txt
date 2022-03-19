@@ -805,50 +805,7 @@ characters={
 		}
 	}
 
-	RAJ_subhas_chanda_bose={
-		name=RAJ_subhas_chanda_bose
-		portraits={
-			army={
-				small="GFX_idea_RAJ_subhas_chanda_bose" #small="GFX_idea_generic_political_advisor_india_1"
-			}
-			civilian ={
-				large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> Stalinism) (Fascism -> Nazism)
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = RAJ_subhas_chanda_bose
-			allowed = {
-				original_tag = RAJ
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Together for Victory"
-					}
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue 
-			}
-			do_effect = {
-				NOT = {
-					has_government = fascism 
-				}
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}		
-	}
+	
 	
 	RAJ_john_edward_golightly={
 		name=RAJ_john_edward_golightly

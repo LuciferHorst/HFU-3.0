@@ -1551,48 +1551,7 @@ characters={
 		}		
 	}
 	
-	ENG_john_beckett={
-		name=ENG_john_beckett
-		portraits={
-			army={
-				small="GFX_idea_john_beckett"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = john_beckett
-			allowed  = {
-				original_tag  = ENG
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_government  = fascism 
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				fascist_demagogue 
-			}
-			do_effect  = {
-				NOT = {
-					has_government  = fascism 
-				}
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-	}
+	
 
 	ENG_philip_kerr={
 		name=ENG_philip_kerr
