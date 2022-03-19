@@ -21,8 +21,7 @@ ideas = {
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				artillery_equipment = {
-					soft_attack = -0.1
-					breakthrough = -0.1
+					breakthrough = 0.1
 					reliability = 0.1
 					build_cost_ic = -0.1
 				}
@@ -37,8 +36,8 @@ ideas = {
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {
 				infantry_equipment = {
-					soft_attack = -0.15
-					defense = -0.05
+					soft_attack = 0.1
+					defense = -0.1
 					reliability = 0.1
 					build_cost_ic = -0.1
 				}

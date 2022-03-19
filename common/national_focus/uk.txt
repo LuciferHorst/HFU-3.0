@@ -1570,7 +1570,7 @@ focus_tree = {
 		relative_position_id = uk_malta_focus
 		cost = 1
 		completion_reward = {
-			124 = {
+			126 = {
 				set_building_level = {
 					type = air_base
 					level = 20
@@ -1584,7 +1584,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			121 = {
+			129 = {
 				set_building_level = {
 					type = air_base
 					level = 20
