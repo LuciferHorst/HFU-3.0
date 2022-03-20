@@ -339,7 +339,7 @@ NDefines.NMilitary.USE_MULTIPLICATIVE_ORG_LOSS_WHEN_MOVING = true -- whether to 
 NDefines.NMilitary.UNIT_LEADER_USE_NONLINEAR_XP_GAIN = true      -- Whether unit leader XP gain is scaled by 1/<nr_of_traits> 
 -------------------------------------
 --Air changes
-NDefines.NAir.SUPPLY_NEED_FACTOR = 0				-- How much supply planes need
+NDefines.NAir.SUPPLY_NEED_FACTOR = 0.01				-- How much supply planes need
 NDefines.NAir.CAPACITY_PENALTY=0.869
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5
 NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 0.2 --makes redeployement of fighters faster vanilla is 0.02 
