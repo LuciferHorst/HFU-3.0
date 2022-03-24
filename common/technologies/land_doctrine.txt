@@ -10,7 +10,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		category_all_armor = {
-			breakthrough = 0.20
+			breakthrough = 0.10
 		}
 		planning_speed = 0.5
 		army_speed_factor = 0.10
@@ -544,7 +544,7 @@ technologies = {
 		xp_research_bonus = 1
 		category_tanks = {
 			#max_organisation = 3
-			breakthrough = 0.05
+			breakthrough = 0.1
 		}
 		category_support_battalions = {
 			max_organisation = 5
@@ -1158,7 +1158,7 @@ technologies = {
 		xp_unlock_cost = 0
 		xp_research_bonus = 1
 		category_light_infantry = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		category_artillery = {
 			soft_attack = 0.05
@@ -1268,7 +1268,7 @@ technologies = {
 		xp_unlock_cost = 0
 		xp_research_bonus = 1
 		category_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		enable_tactic = tactic_breakthrough
 		#doctrine = yes
@@ -2202,6 +2202,22 @@ technologies = {
 		category_support_battalions = {
 			max_organisation = 15
 		}
+
+		motorized = {
+			need = {
+				motorized_rocket_equipment = 5
+			}
+		}
+		mechanized = {
+			need = {
+				motorized_rocket_equipment = 5
+			}
+		}
+
+		on_research_complete= {
+			custom_effect_tooltip = continuous_offensive_tt
+		}
+
 		land_reinforce_rate = 0.05
 		enable_tactic = tactic_elastic_defense
 		enable_tactic = tactic_default_elastic_defense
@@ -2374,19 +2390,6 @@ technologies = {
 		land_reinforce_rate = 0.03
 		category_army = {
 			default_morale = 0.05
-		}
-		motorized = {
-			need = {
-				motorized_rocket_equipment = 5
-			}
-		}
-		mechanized = {
-			need = {
-				motorized_rocket_equipment = 5
-			}
-		}
-		on_research_complete= {
-			custom_effect_tooltip = continuous_offensive_tt
 		}
 		army_fuel_capacity_factor = 1
 		enable_tactic = tactic_backhand_blow

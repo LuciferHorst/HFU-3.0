@@ -2193,10 +2193,7 @@ equipments = {
 			count < 2
 		}
 
-		module_count_limit = {
-			module = smoke_launchers
-			count < 2
-		}
+		
 
 		module_count_limit = {
 			module = easy_maintenance

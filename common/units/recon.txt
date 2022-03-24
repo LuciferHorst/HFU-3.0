@@ -212,7 +212,7 @@ sub_units = {
 		# Support nerfs to combat abilities
 		breakthrough = 0
 		defense = 0
-		soft_attack = 12.5
+		soft_attack = 5
 		hard_attack = 39
 		essential = {
 			armored_car_equipment
