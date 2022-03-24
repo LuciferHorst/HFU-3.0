@@ -96,7 +96,7 @@ technologies = {
 	}
 	infantry_weapons2 = {
 		category_light_infantry = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		cavalry = {
 			soft_attack = 0.05
@@ -186,7 +186,7 @@ technologies = {
 	}
 	improved_infantry_weapons_2 = {
 		category_light_infantry = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		cavalry = {
 			soft_attack = 0.05
@@ -337,7 +337,7 @@ technologies = {
 	}
 	advanced_infantry_weapons2 = {
 		category_light_infantry = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		cavalry = {
 			soft_attack = 0.1
@@ -1148,7 +1148,7 @@ technologies = {
 	support_weapons = {
 		infantry = {
 			defense = 0.05
-			breakthrough = 0.05
+			breakthrough = 0.08
 		}
 		bicycle_battalion = {
 			defense = 0.05
@@ -1160,7 +1160,7 @@ technologies = {
 		}
 		category_special_forces = {
 			defense = 0.03
-			breakthrough = 0.03
+			breakthrough = 0.05
 		}
 		motorized = {
 			defense = 0.05
@@ -1216,7 +1216,7 @@ technologies = {
 	support_weapons2 = {
 		infantry = {
 			defense = 0.05
-			breakthrough = 0.05
+			breakthrough = 0.08
 		}
 		bicycle_battalion = {
 			defense = 0.05
@@ -1228,7 +1228,7 @@ technologies = {
 		}
 		category_special_forces = {
 			defense = 0.03
-			breakthrough = 0.03
+			breakthrough = 0.05
 		}
 		motorized = {
 			defense = 0.05
@@ -1291,7 +1291,7 @@ technologies = {
 	support_weapons3 = {
 		infantry = {
 			defense = 0.05
-			breakthrough = 0.05
+			breakthrough = 0.08
 		}
 		bicycle_battalion = {
 			defense = 0.05
@@ -1303,7 +1303,7 @@ technologies = {
 		}
 		category_special_forces = {
 			defense = 0.03
-			breakthrough = 0.03
+			breakthrough = 0.05
 		}
 		motorized = {
 			defense = 0.05
@@ -1360,7 +1360,7 @@ technologies = {
 	support_weapons4 = {
 		infantry = {
 			defense = 0.05
-			breakthrough = 0.05
+			breakthrough = 0.08
 		}
 		bicycle_battalion = {
 			defense = 0.05
@@ -1372,7 +1372,7 @@ technologies = {
 		}
 		category_special_forces = {
 			defense = 0.03
-			breakthrough = 0.03
+			breakthrough = 0.05
 		}
 		motorized = {
 			defense = 0.05
@@ -1554,6 +1554,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_car
 		}
 		ai_will_do = {
 			factor = 1
@@ -1595,6 +1596,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_car
 		}
 		ai_will_do = {
 			factor = 1
@@ -1632,6 +1634,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_car
 		}
 		sub_technologies = {
 			armored_car_at_upgrade
@@ -1669,6 +1672,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			armored_car
 		}
 		ai_will_do = {
 			factor = 1

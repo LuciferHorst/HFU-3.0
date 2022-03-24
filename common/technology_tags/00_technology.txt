@@ -22,6 +22,7 @@ technology_categories = {
     shocktroop
     shock_tech
     desert_tech
+	armored_car
 	cat_anti_tank
 	cat_anti_air
 	naval_air
@@ -105,6 +106,7 @@ technology_categories = {
 	cat_synth_rubber
 	tank_land_doctrine
 	assault_guns
+	armored_upgrades
 	year_1918
 	year_1936
 	year_1937

@@ -875,6 +875,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 	armor_tech_2 = {
@@ -928,6 +929,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 	armor_tech_3 = {
@@ -978,6 +980,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 	armor_tech_4 = {
@@ -1023,6 +1026,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 	engine_tech_1 = {
@@ -1069,6 +1073,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 	engine_tech_2 = {
@@ -1118,6 +1123,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 	engine_tech_3 = {
@@ -1167,6 +1173,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 	engine_tech_4 = {
@@ -1212,6 +1219,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armored_upgrades
 		}
 	}
 }
