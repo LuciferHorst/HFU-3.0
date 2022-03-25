@@ -228,10 +228,10 @@ characters = {
 						original_tag = BUL
 					}
 					available = {
-			          has_completed_focus = BUL_Let_Stanchev_Lead_The_Army
+			
 					}
 					traits = {
-						BUL_Head_Of_The_Army
+						army_chief_offensive_2
 					}
 					cost = 100
 					ai_will_do = {
@@ -338,7 +338,6 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_completed_focus = BUL_Begin_2_Year_Plan
 			}
 			visible = {
 			}

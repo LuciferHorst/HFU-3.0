@@ -1300,7 +1300,7 @@ technologies = {
 		xp_boost_cost = 0
 		xp_unlock_cost = 0
 		xor = { mobile_warfare superior_firepower mass_assault }
-		max_dig_in = 5
+		max_dig_in = 10
 		dig_in_speed_factor = 0.25 #25% bonus
 		on_research_complete = {
 			custom_effect_tooltip = "Enables the use of the staff office plan leader ability"
@@ -1342,7 +1342,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		#planning max bonus increase
-		max_planning = 0.05
+		max_planning = 0.1
 		#doctrine = yes
 		research_cost = 4
 		categories = {
@@ -1377,7 +1377,7 @@ technologies = {
 		xp_unlock_cost = 0
 		xp_research_bonus = 1
 		category_all_infantry = {
-			defense = 0.05
+			defense = 0.10
 			max_organisation = 10
 		}
 		dig_in_speed_factor = 0.25
@@ -1459,6 +1459,7 @@ technologies = {
 		xp_boost_cost = 75
 		xp_unlock_cost = 0
 		xp_research_bonus = 1
+		max_planning = 0.10
 		category_support_battalions = {
 			soft_attack = 0.05
 			hard_attack = 0.1
@@ -1550,7 +1551,6 @@ technologies = {
 		armored_car = {
 			max_organisation = 1
 		}
-		max_planning = 0.10
 		path = {
 			leads_to_tech = armored_operations
 			research_cost_coeff = 1
@@ -1585,6 +1585,9 @@ technologies = {
 		xp_boost_cost = 75
 		xp_unlock_cost = 0
 		xp_research_bonus = 1
+		category_tanks = {
+			breakthrough = 0.10
+		}
 		category_mobile_artillery= {
 			soft_attack = 0.1
 		}
@@ -1629,6 +1632,7 @@ technologies = {
 		xp_unlock_cost = 0
 		xp_research_bonus = 1
 		category_all_armor = {
+			hard_attack = 0.10
 			ap_attack = 0.1
 		}
 		enable_tactic = tactic_overwhelming_fire
@@ -1911,8 +1915,6 @@ technologies = {
 		category_recon = {
 			recon = 1
 		}
-		max_dig_in = 5
-		max_planning = 0.05
 		#doctrine = yes
 		research_cost = 4
 		categories = {
