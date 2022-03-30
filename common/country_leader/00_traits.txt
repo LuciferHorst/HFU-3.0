@@ -1318,6 +1318,15 @@ leader_traits = {
 		}
 	}
 
+	political_demagogue = {
+		sprite = 13
+		political_power_gain = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	compassionate_gentleman = {
 		random = yes
 		sprite = 13

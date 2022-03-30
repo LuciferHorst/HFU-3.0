@@ -5,7 +5,10 @@ debug_decisions = {
 	}
 }
 hoi_guide = {
-icon = generic_propaganda
+	icon = generic_propaganda
+}
+HUN_new_political_system = {
+	icon = generic_propaganda
 }
 spy_agency = {
 	icon = generic_propaganda

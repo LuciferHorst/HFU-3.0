@@ -186,13 +186,6 @@ ideas = {
 			available = {
 				NOT = {	tag = USA }
 				has_war_support > 0.15
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
 			}
 			cost = 150
 			removal_cost = -1
@@ -225,13 +218,6 @@ ideas = {
 			available = {
 				has_war_support > 0.25
 				NOT = {	tag = USA }
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
 			}
 			cost = 150
 			removal_cost = -1
@@ -262,6 +248,7 @@ ideas = {
 					has_government = communism
 					has_war = yes
 				}
+				NOT = { has_idea = HUN_treaty_of_triannon }
 			}
 			cost = 150
 			removal_cost = -1

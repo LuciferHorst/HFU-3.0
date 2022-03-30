@@ -1,4 +1,8 @@
 ﻿l_english:
+
+ #NEW TRAITS
+ political_demagogue:0 "Political Demagogue"
+
  cc_leader:0 "General"
  fm_leader:0 "Field Marshal"
  navy_leader:0 "Admiral"

@@ -918,7 +918,6 @@ ideas = {
 					original_TAG = SPR
 					original_TAG = BUL
 					original_TAG = ROM
-					original_TAG = HUN
 					original_TAG = ITA
 				}
 			}
@@ -947,9 +946,7 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = HUN
 					original_TAG = ROM
-					
 				}
 			}
 			available = {
@@ -988,9 +985,7 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = HUN
 					original_TAG = ROM
-					
 				}
 			}
 			equipment_bonus = {
@@ -1016,9 +1011,6 @@ ideas = {
 					maximum_speed = 0.1
 				}
 			}
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		GER_MAN = {
 			cost = 100
@@ -1029,9 +1021,7 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = HUN
 					original_TAG = ROM
-					
 				}
 			}
 			modifier = { tank_manufacturer_cost_factor = -1 }
@@ -1062,9 +1052,7 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = HUN
 					original_TAG = ROM
-					
 				}
 			}
 			traits = {  }
@@ -1089,9 +1077,7 @@ ideas = {
 					original_TAG = ITA
 					original_TAG = SPR
 					original_TAG = BUL
-					original_TAG = HUN
 					original_TAG = ROM
-					
 				}
 			}
 			available = {
@@ -1126,10 +1112,8 @@ ideas = {
 					original_TAG = GER
 					original_TAG = ITA
 					original_TAG = SPR
-					original_TAG = HUN
 					original_TAG = BUL
 					original_TAG = ROM
-					
 				}
 			}
 			available = {
@@ -1169,7 +1153,6 @@ ideas = {
 					original_TAG = GER
 					original_TAG = ITA
 					original_TAG = SPR
-					original_TAG = HUN
 					original_TAG = BUL
 					original_TAG = ROM
 					original_TAG = JAP

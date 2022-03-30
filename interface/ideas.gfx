@@ -1,5 +1,20 @@
 spriteTypes = {
 
+	
+	#HUNGARY
+	spriteType = {
+		name = "GFX_idea_hun_trianon"
+		texturefile = "gfx/interface/ideas/hun/idea_hun_trianon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster"
+		texturefile = "gfx/interface/ideas/hun/idea_economic_disaster.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_decisive_eco"
+		texturefile = "gfx/interface/ideas/hun/idea_decisive_eco.dds"
+	}
+
 	#MATERIEL DESIGNERS
 	spriteType = {
 		name = "GFX_idea_inglis"

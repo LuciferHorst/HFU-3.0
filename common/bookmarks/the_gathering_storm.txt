@@ -173,9 +173,11 @@ bookmarks = {
 			ideology = neutrality
 			ideas = {
 				HUN_treaty_of_triannon
+				HUN_economic_disaster
+				HUN_indecisive
 			}
 			focuses = {
-				HUN_strengthen_fascists
+				HUN_right_wing_policy
 				HUN_demand_southern_slovakia
 				HUN_renounce_the_treaty_of_trianon
 			}

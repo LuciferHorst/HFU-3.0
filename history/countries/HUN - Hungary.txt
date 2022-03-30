@@ -1,11 +1,11 @@
 capital = 43
  oob = "HUN_1936"
  set_research_slots = 3
- set_stability = 0.7
- set_war_support = 0.6
+ set_stability = 0.54
+ set_war_support = 0.25
  set_variable = {
-     var = min_fuel
-     value = 0.800
+    var = min_fuel
+    value = 0.800
  }
  set_rule = {can_be_spymaster = no}
  set_technology = {
@@ -41,12 +41,17 @@ capital = 43
 	tech_field_hospital = 1
 	tech_logistics_company = 1
 	tech_signal_company = 1
+	tech_military_police = 1
+	armor_tech_1 = 1
  }
 
  recruit_character = HUN_miklos_horthy
  recruit_character = HUN_vilmos_roder
+ recruit_character = HUN_kalman_kanya
  recruit_character = HUN_lajos_remenyi_schneller
  recruit_character = HUN_zoltan_tildy
+ recruit_character = HUN_istrate_micescu
+ recruit_character = HUN_kalman_daranyi
  recruit_character = HUN_gyula_gombos_de_jakfa
  recruit_character = HUN_ferenc_feketehalmyczeydner
  recruit_character = HUN_bela_rakosi
@@ -60,34 +65,41 @@ capital = 43
  recruit_character = HUN_ivan_hindy
  recruit_character = HUN_geza_lakatos
 
- set_convoys = 100
- add_equipment_to_stockpile = {
-          type = infantry_equipment_1
-          amount = 4500
-          producer = HUN
- }
- 	add_ideas = {
- 		HUN_treaty_of_triannon
-		peace_training
- 	}
-	add_timed_idea = {
-		 idea = HUN_manpower_cap
-		 days = 2000
-	 }
+set_convoys = 150
+
+add_ideas = {
+	HUN_treaty_of_triannon
+	HUN_economic_disaster
+	HUN_disorganized_officers
+	HUN_indecisive
+	HUN_corrupt_bureaucracy
+	peace_training
+}
  
- set_politics = {
+set_politics = {
  	ruling_party = neutrality
  	last_election = "1935.3.31"
  	election_frequency = 48
  	elections_allowed = yes
- }
- set_popularities = {
+}
+set_popularities = {
  	democratic = 25
- 	fascism = 31
- 	neutrality = 44
- }
- add_equipment_to_stockpile = {
+ 	fascism = 30
+ 	neutrality = 45
+}
+
+add_equipment_to_stockpile = {
 	type = train_equipment
 	amount = 30
+	producer = HUN
+}
+add_equipment_to_stockpile = {
+    type = infantry_equipment_1
+    amount = 4500
+	producer = HUN
+}
+add_equipment_to_stockpile = {
+    type = motorized_equipment
+    amount = 200
 	producer = HUN
 }

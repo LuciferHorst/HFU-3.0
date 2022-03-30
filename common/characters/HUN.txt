@@ -75,11 +75,11 @@ characters={
 		}
 		corps_commander={
 			traits = {  trait_engineer panzer_leader trickster infantry_leader urban_assault_specialist}
- 	skill = 6
- 	attack_skill = 5
- 	defense_skill = 4
- 	planning_skill = 2
- 	logistics_skill = 4
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -94,11 +94,11 @@ characters={
 		}
 		field_marshal={
 			traits = { panzer_leader trickster organizer trait_engineer infantry_leader trait_mountaineer}
- 	skill = 7
- 	attack_skill = 5
- 	defense_skill = 2
- 	planning_skill = 1
- 	logistics_skill = 2
+			skill = 7
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -228,6 +228,25 @@ characters={
 
 	### MILITARY HIGH COMMAND ###
 
+	HUN_istrate_micescu = {
+		portraits={
+			army={
+				small="GFX_idea_HUN_hugo_sonyi"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = HUN_istrate_micescu
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+			}
+			
+			traits = { army_armored_2 }
+		}
+	}
+
 	HUN_gusztav_jany={
 		name=HUN_gusztav_jany
 		portraits={
@@ -300,7 +319,6 @@ characters={
 		}
 	}
 
-
 	### POLITICAL ADVISORS ###
 
 	HUN_lajos_remenyi_schneller={
@@ -354,6 +372,7 @@ characters={
 			allowed = {
 				original_tag = HUN
 			}
+			cost = 150
 			traits = {
 				silent_workhorse 
 			}
@@ -373,15 +392,9 @@ characters={
 			allowed = {
 				original_tag = HUN
 			}
+			cost = 100
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
+				has_completed_focus = HUN_gombos_administration
 			}
 			traits = {
 				fascist_demagogue 
@@ -389,5 +402,48 @@ characters={
 		}
 	}
 
-	# Illusive Gentleman auto-generated
+	HUN_kalman_daranyi = {
+		name=HUN_kalman_daranyi
+		portraits={
+			army={
+				small="GFX_idea_HUN_kalman_daranyi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_kalman_daranyi
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				has_completed_focus = HUN_constitutional_order
+			}
+			traits = {
+				popular_figurehead 
+			}
+		}
+	}
+
+	HUN_kalman_kanya = {
+		name = HUN_kalman_kanya
+		portraits={
+			army={
+				small="GFX_idea_HUN_kalman_kanya"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_kalman_kanya
+			cost = 150
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				
+			}
+			traits = {
+				political_demagogue 
+			}
+		}
+	}
 }
