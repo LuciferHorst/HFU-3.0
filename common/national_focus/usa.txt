@@ -1544,6 +1544,7 @@ focus = {
 		prerequisite = { focus = USA_administration }
 		available = {
 			date > 1940.1.1
+			dockyard > 79
 		}
 		available_if_capitulated = yes
 		x = 0
