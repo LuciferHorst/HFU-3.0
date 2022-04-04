@@ -151,7 +151,11 @@ focus_tree = {
 		}
 		cost = 5
 		completion_reward = {
-			add_ideas = low_economic_mobilisation
+			if = { 
+				limit = { NOT = { has_idea = partial_economic_mobilisation  } }
+		
+			add_ideas = low_economic_mobilisation		
+			}
 		}
 	}
 	focus = {
