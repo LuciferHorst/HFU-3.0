@@ -8,7 +8,7 @@ HUN_new_political_system = {
 			has_completed_focus = HUN_new_beginnings
 		}
 		modifier = {
-			fascism_drift = 0.03
+			fascism_drift = 0.05
 			stability_weekly = 0.001
 		}
 		days_remove = 100
@@ -17,28 +17,6 @@ HUN_new_political_system = {
 		complete_effect = {
 		}
 		remove_effect = {
-		}
-	}
-	HUN_make_political_advancements = {
-		allowed = {
-			original_tag = HUN
-		}
-		available = {
-			has_completed_focus = HUN_new_beginnings
-		}
-		visible = {
-			NOT = { has_completed_focus = HUN_proclaim_greater_hungary }
-		}
-		modifier = {
-			
-		}
-		days_remove = 140
-		cost = 25
-		is_good = yes
-		complete_effect = {
-		}
-		remove_effect = {
-			add_political_power = 100
 		}
 	}
 	HUN_support_civilian_industry = {
@@ -124,6 +102,28 @@ HUN_new_political_system = {
 					add_idea = HUN_civ_1
 				}
 			}
+		}
+	}
+	HUN_hire_more_workers = {
+		allowed = {
+			original_tag = HUN
+		}
+		available = {
+			has_completed_focus = HUN_new_beginnings
+		}
+		visible = {
+			NOT = { has_completed_focus = HUN_proclaim_greater_hungary }
+		}
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+		days_remove = 120
+		days_re_enable = 60
+		cost = 100
+		is_good = yes
+		complete_effect = {
+		}
+		remove_effect = {
 		}
 	}
 	HUN_foreign_scientists_1 = {
