@@ -164,9 +164,19 @@ country_event = {
 	picture = GFX_report_event_merchant_ship_01
 	is_triggered_only = yes
 	immediate = {
-		173 = {
+		177 = {
 			set_building_level= {
 				type = anti_air_building
+				level = 5
+				instant_build = yes
+			}
+			set_building_level= {
+				type = air_base
+				level = 5
+				instant_build = yes
+			}
+			set_building_level= {
+				type = naval_base
 				level = 5
 				instant_build = yes
 			}
@@ -176,7 +186,7 @@ country_event = {
 		name = italy.9.a
 		country_event = { id = italy.10 }
 		effect_tooltip = {
-			ITA = { transfer_state = 173 }
+			ITA = { transfer_state = 177 }
 
 
 			remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
