@@ -5,7 +5,6 @@ state={
 	manpower = 3005214
 	resources={
 		steel=13 # was: 20
-		chromium = 3 # was: 4
 		tungsten = 9 # was: 4
 	}
 	

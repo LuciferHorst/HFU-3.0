@@ -15,7 +15,6 @@ equipments = {
 		build_cost_ic = 2500
 		resources = {
 			steel = 2
-			chromium = 1
 		}
 
 		can_be_lend_leased = {
@@ -39,7 +38,6 @@ equipments = {
 		build_cost_ic = 2500
 		resources = {
 			steel = 2
-			chromium = 1
 		}
 	}
 }

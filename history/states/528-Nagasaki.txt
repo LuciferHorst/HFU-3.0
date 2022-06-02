@@ -5,8 +5,7 @@ state={
 	manpower = 9069000
 	state_category = megalopolis
 	resources={
-		chromium=130
-		steel = 130 # was: 88
+		steel = 130
 		aluminium = 70
 	}
 

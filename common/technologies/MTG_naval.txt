@@ -98,7 +98,7 @@ technologies = {
 			leads_to_tech = advanced_ship_hull_light
 			research_cost_coeff = 1
 		}
-		research_cost = 1.25
+		research_cost = 1.5
 		start_year = 1940
 		categories = {
 			year_1940
@@ -545,7 +545,7 @@ technologies = {
 			leads_to_tech = advanced_ship_hull_cruiser
 			research_cost_coeff = 1
 		}
-		research_cost = 1.25
+		research_cost = 1.5
 		start_year = 1940
 		categories = {
 			year_1940
@@ -896,7 +896,7 @@ technologies = {
 			leads_to_tech = advanced_ship_hull_heavy
 			research_cost_coeff = 1
 		}
-		research_cost = 1.25
+		research_cost = 1.5
 		start_year = 1940
 		categories = {
 			year_1940
@@ -1162,7 +1162,7 @@ technologies = {
 			leads_to_tech = advanced_ship_hull_carrier
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 1.25
 		start_year = 1940
 		categories = {
 			year_1940

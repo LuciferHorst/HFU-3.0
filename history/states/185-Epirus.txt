@@ -7,8 +7,7 @@ state={
 	state_category = rural
 	
 	resources={
-		chromium=10 # was: 20
-		steel = 10 # was: 20
+		steel = 10
 	}
 
 	history={
@@ -20,9 +19,6 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
-			9805 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = GRE
 	}

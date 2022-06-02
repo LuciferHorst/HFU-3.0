@@ -164,7 +164,6 @@ sub_units = {
 		urban = {
 			attack = 0.20
 			movement = 0.1
-			defence = 0.05
 		}
 		fort = {
 			attack = 0.2
@@ -172,7 +171,6 @@ sub_units = {
 		}
 		forest = {
 			attack = 0.15
-			defence = 0.05
 			movement = 0.1
 		}
 	}
@@ -474,27 +472,20 @@ sub_units = {
 
 		hills = {
 			attack = 0.2
-			defence = 0.05
 			movement = 0.1
 		}
 		mountain = {
 			attack = 0.45
-			defence = 0.05
 			movement = 0.2
 		}
 		marsh = {
 			attack = 0.1
-			defence = 0.05
 			movement = 0.1
 		}
 		forest = {
 			attack = 0.15
-			defence = 0.05
 			movement = 0.1
 		}
-
-
-
 	}
 	motorized = {
 		sprite = motorized

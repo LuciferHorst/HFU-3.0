@@ -232,7 +232,6 @@ equipments = {
 		build_cost_ic = 450
 		resources = {
 			steel = 3
-			chromium = 1
 		}
 		type = {
 			submarine
@@ -471,9 +470,7 @@ equipments = {
 
 		build_cost_ic = 400
 		resources = {
-			#oil = 2
 			steel = 3
-			chromium = 1
 		}
 		type = {
 			submarine

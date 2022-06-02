@@ -2157,11 +2157,6 @@ focus_tree = {
     				state = 682#canada
 			}
 			add_resource = {
-    				type = chromium
-   				amount = 10
-    				state = 682#canada
-			}
-			add_resource = {
     				type = steel
    				amount = 20
     				state = 275#saf
@@ -2177,11 +2172,6 @@ focus_tree = {
     				state = 285#astpapua
 			}
 			add_resource = {
-    				type = chromium
-   				amount = 15
-    				state = 285#astpapua
-			}
-			add_resource = {
     				type = aluminium
    				amount = 10
     				state = 538#fra
@@ -2193,11 +2183,6 @@ focus_tree = {
 			}
 			add_resource = {
     				type = tungsten
-   				amount = 10
-    				state = 538#fra
-			}
-			add_resource = {
-    				type = chromium
    				amount = 10
     				state = 538#fra
 			}
@@ -2215,12 +2200,7 @@ focus_tree = {
     				type = tungsten
    				amount = 15
     				state = 439#raj
-			}
-			add_resource = {
-    				type = chromium
-   				amount = 10
-    				state = 439#raj
-			}		
+			}	
 		}
 	}
 	focus = {

@@ -891,12 +891,6 @@ focus = {
                 amount = 120
                 }
             }
-            393 = {
-                add_resource = {
-                type = chromium
-                amount = 50
-                }
-            }
             391 = {
                 add_resource = {
                 type = aluminium

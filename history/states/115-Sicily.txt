@@ -6,7 +6,6 @@ state={
 	
 	state_category = city
 	resources = {
-		chromium = 20
 	}
 	history={
 		owner = ITA

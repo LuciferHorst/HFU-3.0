@@ -302,7 +302,6 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
-			#chromium = 1
 		}
 		multiply_stats = {
 			naval_speed = -0.05
@@ -325,7 +324,6 @@ ship_super_heavy_battery_2 = {
 		}
 		build_cost_resources = {
 			steel = 1
-			chromium = 1
 		}
 		multiply_stats = {
 			naval_speed = -0.05
@@ -2078,7 +2076,7 @@ ship_super_heavy_battery_2 = {
 			lg_armor_piercing = 0.2
 		}
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 50
@@ -2118,7 +2116,7 @@ ship_super_heavy_battery_2 = {
 			lg_armor_piercing = 0.2
 		}
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 55
@@ -2159,7 +2157,6 @@ ship_super_heavy_battery_2 = {
 			lg_armor_piercing = 0.2
 		}
 		build_cost_resources = {
-			chromium = 1
 		}
 		add_stats = {
 			armor_value = 70
@@ -2179,7 +2176,7 @@ ship_super_heavy_battery_2 = {
 			lg_armor_piercing = 0.2
 		}
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 80

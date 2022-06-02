@@ -2400,11 +2400,6 @@ focus_tree = {
 					state = 539
 				}
 				add_resource = {
-					type = chromium
-					amount = 30
-					state = 539
-				}
-				add_resource = {
 					type = tungsten
 					amount = 30
 					state = 540

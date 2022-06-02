@@ -528,11 +528,6 @@ focus = {
 					state = 448
 				}
 				add_resource = {
-					type = chromium
-					amount = 40
-					state = 448
-				}
-				add_resource = {
 					type = tungsten
 					amount = 40
 					state = 448

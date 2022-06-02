@@ -742,9 +742,8 @@ technologies = {
 			improved_special_forces
 		}
 		category_special_forces = {
-			defense = 0.075
+			soft_attack = 0.05
 		}
-		special_forces_training_time_factor = 0.1
 		path = {
 			leads_to_tech = extreme_environment_training
 			research_cost_coeff = 1
@@ -774,7 +773,6 @@ technologies = {
 			breakthrough = 0.05
 		
 		}
-		special_forces_training_time_factor = -0.2
 		path = {
 			leads_to_tech = survival_training
 			research_cost_coeff = 1
@@ -804,7 +802,6 @@ technologies = {
 			supply_consumption_factor=-0.01
 		}
 		special_forces_no_supply_grace = 48
-		special_forces_training_time_factor = 0.1
 		path = {
 			leads_to_tech = elite_forces
 			research_cost_coeff = 1
@@ -830,6 +827,7 @@ technologies = {
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.20
 			acclimatization_cold_climate_gain_factor = 0.20
+			default_morale = 0.1
 		}
 		special_forces_out_of_supply_factor = -0.2
 		path = {
