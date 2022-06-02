@@ -144,10 +144,9 @@ focus_tree = {
 		id = SOV_gulag
 		icon = GFX_SOV_nkvd_deportation_2
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = SOV_capitals_of_socialism
-		prerequisite = { focus = SOV_capitals_of_socialism }
-		prerequisite = { focus = SOV_start_five_year_plan}
+		prerequisite = { focus = SOV_production_targets }
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -160,10 +159,10 @@ focus_tree = {
 	focus = {
 		id = SOV_production_targets
 		icon = GFX_SOV_tractor_factories
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = SOV_gulag
-		prerequisite = { focus = SOV_gulag }
+		relative_position_id = SOV_capitals_of_socialism
+		prerequisite = { focus = SOV_capitals_of_socialism }
 		cost = 5
 		ai_will_do = {
 			factor = 5
