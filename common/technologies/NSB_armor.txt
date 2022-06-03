@@ -702,6 +702,9 @@ technologies = {
 			leads_to_tech = advanced_light_tank_chassis
 			research_cost_coeff = 0.7
 		}
+		allow = {
+			date > 1939.1.1
+		}
 		research_cost = 2.5
 		start_year = 1941
 		categories = {

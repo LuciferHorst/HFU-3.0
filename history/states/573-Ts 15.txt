@@ -6,6 +6,7 @@ state={
 	
 	state_category = city
 	resources={
+		chromium = 30
 	}
 
 	history={

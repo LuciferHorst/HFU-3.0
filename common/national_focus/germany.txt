@@ -3960,7 +3960,7 @@ focus = {
 			cost = 5
 			available_if_capitulated = no
 			completion_reward = {
-			custom_effect_tooltip = "Four fully equipped Tiger-Divisions will spawn in Königsberg. A designer can be used."
+			custom_effect_tooltip = "Three fully equipped Tiger-Divisions will spawn in Königsberg. A designer can be used."
 			hidden_effect={
 				set_technology = {
 					improved_heavy_tank_chassis = 1
@@ -4032,7 +4032,7 @@ focus = {
 				}
 				763 = {
 					for_loop_effect = {
-						end = 4
+						end = 3
 						create_unit = {
 							division = "name = \"SS-Panzergrenadier\" division_template = \"SS-Panzergrenadier\" start_experience_factor = 2.0"
 							owner = GER

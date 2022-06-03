@@ -2049,6 +2049,20 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			instantTextBoxType = {
+				name = "air_subtitle_medium_research_lock"
+				position = { x = 130 y = 40 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "Tier III planes are locked behind June 1939 and tier IV planes behind June 1941"
+				maxWidth = 1500
+				maxHeight = 120
+				format = center
+				Orientation = "UPPER_LEFT"
+			}	
+			
+
 			containerWindowType = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }

@@ -5,8 +5,9 @@ state={
 	manpower = 9069000
 	state_category = megalopolis
 	resources={
-		steel = 130
+		steel = 150
 		aluminium = 70
+		chromium = 15
 	}
 
 	history={
