@@ -102,6 +102,7 @@ equipments = {
 
 		upgrades = {
 			tank_nsb_engine_upgrade
+			mech_nsb_armor_upgrade
 		}
 			default_modules = {
 				main_armament_slot = empty

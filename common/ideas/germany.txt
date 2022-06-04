@@ -1303,13 +1303,13 @@ ideas = {
 			equipment_bonus = {
 				artillery_equipment = {
 					soft_attack = 0.15
-					breakthrough = -0.2
+					breakthrough = 0.15
 					defense = -0.05
 					build_cost_ic = 0.1
 				}
 				anti_tank_equipment = {
 					hard_attack = 0.15
-					breakthrough = -0.2
+					breakthrough = 0.15
 					defense = -0.05
 					build_cost_ic = 0.1
 				}

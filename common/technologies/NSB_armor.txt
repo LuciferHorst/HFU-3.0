@@ -949,7 +949,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1941
+		start_year = 1940
 		categories = {
 			year_1941
 		}
@@ -988,7 +988,7 @@ technologies = {
 	}
 	armor_tech_4 = {
 		research_cost = 1
-		start_year = 1943
+		start_year = 1942
 		categories = {
 			year_1943
 		}
@@ -1143,7 +1143,7 @@ technologies = {
 		xp_research_bonus = 1
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1941
+		start_year = 1940
 		categories = {
 			year_1941
 		}
@@ -1181,7 +1181,7 @@ technologies = {
 	}
 	engine_tech_4 = {
 		research_cost = 1
-		start_year = 1943
+		start_year = 1942
 		categories = {
 			year_1943
 		}

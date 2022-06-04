@@ -62,7 +62,7 @@ ideas = {
 			equipment_bonus = {
 				infantry_equipment = {
 					instant = yes
-					build_cost_ic = -0.2
+					build_cost_ic = -0.15
 				}
 			}
 		}
@@ -73,13 +73,13 @@ ideas = {
 			}
 			equipment_bonus = {
 				anti_air_equipment = {
-					build_cost_ic = -0.2 instant = yes
+					build_cost_ic = -0.15 instant = yes
 				}
 				artillery_equipment = {
-					build_cost_ic = -0.2 instant = yes
+					build_cost_ic = -0.15 instant = yes
 				}
 				anti_tank_equipment = {
-					build_cost_ic = -0.2 instant = yes
+					build_cost_ic = -0.15 instant = yes
 				}
 			}
 		}
@@ -518,7 +518,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			equipment_bonus = {
 				heavy_tank_chassis = {
-					build_cost_ic = -0.35 instant = yes
+					build_cost_ic = -0.2 instant = yes
 				}
 			}
 		}

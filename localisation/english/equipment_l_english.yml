@@ -52,6 +52,7 @@
  SOV_railway_gun_equipment_1:0 "TM-3-12"
 
  tank_nsb_engine_upgrade:0 "$tank_engine_upgrade$"
+ mech_nsb_engine_upgrade:0 "$mech_engine_upgrade$"
  tank_nsb_armor_upgrade:0 "$tank_armor_upgrade$"
  submarine:0 "Submarine"
  submarine_desc:0 "Submarines employ stealth and powerful torpedoes to destroy enemy convoys."
@@ -3564,6 +3565,7 @@
 
 
  tank_armor_upgrade:0 "Armor"
+ mech_armor_upgrade:0 "Armor"
  tank_armor_upgrade_desc:0 "Better armor than your enemies can penetrate is a huge advantage to your divisions but is probably going to slow you down."
  tank_armor_variant_upgrade:0 "Armor"
  tank_armor_variant_upgrade_desc:0 "Better armor than your enemies can penetrate is a huge advantage to your divisions but is probably going to slow you down."
