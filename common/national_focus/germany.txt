@@ -36,8 +36,8 @@
 				technology = dispersed_industry4
 				technology = dispersed_industry5
 			}
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = hjalmar_schacht
+			custom_effect_tooltip = available_theorist_production
+			show_ideas_tooltip = GER_hjalmar_schacht
 		}
 	}
 	focus = {
@@ -1379,9 +1379,9 @@ focus = {
 		available = {
 			has_war_with = SOV
 			
-			OR={
+			OR = {
 			date > 1942.1.1
-			AND= {
+			AND = {
 				hidden_trigger = {
 					DEN={exists=no}
 					HOL={exists=no}
@@ -1389,11 +1389,8 @@ focus = {
 					BEL={exists=no}
 					LUX={exists=no}
 					
-				}
-			
-			
-			
-			OR={
+				}	
+			OR = {
 				99= {NOT={is_controlled_by_ROOT_or_ally=yes}}
 				58= {NOT={is_controlled_by_ROOT_or_ally=yes}}
 				59= {NOT={is_controlled_by_ROOT_or_ally=yes}}
@@ -1416,13 +1413,10 @@ focus = {
 			}}
 			
 		}
-		ai_will_do = {
-			factor = 5
-		}
 		available_if_capitulated = no
 		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = speer
+			custom_effect_tooltip = available_theorist_production
+			show_ideas_tooltip = GER_albert_speer
 			add_political_power = 150
 		}
 	}

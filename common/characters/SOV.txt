@@ -1980,34 +1980,6 @@ characters = {
 	#    #  # #    #   #   #  #  # #  # #       #  # #  #  # #   #    # #  # #  #   # 
 	#     ##  ### ###  #  ###  ##  #  # ###     #  # ###    #   ### ##   ##  #  # ##  
 
-	SOV_terror_mo = {
-		name = SOV_terror_mo
-
-		portraits = {
-			army = {
-				small = "GFX_idea_mo"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = SOV_terror_mo
-			name = SOV_terror_mo 
-			allowed = {
-				original_tag = SOV
-			}
-			
-			visible = {
-				NOT = {
-					has_character_flag = SOV_character_purged_flag 
-				}
-			}
-			traits = {
-				industrial_genius
-			}
-			cost = 150
-		}
-	}
-
 	SOV_mikhail_kalinin = {
 		name = SOV_mikhail_kalinin
 		portraits = {

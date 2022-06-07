@@ -1493,5 +1493,27 @@ ideas = {
             }
         }
 	}
+	theorist_production = {
+		FRA_felix_gouin = {
+			picture = generic_political_advisor_europe_3
+			cost = 75
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			traits = { captain_of_industry }
+		}
+		FRA_zivony_peshkov={
+			picture = generic_political_advisor_europe_4
+			cost = 150
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			traits  = { war_industrialist }
+		}
+	}
 }
 

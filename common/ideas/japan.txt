@@ -1436,5 +1436,27 @@ ideas = {
             }
         }
 	}
+	theorist_production = {
+		JAP_kijuro_shidehara = {
+			picture = kijuro_shidehara
+			cost = 75
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			traits = { captain_of_industry }
+		}
+		JAP_hisaichi_terauchi = { 
+			picture = hisaichi_terauchi
+			cost = 150
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			traits = { war_industrialist }
+		}
+	}
 }
 

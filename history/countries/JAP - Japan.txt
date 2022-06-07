@@ -316,7 +316,6 @@ add_equipment_to_stockpile = {
  recruit_character = JAP_chiune_sugihara
  recruit_character = JAP_kingoro_hashimoto
  recruit_character = JAP_hiroshi_oshima
- recruit_character = JAP_kijuro_shidehara
 
  if = {
  	limit = {

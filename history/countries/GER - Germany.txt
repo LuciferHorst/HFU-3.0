@@ -253,15 +253,12 @@ add_ideas = {
 
 #POLITICAL
 recruit_character = GER_adolf_hitler
-recruit_character = GER_hjalmar_schacht
-recruit_character = GER_walther_funk
 recruit_character = GER_joseph_goebbels
 recruit_character = GER_heinrich_himmler
 recruit_character = GER_fritz_todt
 recruit_character = GER_rudolf_hess
 recruit_character = GER_martin_bormann
 recruit_character = GER_joachim_von_ribbentrop
-recruit_character = GER_albert_speer
 recruit_character = GER_franz_halder
 recruit_character = GER_wilhelm_keitel
 recruit_character = GER_ludwig_beck

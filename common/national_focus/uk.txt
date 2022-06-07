@@ -314,8 +314,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = shadow_scheme_focus_tt
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = ENG_leslie_hore_belisha
+			custom_effect_tooltip = available_theorist_production
+			show_ideas_tooltip = ENG_clement_attlee
 		}
 	}
 	focus = {

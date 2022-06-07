@@ -1489,5 +1489,43 @@ ideas = {
 			traits = { naval_theorist }
 		}
 	}
+	theorist_production = {
+		GER_albert_speer = { 
+			picture = speer
+			cost = 150
+
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				has_completed_focus = GER_albert_speer_focus
+			}
+			
+			traits = { rustungsorganisator }		
+		}
+		GER_hjalmar_schacht = {
+			picture = hjalmar_schacht
+			cost = 75
+
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				has_completed_focus = GER_four_year_plan
+			}
+			
+			traits = { captain_of_industry }	
+		}
+		GER_walther_funk = {
+			picture = walther_funk
+			cost = 150
+
+			allowed = {
+				original_tag = GER
+			}
+			
+			traits = { war_industrialist }
+		}
+	}
 }
 

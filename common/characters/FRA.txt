@@ -1337,58 +1337,6 @@ characters={
 		}
 	}
 
-	FRA_zivony_peshkov={
-		name=FRA_zivony_peshkov
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_5"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = FRA_zivony_peshkov
-			allowed  = {
-				original_tag  = FRA
-			}
-			traits  = {
-				war_industrialist 
-			}
-			on_add  = {
-			}
-			do_effect  = {
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-	}
-
-	FRA_felix_gouin={
-		name=FRA_felix_gouin
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_4"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = FRA_felix_gouin
-			allowed  = {
-				original_tag  = FRA
-			}
-			traits  = {
-				captain_of_industry 
-			}
-			on_add  = {
-			}
-			do_effect  = {
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-	}
-
 	FRA_charles_tillon={
 		name=FRA_charles_tillon
 		portraits={

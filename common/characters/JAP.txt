@@ -83,18 +83,6 @@ characters={
 				large="gfx/leaders/JAP/Portrait_Japan_Hisaichi_Terauchi.dds"
 			}
 		}
-		advisor={
-			cost = 150
-			slot = political_advisor
-			idea_token = hisaichi_terauchi
-			ledger = army
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				war_industrialist
-			}
-		}
 		
 		field_marshal={
 			traits={  JAP_samurai_lineage		offensive_doctrine
@@ -1433,42 +1421,6 @@ characters={
 				NOT = {
 					has_government = communism 
 				}
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-	}
-
-	JAP_kijuro_shidehara={
-		name=JAP_kijuro_shidehara
-		portraits={
-			army={
-				small="GFX_idea_kijuro_shidehara"
-			}
-		}
-		advisor={
-			cost = 75
-			slot = political_advisor
-			idea_token = kijuro_shidehara
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-			
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-				}
-			}
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				captain_of_industry
 			}
 			ai_will_do = {
 				factor = 0.000

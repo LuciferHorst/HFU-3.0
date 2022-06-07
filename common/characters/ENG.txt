@@ -1525,33 +1525,7 @@ characters={
 
 	# Mosley up there
 
-	# Pollit up there
-
-	ENG_clement_attlee={
-		name=ENG_clement_attlee
-		portraits={
-			army={
-				small="GFX_idea_clement_attlee"
-			}
-		}
-		advisor={
-			cost = 50
-			slot = political_advisor
-			idea_token = clement_attlee
-			available  = {
-				has_completed_focus = shadow_scheme_focus
-			}
-			allowed  = {
-				original_tag  = ENG
-			}
-			visible = { always = yes }
-			traits  = {
-				industrial_genius
-			}
-		}		
-	}
-	
-	
+	# Pollit up there	
 
 	ENG_philip_kerr={
 		name=ENG_philip_kerr
@@ -1606,28 +1580,6 @@ characters={
 			}
 			traits  = {
 				backroom_backstabber 
-			}
-		}
-	}
-
-	ENG_maxwell_aitken={
-		name=ENG_maxwell_aitken
-		portraits={
-			army={
-				small="GFX_idea_ENG_maxwell_aitken"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_maxwell_aitken
-			allowed  = {
-				original_tag  = ENG
-			}
-			traits  = {
-				war_industrialist 
-			}
-			ai_will_do  = {
-				factor  = 2.000
 			}
 		}
 	}

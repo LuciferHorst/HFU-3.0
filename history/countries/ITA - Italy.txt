@@ -293,9 +293,7 @@ add_equipment_to_stockpile = {
 
 recruit_character = ITA_benito_mussolini
 recruit_character = ITA_carlo_scorza
-recruit_character = ITA_giacomo_acerbo
 recruit_character = ITA_junio_valerio_borghese
-recruit_character = ITA_luigi_einaudi
 recruit_character = ITA_paolo_thaon_di_revel
 recruit_character = ITA_giovanni_marinelli
 recruit_character = ITA_giovanni_messe

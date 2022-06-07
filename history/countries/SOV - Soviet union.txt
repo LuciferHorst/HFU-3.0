@@ -351,7 +351,6 @@ recruit_character = SOV_yakov_smushkevich
 recruit_character = SOV_vasily_blyukher
 
 recruit_character = SOV_better_konstantin_rokossovsky
-recruit_character = SOV_terror_mo
 
 SOV_better_konstantin_rokossovsky = {
 set_character_flag = SOV_exiled_flag
