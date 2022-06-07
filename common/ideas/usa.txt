@@ -1365,23 +1365,6 @@ ideas = {
 				factor = 0
 			}
 		}
-		USA_william_regnery = {
-			picture = generic_political_advisor_europe_2
-			allowed = {
-				original_tag = "USA"
-			}
-			available = {
-				
-			}
-			visible = { has_dlc = "Man the Guns" }
-			traits = { industrial_genius }
-			cost = 75
-			do_effect = {
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
 		harold_ickes = {
 			allowed = {
 				original_tag = "USA"
@@ -1415,16 +1398,6 @@ ideas = {
 			available = {
 			}
 			traits = { financial_expert }
-		}
-		USA_henry_stimson = {
-			picture = generic_political_advisor_europe_2
-			available = {
-				
-			}
-			allowed = {
-				original_tag = USA
-			}
-			traits = { war_industrialist }
 		}
 		USA_donald_nelson = {
 			picture = generic_political_advisor_europe_3
@@ -2082,6 +2055,33 @@ ideas = {
 			traits = { rocket_scientist }
 		}
 	}
+	theorist_production = {
+		USA_william_regnery = {
+			picture = generic_political_advisor_europe_6
+			cost = 100
 
+			allowed  = {
+				original_tag  = USA
+			}
+			available  = {
+				has_completed_focus = USA_appoint_regnery
+			}
+
+			traits = { captain_of_industry }
+		}
+		USA_henry_stimson = { 
+			picture = generic_political_advisor_europe_2
+			cost = 150
+
+			allowed  = {
+				original_tag  = USA
+			}
+			available  = {
+				has_completed_focus = USA_appoint_regnery
+			}
+
+			traits = { war_industrialist }
+		}
+	}
 }
 

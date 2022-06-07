@@ -235,7 +235,7 @@ guiTypes = {
 				name = "regiments_grid"
 				position = { x = 115 y = 57 }
 				size = { width = 445 height = 100%% }
-				slotsize = { width = 82 height = 43 }
+				slotsize = { width = 82 height = 52 }
 				format = "UPPER_LEFT"
 			}
 		}

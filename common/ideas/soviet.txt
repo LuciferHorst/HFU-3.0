@@ -1223,5 +1223,17 @@ ideas = {
 			}
 		}
 	}
+	theorist_production = {
+		SOV_terror_mo = {
+			picture = mo
+			cost = 150
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			traits = { industrial_genius }
+		}
+	}
 }
 

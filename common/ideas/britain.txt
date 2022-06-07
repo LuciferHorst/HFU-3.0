@@ -1092,6 +1092,30 @@ ideas = {
 			}
 		}
 	}
-	
+	theorist_production = {
+		ENG_clement_attlee={
+			picture = clement_attlee
+			cost = 45
+
+			allowed = {
+				original_tag = ENG
+			}
+			available = {
+				has_completed_focus = shadow_scheme_focus
+			}
+
+			traits = { industrial_genius }
+		}
+		ENG_maxwell_aitken={
+			picture = ENG_maxwell_aitken
+			cost = 150
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			traits = { war_industrialist }
+		}
+	}
 }
 

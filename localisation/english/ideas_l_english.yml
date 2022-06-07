@@ -97,6 +97,7 @@
  okwl_research:0 "OKW-L"
  fiat_research:0 "Fiat"
 
+ theorist_production:0 "Industrial Theorist"
 
  SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
  JAP_economy_law:0 "Civilian Administration"

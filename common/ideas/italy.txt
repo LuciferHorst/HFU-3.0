@@ -436,18 +436,6 @@ ideas = {
 				factor = 1
 			}
 		}
-		ITA_giacomo_acerbo = {
-			allowed = {
-				original_tag = "ITA"
-			}
-			picture = generic_political_advisor_europe_2
-			traits = { war_industrialist }
-			on_add = {
-			}
-			ai_will_do = {
-				factor = 3
-			}
-		}
 		ITA_junio_valerio_borghese = {
 			allowed = {
 				original_tag = "ITA"
@@ -458,18 +446,6 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
-			}
-		}
-		ITA_luigi_einaudi = {
-			allowed = {
-				original_tag = "ITA"
-			}
-			picture = generic_political_advisor_europe_1
-			traits = { captain_of_industry }
-			on_add = {
-			}
-			ai_will_do = {
-				factor = 3
 			}
 		}
 		ITA_paolo_thaon_di_revel = {
@@ -965,6 +941,27 @@ ideas = {
 				rocketry = 0.15
 			}
 			traits = { rocket_scientist }
+		}
+	}
+	theorist_production = {
+		ITA_luigi_einaudi = {
+			picture = generic_political_advisor_europe_1
+			cost = 150
+			allowed = {
+				original_tag = ITA
+			}
+
+			traits = { captain_of_industry }
+		}
+		ITA_giacomo_acerbo = {
+			picture = generic_political_advisor_europe_2
+			cost = 150
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			traits = { war_industrialist }
 		}
 	}
 }

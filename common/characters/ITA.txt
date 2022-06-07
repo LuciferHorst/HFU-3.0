@@ -906,30 +906,6 @@ characters={
 			}
 		}
 	}
-
-	ITA_giacomo_acerbo={
-		name=ITA_giacomo_acerbo
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_2"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ITA_giacomo_acerbo
-			allowed  = {
-				original_tag  = ITA
-			}
-			traits  = {
-				war_industrialist 
-			}
-			on_add  = {
-			}
-			ai_will_do  = {
-				factor  = 3.000
-			}
-		}
-	}
 	
 	ITA_junio_valerio_borghese={
 		name=ITA_junio_valerio_borghese
@@ -951,30 +927,6 @@ characters={
 			}
 			ai_will_do  = {
 				factor  = 1.000
-			}
-		}
-	}
-
-	ITA_luigi_einaudi={
-		name=ITA_luigi_einaudi
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_europe_generic_4.dds"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ITA_luigi_einaudi
-			allowed  = {
-				original_tag  = ITA
-			}
-			traits  = {
-				captain_of_industry 
-			}
-			on_add  = {
-			}
-			ai_will_do  = {
-				factor  = 3.000
 			}
 		}
 	}

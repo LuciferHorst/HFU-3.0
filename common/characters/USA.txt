@@ -1495,42 +1495,6 @@ characters={
 		}
 	}
 
-	USA_william_regnery={
-		name=USA_william_regnery
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_europe_generic_3.dds"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = USA_william_regnery
-			allowed  = {
-				original_tag  = USA
-			}
-			available  = {
-				has_completed_focus = USA_appoint_regnery
-			}
-			visible  = {
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				captain_of_industry 
-			}
-			cost  = 100
-			do_effect  = {
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-		allowed_civil_war  = {
-			NOT  = {
-				has_government  = communism 
-			}
-		}
-	}
-
 	USA_harold_ickes={
 		name=USA_harold_ickes
 		portraits={
@@ -1721,25 +1685,6 @@ characters={
 			}
 			traits  = {
 				industrial_genius 
-			}
-		}
-	}
-
-	USA_henry_stimson={
-		name=USA_henry_stimson
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_USA_generic_3.dds"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = USA_henry_stimson
-			allowed  = {
-				original_tag  = USA
-			}
-			traits  = {
-				war_industrialist 
 			}
 		}
 	}

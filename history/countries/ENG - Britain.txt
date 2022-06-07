@@ -431,9 +431,7 @@ recruit_character = ENG_kenneth_anderson
 recruit_character = ENG_sholto_douglas
 recruit_character = ENG_david_stirling
 recruit_character = ENG_philip_kerr
-recruit_character = ENG_maxwell_aitken
 recruit_character = ENG_ernest_bevin
-recruit_character = ENG_clement_attlee
 recruit_character = ENG_george_giffard
 
 ### Ship Variants ###
