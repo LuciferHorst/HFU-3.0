@@ -2064,9 +2064,6 @@ technologies = {
 		category_all_infantry = {
 			soft_attack = -0.15
 		}
-		maintenance_company = {
-			equipment_capture_factor = 0.05
-		}
 		category_light_infantry = {
 			max_organisation = 5
 		}

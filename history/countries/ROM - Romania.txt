@@ -134,10 +134,8 @@ recruit_character = ROM_gheorghe_mihail
 recruit_character = ROM_paul_teodorescu
 recruit_character = ROM_gheorghe_potopeanu
 recruit_character = ROM_emanoil_ionescu
-recruit_character = ROM_nicolae_malaxa
 recruit_character = ROM_petre_dumitrescu
 recruit_character = ROM_ioan_mihail_racovita
-recruit_character = ROM_petru_groza
 
 
 ### VARIANTS ###

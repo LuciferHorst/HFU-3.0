@@ -448,6 +448,26 @@ ideas = {
 	}
 
 	theorist_production = {
+		HUN_lajos_remenyi_schneller = {
+			picture = HUN_lajos_remenyi_schneller
+			cost = 150
+
+			allowed = {
+				original_tag = HUN
+			}
+
+			traits = { captain_of_industry }
+		}
+		HUN_vilmos_roder = { 
+			picture = HUN_vilmos_roder
+			cost = 150
+
+			allowed = {
+				original_tag = HUN
+			}
+
+			traits = { war_industrialist }
+		}
 	}
 }
 

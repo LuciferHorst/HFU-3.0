@@ -323,5 +323,27 @@ ideas = {
 			}
 		}
 	}
+	theorist_production = { 
+		CAN_james_ilsley = {
+			picture = CAN_james_ilsley
+			cost = 150
+
+			allowed = {
+				original_tag = CAN
+			}
+
+			traits = { war_industrialist }
+		}
+		CAN_c_d_howe={ 
+			picture = CAN_c_d_howe
+			cost = 75
+
+			allowed = {
+				original_tag = CAN
+			}
+
+			traits = { captain_of_industry }
+		}
+	}
 }
 

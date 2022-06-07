@@ -488,5 +488,28 @@ ideas = {
 			}
 		}
 	}
+	theorist_production = {
+		ROM_nicolae_malaxa = { 
+			picture = ROM_nicolae_malaxa
+			cost = 150
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			traits = { war_industrialist }
+		}
+	
+		ROM_petru_groza = { 
+			picture = ROM_petru_groza
+			cost = 150
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			traits = { war_industrialist }
+		}
+	}
 }
 

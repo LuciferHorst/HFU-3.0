@@ -329,33 +329,6 @@ characters = {
 		}
 	}
 
-	BUL_valko_chervenkov = {
-		advisor = {
-			slot = political_advisor
-			idea_token = BUL_valko_chervenkov
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
-			available = {
-			}
-			visible = {
-			}
-			traits = {
-				captain_of_industry 
-			}
-			ai_will_do = {
-				base = 1.000
-			}
-		}
-		name = BUL_valko_chervenkov
-		portraits = {
-			army = {
-				small = "GFX_idea_bul_valko_chervenkov"
-			}
-		}
-	}
-
 	BUL_georgi_dimitrov = {
 		instance = {
 			allowed = {

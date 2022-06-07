@@ -12,36 +12,6 @@ characters={
 			id=-1
 		}
 	}
-	SAF_d_f_malan={
-		name=SAF_d_f_malan
-		portraits={
-			civilian={
-				large="GFX_SAF_daniel_malan"
-			}
-			army={
-				small="GFX_SAF_daniel_malan_small"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = SAF_d_f_malan
-			allowed = {
-				original_tag = SAF
-			}
-			traits = {
-				war_industrialist 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-		
-		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 
 	SAF_moses_kotane={
 		name=SAF_moses_kotane
@@ -543,25 +513,6 @@ characters={
 			}
 			ai_will_do = {
 				factor = 0.000
-			}
-		}		
-	}
-
-	SAF_nicolaas_havenga={
-		name=SAF_nicolaas_havenga
-		portraits={
-			army={
-				small="GFX_idea_SAF_nicolaas_havenga" #small="GFX_idea_generic_political_advisor_europe_2"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = SAF_nicolaas_havenga
-			allowed = {
-				original_tag = SAF
-			}
-			traits = {
-				captain_of_industry 
 			}
 		}		
 	}

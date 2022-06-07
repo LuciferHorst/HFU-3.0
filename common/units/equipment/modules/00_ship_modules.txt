@@ -1874,12 +1874,10 @@ ship_super_heavy_battery_2 = {
 			surface_detection = 7
 			sub_detection = 2.5
 			build_cost_ic = 150
-
 		}
 		multiply_stats = {
 			hg_attack = 0.08
 			lg_attack = 0.1
-			torpedo_attack = 0.1
 			naval_speed = -0.01
 		}
 	}
@@ -1890,7 +1888,7 @@ ship_super_heavy_battery_2 = {
 		add_stats = {
 			surface_detection = 10
 			sub_detection = 3.5
-			build_cost_ic = 170
+			build_cost_ic = 200
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher
@@ -1899,7 +1897,6 @@ ship_super_heavy_battery_2 = {
 		multiply_stats = {
 			hg_attack = 0.12
 			lg_attack = 0.15
-			torpedo_attack = 0.15
 			naval_speed = -0.01
 		}
 	}

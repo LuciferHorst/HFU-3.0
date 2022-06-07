@@ -506,48 +506,6 @@ characters={
 		}
 	}
 
-	ROM_nicolae_malaxa={
-		name=ROM_nicolae_malaxa
-		portraits={
-			army={
-				small="GFX_idea_ROM_nicolae_malaxa"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROM_nicolae_malaxa
-			allowed  = {
-				original_tag  = ROM
-				has_dlc = "Death or Dishonor"
-			}
-			traits  = {
-				captain_of_industry 
-			}
-		}
-	}
-
-	ROM_petru_groza={
-		name=ROM_petru_groza
-		portraits={
-			army={
-				small="GFX_idea_ROM_petru_groza"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROM_petru_groza
-			allowed  = {
-				original_tag  = ROM
-			}
-			traits  = {
-				war_industrialist
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-	}
-
 	ROM_mihail_sturdza={
 		name=ROM_mihail_sturdza
 		portraits={

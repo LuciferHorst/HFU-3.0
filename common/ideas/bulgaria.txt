@@ -44,5 +44,17 @@ ideas = {
 			}	
 		}
 	}
+	theorist_production = {
+		BUL_valko_chervenkov = { 
+			picture = bul_valko_chervenkov
+			cost = 150
+
+			allowed = {
+				original_tag = BUL
+			}
+
+			traits = { captain_of_industry }
+		}
+	}
 }
 

@@ -321,44 +321,6 @@ characters={
 
 	### POLITICAL ADVISORS ###
 
-	HUN_lajos_remenyi_schneller={
-		name=HUN_lajos_remenyi_schneller
-		portraits={
-			army={
-				small="GFX_idea_HUN_lajos_remenyi_schneller"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = HUN_lajos_remenyi_schneller
-			allowed = {
-				original_tag = HUN
-			}
-			traits = {
-				captain_of_industry 
-			}
-		}
-	}
-
-	HUN_vilmos_roder={
-		name=HUN_vilmos_roder
-		portraits={
-			army={
-				small="GFX_idea_HUN_vilmos_roder"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = HUN_vilmos_roder
-			allowed = {
-				original_tag = HUN
-			}
-			traits = {
-				war_industrialist 
-			}
-		}
-	}
-
 	HUN_zoltan_tildy={
 		name=HUN_zoltan_tildy
 		portraits={

@@ -48,15 +48,8 @@ focus_tree = {
 				has_completed_focus = CAN_rowell_sirois_commission
 			}
 		}
-		available = {
-		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
 		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
+			custom_effect_tooltip = available_theorist_production
 			show_ideas_tooltip = CAN_c_d_howe
 		}
 	}

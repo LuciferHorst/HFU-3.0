@@ -95,12 +95,9 @@ equipments = {
 
 		hg_armor_piercing = 0
 		hg_attack = 0
-
 		torpedo_attack = 0
 		sub_attack = 0
-
 		anti_air_attack = 0
-
 		armor_value = 0
 
 
@@ -111,10 +108,7 @@ equipments = {
 		reliability = 0.80
 
 		naval_range = 2500
-
 		max_strength = 120
-
-
 		fuel_consumption = 20
 
 		build_cost_ic = 1800
@@ -130,7 +124,7 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_cruiser
 		priority = 1900
-
+		torpedo_attack = 8
 
 		module_slots = inherit
 	}
@@ -143,6 +137,7 @@ equipments = {
 		parent = ship_hull_cruiser_1
 		manpower = 800
 		naval_speed = 25
+		torpedo_attack = 12
 		reliability = 0.85
 		build_cost_ic = 1900
 		naval_range = 3000
@@ -204,6 +199,7 @@ equipments = {
 		priority = 1900
 		parent = ship_hull_cruiser_2
 		naval_speed = 27
+		torpedo_attack = 16
 		build_cost_ic = 2000
 		reliability = 0.90
 		max_strength = 144
@@ -277,6 +273,7 @@ equipments = {
 		priority = 1900
 		parent = ship_hull_cruiser_3
 		naval_speed = 28
+		torpedo_attack = 20
 		reliability = 0.95
 		manpower = 1400
 		build_cost_ic = 2100

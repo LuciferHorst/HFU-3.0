@@ -867,25 +867,6 @@ characters={
 		}		
 	}
 
-	RAJ_john_mathai={
-		name=RAJ_john_mathai
-		portraits={
-			army={
-				small="GFX_idea_RAJ_john_mathai" #small="GFX_idea_generic_political_advisor_europe_1"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = RAJ_john_mathai
-			allowed = {
-				original_tag = RAJ
-			}
-			traits = {
-				captain_of_industry 
-			}
-		}		
-	}
-
 	RAJ_sir_mohammed_iqbal={
 		name=RAJ_sir_mohammed_iqbal
 		portraits={

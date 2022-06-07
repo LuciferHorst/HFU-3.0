@@ -405,5 +405,17 @@ ideas = {
 			}
 		}
 	}
+	theorist_production = { 
+		AST_jack_beasley = {
+			picture = AST_jack_beasley
+			cost = 150
+
+			allowed = {
+				original_tag = AST
+			}
+
+			traits = { war_industrialist }
+		}
+	}
 }
 
