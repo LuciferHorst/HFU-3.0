@@ -589,6 +589,12 @@
 				uses = 1
 				technology = improved_medium_tank_chassis
 			}
+			add_tech_bonus = {
+				name = GER_soviet_treaty
+				bonus = 1.3
+				uses = 1
+				technology = improved_heavy_tank_chassis
+			}
 		}
 	}
 	focus = {
