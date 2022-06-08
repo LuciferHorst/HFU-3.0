@@ -7,7 +7,7 @@ state={
 	resources={
 		steel = 150
 		aluminium = 70
-		chromium = 15
+		chromium = 25
 	}
 
 	history={
