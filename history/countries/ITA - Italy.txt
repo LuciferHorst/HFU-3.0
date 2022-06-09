@@ -274,7 +274,7 @@ if = {
 
 add_equipment_to_stockpile = {
     type = light_tank_chassis_2
-    amount = 1000
+    amount = 2000
     producer = ITA
     variant_name = "M11/39"
 }

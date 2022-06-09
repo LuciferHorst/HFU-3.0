@@ -404,51 +404,10 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		buttonType = {
-			name = "btn_mission_5"
-			spriteType = "GFX_operative_mission_button_background"
-			clicksound = click_default
-			position = { x=155 y=@btn_mission_y }
-			frame = 1
-			shortcut = "v"
-		}
-		iconType = {
-			name = "icn_mission_5"
-			spriteType = "GFX_operative_mission_icons"
-			frame = 5
-			position = { x=162 y=@icn_mission_y }
-			alwaystransparent = yes
-		}
-		iconType = {
-			name = "icn_mission_active_5"
-			spriteType = "GFX_operative_mission_active"
-			frame = 1
-			position = { x=155 y=@btn_mission_y }
-			alwaystransparent = yes
-		}
+		
 
-		buttonType = {
-			name = "btn_mission_8"
-			spriteType = "GFX_operative_mission_button_background"
-			clicksound = click_default
-			position = { x=201 y=@btn_mission_y }
-			frame = 1
-			shortcut = "b"
-		}
-		iconType = {
-			name = "icn_mission_8"
-			spriteType = "GFX_operative_mission_icons"
-			frame = 8
-			position = { x=208 y=@icn_mission_y }
-			alwaystransparent = yes
-		}
-		iconType = {
-			name = "icn_mission_active_8"
-			spriteType = "GFX_operative_mission_active"
-			frame = 1
-			position = { x=201 y=@btn_mission_y }
-			alwaystransparent = yes
-		}
+		
+	
 
 		buttonType = {
 			name = "btn_mission_4"
