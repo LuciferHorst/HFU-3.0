@@ -47,6 +47,8 @@ NDefines.NProduction.BASE_FACTORY_EFFICIENCY_ARCHETYPE_CHANGE_FACTOR = 30
 NDefines.NTrade.ANTI_MONOPOLY_TRADE_FACTOR = -1			-- was -100 | This is added to the factor value when anti-monopoly threshold is exceeded; cucks Soviets/Japan often if the value is vanilla
 NDefines.NTrade.BASE_LAND_TRADE_RANGE = 350	
 ---------------------------------------------------------------
+NDefines.NAir.AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 1.5
+NDefines.NAir.AIR_WING_XP_GROUND_MISSION_COMPLETED_GAIN = 1.5
 NDefines.NAir.AIR_WING_MAX_SIZE = 1600                            -- this can be halved 4 times into 100 stacks (very convinient), up from 1600 | 
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0                              -- Down from 3 | Makes AC player much more responsive
 NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 1.4 --controlls strat bombing damage was too strong on 5 but might need to be high to actually damage something
